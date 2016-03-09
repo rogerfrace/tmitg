@@ -1,0 +1,1 @@
+<?php$pubdate = "Thu, 17 Aug 2006 21:27:00 CST";$title = "tMitG news is now RSS";$description = "the Machine in the Garden news is now available as an RSS feed! Subscribe at http://www.tmitg.com/news-rss.xml or use one of the links at the top of this page.";?>

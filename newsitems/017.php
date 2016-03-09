@@ -1,0 +1,1 @@
+<?php$pubdate = "Tue, 20 Aug 2002 00:00:00 CST";$title = "Lower price on Veils and Shadows";$description = "Further news about the tMitG back catalog - we now have a new lower price on the <a href=\"http://www.tmitg.com/vs.php\">Veils and Shadows EP</a>. Buy one now at the <a href=\"http://www.tmitg.com/merch.php\">merchandise page</a>. ";?>

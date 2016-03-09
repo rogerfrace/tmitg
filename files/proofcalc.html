@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta content="minimum-scale=1.0, initial-scale=1" name="viewport" />
+	<title>(Whiskey + Water) Proof Calculator</title>
+	
+	<style type="text/css">
+		caption.capfrm { 
+			font-weight:bold;
+			font-size: 1.5em; }
+		table.tabfrm { 
+			min-width: 240px;
+			max-width: 500px;
+			border: 2px solid gray;
+			margin-top:2em;}
+		th.thfrm { 
+			width: 50%; 
+			text-align:right; 
+			padding: 3px; 
+			margin: 3px; 
+			vertical-align: top; 
+			background: #F5F5F5;
+			border: 1px solid gray; }
+		td.tdfrm { 
+			width: 50%; 
+			padding: 3px; 
+			margin: 3px; 
+			vertical-align: top; 
+			border: 1px solid gray; }
+		input.readonly { 
+			background: #CCC; }
+		input.data { 
+			background: #FFF; }
+		span.notes { 
+			font-weight: normal; 
+			font-size: .75em; }
+	</style>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		function proofCompute() {
+			// get form values into reasonable variable names
+			var boozeOz = document.proofForm.boozeOz.value;
+			var bottleProof = document.proofForm.bottleProof.value;
+			var desiredProof = document.proofForm.desiredProof.value;
+			
+			// do all the math here
+			var waterOz = (boozeOz * ((bottleProof/desiredProof) - 1 ));
+			
+			// populate readonly form fields with answers
+			document.proofForm.waterOz.value = Math.round(waterOz * 100)/100;
+			document.proofForm.waterMl.value = Math.round((waterOz/0.033814) * 10)/10;
+		}
+	</script>
+</head>
+<body>
+
+<code>
+<strong>The formula is Wi * ((bP/dP)-1) = Wa</strong><br>
+Wi = amount of whiskey<br>
+bP = bottle proof<br>
+dP = desired proof<br>
+Wa = amount of water to add to achieve desired proof<br>
+</code>
+
+
+<form name="proofForm">
+<table class="tabfrm">
+<caption class="capfrm">(Whiskey + Water) Proof Calculator</caption>
+
+<tr>
+	<th class="thfrm">Amount of Booze</th>
+	<td class="tdfrm"><input class="data" type="text" name="boozeOz" value="" size="6" maxlength="6"> oz</td>
+</tr>
+
+<tr>
+	<th class="thfrm">Bottle Proof</th>
+	<td class="tdfrm"><input class="data" type="text" name="bottleProof" value="" size="6" maxlength="6"></td>
+</tr>
+
+<tr>
+	<th class="thfrm">Desired Proof</th>
+	<td class="tdfrm"><input class="data" type="text" name="desiredProof" value="" size="6" maxlength="6"></td>
+</tr>
+
+<tr>
+	<th class="thfrm">Water to Add<br>
+		<span class="notes">1/8tsp = 0.020oz</span><br>
+		<span class="notes">1/4tsp = 0.042oz</span><br>
+		<span class="notes">3/8tsp = 0.0625oz</span><br>
+		<span class="notes">1/2tsp = 0.083oz</span><br>
+		<span class="notes">5/8tsp = 0.104oz</span><br>
+		<span class="notes">3/4tsp = 0.125oz</span><br>
+		<span class="notes">7/8tsp = 0.146oz</span><br>
+		<span class="notes">1tsp = 0.167oz</span><br>
+	</th>
+	<td class="tdfrm">
+		<input class="readonly" type="text" name="waterOz" size="6" readonly> oz<br>
+		<input class="readonly" type="text" name="waterMl" size="6" readonly> ml<br>
+	</td>
+</tr>
+
+<tr>
+	<th class="thfrm"><br></th>
+
+	<td class="tdfrm">
+		<input type="button" onclick="proofCompute()" value="Calculate">
+	</td>
+</tr>
+
+</table>
+</form>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	var myWidth = $(window).width();
+	$(".tabfrm").css("width",myWidth-16);
+});
+</script>
+
+
+</body>
+</html>

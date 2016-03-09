@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Sweat Calculator</title>
+	
+	<style type="text/css">
+		caption.capfrm { 
+			font-weight:bold;
+			font-size: 1.5em; }
+		table.tabfrm { 
+			width: 500px; 
+			border: 2px solid gray; }
+		th.thfrm { 
+			width: 50%; 
+			text-align:right; 
+			padding: 3px; 
+			margin: 3px; 
+			vertical-align: top; 
+			background: #F5F5F5;
+			border: 1px solid gray; }
+		td.tdfrm { 
+			width: 50%; 
+			padding: 3px; 
+			margin: 3px; 
+			vertical-align: top; 
+			border: 1px solid gray; }
+		input.readonly { 
+			background: #CCC; }
+		input.data { 
+			background: #FFF; }
+		span.notes { 
+			font-weight: normal; 
+			font-size: .75em; }
+	</style>
+	
+	<script type="text/javascript">
+		function sweatCompute() {
+			// get form values into reasonable variable names
+			var startWeight = document.sweatForm.weightBefore.value;
+			var endWeight = document.sweatForm.weightAfter.value;
+			var workDuration = document.sweatForm.workoutDuration.value;
+			
+			// do all the math here
+			var lostThisWorkout = (startWeight - endWeight) * 16;
+			var lostPerHour = (lostThisWorkout * 60) / workDuration;
+			var lostLitres = (lostPerHour * 0.90718474) / 32;
+			var carbLow = lostLitres * 60;
+			var carbHigh = lostLitres * 80;
+			var calLow = lostLitres * 60 * 4;
+			var calHigh = lostLitres * 80 * 4;
+			
+			// populate readonly form fields with answers
+			document.sweatForm.sweatThisWorkout.value = Math.round(lostThisWorkout * 10)/10;
+			document.sweatForm.sweatPerHour.value = Math.round(lostPerHour*10)/10;
+			document.sweatForm.litresPerHour.value = Math.round(lostLitres*100)/100;
+			document.sweatForm.carbIntakeLow.value = Math.round(carbLow);
+			document.sweatForm.carbIntakeHigh.value = Math.round(carbHigh);
+			document.sweatForm.calorieIntakeLow.value = Math.round(calLow);
+			document.sweatForm.calorieIntakeHigh.value = Math.round(calHigh);
+			
+			// set some red alerts for high carb/calorie values
+			if (carbLow >= 100) {
+				document.sweatForm.carbIntakeLow.style.color = "red";
+			} else {
+				document.sweatForm.carbIntakeLow.style.color = "black";
+			}
+			if (carbHigh >= 100) {
+				document.sweatForm.carbIntakeHigh.style.color = "red";
+			} else {
+				document.sweatForm.carbIntakeHigh.style.color = "black";
+			}
+			if (calLow >= 400) {
+				document.sweatForm.calorieIntakeLow.style.color = "red";
+			} else {
+				document.sweatForm.calorieIntakeLow.style.color = "black";
+			}
+			if (calHigh >= 400) {
+				document.sweatForm.calorieIntakeHigh.style.color = "red";
+			} else {
+				document.sweatForm.calorieIntakeHigh.style.color = "black";
+			}
+		}
+	</script>
+</head>
+<body>
+
+<form name="sweatForm" action="">
+<table class="tabfrm">
+<caption class="capfrm">Sweat Calculator</caption>
+
+<tr>
+	<th class="thfrm">Weight Before Workout* (lbs)<br><span class="notes">* You need to take into account the amount of liquid consumed. I prefer holding my full water bottle(s) pre-weight and (semi-)empty water bottle(s) for post-weight. Or, if you know the number of ounces consumed during your workout, add that value to your pre-weight.</span></th>
+	<td class="tdfrm"><input class="data" type="text" name="weightBefore" value="" size="6" maxlength="6"></td>
+</tr>
+
+<tr>
+	<th class="thfrm">Weight After Workout (lbs)</th>
+	<td class="tdfrm"><input class="data" type="text" name="weightAfter" value="" size="6" maxlength="6"></td>
+</tr>
+
+<tr>
+	<th class="thfrm">Workout Duration (minutes)</th>
+	<td class="tdfrm"><input class="data" type="text" name="workoutDuration" value="" size="6" maxlength="6"></td>
+</tr>
+
+<tr>
+	<th class="thfrm">Sweat Ounces Lost This Workout</th>
+	<td class="tdfrm"><input class="readonly" type="text" name="sweatThisWorkout" size="6" readonly> oz</td>
+</tr>
+
+<tr>
+	<th class="thfrm">Sweat Rate Per Hour*<br><span class="notes">* Sweat rates below 48oz/hr should be replaced 1:1. For those higher sweat rates, the idea is to minimize dehydration, not stop it completely.</span></th>
+	<td class="tdfrm"><input class="readonly" type="text" name="sweatPerHour" size="6" readonly> oz/hr
+		<b>or</b>
+	<input class="readonly" type="text" name="litresPerHour" size="6" readonly> L/hr
+	</td>
+</tr>
+
+<tr>
+	<th class="thfrm">Carb intake range (6&ndash;8%)<br>or Calorie intake range*<br><span class="notes">* Recent studies show a maximum carb absorption rate of 100g/hr or about 400 calories. Stay at the low end of the scale if your sweat rate is high.</span></th>
+	<td class="tdfrm"><input class="readonly" type="text" name="carbIntakeLow" size="6" readonly>
+		<b>to</b>
+	<input class="readonly" type="text" name="carbIntakeHigh" size="6" readonly> g
+		<br>
+	<input class="readonly" type="text" name="calorieIntakeLow" size="6" readonly>
+		<b>to</b>
+	<input class="readonly" type="text" name="calorieIntakeHigh" size="6" readonly> calories
+	</td>
+</tr>
+
+<tr>
+	<th class="thfrm"><br></th>
+
+	<td class="tdfrm">
+		<input type="button" onclick="sweatCompute()" value="Calculate">
+	</td>
+</tr>
+
+</table>
+</form>
+
+
+</body>
+</html>

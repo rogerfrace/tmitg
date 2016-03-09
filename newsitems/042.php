@@ -1,0 +1,1 @@
+<?php$pubdate = "Thu, 24 Nov 2005 00:00:00 CST";$title = "Yahoo! Music";$description = "the Machine in the Garden is now on <a href=\"http://music.yahoo.com/ar-276937---Machine-In-The-Garden\" target=\"_blank\">Yahoo! Music</a>. Also look for us on MusicNet@AOL, Virgin Digital, f.y.e Download Zone, CTrax, and RCN Music. ";?>

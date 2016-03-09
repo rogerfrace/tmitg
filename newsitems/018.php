@@ -1,0 +1,1 @@
+<?php$pubdate = "Thu, 17 Oct 2002 00:00:00 CST";$title = "Live Show! - Friday, October 25 in Austin, TX";$description = "tMitG will be performing at Elysium in Austin, TX (corner of 7th & Red River) on Friday, October 25 with special guests Lucid Dementia and Ctrl. $5 cover, 21+, doors at 9pm.";?>

@@ -1,0 +1,1 @@
+<?php$pubdate = "Wed, 02 Feb 2005 00:00:00 CST";$title = "New album is done";$description = "We have finished recording our new album and it is currently with our record label. We will post here as soon as we have a release date and final details. In the meantime, check out some brand new photos in the <a href=\"http://www.tmitg.com/fanarea/index.php\">Fan Area</a>.";?>

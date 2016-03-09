@@ -1,0 +1,1 @@
+<?php$pubdate = "Sat, 12 Mar 2005 00:00:00 CST";$title = "Live Show! - Friday, May 6 in Austin, TX"; $description = "<p>Austin, TX        <br>Friday, May 6        <br><a href=\"http://www.elysiumonline.net/\" target=\"_blank\">Elysium</a>, 705 Red River";?>

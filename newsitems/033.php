@@ -1,0 +1,1 @@
+<?php$pubdate = "Wed, 30 Mar 2005 00:00:00 CST";$title = "New tMitG Forum!";$description = "We have created a the Machine in the Garden forum where you can discuss tMitG or life in general, meet other tMitG fans, or just read about recent news and announcements. ** forum has been removed ** ";?>

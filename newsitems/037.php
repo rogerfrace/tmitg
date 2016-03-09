@@ -1,0 +1,1 @@
+<?php$pubdate = "Mon, 01 Aug 2005 00:00:00 CST";$title = "Live Show! - Special semi-acoustic in-store performance in Austin, TX."; $description = "<p>Austin, TX        <br>Saturday, August 20 7 PM        <br>Special semi-acoustic in-store performance.         <br>End of an Ear 2209 South First.";?>

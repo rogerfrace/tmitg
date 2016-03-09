@@ -1,0 +1,1 @@
+<?php$pubdate = "Thu, 2 Nov 2006 22:17:00 CST";$title = "New merchandise combo packages";$description = "For some extra great deals on tMitG CDs and t-shirts, we've added some new combo packages to the <a href=\"http://www.tmitg.com/merch.php\" target=\"_parent\">merchandise page</a>. Save $2 with a CD/shirt combo package, or up to $8 with a multi-CD combo.";?>

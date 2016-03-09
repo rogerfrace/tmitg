@@ -1,0 +1,1 @@
+<?php$pubdate = "Thu, 09 Feb 2006 00:00:00 CST";$title = "tMitG t-shirts now on sale";$description = "Visit the <a href=\"http://www.tmitg.com/merch.php\">merchandise page</a> and take advantage of new lower prices on tMitG t-shirts. We have short-sleeve, long-sleeve and baby-doll shirts on sale for $2 off their normal prices.";?>

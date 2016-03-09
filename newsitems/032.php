@@ -1,0 +1,1 @@
+<?php$pubdate = "Sun, 27 Mar 2005 00:00:00 CST";$title = "Live Show! - Sunday, June 12 in Houston, TX"; $description = "<p>Houston, TX        <br>Sunday, June 12        <br><a href=\"http://www.havokonline.com/\" target=\"_blank\">HaVoK</a>, 5718 Fairdale";?>

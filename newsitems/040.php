@@ -1,0 +1,1 @@
+<?php$pubdate = "Sun, 11 Sep 2005 00:00:00 CST";$title = "No St. Louis performance"; $description = "We will not be performing in St. Louis on September 14. However, come on over to The Den @ The Complex for a bit of socializing and possibly some giveaways. Also listen in on KWUR 90.3 to The Revolution from 8-10 Wednesday evening as we might just pop in for a bit. ";?>

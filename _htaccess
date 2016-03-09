@@ -144,6 +144,7 @@ ErrorDocument 508 '<a href="http://www.flickr.com/photos/girliemac/6509400445/" 
   RewriteRule ^media/cimmerian-youtube-vid.php$ http://www.tmitg.com/viewvideo.php?yt=cimmerian [R=301,L]
   RewriteRule ^media/everythingsheis-vid.php$ http://www.tmitg.com/viewvideo.php?yt=everythingsheis [R=301,L]
   RewriteRule ^media/masks-vid.php$ http://www.tmitg.com/viewvideo.php?yt=masks [R=301,L]
+  RewriteRule ^media/outside-vid.php$ http://www.tmitg.com/viewvideo.php?yt=outside [R=301,L]
   RewriteRule ^media/theinsideworld-vid.php$ http://www.tmitg.com/viewvideo.php?yt=theinsideworld [R=301,L]
   RewriteRule ^media/sleepofangels-youtube-vid.php$ http://www.tmitg.com/viewvideo.php?yt=sleepofangels-fan [R=301,L]
 

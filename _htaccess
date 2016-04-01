@@ -140,6 +140,18 @@ ErrorDocument 508 '<a href="http://www.flickr.com/photos/girliemac/6509400445/" 
   RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)dawnremix(.+)$
   RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=dawnremix [R=301,L]
 
+  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
+  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)moreuntofire(.+)$
+  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=moreuntofire [R=301,L]
+
+  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
+  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)finalform(.+)$
+  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=finalform [R=301,L]
+
+  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
+  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)coventrycarol(.+)$
+  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=coventrycarol [R=301,L]
+
   # video redirects
   RewriteRule ^media/cimmerian-youtube-vid.php$ http://www.tmitg.com/viewvideo.php?yt=cimmerian [R=301,L]
   RewriteRule ^media/everythingsheis-vid.php$ http://www.tmitg.com/viewvideo.php?yt=everythingsheis [R=301,L]

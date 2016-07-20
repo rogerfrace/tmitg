@@ -35,9 +35,7 @@
 <div class="mainbody" role="main">
 
 <section>
-<h4>CCNow is the Authorized Online Retailer for the Machine in the Garden.</h4>
-
-<p>When you are done shopping you may <a class="atc" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_shopcart_http://www.tmitg.com/merch.php">View Shopping Cart or Checkout</a></p>
+<h4>Physical products are sold through <a href="https://tmitg.bandcamp.com/merch">Bandcamp</a> and <a href="http://www.cdbaby.com/Artist/TheMachineintheGarden">CDBaby</a>.</h4>
 
 <p>Alternately, you may visit the Machine in the Garden and Mirabilis store at <a href="http://astore.amazon.com/themachininth-20">amazon.com</a> or various retailers listed on <a href="links.php#cds">our links page</a>.</p>
 </section>
@@ -80,7 +78,7 @@
 		<meta property="availability" content="http://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="885767743120" />
-		<a class="atcss" href="http://tmitg.bandcamp.com/album/before-and-after-the-storm" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'baats');">Buy Digital <span class="wai">Before and After the Storm</span></a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/before-and-after-the-storm" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'baats');">Buy Digital <span class="wai">Before and After the Storm</span></a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -100,7 +98,7 @@
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="634479658679" />
-		<a class="atcss" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_DXM015CD_http://www.tmitg.com/merch.php" onclick="ga('send', 'event', 'BuyNow', 'CCNow', 'xv');">Add <span class="wai">XV</span> to Cart</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/xv" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'xv');">Buy <span class="wai">XV</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -122,7 +120,7 @@
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="685879997523" />
-		<a class="atcss" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_MPP975_http://www.tmitg.com/merch.php" onclick="ga('send', 'event', 'BuyNow', 'CCNow', 'shadowpuppets');">Add <span class="wai">Shadow Puppets</span> to Cart</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/shadow-puppets" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'shadowpuppets');">Buy <span class="wai">Shadow Puppets</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -142,7 +140,7 @@
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="685879998629" />
-		<a class="atcss" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_MPP986US_http://www.tmitg.com/merch.php" onclick="ga('send', 'event', 'BuyNow', 'CCNow', 'asphodel');">Add <span class="wai">Asphodel</span> to Cart</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/asphodel" onclick="ga('send', 'event', 'BuyNow', 'bandcamp', 'asphodel');">Buy <span class="wai">Asphodel</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -164,7 +162,7 @@
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="685879999428" />
-		<a class="atcss" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_MPP994US_http://www.tmitg.com/merch.php" onclick="ga('send', 'event', 'BuyNow', 'CCNow', 'mists');">Add <span class="wai">Out of the Mists</span> to Cart</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/out-of-the-mists" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'mists');">Buy <span class="wai">Out of the Mists</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -184,7 +182,7 @@
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="685879999923" />
-		<a class="atcss" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_MPP999US_http://www.tmitg.com/merch.php" onclick="ga('send', 'event', 'BuyNow', 'CCNow', 'winters');">Add <span class="wai">One Winter's Night&hellip;</span> to Cart</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/one-winters-night" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'winters');">Buy <span class="wai">One Winter's Night&hellip;</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -206,7 +204,7 @@
 		<meta property="availability" content="http://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="792733800421" />
-		<a class="atcss" href="http://tmitg.bandcamp.com/album/underworld" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'underworld');">Buy Digital <span class="wai">Underworld</span></a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/underworld" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'underworld');">Buy Digital <span class="wai">Underworld</span></a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -226,7 +224,7 @@
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="780444900226" />
-		<a class="atcss" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_ISOL8-002-2US_http://www.tmitg.com/merch.php" onclick="ga('send', 'event', 'BuyNow', 'CCNow', 'vsep');">Add <span class="wai">Veils and Shadows EP</span> to Cart</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/veils-and-shadows-ep" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'vsep');">Buy <span class="wai">Veils and Shadows EP</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -248,7 +246,7 @@
 		<strong class="price" property="price">$10</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
-		<a class="atcss" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_PRO307_http://www.tmitg.com/merch.php" onclick="ga('send', 'event', 'BuyNow', 'CCNow', 'hereafter');">Add <span class="wai">Here and the Hereafter</span> to Cart</a>
+		<a class="atcss" href="https://projektrecords.bandcamp.com/album/here-and-the-hereafter" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'hereafter');">Buy <span class="wai">Here and the Hereafter</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -265,11 +263,11 @@
 	(<span property="description">full length CD</span>)<br />
 	<a href="http://www.mirabilismusic.com/subrosa.php">more information <span class="wai">about Sub Rosa</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$8</strong>
+		<strong class="price" property="price">$7</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="617026020723" />
-		<a class="atcss" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_PRO207_http://www.tmitg.com/merch.php" onclick="ga('send', 'event', 'BuyNow', 'CCNow', 'subrosa');">Add <span class="wai">Sub Rosa</span> to Cart</a>
+		<a class="atcss" href="https://mirabilis.bandcamp.com/album/sub-rosa" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'subrosa');">Buy <span class="wai">Sub Rosa</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -288,11 +286,11 @@
 	(<span property="description">full length CD</span>)<br />
 	<a href="http://www.mirabilismusic.com/pleiades.php">more information <span class="wai">about Pleiades</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$8</strong>
+		<strong class="price" property="price">$7</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="617026020624" />
-		<a class="atcss" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_PRO206_http://www.tmitg.com/merch.php" onclick="ga('send', 'event', 'BuyNow', 'CCNow', 'pleiades');">Add <span class="wai">Pleiades</span> to Cart</a>
+		<a class="atcss" href="https://mirabilis.bandcamp.com/album/pleiades" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'pleiades');">Buy <span class="wai">Pleiades</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -333,7 +331,7 @@
 		<strong class="price" property="price">$10</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
-		<a class="atcss" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_REDSHIRT_http://www.tmitg.com/merch.php" onclick="ga('send', 'event', 'BuyNow', 'CCNow', 'redshirt');">Add <span class="wai">red design t-shirt</span> to Cart</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-red-design-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'redshirt');">Buy <span class="wai">red design t-shirt</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -352,7 +350,7 @@
 		<strong class="price" property="price">$12</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
-		<a class="atcss" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_REDBD_http://www.tmitg.com/merch.php" onclick="ga('send', 'event', 'BuyNow', 'CCNow', 'redbd');">Add <span class="wai">red design baby doll shirt</span> to Cart</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-red-design-baby-doll-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'redbd');">Buy <span class="wai">red design baby doll shirt</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -373,7 +371,7 @@
 		<strong class="price" property="price">$14</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
-		<a class="atcss" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_REDRAGLAN_http://www.tmitg.com/merch.php" onclick="ga('send', 'event', 'BuyNow', 'CCNow', 'redraglan');">Add <span class="wai">red design raglan shirt</span> to Cart</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-red-design-raglan-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'redraglan');">Buy <span class="wai">red design raglan shirt</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -394,7 +392,7 @@
 			<strong class="price" property="price">$6</strong>
 			<meta property="availability" content="http://schema.org/OnlineOnly">
 			<meta property="priceCurrency" content="USD" />
-			<a class="atcss" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_TULIPBDUS_http://www.tmitg.com/merch.php" onclick="ga('send', 'event', 'BuyNow', 'CCNow', 'tulipbd');">Add <span class="wai">tulip baby doll shirt</span> to Cart</a>
+			<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-tulip-baby-doll-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'tulipbd');">Buy <span class="wai">tulip baby doll shirt</span> Now</a>
 		</div>
 	</div>
 
@@ -406,7 +404,7 @@
 			<strong class="price" property="price">$10</strong>
 			<meta property="availability" content="http://schema.org/OnlineOnly">
 			<meta property="priceCurrency" content="USD" />
-			<a class="atcss" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_TULIPLSUS_http://www.tmitg.com/merch.php" onclick="ga('send', 'event', 'BuyNow', 'CCNow', 'tulipls');">Add <span class="wai">tulip long sleeve shirt</span> to Cart</a>
+			<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-tulip-long-sleeve-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'tulipls');">Buy <span class="wai">tulip long sleeve shirt</span> Now</a>
 		</div>
 	</div>
 </div>
@@ -414,8 +412,6 @@
     
       <br style="clear:both;" /><br />
 
-<hr />
-<div style="font-size:1.1em;"><strong><a class="atc" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_shopcart_http://www.tmitg.com/merch.php">View Shopping Cart or Checkout</a></strong></div>
 </div>
 
 </body>

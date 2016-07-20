@@ -110,8 +110,6 @@ $lyricsfile and videoname do not include .html
 	<meta itemprop="lowprice" content="7.00">
 	<h2 class="wai">Buy links</h2>
 	
-	<div class="buynow ccnow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="CCNow"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="7.00"><a itemprop="url" class="atcss" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_DXM015CD_http://www.tmitg.com/merch.php" onclick="ga('send', 'event', 'BuyNow', 'CCNow', 'xv');">Buy Now</a></div>
-	
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="7.00"><a itemprop="url" href="http://tmitg.bandcamp.com/album/xv" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'xv');"><img src="images/bandcamp.jpg" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
 
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="CDBaby"><a itemprop="url" href="http://cdbaby.com/cd/tmitg3" rel="external" onclick="ga('send', 'event', 'BuyNow', 'CDBaby', 'xv');"><img src="images/cdbaby.gif" class="cdbaby" alt="Buy Now from CD Baby" /></a></div>

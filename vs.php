@@ -101,8 +101,6 @@ $lyricsfile and videoname do not include .html
 	<meta itemprop="lowprice" content="3.00">
 	<h2 class="wai">Buy links</h2>
 	
-	<div class="buynow ccnow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="CCNow"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="3.00"><a itemprop="url" class="atcss" href="http://www.ccnow.com/cgi-local/cart.cgi?deusex_ISOL8-002-2US_http://www.tmitg.com/merch.php" onclick="ga('send', 'event', 'BuyNow', 'CCNow', 'vsep');">Buy Now</a></div>
-
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="3.00"><a itemprop="url" href="http://tmitg.bandcamp.com/album/veils-and-shadows-ep" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'vsep');"><img src="images/bandcamp.jpg" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
 	
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="CDBaby"><a itemprop="url" href="http://cdbaby.com/cd/tmitg1" rel="external" onclick="ga('send', 'event', 'BuyNow', 'CDBaby', 'vsep');"><img src="images/cdbaby.gif" class="cdbaby" alt="Buy Now from CD Baby" /></a></div>

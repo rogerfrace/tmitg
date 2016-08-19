@@ -399,7 +399,7 @@
 		<br />
 
 	<div typeof="IndividualProduct" resource="#product">
-		<span property="description">long-sleeve (L or XL)</span>
+		<span property="description">long-sleeve (XL)</span>
 		<div class="pricecart" property="offers" typeof="Offer">
 			<strong class="price" property="price">$10</strong>
 			<meta property="availability" content="http://schema.org/OnlineOnly">

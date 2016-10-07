@@ -1,6 +1,6 @@
 <div id="headblock">
 	<div class="sitename" role="banner"><a href="/">the Machine in the Garden</a></div>
-	<nav role="navigation" aria-label="Primary">
+	<nav aria-label="Primary">
 		<h3 class="wai">Website Navigation</h3>
 		<ul class="top">
 			<li><a href="/news.php" title="news">News</a></li>

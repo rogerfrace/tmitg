@@ -21,72 +21,72 @@
 <div class="mainbody" role="main">
 
 <section id="accordion" role="tablist">
-	<div class="item baats">
-		<img src="albums/baatsico.jpg" class="baatsimg" alt="Before and After the Storm" role="tab" focusable="true" tabindex="0" aria-controls="baats">
+	<div class="item baats" role="tab" focusable="true" tabindex="0" aria-controls="baats">
+		<img src="albums/baatsico.jpg" class="baatsimg" alt="Before and After the Storm">
 		<div class="detail">
 			<h3>Before and After<br>the Storm</h3>
 			<p>2011</p>
 		</div>
 	</div>
 	
-	<div class="item vanir">
-		<img src="albums/vanirico.jpg" class="vanirimg" alt="In the Vanir" role="tab" focusable="true" tabindex="0" aria-controls="vanir">
+	<div class="item vanir" role="tab" focusable="true" tabindex="0" aria-controls="vanir">
+		<img src="albums/vanirico.jpg" class="vanirimg" alt="In the Vanir">
 		<div class="detail">
 			<h3>In the Vanir</h3>
 			<p>2010</p>
 		</div>
 	</div>
 	
-	<div class="item xv">
-		<img src="albums/xvico.jpg" class="xvimg" alt="XV" role="tab" focusable="true" tabindex="0" aria-controls="xv">
+	<div class="item xv" role="tab" focusable="true" tabindex="0" aria-controls="xv">
+		<img src="albums/xvico.jpg" class="xvimg" alt="XV">
 		<div class="detail">
 			<h3>XV</h3>
 			<p>2007</p>
 		</div>
 	</div>
 		
-	<div class="item sp">
-		<img src="albums/spico.jpg" class="spimg" alt="Shadow Puppets" role="tab" focusable="true" tabindex="0" aria-controls="sp">
+	<div class="item sp" role="tab" focusable="true" tabindex="0" aria-controls="sp">
+		<img src="albums/spico.jpg" class="spimg" alt="Shadow Puppets">
 		<div class="detail">
 			<h3>Shadow Puppets</h3>
 			<p>2005</p>
 		</div>
 	</div>
 	
-	<div class="item asp">
-		<img src="albums/asphodelico.jpg" class="aspimg" alt="Asphodel" role="tab" focusable="true" tabindex="0" aria-controls="asp">
+	<div class="item asp" role="tab" focusable="true" tabindex="0" aria-controls="asp">
+		<img src="albums/asphodelico.jpg" class="aspimg" alt="Asphodel">
 		<div class="detail">
 			<h3>Asphodel</h3>
 			<p>2002</p>
 		</div>	
 	</div>
 	
-	<div class="item ootm">
-		<img src="albums/mistsico.jpg" class="ootmimg" alt="Out of the Mists" role="tab" focusable="true" tabindex="0" aria-controls="ootm">
+	<div class="item ootm" role="tab" focusable="true" tabindex="0" aria-controls="ootm">
+		<img src="albums/mistsico.jpg" class="ootmimg" alt="Out of the Mists">
 		<div class="detail">
 			<h3>Out of the Mists</h3>
 			<p>2000</p>
 		</div>	
 	</div>
 	
-	<div class="item own">
-		<img src="albums/wintersico.jpg" class="ownimg" alt="One Winter's Night..." role="tab" focusable="true" tabindex="0" aria-controls="own">
+	<div class="item own" role="tab" focusable="true" tabindex="0" aria-controls="own">
+		<img src="albums/wintersico.jpg" class="ownimg" alt="One Winter's Night...">
 		<div class="detail">
 			<h3>One Winter&rsquo;s Night&hellip;</h3>
 			<p>1999</p>
 		</div>	
 	</div>
 	
-	<div class="item uw">
-		<img src="albums/underworldico.jpg" class="uwimg" alt="Underworld" role="tab" focusable="true" tabindex="0" aria-controls="uw">
+	<div class="item uw" role="tab" focusable="true" tabindex="0" aria-controls="uw">
+		<img src="albums/underworldico.jpg" class="uwimg" alt="Underworld">
 		<div class="detail">
 			<h3>Underworld</h3>
 			<p>1997</p>
 		</div>	
 	</div>
 	
-	<div class="item vs">
-		<img src="albums/vsico.jpg" class="vsimg" alt="Veils and Shadows EP" role="tab" focusable="true" tabindex="0" aria-controls="vs">
+	<div class="item vs" role="tab" focusable="true" tabindex="0" aria-controls="vs">
+		<img src="albums/vsico.jpg" class="vsimg" alt="Veils and Shadows EP">
 		<div class="detail">
 			<h3>Veils and Shadows EP</h3>
 			<p>1993</p>
@@ -299,63 +299,63 @@ $(document).ready(function() {
 	$("#accordion .baats").removeClass('fade');
 
 	/* all of the click activations */
-	$("#accordion .baatsimg").click(function() {
+	$("#accordion .item.baats").on("click keydown",function() {
 		$("#accordion .item").addClass('fade');
 		$("#accordion .baats").removeClass('fade');
 		$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
 		$("#songlist div.songs.baats").show().attr("aria-expanded","true");
 		ga('send', 'event', 'MusicPage', 'ArtClick', 'baats');
 	});
-	$("#accordion .vanirimg").click(function() {
+	$("#accordion .item.vanir").on("click keydown",function() {
 		$("#accordion .item").addClass('fade');
 		$("#accordion .vanir").removeClass('fade');
 		$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
 		$("#songlist div.songs.vanir").show().attr("aria-expanded","true");
 		ga('send', 'event', 'MusicPage', 'ArtClick', 'vanir');
 	});
-	$("#accordion .xvimg").click(function() {
+	$("#accordion .item.xv").on("click keydown",function() {
 		$("#accordion .item").addClass('fade');
 		$("#accordion .xv").removeClass('fade');
 		$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
 		$("#songlist div.songs.xv").show().attr("aria-expanded","true");
 		ga('send', 'event', 'MusicPage', 'ArtClick', 'xv');
 	});
-	$("#accordion .spimg").click(function() {
+	$("#accordion .item.sp").on("click keydown",function() {
 		$("#accordion .item").addClass('fade');
 		$("#accordion .sp").removeClass('fade');
 		$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
 		$("#songlist div.songs.sp").show().attr("aria-expanded","true");
 		ga('send', 'event', 'MusicPage', 'ArtClick', 'shadowpuppets');
 	});
-	$("#accordion .aspimg").click(function() {
+	$("#accordion .item.asp").on("click keydown",function() {
 		$("#accordion .item").addClass('fade');
 		$("#accordion .asp").removeClass('fade');
 		$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
 		$("#songlist div.songs.asp").show().attr("aria-expanded","true");
 		ga('send', 'event', 'MusicPage', 'ArtClick', 'asphodel');
 	});
-	$("#accordion .ootmimg").click(function() {
+	$("#accordion .item.ootm").on("click keydown",function() {
 		$("#accordion .item").addClass('fade');
 		$("#accordion .ootm").removeClass('fade');
 		$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
 		$("#songlist div.songs.ootm").show().attr("aria-expanded","true");
 		ga('send', 'event', 'MusicPage', 'ArtClick', 'mists');
 	});
-	$("#accordion .ownimg").click(function() {
+	$("#accordion .item.own").on("click keydown",function() {
 		$("#accordion .item").addClass('fade');
 		$("#accordion .own").removeClass('fade');
 		$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
 		$("#songlist div.songs.own").show().attr("aria-expanded","true");
 		ga('send', 'event', 'MusicPage', 'ArtClick', 'winters');
 	});
-	$("#accordion .uwimg").click(function() {
+	$("#accordion .item.uw").on("click keydown",function() {
 		$("#accordion .item").addClass('fade');
 		$("#accordion .uw").removeClass('fade');
 		$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
 		$("#songlist div.songs.uw").show().attr("aria-expanded","true");
 		ga('send', 'event', 'MusicPage', 'ArtClick', 'underworld');
 	});
-	$("#accordion .vsimg").click(function() {
+	$("#accordion .item.vs").on("click keydown",function() {
 		$("#accordion .item").addClass('fade');
 		$("#accordion .vs").removeClass('fade');
 		$("#songlist div.songs:visible").hide().attr("aria-expanded","false");

@@ -1,6 +1,5 @@
 <? require_once("functions.php"); ?>
 <!DOCTYPE html>
-<!DOCTYPE html>
 <!--[if lt IE 7 ]> <html class="no-js ie6 ie678" lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <![endif]-->
 <!--[if IE 7 ]>    <html class="no-js ie7 ie678" lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <![endif]-->
 <!--[if IE 8 ]>    <html class="no-js ie8 ie678" lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <![endif]-->
@@ -42,11 +41,11 @@
 <div class="mainbody" role="main">
 
 <section id="leftcolumn">
-
+<h2 class="wai">Physical Location</h2>
 <!-- address card -->
 <div id="hcard-the-Machine-in-the-Garden" class="vcard">
 	<img style="display:none;" src="http://www.tmitg.com/photos/xv1-ico.jpg" alt="photo of " class="photo" />
-	<a class="url n" name="url" href="http://www.tmitg.com/">  <span class="given-name"></span>
+	<a class="url n" id="url" href="http://www.tmitg.com/">  <span class="given-name"></span>
 	<span class="additional-name"></span>
 	<span class="family-name"></span>
 	</a>
@@ -57,14 +56,6 @@
 		<span class="region">Texas</span> 
 		<div class="country-name">USA</div>
 	</div>
-	<span class="geo">
-		<span class="latitude">
-			<span class="value-title" title="30.423485"></span>
-		</span>
-		<span class="longitude">
-			<span class="value-title" title="-97.757024"></span>
-		</span>
-	</span>
 </div>
 
 <!-- /address card -->
@@ -77,20 +68,20 @@
 
 <h1>tMitG Email Contact Form</h1>
 
-<form id="contactForm" action="do_econtact.php" method="post" role="form">
+<form id="contactForm" action="do_econtact.php" method="post">
 
 <div>
-<label for="name">Your Name:</label>
-<input type="text" name="name" id="name" class="required" size="40" maxlength="50" placeholder="Name" />
+<label for="name">Your Name*:</label>
+<input type="text" name="name" id="name" class="required" size="40" maxlength="50" required />
 </div>
 
 <div>
-<label for="email">Your Email Address:</label>
-<input type="email" name="email" id="email" class="required email" size="40" maxlength="50" placeholder="Email Address" autocapitalize="off" />
+<label for="email">Your Email Address*:</label>
+<input type="email" name="email" id="email" class="required email" size="40" maxlength="50" required autocapitalize="off" />
 </div>
 
 <div>
-<label for="to">To:</label>
+<label for="to">To*:</label>
 <select name="to" id="to" size="1" class="required">
 	<option value="" selected="selected">--Pull down to select contact--</option>
 	<option value="1">the Band</option>
@@ -104,13 +95,13 @@
 </div>
 
 <div>
-<label for="subject">Subject:</label>
-<input type="text" name="subject" id="subject" class="required" size="40" maxlength="75" placeholder="Subject" />
+<label for="subject">Subject*:</label>
+<input type="text" name="subject" id="subject" class="required" size="40" maxlength="75" required />
 </div>
 
 <div>
 <label for="message">Your Message:</label>
-<textarea name="message" id="message" class="required" rows="10" cols="40" placeholder="Message"></textarea>
+<textarea name="message" id="message" class="required" rows="10" cols="40" required></textarea>
 </div>
 
 <div class="honey">

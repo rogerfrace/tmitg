@@ -62,7 +62,7 @@ require_once("functions.php");
 <!--[if lt IE 8]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative; left:200px;'> <a href="http://www.microsoft.com/en-us/download/details.aspx?id=22166"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div> <![endif]-->
 <?php endif; ?>
 
-<nav class="desktop" role="navigation">
+<nav class="desktop">
 	<ul>
 		<li><a href="news.php">news</a></li>
 		<li><a href="discog.php">discography</a></li>
@@ -78,9 +78,9 @@ require_once("functions.php");
 
 <!-- title bar -->
 <?php if (check_mobile()==false): ?>
-<div id="titlebar" role="banner">
+<header id="titlebar">
 	<h1><span class="title">the Machine in the Garden</span><span class="subtitle">the official website</span></h1>
-</div>
+</header>
 <?php endif; ?>
 <!--- end title bar -->
 
@@ -93,7 +93,7 @@ require_once("functions.php");
 	<article>
 		<!-- recent news section -->
 		<h2>Recent News</h2>
-		<p class="notopmargin"><a href="https://tmitg.bandcamp.com/album/miscellany"><img style="float:left; margin:2px 8px 8px 0; border:0;" src="http://www.tmitg.com/albums/miscellanyico.jpg" alt="Miscellany" /></a> We are happy to announce that many rare tMitG tracks including compilation appearances and selections from <i>When Angel's Peer Favorably Upon Us</i>, as well as some previously unreleased recordings from our archives, are now available on <a href="https://tmitg.bandcamp.com/album/miscellany">our Bandcamp page</a>.</p><p>Many of these songs were exclusive to their compilations and therefore elusive to our fans, and most were previously unavailable digitally. We're glad that we were able to collect these songs in a single location for everyone to enjoy.</p>
+		<p class="notopmargin"><a href="https://tmitg.bandcamp.com/album/miscellany"><img style="float:left; margin:2px 8px 8px 0; border:0;" src="http://www.tmitg.com/albums/miscellanyico.jpg" alt="Miscellany" /></a> We are happy to announce that many rare <abbr title="the Machine in the Garden">tMitG</abbr> tracks including compilation appearances and selections from <i>When Angel's Peer Favorably Upon Us</i>, as well as some previously unreleased recordings from our archives, are now available on <a href="https://tmitg.bandcamp.com/album/miscellany">our Bandcamp page</a>.</p><p>Many of these songs were exclusive to their compilations and therefore elusive to our fans, and most were previously unavailable digitally. We're glad that we were able to collect these songs in a single location for everyone to enjoy.</p>
 
 		<div style="clear:both;"></div>
 	</article>

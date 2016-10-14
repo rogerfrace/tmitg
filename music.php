@@ -22,7 +22,7 @@
 
 <section id="accordion" role="tablist">
 	<div class="item baats" id="baatstab" role="tab" focusable="true" tabindex="0" aria-controls="baats" aria-selected="false">
-		<img src="albums/baatsico.jpg" class="baatsimg" alt="Before and After the Storm" role="presentation">
+		<img src="albums/baatsico.jpg" class="baatsimg" alt="Before and After the Storm" aria-hidden="true">
 		<div class="detail">
 			<h3>Before and After the Storm</h3>
 			<p>2011</p>
@@ -30,7 +30,7 @@
 	</div>
 	
 	<div class="item vanir" id="vanirtab" role="tab" focusable="true" tabindex="0" aria-controls="vanir" aria-selected="false">
-		<img src="albums/vanirico.jpg" class="vanirimg" alt="In the Vanir" role="presentation">
+		<img src="albums/vanirico.jpg" class="vanirimg" alt="In the Vanir" aria-hidden="true">
 		<div class="detail">
 			<h3>In the Vanir</h3>
 			<p>2010</p>
@@ -38,7 +38,7 @@
 	</div>
 	
 	<div class="item xv" id="xvtab" role="tab" focusable="true" tabindex="0" aria-controls="xv" aria-selected="false">
-		<img src="albums/xvico.jpg" class="xvimg" alt="XV" role="presentation">
+		<img src="albums/xvico.jpg" class="xvimg" alt="XV" aria-hidden="true">
 		<div class="detail">
 			<h3>XV</h3>
 			<p>2007</p>
@@ -46,7 +46,7 @@
 	</div>
 		
 	<div class="item sp" id="sptab" role="tab" focusable="true" tabindex="0" aria-controls="sp" aria-selected="false">
-		<img src="albums/spico.jpg" class="spimg" alt="Shadow Puppets" role="presentation">
+		<img src="albums/spico.jpg" class="spimg" alt="Shadow Puppets" aria-hidden="true">
 		<div class="detail">
 			<h3>Shadow Puppets</h3>
 			<p>2005</p>
@@ -54,7 +54,7 @@
 	</div>
 	
 	<div class="item asp" id="asptab" role="tab" focusable="true" tabindex="0" aria-controls="asp" aria-selected="false">
-		<img src="albums/asphodelico.jpg" class="aspimg" alt="Asphodel" role="presentation">
+		<img src="albums/asphodelico.jpg" class="aspimg" alt="Asphodel" aria-hidden="true">
 		<div class="detail">
 			<h3>Asphodel</h3>
 			<p>2002</p>
@@ -62,7 +62,7 @@
 	</div>
 	
 	<div class="item ootm" id="ootmtab" role="tab" focusable="true" tabindex="0" aria-controls="ootm" aria-selected="false">
-		<img src="albums/mistsico.jpg" class="ootmimg" alt="Out of the Mists" role="presentation">
+		<img src="albums/mistsico.jpg" class="ootmimg" alt="Out of the Mists" aria-hidden="true">
 		<div class="detail">
 			<h3>Out of the Mists</h3>
 			<p>2000</p>
@@ -70,7 +70,7 @@
 	</div>
 	
 	<div class="item own" id="owntab" role="tab" focusable="true" tabindex="0" aria-controls="own" aria-selected="false">
-		<img src="albums/wintersico.jpg" class="ownimg" alt="One Winter's Night..." role="presentation">
+		<img src="albums/wintersico.jpg" class="ownimg" alt="One Winter's Night..." aria-hidden="true">
 		<div class="detail">
 			<h3>One Winter&rsquo;s Night&hellip;</h3>
 			<p>1999</p>
@@ -78,7 +78,7 @@
 	</div>
 	
 	<div class="item uw" id="uwtab" role="tab" focusable="true" tabindex="0" aria-controls="uw" aria-selected="false">
-		<img src="albums/underworldico.jpg" class="uwimg" alt="Underworld" role="presentation">
+		<img src="albums/underworldico.jpg" class="uwimg" alt="Underworld" aria-hidden="true">
 		<div class="detail">
 			<h3>Underworld</h3>
 			<p>1997</p>
@@ -86,7 +86,7 @@
 	</div>
 	
 	<div class="item vs" id="vstab" role="tab" focusable="true" tabindex="0" aria-controls="vs" aria-selected="false">
-		<img src="albums/vsico.jpg" class="vsimg" alt="Veils and Shadows EP" role="presentation">
+		<img src="albums/vsico.jpg" class="vsimg" alt="Veils and Shadows EP" aria-hidden="true">
 		<div class="detail">
 			<h3>Veils and Shadows EP</h3>
 			<p>1993</p>

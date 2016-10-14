@@ -161,9 +161,15 @@ a.atcss:hover {
 /* little thing for mobile */
 #mobilenav {
 	background-color: $white;
-	padding: 2px;
-	font-size: 18px;
+	padding: 6px;
+	font-size: 20px;
 	line-height: 1.5;
+	a {
+		font-size: 18px;
+	}
+	nav {
+		padding-top: 12px;
+	}
 }
 
 

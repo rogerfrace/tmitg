@@ -67,15 +67,15 @@
 
 <!-- start tracklisting table -->
 <section id="discog_tracklist">
-<table>
+<table role="grid" aria-label="track list">
 	<caption class="wai">Track listing for "Miscellany"</caption>
 	<thead role="rowgroup">
 		<tr role="row">
-			<th scope="col">Track Number</th>
-			<th scope="col">Track Title</th>
-			<th scope="col">Lyrics</th>
-			<th scope="col">Audio</th>
-			<th scope="col">Video</th>
+			<th role="columnheader" scope="col">Track Number</th>
+			<th role="columnheader" scope="col">Track Title</th>
+			<th role="columnheader" scope="col">Lyrics</th>
+			<th role="columnheader" scope="col">Audio</th>
+			<th role="columnheader" scope="col">Video</th>
 		</tr>
 	</thead>
 	<tbody role="rowgroup" itemtype="http://schema.org/MusicPlaylist">

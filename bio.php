@@ -44,15 +44,11 @@
 
 
 <!-- google translate -->
-<div id="google_translate_element" style="float:right; margin-right:4em;" role="complementary"></div><script>
+<div id="google_translate_element"></div><script type="text/javascript">
 function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'en',
-    gaTrack: true,
-    gaId: 'UA-966611-1'
-  }, 'google_translate_element');
+  new google.translate.TranslateElement({pageLanguage: 'en', gaTrack: true, gaId: 'UA-966611-1'}, 'google_translate_element');
 }
-</script><script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 </html>

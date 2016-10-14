@@ -1,5 +1,5 @@
 <div id="headblock">
-	<div class="sitename" role="banner"><a href="/">the Machine in the Garden</a></div>
+	<div class="sitename" role="banner"><a href="/" aria-label="Home Page">the Machine in the Garden</a></div>
 	<nav aria-label="Primary">
 		<h3 class="wai">Website Navigation</h3>
 		<ul class="top">

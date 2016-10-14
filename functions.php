@@ -77,14 +77,14 @@ function do_mp3bc2($samplename,$songtitle=NULL,$ico=NULL) {
 // new table output structure for rows in discogs
 function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle=NULL) {
 	echo "<tr role=\"row\" itemprop=\"track\" itemscope itemtype=\"http://schema.org/MusicRecording\">
-	<td><span class=\"wai\">track </span><span itemprop=\"position\">$tracknum</span></td>
-	<td itemprop=\"name\">".stripslashes($songname)."</td>
-	<td>";
+	<td role=\"gridcell\"><span class=\"wai\">track </span><span itemprop=\"position\">$tracknum</span></td>
+	<td role=\"gridcell\" itemprop=\"name\">".stripslashes($songname)."</td>
+	<td role=\"gridcell\">";
 	
 	if ($lyricsfile) { do_lyrics("$lyricsfile","$songname"); }
 	
 	echo "</td>
-	<td>";
+	<td role=\"gridcell\">";
 	
 	if (($mp3name != NULL) && (strstr($mp3name, "-bc"))) {
 		$mp3name = str_replace("-bc", "", $mp3name);
@@ -92,7 +92,7 @@ function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videon
 	}
 	
 	echo "</td>
-	<td>";
+	<td role=\"gridcell\">";
 	
 	if ($videoname) { do_video("$videoname","$videotitle",1); }
 	

@@ -93,11 +93,11 @@ function display_news($newsnum,$pubdate,$title,$description) {
 					<a href=\"/news.php?item=".$newsnum."\" itemprop=\"url\" title=\"Permalink\" name=\"Permalink\"><img src=\"images/icon-link.png\" alt=\"Permalink\" /></a>
 					</div>\n";
 				// facebook
-				echo "<div class=\"shareitem\"><fb:like href=\"http://www.tmitg.com/news.php?item=".$newsnum."\" send=\"false\" layout=\"button_count\" show_faces=\"false\" font=\"arial\"></fb:like></div>\n";
+				echo "<div class=\"shareitem\"><iframe src=\"https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.tmitg.com%2Fnews.php%3Fitem%3D".$newsnum."&width=61&layout=button_count&action=like&size=small&show_faces=false&share=false&height=21&appId=121619441387\" width=\"61\" height=\"21\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe></div>";
 				//twitter
-				echo "<a href=\"http://www.tmitg.com/news.php?item=".$newsnum."\" class=\"twitter-share-button\" data-lang=\"en\">Tweet</a>";
+				echo "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://www.tmitg.com/news.php?item=".$newsnum."\" data-via=\"tmitg\" data-show-count=\"false\">Tweet</a><script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>";
 				//google+1
-				echo "<div class=\"shareitem\"><g:plusone size=\"medium\" href=\"http://www.tmitg.com/".$newsnum."\"></g:plusone></div>";
+				echo "<div class=\"shareitem\"><div class=\"g-plusone\" data-size=\"medium\" data-href=\"http://www.tmitg.com/news.php?item=".$newsnum."\"></div></div>";
 			echo "</div> <!--/sharelinks-->";
 		}
 	echo "</fieldset>
@@ -138,21 +138,22 @@ if ($newsnum != "") {
 
 <aside class="rightcolumn">
 
-	<div class="twitterblock">
-	<?php if (check_mobile()==false): ?>
-		<a class="twitter-timeline" href="https://twitter.com/tmitg" data-widget-id="609180666110939137">Tweets by @tmitg</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	<?php endif; ?>
-	</div>
-
 	<div class="fbblock">
 	<?php if (check_mobile()==false): ?>
-		<iframe src="http://www.facebook.com/plugins/likebox.php?id=8325398748&amp;width=300&amp;connections=0&amp;stream=true&amp;header=true&amp;height=427" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:427px;" allowTransparency="true"></iframe>
+		<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftmitg%2F&tabs=timeline&width=300&height=750&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=121619441387" width="300" height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 	<?php endif; ?>
 	</div>
 	
+	<div class="twitterblock">
+	<?php if (check_mobile()==false): ?>
+		<a class="twitter-timeline" data-width="300" data-height="750" href="https://twitter.com/tmitg">Tweets by tmitg</a>
+		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<?php endif; ?>
+	</div>
+
 	<div class="gplusblock">
 	<?php if (check_mobile()==false): ?>
-		<g:plus href="https://plus.google.com/111746563913739447111" size="badge"></g:plus>
+		<div class="g-page" data-href="https://plus.google.com/111746563913739447111" data-rel="publisher"></div>
 	<?php endif; ?>
 	</div>
 	

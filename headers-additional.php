@@ -20,6 +20,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
 </script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 
 <!-- is jquery loaded? if so, do shadowbox data-sb conversion -->
 <script type="text/javascript">

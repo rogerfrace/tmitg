@@ -35,6 +35,9 @@
 </head>
 
 <body id="contact">
+	<div class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->
+		<a href="#contactForm">Skip to Email Contact Form</a>
+	</div>
 
 <? get_header(); ?>
 
@@ -71,18 +74,18 @@
 <form id="contactForm" action="do_econtact.php" method="post">
 
 <div>
-<label for="name">Your Name*:</label>
+<label for="name">Your Name:</label>
 <input type="text" name="name" id="name" class="required" size="40" maxlength="50" required />
 </div>
 
 <div>
-<label for="email">Your Email Address*:</label>
+<label for="email">Your Email Address:</label>
 <input type="email" name="email" id="email" class="required email" size="40" maxlength="50" required autocapitalize="off" />
 </div>
 
 <div>
-<label for="to">To*:</label>
-<select name="to" id="to" size="1" class="required">
+<label for="to">To:</label>
+<select name="to" id="to" size="1" class="required" required>
 	<option value="" selected="selected">--Pull down to select contact--</option>
 	<option value="1">the Band</option>
 	<option value="2">Summer</option>
@@ -95,7 +98,7 @@
 </div>
 
 <div>
-<label for="subject">Subject*:</label>
+<label for="subject">Subject:</label>
 <input type="text" name="subject" id="subject" class="required" size="40" maxlength="75" required />
 </div>
 

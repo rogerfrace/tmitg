@@ -110,14 +110,14 @@
 <!-- end google map -->
 
 <!-- paste below here -->
-<table id="liveTable" class="tablesorter" role="grid">
+<table id="liveTable" class="tablesorter" role="table">
   <col class="col1">
   <col class="col2">
   <col class="col3">
   <col class="col4">
   <col class="col5">
   <col class="col6">
-<thead role="rowgroup">
+<thead>
  <tr role="row">
   <th class="header" scope="col" role="columnheader">date</th>
   <th class="header" scope="col" role="columnheader">city</th>
@@ -128,7 +128,7 @@
  </tr>
 </thead>
 
-<tbody role="rowgroup">
+<tbody>
   <tr role="row">
   <td role="gridcell">November 30, 2013</td>
   <td role="gridcell">Austin, TX</td>

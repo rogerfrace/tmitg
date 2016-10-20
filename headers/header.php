@@ -1,7 +1,6 @@
 <div id="headblock">
-	<header class="sitename"><a href="/" aria-label="Home Page">the Machine in the Garden</a></header>
+	<header class="sitename"><a href="/" aria-label="the Machine in the Garden Home Page">the Machine in the Garden</a></header>
 	<nav aria-label="Primary">
-		<h3 class="wai">Website Navigation</h3>
 		<ul class="top">
 			<li><a href="/news.php" title="news">News</a></li>
 			<li><a href="/discog.php" title="discography">Discography</a></li>

@@ -1,5 +1,4 @@
-<div id="discog_topnav" role="navigation" aria-label="Secondary">
-<h3 class="wai">Discography Sub Navigation</h3>
+<div id="discog_topnav" role="navigation" aria-label="Secondary" tabindex="0">
 <ul class="subnav">
 	<li><a href="storm.php" title="Before and After the Storm"><img src="albums/baatsmini.jpg" alt="Before and After the Storm" /></a></li>
 	<li><a href="xv.php" title="XV"><img src="albums/xvmini.jpg" alt="XV" /></a></li>

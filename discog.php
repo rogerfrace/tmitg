@@ -12,18 +12,18 @@
 </head>
 
 <body id="discog">
-	<ul class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->
-		<li><a href="#releases">Skip to Releases</a></li>
-		<li><a href="#compilations">Skip to Compilations</a></li>
-		<li><a href="#availability">Skip to Availability</a></li>
-	</ul>
+	<nav aria-label="Skip Links" class="wai" id="skip-links">
+		<a href="#releases">Skip to Releases</a>
+		<a href="#compilations">Skip to Compilations</a>
+		<a href="#availability">Skip to Availability</a>
+	</nav>
 
 <? get_header(); ?>
 
-<div class="mainbody" role="main">
+<main class="mainbody">
 
 <section>
-<h1 id="releases">releases:</h1>
+<h1 id="releases" tabindex="0">releases:</h1>
 <ul class="releases">
 <li><a href="miscellany.php" title="miscellany"><img src="albums/miscellanyico.jpg" alt="Miscellany"></a></li>
 
@@ -52,7 +52,7 @@
 </section>
 
 <section>
-<h1 id="compilations">compilation appearances:</h1>
+<h1 id="compilations" tabindex="0">compilation appearances:</h1>
 <ul class="comps">
 <li><a href="rebellion.php"><img src="albums/rebellionico.png" alt="Rebellion: Vol 1"></a></li>
 
@@ -115,7 +115,7 @@
 <hr>
 
 <section>
-<h2 id="availability" style="display:inline;"><abbr title="the Machine in the Garden">tMitG</abbr> releases are available from </h2>
+<h2 id="availability" tabindex="0" style="display:inline;"><abbr title="the Machine in the Garden">tMitG</abbr> releases are available from </h2>
 <p style="display:inline;"><a href="merch.php">us directly</a>,
 <a href="http://astore.amazon.com/themachininth-20" onclick="ga('send', 'event', 'outbound', 'DiscogPage', 'Amazon');" target="_blank">Amazon.com</a><img src="http://www.assoc-amazon.com/e/ir?t=themachininth-20&amp;l=ur2&amp;o=1" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">, 
 <a href="http://www.projekt.com/store/?s=machine+in+the+garden&amp;post_type=product" onclick="ga('send', 'event', 'outbound', 'DiscogPage', 'Projekt');" target="_blank">Projekt</a>, 
@@ -123,7 +123,7 @@
 <a href="http://www.sdcd.com/" onclick="ga('send', 'event', 'outbound', 'DiscogPage', 'SuperD');" target="_blank">Super D One-Stop</a> via <a href="http://www.cdbaby.com/" onclick="ga('send', 'event', 'outbound', 'DiscogPage', 'CDBaby');">CDBaby</a>.</p>
 </section>
 
-</div> <!-- /mainbody -->
+</main> <!-- /mainbody -->
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

@@ -62,7 +62,15 @@ require_once("functions.php");
 <!--[if lt IE 8]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative; left:200px;'> <a href="http://www.microsoft.com/en-us/download/details.aspx?id=22166"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div> <![endif]-->
 <?php endif; ?>
 
-<nav class="desktop">
+<!-- title bar -->
+<?php if (check_mobile()==false): ?>
+<header id="titlebar">
+	<h1><span class="title">the Machine in the Garden</span><span class="subtitle">the official website</span></h1>
+</header>
+<?php endif; ?>
+<!--- end title bar -->
+
+<nav class="desktop" aria-label="Primary">
 	<ul>
 		<li><a href="news.php">news</a></li>
 		<li><a href="discog.php">discography</a></li>
@@ -75,14 +83,6 @@ require_once("functions.php");
 		<li><a href="live.php">live shows</a></li>
 	</ul>
 </nav>
-
-<!-- title bar -->
-<?php if (check_mobile()==false): ?>
-<header id="titlebar">
-	<h1><span class="title">the Machine in the Garden</span><span class="subtitle">the official website</span></h1>
-</header>
-<?php endif; ?>
-<!--- end title bar -->
 
 <section role="main">
 	<article>

@@ -32,13 +32,13 @@
 </head>
 
 <body id="discog">
-	<ul class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->
-		<li><a href="#discog_topnav">Skip to Discography Sub Navigation</a></li>
-		<li><a href="#discog_albuminfo">Skip to Album Info</a></li>
-		<li><a href="#discog_tracklist">Skip to Track Listing</a></li>
-		<li><a href="#discog_buynow">Skip to Buy Now Links</a></li>
-		<li><a href="#reviews">Skip to Reviews</a></li>
-	</ul>
+	<nav aria-label="Skip Links" class="wai" id="skip-links">
+		<a href="#discog_topnav">Skip to Discography Sub Navigation</a>
+		<a href="#discog_albuminfo">Skip to Album Info</a>
+		<a href="#discog_tracklist">Skip to Track Listing</a>
+		<a href="#discog_buynow">Skip to Buy Now Links</a>
+		<a href="#reviews">Skip to Reviews</a>
+	</nav>
 
 <? get_header(); ?>
 
@@ -48,7 +48,7 @@
 <? include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<div class="mainbody" role="main" itemscope itemtype="http://schema.org/MusicAlbum" id="google_sectional_element">
+<main class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum" id="google_sectional_element">
 	<meta itemprop="albumReleaseType" content="album">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="11">
@@ -57,7 +57,7 @@
 	<meta itemprop="inLanguage" content="en" />
 
 <!-- this is the display table for the CD and info -->
-<section id="discog_albuminfo">
+<section id="discog_albuminfo" tabindex="0">
 	<div><img src="albums/baats.jpg" alt="Before and After the Storm" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Before and After the Storm</h1>
 
@@ -74,8 +74,8 @@
 
 
 <!-- start tracklisting table -->
-<section id="discog_tracklist">
-<table role="grid" aria-label="track list">
+<section id="discog_tracklist" tabindex="0">
+<table role="grid" aria-readonly="true" aria-label="track list">
 	<caption class="wai">Track listing for "Before and After the Storm"</caption>
 	<thead role="rowgroup">
 		<tr role="row">
@@ -108,7 +108,7 @@ $lyricsfile and videoname do not include .html
 </section> <!-- end tracklist div -->
 
 
-<section id="discog_buynow" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+<section id="discog_buynow" tabindex="0" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
 	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="8.00">
 	<h2 class="wai">Buy links</h2>
@@ -137,7 +137,7 @@ $lyricsfile and videoname do not include .html
 	<hr />
 
 <section>	
-	<h2 id="reviews">Reviews of <em>Before and After the Storm</em>:</h2>
+	<h2 id="reviews" tabindex="0">Reviews of <em>Before and After the Storm</em>:</h2>
 	<div class="revcontent">
 
 <blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
@@ -271,7 +271,7 @@ $lyricsfile and videoname do not include .html
 	</div> <!-- /revcontent -->
 </section>
 
-</div> <!-- /mainbody -->
+</main> <!-- /mainbody -->
 
 <!-- google translate stuff -->
 <script type="text/javascript">

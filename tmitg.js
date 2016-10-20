@@ -46,4 +46,6 @@ jQuery(document).ready(function() {
 		break;
 	}
 	
+	// convert class ariahidden to aria-hidden="true"
+	jQuery(".ariahidden").attr("aria-hidden","true");	
 });

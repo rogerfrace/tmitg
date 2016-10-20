@@ -31,12 +31,12 @@
 </head>
 
 <body id="discog">
-	<ul class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->
-		<li><a href="#discog_topnav">Skip to Discography Sub Navigation</a></li>
-		<li><a href="#discog_albuminfo">Skip to Album Info</a></li>
-		<li><a href="#discog_tracklist">Skip to Track Listing</a></li>
-		<li><a href="#discog_buynow">Skip to Buy Now Links</a></li>
-	</ul>
+	<nav aria-label="Skip Links" class="wai" id="skip-links">
+		<a href="#discog_topnav">Skip to Discography Sub Navigation</a>
+		<a href="#discog_albuminfo">Skip to Album Info</a>
+		<a href="#discog_tracklist">Skip to Track Listing</a>
+		<a href="#discog_buynow">Skip to Buy Now Links</a>
+	</nav>
 
 <? get_header(); ?>
 
@@ -55,8 +55,8 @@
 	<meta itemprop="inLanguage" content="en" />
 
 <!-- this is the display table for the CD and info -->
-<section id="discog_albuminfo">
-	<div><img src="albums/vanir.jpg" alt="In the Vanir" class="albumimg" itemprop="image" /></div>
+<section id="discog_albuminfo" tabindex="0">
+	<div><img src="albums/vanir.jpg" alt="In the Vanir" class="albumimg ariahidden" itemprop="image" /></div>
 	<h1 itemprop="name">In the Vanir</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-004-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2010</span><br />Digital Single released <span itemprop="datePublished">10 December 2010</span></p>
@@ -66,19 +66,19 @@
 
 
 <!-- start tracklisting table -->
-<section id="discog_tracklist">
+<section id="discog_tracklist" tabindex="0">
 <table role="grid" aria-label="track list">
 	<caption class="wai">Track listing for "In the Vanir"</caption>
-	<thead role="rowgroup">
+	<thead>
 		<tr role="row">
-			<th scope="col" role="columnheader">Track Number</th>
-			<th scope="col" role="columnheader">Track Title</th>
-			<th scope="col" role="columnheader">Lyrics</th>
-			<th scope="col" role="columnheader">Audio</th>
-			<th scope="col" role="columnheader">Video</th>
+			<th scope="col">Track Number</th>
+			<th scope="col">Track Title</th>
+			<th scope="col">Lyrics</th>
+			<th scope="col">Audio</th>
+			<th scope="col">Video</th>
 		</tr>
 	</thead>
-	<tbody role="rowgroup" itemtype="http://schema.org/MusicPlaylist">
+	<tbody itemtype="http://schema.org/MusicPlaylist">
 <? /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html
@@ -92,7 +92,7 @@ $lyricsfile and videoname do not include .html
 </section> <!-- end tracklist div -->
 
 
-<section id="discog_buynow" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+<section id="discog_buynow" tabindex="0" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
 	<meta itemprop="lowprice" content="1.78">
 	<h2 class="wai">Buy links</h2>
 	

@@ -58,7 +58,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="0">
-	<div><img src="albums/baats.jpg" alt="Before and After the Storm" class="albumimg" itemprop="image" /></div>
+	<div><img src="albums/baats.jpg" alt="Before and After the Storm" class="albumimg ariahidden" itemprop="image" /></div>
 	<h1 itemprop="name">Before and After the Storm</h1>
 
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
@@ -77,16 +77,16 @@
 <section id="discog_tracklist" tabindex="0">
 <table role="grid" aria-readonly="true" aria-label="track list">
 	<caption class="wai">Track listing for "Before and After the Storm"</caption>
-	<thead role="rowgroup">
+	<thead>
 		<tr role="row">
-			<th scope="col" role="columnheader">Track Number</th>
-			<th scope="col" role="columnheader">Track Title</th>
-			<th scope="col" role="columnheader">Lyrics</th>
-			<th scope="col" role="columnheader">Audio</th>
-			<th scope="col" role="columnheader">Video</th>
+			<th scope="col">Track Number</th>
+			<th scope="col">Track Title</th>
+			<th scope="col">Lyrics</th>
+			<th scope="col">Audio</th>
+			<th scope="col">Video</th>
 		</tr>
 	</thead>
-	<tbody role="rowgroup" itemtype="http://schema.org/MusicPlaylist">
+	<tbody itemtype="http://schema.org/MusicPlaylist">
 <? /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
 $lyricsfile and videoname do not include .html
@@ -111,7 +111,7 @@ $lyricsfile and videoname do not include .html
 <section id="discog_buynow" tabindex="0" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
 	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="8.00">
-	<h2 class="wai">Buy links</h2>
+	<h2 class="wai">Buy Now links</h2>
 	
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="8.00"><a itemprop="url" href="http://tmitg.bandcamp.com/album/before-and-after-the-storm" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'baats');"><img src="images/bandcamp.jpg" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
 

@@ -20,6 +20,7 @@
 	<?php include_once("headers-additional.php"); ?>
 	<script src="js/jquery.tools.min.js" type="text/javascript"></script>
 	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
+	<script src="tmitg.js" type="text/javascript"></script>
 	<!--[if lte IE 9 ]><script src="js/jquery.placeholder.js" type="text/javascript"></script>
 	<![endif]-->
 
@@ -41,14 +42,14 @@
 
 <? get_header(); ?>
 
-<div class="mainbody" role="main">
+<main class="mainbody">
 
 <section id="leftcolumn">
 <h2 class="wai">Physical Location</h2>
 <!-- address card -->
 <div id="hcard-the-Machine-in-the-Garden" class="vcard">
-	<img style="display:none;" src="http://www.tmitg.com/photos/xv1-ico.jpg" alt="photo of " class="photo" />
-	<a class="url n" id="url" href="http://www.tmitg.com/">  <span class="given-name"></span>
+	<img style="display:none;" src="http://www.tmitg.com/photos/xv1-ico.jpg" alt="photo of " class="photo ariahidden" />
+	<a class="url n ariahidden" id="url" href="http://www.tmitg.com/">  <span class="given-name"></span>
 	<span class="additional-name"></span>
 	<span class="family-name"></span>
 	</a>
@@ -126,7 +127,7 @@
 <!-- ########################################## -->
 
 <div style="clear:both;"></div>
-</div> <!-- /mainbody -->
+</main> <!-- /mainbody -->
 
 </body>
 </html>

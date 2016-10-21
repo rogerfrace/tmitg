@@ -18,12 +18,12 @@
 </head>
 
 <body id="discog">
-	<ul class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->
-		<li><a href="#discog_topnav">Skip to Discography Sub Navigation</a></li>
-		<li><a href="#discog_albuminfo">Skip to Album Info</a></li>
-		<li><a href="#discog_tracklist">Skip to Track Listing</a></li>
-		<li><a href="#discog_buynow">Skip to Buy Now Links</a></li>
-	</ul>
+	<nav aria-label="Skip Links" class="wai" id="skip-links">
+		<a href="#discog_topnav">Skip to Discography Sub Navigation</a>
+		<a href="#discog_albuminfo">Skip to Album Info</a>
+		<a href="#discog_tracklist">Skip to Track Listing</a>
+		<a href="#discog_buynow">Skip to Buy Now Links</a>
+	</nav>
 
 <? get_header(); ?>
 
@@ -36,7 +36,7 @@
 <div class="mainbody clearleft" role="main">
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo">
+<div id="discog_albuminfo" tabindex="0">
 	<img src="albums/misfit.jpg" alt="A Misfit Xmas" width="250" height="250">
 	<h1>A Misfit Xmas, Volume One</h1>
 	<p class="notopmargin">(MPP003) Middle Pillar Presents &copy;2001</p>
@@ -44,7 +44,7 @@
 
 		
 <!-- start tracklisting table -->
-<div id="discog_tracklist">
+<div id="discog_tracklist" tabindex="0">
 <table>
 	<thead>
 		<tr>
@@ -83,7 +83,7 @@
 </div> <!-- end tracklist div -->
 
 
-<div id="discog_buynow">
+<div id="discog_buynow" tabindex="0">
 		<h2 class="wai">Buy links</h2>
 		<p><a href="http://itunes.apple.com/us/album/see-amid-the-winters-snow/id204568133?i=204568191" id="itmslink" rel="external" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'misfit');"><img alt="iTunes Store" height="31" width="105" border="0" src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes105x31dark.gif"></a></p>
 </div> <!-- end buy button div -->

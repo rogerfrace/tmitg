@@ -13,12 +13,11 @@
 </head>
 
 <body id="discog">
-	<ul class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->
-		<li><a href="#discog_topnav">Skip to Discography Sub Navigation</a></li>
-		<li><a href="#discog_albuminfo">Skip to Album Info</a></li>
-		<li><a href="#discog_tracklist">Skip to Track Listing</a></li>
-		<li><a href="#discog_buynow">Skip to Buy Now Links</a></li>
-	</ul>
+	<nav aria-label="Skip Links" class="wai" id="skip-links">
+		<a href="#discog_topnav">Skip to Discography Sub Navigation</a>
+		<a href="#discog_albuminfo">Skip to Album Info</a>
+		<a href="#discog_tracklist">Skip to Track Listing</a>
+	</nav>
 
 <? get_header(); ?>
 
@@ -31,8 +30,8 @@
 <div class="mainbody" role="main">
 
 <!-- this is the display table for the CD and info -->
-<section id="discog_albuminfo">
-	<div><img src="albums/wapfuu1.jpg" alt="When Angels Peer Favorably Upon Us, Volume One" class="albumimg" itemprop="image" /></div>
+<section id="discog_albuminfo" tabindex="0">
+	<div><img src="albums/wapfuu1.jpg" alt="When Angels Peer Favorably Upon Us, Volume One" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1>When Angels Peer Favorably Upon Us, Volume One</h1>
 	<p class="notopmargin">&copy;2000<br>
 	mp3.com CD released 2000</p>
@@ -41,7 +40,7 @@
 
 
 <!-- start tracklisting table -->
-<section id="discog_tracklist">
+<section id="discog_tracklist" tabindex="0">
 <table role="grid" aria-label="track list">
 	<caption class="wai">Track listing for "When Angels Peer Favorably Upon Us, Volume One"</caption>
 	<thead role="rowgroup">

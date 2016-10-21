@@ -103,6 +103,8 @@ ins {
 	left: -999em;
 }
 
+.spellout { speak-as: spell-out; }
+
 .fade {
 	@include opacity(0.6);
 	@include single-transition(all, 250ms, linear, 0);

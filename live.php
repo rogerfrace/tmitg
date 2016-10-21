@@ -106,11 +106,11 @@
 <h1>Past Live Performances:</h1>
 
 <!-- google map stuff -->
-<div id="map_canvas" style="width: 100%; height: 300px"></div>
+<div id="map_canvas" style="width: 100%; height: 300px" role="presentation" aria-hidden="true"></div>
 <!-- end google map -->
 
 <!-- paste below here -->
-<table id="liveTable" class="tablesorter" role="table">
+<table id="liveTable" class="tablesorter" role="grid" aria-readonly="true">
   <col class="col1">
   <col class="col2">
   <col class="col3">

@@ -56,7 +56,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="0">
-	<div><img src="albums/vanir.jpg" alt="In the Vanir" class="albumimg ariahidden" itemprop="image" /></div>
+	<div><img src="albums/vanir.jpg" alt="In the Vanir" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">In the Vanir</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-004-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2010</span><br />Digital Single released <span itemprop="datePublished">10 December 2010</span></p>
@@ -102,7 +102,7 @@ $lyricsfile and videoname do not include .html
 	<hr />
 	
 <section>
-	<h2 id="reviews">Reviews of <em>In the Vanir</em>:</h2>
+	<h2 id="reviews" tabindex="0">Reviews of <em>In the Vanir</em>:</h2>
 	<div class="revcontent">
 
 <blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">

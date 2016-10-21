@@ -18,12 +18,11 @@
 </head>
 
 <body id="discog">
-	<ul class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->
-		<li><a href="#discog_topnav">Skip to Discography Sub Navigation</a></li>
-		<li><a href="#discog_albuminfo">Skip to Album Info</a></li>
-		<li><a href="#discog_tracklist">Skip to Track Listing</a></li>
-		<li><a href="#discog_buynow">Skip to Buy Now Links</a></li>
-	</ul>
+	<nav aria-label="Skip Links" class="wai" id="skip-links">
+		<a href="#discog_topnav">Skip to Discography Sub Navigation</a>
+		<a href="#discog_albuminfo">Skip to Album Info</a>
+		<a href="#discog_tracklist">Skip to Track Listing</a>
+	</nav>
 
 <? get_header(); ?>
 
@@ -37,7 +36,7 @@
 
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo">
+<div id="discog_albuminfo" tabindex="0">
 	<img src="albums/eclectica.jpg" alt="Eclectica" width="250" height="250">
 	<h1>Eclectica</h1>
 	<p class="notopmargin">(MPP004) Middle Pillar Presents &copy;2002<br>
@@ -46,7 +45,7 @@
 
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist">
+<div id="discog_tracklist" tabindex="0">
 <table>
 	<thead>
 		<tr>

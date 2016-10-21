@@ -58,7 +58,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="0">
-	<div><img src="albums/baats.jpg" alt="Before and After the Storm" class="albumimg ariahidden" itemprop="image" /></div>
+	<div><img src="albums/baats.jpg" alt="Before and After the Storm" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">Before and After the Storm</h1>
 
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">

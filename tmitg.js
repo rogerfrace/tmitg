@@ -46,6 +46,13 @@ jQuery(document).ready(function() {
 		break;
 	}
 	
-	// convert class ariahidden to aria-hidden="true"
+	// convert aria classes to roles and states
 	jQuery(".ariahidden").attr("aria-hidden","true");	
+	jQuery(".ariapreso").attr("role","presentation");
+	jQuery(".ariapreso").attr("role","presentation");
+
+	// spell out tMitG
+	//jQuery("main:contains('tMitG')").html(function(_, html) {
+	//	return html.replace(/(tMitG)/g, '<span class="spellout">$1</span>');
+	//});
 });

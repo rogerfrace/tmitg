@@ -56,7 +56,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="0">
-	<div><img src="albums/miscellany.jpg" alt="Miscellany" class="albumimg ariahidden" itemprop="image" /></div>
+	<div><img src="albums/miscellany.jpg" alt="Miscellany" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">Miscellany</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-006-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2014</span><br />rarities collection released <span itemprop="datePublished">31 October 2014</span></p>

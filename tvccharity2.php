@@ -18,12 +18,11 @@
 </head>
 
 <body id="discog">
-	<ul class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->
-		<li><a href="#discog_topnav">Skip to Discography Sub Navigation</a></li>
-		<li><a href="#discog_albuminfo">Skip to Album Info</a></li>
-		<li><a href="#discog_tracklist">Skip to Track Listing</a></li>
-		<li><a href="#discog_buynow">Skip to Buy Now Links</a></li>
-	</ul>
+	<nav aria-label="Skip Links" class="wai" id="skip-links">
+		<a href="#discog_topnav">Skip to Discography Sub Navigation</a>
+		<a href="#discog_albuminfo">Skip to Album Info</a>
+		<a href="#discog_tracklist">Skip to Track Listing</a>
+	</nav>
 
 <? get_header(); ?>
 
@@ -36,14 +35,14 @@
 <div class="mainbody clearleft" role="main">
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo">
+<div id="discog_albuminfo" tabindex="0">
 	<img src="albums/tvccharity2.jpg" alt="Every Living Creature" width="250" height="250">
 	<h1>The Violet Collection &mdash; Every Living Creature</h1>
 	<p class="notopmargin">Charity compilation available only on the former mp3.com</p>
 </div> <!-- end album info div -->
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist">
+<div id="discog_tracklist" tabindex="0">
 <table>
 	<thead>
 		<tr>

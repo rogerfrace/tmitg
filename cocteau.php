@@ -18,12 +18,12 @@
 </head>
 
 <body id="discog">
-	<ul class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->
-		<li><a href="#discog_topnav">Skip to Discography Sub Navigation</a></li>
-		<li><a href="#discog_albuminfo">Skip to Album Info</a></li>
-		<li><a href="#discog_tracklist">Skip to Track Listing</a></li>
-		<li><a href="#discog_buynow">Skip to Buy Now Links</a></li>
-	</ul>
+	<nav aria-label="Skip Links" class="wai" id="skip-links">
+		<a href="#discog_topnav">Skip to Discography Sub Navigation</a>
+		<a href="#discog_albuminfo">Skip to Album Info</a>
+		<a href="#discog_tracklist">Skip to Track Listing</a>
+		<a href="#discog_buynow">Skip to Buy Now Links</a>
+	</nav>
 
 <? get_header(); ?>
 
@@ -36,7 +36,7 @@
 <div class="mainbody clearleft" role="main">
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo">
+<div id="discog_albuminfo" tabindex="0">
 	<img src="albums/cocteautribute.jpg" alt="Dark Treasures" width="250" height="250">
 	<h1>Dark Treasures: A Gothic Tribute to the Cocteau Twins</h1>
 	<p class="notopmargin">Cleopatra Records &copy;2000</p>
@@ -44,7 +44,7 @@
 
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist">
+<div id="discog_tracklist" tabindex="0">
 <table>
 	<thead>
 		<tr>
@@ -82,7 +82,7 @@
 </table>
 </div> <!-- end tracklist div -->
 
-<div id="discog_buynow">
+<div id="discog_buynow" tabindex="0">
 	<h2 class="wai">Buy links</h2>
 	<div><SCRIPT charset="utf-8" type="text/javascript" src="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822/US/themachininth-20/8001/4d2d230d-bf49-4457-b0f2-3810e36e2ae6"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fthemachininth-20%2F8001%2F4d2d230d-bf49-4457-b0f2-3810e36e2ae6&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT></div>
 </div>

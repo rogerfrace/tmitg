@@ -18,21 +18,19 @@
 </head>
 
 <body id="links">
-	<ul class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->
-		<li><a href="#subnav">Skip to Sub Navigation</a></li>
-		<li><a href="#tmitg">Skip to Content</a></li>
-	</ul>
+	<nav class="wai" id="skip-links" aria-label="Skip Links">
+		<a href="#subnav">Skip to Sub Navigation</a>
+		<a href="#tmitg">Skip to Content</a>
+	</nav>
 
 <? get_header(); ?>
 
-<div class="mainbody" role="main">
-<h1 class="wai">List of Interesting Links</h1>
+<main class="mainbody">
+<h1 class="wai" id="top" tabindex="0">List of Interesting Links</h1>
 
-<p><a id="top"></a></p>
 
-<nav role="navigation" aria-label="Secondary">
-<h3 class="wai">Page Sub Navigation</h3>
-<p id="subnav">
+<nav aria-label="Secondary">
+<p id="subnav" tabindex="0">
 <a href="#tmitg">other tMitG-related sites</a> | 
 <a href="#digital">tMitG digital downloads and streams</a> |  
 <a href="#cds">tMitG/goth music retailers</a> |
@@ -47,8 +45,9 @@
 </p>
 </nav>
 
-<section id="tmitg" class="linksec">
-<h2>other tMitG-related sites... <a href="#top" class="btt">(back to top)</a></h2>
+<section tabindex="0" id="tmitg" class="linksec">
+<h2>other tMitG-related sites...</h2>
+<a href="#top" class="btt">(back to top)</a>
 <ul>
 <li style="list-style-image:url(<?=get_favicon('http://www.facebook.com');?>);"><a rel="me" href="http://www.facebook.com/tmitg" target="_blank">tMitG on Facebook</a></li>
 <li style="list-style-image:url(<?=get_favicon('http://twitter.com');?>);"><a rel="me" href="http://twitter.com/tmitg" target="_blank">tMitG on Twitter</a></li>
@@ -62,8 +61,9 @@
 </section>
 
 
-<section id="digital" class="linksec">
-<h2>tMitG digital downloads and streams <a href="#top" class="btt">(back to top)</a></h2>
+<section tabindex="0" id="digital" class="linksec">
+<h2>tMitG digital downloads and streams</h2>
+<a href="#top" class="btt">(back to top)</a>
 <ul>
 <li><a href="http://www.amazon.com/gp/product/B000QK6ULW?ie=UTF8&amp;tag=themachininth-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B000QK6ULW" target="_blank">tMitG on Amazon MP3</a><img src="http://www.assoc-amazon.com/e/ir?t=themachininth-20&amp;l=as2&amp;o=1&amp;a=B000QK6ULW" width="1" height="1" alt="" style="border:none !important; margin:0px !important;"></li>
 <li><a rel="me" href="http://tmitg.bandcamp.com/" target="_blank">tMitG on Bandamp</a></li>
@@ -77,8 +77,9 @@
 </section>
 
 
-<section id="cds" class="linksec">
-<h2>other tMitG/goth music retailers... <a href="#top" class="btt">(back to top)</a></h2>
+<section tabindex="0" id="cds" class="linksec">
+<h2>other tMitG/goth music retailers...</h2>
+<a href="#top" class="btt">(back to top)</a>
 <ul>
 <li><a href="http://cdbaby.com/all/tmitg" target="_blank">CDbaby</a></li>
 <li><a href="http://www.projekt.com/store/?s=machine+in+the+garden&amp;post_type=product" target="_blank">Projekt/darkwave</a></li>
@@ -88,8 +89,9 @@
 </section>
 
 
-<section id="bands" class="linksec">
-<h2>bands... <a href="#top" class="btt">(back to top)</a></h2>
+<section tabindex="0" id="bands" class="linksec">
+<h2>bands...</h2>
+<a href="#top" class="btt">(back to top)</a>
 <ul>
 <li><a href="http://theazoic.com/" target="_blank">The Azoic</a></li>
 <li><a href="http://www.hall-of-sermon.de/e/breath-1.htm" target="_blank">The Breath of Life</a></li>
@@ -123,8 +125,9 @@
 </section>
 
 
-<section id="zines" class="linksec">
-<h2>webzines and print zines with web pages... <a href="#top" class="btt">(back to top)</a></h2>
+<section tabindex="0" id="zines" class="linksec">
+<h2>webzines and print zines with web pages...</h2>
+<a href="#top" class="btt">(back to top)</a>
 <ul>
 <li><a href="http://www.monolithgraphics.com/darkrealms.html" target="_blank">Dark Realms</a></li>
 <li><a href="http://www.gothicbeauty.com" target="_blank">Gothic Beauty</a></li>
@@ -136,8 +139,9 @@
 </section>
 
 
-<section id="labels" class="linksec">
-<h2>record labels... <a href="#top" class="btt">(back to top)</a></h2>
+<section tabindex="0" id="labels" class="linksec">
+<h2>record labels...</h2>
+<a href="#top" class="btt">(back to top)</a>
 <ul>
 <li><a href="http://www.fossildungeon.com/" target="_blank">Fossil Dungeon</a></li>
 <li><a href="http://www.metropolis-records.com/" target="_blank">Metropolis</a></li>
@@ -150,8 +154,9 @@
 </section>
 
 
-<section id="radio" class="linksec">
-<h2>radio shows, clubs, and DJs... <a href="#top" class="btt">(back to top)</a></h2>
+<section tabindex="0" id="radio" class="linksec">
+<h2>radio shows, clubs, and DJs...</h2>
+<a href="#top" class="btt">(back to top)</a>
 <ul>
 <li><a href="http://www.vamp.org/Gothic/clublist.html" target="_blank"><b>Gothic Club Listing</b></a></li>
 <li><a href="http://www.blackchannel.org" target="_blank">Black Channel Radio</a></li>
@@ -169,8 +174,9 @@
 </section>
 
 
-<section id="fashion" class="linksec">
-<h2>gothic fashion... <a href="#top" class="btt">(back to top)</a></h2>
+<section tabindex="0" id="fashion" class="linksec">
+<h2>gothic fashion...</h2>
+<a href="#top" class="btt">(back to top)</a>
 <ul>
 <li><a href="http://www.eriu.com/gothshop.html" target="_blank"><b>Goth Shopping</b></a> directory</li>
 <li><a href="http://www.azacdesigns.com/" target="_blank">Azrael's Accomplice</a></li>
@@ -193,8 +199,9 @@
 </section>
 
 
-<section id="art" class="linksec">
-<h2>art and design... <a href="#top" class="btt">(back to top)</a></h2>
+<section tabindex="0" id="art" class="linksec">
+<h2>art and design...</h2>
+<a href="#top" class="btt">(back to top)</a>
 <ul>
 <li><a href="http://www.corbijn.co.uk/" target="_blank">Anton Corbijn</a></li>
 <li><a href="http://www.louisguidone.com/" target="_blank">Louis Guidone</a></li>
@@ -206,8 +213,9 @@
 </section>
 
 
-<section id="gothstuff" class="linksec">
-<h2>various gothy stuff... <a href="#top" class="btt">(back to top)</a></h2>
+<section tabindex="0" id="gothstuff" class="linksec">
+<h2>various gothy stuff...</h2>
+<a href="#top" class="btt">(back to top)</a>
 <ul>
 <li><a href="http://www.darklinks.com" target="_blank"><b>Dark Side of the Net</b></a></li>
 <li><a href="http://www.waningmoon.com/" target="_blank">Encyclopedia Gothica</a></li>
@@ -219,15 +227,16 @@
 </section>
 
 
-<section id="misc" class="linksec">
-<h2>humor, culture, entertainment, and other miscellaneous things... <a href="#top" class="btt">(back to top)</a></h2>
+<section tabindex="0" id="misc" class="linksec">
+<h2>humor, culture, entertainment, and other miscellaneous things...</h2>
+<a href="#top" class="btt">(back to top)</a>
 <ul>
 <li><a href="http://www.flowersforthedead.com/dolls/" target="_blank">Fairy Paper Dolls</a></li>
 <li><a href="http://www.happytreefriends.com/" target="_blank">Happy Tree Friends</a></li>
 </ul>
 </section>
 
-</div> <!-- /mainbody -->
+</main> <!-- /mainbody -->
 
 <!-- append tracking -->
 <script type="text/javascript">

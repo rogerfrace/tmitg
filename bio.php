@@ -22,7 +22,7 @@
 
 <? get_header(); ?>
 
-<div class="mainbody" role="main" id="bio-content">
+<main class="mainbody" id="bio-content">
 <h1 class="wai"><abbr title="the Machine in the Garden">tMitG</abbr> Biography</h1>
 
 <div class="twocols">
@@ -40,7 +40,8 @@
 
 <p>The name &ldquo;the Machine in the Garden&rdquo; refers to the progress of technology and its relationship with nature. Each release explores this relationship between the mechanical, natural and spiritual worlds and further elucidates the philosophy behind the band. Ever evolving and pushing the limits of the ethereal/darkwave genre, the Machine in the Garden strives to explore all aspects of electronic music while continuing to compose songs that endure.</p>
 </div> <!-- /twocols -->
-</div> <!-- /mainbody -->
+
+</main> <!-- /mainbody -->
 
 
 <!-- google translate -->

@@ -32,13 +32,13 @@
 </head>
 
 <body id="discog">
-	<ul class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->
-		<li><a href="#discog_topnav">Skip to Discography Sub Navigation</a></li>
-		<li><a href="#discog_albuminfo">Skip to Album Info</a></li>
-		<li><a href="#discog_tracklist">Skip to Track Listing</a></li>
-		<li><a href="#discog_buynow">Skip to Buy Now Links</a></li>
-		<li><a href="#reviews">Skip to Reviews</a></li>
-	</ul>
+	<nav aria-label="Skip Links" class="wai" id="skip-links">
+		<a href="#discog_topnav">Skip to Discography Sub Navigation</a>
+		<a href="#discog_albuminfo">Skip to Album Info</a>
+		<a href="#discog_tracklist">Skip to Track Listing</a>
+		<a href="#discog_buynow">Skip to Buy Now Links</a>
+		<a href="#reviews">Skip to Reviews</a>
+	</nav>
 
 <? get_header(); ?>
 
@@ -57,8 +57,8 @@
 	<meta itemprop="inLanguage" content="en" />
 
 <!-- this is the display table for the CD and info -->
-<section id="discog_albuminfo">
-    <div><img src="albums/vs.jpg" alt="Veils and Shadows" class="albumimg" itemprop="image" /></div>
+<section id="discog_albuminfo" tabindex="0">
+    <div><img src="albums/vs.jpg" alt="Veils and Shadows" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">Veils and Shadows EP</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">ISOL8-002-2</span>) <span itemprop="recordLabel">Industrial Isolation Music</span> &copy;<span itemprop="copyrightYear">1993</span><br />CDEP released <span itemprop="datePublished">12 September 1994</span></p>
@@ -68,7 +68,7 @@
 
 
 <!-- start tracklisting table -->
-<section id="discog_tracklist">
+<section id="discog_tracklist" tabindex="0">
 <table role="grid" aria-label="track list">
 	<caption class="wai">Track listing for "Veils and Shadows EP"</caption>
 	<thead role="rowgroup">
@@ -96,7 +96,7 @@ $lyricsfile and videoname do not include .html
 </section> <!-- end tracklist div -->
 
 
-<section id="discog_buynow" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+<section id="discog_buynow" tabindex="0" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
 	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="3.00">
 	<h2 class="wai">Buy links</h2>
@@ -114,7 +114,7 @@ $lyricsfile and videoname do not include .html
 	<hr />
 
 <section>	
-	<h2 id="reviews">Reviews of <em>Veils and Shadows EP</em>:</h2>
+	<h2 id="reviews" tabindex="0">Reviews of <em>Veils and Shadows EP</em>:</h2>
 	<div class="revcontent">
 <blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">

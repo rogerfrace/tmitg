@@ -18,12 +18,12 @@
 </head>
 
 <body id="discog">
-	<ul class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->
-		<li><a href="#discog_topnav">Skip to Discography Sub Navigation</a></li>
-		<li><a href="#discog_albuminfo">Skip to Album Info</a></li>
-		<li><a href="#discog_tracklist">Skip to Track Listing</a></li>
-		<li><a href="#discog_buynow">Skip to Buy Now Links</a></li>
-	</ul>
+	<nav aria-label="Skip Links" class="wai" id="skip-links">
+		<a href="#discog_topnav">Skip to Discography Sub Navigation</a>
+		<a href="#discog_albuminfo">Skip to Album Info</a>
+		<a href="#discog_tracklist">Skip to Track Listing</a>
+		<a href="#discog_buynow">Skip to Buy Now Links</a>
+	</nav>
 
 <? get_header(); ?>
 
@@ -36,7 +36,7 @@
 <div class="mainbody clearleft" role="main">
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo">
+<div id="discog_albuminfo" tabindex="0">
 	<img src="albums/eternal.jpg" alt="What Is Eternal" width="280" height="240">
 	<h1>What is Eternal</h1>
 	<p class="notopmargin">(MPP000, MPP000X) <a href="http://www.middlepillar.com/mpp/" target="_blank">Middle Pillar Presents</a> &copy;1998<br>
@@ -44,7 +44,7 @@
 </div> <!-- end album info div -->
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist">
+<div id="discog_tracklist" tabindex="0">
 <table>
 	<thead>
 		<tr>
@@ -82,7 +82,7 @@
 </table>
 </div> <!-- end tracklist div -->
 
-<div id="discog_buynow">
+<div id="discog_buynow" tabindex="0">
 	<h2 class="wai">Buy links</h2>
 	<div><SCRIPT charset="utf-8" type="text/javascript" src="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822/US/themachininth-20/8001/50545b15-3e26-44e5-844b-02983147fa44"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fthemachininth-20%2F8001%2F50545b15-3e26-44e5-844b-02983147fa44&amp;Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT></div>
 </div>

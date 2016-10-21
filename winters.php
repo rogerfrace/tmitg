@@ -32,12 +32,12 @@
 </head>
 
 <body id="discog">
-	<ul class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->
-		<li><a href="#discog_topnav">Skip to Discography Sub Navigation</a></li>
-		<li><a href="#discog_albuminfo">Skip to Album Info</a></li>
-		<li><a href="#discog_tracklist">Skip to Track Listing</a></li>
-		<li><a href="#discog_buynow">Skip to Buy Now Links</a></li>
-	</ul>
+	<nav aria-label="Skip Links" class="wai" id="skip-links">
+		<a href="#discog_topnav">Skip to Discography Sub Navigation</a>
+		<a href="#discog_albuminfo">Skip to Album Info</a>
+		<a href="#discog_tracklist">Skip to Track Listing</a>
+		<a href="#discog_buynow">Skip to Buy Now Links</a>
+	</nav>
 
 <? get_header(); ?>
 
@@ -56,8 +56,8 @@
 	<meta itemprop="inLanguage" content="en" />
 
 <!-- this is the display table for the CD and info -->
-<section id="discog_albuminfo">
-    <div><img src="albums/winters.jpg" alt="One Winter's Night" class="albumimg" itemprop="image" /></div>
+<section id="discog_albuminfo" tabindex="0">
+    <div><img src="albums/winters.jpg" alt="One Winter's Night" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">One Winter's Night&hellip;</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">MPP999</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">1999</span><br />full-length CD released <span itemprop="datePublished">May 1999</span></p>
@@ -67,7 +67,7 @@
 
 
 <!-- start tracklisting table -->
-<section id="discog_tracklist">
+<section id="discog_tracklist" tabindex="0">
 <table role="grid" aria-label="track list">
 	<caption class="wai">Track listing for "One Winter's Night&hellip;"</caption>
 	<thead role="rowgroup">
@@ -105,7 +105,7 @@ $lyricsfile and videoname do not include .html
 </section> <!-- end tracklist div -->
 
 
-<section id="discog_buynow" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+<section id="discog_buynow" tabindex="0" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
 	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="8.00">
 	<h2 class="wai">Buy links</h2>
@@ -125,7 +125,7 @@ $lyricsfile and videoname do not include .html
 	<hr />
 	
 <section>
-	<h2 id="reviews">Reviews of <em>One Winter's Night&hellip;</em>:</h2>
+	<h2 id="reviews" tabindex="0">Reviews of <em>One Winter's Night&hellip;</em>:</h2>
 	<div class="revcontent">
 
 <blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">

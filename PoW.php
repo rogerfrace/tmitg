@@ -18,12 +18,12 @@
 </head>
 
 <body id="discog">
-	<ul class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->
-		<li><a href="#discog_topnav">Skip to Discography Sub Navigation</a></li>
-		<li><a href="#discog_albuminfo">Skip to Album Info</a></li>
-		<li><a href="#discog_tracklist">Skip to Track Listing</a></li>
-		<li><a href="#discog_buynow">Skip to Buy Now Links</a></li>
-	</ul>
+	<nav aria-label="Skip Links" class="wai" id="skip-links">
+		<a href="#discog_topnav">Skip to Discography Sub Navigation</a>
+		<a href="#discog_albuminfo">Skip to Album Info</a>
+		<a href="#discog_tracklist">Skip to Track Listing</a>
+		<a href="#discog_buynow">Skip to Buy Now Links</a>
+	</nav>
 
 <? get_header(); ?>
 
@@ -36,7 +36,7 @@
 <div class="mainbody clearleft" role="main">
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo">
+<div id="discog_albuminfo" tabindex="0">
 	<img src="albums/PoW.jpg" alt="Palace of Worms" width="250" height="250">
 	<h1>Defend the Palace: Worms A.D.MCLXXXIV</h1>
 	<p class="notopmargin">(po14w-2) Palace of Worms &copy;2002</p>
@@ -44,7 +44,7 @@
 
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist">
+<div id="discog_tracklist" tabindex="0">
 <table>
 	<thead>
 		<tr>
@@ -83,7 +83,7 @@
 </div> <!-- end tracklist div -->
 
 
-<? /*<div id="discog_buynow">
+<? /*<div id="discog_buynow" tabindex="0">
 		<h2 class="wai">Buy links</h2>
 		<p><a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?playlistId=211275101&s=143441&i=211275225" id="itmslink" rel="external" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'PoW');"><img alt="iTunes Store" height="31" width="105" border="0" src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes105x31dark.gif"></a></p>
 		<div><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab" id="Player_564bd001-70ff-41e6-8214-ec6e5a2c7317"  WIDTH="120" HEIGHT="90"> <PARAM NAME="movie" VALUE="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fthemachininth-20%2F8014%2F564bd001-70ff-41e6-8214-ec6e5a2c7317&amp;Operation=GetDisplayTemplate"><PARAM NAME="quality" VALUE="high"><PARAM NAME="bgcolor" VALUE="#FFFFFF"><PARAM NAME="allowscriptaccess" VALUE="always"><embed src="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fthemachininth-20%2F8014%2F564bd001-70ff-41e6-8214-ec6e5a2c7317&amp;Operation=GetDisplayTemplate" id="Player_564bd001-70ff-41e6-8214-ec6e5a2c7317" quality="high" bgcolor="#ffffff" name="Player_564bd001-70ff-41e6-8214-ec6e5a2c7317" allowscriptaccess="always"  type="application/x-shockwave-flash" align="middle" height="90" width="120"></embed></OBJECT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fthemachininth-20%2F8014%2F564bd001-70ff-41e6-8214-ec6e5a2c7317&amp;Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT></div>

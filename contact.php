@@ -47,7 +47,7 @@
 <section id="leftcolumn">
 <h2 class="wai">Physical Location</h2>
 <!-- address card -->
-<div id="hcard-the-Machine-in-the-Garden" class="vcard">
+<address id="hcard-the-Machine-in-the-Garden" class="vcard">
 	<img style="display:none;" src="http://www.tmitg.com/photos/xv1-ico.jpg" alt="photo of " class="photo ariahidden" />
 	<a class="url n ariahidden" id="url" href="http://www.tmitg.com/">  <span class="given-name"></span>
 	<span class="additional-name"></span>
@@ -60,7 +60,7 @@
 		<span class="region">Texas</span> 
 		<div class="country-name">USA</div>
 	</div>
-</div>
+</address>
 
 <!-- /address card -->
 

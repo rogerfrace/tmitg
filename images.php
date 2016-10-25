@@ -9,12 +9,20 @@
 	<meta charset="utf-8" />
 	<title>the Machine in the Garden - images</title>
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
+	<link rel="stylesheet" type="text/css" href="/css/colorbox.css">
 	<script src="/js/jquery-1.6.4.min.js" type="text/javascript"></script>
 	<script src="/js/jail.0.9.5.min.js" type="text/javascript"></script>
+	<script src="/js/jquery.colorbox-min.js" type="text/javascript"></script>
 	<?php include_once("headers-additional.php"); ?>
 	<script src="tmitg.js" type="text/javascript"></script>
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<? include_once("googletracking.html"); ?>
+	<script>
+		$(document).ready(function(){
+			$(".imglink").colorbox({rel:'gallery', transition:"fade", width:"75%", height:"75%"});
+		});
+	</script>
+
 </head>
 
 <body id="images">
@@ -39,7 +47,7 @@ function do_photo($imgname,$gallery=NULL,$alt=NULL) {
 	if (check_mobile()==true) {
 		echo "<li><a href=\"$phopath/$imgname.jpg\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" border=\"0\" hspace=\"4\" vspace=\"4\"></a></li>\n";
 	} else {
-		echo "<li><a href=\"$phopath/$imgname.jpg\" class=\"imglink\" data-sb=\"shadowbox[".$gallery."]\" title=\"$gallery\" onclick=\"ga('send', 'event', 'Photo', 'View', '$imgname;');\"><img class=\"lazy\" src=\"/images/spacer.gif\" data-href=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" width=\"$tnwidth\" height=\"$tnheight\"></a>
+		echo "<li><a href=\"$phopath/$imgname.jpg\" class=\"imglink\" title=\"$gallery\" onclick=\"ga('send', 'event', 'Photo', 'View', '$imgname;');\"><img class=\"lazy\" src=\"/images/spacer.gif\" data-href=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" width=\"$tnwidth\" height=\"$tnheight\"></a>
 		<noscript><a href=\"$phopath/$imgname.jpg\" title=\"$gallery\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" width=\"$tnwidth\" height=\"$tnheight\"></a></noscript></li>\n";
 	}
 } // end function

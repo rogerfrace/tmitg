@@ -72,7 +72,7 @@
 
 <h1>tMitG Email Contact Form</h1>
 
-<form id="contactForm" action="do_econtact.php" method="post">
+<form role="form" id="contactForm" action="do_econtact.php" method="post">
 
 <div>
 <label for="name">Your Name:</label>

@@ -58,7 +58,7 @@ if ($_GET["item"]) {
 
 <? get_header(); ?>
 
-<div class="mainbody" role="main">
+<main class="mainbody">
 
 <section class="rssicons">
 
@@ -90,7 +90,7 @@ function display_news($newsnum,$pubdate,$title,$description) {
 			echo "<div class=\"sharelinks\">";
 				//permalink
 				echo "<div class=\"shareitem\">
-					<a href=\"/news.php?item=".$newsnum."\" itemprop=\"url\" title=\"Permalink\" name=\"Permalink\"><img src=\"images/icon-link.png\" alt=\"Permalink\" /></a>
+					<a href=\"/news.php?item=".$newsnum."\" itemprop=\"url\" title=\"Permalink\" name=\"Permalink\"><img src=\"images/icon-link.png\" alt=\"Permalink\" /><span class=\"wai\">Permalink</span></a>
 					</div>\n";
 				// facebook
 				echo "<div class=\"shareitem\"><iframe src=\"https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.tmitg.com%2Fnews.php%3Fitem%3D".$newsnum."&width=61&layout=button_count&action=like&size=small&show_faces=false&share=false&height=21&appId=121619441387\" width=\"61\" height=\"21\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe></div>";
@@ -161,7 +161,7 @@ if ($newsnum != "") {
 
 <br style="clear:both;" />
 
-</div> <!-- /mainbody -->
+</main> <!-- /mainbody -->
 
 </body>
 </html>

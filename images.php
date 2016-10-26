@@ -47,7 +47,7 @@ function do_photo($imgname,$gallery=NULL,$alt=NULL) {
 	if (check_mobile()==true) {
 		echo "<li><a href=\"$phopath/$imgname.jpg\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" border=\"0\" hspace=\"4\" vspace=\"4\"></a></li>\n";
 	} else {
-		echo "<li><a href=\"$phopath/$imgname.jpg\" class=\"imglink\" title=\"$gallery\" onclick=\"ga('send', 'event', 'Photo', 'View', '$imgname;');\"><img class=\"lazy\" src=\"/images/spacer.gif\" data-href=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" width=\"$tnwidth\" height=\"$tnheight\"></a>
+		echo "<li><a href=\"$phopath/$imgname.jpg\" class=\"imglink\" title=\"$gallery\" aria-haspopup=\"true\" onclick=\"ga('send', 'event', 'Photo', 'View', '$imgname;');\"><img class=\"lazy\" src=\"/images/spacer.gif\" data-href=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" width=\"$tnwidth\" height=\"$tnheight\"></a>
 		<noscript><a href=\"$phopath/$imgname.jpg\" title=\"$gallery\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" width=\"$tnwidth\" height=\"$tnheight\"></a></noscript></li>\n";
 	}
 } // end function

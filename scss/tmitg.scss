@@ -107,6 +107,12 @@ address {
 	left: -999em;
 }
 
+.wai:focus {
+	position: static;
+	height: auto;
+	left: auto;
+}
+
 .spellout { speak-as: spell-out; }
 
 .fade {
@@ -443,12 +449,16 @@ a.atcss:hover {
 		height:250px;
 	}
 	
-	thead,
-	th {
+	thead {
 		display:none;
 		text-align: left;
 		font-weight: lighter;
 		font-style: oblique;
+	}
+
+	th {
+		text-align: left;
+		font-weight: lighter;
 	}
 	
 	.key {

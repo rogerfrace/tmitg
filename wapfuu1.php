@@ -40,19 +40,19 @@
 
 
 <!-- start tracklisting table -->
-<section id="discog_tracklist" tabindex="0">
+<div id="discog_tracklist" tabindex="0">
 <table role="grid" aria-label="track list">
 	<caption class="wai">Track listing for "When Angels Peer Favorably Upon Us, Volume One"</caption>
-	<thead role="rowgroup">
+	<thead>
 		<tr role="row">
-			<th scope="col" role="columnheader">Track Number</th>
-			<th scope="col" role="columnheader">Track Title</th>
-			<th scope="col" role="columnheader">Lyrics</th>
-			<th scope="col" role="columnheader">Audio</th>
-			<th scope="col" role="columnheader">Video</th>
+			<th scope="col">Track Number</th>
+			<th scope="col">Track Title</th>
+			<th scope="col">Lyrics</th>
+			<th scope="col">Audio</th>
+			<th scope="col">Video</th>
 		</tr>
 	</thead>
-	<tbody role="rowgroup">
+	<tbody>
 <? /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html
@@ -77,7 +77,7 @@ $lyricsfile and videoname do not include .html
 
 	</tbody>
 </table>
-</section> <!-- end tracklist div -->
+</div> <!-- end tracklist div -->
 
 <div class="clearboth"></div>
 </div> <!-- /mainbody -->

@@ -24,11 +24,13 @@ $black: #000000;
 /* site-wide CSS */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 100%;
+	line-height: 1.4;
 	color: $dkgray;
 	font-weight: normal;
 	background-color: $black;
 	margin: 0;
+	min-width: 335px;
 	-ms-touch-action: auto;
 }
 
@@ -45,28 +47,24 @@ body {
 }
 a:active {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
 	color: $altclr;
 	font-weight: normal;
 }
 
 a:link {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
 	color: $altclr;
 	font-weight: normal;
 }
 
 a:hover {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
 	color: $mdgray;
 	font-weight: normal;
 }
 
 a:visited {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
 	color: $fourgray;
 	font-weight: normal;
 }
@@ -188,7 +186,6 @@ a.atcss:hover {
 /* index page */
 #front {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
 	color: $black;
 	font-weight: normal;
 	background-color: $black;
@@ -261,7 +258,7 @@ a.atcss:hover {
 	#navbar ul li a:hover, 
 	#navbar ul li a:visited, 
 	#navbar ul li a img {
-		font-size: 0;
+		font-size: auto;
 		margin: 0;
 		padding: 0;
 	}
@@ -276,7 +273,7 @@ a.atcss:hover {
 		font-family: 'Jacques Francois', Georgia, sans-serif; 
 		font-variant: small-caps;
 		text-decoration:none; 
-		font-size:1.5em;
+		font-size:1.35em;
 		text-shadow:1px 1px 1px $altclr;
 		filter: dropshadow(color=$dkaltclr, offx=1, offy=1);
 	}
@@ -301,10 +298,10 @@ a.atcss:hover {
 	}
 }
 @media screen and (max-width: 600px) {
-	#headblock a {font-size:1.2em;}
+	#headblock a {font-size:1.05em;}
 }
 @media screen and (max-width: 480px) {
-	#headblock a {font-size:1.0em;}
+	#headblock a {font-size:0.9em;}
 }
 
 /* links page */
@@ -319,9 +316,9 @@ a.atcss:hover {
 	div.linksec:target {
 		background-color: $nearwhite;
 	}
-	h3 {
+	h2, h3 {
 		font-family: Arial, Helvetica, sans-serif;
-		font-size: 16px;
+		font-size: 110%;
 		color: $black;
 		font-weight: bold;
 		margin: 0;
@@ -331,7 +328,6 @@ a.atcss:hover {
 	}
 	li  {
 		font-family: 'Times New Roman', Times, serif;
-		font-size: 14px;
 		color: $black;
 		font-weight: normal;
 	}
@@ -863,6 +859,15 @@ iframe#sb-player {
 		}
 	}
 	
+}
+
+/* bio page */
+#bio {
+	main {
+		p:first-child {
+			margin-top: 0;
+		}
+	}
 }
 
 /* lyrics popups */

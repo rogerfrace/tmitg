@@ -168,14 +168,14 @@ article {
 #front h2 {
 	font-family: 'Piedra', Arial, sans-serif;
 	font-weight: normal;
-	font-size: 20px;
+	font-size: 24px;
 	letter-spacing: 1px;
 	color: #ffffff;
 	font-variant: small-caps;
 	text-shadow:2px 2px 3px rgb(110,147,182);
 	filter: dropshadow(color=#486178, offx=2, offy=2);
 }
-p, p a:link {
+p, p a:link, p a:visited, p a:hover {
 	color: white;
 }
 

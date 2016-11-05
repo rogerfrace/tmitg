@@ -83,7 +83,7 @@ if ($_GET["item"]) {
 function display_news($newsnum,$pubdate,$title,$description) {
 	echo "<article>
 		<fieldset style=\"margin-bottom:14px;\" itemprop=\"NewsArticle\" itemscope itemtype=\"http://schema.org/NewsArticle\">
-		<legend><span itemprop=\"datePublished\" content=\"".date("Ymd",strtotime($pubdate))."\" style=\"font-family:arial,sans-serif; font-size:1.25em;\">".date("F jS, Y",strtotime($pubdate))."</span></legend>
+		<legend><time itemprop=\"datePublished\" datetime=\"".date("Y-m-d",strtotime($pubdate))."\" content=\"".date("Ymd",strtotime($pubdate))."\" style=\"font-family:arial,sans-serif; font-size:1.25em;\">".date("F jS, Y",strtotime($pubdate))."</time></legend>
         <strong itemprop=\"headline\">".$title."</strong>
 		<br /><span itemprop=\"articleBody\">".$description."</span>";
 		if (check_mobile()==false) {

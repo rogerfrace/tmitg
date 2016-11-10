@@ -343,6 +343,10 @@ a.atcss:hover {
 
 /* news pages */
 #news {
+	h1 {
+		font-size:100%;
+		margin-top: 0;
+	}
 	.mainbody {
 		*width: 90%;
 		*margin-right: 20px;

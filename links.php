@@ -51,9 +51,8 @@
 <ul>
 <li style="list-style-image:url(<?=get_favicon('http://www.facebook.com');?>);"><a rel="me" href="http://www.facebook.com/tmitg" target="_blank">tMitG on Facebook</a></li>
 <li style="list-style-image:url(<?=get_favicon('http://twitter.com');?>);"><a rel="me" href="http://twitter.com/tmitg" target="_blank">tMitG on Twitter</a></li>
-<li style="list-style-image:url(<?=get_favicon('http://plus.google.com');?>);"><a rel="me" href="https://plus.google.com/111746563913739447111/" target="_blank">tMitG on Google+</a></li>
-<li style="list-style-image:url(<?=get_favicon('http://www.youtube.com');?>);"><a rel="me" href="http://www.youtube.com/tmitg" target="_blank">tMitG on YouTube</a></li>
 <li style="list-style-image:url(<?=get_favicon('http://plus.google.com');?>);"><a rel="me" href="https://plus.google.com/+Tmitg/posts" target="_blank">tMitG on Google+</a></li>
+<li style="list-style-image:url(<?=get_favicon('http://www.youtube.com');?>);"><a rel="me" href="http://www.youtube.com/tmitg" target="_blank">tMitG on YouTube</a></li>
 <li style="list-style-image:url(<?=get_favicon('http://en.wikipedia.org');?>);"><a rel="me" href="http://en.wikipedia.org/wiki/The_Machine_in_the_Garden_%28band%29" target="_blank">tMitG entry on Wikipedia</a></li>
 <li style="list-style-image:url(<?=get_favicon('http://www.discogs.com');?>);"><a rel="me" href="http://www.discogs.com/artist/120399-Machine-In-The-Garden-The" target="_blank">tMitG discography at discogs.com</a></li>
 <li style="list-style-image:url(<?=get_favicon('http://community.livejournal.com');?>);"><a href="http://community.livejournal.com/tmitg/" target="_blank">tMitG community on LiveJournal</a> (run by LiveJournal user severina)</li>
@@ -72,7 +71,6 @@
 <li><a href="https://market.android.com/details?id=artist-Apac5rsyndbjkfsx6462bompp64" target="_blank">tMitG on Google Music/Android Marketplace</a></li>
 <li><a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewArtist?id=5985533" target="_blank">tMitG on iTunes</a></li>
 <li><a rel="me" href="http://www.last.fm/music/the+Machine+in+the+Garden" target="_blank">tMitG on last.fm</a></li>
-<li><a href="http://ie-www.mndigital.com/content-experience/music_content/discography/63489/The_Machine_In_The_Garden/" target="_blank">tMitG on MediaNet</a></li>
 </ul>
 </section>
 
@@ -94,7 +92,6 @@
 <a href="#top" class="btt">(back to top)</a>
 <ul>
 <li><a href="http://theazoic.com/" target="_blank">The Azoic</a></li>
-<li><a href="http://www.hall-of-sermon.de/e/breath-1.htm" target="_blank">The Breath of Life</a></li>
 <li><a href="http://www.christiandeath.com/" target="_blank">Christian Death</a></li>
 <li><a href="http://www.clairevoyant.com/" target="_blank">Claire Voyant</a></li>
 <li><a href="http://www.collide.net/" target="_blank">Collide</a></li>
@@ -233,6 +230,7 @@
 <ul>
 <li><a href="http://www.flowersforthedead.com/dolls/" target="_blank">Fairy Paper Dolls</a></li>
 <li><a href="http://www.happytreefriends.com/" target="_blank">Happy Tree Friends</a></li>
+<li><a href="https://quitsmokingcommunity.org/" target="_blank">Quit Smoking Community</a> because smoking isn't good for vocals</li>
 </ul>
 </section>
 

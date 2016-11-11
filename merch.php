@@ -20,12 +20,8 @@
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@tmitg" />
 	<meta name="twitter:creator" content="@tmitg" />
-	<script src="js/jquery.tools.min.js" type="text/javascript"></script>
-	<script src="tmitg.js" type="text/javascript"></script>
-	<link rel="stylesheet" type="text/css" href="tmitg.css" media="screen" />
-	<?php include_once("headers-additional.php"); ?>
 	<meta name="copyright" content="<?=date('Y',time());?>" />
-	<? include_once("googletracking.html"); ?>
+	<?php include_once("headers-additional.php"); ?>
 </head>
 
 <body id="merch">

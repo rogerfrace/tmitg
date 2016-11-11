@@ -7,6 +7,9 @@
 </style>
 <!-- end header code -->
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
+
 <?php if (check_mobile()==false): ?>
 
 <!-- for twitter -->
@@ -34,12 +37,9 @@ if (window.jQuery) {
 }
 </script>
 
-<!-- this chunk is for shadowbox -->
-<link rel="stylesheet" type="text/css" href="/sb/shadowbox.css" />
-<script type="text/javascript" src="/sb/shadowbox.js"></script>
-<script type="text/javascript">
-Shadowbox.init();
-</script>
-<!-- end shadowbox chunk -->
-
 <?php endif; ?>
+
+<script src="tmitg.js" type="text/javascript"></script>
+<? include_once("fontawesome.inc.php"); ?>
+<link rel="stylesheet" type="text/css" href="tmitg.css">
+<? include_once("googletracking.html"); ?>

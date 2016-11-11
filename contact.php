@@ -13,10 +13,7 @@
     <meta property="fb:app_id" content="145634995501895">
     <meta property="fb:admins" content="1120445561,713632115">
 	<title>the Machine in the Garden - contact</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<?php include_once("headers-additional.php"); ?>
-	<script src="tmitg.js" type="text/javascript"></script>
-
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />
 
 

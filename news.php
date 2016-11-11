@@ -45,12 +45,8 @@ if ($_GET["item"]) {
 	<meta name="twitter:creator" content="@tmitg" />
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once("headers-additional.php"); ?>
-	<link rel="stylesheet" type="text/css" href="tmitg.css" />
-	<script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
-	<script src="tmitg.js" type="text/javascript"></script>
 	<link rel="alternate" type="application/rss+xml" href="/news-rss.xml.php" title="the Machine in the Garden - news" />
 	<link href="https://plus.google.com/111746563913739447111" rel="publisher" />
-	<? include_once("googletracking.html"); ?>
 	<? if (check_mobile()==false) { include_once("fblike.html"); } ?>
 </head>
 

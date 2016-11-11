@@ -1,10 +1,6 @@
 <? require_once("functions.php"); ?>
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html class="no-js ie6 ie678" lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <![endif]-->
-<!--[if IE 7 ]>    <html class="no-js ie7 ie678" lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <![endif]-->
-<!--[if IE 8 ]>    <html class="no-js ie8 ie678" lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <![endif]-->
-<!--[if IE 9 ]>    <html class="no-js ie9" lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <!--<![endif]-->
+<html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <!--<![endif]-->
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="copyright" content="<?=date('Y',time());?>" />
@@ -17,20 +13,12 @@
     <meta property="fb:app_id" content="145634995501895">
     <meta property="fb:admins" content="1120445561,713632115">
 	<title>the Machine in the Garden - contact</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<?php include_once("headers-additional.php"); ?>
-	<script src="js/jquery.tools.min.js" type="text/javascript"></script>
-	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
 	<script src="tmitg.js" type="text/javascript"></script>
-	<!--[if lte IE 9 ]><script src="js/jquery.placeholder.js" type="text/javascript"></script>
-	<![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />
 
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$("#contactForm").validate();
-		});
-	</script>
 
 	<? include_once("googletracking.html"); ?>
 </head>
@@ -73,6 +61,7 @@
 <h1>tMitG Email Contact Form</h1>
 
 <form role="form" id="contactForm" action="do_econtact.php" method="post">
+<small>all fields are required</small>
 
 <div>
 <label for="name">Your Name:</label>

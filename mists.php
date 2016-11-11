@@ -32,11 +32,11 @@
 </head>
 
 <body id="discog">
-	<nav aria-label="Skip Links" class="wai" id="skip-links">
-		<a href="#discog_topnav">Skip to Discography Sub Navigation</a>
-		<a href="#discog_albuminfo">Skip to Album Info</a>
-		<a href="#discog_tracklist">Skip to Track Listing</a>
-		<a href="#discog_buynow">Skip to Buy Now Links</a>
+	<nav aria-label="Skip Links" id="skip-links">
+		<a class="wai" href="#discog_topnav">Skip to Discography Sub Navigation</a>
+		<a class="wai" href="#discog_albuminfo">Skip to Album Info</a>
+		<a class="wai" href="#discog_tracklist">Skip to Track Listing</a>
+		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
 	</nav>
 
 <? get_header(); ?>
@@ -67,19 +67,19 @@
 
 
 <!-- start tracklisting table -->
-<section id="discog_tracklist" tabindex="0">
+<div id="discog_tracklist" tabindex="0">
 <table role="grid" aria-label="track list">
 	<caption class="wai">Track listing for "Out of the Mists"</caption>
-	<thead role="rowgroup">
+	<thead>
 		<tr role="row">
-			<th scope="col" role="columnheader">Track Number</th>
-			<th scope="col" role="columnheader">Track Title</th>
-			<th scope="col" role="columnheader">Lyrics</th>
-			<th scope="col" role="columnheader">Audio</th>
-			<th scope="col" role="columnheader">Video</th>
+			<th scope="col">Track Number</th>
+			<th scope="col">Track Title</th>
+			<th scope="col">Lyrics</th>
+			<th scope="col">Audio</th>
+			<th scope="col">Video</th>
 		</tr>
 	</thead>
-	<tbody role="rowgroup" itemtype="http://schema.org/MusicPlaylist">
+	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
 <? /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
 $lyricsfile and videoname do not include .html
@@ -100,7 +100,7 @@ $lyricsfile and videoname do not include .html
 <? do_songtitle(13,"Fade","fade","fade-bc","mists.jpg",NULL); ?>
 	</tbody>
 </table>
-</section> <!-- end tracklist div -->
+</div> <!-- end tracklist div -->
 
 
 <section id="discog_buynow" tabindex="0" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">

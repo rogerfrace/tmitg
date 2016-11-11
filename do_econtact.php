@@ -112,7 +112,7 @@ $to_address[2] = "summer@tmitg.com"; //Summer
 $to_address[3] = "roger@tmitg.com"; //Roger
 $to_address[5] = "tmitg@tmitg.com"; //Promotional Inquiries
 $to_address[6] = "tmitg@tmitg.com"; //Merchandise Order Inquiries
-$to_address[7] = "tmitg@tmitg.com"; //Web Site Problems
+$to_address[7] = "roger@tmitg.com"; //Web Site Problems
 $to_address[8] = "booking@tmitg.com"; //Booking
 
 // build and send the email

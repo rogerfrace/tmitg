@@ -24,11 +24,13 @@ $black: #000000;
 /* site-wide CSS */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 100%;
+	line-height: 1.4;
 	color: $dkgray;
 	font-weight: normal;
 	background-color: $black;
 	margin: 0;
+	min-width: 335px;
 	-ms-touch-action: auto;
 }
 
@@ -45,28 +47,24 @@ body {
 }
 a:active {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
 	color: $altclr;
 	font-weight: normal;
 }
 
 a:link {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
 	color: $altclr;
 	font-weight: normal;
 }
 
 a:hover {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
 	color: $mdgray;
 	font-weight: normal;
 }
 
 a:visited {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
 	color: $fourgray;
 	font-weight: normal;
 }
@@ -105,6 +103,12 @@ address {
 	position: absolute;
 	height: 0;
 	left: -999em;
+}
+
+.wai:focus {
+	position: static;
+	height: auto;
+	left: auto;
 }
 
 .spellout { speak-as: spell-out; }
@@ -182,7 +186,6 @@ a.atcss:hover {
 /* index page */
 #front {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
 	color: $black;
 	font-weight: normal;
 	background-color: $black;
@@ -255,7 +258,7 @@ a.atcss:hover {
 	#navbar ul li a:hover, 
 	#navbar ul li a:visited, 
 	#navbar ul li a img {
-		font-size: 0;
+		font-size: auto;
 		margin: 0;
 		padding: 0;
 	}
@@ -270,7 +273,7 @@ a.atcss:hover {
 		font-family: 'Jacques Francois', Georgia, sans-serif; 
 		font-variant: small-caps;
 		text-decoration:none; 
-		font-size:1.5em;
+		font-size:1.35em;
 		text-shadow:1px 1px 1px $altclr;
 		filter: dropshadow(color=$dkaltclr, offx=1, offy=1);
 	}
@@ -295,10 +298,10 @@ a.atcss:hover {
 	}
 }
 @media screen and (max-width: 600px) {
-	#headblock a {font-size:1.2em;}
+	#headblock a {font-size:1.05em;}
 }
 @media screen and (max-width: 480px) {
-	#headblock a {font-size:1.0em;}
+	#headblock a {font-size:0.9em;}
 }
 
 /* links page */
@@ -313,9 +316,9 @@ a.atcss:hover {
 	div.linksec:target {
 		background-color: $nearwhite;
 	}
-	h3 {
+	h2, h3 {
 		font-family: Arial, Helvetica, sans-serif;
-		font-size: 16px;
+		font-size: 110%;
 		color: $black;
 		font-weight: bold;
 		margin: 0;
@@ -325,7 +328,6 @@ a.atcss:hover {
 	}
 	li  {
 		font-family: 'Times New Roman', Times, serif;
-		font-size: 14px;
 		color: $black;
 		font-weight: normal;
 	}
@@ -341,6 +343,10 @@ a.atcss:hover {
 
 /* news pages */
 #news {
+	h1 {
+		font-size:100%;
+		margin-top: 0;
+	}
 	.mainbody {
 		*width: 90%;
 		*margin-right: 20px;
@@ -443,12 +449,16 @@ a.atcss:hover {
 		height:250px;
 	}
 	
-	thead,
-	th {
+	thead {
 		display:none;
 		text-align: left;
 		font-weight: lighter;
 		font-style: oblique;
+	}
+
+	th {
+		text-align: left;
+		font-weight: lighter;
 	}
 	
 	.key {
@@ -726,6 +736,13 @@ iframe#sb-player {
 	#rightcolumn h1 {
 		margin: 1px 0 1em 3em;
 	}
+
+	form small {
+		display: block;
+		font-size: 0.8em;
+		margin-left: 13.25em;
+		margin-bottom: 1em;
+	}
 	
 	#mainbody h1 {
 		font-family: sans-serif;
@@ -827,19 +844,42 @@ iframe#sb-player {
 
 
 /* live page */
-#liveTable {
-	width: 100%;
-	border: 1px solid $black;
-
-	.col1 { width:122px; }
-	.col2 { width:87px; }
-	.col3 { width:77px; }
-	.col4 { width:132px; }
-	.col5 { width:486px; }
-	.col6 { width:136px; }
-	th.header {text-align:left;}
+#live {
+	#liveTable {
+		width: 100%;
+		border: 1px solid $black;
+		border-spacing: 1px;
+	
+		.col1 { min-width:122px; }
+		.col2 { min-width:87px; }
+		.col3 { min-width:77px; }
+		.col4 { min-width:132px; }
+		.col5 { min-width:486px; }
+		.col6 { min-width:136px; }
+		thead {
+			text-align:left;
+			background-color: $black;
+			color: white;
+		}
+		tbody {
+			th, td {
+				text-align:left;
+				font-weight:normal;
+				border:1px solid $black;
+			}
+		}
+	}
+	
 }
 
+/* bio page */
+#bio {
+	main {
+		p:first-child {
+			margin-top: 0;
+		}
+	}
+}
 
 /* lyrics popups */
 #lyrics {

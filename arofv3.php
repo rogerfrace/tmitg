@@ -18,11 +18,11 @@
 </head>
 
 <body id="discog">
-	<nav aria-label="Skip Links" class="wai" id="skip-links">
-		<a href="#discog_topnav">Skip to Discography Sub Navigation</a>
-		<a href="#discog_albuminfo">Skip to Album Info</a>
-		<a href="#discog_tracklist">Skip to Track Listing</a>
-		<a href="#discog_buynow">Skip to Buy Now Links</a>
+	<nav aria-label="Skip Links" id="skip-links">
+		<a class="wai" href="#discog_topnav">Skip to Discography Sub Navigation</a>
+		<a class="wai" href="#discog_albuminfo">Skip to Album Info</a>
+		<a class="wai" href="#discog_tracklist">Skip to Track Listing</a>
+		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
 	</nav>
 
 <? get_header(); ?>

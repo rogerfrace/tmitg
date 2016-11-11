@@ -31,11 +31,11 @@
 </head>
 
 <body id="discog">
-	<nav aria-label="Skip Links" class="wai" id="skip-links">
-		<a href="#discog_topnav">Skip to Discography Sub Navigation</a>
-		<a href="#discog_albuminfo">Skip to Album Info</a>
-		<a href="#discog_tracklist">Skip to Track Listing</a>
-		<a href="#discog_buynow">Skip to Buy Now Links</a>
+	<nav aria-label="Skip Links" id="skip-links">
+		<a class="wai" href="#discog_topnav">Skip to Discography Sub Navigation</a>
+		<a class="wai" href="#discog_albuminfo">Skip to Album Info</a>
+		<a class="wai" href="#discog_tracklist">Skip to Track Listing</a>
+		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
 	</nav>
 
 <? get_header(); ?>
@@ -66,7 +66,7 @@
 
 
 <!-- start tracklisting table -->
-<section id="discog_tracklist" tabindex="0">
+<div id="discog_tracklist" tabindex="0">
 <table role="grid" aria-label="track list">
 	<caption class="wai">Track listing for "Miscellany"</caption>
 	<thead>
@@ -78,7 +78,7 @@
 			<th scope="col">Video</th>
 		</tr>
 	</thead>
-	<tbody itemtype="http://schema.org/MusicPlaylist">
+	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
 <? /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html
@@ -101,7 +101,7 @@ $lyricsfile and videoname do not include .html
 
 	</tbody>
 </table>
-</section> <!-- end tracklist div -->
+</div> <!-- end tracklist div -->
 
 
 <section id="discog_buynow" tabindex="0" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">

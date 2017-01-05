@@ -1,6 +1,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta property="fb:app_id" content="121619441387">
 <meta property="fb:admins" content="1120445561,713632115">
+<link rel="stylesheet" type="text/css" href="/css/colorbox.css">
 <!-- this chunk is for the random header -->
 <style type="text/css">
 	#headblock { margin:0; padding:0; width:100%; height:150px; background: url("headers/images/2011/<?=$bgimg[$int];?>") no-repeat scroll 100% 0 #000000; }

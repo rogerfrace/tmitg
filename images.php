@@ -6,7 +6,6 @@
 	<meta charset="utf-8" />
 	<title>the Machine in the Garden - images</title>
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
-	<link rel="stylesheet" type="text/css" href="/css/colorbox.css">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once("headers-additional.php"); ?>
 	<script src="/js/jail.0.9.5.min.js" type="text/javascript"></script>

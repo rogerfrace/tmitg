@@ -51,8 +51,8 @@ jQuery(document).ready(function() {
 	jQuery(".ariapreso").attr("role","presentation");
 	jQuery(".ariapreso").attr("role","presentation");
 
-	// spell out tMitG
-	//jQuery("main:contains('tMitG')").html(function(_, html) {
-	//	return html.replace(/(tMitG)/g, '<span class="spellout">$1</span>');
-	//});
+	// colorbox activation (non-photos)
+	jQuery(".lyriclink").colorbox({rel:'lyrics', transition:"fade", width:"75%", height:"75%"});
+	jQuery(".musiclink").colorbox({rel:'music', transition:"fade", width:"75%", height:"75%"});
+	jQuery(".videolink").colorbox({rel:'videos', transition:"fade", width:"75%", height:"75%"});
 });

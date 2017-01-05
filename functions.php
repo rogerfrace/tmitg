@@ -21,7 +21,6 @@ $lyrpath="lyrics";
 // define lyrics function here
 function do_lyrics($filename,$songname=NULL) {
 	global $lyrpath;
-	$width=350; $height=350;
 
 	if (check_mobile()==true) {
 		echo "<a href=\"$lyrpath/$filename.php\"><span class=\"icon-file-alt\"></span></a>\n";
@@ -34,9 +33,6 @@ function do_lyrics($filename,$songname=NULL) {
 // define video function here
 function do_video($videoname,$songtitle=NULL,$ico=NULL) {
 	// assuming embed size width="480" height="360"
-	
-	$width = 500;
-	$height = 380;
 
 	$songtitle = stripslashes($songtitle);
 
@@ -55,9 +51,6 @@ function do_video($videoname,$songtitle=NULL,$ico=NULL) {
 
 
 function do_mp3bc2($samplename,$songtitle=NULL,$ico=NULL) {
-	$width = 300;
-	$height = 442;
-
 	$songtitle = stripslashes($songtitle);
 
 	if ($ico) {

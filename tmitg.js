@@ -52,7 +52,7 @@ jQuery(document).ready(function() {
 	jQuery(".ariapreso").attr("role","presentation");
 
 	// colorbox activation (non-photos)
-	jQuery(".lyriclink").colorbox({rel:'lyrics', transition:"fade", width:"75%", height:"75%"});
-	jQuery(".musiclink").colorbox({rel:'music', transition:"fade", width:"75%", height:"75%"});
-	jQuery(".videolink").colorbox({rel:'videos', transition:"fade", width:"75%", height:"75%"});
+	jQuery(".lyriclink").colorbox({iframe:'true', returnFocus:'true', title:'lyrics', rel:'lyrics', transition:"fade", width:"400px", height:"80%"});
+	jQuery(".musiclink").colorbox({iframe:'true', returnFocus:'true', rel:'music', transition:"fade", width:"380px", height:"520px"});
+	jQuery(".videolink").colorbox({iframe:'true', returnFocus:'true', rel:'videos', transition:"fade", width:"550px", height:"450px"});
 });

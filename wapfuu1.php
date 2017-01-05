@@ -4,12 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - When Angels Peer Favorably Upon Us, Volume One</title>
-	<link rel="stylesheet" type="text/css" href="tmitg.css" />
-	<? include_once("fontawesome.inc.php"); ?>
-	<script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
-	<script src="tmitg.js" type="text/javascript"></script>
 	<?php include_once("headers-additional.php"); ?>
-	<? include_once("googletracking.html"); ?>
 </head>
 
 <body id="discog">

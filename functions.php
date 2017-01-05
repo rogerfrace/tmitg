@@ -21,12 +21,11 @@ $lyrpath="lyrics";
 // define lyrics function here
 function do_lyrics($filename,$songname=NULL) {
 	global $lyrpath;
-	$width=350; $height=350;
 
 	if (check_mobile()==true) {
 		echo "<a href=\"$lyrpath/$filename.php\"><span class=\"icon-file-alt\"></span></a>\n";
 	} else {
-		echo "<a href=\"$lyrpath/$filename.php\" data-sb=\"shadowbox[lyrics];width=400;height=450\" aria-haspopup=\"true\"><span class=\"icon-file-alt\"></span><span class=\"wai\">view $songname lyrics</span></a>\n";	
+		echo "<a href=\"$lyrpath/$filename.php\" class=\"lyriclink\" aria-haspopup=\"true\"><span class=\"icon-file-alt\"></span><span class=\"wai\">view $songname lyrics</span></a>\n";	
 	}
 }
 
@@ -34,9 +33,6 @@ function do_lyrics($filename,$songname=NULL) {
 // define video function here
 function do_video($videoname,$songtitle=NULL,$ico=NULL) {
 	// assuming embed size width="480" height="360"
-	
-	$width = 500;
-	$height = 380;
 
 	$songtitle = stripslashes($songtitle);
 
@@ -49,15 +45,12 @@ function do_video($videoname,$songtitle=NULL,$ico=NULL) {
 	if ( (check_mobile()==true) ) {
 		echo "<a href=\"viewvideo.php?yt=".$videoname."\" title=\"".stripslashes($songtitle)."\">".$linkname."</a>\n";
 	} else {
-		echo "<a href=\"viewvideo.php?yt=".$videoname."\" data-sb=\"shadowbox[videos];width=".$width.";height=".$height."\" title=\"".stripslashes($songtitle)."\" aria-haspopup=\"true\">".$linkname."</a>\n";
+		echo "<a href=\"viewvideo.php?yt=".$videoname."\" class=\"videolink\" aria-haspopup=\"true\">".$linkname."</a>\n";
 	}
 }
 
 
 function do_mp3bc2($samplename,$songtitle=NULL,$ico=NULL) {
-	$width = 300;
-	$height = 442;
-
 	$songtitle = stripslashes($songtitle);
 
 	if ($ico) {
@@ -69,7 +62,7 @@ function do_mp3bc2($samplename,$songtitle=NULL,$ico=NULL) {
 	if ( (check_mobile()==true) ) {
 		echo "<a href=\"viewmp3bc.php?bcsample=".$samplename."\" title=\"".stripslashes($songtitle)."\">".$linkname."</a>\n";
 	} else {
-		echo "<a href=\"viewmp3bc.php?bcsample=".$samplename."\" data-sb=\"shadowbox[mp3s];width=".$width.";height=".$height."\" title=\"".stripslashes($songtitle)."\" aria-haspopup=\"true\">".$linkname."</a>\n";
+		echo "<a href=\"viewmp3bc.php?bcsample=".$samplename."\" class=\"musiclink\" aria-haspopup=\"true\">".$linkname."</a>\n";
 	}
 }
 
@@ -77,7 +70,7 @@ function do_mp3bc2($samplename,$songtitle=NULL,$ico=NULL) {
 // new table output structure for rows in discogs
 function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle=NULL) {
 	echo "<tr role=\"row\" itemprop=\"track\" itemscope itemtype=\"http://schema.org/MusicRecording\">
-	<th scope=\"row\" role=\"rowheader\"><abbr title=\"track $tracknum\"><span itemprop=\"position\">$tracknum</span></abbr></th>
+	<th scope=\"row\" role=\"rowheader\"><span itemprop=\"position\" aria-label=\"track $tracknum\">$tracknum</span></th>
 	<td role=\"gridcell\" itemprop=\"name\">".stripslashes($songname)."</td>
 	<td role=\"gridcell\">";
 	

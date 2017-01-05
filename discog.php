@@ -5,9 +5,8 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - discography</title>
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
-	<?php include_once("headers-additional.php"); ?>
 	<meta name="copyright" content="<?=date('Y',time());?>" />
-	<script src="js/jquery.tools.min.js" type="text/javascript"></script>
+	<?php include_once("headers-additional.php"); ?>
 	<? include_once("googletracking.html"); ?>
 </head>
 

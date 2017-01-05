@@ -1,19 +1,14 @@
 <?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
 <? require_once("functions.php"); ?>
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html class="no-js ie6 ie678" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="no-js ie7 ie678" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="no-js ie8 ie678" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>the Machine in the Garden - bio</title>
-    <link rel="stylesheet" type="text/css" href="tmitg.css">
-	<?php include_once("headers-additional.php"); ?>
 	<meta name="description" content="the Machine in the Garden offical band biography and history.">
 	<meta name="keywords" content="machine in the garden, tmitg, music, CDs, roger frace, summer bowman, band bio">
 	<meta name="dcterms.dateCopyrighted" content="<?=date('Y',time());?>" />
-	<? include_once("googletracking.html"); ?>
+	<?php include_once("headers-additional.php"); ?>
 </head>
 <body id="bio">
 	<ul class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->

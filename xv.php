@@ -22,12 +22,7 @@
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?=BuildFBOG($fbog);?>
 	<title><?=$fbog['og:title'];?></title>
-	<link rel="stylesheet" type="text/css" href="tmitg.css" />
-	<? include_once("fontawesome.inc.php"); ?>
-	<script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
-	<script src="tmitg.js" type="text/javascript"></script>
 	<?php include_once("headers-additional.php"); ?>
-	<? include_once("googletracking.html"); ?>
 </head>
 
 <body id="discog">

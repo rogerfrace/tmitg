@@ -4,8 +4,8 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>the Machine in the Garden - policies</title>
-    <link rel="stylesheet" type="text/css" href="tmitg.css" />
 	<?php include_once("headers-additional.php"); ?>
+    <link rel="stylesheet" type="text/css" href="tmitg.css" />
 	<? include_once("googletracking.html"); ?>
 </head>
 <body>

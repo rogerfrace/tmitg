@@ -14,10 +14,10 @@
 
 <? get_header(); ?>
 
-<div class="mainbody" role="main">
+<main class="mainbody">
 
-<section id="accordion" role="tablist">
-	<div class="item baats" id="baatstab" role="tab" focusable="true" tabindex="0" aria-controls="baats" aria-selected="false">
+<div id="accordion" role="tablist">
+	<div class="item baats" id="baatstab" role="tab" tabindex="0" aria-controls="baats" aria-selected="false">
 		<img src="albums/baatsico.jpg" class="baatsimg" alt="Before and After the Storm" role="presentation">
 		<div class="detail">
 			<h3>Before and After the Storm</h3>
@@ -25,7 +25,7 @@
 		</div>
 	</div>
 	
-	<div class="item vanir" id="vanirtab" role="tab" focusable="true" tabindex="0" aria-controls="vanir" aria-selected="false">
+	<div class="item vanir" id="vanirtab" role="tab" tabindex="0" aria-controls="vanir" aria-selected="false">
 		<img src="albums/vanirico.jpg" class="vanirimg" alt="In the Vanir" role="presentation">
 		<div class="detail">
 			<h3>In the Vanir</h3>
@@ -33,7 +33,7 @@
 		</div>
 	</div>
 	
-	<div class="item xv" id="xvtab" role="tab" focusable="true" tabindex="0" aria-controls="xv" aria-selected="false">
+	<div class="item xv" id="xvtab" role="tab" tabindex="0" aria-controls="xv" aria-selected="false">
 		<img src="albums/xvico.jpg" class="xvimg" alt="XV" role="presentation">
 		<div class="detail">
 			<h3>XV</h3>
@@ -41,7 +41,7 @@
 		</div>
 	</div>
 		
-	<div class="item sp" id="sptab" role="tab" focusable="true" tabindex="0" aria-controls="sp" aria-selected="false">
+	<div class="item sp" id="sptab" role="tab" tabindex="0" aria-controls="sp" aria-selected="false">
 		<img src="albums/spico.jpg" class="spimg" alt="Shadow Puppets" role="presentation">
 		<div class="detail">
 			<h3>Shadow Puppets</h3>
@@ -49,7 +49,7 @@
 		</div>
 	</div>
 	
-	<div class="item asp" id="asptab" role="tab" focusable="true" tabindex="0" aria-controls="asp" aria-selected="false">
+	<div class="item asp" id="asptab" role="tab" tabindex="0" aria-controls="asp" aria-selected="false">
 		<img src="albums/asphodelico.jpg" class="aspimg" alt="Asphodel" role="presentation">
 		<div class="detail">
 			<h3>Asphodel</h3>
@@ -57,7 +57,7 @@
 		</div>	
 	</div>
 	
-	<div class="item ootm" id="ootmtab" role="tab" focusable="true" tabindex="0" aria-controls="ootm" aria-selected="false">
+	<div class="item ootm" id="ootmtab" role="tab" tabindex="0" aria-controls="ootm" aria-selected="false">
 		<img src="albums/mistsico.jpg" class="ootmimg" alt="Out of the Mists" role="presentation">
 		<div class="detail">
 			<h3>Out of the Mists</h3>
@@ -65,7 +65,7 @@
 		</div>	
 	</div>
 	
-	<div class="item own" id="owntab" role="tab" focusable="true" tabindex="0" aria-controls="own" aria-selected="false">
+	<div class="item own" id="owntab" role="tab" tabindex="0" aria-controls="own" aria-selected="false">
 		<img src="albums/wintersico.jpg" class="ownimg" alt="One Winter's Night..." role="presentation">
 		<div class="detail">
 			<h3>One Winter&rsquo;s Night&hellip;</h3>
@@ -73,7 +73,7 @@
 		</div>	
 	</div>
 	
-	<div class="item uw" id="uwtab" role="tab" focusable="true" tabindex="0" aria-controls="uw" aria-selected="false">
+	<div class="item uw" id="uwtab" role="tab" tabindex="0" aria-controls="uw" aria-selected="false">
 		<img src="albums/underworldico.jpg" class="uwimg" alt="Underworld" role="presentation">
 		<div class="detail">
 			<h3>Underworld</h3>
@@ -81,14 +81,14 @@
 		</div>	
 	</div>
 	
-	<div class="item vs" id="vstab" role="tab" focusable="true" tabindex="0" aria-controls="vs" aria-selected="false">
+	<div class="item vs" id="vstab" role="tab" tabindex="0" aria-controls="vs" aria-selected="false">
 		<img src="albums/vsico.jpg" class="vsimg" alt="Veils and Shadows EP" role="presentation">
 		<div class="detail">
 			<h3>Veils and Shadows EP</h3>
 			<p>1993</p>
 		</div>	
 	</div>
-</section> <!-- /accordion -->
+</div> <!-- /accordion -->
 
 
 <section id="songlist">
@@ -283,7 +283,7 @@
 </section> <!-- /songlist -->
 
 
-</div> <!-- /mainbody -->
+</main> <!-- /mainbody -->
 
 <!-- accordion/tabs javascript -->
 <script type="text/javascript">

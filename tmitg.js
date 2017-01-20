@@ -21,28 +21,28 @@ jQuery(document).ready(function() {
 	var pathname = window.location.pathname;
 	switch (pathname) {
 		case '/vs.php':
-			jQuery("ul.subnav a[href='vs.php'] img").addClass('current');
+			jQuery("ul.subnav a[href='vs.php'] img").addClass('current').attr('aria-current','page');
 		break;
 		case '/underworld.php':
-			jQuery("ul.subnav a[href='underworld.php'] img").addClass('current');
+			jQuery("ul.subnav a[href='underworld.php'] img").addClass('current').attr('aria-current','page');
 		break;
 		case '/winters.php':
-			jQuery("ul.subnav a[href='winters.php'] img").addClass('current');
+			jQuery("ul.subnav a[href='winters.php'] img").addClass('current').attr('aria-current','page');
 		break;
 		case '/mists.php':
-			jQuery("ul.subnav a[href='mists.php'] img").addClass('current');
+			jQuery("ul.subnav a[href='mists.php'] img").addClass('current').attr('aria-current','page');
 		break;
 		case '/asphodel.php':
-			jQuery("ul.subnav a[href='asphodel.php'] img").addClass('current');
+			jQuery("ul.subnav a[href='asphodel.php'] img").addClass('current').attr('aria-current','page');
 		break;
 		case '/shadowpuppets.php':
-			jQuery("ul.subnav a[href='shadowpuppets.php'] img").addClass('current');
+			jQuery("ul.subnav a[href='shadowpuppets.php'] img").addClass('current').attr('aria-current','page');
 		break;
 		case '/xv.php':
-			jQuery("ul.subnav a[href='xv.php'] img").addClass('current');
+			jQuery("ul.subnav a[href='xv.php'] img").addClass('current').attr('aria-current','page');
 		break;
 		case '/storm.php':
-			jQuery("ul.subnav a[href='storm.php'] img").addClass('current');
+			jQuery("ul.subnav a[href='storm.php'] img").addClass('current').attr('aria-current','page');
 		break;
 	}
 	

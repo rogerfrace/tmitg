@@ -108,7 +108,7 @@ $lyricsfile and videoname do not include .html
 
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="CDBaby"><a itemprop="url" href="http://cdbaby.com/cd/themachineinthegarden2" rel="external" onclick="ga('send', 'event', 'BuyNow', 'CDBaby', 'winters');"><img src="images/cdbaby.gif" class="cdbaby" alt="Buy Now from CD Baby" /></a></div>
 
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Projekt"><a itemprop="url" href="http://www.projekt.com/store/product/mpp00999/" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Projekt', 'winters');"><img src="images/projekt.jpg" class="projekt" alt="Buy Now" /></a></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Projekt"><a itemprop="url" href="http://www.projekt.com/store/product/mpp00999/" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Projekt', 'winters');"><img src="images/projekt.jpg" class="projekt" alt="Buy Now from Projekt" /></a></div>
 
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="iTunes"><a itemprop="url" href="https://itunes.apple.com/us/album/one-winters-night.../id949294972" id="itmslink" rel="external" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'winters');"><img src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes105x31dark.gif" class="itunes" alt="Buy Now from iTunes" /></a></div>
 

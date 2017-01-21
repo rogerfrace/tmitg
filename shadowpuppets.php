@@ -105,7 +105,7 @@ $lyricsfile and videoname do not include .html
 
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="CDBaby"><a itemprop="url" href="http://cdbaby.com/cd/themachineinthegarden5" rel="external" onclick="ga('send', 'event', 'BuyNow', 'CDBaby', 'shadowpuppets');"><img src="images/cdbaby.gif" class="cdbaby" alt="Buy Now from CD Baby" /></a></div>
 
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Projekt"><a itemprop="url" href="http://www.projekt.com/store/product/mpp00975/" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Projekt', 'shadowpuppets');"><img src="images/projekt.jpg" class="projekt" alt="Buy Now" /></a></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Projekt"><a itemprop="url" href="http://www.projekt.com/store/product/mpp00975/" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Projekt', 'shadowpuppets');"><img src="images/projekt.jpg" class="projekt" alt="Buy Now from Projekt" /></a></div>
 
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="iTunes"><a itemprop="url" href="https://itunes.apple.com/us/album/shadow-puppets/id953109356" id="itmslink" rel="external" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'shadowpuppets');"><img src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes105x31dark.gif" class="itunes" alt="Buy Now from iTunes" /></a></div>
 		

@@ -45,6 +45,7 @@ require_once("functions.php");
 		body {background-image: url("headers/images/home/<?=$bgimg[$int];?>");}
 	</style>
 	<script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
 	<script src="tmitg.js" type="text/javascript"></script>
 	<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"MusicGroup","url":"http:\/\/www.tmitg.com\/","sameAs":["https:\/\/www.facebook.com\/tmitg","https:\/\/twitter.com\/tmitg","https:\/\/plus.google.com\/+Tmitg\/about","https:\/\/www.youtube.com\/tmitg"],"name":"the Machine in the Garden","foundingDate":"1992"}</script>
 	<? include_once("googletracking.html"); ?>
@@ -93,7 +94,7 @@ require_once("functions.php");
 	<article>
 		<!-- recent news section -->
 		<h2>Recent News</h2>
-		<p class="notopmargin"><a href="https://tmitg.bandcamp.com/album/miscellany"><img style="float:left; margin:2px 8px 8px 0; border:0;" src="http://www.tmitg.com/albums/miscellanyico.jpg" alt="Miscellany" /></a> We are happy to announce that many rare <abbr title="the Machine in the Garden">tMitG</abbr> tracks including compilation appearances and selections from <i>When Angel's Peer Favorably Upon Us</i>, as well as some previously unreleased recordings from our archives, are now available on <a href="https://tmitg.bandcamp.com/album/miscellany">our Bandcamp page</a>.</p><p>Many of these songs were exclusive to their compilations and therefore elusive to our fans, and most were previously unavailable digitally. We're glad that we were able to collect these songs in a single location for everyone to enjoy.</p>
+		<p class="notopmargin"><a href="https://tmitg.bandcamp.com/album/miscellany"><img style="float:left; margin:2px 8px 8px 0; border:0;" src="http://www.tmitg.com/albums/miscellanyico.jpg" alt="Miscellany" /></a> We are happy to announce that many rare <abbr title="the Machine in the Garden" aria-label="t m i t h">tMitG</abbr> tracks including compilation appearances and selections from <i>When Angel's Peer Favorably Upon Us</i>, as well as some previously unreleased recordings from our archives, are now available on <a href="https://tmitg.bandcamp.com/album/miscellany">our Bandcamp page</a>.</p><p>Many of these songs were exclusive to their compilations and therefore elusive to our fans, and most were previously unavailable digitally. We're glad that we were able to collect these songs in a single location for everyone to enjoy.</p>
 
 		<div style="clear:both;"></div>
 	</article>

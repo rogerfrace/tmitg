@@ -23,6 +23,8 @@
 	<?=BuildFBOG($fbog);?>
 	<title><?=$fbog['og:title'];?></title>
 	<?php include_once("headers-additional.php"); ?>
+	<link rel="prev" href="/underworld.php">
+	<link rel="next" href="/mists.php">
 </head>
 
 <body id="discog">

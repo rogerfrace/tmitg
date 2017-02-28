@@ -1,6 +1,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta property="fb:app_id" content="121619441387">
 <meta property="fb:admins" content="1120445561,713632115">
+
+<meta name="application-name" content="the Machine in the Garden">
+<meta name="msapplication-square150x150logo" content="ms-tile-medium.jpg">
+<meta name="msapplication-TileColor" content="#9d0c0c">
+
 <link rel="stylesheet" type="text/css" href="/css/colorbox.css">
 <!-- this chunk is for the random header -->
 <style type="text/css">

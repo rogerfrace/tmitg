@@ -34,7 +34,7 @@
 	</div>
 	
 	<div class="item xv" id="xvtab" role="tab" tabindex="0" aria-controls="xv" aria-selected="false">
-		<img src="albums/xvico.jpg" class="xvimg" alt="XV" role="presentation">
+		<img src="albums/xvico.jpg" class="xvimg" alt="" role="presentation">
 		<div class="detail">
 			<h3>XV</h3>
 			<p>2007</p>
@@ -92,7 +92,7 @@
 
 
 <section id="songlist">
-	<div class="songs baats" id="baats" role="tabpanel" aria-labelledby="baatstab" aria-expanded="false">
+	<div class="songs baats" id="baats" role="tabpanel" aria-labelledby="baatstab">
 		<div class="albumcol">
 			<p><a href="storm.php"><img src="albums/baats.jpg" width="200" height="200" class="cover" alt="Before and After the Storm"></a></p>
 		</div>
@@ -112,7 +112,7 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs vanir" id="vanir" role="tabpanel" aria-labelledby="vanirtab" aria-expanded="false">
+	<div class="songs vanir" id="vanir" role="tabpanel" aria-labelledby="vanirtab">
 		<div class="albumcol">
 			<p><a href="vanir.php"><img src="albums/vanir.jpg" width="200" height="200" class="cover" alt="In the Vanir"></a></p>
 		</div>
@@ -127,7 +127,7 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs xv" id="xv" role="tabpanel" aria-labelledby="xvtab" aria-expanded="false">
+	<div class="songs xv" id="xv" role="tabpanel" aria-labelledby="xvtab">
 		<div class="albumcol">
 			<p><a href="xv.php"><img src="albums/xv.jpg" width="200" height="200" class="cover" alt="XV"></a></p>
 		</div>
@@ -146,7 +146,7 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs sp" id="sp" role="tabpanel" aria-labelledby="sptab" aria-expanded="false">
+	<div class="songs sp" id="sp" role="tabpanel" aria-labelledby="sptab">
 		<div class="albumcol">
 			<p><a href="shadowpuppets.php"><img src="albums/sp.jpg" width="200" height="200" class="cover" alt="Shadow Puppets"></a></p>
 		</div>
@@ -169,7 +169,7 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs asp" id="asp" role="tabpanel" aria-labelledby="asptab" aria-expanded="false">
+	<div class="songs asp" id="asp" role="tabpanel" aria-labelledby="asptab">
 		<div class="albumcol">
 			<p><a href="asphodel.php"><img src="albums/asphodel.jpg" width="200" height="200" class="cover" alt="Asphodel"></a></p>
 		</div>
@@ -193,7 +193,7 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs ootm" id="ootm" role="tabpanel" aria-labelledby="ootmtab" aria-expanded="false">
+	<div class="songs ootm" id="ootm" role="tabpanel" aria-labelledby="ootmtab">
 		<div class="albumcol">
 			<p><a href="mists.php"><img src="albums/mists.jpg" width="224" height="200" class="cover" alt="Out of the Mists"></a></p>
 		</div>
@@ -216,7 +216,7 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs own" id="own" role="tabpanel" aria-labelledby="owntab" aria-expanded="false">
+	<div class="songs own" id="own" role="tabpanel" aria-labelledby="owntab">
 		<div class="albumcol">
 			<p><a href="winters.php"><img src="albums/winters.jpg" width="224" height="200" class="cover" alt="One Winter's Night..."></a></p>
 		</div>
@@ -243,7 +243,7 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs uw" id="uw" role="tabpanel" aria-labelledby="uwtab" aria-expanded="false">
+	<div class="songs uw" id="uw" role="tabpanel" aria-labelledby="uwtab">
 		<div class="albumcol">
 			<p><a href="underworld.php"><img src="albums/underworld.jpg" width="200" height="200" class="cover" alt="Underworld"></a></p>
 		</div>
@@ -266,7 +266,7 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs vs" id="vs" role="tabpanel" aria-labelledby="vstab" aria-expanded="false">
+	<div class="songs vs" id="vs" role="tabpanel" aria-labelledby="vstab">
 		<div class="albumcol">
 			<p><a href="vs.php"><img src="albums/vs.jpg" width="200" height="200" class="cover" alt="Veils and Shadows EP"></a></p>
 		</div>
@@ -300,8 +300,9 @@ $(document).ready(function() {
 	
 	/* set initial song display */
 	$("#songlist div.songs:visible").hide();
-	$("#songlist div.songs.baats").show().attr("aria-expanded","true");
+	$("#songlist div.songs.baats").show();
 	$("#accordion .item").addClass('fade');
+	$("#accordion .item img").attr("aria-hidden","true");
 	$("#accordion .baats").removeClass('fade').attr("aria-selected","true");
 
 	/* all of the click activations */
@@ -309,8 +310,8 @@ $(document).ready(function() {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
 			$("#accordion .item").addClass('fade').attr("aria-selected","false");
 			$("#accordion .baats").removeClass('fade').attr("aria-selected","true");
-			$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
-			$("#songlist div.songs.baats").show().attr("aria-expanded","true");
+			$("#songlist div.songs:visible").hide();
+			$("#songlist div.songs.baats").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'baats');
 		}
 	});
@@ -318,8 +319,8 @@ $(document).ready(function() {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
 			$("#accordion .item").addClass('fade').attr("aria-selected","false");
 			$("#accordion .vanir").removeClass('fade').attr("aria-selected","true");
-			$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
-			$("#songlist div.songs.vanir").show().attr("aria-expanded","true");
+			$("#songlist div.songs:visible").hide();
+			$("#songlist div.songs.vanir").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'vanir');
 		}
 	});
@@ -327,8 +328,8 @@ $(document).ready(function() {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
 			$("#accordion .item").addClass('fade').attr("aria-selected","false");
 			$("#accordion .xv").removeClass('fade').attr("aria-selected","true");
-			$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
-			$("#songlist div.songs.xv").show().attr("aria-expanded","true");
+			$("#songlist div.songs:visible").hide();
+			$("#songlist div.songs.xv").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'xv');
 		}
 	});
@@ -336,8 +337,8 @@ $(document).ready(function() {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
 			$("#accordion .item").addClass('fade').attr("aria-selected","false");
 			$("#accordion .sp").removeClass('fade').attr("aria-selected","true");
-			$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
-			$("#songlist div.songs.sp").show().attr("aria-expanded","true");
+			$("#songlist div.songs:visible").hide();
+			$("#songlist div.songs.sp").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'shadowpuppets');
 		}
 	});
@@ -345,8 +346,8 @@ $(document).ready(function() {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
 			$("#accordion .item").addClass('fade').attr("aria-selected","false");
 			$("#accordion .asp").removeClass('fade').attr("aria-selected","true");
-			$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
-			$("#songlist div.songs.asp").show().attr("aria-expanded","true");
+			$("#songlist div.songs:visible").hide();
+			$("#songlist div.songs.asp").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'asphodel');
 		}
 	});
@@ -354,8 +355,8 @@ $(document).ready(function() {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
 			$("#accordion .item").addClass('fade').attr("aria-selected","false");
 			$("#accordion .ootm").removeClass('fade').attr("aria-selected","true");
-			$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
-			$("#songlist div.songs.ootm").show().attr("aria-expanded","true");
+			$("#songlist div.songs:visible").hide();
+			$("#songlist div.songs.ootm").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'mists');
 		}
 	});
@@ -363,8 +364,8 @@ $(document).ready(function() {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
 			$("#accordion .item").addClass('fade').attr("aria-selected","false");
 			$("#accordion .own").removeClass('fade').attr("aria-selected","true");
-			$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
-			$("#songlist div.songs.own").show().attr("aria-expanded","true");
+			$("#songlist div.songs:visible").hide();
+			$("#songlist div.songs.own").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'winters');
 		}
 	});
@@ -372,8 +373,8 @@ $(document).ready(function() {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
 			$("#accordion .item").addClass('fade').attr("aria-selected","false");
 			$("#accordion .uw").removeClass('fade').attr("aria-selected","true");
-			$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
-			$("#songlist div.songs.uw").show().attr("aria-expanded","true");
+			$("#songlist div.songs:visible").hide();
+			$("#songlist div.songs.uw").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'underworld');
 		}
 	});
@@ -381,8 +382,8 @@ $(document).ready(function() {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
 			$("#accordion .item").addClass('fade').attr("aria-selected","false");
 			$("#accordion .vs").removeClass('fade').attr("aria-selected","true");
-			$("#songlist div.songs:visible").hide().attr("aria-expanded","false");
-			$("#songlist div.songs.vs").show().attr("aria-expanded","true");
+			$("#songlist div.songs:visible").hide();
+			$("#songlist div.songs.vs").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'vsep');
 		}
 	});

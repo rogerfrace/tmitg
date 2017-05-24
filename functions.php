@@ -25,7 +25,7 @@ function do_lyrics($filename,$songname=NULL) {
 	if (check_mobile()==true) {
 		echo "<a href=\"$lyrpath/$filename.php\"><span class=\"icon-file-alt\"></span></a>\n";
 	} else {
-		echo "<a href=\"$lyrpath/$filename.php\" class=\"lyriclink\" aria-haspopup=\"true\"><span class=\"icon-file-alt\"></span><span class=\"wai\">view $songname lyrics</span></a>\n";	
+		echo "<a role=\"button\" href=\"$lyrpath/$filename.php\" class=\"lyriclink\" aria-haspopup=\"true\"><span class=\"icon-file-alt\"></span><span class=\"wai\">view $songname lyrics</span></a>\n";	
 	}
 }
 
@@ -45,7 +45,7 @@ function do_video($videoname,$songtitle=NULL,$ico=NULL) {
 	if ( (check_mobile()==true) ) {
 		echo "<a href=\"viewvideo.php?yt=".$videoname."\" title=\"".stripslashes($songtitle)."\">".$linkname."</a>\n";
 	} else {
-		echo "<a href=\"viewvideo.php?yt=".$videoname."\" class=\"videolink\" aria-haspopup=\"true\">".$linkname."</a>\n";
+		echo "<a role=\"button\" href=\"viewvideo.php?yt=".$videoname."\" class=\"videolink\" aria-haspopup=\"true\">".$linkname."</a>\n";
 	}
 }
 
@@ -62,7 +62,7 @@ function do_mp3bc2($samplename,$songtitle=NULL,$ico=NULL) {
 	if ( (check_mobile()==true) ) {
 		echo "<a href=\"viewmp3bc.php?bcsample=".$samplename."\" title=\"".stripslashes($songtitle)."\">".$linkname."</a>\n";
 	} else {
-		echo "<a href=\"viewmp3bc.php?bcsample=".$samplename."\" class=\"musiclink\" aria-haspopup=\"true\">".$linkname."</a>\n";
+		echo "<a role=\"button\" href=\"viewmp3bc.php?bcsample=".$samplename."\" class=\"musiclink\" aria-haspopup=\"true\">".$linkname."</a>\n";
 	}
 }
 

@@ -141,6 +141,10 @@ ErrorDocument 508 '<a href="http://www.flickr.com/photos/girliemac/6509400445/" 
   RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=dawnremix [R=301,L]
 
   RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
+  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)dawn(.+)$
+  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=dawn [R=301,L]
+
+  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
   RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)moreuntofire(.+)$
   RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=moreuntofire [R=301,L]
 
@@ -151,6 +155,26 @@ ErrorDocument 508 '<a href="http://www.flickr.com/photos/girliemac/6509400445/" 
   RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
   RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)coventrycarol(.+)$
   RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=coventrycarol [R=301,L]
+
+  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
+  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)wonderland(.+)$
+  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=wonderland [R=301,L]
+
+  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
+  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)outside(.+)$
+  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=outside [R=301,L]
+  
+  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
+  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)sixdays(.+)$
+  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=sixdays [R=301,L]
+
+  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
+  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)intrigue(.+)$
+  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=intrigue [R=301,L]
+
+  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
+  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)fade(.+)$
+  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=fade [R=301,L]
 
   # video redirects
   RewriteRule ^media/cimmerian-youtube-vid.php$ http://www.tmitg.com/viewvideo.php?yt=cimmerian [R=301,L]

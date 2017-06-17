@@ -189,15 +189,7 @@ ErrorDocument 508 '<a href="http://www.flickr.com/photos/girliemac/6509400445/" 
   RewriteRule ^albums/asphodelico.gif$ albums/asphodelico.jpg
   RewriteRule ^albums/underworldico.gif$ albums/underworldico.jpg
   RewriteRule ^albums/vsico.gif$ albums/vsico.jpg
-  
-  # minify js
-  RewriteRule ^tmitg.js$	min/f=tmitg.js
-
-  # minify css
-  RewriteRule ^tmitg.css$	min/f=tmitg.css
-  RewriteRule ^tmitg-mob.css$	min/f=tmitg-mob.css
-  RewriteRule ^css/tabs-accordion-horizontal.css$	min/f=css/tabs-accordion-horizontal.css
-    
+      
   # dead things
   RewriteRule ^fanarea(.*)$ - [G,NC]
   RewriteRule ^media(.*)$ - [G,NC]

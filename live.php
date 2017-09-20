@@ -11,18 +11,23 @@
 	<meta name="keywords" content="machine in the garden, tmitg, music, CDs, roger frace, summer bowman, performances, shows, live">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once("headers-additional.php"); ?>
-	
+	<script src="/js/jquery.stickytableheaders.min.js"></script>
+  <script>
+	jQuery(document).ready(function() {
+		$('table#liveTable').stickyTableHeaders();
+	});
+	</script>
 	<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAA1X0V6TOrwS2XcT9oTLdSyxTpVTUd74_NY-Jkhumb6CF42d9gpBT6YuUiVE3t2jtcZZ7oOAuXeYGDZg" type="text/javascript"></script>
 	<script type="text/javascript">
 		function initialize() {
 			if (GBrowserIsCompatible()) {
 				// this variable will collect the html which will eventualkly be placed in the side_bar
 				var side_bar_html = "";
-				
+
 				// arrays to hold copies of the markers used by the side_bar
 				// because the function closure trick doesnt work there
 				var gmarkers = [];
-				
+
 				// A function to create the marker and set up the event window
 				function createMarker(point,name,html) {
 					var marker = new GMarker(point);
@@ -35,22 +40,22 @@
 				side_bar_html += '<a href="javascript:myclick(' + (gmarkers.length-1) + ')">' + name + '<\/a><br>';
 				return marker;
 				}
-				
-				
+
+
 				// This function picks up the click and opens the corresponding info window
 				function myclick(i) {
 				GEvent.trigger(gmarkers[i], "click");
 				}
-	
+
 				var map = new GMap2(document.getElementById("map_canvas"));
 				map.setCenter(new GLatLng(37.464165, -97.685381), 4);
 				map.setUIToDefault();
-				
+
 				// Read the data from example.xml
 				GDownloadUrl("livegmap.xml", function(doc) {
 				var xmlDoc = GXml.parse(doc);
 				var markers = xmlDoc.documentElement.getElementsByTagName("marker");
-				
+
 				for (var i = 0; i < markers.length; i++) {
 					// obtain the attribues of each marker
 					var lat = parseFloat(markers[i].getAttribute("lat"));
@@ -85,7 +90,7 @@
 <!--<p class="notopmargin"><b>Saturday, November 30, 2013</b>
 <br /><b>Austin, TX</b>
 <br /><a href="http://www.elysumonline.net/" target="_parent">Elysium</a>
-<br />705 Red River, Austin, TX 
+<br />705 Red River, Austin, TX
 <br />with <a href="http://www.egolikeness.com/" target="_blank">Ego Likeness</a> (12am), <a href="https://www.facebook.com/pages/Servitor/344543773871" target="_blank">Servitor</a> (11pm) and <a href="https://www.facebook.com/XBRMNT" target="_blank">XBRMNT</a> (9pm)
 <br />Doors open at 8 PM &bull; Show Starts at 8 PM &bull; $9 in advance &bull; $14 at the door &bull; 18+
 <br /><a href="https://www.facebook.com/events/323911431084405/" target="_blank">View the Facebook Event</a>
@@ -153,7 +158,7 @@
   <td role="gridcell">The Inside World, This Silence, Wonderland, Spider's Bride, Control, Open, Icarus, Mental Wasteland, Suspend</td>
   <td role="gridcell">&nbsp;</td>
  </tr>
- 
+
   <tr role="row">
   <th role="rowheader">February 9, 2007</th>
   <td role="gridcell">Austin, TX</td>
@@ -162,7 +167,7 @@
   <td role="gridcell">The Inside World, Masks, This Silence, Wonderland, Spider's Bride, Seek, Control, Final Form, On the Wire, A Touch of Heaven</td>
   <td role="gridcell">&nbsp;</td>
  </tr>
- 
+
  <tr role="row">
   <th role="rowheader">November 24, 2006</th>
   <td role="gridcell">Austin, TX</td>

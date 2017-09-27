@@ -28,10 +28,10 @@ require_once("functions.php");
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<meta content="minimum-scale=1.0, initial-scale=1" name="viewport" />
 
-	<link rel="apple-touch-icon-precomposed" href="touch-icon-precomposed.png">        
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="touch-icon-72x72-precomposed.png">        
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="touch-icon-114x114-precomposed.png">        
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="touch-icon-144x144-precomposed.png">        
+	<link rel="apple-touch-icon-precomposed" href="touch-icon-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="touch-icon-144x144-precomposed.png">
 	<meta name="msapplication-TileColor" content="#bf1025"/>
 	<meta name="msapplication-TileImage" content="touch-icon-144x144-precomposed.png">
 
@@ -41,6 +41,17 @@ require_once("functions.php");
 	<![endif]-->
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />
 	<link rel="stylesheet" type="text/css" href="tmitg-home.css.php" media="all">
+	<?php if (check_mobile()==true) {
+					// adjustments for phablet landscape
+					echo "<style type=\"text/css\">
+						#front nav.desktop {display:none;}
+						@media screen and (min-width: 480px) {
+							#front nav.desktop {display:block;}
+							#front #mobilenav nav {display:none;}
+						}
+					</style>";
+				}
+	?>
 	<style type="text/css">
 		body {background-image: url("headers/images/home/<?=$bgimg[$int];?>");}
 	</style>
@@ -90,7 +101,7 @@ require_once("functions.php");
 		<h2>About</h2>
 		<p class="notopmargin">The Machine in the Garden is a gothic/darkwave duo featuring Roger Frac&eacute; and Summer Bowman. Since their formation in the early 1990s, Roger and Summer have developed and advanced their unique style through years of collaborating and intertwining their musical tastes. The band has developed their own unique style and released seven full-length albums and one EP.</p>
 	</article>
-		
+
 	<article>
 		<!-- recent news section -->
 		<h2>Recent News</h2>
@@ -98,23 +109,23 @@ require_once("functions.php");
 
 		<div style="clear:both;"></div>
 	</article>
-	
-		
+
+
 	<article>
 		<!-- live shows section -->
 		<h2>Live Shows</h2>
-		
+
 		<!--<p class="notopmargin"><b>Saturday, November 30, 2013</b>
 		<br /><b>Austin, TX</b>
 		<br /><a href="http://www.elysumonline.net/" target="_parent">Elysium</a>
-		<br />705 Red River, Austin, TX 
+		<br />705 Red River, Austin, TX
 		<br />with <a href="http://www.egolikeness.com/" target="_blank">Ego Likeness</a> (12am), <a href="https://www.facebook.com/pages/Servitor/344543773871" target="_blank">Servitor</a> (11pm) and <a href="https://www.facebook.com/XBRMNT" target="_blank">XBRMNT</a> (9pm)
 		<br />Doors open at 8 PM &bull; Show Starts at 8 PM &bull; $9 in advance &bull; $14 at the door &bull; 18+
 		<br /><a href="https://www.facebook.com/events/323911431084405/" target="_blank">View the Facebook Event</a>
 		<br />tMitG is scheduled for 10pm.</p>-->
-		
+
 		<p class="notopmargin">No live shows are scheduled at this time.</p>
-		
+
 		<p>Interested in booking the Machine in the Garden? Please <a href="contact.php" target="_parent">contact us</a>.</p>
 	</article>
 </section>

@@ -41,17 +41,6 @@ require_once("functions.php");
 	<![endif]-->
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />
 	<link rel="stylesheet" type="text/css" href="tmitg-home.css.php" media="all">
-	<?php if (check_mobile()==true) {
-					// adjustments for phablet landscape
-					echo "<style type=\"text/css\">
-						#front nav.desktop {display:none;}
-						@media screen and (min-width: 480px) {
-							#front nav.desktop {display:block;}
-							#front #mobilenav nav {display:none;}
-						}
-					</style>";
-				}
-	?>
 	<style type="text/css">
 		body {background-image: url("headers/images/home/<?=$bgimg[$int];?>");}
 	</style>
@@ -64,8 +53,6 @@ require_once("functions.php");
 
 <body id="front">
 
-<?php if (check_mobile()==true) { require_once("headers/mobileheader.html"); } ?>
-
 <div id="bkgrnd"><img src="headers/images/home/<?=$bgimg[$int];?>" alt=""></div>
 
 <?php if (stristr($_SERVER['HTTP_USER_AGENT'],"Windows NT 5.1")): ?>
@@ -75,11 +62,9 @@ require_once("functions.php");
 <?php endif; ?>
 
 <!-- title bar -->
-<?php if (check_mobile()==false): ?>
 <header id="titlebar">
 	<h1><span class="title">the Machine in the Garden</span><span class="subtitle">the official website</span></h1>
 </header>
-<?php endif; ?>
 <!--- end title bar -->
 
 <nav class="desktop" aria-label="Primary">
@@ -95,6 +80,21 @@ require_once("functions.php");
 		<li><a href="live.php">live shows</a></li>
 	</ul>
 </nav>
+<nav class="mobile" aria-label="Primary">
+  <button aria-expanded="false"><span class="wai">Toggle Navigation</span></button>
+  <div>
+		<a href="news.php">news</a>
+		<a href="discog.php">discography</a>
+		<a href="music.php">music</a>
+		<a href="images.php">images</a>
+		<a href="bio.php">bio</a>
+		<a href="merch.php">merchandise</a>
+		<a href="contact.php">contact</a>
+		<a href="links.php">links</a>
+		<a href="live.php">live shows</a>
+  </div>
+</nav>
+
 
 <section role="main">
 	<article>

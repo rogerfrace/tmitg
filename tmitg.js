@@ -45,9 +45,9 @@ jQuery(document).ready(function() {
 			jQuery("ul.subnav a[href='storm.php'] img").addClass('current').attr('aria-current','page');
 		break;
 	}
-	
+
 	// convert aria classes to roles and states
-	jQuery(".ariahidden").attr("aria-hidden","true");	
+	jQuery(".ariahidden").attr("aria-hidden","true");
 	jQuery(".ariapreso").attr("role","presentation");
 	jQuery(".ariapreso").attr("role","presentation");
 
@@ -55,9 +55,19 @@ jQuery(document).ready(function() {
 	jQuery(".lyriclink").colorbox({iframe:'true', returnFocus:'true', rel:'lyrics', transition:"fade", width:"400px", height:"80%"});
 	jQuery(".musiclink").colorbox({iframe:'true', returnFocus:'true', rel:'music', transition:"fade", width:"380px", height:"520px"});
 	jQuery(".videolink").colorbox({iframe:'true', returnFocus:'true', rel:'videos', transition:"fade", width:"550px", height:"450px"});
-	
-	// append aria-modal="true" to modals 
+
+	// append aria-modal="true" to modals
 	jQuery(document).bind('cbox_complete', function(){
 		jQuery("[role='dialog']").attr("aria-modal","true");
 	});
+
+	// homepage mobile nav
+	$('button').click(function() {
+  	  $(this).toggleClass('expanded').siblings('div').slideToggle();
+  	  if ($(this).hasClass("expanded")){
+  	  	$(this).attr("aria-expanded","true");
+  	  } else {
+  	  	$(this).attr("aria-expanded","false");
+  	  }
+    });
 });

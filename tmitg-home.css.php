@@ -115,7 +115,7 @@ article {
 	padding: 0 1em 1em;
 	margin: 20px 50px 0 200px;
 	background-color: rgba(110,147,182,0.66);
-	border: 5px solid rgb(110,147,182);		
+	border: 5px solid rgb(110,147,182);
 	-webkit-border-radius: 3em;
 	-moz-border-radius: 3em;
 	border-radius: 3em;
@@ -186,17 +186,20 @@ p, p a:link, p a:visited, p a:hover {
 @media screen and (max-width: 930px) {
 	#front h1 .title {font-size:40px;}
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
 	#front h1 .title {font-size:35px;}
 }
-@media screen and (max-width: 480px) {
-	#front #mobilenav {background-color:#000; color:#fff; padding:1em;}
-	#front #mobilenav a {color:#fff; font-size:18px; line-height:1.5;}
-	#front #mobilenav h1 {display:none;}
-	#front #mobilenav nav {position:relative;}
-	#front nav.desktop {display:none;}
-	#front article {margin:1em;}
-	#front #titlebar h1 {padding:0 1em;}
-	#front h1 .title {font-size:22px;}
-	#front h1 .subtitle {margin:0; text-align:right;}
+@media screen and (max-width: 560px) {
+	#front h1 .title {font-size:25px;}
+}
+@media screen and (max-width: 425px) {
+	#front h1 .title {font-size:17px;}
+	#front h1 .subtitle {font-size:15px;}
+}
+
+@import url("tmitg-mobile.css");
+
+@media (max-width: 725px) {
+	#front #titlebar h1 {padding-left:70px;}
+	#front article {margin-left:50px;}
 }

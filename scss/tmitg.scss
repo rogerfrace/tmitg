@@ -271,7 +271,8 @@ a.atcss:hover {
 /* header block */
 /* #headblock is in headers-additional */
 #headblock {
-	a {
+	header a,
+	.desktop a {
 		color:white;
 		font-family: 'Jacques Francois', Georgia, sans-serif;
 		font-variant: small-caps;
@@ -280,18 +281,18 @@ a.atcss:hover {
 		text-shadow:1px 1px 1px $altclr;
 		filter: dropshadow(color=$dkaltclr, offx=1, offy=1);
 	}
-	a:hover {
+	.desktop a:hover {
 		text-shadow:4px 4px 4px $altclr;
 		filter: dropshadow(color=$dkaltclr, offx=3, offy=3);
 	}
-	.top { margin:0; padding:0; position:absolute; left:2px; top:90px; }
+	.top { margin:0; padding:0; position:absolute; left:20px; top:90px; }
 	.top li { padding:0 0 0 15px; display:inline; }
-	.bottom { margin:0; padding:0; position:absolute; left:2px; top:120px; }
+	.bottom { margin:0; padding:0; position:absolute; left:20px; top:120px; }
 	.bottom li { padding:0 0 0 15px; display:inline; }
 	.sitename {
 		position: absolute;
 		top: 8px;
-		left: 15px;
+		left: 30px;
 		font-family: 'Jacques Francois', Georgia, serif;
 		font-variant: small-caps;
 		font-size: 2em;
@@ -300,11 +301,20 @@ a.atcss:hover {
 		filter: dropshadow(color=$dkaltclr, offx=2, offy=2);
 	}
 }
-@media screen and (max-width: 600px) {
-	#headblock a {font-size:1.05em;}
+@media (max-width: 725px) {
+	#headblock .sitename {
+		top: 0;
+		left: 55px;
+	}
 }
-@media screen and (max-width: 480px) {
-	#headblock a {font-size:0.9em;}
+@media screen and (max-width: 640px) {
+	#headblock header a {font-size:1.05em;}
+}
+@media screen and (max-width: 520px) {
+	#headblock header a {font-size:0.9em;}
+}
+@media screen and (max-width: 450px) {
+	#headblock header a {font-size:0.7em;}
 }
 
 /* links page */
@@ -731,7 +741,6 @@ iframe#sb-player {
 
 	#rightcolumn {
 		float: left;
-		width:40em;
 		border-left: 1px solid gray;
 		margin-bottom: 2em;
 	}
@@ -824,7 +833,7 @@ iframe#sb-player {
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 560px) {
 	#contact {
 		#rightcolumn {
 			border-left: none;
@@ -967,3 +976,5 @@ and (max-device-width : 1024px)  {
 		overflow: auto;
 	}
 }
+
+@import url('/tmitg-mobile.css');

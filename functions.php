@@ -105,11 +105,7 @@ function check_mobile() {
 // page headers
 function get_header() {
 	global $int;
-	if (check_mobile()==true) {
-		require_once("headers/mobileheader.html");
-	} else {
-		require_once("headers/header.php");
-	}
+	include_once("headers/header.php");
 }
 
 // from http://www.catswhocode.com/blog/10-super-useful-php-snippets

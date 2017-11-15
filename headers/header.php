@@ -15,7 +15,7 @@
 			<li><a href="/live.php">Live</a></li>
 		</ul>
 	</nav>
-	<nav class="mobile"aria-label="Primary">
+	<nav class="mobile" aria-label="Primary">
 	  <button aria-expanded="false"><span class="wai">Toggle Navigation</span></button>
 	  <div>
 			<a href="news.php">news</a>

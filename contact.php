@@ -57,7 +57,7 @@
 
 <h1>tMitG Email Contact Form</h1>
 
-<form role="form" id="contactForm" action="do_econtact.php" method="post">
+<form id="contactForm" action="do_econtact.php" method="post">
 <small>all fields are required</small>
 
 <div>
@@ -67,7 +67,7 @@
 
 <div>
 <label for="email">Your Email Address:</label>
-<input type="email" name="email" id="email" class="required email" size="40" maxlength="50" required autocapitalize="off" />
+<input type="email" name="email" id="email" class="required email" size="40" maxlength="50" required />
 </div>
 
 <div>

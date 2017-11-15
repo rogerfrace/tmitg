@@ -28,10 +28,10 @@ require_once("functions.php");
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<meta content="minimum-scale=1.0, initial-scale=1" name="viewport" />
 
-	<link rel="apple-touch-icon-precomposed" href="touch-icon-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="touch-icon-72x72-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="touch-icon-114x114-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon" href="touch-icon-precomposed.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="touch-icon-144x144-precomposed.png">
 	<meta name="msapplication-TileColor" content="#bf1025"/>
 	<meta name="msapplication-TileImage" content="touch-icon-144x144-precomposed.png">
 

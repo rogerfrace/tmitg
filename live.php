@@ -111,7 +111,7 @@
 <!-- end google map -->
 
 <!-- paste below here -->
-<table id="liveTable" role="grid" aria-readonly="true">
+<table id="liveTable">
   <caption class="wai">tMitG Shows List:</caption>
   <col class="col1">
   <col class="col2">
@@ -121,426 +121,426 @@
   <col class="col6">
 
 <thead>
- <tr role="row">
-  <th class="header" scope="col" role="columnheader">date</th>
-  <th class="header" scope="col" role="columnheader">city</th>
-  <th class="header" scope="col" role="columnheader">venue</th>
-  <th class="header" scope="col" role="columnheader">other bands</th>
-  <th class="header" scope="col" role="columnheader">songs played</th>
-  <th class="header" scope="col" role="columnheader">notes</th>
+ <tr>
+  <th class="header" scope="col">date</th>
+  <th class="header" scope="col">city</th>
+  <th class="header" scope="col">venue</th>
+  <th class="header" scope="col">other bands</th>
+  <th class="header" scope="col">songs played</th>
+  <th class="header" scope="col">notes</th>
  </tr>
 </thead>
 
 <tbody>
-  <tr role="row">
-  <th role="rowheader">November 30, 2013</th>
-  <td role="gridcell">Austin, TX</td>
-  <td role="gridcell">Elysium</td>
-  <td role="gridcell">Ego Likeness, Servitor, XBRMNT</td>
-  <td role="gridcell">Cimmerian, The Inside World, Scathefire, Masks, Mental Wasteland, In the Vanir, Spider's Bride, Final Form</td>
-  <td role="gridcell">&nbsp;</td>
+  <tr>
+  <th>November 30, 2013</th>
+  <td>Austin, TX</td>
+  <td>Elysium</td>
+  <td>Ego Likeness, Servitor, XBRMNT</td>
+  <td>Cimmerian, The Inside World, Scathefire, Masks, Mental Wasteland, In the Vanir, Spider's Bride, Final Form</td>
+  <td>&nbsp;</td>
  </tr>
 
-  <tr role="row">
-  <th role="rowheader">March 1, 2008</th>
-  <td role="gridcell">Austin, TX</td>
-  <td role="gridcell">Secret Oktober</td>
-  <td role="gridcell">Mirabilis</td>
-  <td role="gridcell">Every Thing She Is, One, A Touch of Heaven, The Sleep of Angels, Walls, Valentine, Nowhere, Otherworld</td>
-  <td role="gridcell">semi-acoustic guitar/vox only; release party for <em>XV</em> and <em>Sub Rosa</em>; first ever Mirabilis show</td>
+  <tr>
+  <th>March 1, 2008</th>
+  <td>Austin, TX</td>
+  <td>Secret Oktober</td>
+  <td>Mirabilis</td>
+  <td>Every Thing She Is, One, A Touch of Heaven, The Sleep of Angels, Walls, Valentine, Nowhere, Otherworld</td>
+  <td>semi-acoustic guitar/vox only; release party for <em>XV</em> and <em>Sub Rosa</em>; first ever Mirabilis show</td>
  </tr>
 
-  <tr role="row">
-  <th role="rowheader">August 19, 2007</th>
-  <td role="gridcell">Austin, TX</td>
-  <td role="gridcell">Red Eyed Fly</td>
-  <td role="gridcell">Sunshine Helicopters, Esther LaVonne Band, Gobi</td>
-  <td role="gridcell">The Inside World, This Silence, Wonderland, Spider's Bride, Control, Open, Icarus, Mental Wasteland, Suspend</td>
-  <td role="gridcell">&nbsp;</td>
+  <tr>
+  <th>August 19, 2007</th>
+  <td>Austin, TX</td>
+  <td>Red Eyed Fly</td>
+  <td>Sunshine Helicopters, Esther LaVonne Band, Gobi</td>
+  <td>The Inside World, This Silence, Wonderland, Spider's Bride, Control, Open, Icarus, Mental Wasteland, Suspend</td>
+  <td>&nbsp;</td>
  </tr>
 
-  <tr role="row">
-  <th role="rowheader">February 9, 2007</th>
-  <td role="gridcell">Austin, TX</td>
-  <td role="gridcell">Elysium</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">The Inside World, Masks, This Silence, Wonderland, Spider's Bride, Seek, Control, Final Form, On the Wire, A Touch of Heaven</td>
-  <td role="gridcell">&nbsp;</td>
+  <tr>
+  <th>February 9, 2007</th>
+  <td>Austin, TX</td>
+  <td>Elysium</td>
+  <td>&nbsp;</td>
+  <td>The Inside World, Masks, This Silence, Wonderland, Spider's Bride, Seek, Control, Final Form, On the Wire, A Touch of Heaven</td>
+  <td>&nbsp;</td>
  </tr>
 
- <tr role="row">
-  <th role="rowheader">November 24, 2006</th>
-  <td role="gridcell">Austin, TX</td>
-  <td role="gridcell">Elysium</td>
-  <td role="gridcell">Attrition, High Blue Star, subNatural</td>
-  <td role="gridcell">The Inside World, Control, Echo, Spider's Bride, This Silence, Final Form, Need-Fire, Suspend</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>November 24, 2006</th>
+  <td>Austin, TX</td>
+  <td>Elysium</td>
+  <td>Attrition, High Blue Star, subNatural</td>
+  <td>The Inside World, Control, Echo, Spider's Bride, This Silence, Final Form, Need-Fire, Suspend</td>
+  <td>&nbsp;</td>
  </tr>
 
- <tr role="row">
-  <th role="rowheader">June 30, 2006</th>
-  <td role="gridcell">Austin, TX</td>
-  <td role="gridcell">Elysium</td>
-  <td role="gridcell">Voltaire, The Brobdingnagian Bards</td>
-  <td role="gridcell">Winter Fell, This Silence, Wonderland, Hide Away, The Inside World, Valentine, Final Form, Far From Home, Scarborough Fair</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>June 30, 2006</th>
+  <td>Austin, TX</td>
+  <td>Elysium</td>
+  <td>Voltaire, The Brobdingnagian Bards</td>
+  <td>Winter Fell, This Silence, Wonderland, Hide Away, The Inside World, Valentine, Final Form, Far From Home, Scarborough Fair</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">March 18, 2006</th>
-  <td role="gridcell">Houston, TX</td>
-  <td role="gridcell">HaVoK @ Club Middle Earth</td>
-  <td role="gridcell">The Birthday Massacre, Since the Ashes</td>
-  <td role="gridcell">The Inside World, A Touch of Heaven, Control, Wonderland, This Silence, Spider's Bride, Final Form, Seek</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>March 18, 2006</th>
+  <td>Houston, TX</td>
+  <td>HaVoK @ Club Middle Earth</td>
+  <td>The Birthday Massacre, Since the Ashes</td>
+  <td>The Inside World, A Touch of Heaven, Control, Wonderland, This Silence, Spider's Bride, Final Form, Seek</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">September 17, 2005</th>
-  <td role="gridcell">Charlottesville, VA</td>
-  <td role="gridcell">The Dawning @ The Outback Lodge</td>
-  <td role="gridcell">Heaven Falls Hard</td>
-  <td role="gridcell">The Inside World, Control, Final Form, Winter Fell, Clarity The Sleep of Angels, Masks, This Silence, Words in Heaven Lost, Suspend, Photographic (encore)</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>September 17, 2005</th>
+  <td>Charlottesville, VA</td>
+  <td>The Dawning @ The Outback Lodge</td>
+  <td>Heaven Falls Hard</td>
+  <td>The Inside World, Control, Final Form, Winter Fell, Clarity The Sleep of Angels, Masks, This Silence, Words in Heaven Lost, Suspend, Photographic (encore)</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">September 16, 2005</th>
-  <td role="gridcell">Louisville, KY</td>
-  <td role="gridcell">Main Street Lounge</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">The Inside World, Open, Winter Fell, This Silence, A Touch of Heaven, Outside, Control, Masks, Seek, Final Form, Suspend</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>September 16, 2005</th>
+  <td>Louisville, KY</td>
+  <td>Main Street Lounge</td>
+  <td>&nbsp;</td>
+  <td>The Inside World, Open, Winter Fell, This Silence, A Touch of Heaven, Outside, Control, Masks, Seek, Final Form, Suspend</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">September 15, 2005</th>
-  <td role="gridcell">Nashville, TN</td>
-  <td role="gridcell">Hair of the Dog</td>
-  <td role="gridcell">The Last Dance, Simple Shelter</td>
-  <td role="gridcell">The Inside World, Control, This Silence, A Touch of Heaven, Winter Fell, Final Form, Suspend</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>September 15, 2005</th>
+  <td>Nashville, TN</td>
+  <td>Hair of the Dog</td>
+  <td>The Last Dance, Simple Shelter</td>
+  <td>The Inside World, Control, This Silence, A Touch of Heaven, Winter Fell, Final Form, Suspend</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">September 13, 2005</th>
-  <td role="gridcell">Champaign, IL</td>
-  <td role="gridcell">Subversion @ The Highdive</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">The Inside World, Open, Winter Fell, This Silence, Outside, Control, Masks, Seek, Final Form, Suspend</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>September 13, 2005</th>
+  <td>Champaign, IL</td>
+  <td>Subversion @ The Highdive</td>
+  <td>&nbsp;</td>
+  <td>The Inside World, Open, Winter Fell, This Silence, Outside, Control, Masks, Seek, Final Form, Suspend</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">August 20, 2005</th>
-  <td role="gridcell">Austin, TX</td>
-  <td role="gridcell">End of an Ear</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">This Silence, Valentine, Cold, Illusions in Rain, Seraph, The Sleep of Angels, Falling into the Sea, Far From Home, Oh Dear, Every Thing She Is, Dreams of the Absent, Hide Away, Photographic</td>
-  <td role="gridcell">a semi-acoustic in-store performance</td>
+ <tr>
+  <th>August 20, 2005</th>
+  <td>Austin, TX</td>
+  <td>End of an Ear</td>
+  <td>&nbsp;</td>
+  <td>This Silence, Valentine, Cold, Illusions in Rain, Seraph, The Sleep of Angels, Falling into the Sea, Far From Home, Oh Dear, Every Thing She Is, Dreams of the Absent, Hide Away, Photographic</td>
+  <td>a semi-acoustic in-store performance</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">June 12, 2005</th>
-  <td role="gridcell">Houston, TX</td>
-  <td role="gridcell">HaVoK</td>
-  <td role="gridcell">Asmodeus X</td>
-  <td role="gridcell">The Inside World, Masks, Control, This Silence, Outside, A Touch of Heaven, Winter Fell, Final Form, Suspend</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>June 12, 2005</th>
+  <td>Houston, TX</td>
+  <td>HaVoK</td>
+  <td>Asmodeus X</td>
+  <td>The Inside World, Masks, Control, This Silence, Outside, A Touch of Heaven, Winter Fell, Final Form, Suspend</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">May 20, 2005</th>
-  <td role="gridcell">Dallas, TX</td>
-  <td role="gridcell">The Cavern</td>
-  <td role="gridcell">Bloodwire, Hungry Lucy</td>
-  <td role="gridcell">The Inside World, Open, Control, Winter Fell, Outside, This Silence, Words in Heaven Lost, Final Form, Suspend</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>May 20, 2005</th>
+  <td>Dallas, TX</td>
+  <td>The Cavern</td>
+  <td>Bloodwire, Hungry Lucy</td>
+  <td>The Inside World, Open, Control, Winter Fell, Outside, This Silence, Words in Heaven Lost, Final Form, Suspend</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">May 6, 2005</th>
-  <td role="gridcell">Austin, TX</td>
-  <td role="gridcell">Elysium</td>
-  <td role="gridcell">Hollow, Jasmine Reign</td>
-  <td role="gridcell">The Inside World, Open, Control, Winter Fell, Outside, This Silence, Words in Heaven Lost, FInal Form, Suspend, The Sleep of Angels (encore, no backing track)</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>May 6, 2005</th>
+  <td>Austin, TX</td>
+  <td>Elysium</td>
+  <td>Hollow, Jasmine Reign</td>
+  <td>The Inside World, Open, Control, Winter Fell, Outside, This Silence, Words in Heaven Lost, FInal Form, Suspend, The Sleep of Angels (encore, no backing track)</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">April 23, 2005</th>
-  <td role="gridcell">San Diego, CA</td>
-  <td role="gridcell">Convergence 11 @ 4th &amp; B</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">The Inside World, Masks, Control, Open, This Silence, Winter Fell, Radiant, Final Form</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>April 23, 2005</th>
+  <td>San Diego, CA</td>
+  <td>Convergence 11 @ 4th &amp; B</td>
+  <td>&nbsp;</td>
+  <td>The Inside World, Masks, Control, Open, This Silence, Winter Fell, Radiant, Final Form</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">August 30, 2004</th>
-  <td role="gridcell">Austin, TX</td>
-  <td role="gridcell">Elysium</td>
-  <td role="gridcell">Faith and the Muse, Hollow</td>
-  <td role="gridcell">Open, Masks, The Sleep of Angels, Outside, Every Thing She Is, CryGods, Icarus, Final Form, Radiant, Suspend</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>August 30, 2004</th>
+  <td>Austin, TX</td>
+  <td>Elysium</td>
+  <td>Faith and the Muse, Hollow</td>
+  <td>Open, Masks, The Sleep of Angels, Outside, Every Thing She Is, CryGods, Icarus, Final Form, Radiant, Suspend</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">May 6, 2004</th>
-  <td role="gridcell">Austin, TX</td>
-  <td role="gridcell">Elysium</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>May 6, 2004</th>
+  <td>Austin, TX</td>
+  <td>Elysium</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">October 25, 2002</th>
-  <td role="gridcell">Austin, TX</td>
-  <td role="gridcell">Elysium</td>
-  <td role="gridcell">Lucid Dementia, CTRL</td>
-  <td role="gridcell">Masks, Control, Outside, Open, Lost In Side, Clarity, Intrigue, Time, Final Form, Seek, Photographic</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>October 25, 2002</th>
+  <td>Austin, TX</td>
+  <td>Elysium</td>
+  <td>Lucid Dementia, CTRL</td>
+  <td>Masks, Control, Outside, Open, Lost In Side, Clarity, Intrigue, Time, Final Form, Seek, Photographic</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">March 29, 2002</th>
-  <td role="gridcell">New Orleans, LA</td>
-  <td role="gridcell">GothCon</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">Masks, Control, Outside, Radiant, The Sleep of Angels, Open, Valentine, Clarity, Final Form, Seek, Photographic</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>March 29, 2002</th>
+  <td>New Orleans, LA</td>
+  <td>GothCon</td>
+  <td>&nbsp;</td>
+  <td>Masks, Control, Outside, Radiant, The Sleep of Angels, Open, Valentine, Clarity, Final Form, Seek, Photographic</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">November 10, 2001</th>
-  <td role="gridcell">Los Angeles, CA</td>
-  <td role="gridcell">Bar Sinister</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">Her Face, Control, Final Form, CryGods, Tears, The Sleep of Angels, Cold, Masks, Radiant, Photographic</td>
-  <td role="gridcell">Dru (Mirabilis, This Ascension, Falling You) performed the Mirabilis song "Tears" and sang back-up on "The Sleep of Angels."</td>
+ <tr>
+  <th>November 10, 2001</th>
+  <td>Los Angeles, CA</td>
+  <td>Bar Sinister</td>
+  <td>&nbsp;</td>
+  <td>Her Face, Control, Final Form, CryGods, Tears, The Sleep of Angels, Cold, Masks, Radiant, Photographic</td>
+  <td>Dru (Mirabilis, This Ascension, Falling You) performed the Mirabilis song "Tears" and sang back-up on "The Sleep of Angels."</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">October 13, 2001</th>
-  <td role="gridcell">New York, NY</td>
-  <td role="gridcell">CMJ @ Downtime</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">Her Face, Control, Final Form, CryGods, Far From Home, Valentine, Cold, Ex Oblivione, Radiant, Masks, Photographic</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>October 13, 2001</th>
+  <td>New York, NY</td>
+  <td>CMJ @ Downtime</td>
+  <td>&nbsp;</td>
+  <td>Her Face, Control, Final Form, CryGods, Far From Home, Valentine, Cold, Ex Oblivione, Radiant, Masks, Photographic</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">April 14, 2001</th>
-  <td role="gridcell">San Francisco, CA</td>
-  <td role="gridcell">Shrine of Lillith</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">Intrigue, Rusty Haloes, Control, The Unaware, Words in Heaven Lost, Cut Me, Failure, The Sleep of Angels, Her Face, CryGods,
+ <tr>
+  <th>April 14, 2001</th>
+  <td>San Francisco, CA</td>
+  <td>Shrine of Lillith</td>
+  <td>&nbsp;</td>
+  <td>Intrigue, Rusty Haloes, Control, The Unaware, Words in Heaven Lost, Cut Me, Failure, The Sleep of Angels, Her Face, CryGods,
   Photographic</td>
-  <td role="gridcell">&nbsp;</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">April 13, 2001</th>
-  <td role="gridcell">Los Angeles, CA</td>
-  <td role="gridcell">Antiquity@ The Gig</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">Intrigue, Rusty Haloes, Lost In Side, The Unaware, Her Face, Failure, Control, Radiant, Photographic</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>April 13, 2001</th>
+  <td>Los Angeles, CA</td>
+  <td>Antiquity@ The Gig</td>
+  <td>&nbsp;</td>
+  <td>Intrigue, Rusty Haloes, Lost In Side, The Unaware, Her Face, Failure, Control, Radiant, Photographic</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">December 2, 2000</th>
-  <td role="gridcell">New York, NY</td>
-  <td role="gridcell">Batcave @ Downtime</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">Intrigue, The Unaware, Control, Valentine, Her Face, Words in Heaven Lost, Rusty Haloes, Every Thing She Is, Oh Dear, Failure, The Sleep of Angels, Radiant, Final Form</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>December 2, 2000</th>
+  <td>New York, NY</td>
+  <td>Batcave @ Downtime</td>
+  <td>&nbsp;</td>
+  <td>Intrigue, The Unaware, Control, Valentine, Her Face, Words in Heaven Lost, Rusty Haloes, Every Thing She Is, Oh Dear, Failure, The Sleep of Angels, Radiant, Final Form</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">July 29, 2000</th>
-  <td role="gridcell">Denton, TX</td>
-  <td role="gridcell">Rick's Place</td>
-  <td role="gridcell">Faith and the Muse, Hollow Girl</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>July 29, 2000</th>
+  <td>Denton, TX</td>
+  <td>Rick's Place</td>
+  <td>Faith and the Muse, Hollow Girl</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">July 18, 1999</th>
-  <td role="gridcell">New York, NY</td>
-  <td role="gridcell">Mother</td>
-  <td role="gridcell">Mors Syphilitica</td>
-  <td role="gridcell">Words in Heaven Lost, Falling Too, Her Face,
+ <tr>
+  <th>July 18, 1999</th>
+  <td>New York, NY</td>
+  <td>Mother</td>
+  <td>Mors Syphilitica</td>
+  <td>Words in Heaven Lost, Falling Too, Her Face,
   Valentine, Final Form, A Touch of Heaven, Midnight, Control, Radiant</td>
-  <td role="gridcell">&nbsp;</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">July 17, 1999</th>
-  <td role="gridcell">Newark, NJ</td>
-  <td role="gridcell">QXT</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">Control, A Touch of Heaven, Falling Too, Final Form,
+ <tr>
+  <th>July 17, 1999</th>
+  <td>Newark, NJ</td>
+  <td>QXT</td>
+  <td>&nbsp;</td>
+  <td>Control, A Touch of Heaven, Falling Too, Final Form,
   Lost In Side, Cut Me, Spider's Bride, Primevil</td>
-  <td role="gridcell">&nbsp;</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">July 3, 1999</th>
-  <td role="gridcell">San Antonio, TX</td>
-  <td role="gridcell">The Wild Club</td>
-  <td role="gridcell">Nocturne, Paris By Night, Margot Day</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">Midsummer Nyte Scream Tour</td>
+ <tr>
+  <th>July 3, 1999</th>
+  <td>San Antonio, TX</td>
+  <td>The Wild Club</td>
+  <td>Nocturne, Paris By Night, Margot Day</td>
+  <td>&nbsp;</td>
+  <td>Midsummer Nyte Scream Tour</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">July 2, 1999</th>
-  <td role="gridcell">Austin, TX</td>
-  <td role="gridcell">Atomic Caf&eacute;</td>
-  <td role="gridcell">Nocturne, Paris By Night, Margot Day</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">Midsummer Nyte Scream Tour</td>
+ <tr>
+  <th>July 2, 1999</th>
+  <td>Austin, TX</td>
+  <td>Atomic Caf&eacute;</td>
+  <td>Nocturne, Paris By Night, Margot Day</td>
+  <td>&nbsp;</td>
+  <td>Midsummer Nyte Scream Tour</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">June 30, 1999</th>
-  <td role="gridcell">Dallas, TX</td>
-  <td role="gridcell">Curtain Club</td>
-  <td role="gridcell">Nocturne, Paris By Night, Margot Day</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">Midsummer Nyte Scream Tour</td>
+ <tr>
+  <th>June 30, 1999</th>
+  <td>Dallas, TX</td>
+  <td>Curtain Club</td>
+  <td>Nocturne, Paris By Night, Margot Day</td>
+  <td>&nbsp;</td>
+  <td>Midsummer Nyte Scream Tour</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">June 27, 1999</th>
-  <td role="gridcell">Boulder, CO</td>
-  <td role="gridcell">Millenium</td>
-  <td role="gridcell">Nocturne, Paris By Night, Margot Day</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">Midsummer Nyte Scream Tour</td>
+ <tr>
+  <th>June 27, 1999</th>
+  <td>Boulder, CO</td>
+  <td>Millenium</td>
+  <td>Nocturne, Paris By Night, Margot Day</td>
+  <td>&nbsp;</td>
+  <td>Midsummer Nyte Scream Tour</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">November 6, 1998</th>
-  <td role="gridcell">San Antonio, TX</td>
-  <td role="gridcell">The Wild Club</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>November 6, 1998</th>
+  <td>San Antonio, TX</td>
+  <td>The Wild Club</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">May 12, 1998</th>
-  <td role="gridcell">Denver, CO</td>
-  <td role="gridcell">7 South</td>
-  <td role="gridcell">Babylonian Tiles</td>
-  <td role="gridcell">Words in Heaven Lost, Control, A Touch of Heaven, The Sleep of Angels, Final Form, Dreams of the Absent, CryGods, Shadowy Depths, The Hanging Garden, Cold</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>May 12, 1998</th>
+  <td>Denver, CO</td>
+  <td>7 South</td>
+  <td>Babylonian Tiles</td>
+  <td>Words in Heaven Lost, Control, A Touch of Heaven, The Sleep of Angels, Final Form, Dreams of the Absent, CryGods, Shadowy Depths, The Hanging Garden, Cold</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">April 25, 1998</th>
-  <td role="gridcell">Denver, CO</td>
-  <td role="gridcell">The Snakepit</td>
-  <td role="gridcell">The Electric Hellfire Club</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>April 25, 1998</th>
+  <td>Denver, CO</td>
+  <td>The Snakepit</td>
+  <td>The Electric Hellfire Club</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">February 27, 1998</th>
-  <td role="gridcell">Englewood, CO</td>
-  <td role="gridcell">Borders Books and Music</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">a semi-acoustic in-store performance, we don't have
+ <tr>
+  <th>February 27, 1998</th>
+  <td>Englewood, CO</td>
+  <td>Borders Books and Music</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>a semi-acoustic in-store performance, we don't have
   the exact date</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">August 21, 1997</th>
-  <td role="gridcell">Boulder, CO</td>
-  <td role="gridcell">Millenium</td>
-  <td role="gridcell">Filmstrip, Generation Excuse, Skull Flux</td>
-  <td role="gridcell">Primevil, A Touch of Heaven, Oblician, Conception, Bloody Murder, Dark Splintered Heart, Spider's Bride, Cut Me, Final Form</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>August 21, 1997</th>
+  <td>Boulder, CO</td>
+  <td>Millenium</td>
+  <td>Filmstrip, Generation Excuse, Skull Flux</td>
+  <td>Primevil, A Touch of Heaven, Oblician, Conception, Bloody Murder, Dark Splintered Heart, Spider's Bride, Cut Me, Final Form</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">August 15, 1997</th>
-  <td role="gridcell">Denver, CO</td>
-  <td role="gridcell">7 South</td>
-  <td role="gridcell">Autumn, Filmstrip</td>
-  <td role="gridcell">Final Form, Lost In Side, A Touch of Heaven, The Sleep of Angels, CryGods, Corpus Christi, Dreams of the Absent, Cut Me,
+ <tr>
+  <th>August 15, 1997</th>
+  <td>Denver, CO</td>
+  <td>7 South</td>
+  <td>Autumn, Filmstrip</td>
+  <td>Final Form, Lost In Side, A Touch of Heaven, The Sleep of Angels, CryGods, Corpus Christi, Dreams of the Absent, Cut Me,
   Heavenly Air</td>
-  <td role="gridcell">&nbsp;</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">March 29, 1997</th>
-  <td role="gridcell">San Francisco, CA</td>
-  <td role="gridcell">Sanctuary</td>
-  <td role="gridcell">Healthy Morbidity</td>
-  <td role="gridcell">Fates and Furies, A Touch of Heaven, The Sleep of Angels, CryGods, Seraph, Lost In Side, Cut Me, Spider's Bride, Corpus Christi, Final Form, Io's Departure</td>
-  <td role="gridcell">Summer's first show with tMitG</td>
+ <tr>
+  <th>March 29, 1997</th>
+  <td>San Francisco, CA</td>
+  <td>Sanctuary</td>
+  <td>Healthy Morbidity</td>
+  <td>Fates and Furies, A Touch of Heaven, The Sleep of Angels, CryGods, Seraph, Lost In Side, Cut Me, Spider's Bride, Corpus Christi, Final Form, Io's Departure</td>
+  <td>Summer's first show with tMitG</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">June 2, 1996</th>
-  <td role="gridcell">Toronto, ON</td>
-  <td role="gridcell">Savage Garden</td>
-  <td role="gridcell">State of Grace</td>
-  <td role="gridcell">Spiritus ex Obitus Sanctus (intro), A Touch of Heaven, The Sleep of Angels, Lost in Side, CryGods, Seraph, Dreams of the Absent, Oblician, Cut Me, Spider's Bride, Primevil, Heavenly Air (crunchmix), A Stagnant Pale Reflection, Corpus Christi, Walls, Io's Departure</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>June 2, 1996</th>
+  <td>Toronto, ON</td>
+  <td>Savage Garden</td>
+  <td>State of Grace</td>
+  <td>Spiritus ex Obitus Sanctus (intro), A Touch of Heaven, The Sleep of Angels, Lost in Side, CryGods, Seraph, Dreams of the Absent, Oblician, Cut Me, Spider's Bride, Primevil, Heavenly Air (crunchmix), A Stagnant Pale Reflection, Corpus Christi, Walls, Io's Departure</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">March 31, 1996</th>
-  <td role="gridcell">Albany, NY</td>
-  <td role="gridcell">QE2</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">post-thesis performance</td>
+ <tr>
+  <th>March 31, 1996</th>
+  <td>Albany, NY</td>
+  <td>QE2</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>post-thesis performance</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">November 19, 1995</th>
-  <td role="gridcell">Pittsburgh, PA</td>
-  <td role="gridcell">WRCT Radio</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">A Touch of Heaven, Cut Me, CryGods, Seraph, Oblician, The Sleep of Angels, Heavenly Air</td>
-  <td role="gridcell">Live-in-Studio recording for a radio show</td>
+ <tr>
+  <th>November 19, 1995</th>
+  <td>Pittsburgh, PA</td>
+  <td>WRCT Radio</td>
+  <td>&nbsp;</td>
+  <td>A Touch of Heaven, Cut Me, CryGods, Seraph, Oblician, The Sleep of Angels, Heavenly Air</td>
+  <td>Live-in-Studio recording for a radio show</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">November 18, 1995</th>
-  <td role="gridcell">Pittsburgh, PA</td>
-  <td role="gridcell">Bloomfield Bridge Tavern</td>
-  <td role="gridcell">Apocalypse Theatre, Vampire Nation</td>
-  <td role="gridcell">Spiritus ex Obitus Sanctus, The Sleep of Angels, A Touch of Heaven, CryGods, Existential Sonnet, Lost In Side, Dreams of the Absent, Oblician, Cut Me, Heavenly Air, On the Open Sea</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>November 18, 1995</th>
+  <td>Pittsburgh, PA</td>
+  <td>Bloomfield Bridge Tavern</td>
+  <td>Apocalypse Theatre, Vampire Nation</td>
+  <td>Spiritus ex Obitus Sanctus, The Sleep of Angels, A Touch of Heaven, CryGods, Existential Sonnet, Lost In Side, Dreams of the Absent, Oblician, Cut Me, Heavenly Air, On the Open Sea</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">October 28, 1995</th>
-  <td role="gridcell">Troy, NY</td>
-  <td role="gridcell">Mother's Wine Emporium, RPI</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">Lost In Side, Seraph, Cut Me, The Sleep of Angels, Cold</td>
-  <td role="gridcell">acoustic set</td>
+ <tr>
+  <th>October 28, 1995</th>
+  <td>Troy, NY</td>
+  <td>Mother's Wine Emporium, RPI</td>
+  <td>&nbsp;</td>
+  <td>Lost In Side, Seraph, Cut Me, The Sleep of Angels, Cold</td>
+  <td>acoustic set</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">July 2, 1995</th>
-  <td role="gridcell">Albany, NY</td>
-  <td role="gridcell">QE2</td>
-  <td role="gridcell">Spindle Shanks</td>
-  <td role="gridcell">Awake at the Wall, A Touch of Heaven, Existential Sonnet, .....</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>July 2, 1995</th>
+  <td>Albany, NY</td>
+  <td>QE2</td>
+  <td>Spindle Shanks</td>
+  <td>Awake at the Wall, A Touch of Heaven, Existential Sonnet, .....</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">June 23, 1995</th>
-  <td role="gridcell">Chicago, IL</td>
-  <td role="gridcell">Convergence 1</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>June 23, 1995</th>
+  <td>Chicago, IL</td>
+  <td>Convergence 1</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">September 8, 1994</th>
-  <td role="gridcell">Albany, NY</td>
-  <td role="gridcell">QE2</td>
-  <td role="gridcell">Clay People, Virus 23, Psycho Babes</td>
-  <td role="gridcell">Awake at the Wall, CryGods, A Touch of Heaven, The Sleep of Angels, On the Open Sea, Oblician, The Death of an Angel, Pain, Dark Splintered Heart</td>
-  <td role="gridcell">Dan Neet (of The Clay People) sang Pain and Dark Splintered Heart</td>
+ <tr>
+  <th>September 8, 1994</th>
+  <td>Albany, NY</td>
+  <td>QE2</td>
+  <td>Clay People, Virus 23, Psycho Babes</td>
+  <td>Awake at the Wall, CryGods, A Touch of Heaven, The Sleep of Angels, On the Open Sea, Oblician, The Death of an Angel, Pain, Dark Splintered Heart</td>
+  <td>Dan Neet (of The Clay People) sang Pain and Dark Splintered Heart</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">August 9, 1994</th>
-  <td role="gridcell">Louisville, KY</td>
-  <td role="gridcell">Louisville Gardens</td>
-  <td role="gridcell">Liers in Wait, Electric Hellfire Club, Christian Death</td>
-  <td role="gridcell">Perception, CryGods, Oblician, The Sleep of Angels, Walls, A Touch of Heaven, Cold, Conception, Lullaby</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>August 9, 1994</th>
+  <td>Louisville, KY</td>
+  <td>Louisville Gardens</td>
+  <td>Liers in Wait, Electric Hellfire Club, Christian Death</td>
+  <td>Perception, CryGods, Oblician, The Sleep of Angels, Walls, A Touch of Heaven, Cold, Conception, Lullaby</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">February 25, 1994</th>
-  <td role="gridcell">Troy, NY</td>
-  <td role="gridcell">RPI</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">Awake at the Wall, Oblician, Perception, CryGods, Lifeless, Conception II, A Touch of Heaven, Pain, Midnight</td>
-  <td role="gridcell">&nbsp;</td>
+ <tr>
+  <th>February 25, 1994</th>
+  <td>Troy, NY</td>
+  <td>RPI</td>
+  <td>&nbsp;</td>
+  <td>Awake at the Wall, Oblician, Perception, CryGods, Lifeless, Conception II, A Touch of Heaven, Pain, Midnight</td>
+  <td>&nbsp;</td>
  </tr>
- <tr role="row">
-  <th role="rowheader">October 30, 1993</th>
-  <td role="gridcell">Bennington, VT</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">&nbsp;</td>
-  <td role="gridcell">Dark Splintered Heart, CryGods, Lifeless, Conception II, A Touch of Heaven, Pain, Midnight</td>
-  <td role="gridcell">First ever tMitG live show. Guitar performed by Ben Lavigne.</td>
+ <tr>
+  <th>October 30, 1993</th>
+  <td>Bennington, VT</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>Dark Splintered Heart, CryGods, Lifeless, Conception II, A Touch of Heaven, Pain, Midnight</td>
+  <td>First ever tMitG live show. Guitar performed by Ben Lavigne.</td>
  </tr>
 </tbody>
 </table>

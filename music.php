@@ -17,6 +17,14 @@
 <main class="mainbody">
 
 <div id="accordion" role="tablist">
+	<div class="item image" id="imagetab" role="tab" tabindex="0" aria-controls="image" aria-selected="false">
+		<img src="albums/imageacousticico.jpg" class="imageimg" alt="Image (acoustic)" role="presentation">
+		<div class="detail">
+			<h3>Image (acoustic)</h3>
+			<p>2017</p>
+		</div>
+	</div>
+
 	<div class="item baats" id="baatstab" role="tab" tabindex="0" aria-controls="baats" aria-selected="false">
 		<img src="albums/baatsico.jpg" class="baatsimg" alt="Before and After the Storm" role="presentation">
 		<div class="detail">
@@ -92,6 +100,21 @@
 
 
 <section id="songlist">
+	<div class="songs image" id="image" role="tabpanel" aria-labelledby="imagetab">
+		<div class="albumcol">
+			<p><a href="imageacoustic.php"><img src="albums/imageacoustic.jpg" width="200" height="200" class="cover" alt="Image (acoustic)"></a></p>
+		</div>
+		<div class="listwrap">
+			<div class="audiocol">
+				<h4>mp3 samples</h4>
+				<p><? do_mp3bc2("imageacoustic","Image (acoustic)"); ?></p>
+			</div>
+			<div class="videocol">
+			</div>
+		</div>
+	</div>
+	<div class="clearleft"></div>
+
 	<div class="songs baats" id="baats" role="tabpanel" aria-labelledby="baatstab">
 		<div class="albumcol">
 			<p><a href="storm.php"><img src="albums/baats.jpg" width="200" height="200" class="cover" alt="Before and After the Storm"></a></p>
@@ -300,12 +323,21 @@ $(document).ready(function() {
 	
 	/* set initial song display */
 	$("#songlist div.songs:visible").hide();
-	$("#songlist div.songs.baats").show();
+	$("#songlist div.songs.image").show();
 	$("#accordion .item").addClass('fade');
 	$("#accordion .item img").attr("aria-hidden","true");
-	$("#accordion .baats").removeClass('fade').attr("aria-selected","true");
+	$("#accordion .image").removeClass('fade').attr("aria-selected","true");
 
 	/* all of the click activations */
+	$("#accordion .item.image").on("click keydown",function(e) {
+		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
+			$("#accordion .item").addClass('fade').attr("aria-selected","false");
+			$("#accordion .image").removeClass('fade').attr("aria-selected","true");
+			$("#songlist div.songs:visible").hide();
+			$("#songlist div.songs.image").show();
+			ga('send', 'event', 'MusicPage', 'ArtClick', 'image');
+		}
+	});
 	$("#accordion .item.baats").on("click keydown",function(e) {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
 			$("#accordion .item").addClass('fade').attr("aria-selected","false");

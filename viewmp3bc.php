@@ -238,6 +238,12 @@ if (!empty($_GET['bcsample'])){
 			$salbum="Miscellany";
 			$siframe='<iframe style="border: 0; width: 280px; height: 422px;" src="https://bandcamp.com/EmbeddedPlayer/album=2035639599/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/track=2859512200/transparent=true/" seamless><a href="http://tmitg.bandcamp.com/album/miscellany">Miscellany by the Machine in the Garden</a></iframe>';
 			break;
+#vanir
+		case "imageacoustic":
+			$stitle="Image (acoustic)";
+			$salbum="Image (acoustic)";
+			$siframe='<iframe style="border: 0; width: 280px; height: 394px;" src="https://bandcamp.com/EmbeddedPlayer/track=1967461896/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/transparent=true/" seamless><a href="http://tmitg.bandcamp.com/track/image-acoustic">Image (acoustic) by the Machine in the Garden</a></iframe>';
+			break;
 		
 	}
 } else {

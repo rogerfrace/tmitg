@@ -105,7 +105,7 @@ require_once("functions.php");
 	<article>
 		<!-- recent news section -->
 		<h2>Recent News</h2>
-		<p class="notopmargin"><a href="https://tmitg.bandcamp.com/album/miscellany"><img style="float:left; margin:2px 8px 8px 0; border:0;" src="http://www.tmitg.com/albums/miscellanyico.jpg" alt="Miscellany" /></a> We are happy to announce that many rare <abbr title="the Machine in the Garden" aria-label="t m i t h">tMitG</abbr> tracks including compilation appearances and selections from <i>When Angel's Peer Favorably Upon Us</i>, as well as some previously unreleased recordings from our archives, are now available on <a href="https://tmitg.bandcamp.com/album/miscellany">our Bandcamp page</a>.</p><p>Many of these songs were exclusive to their compilations and therefore elusive to our fans, and most were previously unavailable digitally. We're glad that we were able to collect these songs in a single location for everyone to enjoy.</p>
+		<p class="notopmargin"><a href="https://tmitg.bandcamp.com/track/image-acoustic"><img style="float:left; margin:2px 8px 8px 0; border:0;" src="http://www.tmitg.com/albums/imageacousticico.jpg" alt="Image (acoustic)" /></a> For the 20th anniversary of <em>Underworld</em> and as a thank you to our fans and friends, tMitG has released an acoustic version of one of their new songs, "Image." "Image" is available as a free download on our <a href="https://tmitg.bandcamp.com/track/image-acoustic">Bandcamp page</a>.</p>
 
 		<div style="clear:both;"></div>
 	</article>

@@ -24,6 +24,8 @@
 <section>
 <h1 id="releases" tabindex="0">releases:</h1>
 <ul class="releases">
+<li><a href="imageacoustic.php" title="image (acoustic)"><img src="albums/imageacousticico.jpg" alt="Image (acoustic)"></a></li>
+
 <li><a href="miscellany.php" title="miscellany"><img src="albums/miscellanyico.jpg" alt="Miscellany"></a></li>
 
 <li><a href="storm.php" title="before and after the storm"><img src="albums/baatsico.jpg" alt="Before and After the Storm"></a></li>

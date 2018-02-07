@@ -29,7 +29,6 @@
 
 <body id="discog">
 	<nav aria-label="Skip Links" id="skip-links">
-		<a class="wai" href="#discog_topnav">Skip to Discography Sub Navigation</a>
 		<a class="wai" href="#discog_albuminfo">Skip to Album Info</a>
 		<a class="wai" href="#discog_tracklist">Skip to Track Listing</a>
 		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
@@ -57,7 +56,7 @@
     <div><img src="albums/sp.jpg" alt="Shadow Puppets" class="albumimg ariapreso" itemprop="image" /></div>
  	<h1 itemprop="name">Shadow Puppets</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">MPP975</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2005</span><br />full-length CD released <span itemprop="datePublished">April 2005</span></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">MPP975</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2005</span><br />full-length CD released <time datetime="2005-04" itemprop="datePublished">April 2005</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>
 </section> <!-- end album info div -->
@@ -120,7 +119,7 @@ $lyricsfile and videoname do not include .html
 	<h2 id="reviews" tabindex="0">Reviews of <em>Shadow Puppets</em>:</h2>
 	<div class="revcontent">
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.starvox.net/cdr/machine.htm" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>I've been aware of The Machine In The Garden in passing for a few years. Probably not since their first release in 1993 but I've downloaded a few MP3s and heard various compilation appearances in my time. I always meant to investigate further. But with one thing and another I never got around to it. So now, a mere 12 years after their creation, I get to enjoy the Machine in the Garden album experience in full.</p>
@@ -141,12 +140,12 @@ San Francisco-based The Shroud. There's a languid and romantic air, with a drum 
 <p>Summer and Roger are accomplished musicians. They have a strong identity, but also the ability to vary their style, while remaining distinctively The Machine In The Garden. I approve of their subject matter and agree with their views. Sometimes I find their sound a little cold, perhaps due to the use of electronics. Occasionally I wish they had chosen a less frantic drum pattern. I like and appreciate this album, but I think it is going to take a little longer for me to truly love it. I'm prepared to make the effort though...now where did I leave my book?</p>
 
 </div>
-<p>-<cite><span itemprop="author">Stuart Moses</span>, <a href="http://www.starvox.net/cdr/machine.htm" target="_blank"><span itemprop="publication">Starvox</span></a></cite></p>
+<p>-<span itemprop="author">Stuart Moses</span>, <a href="http://www.starvox.net/cdr/machine.htm" target="_blank"><span itemprop="publication">Starvox</span></a></p>
 </blockquote>
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.virus-mag.com/index.php?a=1329" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p><em>Shadow Puppets</em> is Austin, Texas band The Machine In The Garden's new CD. 
@@ -159,7 +158,7 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 <p>I also wanted to make note of the CD cover art, which is a beautiful photograph of an Asian 19th century mechanical wooden puppet. The artwork adds intrigue to the overall CD presentation.</p>
 
 </div>
-<p>-<cite><span itemprop="author">Michael Casano</span>, <a href="http://www.virus-mag.com/index.php?a=1329" target="_blank"><span itemprop="publication">VIRUS! Magazine</span></a></cite></p>
+<p>-<span itemprop="author">Michael Casano</span>, <a href="http://www.virus-mag.com/index.php?a=1329" target="_blank"><span itemprop="publication">VIRUS! Magazine</span></a></p>
 </blockquote>
 
 <hr style="width:50%;" />
@@ -176,12 +175,12 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 <p>I would highly recommend this CD to anyone who has an interest in the future of dark music. The Machine In The Garden, like the latest incarnation of Black Tape For A Blue Girl seems to have reached a new level of quality, both in terms of song writing and production. If this trend continues we could see a real musical renaissance within the dark subcultures. There are great tracks here for both the dance-floor and for radio airplay. Not to mention just sitting at home with <em>Shadow Puppets</em> emanating from your stereo. These 'shadow puppets' put on a most intoxicating show, be sure you don't miss out.</p>
 
 </div>
-<p>-<cite><span itemprop="author">Jason Pitzl-Waters</span>, <a href="http://www.starvox.net/" target="_blank"><span itemprop="publication">Starvox</span></a></cite></p>
+<p>-<span itemprop="author">Jason Pitzl-Waters</span>, <a href="http://www.starvox.net/" target="_blank"><span itemprop="publication">Starvox</span></a></p>
 </blockquote>
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://pingthings.com/TMITGshadow.htm" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>New material from the brilliant darkwave duo!</p>
@@ -213,23 +212,23 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 <p>So what more is there to be said that hasn't already been mentioned? <em>Shadow Puppets</em> is a slick production, lyrically strong and mature, filled with great programming and a lovely blend of both organic and electronic elements. Whether you're a long time fan of the band or if you're looking for something new to check out, you owe it to yourself to investigate this disc. You'll be glad you did.</p>
 
 </div>
-<p>-<cite><span itemprop="author">rik</span>, <a href="http://pingthings.com/TMITGshadow.htm" target="_blank"><span itemprop="publication">ping things</span></a></cite></p>
+<p>-<span itemprop="author">rik</span>, <a href="http://pingthings.com/TMITGshadow.htm" target="_blank"><span itemprop="publication">ping things</span></a></p>
 </blockquote>
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.morbidoutlook.com/music/inrotation/2005_06_inrotation.html" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>I'm keepin' this one! Eminently goth, very fine blend of old school and newer modes... but with their own definitive stylings, nobody's clone. Okay... so I am repeating "Suspend" for about the gazillionth time. This song rules so much! This is the sort of stuff that reminds me why I love music.</p>
 
 </div>
-<p>-<cite><span itemprop="author">Andrew Fenner</span>, <a href="http://www.morbidoutlook.com/music/inrotation/2005_06_inrotation.html" target="_blank"><span itemprop="publication">Morbid Outlook - In Rotation, June 2005</span></a></cite></p>
+<p>-<span itemprop="author">Andrew Fenner</span>, <a href="http://www.morbidoutlook.com/music/inrotation/2005_06_inrotation.html" target="_blank"><span itemprop="publication">Morbid Outlook - In Rotation, June 2005</span></a></p>
 </blockquote>
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.collectedsounds.com/cdreviews/shadowpuppets.html" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>Summer Bowman and Roger Frac&eacute; make up the Machine in the Garden, a gothic duo of great talent. Since their last album <em>Asphodel</em> they have clearly developed. Bowman's singing has grown stronger and the songs enthrall.</p>
@@ -245,22 +244,22 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 <p><em>Shadow Puppets</em> is a powerful new record by a talented band.</p>
 
 </div>
-<p>-<cite><span itemprop="author">Anna Maria Stj&auml;rnell</span>, <a href="http://www.collectedsounds.com/cdreviews/shadowpuppets.html" target="_blank"><span itemprop="publication">Collected Sounds Women in Music</span></a></cite></p>
+<p>-<span itemprop="author">Anna Maria Stj&auml;rnell</span>, <a href="http://www.collectedsounds.com/cdreviews/shadowpuppets.html" target="_blank"><span itemprop="publication">Collected Sounds Women in Music</span></a></p>
 </blockquote>
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.regenmag.com/Review-425.html" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>It's apparent from the first glance at The Machine in the Garden's new CD that this is more than your average ethereal album. The ghoulishly grinning marionette on the front cover is a presage of something darker than the airy-fairy atmospheres you might expect if you're not familiar with the band. That's not to say this album isn't pretty, of course. It's incredibly pretty, in fact; lead singer Summer Bowman has a lovely soprano, and she shows it off to good effect on the piano-laced "Illusions In Rain," the gently floating "Winter Fell," and the majestic "Suspend," which just might be this year's darkwave anthem. Still, there's a darkness here that gives <em>Shadow Puppets</em> a certain weight that's lacking in most offerings from this genre. Programmer Roger Frac&eacute; adds a muted tension to the pulsing beats of "The Inside World," and the way Bowman's voice rapidly jumps and down the scales is somehow discomfiting. On "Mother," she whispers, wails, and whimpers over synthetic chimes and a bass effect that throbs back and forth across the stereo channels, while on "Spider's Bride" she sings a duet with Frac&eacute; that descends into paranoid depths before emerging as a percussion-based tribal chant. "If Ever" begins softly enough with strummed acoustic guitars, but dissonant noise and distortion creeps in, threatening to take over the gentle melodies before ebbing away with the end of the chorus. Seemingly aware of just how far they can push their audience, Bowman and Frac&eacute; end the album with the deliberately serene "Goodbye," a lushly bittersweet arrangement of achingly beautiful vocal layers and warm analog synthesizers. Delicate yet edgy, The Machine in the Garden manages to create heavenly atmospheres without slipping into sleepy self-indulgence or cloying sweetness. Perfect moody music for goths and shoegazers alike, <em>Shadow Puppets</em> should particularly appeal to fans of This Mortal Coil, Faith &amp; Disease, and Black Tape For a Blue Girl.</p>
 </div>
-<p>-<cite><span itemprop="author">infinitywaltz</span>, <a href="http://www.regenmag.com/Review-425.html" target="_blank"><span itemprop="publication">ReGen Magazine</span></a></cite></p>
+<p>-<span itemprop="author">infinitywaltz</span>, <a href="http://www.regenmag.com/Review-425.html" target="_blank"><span itemprop="publication">ReGen Magazine</span></a></p>
 </blockquote>
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.gothtronic.com/?page=23&amp;reviews=1550" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>The American duo Summer Bowman and Roger Frac&eacute; have recently released their fourth studio album. With <em>Shadow Puppets</em>, The Machine in the Garden have without a doubt produced a very strong piece of music. The electronical darkwave of these two is on this cd very much in balance. Even so much in balance that I find it hard to think of something not right about it.</p>
@@ -270,23 +269,23 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 <p>Simply a beautiful cd, one that is very recommendable.</p>
 
 </div>
-<p>-<cite><span itemprop="author">Arthylacia</span>, <a href="http://www.gothtronic.com/?page=23&amp;reviews=1550" target="_blank"><span itemprop="publication">Gothtronic</span></a></cite></p>
+<p>-<span itemprop="author">Arthylacia</span>, <a href="http://www.gothtronic.com/?page=23&amp;reviews=1550" target="_blank"><span itemprop="publication">Gothtronic</span></a></p>
 </blockquote>
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.darklifezine.de/dlzineX2frame_cdreviewsoct06.html" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>A darkwave dream trip conducted by a talented duo is a possible way to describe this last (their fifth) creation by The Machine in The Garden. Hailing from the US, Summer Bowman and Roger Frace have been joining creative forces since well over half a decade, creating startling works of electro ethereal fusion with grace and eye open on the classic side. Shadow Puppet is seductive from the outset, and that's not only due to the sensually ethereal quality of Summer's vocals. Her airy notes go down in peaceful symbiosis with trip-hop-ish electronics that are not afraid to host more conventional guitar, bass or synth lines where due. Seamlessly shifting from pure introspection and ethereal melancholy to bodied pieces lead by catchy lines, this an album that moves the concept of gothic and darkwave a few steps forward, despite the wide general recession of the genre. Featuring an outstanding production amongst other qualities, Shadow Puppet projects The Machine in The Garden straight into the international darkwave arena. Holding together the best traits of the goth-darkwave inheritance, and injecting a considerable dose of personal interpretation seems a winning move in this album, and good news for dreamy souls.</p>
 
 </div>
-<p>-<cite><span itemprop="author">Gianfri</span>, <a href="http://www.darklifezine.de/dlzineX2frame_cdreviewsoct06.html" target="_blank"><span itemprop="publication">Darklife Webzine</span></a></cite></p>
+<p>-<span itemprop="author">Gianfri</span>, <a href="http://www.darklifezine.de/dlzineX2frame_cdreviewsoct06.html" target="_blank"><span itemprop="publication">Darklife Webzine</span></a></p>
 </blockquote>
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.gothicparadise.com/tmitg.htm#rev2" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>Once again we've been looking forward to the latest release from this band and once again fans will not be disappointed.  With each release it's great to just dive in and start listening to hear where the band is going to take us. With this album, like the many pieces before, they continue to lead the listener down a mysterious and eerie path through the thoughts and music from this duo.</p>
@@ -301,7 +300,7 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 	<meta itemprop="worstRating" content = "1">
 	Rating: <span itemprop="ratingValue">5</span>/<span itemprop="bestRating">5</span></div>
 </div>
-<p>-<cite itemprop="author"><a href="http://www.gothicparadise.com/tmitg.htm#rev2" target="_blank"><span itemprop="publication">Gothic Paradise</span></a></cite></p>
+<p>-<span itemprop="author"><a href="http://www.gothicparadise.com/tmitg.htm#rev2" target="_blank"><span itemprop="publication">Gothic Paradise</span></a></span></p>
 </blockquote>
 
 	</div> <!-- /revcontent -->

@@ -26,7 +26,6 @@
 
 <body id="discog">
 	<nav aria-label="Skip Links" id="skip-links">
-		<a class="wai" href="#discog_topnav">Skip to Discography Sub Navigation</a>
 		<a class="wai" href="#discog_albuminfo">Skip to Album Info</a>
 		<a class="wai" href="#discog_tracklist">Skip to Track Listing</a>
 		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
@@ -53,7 +52,7 @@
 	<div><img src="albums/vanir.jpg" alt="In the Vanir" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">In the Vanir</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-004-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2010</span><br />Digital Single released <span itemprop="datePublished">10 December 2010</span></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-004-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2010</span><br />Digital Single released <time datetime="2010-12-10" itemprop="datePublished">10 December 2010</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 </section> <!-- end album info div -->
@@ -99,12 +98,12 @@ $lyricsfile and videoname do not include .html
 	<h2 id="reviews" tabindex="0">Reviews of <em>In the Vanir</em>:</h2>
 	<div class="revcontent">
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://pingthings.blogspot.com/2011/01/top-ten-for-2010.html" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>Admittedly it's just a two track digital sampler, but it's been a number of years since their last album so this teaser for the upcoming 2011 release from The Machine in the Garden has me quite excited. Tight electronic tones and slick production are readily evident on this track, and as always Summer Bowman's voice is in stunning form. If this track is any indication of what's to come then their new release can't get here soon enough for me.</p>
 </div>
-<p>-<cite><span itemprop="author">Rik</span>, <a href="http://pingthings.blogspot.com/2011/01/top-ten-for-2010.html" target="_blank"><span itemprop="publication">Ping Things</span></a></cite></p>
+<p>-<span itemprop="author">Rik</span>, <a href="http://pingthings.blogspot.com/2011/01/top-ten-for-2010.html" target="_blank"><span itemprop="publication">Ping Things</span></a></p>
 </blockquote>
 
 	</div> <!-- /revcontent -->

@@ -29,7 +29,6 @@
 
 <body id="discog">
 	<nav aria-label="Skip Links" id="skip-links">
-		<a class="wai" href="#discog_topnav">Skip to Discography Sub Navigation</a>
 		<a class="wai" href="#discog_albuminfo">Skip to Album Info</a>
 		<a class="wai" href="#discog_tracklist">Skip to Track Listing</a>
 		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
@@ -56,7 +55,7 @@
     <div><img src="albums/asphodel.jpg" alt="Asphodel" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">Asphodel</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">MPP986</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2002</span><br />full-length CD released <span itemprop="datePublished">June 2002</span></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">MPP986</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2002</span><br />full-length CD released <time datetime="2002-06" itemprop="datePublished">June 2002</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>	
 </section> <!-- end album info div -->
@@ -121,7 +120,7 @@ $lyricsfile and videoname do not include .html
 	<h2 id="reviews" tabindex="0">Reviews of <em>Asphodel</em>:</h2>
 	<div class="revcontent">
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.gothicparadise.com/tmitg.htm#rev1" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>This is another album that I've been looking forward to for some time from this great Gothic/Darkwave band.  And believe me, this is probably their best and most mature work to date.  They continue with their classic Gothic/Darkwave style, combining guitar, dark synths and female vocals, but add a very mature and full sound to it all.</p>
@@ -135,12 +134,12 @@ $lyricsfile and videoname do not include .html
 <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
 	<meta itemprop="worstRating" content = "1">
 	Rating: <span itemprop="ratingValue">4</span>/<span itemprop="bestRating">5</span></div>
-<p>-<cite itemprop="author"><a href="http://www.gothicparadise.com/tmitg.htm#rev1" target="_blank"><span itemprop="publication">Gothic Paradise</span></a></cite></p>
+<p>-<span itemprop="author"><a href="http://www.gothicparadise.com/tmitg.htm#rev1" target="_blank"><span itemprop="publication">Gothic Paradise</span></a></span></p>
 </blockquote>
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.starvox.net/crypt/3august2.htm" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>The name "The Machine in the Garden" refers to the progress of technology and its relationship with nature. Each release explores this relationship between the mechanical, natural, and spiritual worlds and further elucidates the philosophy behind the band.</p>
@@ -167,7 +166,7 @@ $lyricsfile and videoname do not include .html
 
 <p>Despite&rsquo;s its occasional lulls <i>Asphodel</i> is a standout album. There are a lot of songs here, the variation between them being dangerously delicate and subtle. You really have to listen to the album as a whole to truly appreciate it. Though there are fourteen tracks, things move along quickly, as most songs rarely pass the comfortable &lsquo;radio friendly&rsquo; (ha!) three-minute mark. The Machine In The Garden utilize synthetics and electronics in a way that is more thought-provoking and emotionally striking &mdash; they are true Darkwave at it&rsquo;s finest, and if you are a devotee of the danceable gloom spun from the black hearts of acts like Malign, Wench, Attrition, and SubVersion, this will definitely tickle your neglected fancy, as well as put a fresh spin on a familiar and time-tested formula.</p>
 </div>
-<p>-<cite><span itemprop="author">Matthew Heilman</span>, <a href="http://www.starvox.net/crypt/3august2.htm" target="_blank"><span itemprop="publication">Starvox</span></a></cite></p>
+<p>-<span itemprop="author">Matthew Heilman</span>, <a href="http://www.starvox.net/crypt/3august2.htm" target="_blank"><span itemprop="publication">Starvox</span></a></p>
 </blockquote>
 
 	</div> <!-- /revcontent -->

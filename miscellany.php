@@ -26,7 +26,6 @@
 
 <body id="discog">
 	<nav aria-label="Skip Links" id="skip-links">
-		<a class="wai" href="#discog_topnav">Skip to Discography Sub Navigation</a>
 		<a class="wai" href="#discog_albuminfo">Skip to Album Info</a>
 		<a class="wai" href="#discog_tracklist">Skip to Track Listing</a>
 		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
@@ -53,7 +52,7 @@
 	<div><img src="albums/miscellany.jpg" alt="Miscellany" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">Miscellany</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-006-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2014</span><br />rarities collection released <span itemprop="datePublished">31 October 2014</span></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-006-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2014</span><br />rarities collection released <time datetime="2014-10-31" itemprop="datePublished">31 October 2014</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 </section> <!-- end album info div -->

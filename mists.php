@@ -29,7 +29,6 @@
 
 <body id="discog">
 	<nav aria-label="Skip Links" id="skip-links">
-		<a class="wai" href="#discog_topnav">Skip to Discography Sub Navigation</a>
 		<a class="wai" href="#discog_albuminfo">Skip to Album Info</a>
 		<a class="wai" href="#discog_tracklist">Skip to Track Listing</a>
 		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
@@ -56,7 +55,7 @@
 	<div><img src="albums/mists.jpg" alt="Out of the Mists" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">Out of the Mists</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">MPP994</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2000</span><br />full-length enhanced CD released <span itemprop="datePublished">December 2000</span></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">MPP994</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2000</span><br />full-length enhanced CD released <time datetime="2000-12" itemprop="datePublished">December 2000</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>	
 </section> <!-- end album info div -->
@@ -122,7 +121,7 @@ $lyricsfile and videoname do not include .html
 	<h2 id="reviews" tabindex="0">Reviews of <em>Out of the Mists</em>:</h2>
 	<div class="revcontent">
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://music.gothic.ru/review/07-03-01_e.htm" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>What a wonderful thing is an enhanced CD! I&rsquo;m happy to know that there are more and more of them every day, and yet more happy to hold one of them in my hands. When I do get my hands upon one, I start the acquaintance with the video. This is the nicest thing about such CDs: often music accompanied by video produces a deeper impression and atmosphere. Having  watched the new video by THE MACHINE IN THE GARDEN, "The Unaware", I was surprised: first of all, the music has become much spookier, and the same is right about the video. Created in the style of The Blair Witch, it&rsquo;s strange and nervous, and it does produce an impression. After it I was really ready to listen to the album. The characteristic thing is, that on this album we have the opportunity of getting into the darker side of the band&rsquo;s creative work. Their previous album, &ldquo;One Winter&rsquo;s Night&rdquo;, was romantic, melancholic and sensual, but the new one is sooner sick, gloomy and dark. I do not know what caused such metamorphosis in the sound, but I confess that I liked this CD more than the previous one, even despite the fact that is less easy to listen to in contrast to it. Here the famous darkwave sound is polished to the slightest detail, the thick sound creating an impression of tension, is exquisitely decorated by the colorful vocals of Summer Bowman. I&rsquo;d like to specially mention the vocals: fortunately, Summer was lucky to escape the fate of most darkwave singers, who sing beautifully but without soul &mdash; her vocals enchant you with their emotionality. I only fear one thing: the numerous lovers of the band might blame the CD for its sadness and perplexity. If this happens, I&rsquo;m going to be very upset.</p>
@@ -130,7 +129,7 @@ $lyricsfile and videoname do not include .html
 <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
 	<meta itemprop="worstRating" content = "1">
 	Rating: <span itemprop="ratingValue">5</span><meta itemprop="bestRating" content="5" /></div>
-<p>-<cite><span itemprop="author">coroner</span>, <a href="http://music.gothic.ru/review/07-03-01_e.htm" target="_blank"><span itemprop="publication">Russian Gothic Page</a></cite></p>
+<p>-<span itemprop="author">coroner</span>, <a href="http://music.gothic.ru/review/07-03-01_e.htm" target="_blank"><span itemprop="publication">Russian Gothic Page</a></p>
 </blockquote>
 
 	</div> <!-- /revcontent -->

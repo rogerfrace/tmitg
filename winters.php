@@ -29,7 +29,6 @@
 
 <body id="discog">
 	<nav aria-label="Skip Links" id="skip-links">
-		<a class="wai" href="#discog_topnav">Skip to Discography Sub Navigation</a>
 		<a class="wai" href="#discog_albuminfo">Skip to Album Info</a>
 		<a class="wai" href="#discog_tracklist">Skip to Track Listing</a>
 		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
@@ -56,7 +55,7 @@
     <div><img src="albums/winters.jpg" alt="One Winter's Night" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">One Winter's Night&hellip;</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">MPP999</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">1999</span><br />full-length CD released <span itemprop="datePublished">May 1999</span></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">MPP999</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">1999</span><br />full-length CD released <time datetime="1999-05" itemprop="datePublished">May 1999</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>
 </section> <!-- end album info div -->
@@ -124,14 +123,14 @@ $lyricsfile and videoname do not include .html
 	<h2 id="reviews" tabindex="0">Reviews of <em>One Winter's Night&hellip;</em>:</h2>
 	<div class="revcontent">
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.sortedmagazine.com/archive/magazine/sordid/aug99.htm#winters" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>This is a step forward from their last release, "Underworld". While that showed what Roger and Summer could do across the various tracks, ranging from ethereal to hardcore industrial, this tries to pull all the styles together. And it succeeds really well. In general, they have focussed on ethereal and used that as a base to work from. The opener, 'Falling, Too' is a complex, uplifting track, with beautiful vocals on top of a classically-influenced soundscape. 'These Illusions' is darker, more edgy in a style that moves towards darkwave. Then, 'Control' bursts out of the speaker with an intense barrage of industrial, in stark contrast with the softer, melodic vocals on top.</p>
 <p>'Lost In Side' is more Gothic &mdash; slow, intense and moody, before they mix the classical Latin choral singing of 'Misere Mei' with a big bass drumbeat. The classical influence carries into the piano-based 'Fear No More' with lyrics based on some of Shakespeare's work. 'Ex Oblivione' flirts with tackiness &mdash; theelectro sound could easily be the soundtrack to a tacky slasher flick and the words are inspired by H.P. Lovecraft story, but the richness of the vocals prevents it from actually sounding tacky. 'The Sleep of Angels' is the first song to feature Roger's vocals as lead, and the harmonic effect of his drone with Summer's up-lifting singing works perfectly with the powerful militaristic percussion. The next three tracks are fairly straightforward classically-influenced atmospheric music with mellow ethereal vocals, before the Gothic 'Midnight' throws a discordant curve into the proceedings.</p>
 <p>Finally, the Machine in the Garden go deliciously pretentious, creating a neo-classical composition of Aeschylus' 'Io's Departure' that climaxes in a thunderous explosion of rhythm. tMitG are, without doubt, one of the most important bands in the atmospheric scene, because they refuse to stay there. Instead they load their music with innumerable stylistic reference points and influences. This more focussed release will only serve to cement their position as one of Goth's most experimental and challenging bands.</p>
 </div>
-<p>-<cite itemprop="author"><a href="http://www.sortedmagazine.com/archive/magazine/sordid/aug99.htm#winters" target="_blank"><span itemprop="publication">Sorted Magazine</span></a></cite></p>
+<p>-<span itemprop="author"><a href="http://www.sortedmagazine.com/archive/magazine/sordid/aug99.htm#winters" target="_blank"><span itemprop="publication">Sorted Magazine</span></a></span></p>
 </blockquote>
 
 	</div> <!-- /revcontent -->

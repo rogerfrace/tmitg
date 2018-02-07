@@ -28,7 +28,6 @@
 
 <body id="discog">
 	<nav aria-label="Skip Links" id="skip-links">
-		<a class="wai" href="#discog_topnav">Skip to Discography Sub Navigation</a>
 		<a class="wai" href="#discog_albuminfo">Skip to Album Info</a>
 		<a class="wai" href="#discog_tracklist">Skip to Track Listing</a>
 		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
@@ -57,11 +56,11 @@
 	<h1 itemprop="name">Before and After the Storm</h1>
 
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-005-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2011</span><br />Digital Album released <span itemprop="datePublished">24 June 2011</span></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-005-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2011</span><br />Digital Album released <time datetime="2011-06-24" itemprop="datePublished">24 June 2011</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p>(<span itemprop="catalogNumber">dxm-005-cdse</span>) <span itemprop="about">Special Edition CD</span> released <span itemprop="datePublished">13 July 2011</span></p>
+		<p>(<span itemprop="catalogNumber">dxm-005-cdse</span>) <span itemprop="about">Special Edition CD</span> released <time datetime="2011-07-13" itemprop="datePublished">13 July 2011</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>
 
@@ -135,7 +134,7 @@ $lyricsfile and videoname do not include .html
 	<h2 id="reviews" tabindex="0">Reviews of <em>Before and After the Storm</em>:</h2>
 	<div class="revcontent">
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://graveconcernsezine.com/reviews/cd-reviews/ethereal/3070-the-machine-in-the-garden-before-and-after-the-storm.html#.Tg9lS5wKw8c.twitter" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>Darkwave favorites Summer Bowman and Roger Frace return with their eighth studio album.  This has a limited CD pressing, and is mainly offered as a digital download with the above image.</p>
@@ -146,13 +145,13 @@ $lyricsfile and videoname do not include .html
 
 <p>"Before and After the Storm" takes tMitG into new waters.  Ethereal and darkwave can blend as well as peanut butter and chocolate.  Please, you <em>know</em> that's an awesome combination.</p>
 </div>
-<p>-<cite><span itemprop="author">Scott Sweet</span>, <a href="http://graveconcernsezine.com/reviews/cd-reviews/ethereal/3070-the-machine-in-the-garden-before-and-after-the-storm.html#.Tg9lS5wKw8c.twitter" target="_blank"><span itemprop="publication">Grave Concerns</span></a></cite></p>
+<p>-<span itemprop="author">Scott Sweet</span>, <a href="http://graveconcernsezine.com/reviews/cd-reviews/ethereal/3070-the-machine-in-the-garden-before-and-after-the-storm.html#.Tg9lS5wKw8c.twitter" target="_blank"><span itemprop="publication">Grave Concerns</span></a></p>
 <meta itemprop="datePublished" content="2011-06-02">
 </blockquote>
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://truecultheavymetal.com/index.php/dominion/2011/07/07/review-the-machine-in-the-garden-before-and-after-the-storm" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>'Before and After The Storm', the eighth studio album from Texas duo The Machine in The Garden, continues the now familiar exploration of technological advancement and the progressive relationship between the mechanical, natural and spiritual worlds. Creating a distinctive blend of ethereal darkwave each song unfolds layers of sweeping electronic soundscapes, soaring guitars and Summer Bowman&rsquo;s ethereal melodies, all laced together with tribal-esque rhythms.</p>
@@ -161,14 +160,14 @@ $lyricsfile and videoname do not include .html
 
 <p>The passion and diversity in the band&rsquo;s writing is clear, and as concise as the influences that have shaped and moulded the music throughout the previous releases and yet, it further pushes the boundaries of ethereal darkwave, evolving and exploring all aspects of electronic music.</p>
 </div>
-<p>-<cite><span itemprop="author">DJArmand</span>, <a href="http://truecultheavymetal.com/index.php/dominion/2011/07/07/review-the-machine-in-the-garden-before-and-after-the-storm" target="_blank"><span itemprop="publication">Dominion Magazine</span></a></cite></p>
+<p>-<span itemprop="author">DJArmand</span>, <a href="http://truecultheavymetal.com/index.php/dominion/2011/07/07/review-the-machine-in-the-garden-before-and-after-the-storm" target="_blank"><span itemprop="publication">Dominion Magazine</span></a></p>
 <meta itemprop="datePublished" content="2011-07-07">
 </blockquote>
 
 <hr style="width:50%;" />
 
 <div class="goog-trans-section">
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review" lang="it">
+<blockquote cite="http://www.soundsbehindthecorner.org/recensione.asp?id=254" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review" lang="it">
 <meta itemprop="inLanguage" content="it-IT">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
@@ -184,7 +183,7 @@ $lyricsfile and videoname do not include .html
 
 <p>L&rsquo;&lsquo;incanto viene interrotto con l&rsquo;&lsquo;energia di &ldquo;Power And Prophesy&rdquo;, particolarmente marcato da chitarre acuminate tipicamente gothic rock su una base electro-atmosferica. Segue &ldquo;Mending The Sky&rdquo; astratta, aliena, quasi ambientale, in cui si fa strada timidamente la voce lieve tra i riverberi. L&rsquo;&lsquo;album si chiude con alcune versioni rivisitate dei brani, ed ecco la ripresa ambientale di &ldquo;Cimmerian&rdquo;, vero epilogo del disco, poi &ldquo;Scathefire&rdquo;(Fire Mix) qui molto pi&ugrave; ballabile, in una veste pi&ugrave; dura remixata da Frances Byrne (Wench), &ldquo;Power And Prophesy&rdquo; (Metal Below Mix) che qui presenta campiture atmosferiche e meno chitarre filtrate, remixata dai Falling You, fino a &ldquo;Mending The Sky&rdquo; (Self Mix), remixata da Miles Fender (Earth Calling Angela, Charlottesville), che chiude il disco in una nebbia d&rsquo;&lsquo;incanti contemporaneamente antichi e originari quanto attualissimi e visionari.</p>
 </div>
-<p>-<cite><span itemprop="author">Phaeton</span>, <a href="http://www.soundsbehindthecorner.org/recensione.asp?id=254" target="_blank"><span itemprop="publication">Sounds Behind The Corner</span></a></cite></p>
+<p>-<span itemprop="author">Phaeton</span>, <a href="http://www.soundsbehindthecorner.org/recensione.asp?id=254" target="_blank"><span itemprop="publication">Sounds Behind The Corner</span></a></p>
 <meta itemprop="datePublished" content="2011-07-29">
 </blockquote>
 	<div class="goog-trans-control"></div>
@@ -192,7 +191,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.gothicparadise.com/tmitg.htm#rev3" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>Though it's been a while since <i>Shadow Puppets</i>, the band has kept busy over the years with an album in 2007 (containing both remixes and some new original tracks) and a single in 2010.  This album is mainly only available as a digital-only release available on the various music download sites, but for the true fans, collectors and stereofiles there is a limited special edition physical version available for purchase from the band. On the album we have a nice collection of seven original new tracks as well as four alternate remixes.</p>
@@ -207,27 +206,27 @@ $lyricsfile and videoname do not include .html
 	<meta itemprop="worstRating" content = "1">
 	Rating: <span itemprop="ratingValue">4.5</span>/<span itemprop="bestRating">5</span></div>
 </div>
-<p>-<cite itemprop="author"><a href="http://www.gothicparadise.com/tmitg.htm#rev3" target="_blank"><span itemprop="publication">Gothic Paradise</span></a></cite></p>
+<p>-<span itemprop="author"><a href="http://www.gothicparadise.com/tmitg.htm#rev3" target="_blank"></span><span itemprop="publication">Gothic Paradise</span></a></p>
 <meta itemprop="datePublished" content="2011-07-30">
 </blockquote>
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://pingthings.blogspot.com/2011/08/before-and-after-storm-by-machine-in.html" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>It's been a while since the Machine in the Garden has put out any new material, so I was particularly excited when I found out last December that they would be releasing a new album this year. And after waiting patiently for it's release these last six months, I'm quite pleased to let you know that "Before and After the Storm" is well worth the wait. Summer Bowman and Roger Frac&eacute; have put together a tight collection of tracks that fully embraces the band's past, while simultaneously laying a foundation for their musical future.</p>
 
 <p>As with all of their previous releases, "Before and After the Storm" showcases both Summer's vocals and Roger's instrumental work admirably, both of them having more than a few opportunities to stretch out and put their very impressive talents on display. Vocals soar, guitars rock, and the production is just as crisp and tight as I've come to expect from the two of them. Tracks like "Cimmerian", "The Piano" and "Power and Prophecy" stand among some of the best work in the duo's catalog, and the decision to include a trio of remixes fills out the album very nicely by offering some different interpretations of the tracks which succeed in emphasizing the quality of the songwriting. Where most other bands might not be as comfortable after such a long gap between albums, on "Before and After the Storm" Summer and Roger have returned with the confidence, sophistication and surety that they've always displayed, along with a maturity and elegance that makes me very excited about tMitG's future. In a 2008 review of the compilation album XV I commented on the fact that album closer "Otherworld" seemed like a fitting end to the first fifteen years of the band's career. On the other side of time in 2011, "Before and After the Storm" has proven itself as an excellent start to the band's future.</p>
 </div>
-<p>-<cite><span itemprop="author">rik</span>, <a href="http://pingthings.blogspot.com/2011/08/before-and-after-storm-by-machine-in.html" target="_blank"><span itemprop="publication">ping things</span></a></cite></p>
+<p>-<span itemprop="author">rik</span>, <a href="http://pingthings.blogspot.com/2011/08/before-and-after-storm-by-machine-in.html" target="_blank"><span itemprop="publication">ping things</span></a></p>
 <meta itemprop="datePublished" content="2011-08-21">
 </blockquote>
 
 <hr style="width:50%;" />
 
 <div class="goog-trans-section">
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review" lang="it">
+<blockquote cite="http://www.darkroom-magazine.it/ita/103/Recensione.php?r=2188" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review" lang="it">
 <meta itemprop="inLanguage" content="it-IT">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
@@ -238,7 +237,7 @@ $lyricsfile and videoname do not include .html
 	<meta itemprop="worstRating" content="1">
 	Rating: <span itemprop="ratingValue">7.5</span><meta itemprop="bestRating" content="10"></div>
 </div>
-<p>-<cite><span itemprop="author">Roberto Alessandro Filippozzi</span>, <a href="http://www.darkroom-magazine.it/ita/103/Recensione.php?r=2188" target="_blank"><span itemprop="publication">Darkroom Magazine</span></a></cite></p>
+<p>-<span itemprop="author">Roberto Alessandro Filippozzi</span>, <a href="http://www.darkroom-magazine.it/ita/103/Recensione.php?r=2188" target="_blank"><span itemprop="publication">Darkroom Magazine</span></a></p>
 <meta itemprop="datePublished" content="2011-09-28">
 </blockquote>
 	<div class="goog-trans-control"></div>
@@ -246,7 +245,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.headfullofnoise.com/2012/05/review-the-machine-in-the-garden-before-and-after-the-storm/" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>The Machine in the Garden is a gothic/darkwave duo featuring Roger Frac&eacute; and Summer Bowman. Initially a solo endeavor by Roger Frac&eacute;, the band&rsquo;s debut, 1994&rsquo;s <em>Veils and Shadows</em> EP, blended the dark elements of goth with new wave and industrial tinges. Summer Bowman joined Frac&eacute; in 1997 for their first full-length album, <em>Underworld</em>.</p>
@@ -259,7 +258,7 @@ $lyricsfile and videoname do not include .html
 	<meta itemprop="worstRating" content = "1">
 	Rating: <span itemprop="ratingValue">4</span>/<span itemprop="bestRating">5</span></div>
 </div>
-<p>-<cite><span itemprop="author">ZombieGoats</span>, <a href="http://www.headfullofnoise.com/2012/05/review-the-machine-in-the-garden-before-and-after-the-storm/" target="_blank"><span itemprop="publication">Head Full Of Noise</span></a></cite></p>
+<p>-<span itemprop="author">ZombieGoats</span>, <a href="http://www.headfullofnoise.com/2012/05/review-the-machine-in-the-garden-before-and-after-the-storm/" target="_blank"><span itemprop="publication">Head Full Of Noise</span></a></p>
 <meta itemprop="datePublished" content="2012-05-01">
 </blockquote>
 

@@ -29,7 +29,6 @@
 
 <body id="discog">
 	<nav aria-label="Skip Links" id="skip-links">
-		<a class="wai" href="#discog_topnav">Skip to Discography Sub Navigation</a>
 		<a class="wai" href="#discog_albuminfo">Skip to Album Info</a>
 		<a class="wai" href="#discog_tracklist">Skip to Track Listing</a>
 		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
@@ -57,7 +56,7 @@
 	<div><img src="albums/xv.jpg" alt="XV" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">XV</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-015-cd</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2007</span><br />full-length CD released <span itemprop="datePublished">13 December 2007</span></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-015-cd</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2007</span><br />full-length CD released <time datetime="2007-12-13" itemprop="datePublished">13 December 2007</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>
 </section> <!-- end album info div -->
@@ -139,7 +138,7 @@ $lyricsfile and videoname do not include .html
 <p>"XV" is very much worth your time, a snapshot of a veteran band confident in their skills taking a look back. Happy anniversary, I'm looking forward to what comes next.</p>
 
 </div>
-<p>-<cite><span itemprop="author">Jason Pitzl-Waters</span>, <a href="http://curveofsound.wildhunt.org/" target="_blank"><span itemprop="publication">a sweeping curve of sound</span></a></cite></p>
+<p>-<span itemprop="author">Jason Pitzl-Waters</span>, <a href="http://curveofsound.wildhunt.org/" target="_blank"><span itemprop="publication">a sweeping curve of sound</span></a></p>
 </blockquote>
 
 <hr style="width:50%;" />
@@ -149,7 +148,7 @@ $lyricsfile and videoname do not include .html
 <div itemprop="reviewBody">
 <p>The duo Summer Bowman (also known from Mirabilis) and Roger Frac&eacute;, hailing from Austin Texas, make ethereal darkwave music under the moniker The Machine in the Garden since the early 90's. Tow years ago their latest studioalbum, Shadow Puppets, was released and this is an exceptionally beautiful album which includes my personal favourite TMITG song 'Suspend'. In celebration of their 15 year existence the band decided to release a compilation cd with special songs, demo recordings, remixes and two new songs ('Mental Wasteland' and 'Otherworld'). The songs cover a period from 1994 to 2007 and perfectly show how the band has developed their sound in these years. The older songs still have a unpolished raw postpunk influence, as is illustrated with 'Oblician' and the new songs stand out with their specific ethereal atmosphere with exotic influences. The nice thing of a compilation album is that old gems such as 'Six Days' and 'Nowhere' that somehow never got released, now get a new chance. Of the remixes especially the smoothly danceable 'Mad Hatter mix' of 'Wonderland' by Pete Murray and 'Mantra (Shades of Grey mix)' by Ego Likeness stand out. The last mentioned remix unites the best elements of the styles of both bands. 'On the Wire' of course is a Sisters of Mercy cover, originally released in 1997, yet reworked and rerecorded for this compilation. Finally 'Otherworld' is worth mentioning. A new song that in contrary to the loop focussed material on the latest Shadow Puppets album showcases a classical approach without guitar distortion. This makes curious to a new studio album from The Machine in the Garden. For now XV is a special collection of songs which are a pleasure to listen to.</p>
 </div>
-<p>-<cite><span itemprop="author">TekNoir</span>, <a href="http://www.gothtronic.com/" target="_blank"><span itemprop="publication">gothtronic</span></a></cite></p>
+<p>-<span itemprop="author">TekNoir</span>, <a href="http://www.gothtronic.com/" target="_blank"><span itemprop="publication">gothtronic</span></a></p>
 </blockquote>
 
 <hr style="width:50%;" />
@@ -167,12 +166,12 @@ $lyricsfile and videoname do not include .html
 
 <p>We even have an unreleased cover of The Sisters of Mercy's "On the Wire," and the out-of-tune acoustic guitar demo of "Every Thing She Is" adds a certain intimate charm to the proceedings, making <em>XV</em> an excellent collection of music overall. Just about the only thing missing here is a live track or two to provide newcomers with a taste of the duo's prowess in concert. Still, the world of darkwave music is a better place for having The Machine in the Garden in it; the proof is in <em>XV</em>.</p>
 </div>
-<p>-<cite><span itemprop="author">Ilker Y&uuml;cel</span>, <a href="http://www.regenmag.com/" target="_blank"><span itemprop="publication">Re-Gen Magazine</span></a></cite></p>
+<p>-<span itemprop="author">Ilker Y&uuml;cel</span>, <a href="http://www.regenmag.com/" target="_blank"><span itemprop="publication">Re-Gen Magazine</span></a></p>
 </blockquote>
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://mickmercer.livejournal.com/795350.html" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>Now here's a pretty thing, to celebrate their fifteen years together, with a selection of material which isn't simply a chronological selection of already released material, as Roger Frac&eacute; and Summer Bowman select an interesting mixture, spice up with a remix here or there, demos and new material.</p>
@@ -185,18 +184,18 @@ $lyricsfile and videoname do not include .html
 
 <p>Fifteen years old, but precociously mature.</p>
 </div>
-<p>-<cite itemprop="author"><a href="http://mickmercer.livejournal.com/795350.html" target="_blank">Mick Mercer</a></cite></p>
+<p>-<span itemprop="author"><a href="http://mickmercer.livejournal.com/795350.html" target="_blank">Mick Mercer</a></span></p>
 </blockquote>
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.side-line.com/reviews_comments.php?id=30484_0_17_0_C" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>The duo Roger Frac&eacute; and Summer Bowman celebrates the 15th anniversary of their band. 15 years of commitment and several releases to date have been the main inspiration for this album "XV" featuring 15 songs from all over the years. "XV" is a real cool release on which you can find back (or discover) the wave style of this band, which now and than reminds me of Cocteau Twins. The melancholia of the guitar in conjunction with the female vocals probably brings me to Cocteau Twins, but referring to this legendary 80s band is for sure positive! I enjoyed most of the songs, but especially the "Words In Heaven Lost - Get Out Of This Remix" which is a pure mix of old Dead Can Dance and Cocteau Twins-influences. Some other piece that caught my attention are "Wonderland – Mad Hatter Mix" (remixed by Pete Murray) for the electronic touch, "Six Days" for the typical wave mood from the old days, "On The Wire" (cover version of The Sisters Of Mercy) for the kind of wafting sadness and "Corpus Christi - In Prayer Mix" (remixed by Matrix) for the great vocal performance, which reminds me of Fading Colours. "XV" is a real great item for all wave collectors!</p>
 
 </div>
-<p>-<cite><span itemprop="author">DP</span>, <a href="http://www.side-line.com/reviews_comments.php?id=30484_0_17_0_C" target="_blank"><span itemprop="publication">Side-Line</span></a></cite></p>
+<p>-<span itemprop="author">DP</span>, <a href="http://www.side-line.com/reviews_comments.php?id=30484_0_17_0_C" target="_blank"><span itemprop="publication">Side-Line</span></a></p>
 </blockquote>
 
 	</div> <!-- /revcontent -->

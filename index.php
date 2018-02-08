@@ -44,7 +44,7 @@ require_once("functions.php");
 	<style type="text/css">
 		body {background-image: url("headers/images/home/<?=$bgimg[$int];?>");}
 	</style>
-	<script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
 	<script src="tmitg.js" type="text/javascript"></script>
 	<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"MusicGroup","url":"http:\/\/www.tmitg.com\/","sameAs":["https:\/\/www.facebook.com\/tmitg","https:\/\/twitter.com\/tmitg","https:\/\/plus.google.com\/+Tmitg\/about","https:\/\/www.youtube.com\/tmitg"],"name":"the Machine in the Garden","foundingDate":"1992"}</script>
@@ -83,15 +83,16 @@ require_once("functions.php");
 <nav class="mobile" aria-label="Primary">
   <button aria-expanded="false"><span class="wai">Toggle Navigation</span></button>
   <div>
-		<a href="news.php">news</a>
-		<a href="discog.php">discography</a>
-		<a href="music.php">music</a>
-		<a href="images.php">images</a>
-		<a href="bio.php">bio</a>
-		<a href="merch.php">merchandise</a>
-		<a href="contact.php">contact</a>
-		<a href="links.php">links</a>
-		<a href="live.php">live shows</a>
+		<a href="/index.php">home</a>
+		<a href="/news.php">news</a>
+		<a href="/discog.php">discography</a>
+		<a href="/music.php">music</a>
+		<a href="/images.php">images</a>
+		<a href="/bio.php">bio</a>
+		<a href="/merch.php">merchandise</a>
+		<a href="/contact.php">contact</a>
+		<a href="/links.php">links</a>
+		<a href="/live.php">live shows</a>
   </div>
 </nav>
 

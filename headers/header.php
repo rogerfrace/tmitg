@@ -18,15 +18,16 @@
 	<nav class="mobile" aria-label="Primary">
 	  <button aria-expanded="false"><span class="wai">Toggle Navigation</span></button>
 	  <div>
-			<a href="news.php">news</a>
-			<a href="discog.php">discography</a>
-			<a href="music.php">music</a>
-			<a href="images.php">images</a>
-			<a href="bio.php">bio</a>
-			<a href="merch.php">merchandise</a>
-			<a href="contact.php">contact</a>
-			<a href="links.php">links</a>
-			<a href="live.php">live shows</a>
+			<a href="/index.php">home</a>
+			<a href="/news.php">news</a>
+			<a href="/discog.php">discography</a>
+			<a href="/music.php">music</a>
+			<a href="/images.php">images</a>
+			<a href="/bio.php">bio</a>
+			<a href="/merch.php">merchandise</a>
+			<a href="/contact.php">contact</a>
+			<a href="/links.php">links</a>
+			<a href="/live.php">live shows</a>
 	  </div>
 	</nav>
 </div>

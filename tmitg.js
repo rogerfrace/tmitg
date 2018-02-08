@@ -53,32 +53,35 @@ jQuery(document).ready(function() {
 			jQuery("ul.subnav a[href='storm.php']").attr('aria-current','page');
 		break;
 	// and main nav
+		case '/':
+			jQuery("nav a[href='/index.php']").attr('aria-current','page');
+		break;
 		case '/news.php':
-			jQuery("ul.top a[href='/news.php']").attr('aria-current','page');
+			jQuery("nav a[href='/news.php']").attr('aria-current','page');
 		break;
 		case '/discog.php':
-			jQuery("ul.top a[href='/discog.php']").attr('aria-current','page');
+			jQuery("nav a[href='/discog.php']").attr('aria-current','page');
 		break;
 		case '/music.php':
-			jQuery("ul.top a[href='/music.php']").attr('aria-current','page');
+			jQuery("nav a[href='/music.php']").attr('aria-current','page');
 		break;
 		case '/images.php':
-			jQuery("ul.top a[href='/images.php']").attr('aria-current','page');
+			jQuery("nav a[href='/images.php']").attr('aria-current','page');
 		break;
 		case '/bio.php':
-			jQuery("ul.top a[href='/bio.php']").attr('aria-current','page');
+			jQuery("nav a[href='/bio.php']").attr('aria-current','page');
 		break;
 		case '/merch.php':
-			jQuery("ul.bottom a[href='/merch.php']").attr('aria-current','page');
+			jQuery("nav a[href='/merch.php']").attr('aria-current','page');
 		break;
 		case '/contact.php':
-			jQuery("ul.bottom a[href='/contact.php']").attr('aria-current','page');
+			jQuery("nav a[href='/contact.php']").attr('aria-current','page');
 		break;
 		case '/links.php':
-			jQuery("ul.bottom a[href='/links.php']").attr('aria-current','page');
+			jQuery("nav a[href='/links.php']").attr('aria-current','page');
 		break;
 		case '/live.php':
-			jQuery("ul.bottom a[href='/live.php']").attr('aria-current','page');
+			jQuery("nav a[href='/live.php']").attr('aria-current','page');
 		break;
 	}
 

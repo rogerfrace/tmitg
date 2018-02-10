@@ -82,7 +82,7 @@
 
 <? get_header(); ?>
 
-<main class="mainbody">
+<main id="main" class="mainbody">
 
 <section>
 <h1>Upcoming Live Performances:</h1>

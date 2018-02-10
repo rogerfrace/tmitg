@@ -14,7 +14,7 @@
 
 <? get_header(); ?>
 
-<main class="mainbody">
+<main id="main" class="mainbody">
 
 <div id="accordion" role="tablist">
 	<div class="item image" id="imagetab" role="tab" tabindex="0" aria-controls="image" aria-selected="false">

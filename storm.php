@@ -42,7 +42,7 @@
 <? include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<main class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum" id="google_sectional_element">
+<main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum" id="google_sectional_element">
 	<meta itemprop="albumReleaseType" content="album">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="11">

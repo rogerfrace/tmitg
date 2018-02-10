@@ -54,7 +54,7 @@ if (isset($_GET["item"])) {
 
 <? get_header(); ?>
 
-<main class="mainbody">
+<main id="main" class="mainbody">
 
 <section class="rssicons">
 

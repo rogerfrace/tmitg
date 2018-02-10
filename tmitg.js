@@ -84,7 +84,13 @@ jQuery(document).ready(function() {
 			jQuery("nav a[href='/live.php']").attr('aria-current','page');
 		break;
 	}
-
+	
+	// set focus to main when click on skip link
+	jQuery("#stm").attr("tabindex","0");
+	jQuery("#main").attr("tabindex","0");
+	jQuery("#stm").click(function() {
+		jQuery("#main").focus();
+	});
 	// convert aria classes to roles and states
 	jQuery(".ariahidden").attr("aria-hidden","true");
 	jQuery(".ariapreso").attr("role","presentation");

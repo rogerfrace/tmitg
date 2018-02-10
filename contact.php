@@ -27,7 +27,7 @@
 
 <? get_header(); ?>
 
-<main class="mainbody">
+<main id="main" class="mainbody">
 
 <section id="leftcolumn">
 <h2 class="wai">Physical Location</h2>

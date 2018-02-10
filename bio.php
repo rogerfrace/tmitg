@@ -11,13 +11,13 @@
 	<?php include_once("headers-additional.php"); ?>
 </head>
 <body id="bio">
-	<ul class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->
-		<li><a href="#bio-content">Skip to Bio</a></li>
-	</ul>
+	<nav aria-label="Skip Links" id="skip-links">
+		<a class="wai" href="#main">Skip to Main</a>
+	</nav>
 
 <? get_header(); ?>
 
-<main class="mainbody" id="bio-content">
+<main id="main" class="mainbody">
 <h1 class="wai"><abbr title="the Machine in the Garden">tMitG</abbr> Biography</h1>
 
 <div class="twocols">

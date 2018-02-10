@@ -19,7 +19,7 @@
 
 <? get_header(); ?>
 
-<main class="mainbody">
+<main id="main" class="mainbody">
 
 <section>
 <h1 id="releases" tabindex="0">releases:</h1>

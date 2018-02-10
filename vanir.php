@@ -39,7 +39,7 @@
 <? include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<div class="mainbody" role="main" itemscope itemtype="http://schema.org/MusicAlbum">
+<div id="main" class="mainbody" role="main" itemscope itemtype="http://schema.org/MusicAlbum">
 	<meta itemprop="albumReleaseType" content="single">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="2">

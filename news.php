@@ -1,7 +1,7 @@
 <?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
 <?php
 //need to send different headers if this is a single-item view
-if ($_GET["item"]) {
+if (isset($_GET["item"])) {
 	$titlenum = $_GET["item"];
 	include("newsitems/".$titlenum.".php");
 	$mtitle = htmlentities(trim(strip_tags($title)));
@@ -25,7 +25,7 @@ if ($_GET["item"]) {
 	<meta name="title" content="<?=$mtitle;?>" />
 	<meta name="description" content="<?=$mdescription;?>" />
 	<meta name="medium" content="news" />
-	<?php if ($titlenum): ?>
+	<?php if (isset($titlenum)): ?>
 		<link rel="canonical" href="http://www.tmitg.com/news.php?item=<?=$titlenum;?>" />
 		<meta property="og:url" content="http://www.tmitg.com/news.php?item=<?=$titlenum;?>" />
 	<?php endif; ?>
@@ -36,7 +36,7 @@ if ($_GET["item"]) {
 	<meta property="fb:app_id" content="145634995501895" />
 	<meta property="fb:admins" content="1120445561,713632115" />
 	<?php // happy image thumbnail for FB
-		if (($_GET["item"]) && (!stristr($description,"<img "))) {
+		if ((isset($_GET["item"])) && (!stristr($description,"<img "))) {
 		print '<link rel="image_src" href="http://www.tmitg.com/photos/xv1.jpg" />
 			   <meta property="og:image" content="http://www.tmitg.com/photos/xv1.jpg" />';
 	} ?>
@@ -100,7 +100,7 @@ function display_news($newsnum,$pubdate,$title,$description) {
 	</article>";
 }
 
-$newsnum = $_GET["item"];
+$newsnum = !empty($_GET['item']) ? $_GET['item'] : '';
 
 if ($newsnum != "") {
 // single display

@@ -1,5 +1,5 @@
 <?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start();
-$top = $_GET['top'];
+$top = !empty($_POST['top']) ? $_POST['top'] : '';
 if ($top=="merch.html") { header("Location:merch.php"); }
 require_once("functions.php");
 ?>

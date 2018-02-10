@@ -21,9 +21,9 @@
 </head>
 
 <body id="contact">
-	<div class="wai" id="skip-links"><!-- Included for Accessibility - Do not remove -->
-		<a href="#contactForm">Skip to Email Contact Form</a>
-	</div>
+	<span id="skip-links">
+		<a class="wai" href="#main">Skip to Main</a>
+	</span>
 
 <? get_header(); ?>
 

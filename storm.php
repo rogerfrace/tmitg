@@ -27,12 +27,9 @@
 </head>
 
 <body id="discog">
-	<nav aria-label="Skip Links" id="skip-links">
-		<a class="wai" href="#discog_albuminfo">Skip to Album Info</a>
-		<a class="wai" href="#discog_tracklist">Skip to Track Listing</a>
-		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
-		<a class="wai" href="#reviews">Skip to Reviews</a>
-	</nav>
+	<span id="skip-links">
+		<a class="wai" href="#main">Skip to Main</a>
+	</span>
 
 <? get_header(); ?>
 
@@ -42,7 +39,7 @@
 <? include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum" id="google_sectional_element">
+<main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
 	<meta itemprop="albumReleaseType" content="album">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="11">
@@ -56,11 +53,11 @@
 	<h1 itemprop="name">Before and After the Storm</h1>
 
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-005-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2011</span><br />Digital Album released <time datetime="2011-06-24" itemprop="datePublished">24 June 2011</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">dxm-005-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2011</span><br />Digital Album released <time datetime="2011-06-24" itemprop="datePublished">24 June 2011</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p>(<span itemprop="catalogNumber">dxm-005-cdse</span>) <span itemprop="about">Special Edition CD</span> released <time datetime="2011-07-13" itemprop="datePublished">13 July 2011</time></p>
+		<p>(<span itemprop="catalogNumber" aria-label="catalog number">dxm-005-cdse</span>) <span itemprop="about">Special Edition CD</span> released <time datetime="2011-07-13" itemprop="datePublished">13 July 2011</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>
 
@@ -68,11 +65,11 @@
 
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
-<table role="grid" aria-readonly="true" aria-label="track list">
+<div id="discog_tracklist">
+<table>
 	<caption class="wai">Track listing for "Before and After the Storm"</caption>
 	<thead>
-		<tr role="row">
+		<tr>
 			<th scope="col">Track Number</th>
 			<th scope="col">Track Title</th>
 			<th scope="col">Lyrics</th>
@@ -206,7 +203,7 @@ $lyricsfile and videoname do not include .html
 	<meta itemprop="worstRating" content = "1">
 	Rating: <span itemprop="ratingValue">4.5</span>/<span itemprop="bestRating">5</span></div>
 </div>
-<p>-<span itemprop="author"><a href="http://www.gothicparadise.com/tmitg.htm#rev3" target="_blank"></span><span itemprop="publication">Gothic Paradise</span></a></p>
+<p>-<a href="http://www.gothicparadise.com/tmitg.htm#rev3" target="_blank"><span itemprop="publication">Gothic Paradise</span></a></p>
 <meta itemprop="datePublished" content="2011-07-30">
 </blockquote>
 

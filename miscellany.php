@@ -25,11 +25,9 @@
 </head>
 
 <body id="discog">
-	<nav aria-label="Skip Links" id="skip-links">
-		<a class="wai" href="#discog_albuminfo">Skip to Album Info</a>
-		<a class="wai" href="#discog_tracklist">Skip to Track Listing</a>
-		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
-	</nav>
+	<span id="skip-links">
+		<a class="wai" href="#main">Skip to Main</a>
+	</span>
 
 <? get_header(); ?>
 
@@ -39,7 +37,7 @@
 <? include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<div id="main" class="mainbody" role="main" itemscope itemtype="http://schema.org/MusicAlbum">
+<main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
 	<meta itemprop="albumReleaseType" content="album">
 	<meta itemprop="albumProductionType" content="CompilationAlbum">
 	<meta itemprop="numTracks" content="14">
@@ -52,18 +50,18 @@
 	<div><img src="albums/miscellany.jpg" alt="Miscellany" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">Miscellany</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-006-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2014</span><br />rarities collection released <time datetime="2014-10-31" itemprop="datePublished">31 October 2014</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">dxm-006-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2014</span><br />rarities collection released <time datetime="2014-10-31" itemprop="datePublished">31 October 2014</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 </section> <!-- end album info div -->
 
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
-<table role="grid" aria-label="track list">
+<div id="discog_tracklist">
+<table>
 	<caption class="wai">Track listing for "Miscellany"</caption>
 	<thead>
-		<tr role="row">
+		<tr>
 			<th scope="col">Track Number</th>
 			<th scope="col">Track Title</th>
 			<th scope="col">Lyrics</th>
@@ -105,7 +103,7 @@ $lyricsfile and videoname do not include .html
 </section> <!-- end buy button div -->
 		
 
-</div> <!-- /mainbody -->
+</main> <!-- /mainbody -->
 
 <script src="js/retina.js" type="text/javascript"></script>
 </body>

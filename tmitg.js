@@ -86,7 +86,6 @@ jQuery(document).ready(function() {
 	}
 	
 	// set focus to main when click on skip link
-	jQuery("#stm").attr("tabindex","0");
 	jQuery("#main").attr("tabindex","0");
 	jQuery("#stm").click(function() {
 		jQuery("#main").focus();

@@ -28,11 +28,9 @@
 </head>
 
 <body id="discog">
-	<nav aria-label="Skip Links" id="skip-links">
-		<a class="wai" href="#discog_albuminfo">Skip to Album Info</a>
-		<a class="wai" href="#discog_tracklist">Skip to Track Listing</a>
-		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
-	</nav>
+	<span id="skip-links">
+		<a class="wai" href="#main">Skip to Main</a>
+	</span>
 
 <? get_header(); ?>
 
@@ -42,7 +40,7 @@
 <? include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<div id="main" class="mainbody" role="main" itemscope itemtype="http://schema.org/MusicAlbum">
+<main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
 	<meta itemprop="albumReleaseType" content="album">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="13">
@@ -55,18 +53,18 @@
     <div><img src="albums/winters.jpg" alt="One Winter's Night" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">One Winter's Night&hellip;</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">MPP999</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">1999</span><br />full-length CD released <time datetime="1999-05" itemprop="datePublished">May 1999</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">MPP999</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">1999</span><br />full-length CD released <time datetime="1999-05" itemprop="datePublished">May 1999</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>
 </section> <!-- end album info div -->
 
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
-<table role="grid" aria-label="track list">
+<div id="discog_tracklist">
+<table>
 	<caption class="wai">Track listing for "One Winter's Night&hellip;"</caption>
 	<thead>
-		<tr role="row">
+		<tr>
 			<th scope="col">Track Number</th>
 			<th scope="col">Track Title</th>
 			<th scope="col">Lyrics</th>
@@ -75,7 +73,6 @@
 		</tr>
 	</thead>
 	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
-
 <? /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
 $lyricsfile and videoname do not include .html
@@ -136,7 +133,7 @@ $lyricsfile and videoname do not include .html
 	</div> <!-- /revcontent -->
 </section>
 
-</div> <!-- /mainbody -->
+</main> <!-- /mainbody -->
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

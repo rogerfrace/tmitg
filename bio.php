@@ -11,9 +11,9 @@
 	<?php include_once("headers-additional.php"); ?>
 </head>
 <body id="bio">
-	<nav aria-label="Skip Links" id="skip-links">
+	<span id="skip-links">
 		<a class="wai" href="#main">Skip to Main</a>
-	</nav>
+	</span>
 
 <? get_header(); ?>
 

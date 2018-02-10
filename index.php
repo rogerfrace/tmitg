@@ -52,6 +52,9 @@ require_once("functions.php");
 </head>
 
 <body id="front">
+	<span id="skip-links">
+		<a class="wai" href="#main">Skip to Main</a>
+	</span>
 
 <div id="bkgrnd"><img src="headers/images/home/<?=$bgimg[$int];?>" alt=""></div>
 
@@ -97,7 +100,7 @@ require_once("functions.php");
 </nav>
 
 
-<section id="mainmamp" role="main">
+<section id="main" role="main">
 	<article>
 		<h2>About</h2>
 		<p class="notopmargin">The Machine in the Garden is a gothic/darkwave duo featuring Roger Frac&eacute; and Summer Bowman. Since their formation in the early 1990s, Roger and Summer have developed and advanced their unique style through years of collaborating and intertwining their musical tastes. The band has developed their own unique style and released seven full-length albums and one EP.</p>

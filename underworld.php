@@ -28,11 +28,9 @@
 </head>
 
 <body id="discog">
-	<nav aria-label="Skip Links" id="skip-links">
-		<a class="wai" href="#discog_albuminfo">Skip to Album Info</a>
-		<a class="wai" href="#discog_tracklist">Skip to Track Listing</a>
-		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
-	</nav>
+	<span id="skip-links">
+		<a class="wai" href="#main">Skip to Main</a>
+	</span>
 
 <? get_header(); ?>
 
@@ -42,7 +40,7 @@
 <? include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<div id="main" class="mainbody" role="main" itemscope itemtype="http://schema.org/MusicAlbum">
+<main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
 	<meta itemprop="albumReleaseType" content="album">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="16">
@@ -55,7 +53,7 @@
 	<div><img src="albums/underworld.jpg" alt="Underworld" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">Underworld</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-001-cd</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">1997</span><br />
+		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">dxm-001-cd</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">1997</span><br />
 		full-length CD released <time datetime="1997-12-16" itemprop="datePublished">16 December 1997</time><br />
 		Out of print.<br />
 		*A limited quantity was re-released in<br />
@@ -67,11 +65,11 @@
 
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
-<table role="grid" aria-label="track list">
+<div id="discog_tracklist">
+<table>
 	<caption class="wai">Track listing for "Underworld"</caption>
 	<thead>
-		<tr role="row">
+		<tr>
 			<th scope="col">Track Number</th>
 			<th scope="col">Track Title</th>
 			<th scope="col">Lyrics</th>
@@ -209,7 +207,7 @@ $lyricsfile and videoname do not include .html
 	</div> <!-- /revcontent -->
 </section>
 
-</div> <!-- /mainbody -->
+</main> <!-- /mainbody -->
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

@@ -51,6 +51,9 @@ if (isset($_GET["item"])) {
 </head>
 
 <body id="news">
+	<span id="skip-links">
+		<a class="wai" href="#main">Skip to Main</a>
+	</span>
 
 <? get_header(); ?>
 

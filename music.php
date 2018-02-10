@@ -11,6 +11,9 @@
 </head>
 
 <body id="music">
+	<span id="skip-links">
+		<a class="wai" href="#main">Skip to Main</a>
+	</span>
 
 <? get_header(); ?>
 

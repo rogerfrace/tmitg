@@ -11,11 +11,9 @@
 </head>
 
 <body id="discog">
-	<nav aria-label="Skip Links" class="wai" id="skip-links">
-		<a href="#releases">Skip to Releases</a>
-		<a href="#compilations">Skip to Compilations</a>
-		<a href="#availability">Skip to Availability</a>
-	</nav>
+	<span id="skip-links">
+		<a class="wai" href="#main">Skip to Main</a>
+	</span>
 
 <? get_header(); ?>
 

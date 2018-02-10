@@ -79,6 +79,9 @@
 </head>
 
 <body id="live" onload="initialize()" onunload="GUnload()">
+	<span id="skip-links">
+		<a class="wai" href="#main">Skip to Main</a>
+	</span>
 
 <? get_header(); ?>
 

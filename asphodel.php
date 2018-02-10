@@ -28,11 +28,9 @@
 </head>
 
 <body id="discog">
-	<nav aria-label="Skip Links" id="skip-links">
-		<a class="wai" href="#discog_albuminfo">Skip to Album Info</a>
-		<a class="wai" href="#discog_tracklist">Skip to Track Listing</a>
-		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
-	</nav>
+	<span id="skip-links">
+		<a class="wai" href="#main">Skip to Main</a>
+	</span>
 
 <? get_header(); ?>
 
@@ -42,7 +40,7 @@
 <? include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<div id="main" class="mainbody" role="main" itemscope itemtype="http://schema.org/MusicAlbum">
+<main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
 	<meta itemprop="albumReleaseType" content="album">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="14">
@@ -55,18 +53,18 @@
     <div><img src="albums/asphodel.jpg" alt="Asphodel" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">Asphodel</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">MPP986</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2002</span><br />full-length CD released <time datetime="2002-06" itemprop="datePublished">June 2002</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">MPP986</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2002</span><br />full-length CD released <time datetime="2002-06" itemprop="datePublished">June 2002</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>	
 </section> <!-- end album info div -->
 
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
-<table role="grid" aria-label="track list">
+<div id="discog_tracklist">
+<table>
 	<caption class="wai">Track listing for "Asphodel"</caption>
 	<thead>
-		<tr role="row">
+		<tr>
 			<th scope="col">Track Number</th>
 			<th scope="col">Track Title</th>
 			<th scope="col">Lyrics</th>
@@ -172,7 +170,7 @@ $lyricsfile and videoname do not include .html
 	</div> <!-- /revcontent -->
 </section>
 
-</div> <!-- /mainbody -->
+</main> <!-- /mainbody -->
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

@@ -31,18 +31,6 @@
 </script>
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 
-<!-- is jquery loaded? if so, do shadowbox data-sb conversion -->
-<script type="text/javascript">
-if (window.jQuery) {
-	// need to reassign data-sb to rel before sb inits
-	$(document).ready(function() {
-		$('a[data-sb]').each(function() {
-			$(this).attr('rel',$(this).attr('data-sb') );
-		});
-	});
-}
-</script>
-
 <?php endif; ?>
 
 <script src="tmitg.js" type="text/javascript"></script>

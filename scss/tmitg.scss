@@ -972,14 +972,7 @@ a .icon-file-alt, .icon-file-alt {
 	font-size:120%;
 }
 
-/* shadowbox ipad fix */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)  {
-	#sb-body-inner {
-		-webkit-overflow-scrolling:touch;
-		overflow: auto;
-	}
-}
+/* colorbox overrides */
+#cboxCurrent {color:#666;}
 
 @import url('/tmitg-mobile.css');

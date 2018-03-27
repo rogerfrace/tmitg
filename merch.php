@@ -59,6 +59,8 @@
 
 <hr />
 
+<div role="region" aria-label="TMITG albums">
+
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
 	<img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/baatsico.jpg" alt="xv cd" property="image" role="presentation" />
@@ -225,7 +227,11 @@
 </div>
 </section> <!-- /itemcontainer -->
 
+</div> <!-- end region -->
+
 <br style="clear:both;" />
+
+<div role="region" aria-label="Mirabilis albums">
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
@@ -311,7 +317,11 @@
 </div>
 </section> <!-- /itemcontainer -->
 
+</div> <!-- end region -->
+
 <br style="clear:both;" /><hr><br />
+
+<div role="region" aria-label="TMITG shirts">
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
@@ -405,7 +415,9 @@
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
-    
+
+</div> <!-- end region -->
+
       <br style="clear:both;" /><br />
 
 </main>

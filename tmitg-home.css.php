@@ -99,16 +99,16 @@ nav li a:hover {
 	color: #ffffff;
 }
 
-section {
+main {
 	z-index:30;
 	width: 100%;
 	position:relative;
 	margin-top: 25px;
 }
-.ie6 section {
+.ie6 main {
 	position: absolute;
 }
-article {
+section {
 	z-index: 40;
 	position: static;
 	display:block;
@@ -120,7 +120,7 @@ article {
 	-moz-border-radius: 3em;
 	border-radius: 3em;
 }
-.ie678 article {
+.ie678 section {
 	background-color: #486178;
 	filter: alpha(opacity = 90); zoom:1;
 	color: #ffffff;
@@ -201,5 +201,5 @@ p, p a:link, p a:visited, p a:hover {
 
 @media (max-width: 725px) {
 	#front #titlebar h1 {padding-left:70px;}
-	#front article {margin-left:50px;}
+	#front section {margin-left:50px;}
 }

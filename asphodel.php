@@ -114,7 +114,7 @@ $lyricsfile and videoname do not include .html
 		
 	<hr />
 
-<section>
+<section aria-labelledby="reviews">	
 	<h2 id="reviews" tabindex="0">Reviews of <em>Asphodel</em>:</h2>
 	<div class="revcontent">
 

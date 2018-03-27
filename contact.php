@@ -29,7 +29,7 @@
 
 <main id="main" class="mainbody">
 
-<section id="leftcolumn">
+<section id="leftcolumn" aria-label="Physical Location">
 <h2 class="wai">Physical Location</h2>
 <!-- address card -->
 <address id="hcard-the-Machine-in-the-Garden" class="vcard">
@@ -53,7 +53,7 @@
 
 <!-- ########################################## -->
 
-<section id="rightcolumn">
+<section id="rightcolumn" aria-label="Email Contact Form">
 
 <h1>tMitG Email Contact Form</h1>
 

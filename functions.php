@@ -1,4 +1,4 @@
-<? 
+<?
 //for the header
 $int = rand(0,8);
 $bgimg = array(
@@ -16,7 +16,7 @@ $bgimg = array(
 date_default_timezone_set('America/Chicago');
 
 // name of lyrics folder here
-$lyrpath="lyrics"; 
+$lyrpath="lyrics";
 
 // define lyrics function here
 function do_lyrics($filename,$songname=NULL) {
@@ -25,7 +25,7 @@ function do_lyrics($filename,$songname=NULL) {
 	if (check_mobile()==true) {
 		echo "<a href=\"$lyrpath/$filename.php\"><span class=\"icon-file-alt\"></span></a>\n";
 	} else {
-		echo "<a role=\"button\" href=\"$lyrpath/$filename.php\" class=\"lyriclink\" aria-haspopup=\"true\"><span class=\"icon-file-alt\"></span><span class=\"wai\">view $songname lyrics</span></a>\n";	
+		echo "<a role=\"button\" href=\"$lyrpath/$filename.php\" class=\"lyriclink\" aria-haspopup=\"true\"><span class=\"icon-file-alt\"></span><span class=\"wai\">view $songname lyrics</span></a>\n";
 	}
 }
 
@@ -73,24 +73,28 @@ function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videon
 	<th scope=\"row\"><span itemprop=\"position\">$tracknum</span></th>
 	<td itemprop=\"name\">".stripslashes($songname)."</td>
 	<td>";
-	
-	if ($lyricsfile) { do_lyrics("$lyricsfile","$songname"); }
-	
+
+	if ($lyricsfile) {
+		do_lyrics("$lyricsfile","$songname");
+	} else {echo "&nbsp;";}
+
 	echo "</td>
 	<td>";
-	
+
 	if (($mp3name != NULL) && (strstr($mp3name, "-bc"))) {
 		$mp3name = str_replace("-bc", "", $mp3name);
 		do_mp3bc2("$mp3name","$songname",1);
-	}
-	
+	} else {echo "&nbsp;";}
+
 	echo "</td>
 	<td>";
-	
-	if ($videoname) { do_video("$videoname","$videotitle",1); }
-	
+
+	if ($videoname) {
+		do_video("$videoname","$videotitle",1);
+	} else {echo "&nbsp;";}
+
 	echo "</td>
-	</tr>";	
+	</tr>";
 }
 
 

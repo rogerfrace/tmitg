@@ -100,22 +100,22 @@ require_once("functions.php");
 </nav>
 
 
-<section id="main" role="main">
-	<article>
+<main id="main">
+	<section aria-label="About TMITG">
 		<h2>About</h2>
 		<p class="notopmargin">The Machine in the Garden is a gothic/darkwave duo featuring Roger Frac&eacute; and Summer Bowman. Since their formation in the early 1990s, Roger and Summer have developed and advanced their unique style through years of collaborating and intertwining their musical tastes. The band has developed their own unique style and released seven full-length albums and one EP.</p>
-	</article>
+	</section>
 
-	<article>
+	<section aria-label="Recent News">
 		<!-- recent news section -->
 		<h2>Recent News</h2>
 		<p class="notopmargin"><a href="https://tmitg.bandcamp.com/track/image-acoustic"><img style="float:left; margin:2px 8px 8px 0; border:0;" src="http://www.tmitg.com/albums/imageacousticico.jpg" alt="Image (acoustic)" /></a> For the 20th anniversary of <em>Underworld</em> and as a thank you to our fans and friends, tMitG has released an acoustic version of one of their new songs, "Image." "Image" is available as a free download on our <a href="https://tmitg.bandcamp.com/track/image-acoustic">Bandcamp page</a>.</p>
 
 		<div style="clear:both;"></div>
-	</article>
+	</section>
 
 
-	<article>
+	<section aria-label="Live Shows">
 		<!-- live shows section -->
 		<h2>Live Shows</h2>
 
@@ -131,8 +131,8 @@ require_once("functions.php");
 		<p class="notopmargin">No live shows are scheduled at this time.</p>
 
 		<p>Interested in booking the Machine in the Garden? Please <a href="contact.php" target="_parent">contact us</a>.</p>
-	</article>
-</section>
+	</section>
+</main>
 
 
 </body>

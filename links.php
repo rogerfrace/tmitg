@@ -227,6 +227,7 @@ jQuery(document).ready(function() {
 	$(window).hashchange(function(){
 		ga('send', 'event', 'hash', 'click', location.hash);
 	});
+	$("a[target]").attr("rel","noopener");
 });
 </script>
 

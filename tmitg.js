@@ -84,9 +84,9 @@ jQuery(document).ready(function() {
 			jQuery("nav a[href='/live.php']").attr('aria-current','page');
 		break;
 	}
-	
+
 	// set focus to main when click on skip link
-	jQuery("#main").attr("tabindex","0");
+	jQuery("#main").attr("tabindex","-1");
 	jQuery("#stm").click(function() {
 		jQuery("#main").focus();
 	});

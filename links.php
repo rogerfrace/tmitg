@@ -18,25 +18,25 @@
 <? get_header(); ?>
 
 <main id="main" class="mainbody">
-<h1 class="wai" id="top" tabindex="0">List of Interesting Links</h1>
+<h1 class="wai" id="top" tabindex="-1">List of Interesting Links</h1>
 
 <nav aria-label="Secondary">
-<p id="subnav" tabindex="0">
-<a href="#tmitg">other tMitG-related sites</a> | 
-<a href="#digital">tMitG digital downloads and streams</a> |  
+<p id="subnav" tabindex="-1">
+<a href="#tmitg">other tMitG-related sites</a> |
+<a href="#digital">tMitG digital downloads and streams</a> |
 <a href="#cds">tMitG/goth music retailers</a> |
-<a href="#bands">bands</a> | 
-<a href="#zines">webzines and print zines with web pages</a> | 
+<a href="#bands">bands</a> |
+<a href="#zines">webzines and print zines with web pages</a> |
 <a href="#labels">record labels</a> <br>
 <a href="#radio">radio shows, clubs, and DJs</a> |
-<a href="#fashion">gothic fashion</a> | 
-<a href="#art">art and design</a> | 
+<a href="#fashion">gothic fashion</a> |
+<a href="#art">art and design</a> |
 <a href="#gothstuff">various gothy stuff</a><br>
 <a href="#misc">humor, culture, entertainment, and other miscellaneous things</a>
 </p>
 </nav>
 
-<section tabindex="0" id="tmitg" class="linksec" aria-labelledby="labela">
+<section tabindex="-1" id="tmitg" class="linksec" aria-labelledby="labela">
 <h2 id="labela">other tMitG-related sites...</h2>
 <a href="#top" class="btt">(back to top)</a>
 <ul>
@@ -51,7 +51,7 @@
 </section>
 
 
-<section tabindex="0" id="digital" class="linksec" aria-labelledby="labelb">
+<section tabindex="-1" id="digital" class="linksec" aria-labelledby="labelb">
 <h2 id="labelb">tMitG digital downloads and streams</h2>
 <a href="#top" class="btt">(back to top)</a>
 <ul>
@@ -66,7 +66,7 @@
 </section>
 
 
-<section tabindex="0" id="cds" class="linksec" aria-labelledby="labelc">
+<section tabindex="-1" id="cds" class="linksec" aria-labelledby="labelc">
 <h2 id="labelc">other tMitG/goth music retailers...</h2>
 <a href="#top" class="btt">(back to top)</a>
 <ul>
@@ -78,7 +78,7 @@
 </section>
 
 
-<section tabindex="0" id="bands" class="linksec" aria-labelledby="labeld">
+<section tabindex="-1" id="bands" class="linksec" aria-labelledby="labeld">
 <h2 id="labeld">bands...</h2>
 <a href="#top" class="btt">(back to top)</a>
 <ul>
@@ -111,7 +111,7 @@
 </section>
 
 
-<section tabindex="0" id="zines" class="linksec" aria-labelledby="labele">
+<section tabindex="-1" id="zines" class="linksec" aria-labelledby="labele">
 <h2 id="labele">webzines and print zines with web pages...</h2>
 <a href="#top" class="btt">(back to top)</a>
 <ul>
@@ -120,12 +120,12 @@
 <li><a href="http://www.headfullofnoise.com/" target="_blank">Head Full of Noise</a></li>
 <li><a href="http://www.morbidoutlook.com/" target="_blank">Morbid Outlook</a></li>
 <li><a href="http://www.side-line.com/" target="_blank">Side-Line</a></li>
-<li><a href="http://sortedmagazine.com/Sordid.php3" target="_blank">Sordid</a></li> 
+<li><a href="http://sortedmagazine.com/Sordid.php3" target="_blank">Sordid</a></li>
 </ul>
 </section>
 
 
-<section tabindex="0" id="labels" class="linksec" aria-labelledby="labelf">
+<section tabindex="-1" id="labels" class="linksec" aria-labelledby="labelf">
 <h2 id="labelf">record labels...</h2>
 <a href="#top" class="btt">(back to top)</a>
 <ul>
@@ -139,7 +139,7 @@
 </section>
 
 
-<section tabindex="0" id="radio" class="linksec" aria-labelledby="labelg">
+<section tabindex="-1" id="radio" class="linksec" aria-labelledby="labelg">
 <h2 id="labelg">radio shows, clubs, and DJs...</h2>
 <a href="#top" class="btt">(back to top)</a>
 <ul>
@@ -158,7 +158,7 @@
 </section>
 
 
-<section tabindex="0" id="fashion" class="linksec" aria-labelledby="labelh">
+<section tabindex="-1" id="fashion" class="linksec" aria-labelledby="labelh">
 <h2 id="labelh">gothic fashion...</h2>
 <a href="#top" class="btt">(back to top)</a>
 <ul>
@@ -180,7 +180,7 @@
 </section>
 
 
-<section tabindex="0" id="art" class="linksec" aria-labelledby="labeli">
+<section tabindex="-1" id="art" class="linksec" aria-labelledby="labeli">
 <h2 id="labeli">art and design...</h2>
 <a href="#top" class="btt">(back to top)</a>
 <ul>
@@ -194,7 +194,7 @@
 </section>
 
 
-<section tabindex="0" id="gothstuff" class="linksec" aria-labelledby="labelj">
+<section tabindex="-1" id="gothstuff" class="linksec" aria-labelledby="labelj">
 <h2 id="labelj">various gothy stuff...</h2>
 <a href="#top" class="btt">(back to top)</a>
 <ul>
@@ -207,7 +207,7 @@
 </section>
 
 
-<section tabindex="0" id="misc" class="linksec" aria-labelledby="labelk">
+<section tabindex="-1" id="misc" class="linksec" aria-labelledby="labelk">
 <h2 id="labelk">humor, culture, entertainment, and other miscellaneous things...</h2>
 <a href="#top" class="btt">(back to top)</a>
 <ul>

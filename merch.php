@@ -51,7 +51,7 @@
 
 <div style="padding:0.5em; background-color: #EEEEEE; border:2px solid #990000;">
 	We are now offering free domestic standard shipping for all orders.<br /><br />
-	For band news and special offers, be sure to follow us on <a href="http://www.facebook.com/tmitg" rel="external">Facebook</a>, <a href="http://twitter.com/tmitg" rel="external">Twitter</a> or <a href="https://plus.google.com/111746563913739447111/" rel="external">Google+</a>.
+	For band news and special offers, be sure to follow us on <a href="http://www.facebook.com/tmitg" rel="external">Facebook</a>, or <a href="http://twitter.com/tmitg" rel="external">Twitter</a>.
 </div>
 
 <?php endif; ?>

@@ -80,10 +80,6 @@ ErrorDocument 508 '<a href="http://www.flickr.com/photos/girliemac/6509400445/" 
   RewriteRule ^checkorder.html$ http://www.tmitg.com/merch.php [R=301]
   RewriteRule ^lyrics/(.*).html$ http://www.tmitg.com/lyrics/$1.php [R=301]
   RewriteRule ^qr2011$ http://www.tmitg.com/files/tmitg-silly.jpg [R=302]
-  Redirect /plus https://plus.google.com/+Tmitg/posts
-  Redirect /gplus https://plus.google.com/+Tmitg/posts
-  Redirect /googleplus https://plus.google.com/+Tmitg/posts
-  Redirect /google+ https://plus.google.com/+Tmitg/posts
 
   # mp3 redirects
   RewriteRule ^media/cimmerian-audio.php$ http://www.tmitg.com/viewmp3bc.php?bcsample=cimmerian [R=301,L]

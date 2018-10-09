@@ -95,8 +95,6 @@ function display_news($newsnum,$pubdate,$title,$description) {
 				echo "<div class=\"shareitem\"><iframe src=\"https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.tmitg.com%2Fnews.php%3Fitem%3D".$newsnum."&width=61&layout=button_count&action=like&size=small&show_faces=false&share=false&height=21&appId=121619441387\" width=\"61\" height=\"21\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe></div>";
 				//twitter
 				echo "<div class=\"shareitem\"><a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://www.tmitg.com/news.php?item=".$newsnum."\" data-via=\"tmitg\" data-show-count=\"false\">Tweet</a><script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></div>";
-				//google+1
-				echo "<div class=\"shareitem\"><div class=\"g-plusone\" data-size=\"medium\" data-href=\"http://www.tmitg.com/news.php?item=".$newsnum."\"></div></div>";
 			echo "</div> <!--/sharelinks-->";
 		}
 	echo "</fieldset>
@@ -147,12 +145,6 @@ if ($newsnum != "") {
 	<?php if (check_mobile()==false): ?>
 		<a class="twitter-timeline" data-width="300" data-height="750" href="https://twitter.com/tmitg">Tweets by tmitg</a>
 		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-	<?php endif; ?>
-	</div>
-
-	<div class="gplusblock">
-	<?php if (check_mobile()==false): ?>
-		<div class="g-page" data-href="https://plus.google.com/111746563913739447111" data-rel="publisher"></div>
 	<?php endif; ?>
 	</div>
 	

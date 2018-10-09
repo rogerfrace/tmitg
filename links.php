@@ -42,7 +42,6 @@
 <ul>
 <li style="list-style-image:url(<?=get_favicon('http://www.facebook.com');?>);"><a rel="me" href="http://www.facebook.com/tmitg" target="_blank">tMitG on Facebook</a></li>
 <li style="list-style-image:url(<?=get_favicon('http://twitter.com');?>);"><a rel="me" href="http://twitter.com/tmitg" target="_blank">tMitG on Twitter</a></li>
-<li style="list-style-image:url(<?=get_favicon('http://plus.google.com');?>);"><a rel="me" href="https://plus.google.com/+Tmitg/posts" target="_blank">tMitG on Google+</a></li>
 <li style="list-style-image:url(<?=get_favicon('http://www.youtube.com');?>);"><a rel="me" href="http://www.youtube.com/tmitg" target="_blank">tMitG on YouTube</a></li>
 <li style="list-style-image:url(<?=get_favicon('http://en.wikipedia.org');?>);"><a rel="me" href="http://en.wikipedia.org/wiki/The_Machine_in_the_Garden_%28band%29" target="_blank">tMitG entry on Wikipedia</a></li>
 <li style="list-style-image:url(<?=get_favicon('http://www.discogs.com');?>);"><a rel="me" href="http://www.discogs.com/artist/120399-Machine-In-The-Garden-The" target="_blank">tMitG discography at discogs.com</a></li>

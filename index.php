@@ -109,7 +109,7 @@ require_once("functions.php");
 	<section aria-label="Recent News">
 		<!-- recent news section -->
 		<h2>Recent News</h2>
-		<p class="notopmargin"><a href="https://tmitg.bandcamp.com/track/image-acoustic"><img style="float:left; margin:2px 8px 8px 0; border:0;" src="http://www.tmitg.com/albums/imageacousticico.jpg" alt="Image (acoustic)" /></a> For the 20th anniversary of <em>Underworld</em> and as a thank you to our fans and friends, tMitG has released an acoustic version of one of their new songs, "Image." "Image" is available as a free download on our <a href="https://tmitg.bandcamp.com/track/image-acoustic">Bandcamp page</a>.</p>
+		<p class="notopmargin"><a href="https://tmitg.bandcamp.com/album/one-winters-night"><img style="float:left; margin:2px 8px 8px 0; border:0;" src="http://tmitg.com/albums/winters.jpg" alt="One Winter's Night&hellip;" /></a> <em>One Winter's Night&hellip;</em> was released 20 years ago this month, and as a thank you to our fans and friends, tMitG has made this classic album available as a free/name-your-price download or a half-price CD (for a limited time) on our <a href="https://tmitg.bandcamp.com/album/one-winters-night">Bandcamp page</a>.</p>
 
 		<div style="clear:both;"></div>
 	</section>

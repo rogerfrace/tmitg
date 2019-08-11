@@ -433,6 +433,14 @@
   the exact date</td>
  </tr>
  <tr>
+  <th scope="row">October 14, 1997</th>
+  <td>Denver, CO</td>
+  <td>Area 39</td>
+  <td>Lycia</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
   <th scope="row">August 21, 1997</th>
   <td>Boulder, CO</td>
   <td>Millenium</td>

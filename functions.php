@@ -70,7 +70,7 @@ function do_mp3bc2($samplename,$songtitle=NULL,$ico=NULL) {
 // new table output structure for rows in discogs
 function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle=NULL) {
 	echo "<tr itemprop=\"track\" itemscope itemtype=\"http://schema.org/MusicRecording\">
-	<th scope=\"row\"><span itemprop=\"position\">$tracknum</span></th>
+	<th scope=\"row\" class=\"tracknum\"><span itemprop=\"position\">$tracknum</span></th>
 	<td itemprop=\"name\">".stripslashes($songname)."</td>
 	<td>";
 

@@ -24,12 +24,14 @@ $black: #000000;
 /* site-wide CSS */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 100%;
+	font-size: 105%;
 	line-height: 1.4;
 	color: $dkgray;
 	font-weight: normal;
 	background-color: $black;
 	margin: 0;
+	direction:ltr;
+	writing-mode:horizontal-tb;
 	min-width: 335px;
 	-ms-touch-action: auto;
 }
@@ -80,13 +82,13 @@ a, a img, a:hover, a:hover img {
 
 h1 {
 	font-weight:bold;
-	font-size:16px;
+	font-size:1.1em;
 	margin-bottom:0;
 }
 
 h2, h3 {
 	font-weight:bold;
-	font-size:14px;
+	font-size:1em;
 	margin-bottom:0;
 }
 
@@ -543,6 +545,7 @@ a.atcss:hover {
 		border-collapse:collapse;
 		border-spacing:0;
 		td,th {padding:3px 5px;}
+		th.tracknum {width:16px;}
 	}
 }
 

@@ -100,6 +100,10 @@ address {
 	font-style: normal;
 }
 
+small {font-size:50%;}
+footer small {color:$ltgray; margin-left:1em;}
+.block {display:block;}
+
 .notopmargin {
 	margin-top:0;
 }
@@ -545,7 +549,7 @@ a.atcss:hover {
 		border-collapse:collapse;
 		border-spacing:0;
 		td,th {padding:3px 5px;}
-		th.tracknum {width:16px;}
+		th.tracknum {width:16px; text-align:right;}
 	}
 }
 
@@ -569,7 +573,7 @@ a.atcss:hover {
 
 .buynow {
 	width:105px;
-	height:39px;
+	min-height:39px;
 	overflow:hidden;
 	margin: 5px 0;
 }

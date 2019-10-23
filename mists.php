@@ -109,7 +109,7 @@ $lyricsfile and videoname do not include .html
 	
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="iTunes"><a itemprop="url" href="https://itunes.apple.com/us/album/out-of-the-mists/id949293646" id="itmslink" rel="external" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'mists');"><img src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes105x31dark.gif" class="itunes" alt="Buy Now from iTunes" /></a></div>
 		
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a itemprop="url" href="http://www.amazon.com/gp/product/B00AYEATIA/ref=as_li_ss_tl?ie=UTF8&amp;tag=themachininth-20&amp;linkCode=as2&amp;camp=217153&amp;creative=399701&amp;creativeASIN=B000QZU6PS" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Amazon', 'mists');"><img src="images/amazonmp3.jpg" class="amazon" alt="Buy Now from Amazon" /></a><img src="http://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B000QZU6PS&amp;camp=217153&amp;creative=399701" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a itemprop="url" href="http://www.amazon.com/gp/product/B00AYEATIA/ref=as_li_ss_tl?ie=UTF8&amp;tag=themachininth-20&amp;linkCode=as2&amp;camp=217153&amp;creative=399701&amp;creativeASIN=B000QZU6PS" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Amazon', 'mists');"><img src="images/amazonmp3.jpg" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img src="http://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B000QZU6PS&amp;camp=217153&amp;creative=399701" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></div>
 </section> <!-- end buy button div -->
 
 
@@ -134,6 +134,7 @@ $lyricsfile and videoname do not include .html
 </section>
 
 </main> <!-- /mainbody -->
+<? include_once("includes/amazonfooter.inc.php"); ?>
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

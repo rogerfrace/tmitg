@@ -107,7 +107,7 @@ $lyricsfile and videoname do not include .html
 
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="iTunes"><a itemprop="url" href="https://itunes.apple.com/us/album/shadow-puppets/id953109356" id="itmslink" rel="external" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'shadowpuppets');"><img src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes105x31dark.gif" class="itunes" alt="Buy Now from iTunes" /></a></div>
 		
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a itemprop="url" href="http://www.amazon.com/gp/product/B00AYP9NG8/ref=as_li_ss_tl?ie=UTF8&amp;tag=themachininth-20&amp;linkCode=as2&amp;camp=217153&amp;creative=399701&amp;creativeASIN=B000QZU67G" rel="external"  onclick="ga('send', 'event', 'BuyNow', 'Amazon', 'shadowpuppets');"><img src="images/amazonmp3.jpg" class="amazon" alt="Buy Now from Amazon" /></a><img src="http://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B000QZU67G&amp;camp=217153&amp;creative=399701" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a itemprop="url" href="http://www.amazon.com/gp/product/B00AYP9NG8/ref=as_li_ss_tl?ie=UTF8&amp;tag=themachininth-20&amp;linkCode=as2&amp;camp=217153&amp;creative=399701&amp;creativeASIN=B000QZU67G" rel="external"  onclick="ga('send', 'event', 'BuyNow', 'Amazon', 'shadowpuppets');"><img src="images/amazonmp3.jpg" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img src="http://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B000QZU67G&amp;camp=217153&amp;creative=399701" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
 </section> <!-- end buy button div -->
 
 	<hr />
@@ -304,6 +304,7 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 </section>
 
 </main> <!-- /mainbody -->
+<? include_once("includes/amazonfooter.inc.php"); ?>
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

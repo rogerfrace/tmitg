@@ -31,7 +31,7 @@
 <main class="mainbody">
 
 <section>
-<h4>Physical products are sold through <a href="https://tmitg.bandcamp.com/merch">Bandcamp</a> and <a href="http://www.cdbaby.com/Artist/TheMachineintheGarden">CDBaby</a>.</h4>
+<h4>Physical products are sold through <a href="https://tmitg.bandcamp.com/merch">Bandcamp</a>.</h4>
 
 <p>Alternately, you may visit the Machine in the Garden and Mirabilis store at <a href="http://astore.amazon.com/themachininth-20">amazon.com</a> or various retailers listed on <a href="links.php#cds">our links page</a>.</p>
 </section>

@@ -118,8 +118,7 @@
 <p style="display:inline;"><a href="merch.php">us directly</a>,
 <a href="http://astore.amazon.com/themachininth-20" onclick="ga('send', 'event', 'outbound', 'DiscogPage', 'Amazon');" target="_blank">Amazon.com</a><img src="http://www.assoc-amazon.com/e/ir?t=themachininth-20&amp;l=ur2&amp;o=1" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">, 
 <a href="http://www.projekt.com/store/?s=machine+in+the+garden&amp;post_type=product" onclick="ga('send', 'event', 'outbound', 'DiscogPage', 'Projekt');" target="_blank">Projekt</a>, 
-<a href="links.php#cds">various other online retailers</a> and fine independent music stores around the globe. Distributed in the United States by <a href="http://www.projekt.com/" onclick="ga('send', 'event', 'outbound', 'DiscogPage', 'Projekt');">Projekt</a> and 
-<a href="http://www.sdcd.com/" onclick="ga('send', 'event', 'outbound', 'DiscogPage', 'SuperD');" target="_blank">Super D One-Stop</a> via <a href="http://www.cdbaby.com/" onclick="ga('send', 'event', 'outbound', 'DiscogPage', 'CDBaby');">CDBaby</a>.</p>
+<a href="links.php#cds">various other online retailers</a> and fine independent music stores around the globe.</p>
 </section>
 
 </main> <!-- /mainbody -->

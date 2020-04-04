@@ -13,7 +13,7 @@
 <!DOCTYPE html>
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="<?=$fbog['og:description'];?>" />
@@ -32,12 +32,12 @@
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <div><br /><br /></div>
 
 <!-- this is the album header nav -->
-<? include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
@@ -73,22 +73,22 @@
 		</tr>
 	</thead>
 	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
-<? /*
+<?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<? do_songtitle(1,"This Silence","thissilence",NULL,"sp.jpg","thissilence","This Silence"); ?>
-<? do_songtitle(2,"The Inside World","theinsideworld","theinsideworld-bc","sp.jpg","theinsideworld","The Inside World"); ?>
-<? do_songtitle(3,"Winter Fell","winterfell","winterfell-bc","sp.jpg",NULL); ?>
-<? do_songtitle(4,"Mantra","mantra","mantra-bc","sp.jpg",NULL); ?>
-<? do_songtitle(5,"Suspend","suspend",NULL,"sp.jpg","suspend","Suspend"); ?>
-<? do_songtitle(6,"More Unto Fire Dreamt","moreuntofiredreamt","moreuntofire-bc","sp.jpg",NULL); ?>
-<? do_songtitle(7,"Mother","mother",NULL,"sp.jpg",NULL); ?>
-<? do_songtitle(8,"Spider\'s Bride","spidersbride","spidersbride-bc","sp.jpg",NULL); ?>
-<? do_songtitle(9,"Illusions In Rain","illusionsinrain",NULL,"sp.jpg",NULL); ?>
-<? do_songtitle(10,"If Ever","ifever",NULL,"sp.jpg",NULL); ?>
-<? do_songtitle(11,"Goodbye","goodbye",NULL,"sp.jpg",NULL); ?>
+<?php do_songtitle(1,"This Silence","thissilence",NULL,"sp.jpg","thissilence","This Silence"); ?>
+<?php do_songtitle(2,"The Inside World","theinsideworld","theinsideworld-bc","sp.jpg","theinsideworld","The Inside World"); ?>
+<?php do_songtitle(3,"Winter Fell","winterfell","winterfell-bc","sp.jpg",NULL); ?>
+<?php do_songtitle(4,"Mantra","mantra","mantra-bc","sp.jpg",NULL); ?>
+<?php do_songtitle(5,"Suspend","suspend",NULL,"sp.jpg","suspend","Suspend"); ?>
+<?php do_songtitle(6,"More Unto Fire Dreamt","moreuntofiredreamt","moreuntofire-bc","sp.jpg",NULL); ?>
+<?php do_songtitle(7,"Mother","mother",NULL,"sp.jpg",NULL); ?>
+<?php do_songtitle(8,"Spider\'s Bride","spidersbride","spidersbride-bc","sp.jpg",NULL); ?>
+<?php do_songtitle(9,"Illusions In Rain","illusionsinrain",NULL,"sp.jpg",NULL); ?>
+<?php do_songtitle(10,"If Ever","ifever",NULL,"sp.jpg",NULL); ?>
+<?php do_songtitle(11,"Goodbye","goodbye",NULL,"sp.jpg",NULL); ?>
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->
@@ -304,7 +304,7 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 </section>
 
 </main> <!-- /mainbody -->
-<? include_once("includes/amazonfooter.inc.php"); ?>
+<?php include_once("includes/amazonfooter.inc.php"); ?>
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

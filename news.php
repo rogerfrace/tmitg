@@ -18,7 +18,7 @@ if (isset($_GET["item"])) {
 <!DOCTYPE html>
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>the Machine in the Garden - news - <?=$mtitle;?></title>
@@ -47,7 +47,7 @@ if (isset($_GET["item"])) {
 	<?php include_once("headers-additional.php"); ?>
 	<link rel="alternate" type="application/rss+xml" href="/news-rss.xml.php" title="the Machine in the Garden - news" />
 	<link href="https://plus.google.com/111746563913739447111" rel="publisher" />
-	<? if (check_mobile()==false) { include_once("fblike.html"); } ?>
+	<?php if (check_mobile()==false) { include_once("fblike.html"); } ?>
 </head>
 
 <body id="news">
@@ -55,7 +55,7 @@ if (isset($_GET["item"])) {
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <main id="main" class="mainbody">
 
@@ -78,7 +78,7 @@ if (isset($_GET["item"])) {
 <br style="clear:both;" />
 
 <section class="newscolumn">
-<?
+<?php
 function display_news($newsnum,$pubdate,$title,$description) {
 	echo "<article>
 		<fieldset style=\"margin-bottom:14px;\" itemprop=\"NewsArticle\" itemscope itemtype=\"http://schema.org/NewsArticle\">

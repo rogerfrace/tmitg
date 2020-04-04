@@ -13,7 +13,7 @@
 <!DOCTYPE html>
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="<?=$fbog['og:description'];?>" />
@@ -32,12 +32,12 @@
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <div><br /><br /></div>
 
 <!-- this is the album header nav -->
-<? include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
@@ -73,26 +73,26 @@
 		</tr>
 	</thead>
 	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
-<? /*
+<?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<? do_songtitle(1,"Mental Wasteland","mentalwasteland",NULL,"xv.jpg",NULL); ?>
-<? do_songtitle(2,"Wonderland (Mad Hatter Mix)","wonderland",NULL,"xv.jpg",NULL); ?>
-<? do_songtitle(3,"Oblician (&Eacute;ire Mix)","oblician",NULL,"xv.jpg",NULL); ?>
-<? do_songtitle(4,"Six Days","sixdays","sixdays-bc","xv.jpg",NULL); ?>
-<? do_songtitle(5,"Mantra (Shades of Grey Remix)","mantra","mantraremix-bc","xv.jpg",NULL); ?>
-<? do_songtitle(6,"Words in Heaven Lost (Get Out of This Remix)","wordsinheavenlost",NULL,"xv.jpg",NULL); ?>
-<? do_songtitle(7,"Ex Oblivione (Original Demo)","exoblivione",NULL,"sp.jpg",NULL); ?>
-<? do_songtitle(8,"Dawn (On the Rocks Mix)","dawn","dawnremix-bc","xv.jpg",NULL); ?>
-<? do_songtitle(9,"Every Thing She Is (Original Demo)","everythingsheis",NULL,"xv.jpg",NULL); ?>
-<? do_songtitle(10,"Voice","voice","voice-bc","xv.jpg",NULL); ?>
-<? do_songtitle(11,"On the Wire",NULL,NULL,"xv.jpg",NULL); ?>
-<? do_songtitle(12,"Nowhere","nowhere",NULL,"xv.jpg",NULL); ?>
-<? do_songtitle(13,"Walls","walls",NULL,"xv.jpg",NULL); ?>
-<? do_songtitle(14,"Corpus Christi (In Prayer Mix)","corpuschristi",NULL,"xv.jpg",NULL); ?>
-<? do_songtitle(15,"Otherworld","otherworld","otherworld-bc","xv.jpg",NULL); ?>
+<?php do_songtitle(1,"Mental Wasteland","mentalwasteland",NULL,"xv.jpg",NULL); ?>
+<?php do_songtitle(2,"Wonderland (Mad Hatter Mix)","wonderland",NULL,"xv.jpg",NULL); ?>
+<?php do_songtitle(3,"Oblician (&Eacute;ire Mix)","oblician",NULL,"xv.jpg",NULL); ?>
+<?php do_songtitle(4,"Six Days","sixdays","sixdays-bc","xv.jpg",NULL); ?>
+<?php do_songtitle(5,"Mantra (Shades of Grey Remix)","mantra","mantraremix-bc","xv.jpg",NULL); ?>
+<?php do_songtitle(6,"Words in Heaven Lost (Get Out of This Remix)","wordsinheavenlost",NULL,"xv.jpg",NULL); ?>
+<?php do_songtitle(7,"Ex Oblivione (Original Demo)","exoblivione",NULL,"sp.jpg",NULL); ?>
+<?php do_songtitle(8,"Dawn (On the Rocks Mix)","dawn","dawnremix-bc","xv.jpg",NULL); ?>
+<?php do_songtitle(9,"Every Thing She Is (Original Demo)","everythingsheis",NULL,"xv.jpg",NULL); ?>
+<?php do_songtitle(10,"Voice","voice","voice-bc","xv.jpg",NULL); ?>
+<?php do_songtitle(11,"On the Wire",NULL,NULL,"xv.jpg",NULL); ?>
+<?php do_songtitle(12,"Nowhere","nowhere",NULL,"xv.jpg",NULL); ?>
+<?php do_songtitle(13,"Walls","walls",NULL,"xv.jpg",NULL); ?>
+<?php do_songtitle(14,"Corpus Christi (In Prayer Mix)","corpuschristi",NULL,"xv.jpg",NULL); ?>
+<?php do_songtitle(15,"Otherworld","otherworld","otherworld-bc","xv.jpg",NULL); ?>
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->
@@ -199,7 +199,7 @@ $lyricsfile and videoname do not include .html
 </section>
 
 </main> <!-- /mainbody -->
-<? include_once("includes/amazonfooter.inc.php"); ?>
+<?php include_once("includes/amazonfooter.inc.php"); ?>
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

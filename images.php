@@ -1,5 +1,5 @@
 <?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,11 +18,11 @@
 
 <body id="images">
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <div class="mainbody" role="main">
 
-<? 
+<?php 
 // name of photos folder here
 $phopath="photos"; 
 

@@ -25,7 +25,7 @@ function removeJS($str) {
 ?>
 <!DOCTYPE HTML>
 <html lang="en">
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="title" content="the Machine in the Garden - contact">
@@ -33,8 +33,8 @@ function removeJS($str) {
 	<title>the Machine in the Garden - contact</title>
 	<?php include_once("headers-additional.php"); ?>
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
-	<? include_once("fontawesome.inc.php"); ?>
-	<? include_once("googletracking.html"); ?>
+	<?php include_once("fontawesome.inc.php"); ?>
+	<?php include_once("googletracking.html"); ?>
 </head>
 
 <body>

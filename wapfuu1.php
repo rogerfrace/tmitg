@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - When Angels Peer Favorably Upon Us, Volume One</title>
@@ -14,12 +14,12 @@
 		<a href="#discog_tracklist">Skip to Track Listing</a>
 	</nav>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <div><br /><br /></div>
 
 <!-- this is the album header nav -->
-<? include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
 <div class="mainbody" role="main">
@@ -48,20 +48,20 @@
 		</tr>
 	</thead>
 	<tbody>
-<? /*
+<?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html
 */ ?>
-<? do_songtitle(1,"Machinery <i>mind/body mix</i>&deg;",NULL,NULL,NULL,NULL); ?>
-<? do_songtitle(2,"Cut Me <i>version 1</i>","cutme",NULL,NULL,NULL); ?>
-<? do_songtitle(3,"Six Days*","sixdays",NULL,NULL,NULL); ?>
-<? do_songtitle(4,"CryGods <i>falling rain</i>","crygods",NULL,NULL,NULL); ?>
-<? do_songtitle(5,"Ex Oblivione <i>version 1</i>*","exoblivione",NULL,NULL,NULL); ?>
-<? do_songtitle(6,"Oblician <i>&eacute;ire mix</i>*","oblician",NULL,NULL,NULL); ?>
-<? do_songtitle(7,"Words in Heaven Lost <i>version 1</i>","wordsinheavenlost",NULL,NULL,NULL); ?>
-<? do_songtitle(8,"Dreams of the Absent <i>orchestral</i>&deg;","dreamsoftheabsent",NULL,NULL,NULL); ?>
-<? do_songtitle(9,"Walls*","walls",NULL,NULL,NULL); ?>
-<? do_songtitle(10,"Heavenly Dub",NULL,NULL,NULL,NULL); ?>
+<?php do_songtitle(1,"Machinery <i>mind/body mix</i>&deg;",NULL,NULL,NULL,NULL); ?>
+<?php do_songtitle(2,"Cut Me <i>version 1</i>","cutme",NULL,NULL,NULL); ?>
+<?php do_songtitle(3,"Six Days*","sixdays",NULL,NULL,NULL); ?>
+<?php do_songtitle(4,"CryGods <i>falling rain</i>","crygods",NULL,NULL,NULL); ?>
+<?php do_songtitle(5,"Ex Oblivione <i>version 1</i>*","exoblivione",NULL,NULL,NULL); ?>
+<?php do_songtitle(6,"Oblician <i>&eacute;ire mix</i>*","oblician",NULL,NULL,NULL); ?>
+<?php do_songtitle(7,"Words in Heaven Lost <i>version 1</i>","wordsinheavenlost",NULL,NULL,NULL); ?>
+<?php do_songtitle(8,"Dreams of the Absent <i>orchestral</i>&deg;","dreamsoftheabsent",NULL,NULL,NULL); ?>
+<?php do_songtitle(9,"Walls*","walls",NULL,NULL,NULL); ?>
+<?php do_songtitle(10,"Heavenly Dub",NULL,NULL,NULL,NULL); ?>
 
 	<tr>
 	<td colspan="5" style="border-top: 1px solid black; margin-top: 10px;">

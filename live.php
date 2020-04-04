@@ -1,5 +1,5 @@
 <?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html class="no-js ie6 ie678" lang="en"> <![endif]-->
 <!--[if IE 7 ]>    <html class="no-js ie7 ie678" lang="en"> <![endif]-->
@@ -75,7 +75,7 @@
 	</script>-->
 
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
-	<? include_once("googletracking.html"); ?>
+	<?php include_once("googletracking.html"); ?>
 </head>
 
 <body id="live" onload="initialize()" onunload="GUnload()">
@@ -83,7 +83,7 @@
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <main id="main" class="mainbody">
 

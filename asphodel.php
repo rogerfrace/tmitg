@@ -13,7 +13,7 @@
 <!DOCTYPE html>
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <head>
 	<meta charset="utf-8" />
 	<meta name="description" content="<?=$fbog['og:description'];?>" />
@@ -32,12 +32,12 @@
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <div><br /><br /></div>
 
 <!-- this is the album header nav -->
-<? include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
@@ -73,25 +73,25 @@
 		</tr>
 	</thead>
 	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
-<? /*
+<?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<? do_songtitle(1,"Masks","masks",NULL,"asphodel.jpg","masks","Masks"); ?>
-<? do_songtitle(2,"Outside","outside","outside-bc","asphodel.jpg","outside-amv","Outside"); ?>
-<? do_songtitle(3,"Time","time",NULL,"asphodel.jpg","time","Time"); ?>
-<? do_songtitle(4,"Wonderland","wonderland","wonderland-bc","asphodel.jpg",NULL); ?>
-<? do_songtitle(5,"Icarus","icarus",NULL,"asphodel.jpg",NULL); ?>
-<? do_songtitle(6,"Ghost","ghost",NULL,"asphodel.jpg",NULL); ?>
-<? do_songtitle(7,"Open","open",NULL,"asphodel.jpg",NULL); ?>
-<? do_songtitle(8,"Clarity","clarity","clarity-bc","asphodel.jpg",NULL); ?>
-<? do_songtitle(9,"Dawn","dawn","dawn-bc","asphodel.jpg",NULL); ?>
-<? do_songtitle(10,"Echo","echo",NULL,"asphodel.jpg",NULL); ?>
-<? do_songtitle(11,"Cry","cry",NULL,"asphodel.jpg",NULL); ?>
-<? do_songtitle(12,"Seek","seek","seek-bc","asphodel.jpg",NULL); ?>
-<? do_songtitle(13,"One","one",NULL,"asphodel.jpg",NULL); ?>
-<? do_songtitle(14,"Photographic",NULL,NULL,NULL,NULL); ?>
+<?php do_songtitle(1,"Masks","masks",NULL,"asphodel.jpg","masks","Masks"); ?>
+<?php do_songtitle(2,"Outside","outside","outside-bc","asphodel.jpg","outside-amv","Outside"); ?>
+<?php do_songtitle(3,"Time","time",NULL,"asphodel.jpg","time","Time"); ?>
+<?php do_songtitle(4,"Wonderland","wonderland","wonderland-bc","asphodel.jpg",NULL); ?>
+<?php do_songtitle(5,"Icarus","icarus",NULL,"asphodel.jpg",NULL); ?>
+<?php do_songtitle(6,"Ghost","ghost",NULL,"asphodel.jpg",NULL); ?>
+<?php do_songtitle(7,"Open","open",NULL,"asphodel.jpg",NULL); ?>
+<?php do_songtitle(8,"Clarity","clarity","clarity-bc","asphodel.jpg",NULL); ?>
+<?php do_songtitle(9,"Dawn","dawn","dawn-bc","asphodel.jpg",NULL); ?>
+<?php do_songtitle(10,"Echo","echo",NULL,"asphodel.jpg",NULL); ?>
+<?php do_songtitle(11,"Cry","cry",NULL,"asphodel.jpg",NULL); ?>
+<?php do_songtitle(12,"Seek","seek","seek-bc","asphodel.jpg",NULL); ?>
+<?php do_songtitle(13,"One","one",NULL,"asphodel.jpg",NULL); ?>
+<?php do_songtitle(14,"Photographic",NULL,NULL,NULL,NULL); ?>
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->
@@ -171,7 +171,7 @@ $lyricsfile and videoname do not include .html
 </section>
 
 </main> <!-- /mainbody -->
-<? include_once("includes/amazonfooter.inc.php"); ?>
+<?php include_once("includes/amazonfooter.inc.php"); ?>
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

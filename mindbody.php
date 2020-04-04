@@ -1,5 +1,5 @@
 <?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,12 +16,12 @@
 		<a href="#discog_tracklist">Skip to Track Listing</a>
 	</nav>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <div><br /><br /></div>
 
 <!-- this is the album header nav -->
-<? include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
 <div class="mainbody clearleft" role="main">
@@ -54,7 +54,7 @@
 	Machinery <i>mind/body mix</i>
 	</td>
 	<td>
-	<? do_mp3bc2("machinery","Machinery (mind/body mix)",1); ?>
+	<?php do_mp3bc2("machinery","Machinery (mind/body mix)",1); ?>
 	</td>
 	<td>
 	&nbsp;

@@ -13,7 +13,7 @@
 <!DOCTYPE html>
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <head>
 	<meta charset="utf-8" />
 	<meta name="description" content="<?=$fbog['og:description'];?>" />
@@ -31,12 +31,12 @@
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <div><br /><br /></div>
 
 <!-- this is the album header nav -->
-<? include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
@@ -78,22 +78,22 @@
 		</tr>
 	</thead>
 	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
-<? /*
+<?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<? do_songtitle(1,"Cimmerian","cimmerian","cimmerian-bc","baats.jpg","cimmerian","Cimmerian"); ?>
-<? do_songtitle(2,"Scathefire","scathefire",NULL,"baats.jpg",NULL); ?>
-<? do_songtitle(3,"Metallic","metallic","metallic-bc","baats.jpg",NULL); ?>
-<? do_songtitle(4,"In the Vanir","inthevanir",NULL,"baats.jpg",NULL); ?>
-<? do_songtitle(5,"The Piano","thepiano",NULL,"baats.jpg",NULL); ?>
-<? do_songtitle(6,"Power and Prophesy","powerandprophesy","powerandprophesy-bc","baats.jpg",NULL); ?>
-<? do_songtitle(7,"Mending the Sky","mendingthesky",NULL,"sp.jpg",NULL); ?>
-<? do_songtitle(8,"Cimmerian (reprise)",NULL,NULL,"baats.jpg",NULL); ?>
-<? do_songtitle(9,"Scathefire (fire mix)",NULL,"firemix-bc","baats.jpg",NULL); ?>
-<? do_songtitle(10,"Power and Prophesy (metal below mix)",NULL,NULL,"baats.jpg",NULL); ?>
-<? do_songtitle(11,"Mending the Sky (slf mix)",NULL,NULL,"baats.jpg",NULL); ?>
+<?php do_songtitle(1,"Cimmerian","cimmerian","cimmerian-bc","baats.jpg","cimmerian","Cimmerian"); ?>
+<?php do_songtitle(2,"Scathefire","scathefire",NULL,"baats.jpg",NULL); ?>
+<?php do_songtitle(3,"Metallic","metallic","metallic-bc","baats.jpg",NULL); ?>
+<?php do_songtitle(4,"In the Vanir","inthevanir",NULL,"baats.jpg",NULL); ?>
+<?php do_songtitle(5,"The Piano","thepiano",NULL,"baats.jpg",NULL); ?>
+<?php do_songtitle(6,"Power and Prophesy","powerandprophesy","powerandprophesy-bc","baats.jpg",NULL); ?>
+<?php do_songtitle(7,"Mending the Sky","mendingthesky",NULL,"sp.jpg",NULL); ?>
+<?php do_songtitle(8,"Cimmerian (reprise)",NULL,NULL,"baats.jpg",NULL); ?>
+<?php do_songtitle(9,"Scathefire (fire mix)",NULL,"firemix-bc","baats.jpg",NULL); ?>
+<?php do_songtitle(10,"Power and Prophesy (metal below mix)",NULL,NULL,"baats.jpg",NULL); ?>
+<?php do_songtitle(11,"Mending the Sky (slf mix)",NULL,NULL,"baats.jpg",NULL); ?>
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->
@@ -263,7 +263,7 @@ $lyricsfile and videoname do not include .html
 </section>
 
 </main> <!-- /mainbody -->
-<? include_once("includes/amazonfooter.inc.php"); ?>
+<?php include_once("includes/amazonfooter.inc.php"); ?>
 
 <!-- google translate stuff -->
 <script type="text/javascript">

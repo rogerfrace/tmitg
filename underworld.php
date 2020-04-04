@@ -13,7 +13,7 @@
 <!DOCTYPE html>
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="<?=$fbog['og:description'];?>" />
@@ -32,12 +32,12 @@
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <div><br /><br /></div>
 
 <!-- this is the album header nav -->
-<? include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
@@ -78,27 +78,27 @@
 		</tr>
 	</thead>
 	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
-<? /*
+<?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<? do_songtitle(1,"Final Form","finalform","finalform-bc","underworld.jpg","finalform","Final Form"); ?>
-<? do_songtitle(2,"Falling into the Sea","fallingintothesea",NULL,NULL,NULL); ?>
-<? do_songtitle(3,"Dreams of the Absent","dreamsoftheabsent","dreamsoftheabsent-bc","underworld.jpg",NULL); ?>
-<? do_songtitle(4,"Words in Heaven Lost","wordsinheavenlost",NULL,NULL,NULL); ?>
-<? do_songtitle(5,"Twenty Shadows","twentyshadows",NULL,NULL,NULL); ?>
-<? do_songtitle(6,"This Arising, That Arises","thisarisingthatarises",NULL,NULL,NULL); ?>
-<? do_songtitle(7,"Corpus Christi (love will die)","corpuschristi",NULL,NULL,NULL); ?>
-<? do_songtitle(8,"Shadowy Depths","shadowydepths","shadowydepths-bc","underworld.jpg",NULL); ?>
-<? do_songtitle(9,"Spiritus ex Obitus Sanctus",NULL,NULL,NULL,NULL); ?>
-<? do_songtitle(10,"Primevil","primevil",NULL,NULL,NULL); ?>
-<? do_songtitle(11,"Cut Me","cutme",NULL,NULL,NULL); ?>
-<? do_songtitle(12,"Dark Splintered Heart <i>mutation engine</i>","darksplintered","mutationengine-bc","underworld.jpg",NULL); ?>
-<? do_songtitle(13,"CryGods <i>mind overdrive</i>","crygods",NULL,NULL,NULL); ?>
-<? do_songtitle(14,"Cut Me <i>eerie glow</i>","cutme",NULL,NULL,NULL); ?>
-<? do_songtitle(15,"Altered Form","finalform",NULL,NULL,NULL); ?>
-<? do_songtitle(16,"Cold","cold","cold-bc","underworld.jpg",NULL); ?>
+<?php do_songtitle(1,"Final Form","finalform","finalform-bc","underworld.jpg","finalform","Final Form"); ?>
+<?php do_songtitle(2,"Falling into the Sea","fallingintothesea",NULL,NULL,NULL); ?>
+<?php do_songtitle(3,"Dreams of the Absent","dreamsoftheabsent","dreamsoftheabsent-bc","underworld.jpg",NULL); ?>
+<?php do_songtitle(4,"Words in Heaven Lost","wordsinheavenlost",NULL,NULL,NULL); ?>
+<?php do_songtitle(5,"Twenty Shadows","twentyshadows",NULL,NULL,NULL); ?>
+<?php do_songtitle(6,"This Arising, That Arises","thisarisingthatarises",NULL,NULL,NULL); ?>
+<?php do_songtitle(7,"Corpus Christi (love will die)","corpuschristi",NULL,NULL,NULL); ?>
+<?php do_songtitle(8,"Shadowy Depths","shadowydepths","shadowydepths-bc","underworld.jpg",NULL); ?>
+<?php do_songtitle(9,"Spiritus ex Obitus Sanctus",NULL,NULL,NULL,NULL); ?>
+<?php do_songtitle(10,"Primevil","primevil",NULL,NULL,NULL); ?>
+<?php do_songtitle(11,"Cut Me","cutme",NULL,NULL,NULL); ?>
+<?php do_songtitle(12,"Dark Splintered Heart <i>mutation engine</i>","darksplintered","mutationengine-bc","underworld.jpg",NULL); ?>
+<?php do_songtitle(13,"CryGods <i>mind overdrive</i>","crygods",NULL,NULL,NULL); ?>
+<?php do_songtitle(14,"Cut Me <i>eerie glow</i>","cutme",NULL,NULL,NULL); ?>
+<?php do_songtitle(15,"Altered Form","finalform",NULL,NULL,NULL); ?>
+<?php do_songtitle(16,"Cold","cold","cold-bc","underworld.jpg",NULL); ?>
 	
 	</tbody>
 </table>
@@ -208,7 +208,7 @@ $lyricsfile and videoname do not include .html
 </section>
 
 </main> <!-- /mainbody -->
-<? include_once("includes/amazonfooter.inc.php"); ?>
+<?php include_once("includes/amazonfooter.inc.php"); ?>
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

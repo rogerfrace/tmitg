@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - discography</title>
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once("headers-additional.php"); ?>
-	<? include_once("googletracking.html"); ?>
+	<?php include_once("googletracking.html"); ?>
 </head>
 
 <body id="discog">
@@ -15,7 +15,7 @@
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <main id="main" class="mainbody">
 

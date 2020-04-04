@@ -13,7 +13,7 @@
 <!DOCTYPE html>
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="<?=$fbog['og:description'];?>" />
@@ -32,12 +32,12 @@
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <div><br /><br /></div>
 
 <!-- this is the album header nav -->
-<? include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
@@ -73,24 +73,24 @@
 		</tr>
 	</thead>
 	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
-<? /*
+<?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<? do_songtitle(1,"Falling, Too","fallingtoo","fallingtoo-bc","winters.jpg",NULL); ?>
-<? do_songtitle(2,"These Illusions","theseillusions","theseillusions-bc","winters.jpg",NULL); ?>
-<? do_songtitle(3,"Control","control","control-bc","winters.jpg","control-vid","Control"); ?>
-<? do_songtitle(4,"Lost in Side","lostinside",NULL,NULL,NULL); ?>
-<? do_songtitle(5,"Miserere Mei","misereremei",NULL,NULL,"miserere-fan","Miserere Mei"); ?>
-<? do_songtitle(6,"Fear No More","fearnomore","fearnomore-bc","winters.jpg",NULL); ?>
-<? do_songtitle(7,"Ex Oblivione","exoblivione",NULL,NULL,NULL); ?>
-<? do_songtitle(8,"The Sleep of Angels","thesleepofangels","thesleepofangels-bc","winters.jpg","sleepofangels","The Sleep of Angels"); ?>
-<? do_songtitle(9,"Windows of Their Eyes","windowsoftheireyes",NULL,NULL,NULL); ?>
-<? do_songtitle(10,"Everything Alone","everythingalone",NULL,NULL,NULL); ?>
-<? do_songtitle(11,"Lullaby","lullaby",NULL,NULL,NULL); ?>
-<? do_songtitle(12,"Midnight","midnight","midnight-bc","winters.jpg",NULL); ?>
-<? do_songtitle(13,"Io's Departure",NULL,NULL,NULL,NULL); ?>
+<?php do_songtitle(1,"Falling, Too","fallingtoo","fallingtoo-bc","winters.jpg",NULL); ?>
+<?php do_songtitle(2,"These Illusions","theseillusions","theseillusions-bc","winters.jpg",NULL); ?>
+<?php do_songtitle(3,"Control","control","control-bc","winters.jpg","control-vid","Control"); ?>
+<?php do_songtitle(4,"Lost in Side","lostinside",NULL,NULL,NULL); ?>
+<?php do_songtitle(5,"Miserere Mei","misereremei",NULL,NULL,"miserere-fan","Miserere Mei"); ?>
+<?php do_songtitle(6,"Fear No More","fearnomore","fearnomore-bc","winters.jpg",NULL); ?>
+<?php do_songtitle(7,"Ex Oblivione","exoblivione",NULL,NULL,NULL); ?>
+<?php do_songtitle(8,"The Sleep of Angels","thesleepofangels","thesleepofangels-bc","winters.jpg","sleepofangels","The Sleep of Angels"); ?>
+<?php do_songtitle(9,"Windows of Their Eyes","windowsoftheireyes",NULL,NULL,NULL); ?>
+<?php do_songtitle(10,"Everything Alone","everythingalone",NULL,NULL,NULL); ?>
+<?php do_songtitle(11,"Lullaby","lullaby",NULL,NULL,NULL); ?>
+<?php do_songtitle(12,"Midnight","midnight","midnight-bc","winters.jpg",NULL); ?>
+<?php do_songtitle(13,"Io's Departure",NULL,NULL,NULL,NULL); ?>
 	
 	</tbody>
 </table>
@@ -134,7 +134,7 @@ $lyricsfile and videoname do not include .html
 </section>
 
 </main> <!-- /mainbody -->
-<? include_once("includes/amazonfooter.inc.php"); ?>
+<?php include_once("includes/amazonfooter.inc.php"); ?>
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

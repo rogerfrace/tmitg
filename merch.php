@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>the Machine in the Garden - merchandise</title>
@@ -26,7 +26,7 @@
 
 <body id="merch">
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <main class="mainbody">
 
@@ -63,7 +63,7 @@
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/baatsico.jpg" alt="xv cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/baatsico.jpg" alt="xv cd" property="image" role="presentation" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -83,7 +83,7 @@
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/xvico.jpg" alt="xv cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/xvico.jpg" alt="xv cd" property="image" role="presentation" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -105,7 +105,7 @@
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/spico.jpg" alt="shadow puppets cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/spico.jpg" alt="shadow puppets cd" property="image" role="presentation" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -125,7 +125,7 @@
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/asphodelico.jpg" alt="asphodel cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/asphodelico.jpg" alt="asphodel cd" property="image" role="presentation" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -147,7 +147,7 @@
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/mistsico.jpg" alt="out of the mists cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/mistsico.jpg" alt="out of the mists cd" property="image" role="presentation" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -167,7 +167,7 @@
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/wintersico.jpg" alt="one winters night cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/wintersico.jpg" alt="one winters night cd" property="image" role="presentation" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -189,7 +189,7 @@
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/underworldico.jpg" alt="underworld cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/underworldico.jpg" alt="underworld cd" property="image" role="presentation" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -209,7 +209,7 @@
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/vsico.jpg" alt="veils and shadows cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/vsico.jpg" alt="veils and shadows cd" property="image" role="presentation" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -235,7 +235,7 @@
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/hereaftersm.jpg" alt="mirabilis here and the hereafter cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/hereaftersm.jpg" alt="mirabilis here and the hereafter cd" property="image" role="presentation" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">Mirabilis</span></span><br />
@@ -255,7 +255,7 @@
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/subrosaico.jpg" alt="mirabilis sub rosa cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/subrosaico.jpg" alt="mirabilis sub rosa cd" property="image" role="presentation" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">Mirabilis</span></span><br />
@@ -278,7 +278,7 @@
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/pleiadescoversm.jpg" alt="mirabilis pleiades cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/pleiadescoversm.jpg" alt="mirabilis pleiades cd" property="image" role="presentation" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">Mirabilis</span></span><br />
@@ -299,7 +299,7 @@
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/7inchsm.jpg" alt="mirabilis 7-inch" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/7inchsm.jpg" alt="mirabilis 7-inch" property="image" role="presentation" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">Mirabilis</span></span><br />
@@ -325,8 +325,8 @@
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<a href="images/redshirt.jpg" data-sb="shadowbox[merch]" title="red design t-shirt"><img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtico.jpg" alt="Red design t-shirt" /></a>
-	<meta property="image" role="presentation" content="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirt.jpg" />
+	<a href="images/redshirt.jpg" data-sb="shadowbox[merch]" title="red design t-shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtico.jpg" alt="Red design t-shirt" /></a>
+	<meta property="image" role="presentation" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirt.jpg" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -344,8 +344,8 @@
    
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<a href="images/redbandedtshirt.jpg" data-sb="shadowbox[merch]" title="red design baby-doll"><img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redbandedico.jpg" alt="Red design baby-doll" /></a>
-	<meta property="image" role="presentation" content="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redbandedtshirt.jpg" />
+	<a href="images/redbandedtshirt.jpg" data-sb="shadowbox[merch]" title="red design baby-doll"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redbandedico.jpg" alt="Red design baby-doll" /></a>
+	<meta property="image" role="presentation" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redbandedtshirt.jpg" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -365,8 +365,8 @@
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<a href="images/redshirtraglan.jpg" data-sb="shadowbox[merch]" title="red design ladies raglan"><img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtraglanico.jpg" alt="Red design raglan shirt" /></a>
-	<meta property="image" role="presentation" content="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtraglan.jpg" />
+	<a href="images/redshirtraglan.jpg" data-sb="shadowbox[merch]" title="red design ladies raglan"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtraglanico.jpg" alt="Red design raglan shirt" /></a>
+	<meta property="image" role="presentation" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtraglan.jpg" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -384,8 +384,8 @@
  
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<a href="images/tulipshirt.jpg" data-sb="shadowbox[merch]" title="tulip t-shirt"><img src="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tulipshirtico.jpg" alt="Tulip t-shirt" /></a>
-	<meta property="image" role="presentation" content="<? echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tulipshirt.jpg" />
+	<a href="images/tulipshirt.jpg" data-sb="shadowbox[merch]" title="tulip t-shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tulipshirtico.jpg" alt="Tulip t-shirt" /></a>
+	<meta property="image" role="presentation" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tulipshirt.jpg" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />

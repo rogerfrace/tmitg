@@ -1,5 +1,5 @@
 <?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,12 +17,12 @@
 		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
 	</nav>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <div><br /><br /></div>
 
 <!-- this is the album header nav -->
-<? include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
 <div class="mainbody clearleft" role="main">
@@ -54,13 +54,13 @@
 	Suspend
 	</td>
 	<td>
-	<? do_lyrics("suspend"); ?>
+	<?php do_lyrics("suspend"); ?>
 	</td>
 	<td>
 	&nbsp;
 	</td>
 	<td>
-	<? do_video("suspend",320,204); ?>
+	<?php do_video("suspend",320,204); ?>
 	</td>
 	</tr>
 	

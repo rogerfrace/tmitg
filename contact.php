@@ -1,4 +1,4 @@
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <!--<![endif]-->
 <head>
@@ -17,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />
 
 
-	<? include_once("googletracking.html"); ?>
+	<?php include_once("googletracking.html"); ?>
 </head>
 
 <body id="contact">
@@ -25,7 +25,7 @@
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <main id="main" class="mainbody">
 

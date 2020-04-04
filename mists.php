@@ -13,7 +13,7 @@
 <!DOCTYPE html>
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="<?=$fbog['og:description'];?>" />
@@ -32,12 +32,12 @@
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <div><br /><br /></div>
 
 <!-- this is the album header nav -->
-<? include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
@@ -73,24 +73,24 @@
 		</tr>
 	</thead>
 	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
-<? /*
+<?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<? do_songtitle(1,"Fates and Furies",NULL,NULL,NULL,NULL); ?>
-<? do_songtitle(2,"Intrigue",NULL,"intrigue-bc","mists.jpg",NULL); ?>
-<? do_songtitle(3,"The Unaware","theunaware","unaware-bc","mists.jpg","unaware","The Unaware"); ?>
-<? do_songtitle(4,"Valentine","valentine","valentine-bc","mists.jpg",NULL); ?>
-<? do_songtitle(5,"Oh Dear","ohdear",NULL,NULL,NULL); ?>
-<? do_songtitle(6,"Failure","failure",NULL,NULL,"failure","Failure (Live 2000)"); ?>
-<? do_songtitle(7,"Rusty Haloes","rustyhaloes",NULL,NULL,NULL); ?>
-<? do_songtitle(8,"Every Thing She Is","everythingsheis",NULL,NULL,"everythingsheis","Every Thing She Is (Live 2004)"); ?>
-<? do_songtitle(9,"Wasted Time","wastedtime",NULL,NULL,NULL); ?>
-<? do_songtitle(10,"Radiant","radiant",NULL,NULL,NULL); ?>
-<? do_songtitle(11,"Her Face","herface","herface-bc","mists.jpg",NULL); ?>
-<? do_songtitle(12,"Never Again","neveragain",NULL,NULL,NULL); ?>
-<? do_songtitle(13,"Fade","fade","fade-bc","mists.jpg",NULL); ?>
+<?php do_songtitle(1,"Fates and Furies",NULL,NULL,NULL,NULL); ?>
+<?php do_songtitle(2,"Intrigue",NULL,"intrigue-bc","mists.jpg",NULL); ?>
+<?php do_songtitle(3,"The Unaware","theunaware","unaware-bc","mists.jpg","unaware","The Unaware"); ?>
+<?php do_songtitle(4,"Valentine","valentine","valentine-bc","mists.jpg",NULL); ?>
+<?php do_songtitle(5,"Oh Dear","ohdear",NULL,NULL,NULL); ?>
+<?php do_songtitle(6,"Failure","failure",NULL,NULL,"failure","Failure (Live 2000)"); ?>
+<?php do_songtitle(7,"Rusty Haloes","rustyhaloes",NULL,NULL,NULL); ?>
+<?php do_songtitle(8,"Every Thing She Is","everythingsheis",NULL,NULL,"everythingsheis","Every Thing She Is (Live 2004)"); ?>
+<?php do_songtitle(9,"Wasted Time","wastedtime",NULL,NULL,NULL); ?>
+<?php do_songtitle(10,"Radiant","radiant",NULL,NULL,NULL); ?>
+<?php do_songtitle(11,"Her Face","herface","herface-bc","mists.jpg",NULL); ?>
+<?php do_songtitle(12,"Never Again","neveragain",NULL,NULL,NULL); ?>
+<?php do_songtitle(13,"Fade","fade","fade-bc","mists.jpg",NULL); ?>
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->
@@ -134,7 +134,7 @@ $lyricsfile and videoname do not include .html
 </section>
 
 </main> <!-- /mainbody -->
-<? include_once("includes/amazonfooter.inc.php"); ?>
+<?php include_once("includes/amazonfooter.inc.php"); ?>
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

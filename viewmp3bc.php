@@ -265,11 +265,11 @@ if (!empty($_GET['bcsample'])){
 
 <div class="movie" role="main">
 
-<? if (check_mobile()==true) { echo '<div style="margin:0 auto; width:280px;">'; } ?>
+<?php if (check_mobile()==true) { echo '<div style="margin:0 auto; width:280px;">'; } ?>
 
 <?=$siframe;?>
 
-<? if (check_mobile()==true) { echo '</div>'; } ?>
+<?php if (check_mobile()==true) { echo '</div>'; } ?>
 
 </div>
 

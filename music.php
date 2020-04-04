@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - music</title>
@@ -15,7 +15,7 @@
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <main id="main" class="mainbody">
 
@@ -110,7 +110,7 @@
 		<div class="listwrap">
 			<div class="audiocol">
 				<h4>mp3 samples</h4>
-				<p><? do_mp3bc2("imageacoustic","Image (acoustic)"); ?></p>
+				<p><?php do_mp3bc2("imageacoustic","Image (acoustic)"); ?></p>
 			</div>
 			<div class="videocol">
 			</div>
@@ -125,14 +125,14 @@
 		<div class="listwrap">
 			<div class="audiocol">
 				<h4>mp3 samples</h4>
-				<p><? do_mp3bc2("cimmerian","Cimmerian"); ?></p>
-				<p><? do_mp3bc2("metallic","Metallic"); ?></p>
-				<p><? do_mp3bc2("powerandprophesy","Power and Prophesy"); ?></p>
-				<p><? do_mp3bc2("firemix","Scathefire (fire mix)"); ?></p>
+				<p><?php do_mp3bc2("cimmerian","Cimmerian"); ?></p>
+				<p><?php do_mp3bc2("metallic","Metallic"); ?></p>
+				<p><?php do_mp3bc2("powerandprophesy","Power and Prophesy"); ?></p>
+				<p><?php do_mp3bc2("firemix","Scathefire (fire mix)"); ?></p>
 			</div>
 			<div class="videocol">
 				<h4>video clips</h4>
-				<p><? do_video("cimmerian","Cimmerian teaser"); ?></p>
+				<p><?php do_video("cimmerian","Cimmerian teaser"); ?></p>
 			</div>
 		</div>
 	</div>
@@ -145,7 +145,7 @@
 		<div class="listwrap">
 			<div class="audiocol">
 				<h4>mp3 samples</h4>
-				<p><? do_mp3bc2("vanirsingle","In the Vanir (single mix)"); ?></p>
+				<p><?php do_mp3bc2("vanirsingle","In the Vanir (single mix)"); ?></p>
 			</div>
 			<div class="videocol">
 			</div>
@@ -160,11 +160,11 @@
 		<div class="listwrap">
 			<div class="audiocol">
 				<h4>mp3 samples</h4>
-				<p><? do_mp3bc2("sixdays","Six Days"); ?></p>
-				<p><? do_mp3bc2("mantraremix","Mantra (Shades of Grey Remix)"); ?></p>
-				<p><? do_mp3bc2("dawnremix","Dawn (On the Rocks Mix)"); ?></p>
-				<p><? do_mp3bc2("voice","Voice"); ?></p>
-				<p><? do_mp3bc2("otherworld","Otherworld"); ?></p>
+				<p><?php do_mp3bc2("sixdays","Six Days"); ?></p>
+				<p><?php do_mp3bc2("mantraremix","Mantra (Shades of Grey Remix)"); ?></p>
+				<p><?php do_mp3bc2("dawnremix","Dawn (On the Rocks Mix)"); ?></p>
+				<p><?php do_mp3bc2("voice","Voice"); ?></p>
+				<p><?php do_mp3bc2("otherworld","Otherworld"); ?></p>
 			</div>
 			<div class="videocol">
 			</div>
@@ -179,17 +179,17 @@
 		<div class="listwrap">
 			<div class="audiocol">
 				<h4>mp3 samples</h4>
-				<p><? do_mp3bc2("theinsideworld","The Inside World"); ?></p>
-				<p><? do_mp3bc2("winterfell","Winter Fell"); ?></p>
-				<p><? do_mp3bc2("mantra","Mantra"); ?></p>
-				<p><? do_mp3bc2("moreuntofire","More Unto Fire Dreamt"); ?></p>
-				<p><? do_mp3bc2("spidersbride","Spider&rsquo;s Bride"); ?></p>
+				<p><?php do_mp3bc2("theinsideworld","The Inside World"); ?></p>
+				<p><?php do_mp3bc2("winterfell","Winter Fell"); ?></p>
+				<p><?php do_mp3bc2("mantra","Mantra"); ?></p>
+				<p><?php do_mp3bc2("moreuntofire","More Unto Fire Dreamt"); ?></p>
+				<p><?php do_mp3bc2("spidersbride","Spider&rsquo;s Bride"); ?></p>
 			</div>
 			<div class="videocol">
 				<h4>video clips</h4>
-				<p><? do_video("thissilence","This Silence (live)"); ?></p>
-				<p><? do_video("theinsideworld","The Inside World (live)"); ?></p>
-				<p><? do_video("suspend","Suspend (live)"); ?></p>
+				<p><?php do_video("thissilence","This Silence (live)"); ?></p>
+				<p><?php do_video("theinsideworld","The Inside World (live)"); ?></p>
+				<p><?php do_video("suspend","Suspend (live)"); ?></p>
 			</div>
 		</div>
 	</div>
@@ -202,18 +202,18 @@
 		<div class="listwrap">
 			<div class="audiocol">
 				<h4>mp3 samples</h4>
-				<p><? do_mp3bc2("clarity","Clarity"); ?></p>
-				<p><? do_mp3bc2("dawn","Dawn"); ?></p>
-				<p><? do_mp3bc2("outside","Outside"); ?></p>
-				<p><? do_mp3bc2("seek","Seek"); ?></p>
-				<p><? do_mp3bc2("wonderland","Wonderland"); ?></p>
+				<p><?php do_mp3bc2("clarity","Clarity"); ?></p>
+				<p><?php do_mp3bc2("dawn","Dawn"); ?></p>
+				<p><?php do_mp3bc2("outside","Outside"); ?></p>
+				<p><?php do_mp3bc2("seek","Seek"); ?></p>
+				<p><?php do_mp3bc2("wonderland","Wonderland"); ?></p>
 			</div>
 			<div class="videocol">
 				<h4>video clips</h4>
-				<p><? do_video("masks","Masks (live)"); ?></p>
-				<p><? do_video("outside","Outside (live)"); ?></p>
-				<p><? do_video("outside-amv","Outside"); ?></p>
-				<p><? do_video("time","Time (live)"); ?></p>
+				<p><?php do_video("masks","Masks (live)"); ?></p>
+				<p><?php do_video("outside","Outside (live)"); ?></p>
+				<p><?php do_video("outside-amv","Outside"); ?></p>
+				<p><?php do_video("time","Time (live)"); ?></p>
 			</div>	
 		</div>
 	</div>
@@ -226,17 +226,17 @@
 		<div class="listwrap">
 			<div class="audiocol">
 				<h4>mp3 samples</h4>
-				<p><? do_mp3bc2("fade","Fade"); ?></p>
-				<p><? do_mp3bc2("herface","Her Face"); ?></p>
-				<p><? do_mp3bc2("intrigue","Intrigue"); ?></p>
-				<p><? do_mp3bc2("unaware","The Unaware"); ?></p>
-				<p><? do_mp3bc2("valentine","Valentine"); ?></p>
+				<p><?php do_mp3bc2("fade","Fade"); ?></p>
+				<p><?php do_mp3bc2("herface","Her Face"); ?></p>
+				<p><?php do_mp3bc2("intrigue","Intrigue"); ?></p>
+				<p><?php do_mp3bc2("unaware","The Unaware"); ?></p>
+				<p><?php do_mp3bc2("valentine","Valentine"); ?></p>
 			</div>
 			<div class="videocol">
 				<h4>video clips</h4>
-				<p><? do_video("everythingsheis","Every Thing She Is (live)"); ?></p>
-				<p><? do_video("failure","Failure (live)"); ?></p>
-				<p><? do_video("unaware","The Unaware"); ?></p>
+				<p><?php do_video("everythingsheis","Every Thing She Is (live)"); ?></p>
+				<p><?php do_video("failure","Failure (live)"); ?></p>
+				<p><?php do_video("unaware","The Unaware"); ?></p>
 			</div>	
 		</div>
 	</div>
@@ -249,21 +249,21 @@
 		<div class="listwrap">
 			<div class="audiocol">
 				<h4>mp3 samples</h4>
-				<p><? do_mp3bc2("control","Control"); ?></p>
-				<p><? do_mp3bc2("fallingtoo","Falling, Too"); ?></p>
-				<p><? do_mp3bc2("fearnomore","Fear No More"); ?></p>
-				<p><? do_mp3bc2("midnight","Midnight"); ?></p>
-				<p><? do_mp3bc2("thesleepofangels","The Sleep of Angels"); ?></p>
-				<p><? do_mp3bc2("theseillusions","These Illusions"); ?></p>
+				<p><?php do_mp3bc2("control","Control"); ?></p>
+				<p><?php do_mp3bc2("fallingtoo","Falling, Too"); ?></p>
+				<p><?php do_mp3bc2("fearnomore","Fear No More"); ?></p>
+				<p><?php do_mp3bc2("midnight","Midnight"); ?></p>
+				<p><?php do_mp3bc2("thesleepofangels","The Sleep of Angels"); ?></p>
+				<p><?php do_mp3bc2("theseillusions","These Illusions"); ?></p>
 			</div>
 			<div class="videocol">
 				<h4>video clips</h4>
-				<p><? do_video("control","Control (live)"); ?></p>
-				<p><? do_video("control-vid","Control"); ?></p>
-				<p><? do_video("miserere-fan","Miserere Mei (Fan Video)"); ?></p>
-				<p><? do_video("miserere-fan2","Miserere Mei (Fan Video)"); ?></p>
-				<p><? do_video("sleepofangels","The Sleep of Angels (live)"); ?></p>
-				<p><? do_video("sleepofangels-fan","The Sleep of Angels (Fan Video)"); ?></p>
+				<p><?php do_video("control","Control (live)"); ?></p>
+				<p><?php do_video("control-vid","Control"); ?></p>
+				<p><?php do_video("miserere-fan","Miserere Mei (Fan Video)"); ?></p>
+				<p><?php do_video("miserere-fan2","Miserere Mei (Fan Video)"); ?></p>
+				<p><?php do_video("sleepofangels","The Sleep of Angels (live)"); ?></p>
+				<p><?php do_video("sleepofangels-fan","The Sleep of Angels (Fan Video)"); ?></p>
 			</div>	
 		</div>
 	</div>
@@ -276,17 +276,17 @@
 		<div class="listwrap">
 			<div class="audiocol">
 				<h4>mp3 samples</h4>
-				<p><? do_mp3bc2("finalform","Final Form"); ?></p>
-				<p><? do_mp3bc2("dreamsoftheabsent","Dreams of the Absent"); ?></p>
-				<p><? do_mp3bc2("shadowydepths","Shadowy Depths"); ?></p>
-				<p><? do_mp3bc2("mutationengine","Dark Splintered Heart (Mutation Engine)"); ?></p>
-				<p><? do_mp3bc2("cold","Cold"); ?></p>
+				<p><?php do_mp3bc2("finalform","Final Form"); ?></p>
+				<p><?php do_mp3bc2("dreamsoftheabsent","Dreams of the Absent"); ?></p>
+				<p><?php do_mp3bc2("shadowydepths","Shadowy Depths"); ?></p>
+				<p><?php do_mp3bc2("mutationengine","Dark Splintered Heart (Mutation Engine)"); ?></p>
+				<p><?php do_mp3bc2("cold","Cold"); ?></p>
 			</div>
 			<div class="videocol">
 				<h4>video clips</h4>
-				<p><? do_video("finalform","Final Form (live '97)"); ?></p>
-				<p><? do_video("finalform2","Final Form (live '00)"); ?></p>
-				<p><? do_video("finalform-fan","Final Form (Fan Video)"); ?></p>
+				<p><?php do_video("finalform","Final Form (live '97)"); ?></p>
+				<p><?php do_video("finalform2","Final Form (live '00)"); ?></p>
+				<p><?php do_video("finalform-fan","Final Form (Fan Video)"); ?></p>
 			</div>	
 		</div>
 	</div>
@@ -299,8 +299,8 @@
 		<div class="listwrap">
 			<div class="audiocol">
 				<h4>mp3 samples</h4>
-				<p><? do_mp3bc2("atouchofheaven","A Touch of Heaven"); ?></p>
-				<p><? do_mp3bc2("darksplinteredheart","Dark Splintered Heart"); ?></p>
+				<p><?php do_mp3bc2("atouchofheaven","A Touch of Heaven"); ?></p>
+				<p><?php do_mp3bc2("darksplinteredheart","Dark Splintered Heart"); ?></p>
 			</div>
 			<div class="videocol">
 			</div>	

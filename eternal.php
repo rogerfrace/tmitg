@@ -1,5 +1,5 @@
 <?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,12 +17,12 @@
 		<a class="wai" href="#discog_buynow">Skip to Buy Now Links</a>
 	</nav>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <div><br /><br /></div>
 
 <!-- this is the album header nav -->
-<? include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
 <div class="mainbody clearleft" role="main">
@@ -54,10 +54,10 @@
 	Falling Softly
 	</td>
 	<td>
-	<? do_lyrics("fallingsoftly"); ?>
+	<?php do_lyrics("fallingsoftly"); ?>
 	</td>
 	<td>
-	<? do_mp3bc2("fallingsoftly","Falling Softly",1); ?>
+	<?php do_mp3bc2("fallingsoftly","Falling Softly",1); ?>
 	</td>
 	<td>
 	&nbsp;

@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - When Angels Peer Favorably Upon Us, Volume Two</title>
@@ -14,12 +14,12 @@
 		<a href="#discog_tracklist">Skip to Track Listing</a>
 	</nav>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <div><br /><br /></div>
 
 <!-- this is the album header nav -->
-<? include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
 <div class="mainbody" role="main">
@@ -48,22 +48,22 @@
 		</tr>
 	</thead>
 	<tbody>
-<? /*
+<?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html
 */ ?>
-<? do_songtitle(1,"Corpus Christi <i>in prayer mix</i>*","corpuschristi",NULL,NULL,NULL); ?>
-<? do_songtitle(2,"These Illusions <i>version 1</i>","theseillusions",NULL,NULL,NULL); ?>
-<? do_songtitle(3,"Arpeggio Doodle",NULL,NULL,NULL,NULL); ?>
-<? do_songtitle(4,"Dark Splintered Heart <i>fractured mix</i>","darksplintered",NULL,NULL,NULL); ?>
-<? do_songtitle(5,"Christianne is Dead","christianneisdead",NULL,NULL,NULL); ?>
-<? do_songtitle(6,"Oblician <i>heavy</i>","oblician",NULL,NULL,NULL); ?>
-<? do_songtitle(7,"A Touch of Heaven 1999","atouchofheaven",NULL,NULL,NULL); ?>
-<? do_songtitle(8,"Heavenly Air <i>crunchmix</i>","heavenlyair",NULL,NULL,NULL); ?>
-<? do_songtitle(9,"Miserere Mei <i>vocal</i>&deg;","misereremei",NULL,NULL,NULL); ?>
-<? do_songtitle(10,"Words in Heaven Lost <i>get out of this</i>*","wordsinheavenlost",NULL,NULL,NULL); ?>
-<? do_songtitle(11,"Voices",NULL,NULL,NULL,NULL); ?>
-<? do_songtitle(12,"Hidden&deg;","hidden",NULL,NULL,NULL); ?>
+<?php do_songtitle(1,"Corpus Christi <i>in prayer mix</i>*","corpuschristi",NULL,NULL,NULL); ?>
+<?php do_songtitle(2,"These Illusions <i>version 1</i>","theseillusions",NULL,NULL,NULL); ?>
+<?php do_songtitle(3,"Arpeggio Doodle",NULL,NULL,NULL,NULL); ?>
+<?php do_songtitle(4,"Dark Splintered Heart <i>fractured mix</i>","darksplintered",NULL,NULL,NULL); ?>
+<?php do_songtitle(5,"Christianne is Dead","christianneisdead",NULL,NULL,NULL); ?>
+<?php do_songtitle(6,"Oblician <i>heavy</i>","oblician",NULL,NULL,NULL); ?>
+<?php do_songtitle(7,"A Touch of Heaven 1999","atouchofheaven",NULL,NULL,NULL); ?>
+<?php do_songtitle(8,"Heavenly Air <i>crunchmix</i>","heavenlyair",NULL,NULL,NULL); ?>
+<?php do_songtitle(9,"Miserere Mei <i>vocal</i>&deg;","misereremei",NULL,NULL,NULL); ?>
+<?php do_songtitle(10,"Words in Heaven Lost <i>get out of this</i>*","wordsinheavenlost",NULL,NULL,NULL); ?>
+<?php do_songtitle(11,"Voices",NULL,NULL,NULL,NULL); ?>
+<?php do_songtitle(12,"Hidden&deg;","hidden",NULL,NULL,NULL); ?>
 
 	<tr>
 	<td colspan="5" style="border-top: 1px solid black; margin-top: 10px;">

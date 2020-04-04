@@ -12,7 +12,7 @@
 <!DOCTYPE html>
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<? require_once("functions.php"); ?>
+<?php require_once("functions.php"); ?>
 <head>
 	<meta charset="utf-8" />
 	<meta name="description" content="<?=$fbog['og:description'];?>" />
@@ -29,12 +29,12 @@
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
 
-<? get_header(); ?>
+<?php get_header(); ?>
 
 <div><br /><br /></div>
 
 <!-- this is the album header nav -->
-<? include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
@@ -70,25 +70,25 @@
 		</tr>
 	</thead>
 	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
-<? /*
+<?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<? do_songtitle(1,"Falling Softly","fallingsoftly","fallingsoftly-bc",NULL,NULL); ?>
-<? do_songtitle(2,"Far From Home","farfromhome","farfromhome-bc",NULL,NULL); ?>
-<? do_songtitle(3,"The Unaware (smooth motion mix)","theunaware","smoothmotionmix-bc",NULL,NULL); ?>
-<? do_songtitle(4,"Midnight (dancing there)","midnight",NULL,NULL,NULL); ?>
-<? do_songtitle(5,"Coventry Carol","coventrycarol","coventrycarol-bc",NULL,NULL); ?>
-<? do_songtitle(6,"Suspend (eclectica mix)","suspend",NULL,NULL,NULL); ?>
-<? do_songtitle(7,"Machinery (mind/body mix)",NULL,"machinery-bc",NULL,NULL); ?>
-<? do_songtitle(8,"Dreams of the Absent (orchestral)","dreamsoftheabsent",NULL,NULL,NULL); ?>
-<? do_songtitle(9,"Miserere Mei (vocal)","misereremei","misererevocal-bc",NULL,NULL); ?>
-<? do_songtitle(10,"Hidden","hidden",NULL,NULL,NULL); ?>
-<? do_songtitle(11,"Cold (ambient)","cold",NULL,NULL,NULL); ?>
-<? do_songtitle(12,"Obsession",NULL,NULL,NULL,NULL); ?>
-<? do_songtitle(13,"Awake at the Wall",NULL,NULL,NULL,NULL); ?>
-<? do_songtitle(14,"Winter Fell (live)","winterfell",NULL,NULL,NULL); ?>
+<?php do_songtitle(1,"Falling Softly","fallingsoftly","fallingsoftly-bc",NULL,NULL); ?>
+<?php do_songtitle(2,"Far From Home","farfromhome","farfromhome-bc",NULL,NULL); ?>
+<?php do_songtitle(3,"The Unaware (smooth motion mix)","theunaware","smoothmotionmix-bc",NULL,NULL); ?>
+<?php do_songtitle(4,"Midnight (dancing there)","midnight",NULL,NULL,NULL); ?>
+<?php do_songtitle(5,"Coventry Carol","coventrycarol","coventrycarol-bc",NULL,NULL); ?>
+<?php do_songtitle(6,"Suspend (eclectica mix)","suspend",NULL,NULL,NULL); ?>
+<?php do_songtitle(7,"Machinery (mind/body mix)",NULL,"machinery-bc",NULL,NULL); ?>
+<?php do_songtitle(8,"Dreams of the Absent (orchestral)","dreamsoftheabsent",NULL,NULL,NULL); ?>
+<?php do_songtitle(9,"Miserere Mei (vocal)","misereremei","misererevocal-bc",NULL,NULL); ?>
+<?php do_songtitle(10,"Hidden","hidden",NULL,NULL,NULL); ?>
+<?php do_songtitle(11,"Cold (ambient)","cold",NULL,NULL,NULL); ?>
+<?php do_songtitle(12,"Obsession",NULL,NULL,NULL,NULL); ?>
+<?php do_songtitle(13,"Awake at the Wall",NULL,NULL,NULL,NULL); ?>
+<?php do_songtitle(14,"Winter Fell (live)","winterfell",NULL,NULL,NULL); ?>
 
 	</tbody>
 </table>

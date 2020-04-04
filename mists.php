@@ -103,8 +103,6 @@ $lyricsfile and videoname do not include .html
 	
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="8.00"><a itemprop="url" href="https://tmitg.bandcamp.com/album/out-of-the-mists" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'mists');"><img src="images/bandcamp.jpg" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
 
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="CDBaby"><a itemprop="url" href="http://cdbaby.com/cd/themachineinthegarden3" rel="external" onclick="ga('send', 'event', 'BuyNow', 'CDBaby', 'mists');"><img src="images/cdbaby.gif" class="cdbaby" alt="Buy Now from CD Baby" /></a></div>
-
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Projekt"><a itemprop="url" href="http://www.projekt.com/store/product/mpp00994/" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Projekt', 'mists');"><img src="images/projekt.jpg" class="projekt" alt="Buy Now from Projekt" /></a></div>
 	
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="iTunes"><a itemprop="url" href="https://itunes.apple.com/us/album/out-of-the-mists/id949293646" id="itmslink" rel="external" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'mists');"><img src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes105x31dark.gif" class="itunes" alt="Buy Now from iTunes" /></a></div>

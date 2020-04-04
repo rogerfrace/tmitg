@@ -1,6 +1,5 @@
 <?php
 //for the header
-error_log("functions loaded");
 $int = rand(0,8);
 $bgimg = array(
 	"baats-r1.jpg",

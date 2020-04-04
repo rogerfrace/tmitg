@@ -56,7 +56,6 @@
 <ul>
 <li><a href="http://www.amazon.com/gp/product/B000QK6ULW?ie=UTF8&amp;tag=themachininth-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B000QK6ULW" target="_blank">tMitG on Amazon MP3</a><img src="http://www.assoc-amazon.com/e/ir?t=themachininth-20&amp;l=as2&amp;o=1&amp;a=B000QK6ULW" width="1" height="1" alt="" style="border:none !important; margin:0px !important;"></li>
 <li><a rel="me" href="http://tmitg.bandcamp.com/" target="_blank">tMitG on Bandamp</a></li>
-<li><a href="http://cdbaby.com/all/tmitg" target="_blank">tMitG on CDbaby</a></li>
 <li><a href="http://www.emusic.com/artist/The-Machine-in-the-Garden-MP3-Download/11644054.html" target="_blank">tMitG on eMusic</a></li>
 <li><a href="https://market.android.com/details?id=artist-Apac5rsyndbjkfsx6462bompp64" target="_blank">tMitG on Google Music/Android Marketplace</a></li>
 <li><a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewArtist?id=5985533" target="_blank">tMitG on iTunes</a></li>
@@ -69,7 +68,6 @@
 <h2 id="labelc">other tMitG/goth music retailers...</h2>
 <a href="#top" class="btt">(back to top)</a>
 <ul>
-<li><a href="http://cdbaby.com/all/tmitg" target="_blank">CDbaby</a></li>
 <li><a href="http://www.projekt.com/store/?s=machine+in+the+garden&amp;post_type=product" target="_blank">Projekt/darkwave</a></li>
 <li><a href="http://www.going-underground.de/" target="_blank">Going Underground</a> (Germany &mdash; listed in "T")</li>
 <li><a href="http://www.amazon.co.uk/exec/obidos/artist-search/The%20Machine%20in%20the%20Garden/202-6671557-5523018" target="_blank">Amazon.co.uk</a> (UK)</li>

@@ -42,7 +42,6 @@ function do_photo($imgname,$gallery=NULL,$alt=NULL) {
 		<noscript><a href=\"$phopath/$imgname.jpg\" title=\"$gallery\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" width=\"$tnwidth\" height=\"$tnheight\"></a></noscript></li>\n";
 	}
 } // end function
-	
 ?>
 
 
@@ -51,7 +50,7 @@ function do_photo($imgname,$gallery=NULL,$alt=NULL) {
 <section>
 <h1>2015</h1>
 <ul class="2015">
-<?
+<?php
 do_photo('secretoktober','2015','Mirabilis live at Secret Oktober, Austin, TX 10-03-2015');
 ?>
 </ul>
@@ -60,7 +59,7 @@ do_photo('secretoktober','2015','Mirabilis live at Secret Oktober, Austin, TX 10
 <section>
 <h1>2013</h1>
 <ul class="2013">
-<?
+<?php
 do_photo('elysium2013b','2013','tMitG Live at Elysium Austin 11-30-2013 #1');
 do_photo('elysium2013c','2013','tMitG Live at Elysium Austin 11-30-2013 #2');
 do_photo('elysium2013d','2013','tMitG Live at Elysium Austin 11-30-2013 #3');
@@ -72,7 +71,7 @@ do_photo('elysium2013e','2013','tMitG Live at Elysium Austin 11-30-2013 #4');
 <section>
 <h1>2011</h1>
 <ul class="2011">
-<?
+<?php
 do_photo('baats-rs1','2011','tMitG Before and After the Storm photoshoot #1');
 do_photo('baats-s1','2011','tMitG Before and After the Storm photoshoot #2');
 do_photo('baats-r1','2011','tMitG Before and After the Storm photoshoot #3');
@@ -91,7 +90,7 @@ do_photo('baats-r4','2011','tMitG Before and After the Storm photoshoot #11');
 <section>
 <h1>2007</h1>
 <ul class="2007">
-<?
+<?php
 do_photo('xv1','2007','tMitG XV photoshoot #1');
 do_photo('xv3','2007','tMitG XV photoshoot #2');
 do_photo('xv4','2007','tMitG XV photoshoot #3');
@@ -108,7 +107,7 @@ do_photo('xv9','2007','tMitG XV photoshoot #9');
 <section>
 <h1>2006</h1>
 <ul class="2006">
-<?
+<?php
 do_photo('elysium06a','2006','tMitG live in Austin TX 2006 #1');
 do_photo('elysium06b','2006','tMitG live in Austin TX 2006 #2');
 do_photo('elysium06c','2006','tMitG live in Austin TX 2006 #3');
@@ -120,7 +119,7 @@ do_photo('elysium06d','2006','tMitG live in Austin TX 2006 #4');
 <section>
 <h1>2005</h1>
 <ul class="2005">
-<?
+<?php
 do_photo('cville1','2005','tMitG live in Charlottesville #1');
 do_photo('cville2','2005','tMitG live in Charlottesville #2');
 do_photo('cville3','2005','tMitG live in Charlottesville #3');
@@ -131,7 +130,7 @@ do_photo('cville9','2005','tMitG live in Charlottesville #7');
 ?>
 </ul>
 <ul class="2005">
-<?
+<?php
 do_photo('c111','2005','tMitG live at Convergence 11 #1');
 do_photo('c112','2005','tMitG live at Convergence 11 #2');
 do_photo('c113','2005','tMitG live at Convergence 11 #3');
@@ -142,7 +141,7 @@ do_photo('c117','2005','tMitG live at Convergence 11 #7');
 ?>
 </ul>
 <ul class="2005">
-<?
+<?php
 do_photo('summer1sp','2005','Summer photo session for Shadow Puppets #1');
 do_photo('summer2sp','2005','Summer photo session for Shadow Puppets #2');
 do_photo('summer3sp','2005','Summer photo session for Shadow Puppets #3');
@@ -151,7 +150,7 @@ do_photo('summer8sp','2005','Summer photo session for Shadow Puppets #5');
 ?>
 </ul>
 <ul class="2005">
-<?
+<?php
 do_photo('roger2sp','2005','Roger photo session for Shadow Puppets #1');
 do_photo('roger3sp','2005','Roger photo session for Shadow Puppets #2');
 do_photo('roger7sp','2005','Roger photo session for Shadow Puppets #3');
@@ -164,7 +163,7 @@ do_photo('roger10sp','2005','Roger photo session for Shadow Puppets #5');
 <section>
 <h1>2002</h1>
 <ul class="2002">
-<?
+<?php
 do_photo('summercala','2002');
 do_photo('summerlily','2002');
 do_photo('summertulips','2002');
@@ -174,7 +173,7 @@ do_photo('rogerpurple','2002');
 ?>
 </ul>
 <ul class="2002">
-<?
+<?php
 do_photo('gc05','2002');
 do_photo('gc06','2002');
 do_photo('gc08','2002');
@@ -186,7 +185,7 @@ do_photo('gc11','2002');
 <section>
 <h1>2001</h1>
 <ul class="2001">
-<?
+<?php
 do_photo('4march10','2001');
 do_photo('4march12','2001');
 do_photo('4march15','2001');
@@ -198,7 +197,7 @@ do_photo('4march29','2001');
 ?>
 </ul>
 <ul class="2001">
-<?
+<?php
 do_photo('tmitgla1','2001');
 do_photo('rogla1','2001');
 do_photo('summerla1','2001');
@@ -213,7 +212,7 @@ do_photo('drusummerla3','2001');
 <section>
 <h1>2000</h1>
 <ul class="2000">
-<?
+<?php
 do_photo('summer2','2000');
 do_photo('summer3','2000');
 do_photo('summer7','2000');
@@ -225,7 +224,7 @@ do_photo('roger9','2000');
 ?>
 </ul>
 <ul class="2000">
-<?
+<?php
 do_photo('denton1','2000');
 do_photo('denton3','2000');
 do_photo('denton4','2000');
@@ -233,7 +232,7 @@ do_photo('denton5','2000');
 ?>
 </ul>
 <ul class="2000">
-<?
+<?php
 do_photo('video1','2000');
 do_photo('video2','2000');
 do_photo('video3','2000');
@@ -246,7 +245,7 @@ do_photo('video5','2000');
 <section>
 <h1>1999</h1>
 <ul class="1999">
-<?
+<?php
 do_photo('dgtMitG3','1999');
 do_photo('dgtMitG1','1999');
 do_photo('dgtMitG4','1999');
@@ -258,7 +257,7 @@ do_photo('dgtMitG5','1999');
 <section>
 <h1>1997</h1>
 <ul class="1997">
-<?
+<?php
 do_photo('UWportrait','1997');
 do_photo('area39','1997');
 do_photo('tMitGsf3a','1997');
@@ -269,7 +268,7 @@ do_photo('tMitGsf3a','1997');
 <section>
 <h1>1996</h1>
 <ul class="1996">
-<?
+<?php
 do_photo('anricat3','1996');
 do_photo('anricat1','1996');
 ?>
@@ -279,7 +278,7 @@ do_photo('anricat1','1996');
 <section>
 <h1>1995</h1>
 <ul class="1995">
-<?
+<?php
 do_photo('thistle06','1995');
 do_photo('thistle31','1995');
 do_photo('rog15','1995');
@@ -290,7 +289,7 @@ do_photo('rog15','1995');
 <section>
 <h1>1994</h1>
 <ul class="1994">
-<?
+<?php
 do_photo('roglive1','1994');
 do_photo('roglive3','1994');
 ?>
@@ -300,7 +299,7 @@ do_photo('roglive3','1994');
 <section>
 <h1>1993</h1>
 <ul class="1993">
-<?
+<?php
 do_photo('rog1','1993');
 do_photo('rog2','1993');
 ?>
@@ -310,7 +309,7 @@ do_photo('rog2','1993');
 <section>
 <h1>1992</h1>
 <ul class="1992">
-<?
+<?php
 do_photo('tmitgpic2','1992');
 do_photo('tmitgpic3','1992');
 ?>

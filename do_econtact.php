@@ -39,7 +39,7 @@ function removeJS($str) {
 
 <body>
 
-<?
+<?php
 // set POST variables
 $vars = array('name', 'email', 'to', 'subject', 'message', 'timestamp', 'referrer', 'honeypot');
 foreach ($vars as $v) {

@@ -276,6 +276,17 @@ a.atcss:hover {
 		margin: 0;
 		padding: 0;
 	}
+	#recentnews {
+		color:$white;
+		.eyebrow {
+			font-size:0.8em;
+			margin-top:1em;
+		}
+		h3 {
+			margin-top:0;
+			margin-bottom: 0.5em;
+		}
+	}
 }
 
 

@@ -106,16 +106,26 @@ require_once("functions.php");
 		<p class="notopmargin">The Machine in the Garden is a gothic/darkwave duo featuring Roger Frac&eacute; and Summer Bowman. Since their formation in the early 1990s, Roger and Summer have developed and advanced their unique style through years of collaborating and intertwining their musical tastes. The band has developed their own unique style and released seven full-length albums and one EP.</p>
 	</section>
 
-	<section aria-label="Recent News">
+	<section id="recentnews" aria-label="Recent News">
 		<!-- recent news section -->
 		<h2>Recent News</h2>
-		<p class="notopmargin"><a href="https://tmitg.bandcamp.com/album/shadow-puppets"><img style="float:left; margin:2px 8px 8px 0; border:0; max-width:100%;" src="http://tmitg.com/albums/sp.jpg" alt="Shadow Puppets" /></a> <em>Shadow Puppets</em> was released 15 years ago this month, now on sale for a limited time on our <a href="https://tmitg.bandcamp.com/album/shadow-puppets">Bandcamp page</a>.</p>
-
+		<?php
+			$ndir = 'newsitems';
+			$nfiles = scandir($ndir, 1);
+			include_once($ndir."/".$nfiles[0]);
+			//returns $pubdate $title $description
+			$ndate = strtotime($pubdate);
+		?>
+		<div class="eyebrow"><time datetime="<?php echo date('Y-m-d',$ndate); ?>"><?php echo date("j F Y",$ndate); ?></time></div>
+		<h3><?php echo $title; ?></h3>
+		<div class="notopmargin">
+			<?php echo $description; ?>
+		</div>
 		<div style="clear:both;"></div>
 	</section>
 
 
-	<section aria-label="Live Shows">
+	<section id="liveshows" aria-label="Live Shows">
 		<!-- live shows section -->
 		<h2>Live Shows</h2>
 

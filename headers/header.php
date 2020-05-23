@@ -1,5 +1,5 @@
 <div id="headblock">
-	<header class="sitename"><a href="/" aria-label="the Machine in the Garden, link to Home Page">the Machine in the Garden</a></header>
+	<header class="sitename"><a href="/" aria-label="the Machine in the Garden Home Page">the Machine in the Garden</a></header>
 	<nav class="desktop" aria-label="Primary">
 		<ul class="top">
 			<li><a href="/news.php">News</a></li>

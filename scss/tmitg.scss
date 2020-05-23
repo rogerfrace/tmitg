@@ -775,7 +775,6 @@ iframe#sb-player {
 	form small {
 		display: block;
 		font-size: 0.8em;
-		margin-left: 13.25em;
 		margin-bottom: 1em;
 	}
 
@@ -795,11 +794,6 @@ iframe#sb-player {
 
 	form label {
 		display:block;
-		float: left;
-		width: 11.25em;
-		padding-right: 1em;
-		margin-top: .5ex;
-		text-align: right;
 		font-family: sans-serif;
 		font-size: 0.9em;
 		font-weight: bold;
@@ -851,7 +845,6 @@ iframe#sb-player {
 	}
 
 	#submit {
-		margin-left: 14em;
 		margin-right: 1em;
 	}
 }

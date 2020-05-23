@@ -27,7 +27,7 @@
 <div class="mainbody clearleft" role="main">
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo" tabindex="0">
+<div id="discog_albuminfo" tabindex="-1">
 	<img src="albums/rebellion.png" alt="Rebellion: Vol 1" width="250" height="250">
 	<h1>Rebellion: Vol 1</h1>
 	<p class="notopmargin">Dark Mother Media &copy;2015</p>
@@ -35,7 +35,7 @@
 
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
+<div id="discog_tracklist" tabindex="-1">
 <table>
 	<thead>
 		<tr>

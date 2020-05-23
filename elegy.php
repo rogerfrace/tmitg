@@ -28,7 +28,7 @@
 <div class="mainbody clearleft" role="main">
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo" tabindex="0">
+<div id="discog_albuminfo" tabindex="-1">
 	<img src="albums/elegy.jpg" alt="Elegy Sampler 25" width="253" height="250">
 	<h1>Elegy Sampler 25</h1>
 	<p class="notopmargin">Elegy Magazine &copy;2002</p>
@@ -36,7 +36,7 @@
 
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
+<div id="discog_tracklist" tabindex="-1">
 <table>
 	<thead>
 		<tr>
@@ -75,7 +75,7 @@
 </div> <!-- end tracklist div -->
 
 
-<div id="discog_buynow" tabindex="0">
+<div id="discog_buynow" tabindex="-1">
 		<h2 class="wai">Buy links</h2>
 </div> <!-- end buy button div -->
 	

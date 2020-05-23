@@ -1087,4 +1087,21 @@ s::after {
 }
 /* end special styles for screen readers */
 
+/* Prefers Dark Mode */
+@media (prefers-color-scheme: dark) {
+	.mainbody {
+		background-color: $black;
+		color: $nearwhite;
+		a {color:$ltgray;}
+	}
+	#discog thead {color:$black;}
+	#merch a.atcss {color:$nearwhite;}
+	#live #liveTable {
+		background-color: $black;
+		border: 1px solid $nearwhite;
+		tbody td, tbody th {border: 1px solid $nearwhite;}
+	}
+}
+/* end Prefers Dark Mode */
+
 @import url('/tmitg-mobile.css');

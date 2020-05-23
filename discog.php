@@ -18,9 +18,10 @@
 <?php get_header(); ?>
 
 <main id="main" class="mainbody">
+<h1 class="wai">Discography of the Machine in the Garden</h1>
 
 <section aria-labelledby="releases">
-<h1 id="releases" tabindex="0">releases:</h1>
+<h2 id="releases" tabindex="-1">releases:</h2>
 <ul class="releases">
 <li><a href="imageacoustic.php" title="image (acoustic)"><img src="albums/imageacousticico.jpg" alt="Image (acoustic)"></a></li>
 
@@ -51,7 +52,7 @@
 </section>
 
 <section aria-labelledby="compilations">
-<h1 id="compilations" tabindex="0">compilation appearances:</h1>
+<h2 id="compilations" tabindex="-1">compilation appearances:</h2>
 <ul class="comps">
 <li><a href="rebellion.php"><img src="albums/rebellionico.png" alt="Rebellion: Vol 1"></a></li>
 
@@ -114,7 +115,7 @@
 <hr>
 
 <section aria-labelledby="availability">
-<h2 id="availability" tabindex="0" style="display:inline;"><abbr title="the Machine in the Garden">tMitG</abbr> releases are available from </h2>
+<h2 id="availability" tabindex="-1" style="display:inline;"><abbr title="the Machine in the Garden">tMitG</abbr> releases are available from </h2>
 <p style="display:inline;"><a href="merch.php">us directly</a>,
 <a href="http://astore.amazon.com/themachininth-20" onclick="ga('send', 'event', 'outbound', 'DiscogPage', 'Amazon');" target="_blank">Amazon.com</a><img src="http://www.assoc-amazon.com/e/ir?t=themachininth-20&amp;l=ur2&amp;o=1" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">, 
 <a href="http://www.projekt.com/store/?s=machine+in+the+garden&amp;post_type=product" onclick="ga('send', 'event', 'outbound', 'DiscogPage', 'Projekt');" target="_blank">Projekt</a>, 

@@ -27,7 +27,7 @@
 <div class="mainbody clearleft" role="main">
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo" tabindex="0">
+<div id="discog_albuminfo" tabindex="-1">
 	<img src="albums/drownedvisions.jpg" alt="Drowned Visions" width="250" height="250">
 	<h1>Drowned Visions</h1>
 	<p class="notopmargin">Dark Horizons &copy;2011</p>
@@ -35,7 +35,7 @@
 
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
+<div id="discog_tracklist" tabindex="-1">
 <table>
 	<thead>
 		<tr>

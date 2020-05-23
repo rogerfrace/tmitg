@@ -48,7 +48,7 @@
 	<meta itemprop="inLanguage" content="en" />
 
 <!-- this is the display table for the CD and info -->
-<section id="discog_albuminfo" tabindex="0">
+<section id="discog_albuminfo" tabindex="-1">
 	<div><img src="albums/baats.jpg" alt="Before and After the Storm" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">Before and After the Storm</h1>
 
@@ -99,7 +99,7 @@ $lyricsfile and videoname do not include .html
 </div> <!-- end tracklist div -->
 
 
-<section id="discog_buynow" tabindex="0" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+<section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
 	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="8.00">
 	<h2 class="wai">Buy Now links</h2>
@@ -126,7 +126,7 @@ $lyricsfile and videoname do not include .html
 	<hr />
 
 <section aria-labelledby="reviews">	
-	<h2 id="reviews" tabindex="0">Reviews of <em>Before and After the Storm</em>:</h2>
+	<h2 id="reviews" tabindex="-1">Reviews of <em>Before and After the Storm</em>:</h2>
 	<div class="revcontent">
 
 <blockquote cite="http://graveconcernsezine.com/reviews/cd-reviews/ethereal/3070-the-machine-in-the-garden-before-and-after-the-storm.html#.Tg9lS5wKw8c.twitter" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">

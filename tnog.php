@@ -27,7 +27,7 @@
 <div class="mainbody clearleft" role="main">
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo" tabindex="0">
+<div id="discog_albuminfo" tabindex="-1">
 	<img src="albums/tnog.jpg" alt="The Nature of Gothic" width="256" height="250">
 	<h1>The Whitby Compilation</h1>
 	<p class="notopmargin">(tnog0001) <a href="http://www.gothicnature.co.uk/" target="_blank">The Nature of Gothic</a> &copy;2001</p>
@@ -35,7 +35,7 @@
 
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
+<div id="discog_tracklist" tabindex="-1">
 <table>
 	<thead>
 		<tr>

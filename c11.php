@@ -27,7 +27,7 @@
 
 <div class="mainbody clearleft" role="main">
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo" tabindex="0">
+<div id="discog_albuminfo" tabindex="-1">
 	<img src="albums/c11.jpg" alt="Convergence 11 CD Sampler" width="250" height="250">
 	<h1>Convergence 11 CD Sampler</h1>
 	<p class="notopmargin">Promotional CD for Convergence 11</p>
@@ -35,7 +35,7 @@
 
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
+<div id="discog_tracklist" tabindex="-1">
 <table>
 	<thead>
 		<tr>
@@ -97,7 +97,7 @@
 </table>
 </div> <!-- end tracklist div -->
 
-<div id="discog_buynow" tabindex="0">
+<div id="discog_buynow" tabindex="-1">
 	<h2 class="wai">Buy links</h2>
 </div> <!-- end buy button div -->
 

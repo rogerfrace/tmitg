@@ -28,7 +28,7 @@
 <div class="mainbody clearleft" role="main">
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo" tabindex="0">
+<div id="discog_albuminfo" tabindex="-1">
 	<img src="albums/uqg.jpg" alt="The Unquiet Grave" width="250" height="250">
 	<h1>The Unquiet Grave Vol. 1</h1>
 	<p class="notopmargin">(CLP0524) Cleopatra Records (USA) &copy;1999<br>
@@ -39,7 +39,7 @@
  <!-- start tracklisting table -->
 
 
-<div id="discog_tracklist" tabindex="0">
+<div id="discog_tracklist" tabindex="-1">
 	<table>
 	<thead>
 		<tr>
@@ -77,7 +77,7 @@
 </div> <!-- end tracklist div -->
 
 
-<div id="discog_buynow" tabindex="0">
+<div id="discog_buynow" tabindex="-1">
 		<h2 class="wai">Buy links</h2>
 		<div><SCRIPT charset="utf-8" type="text/javascript" src="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822/US/themachininth-20/8001/8c53f92c-9f64-4f8c-99dd-92bdcedbcbf3"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fthemachininth-20%2F8001%2F8c53f92c-9f64-4f8c-99dd-92bdcedbcbf3&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT></div>
 </div> <!-- end buy button div -->

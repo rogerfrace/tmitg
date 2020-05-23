@@ -28,7 +28,7 @@
 <div class="mainbody clearleft" role="main">
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo" tabindex="0">
+<div id="discog_albuminfo" tabindex="-1">
 	<img src="albums/cocteautribute.jpg" alt="Dark Treasures" width="250" height="250">
 	<h1>Dark Treasures: A Gothic Tribute to the Cocteau Twins</h1>
 	<p class="notopmargin">Cleopatra Records &copy;2000</p>
@@ -36,7 +36,7 @@
 
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
+<div id="discog_tracklist" tabindex="-1">
 <table>
 	<thead>
 		<tr>
@@ -74,7 +74,7 @@
 </table>
 </div> <!-- end tracklist div -->
 
-<div id="discog_buynow" tabindex="0">
+<div id="discog_buynow" tabindex="-1">
 	<h2 class="wai">Buy links</h2>
 	<div><SCRIPT charset="utf-8" type="text/javascript" src="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822/US/themachininth-20/8001/4d2d230d-bf49-4457-b0f2-3810e36e2ae6"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fthemachininth-20%2F8001%2F4d2d230d-bf49-4457-b0f2-3810e36e2ae6&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT></div>
 </div>

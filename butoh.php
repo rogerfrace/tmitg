@@ -28,7 +28,7 @@
 <div class="mainbody clearleft" role="main">
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo" tabindex="0">
+<div id="discog_albuminfo" tabindex="-1">
 	<img src="albums/butoh.jpg" alt="Butoh" width="277" height="250">
 	<h1>Butoh</h1>
 	<p class="notopmargin">(MPP002) <a href="http://www.middlepillar.com/mpp/" target="_blank">Middle Pillar Presents</a> &copy;2000</p>
@@ -36,7 +36,7 @@
 		
 		
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
+<div id="discog_tracklist" tabindex="-1">
 <table>
 	<thead>
 		<tr>
@@ -101,7 +101,7 @@
 </table>
 </div> <!-- end tracklist div -->
 	
-<div id="discog_buynow" tabindex="0">
+<div id="discog_buynow" tabindex="-1">
 	<h2 class="wai">Buy links</h2>
 	<div><SCRIPT charset="utf-8" type="text/javascript" src="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822/US/themachininth-20/8001/bca3c8ee-8084-4350-96cc-ed7829258313"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fthemachininth-20%2F8001%2Fbca3c8ee-8084-4350-96cc-ed7829258313&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT></div>
 </div>

@@ -25,7 +25,7 @@
 <div class="mainbody" role="main">
 
 <!-- this is the display table for the CD and info -->
-<section id="discog_albuminfo" tabindex="0">
+<section id="discog_albuminfo" tabindex="-1">
 	<div><img src="albums/wapfuu1.jpg" alt="When Angels Peer Favorably Upon Us, Volume One" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1>When Angels Peer Favorably Upon Us, Volume One</h1>
 	<p class="notopmargin">&copy;2000<br>
@@ -35,7 +35,7 @@
 
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
+<div id="discog_tracklist" tabindex="-1">
 <table role="grid" aria-label="track list">
 	<caption class="wai">Track listing for "When Angels Peer Favorably Upon Us, Volume One"</caption>
 	<thead>

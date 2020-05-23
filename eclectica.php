@@ -28,7 +28,7 @@
 
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo" tabindex="0">
+<div id="discog_albuminfo" tabindex="-1">
 	<img src="albums/eclectica.jpg" alt="Eclectica" width="250" height="250">
 	<h1>Eclectica</h1>
 	<p class="notopmargin">(MPP004) Middle Pillar Presents &copy;2002<br>
@@ -37,7 +37,7 @@
 
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
+<div id="discog_tracklist" tabindex="-1">
 <table>
 	<thead>
 		<tr>

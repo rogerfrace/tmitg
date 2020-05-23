@@ -28,7 +28,7 @@
 <div class="mainbody clearleft" role="main">
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo" tabindex="0">
+<div id="discog_albuminfo" tabindex="-1">
 	<img src="albums/misfit.jpg" alt="A Misfit Xmas" width="250" height="250">
 	<h1>A Misfit Xmas, Volume One</h1>
 	<p class="notopmargin">(MPP003) Middle Pillar Presents &copy;2001</p>
@@ -36,7 +36,7 @@
 
 		
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
+<div id="discog_tracklist" tabindex="-1">
 <table>
 	<thead>
 		<tr>
@@ -75,7 +75,7 @@
 </div> <!-- end tracklist div -->
 
 
-<div id="discog_buynow" tabindex="0">
+<div id="discog_buynow" tabindex="-1">
 		<h2 class="wai">Buy links</h2>
 		<p><a href="http://itunes.apple.com/us/album/see-amid-the-winters-snow/id204568133?i=204568191" id="itmslink" rel="external" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'misfit');"><img alt="iTunes Store" height="31" width="105" border="0" src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes105x31dark.gif"></a></p>
 </div> <!-- end buy button div -->

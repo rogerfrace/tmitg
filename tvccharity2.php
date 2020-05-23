@@ -27,14 +27,14 @@
 <div class="mainbody clearleft" role="main">
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo" tabindex="0">
+<div id="discog_albuminfo" tabindex="-1">
 	<img src="albums/tvccharity2.jpg" alt="Every Living Creature" width="250" height="250">
 	<h1>The Violet Collection &mdash; Every Living Creature</h1>
 	<p class="notopmargin">Charity compilation available only on the former mp3.com</p>
 </div> <!-- end album info div -->
 
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
+<div id="discog_tracklist" tabindex="-1">
 <table>
 	<thead>
 		<tr>

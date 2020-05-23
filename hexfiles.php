@@ -27,7 +27,7 @@
 <div class="mainbody clearleft" role="main">
 
 <!-- this is the display table for the CD and info -->
-<div id="discog_albuminfo" tabindex="0">
+<div id="discog_albuminfo" tabindex="-1">
 	<img src="albums/hexfiles.jpg" alt="The Hex Files" width="280" height="250">
 	<h1>The Hex Files Vol. 2</h1>
 	<p class="notopmargin">(NTD 90403-24) EuroMedia UK &copy;1997</p>
@@ -35,7 +35,7 @@
 		
 		
 <!-- start tracklisting table -->
-<div id="discog_tracklist" tabindex="0">
+<div id="discog_tracklist" tabindex="-1">
 <table>
 	<thead>
 		<tr>

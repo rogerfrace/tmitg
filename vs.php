@@ -48,7 +48,7 @@
 	<meta itemprop="inLanguage" content="en" />
 
 <!-- this is the display table for the CD and info -->
-<section id="discog_albuminfo" tabindex="0">
+<section id="discog_albuminfo" tabindex="-1">
     <div><img src="albums/vs.jpg" alt="Veils and Shadows" class="albumimg ariapreso" itemprop="image" /></div>
 	<h1 itemprop="name">Veils and Shadows EP</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
@@ -87,7 +87,7 @@ $lyricsfile and videoname do not include .html
 </div> <!-- end tracklist div -->
 
 
-<section id="discog_buynow" tabindex="0" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+<section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
 	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="3.00">
 	<h2 class="wai">Buy links</h2>
@@ -103,7 +103,7 @@ $lyricsfile and videoname do not include .html
 	<hr />
 
 <section aria-labelledby="reviews">	
-	<h2 id="reviews" tabindex="0">Reviews of <em>Veils and Shadows EP</em>:</h2>
+	<h2 id="reviews" tabindex="-1">Reviews of <em>Veils and Shadows EP</em>:</h2>
 	<div class="revcontent">
 <blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">

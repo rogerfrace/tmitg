@@ -43,13 +43,13 @@
 		(date("Ymd",time()) == "20130522")
 	): ?>
 
-<div style="padding:0.5em; background-color: #EEEEEE; border:2px solid #990000;">
+<div style="padding:0.5em; border:2px solid #990000;">
 	13% off all orders for World Goth Day &mdash; use coupon code "GOTHDAY2013"
 </div>
 
 <?php else: ?>
 
-<div style="padding:0.5em; background-color: #EEEEEE; border:2px solid #990000;">
+<div style="padding:0.5em; border:2px solid #990000;">
 	We are now offering free domestic standard shipping for all orders.<br /><br />
 	For band news and special offers, be sure to follow us on <a href="http://www.facebook.com/tmitg" rel="external">Facebook</a> or <a href="http://twitter.com/tmitg" rel="external">Twitter</a>.
 </div>

@@ -192,6 +192,7 @@ $lyricsfile and videoname do not include .html
 </div>
 <p>-<span itemprop="author">rotwang</span>, <i itemprop="publication">inamoena tempora</i>, <span itemprop="datePublished" content="1997-11-01">November 1997</span></p>
 </blockquote>
+
 <hr style="width:50%;" />
 
 <blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
@@ -200,6 +201,19 @@ $lyricsfile and videoname do not include .html
 <p>for those of you ignorant people out there, the Machine in the Garden is a gothic-industrial band featuring Roger Fracé and Summer Bowman.  their first offering, released back in october of 1994 was but a taste of what was to come in the future, and now, 3 years later, they will release underworld, and the preview tape i have contains 3 all new songs:  <i>final form</i>, <i>cut me</i>, and <i>words in heaven lost</i>; and contains 2 previously unreleased tracks:  <i>cold</i> and <i>dark splintered heart</i>.  sure the names of the songs sound like something taken from a skinny puppy album, but don&rsquo;t let that fool you, they take this genre to a new level.  you&rsquo;ll be thinking to yourself, it&rsquo;s gothic, no, wait, it&rsquo;s industrial.  no it can&rsquo;t be, it&rsquo;s ambient.  well, it&rsquo;s not any of those, it&rsquo;s all three and more.  summer bowman&rsquo;s vocals will grip you and not let go throughout the entire album, with the ethereal beauty flooding your soul.  roger frac&eacute;&rsquo;s vocals and harsh guitars and electronicka cast an even darker mood over the album.  i must say that i am thoroughly impressed with this album and can&rsquo;t wait for the final version to be cut and released.</p>
 </div>
 <p>-<span itemprop="author">darkpoet</span>, <i itemprop="publication">cemetery dreams</i>, vol.1 issue 2, <span itemprop="datePublished" content="1997-07-01">July 1997</span></p>
+</blockquote>
+
+<hr style="width:50%;" />
+
+<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
+<div itemprop="reviewBody">
+<p>The debut full length release from the Machine in the Garden demonstrates perfectly their blending of technology with the natural world. The songs on this album develop as a movement as they range from sonorous ambient pieces to hard edge guitar driven songs. The music of tMitG has been categorised in many genres. If you like any Indie, Darkwave, Goth or Industrial you are guaranteed to love this release.</p>
+<p>The album begins with "Final Form" which is an accessible traditional guitar goth song, however this soon changes with the second song as the music becomes more minimal and piano based. "Dreams of the Absent" follows which features moog style synth with Summer Bowman's gorgeous voice tempting you to unknown pleasures. "Words in Heaven Lost" is divine. Summer's voice in parts reminds me of early Sinead O'Connor. With "Twenty Shadows" the pace of the CD starts to pick up... "CorpusChristi" introduces Roger Frace on vocals before the move to a more darkwave feel to the music on the next track. By "Primevil" you realise that this album is more diverse than you could have anticipated... the upbeat industrial sound develops from the earlier ambience and is solidified by the haunting dual vocal. "Cut Me" wraps up the album proper, but we then get 4 remix tracks (two of tracks from their earlier "Veils &amp; Shadows EP"), and it all finishes with the song "Cold" from the as yet unreleased "Eire EP". This song I have heard described as the perfect song to be buried to! :-)</p>
+<p>As a whole, tMitG are a band who have a fresh outlook on the music they produce, blending an embracing of the old with a fresh innovativeness. Check this out you- will not be disappointed.</p>
+</p>
+</div>
+<p>-<span itemprop="author">John McDonagh </span>, <i itemprop="publication">The Tower</i>, issue 1</p>
 </blockquote>
 
 	</div> <!-- /revcontent -->

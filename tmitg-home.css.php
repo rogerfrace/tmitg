@@ -6,7 +6,6 @@ body {
 	min-height: 615px;
 	height: 100%;
 	background-color: #000;
-	/*background-image: url("headers/images/home/baats-s1.jpg");*/
 	background-attachment: fixed;
 	background-position: 100% 100%;
 	background-repeat: no-repeat;

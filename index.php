@@ -40,11 +40,7 @@ require_once("functions.php");
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />
-	<link rel="stylesheet" type="text/css" href="tmitg-home.css.php" media="all">
-	<style type="text/css">
-		body {background-image: url("headers/images/home/<?=$bgimg[$int];?>");}
-	</style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
 	<script src="tmitg.js" type="text/javascript"></script>
 	<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"MusicGroup","url":"http:\/\/www.tmitg.com\/","sameAs":["https:\/\/www.facebook.com\/tmitg","https:\/\/twitter.com\/tmitg","https:\/\/plus.google.com\/+Tmitg\/about","https:\/\/www.youtube.com\/tmitg"],"name":"the Machine in the Garden","foundingDate":"1992"}</script>
@@ -56,8 +52,6 @@ require_once("functions.php");
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
 
-<div id="bkgrnd"><img src="headers/images/home/<?=$bgimg[$int];?>" alt=""></div>
-
 <?php if (stristr($_SERVER['HTTP_USER_AGENT'],"Windows NT 5.1")): ?>
 <!--[if lt IE 8]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative; left:200px;'> <a href="http://www.microsoft.com/en-us/download/details.aspx?id=43"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div> <![endif]-->
 <?php else: ?>
@@ -66,9 +60,8 @@ require_once("functions.php");
 
 <!-- title bar -->
 <header id="titlebar">
-	<h1><span class="title">the Machine in the Garden</span><span class="subtitle">the official website</span></h1>
-</header>
-<!--- end title bar -->
+	<!--<h1><span class="title">the Machine in the Garden</span><span class="subtitle">the official website</span></h1>-->
+	<h1><img role="img" src="/headers/images/tMitG-PiB-logo.svg" alt="the Machine in the Garden"></h1>
 
 <nav class="desktop" aria-label="Primary">
 	<ul>
@@ -98,6 +91,13 @@ require_once("functions.php");
 		<a href="/live.php">live shows</a>
   </div>
 </nav>
+
+<div class="portrait">
+	<img src="/headers/images/home-portrait.png" alt="">
+</div>
+
+</header>
+<!--- end title bar -->
 
 
 <main id="main">

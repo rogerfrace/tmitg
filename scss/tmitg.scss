@@ -16,6 +16,7 @@ $dkgray: #333333;
 $nearblack: #222222;
 $black: #000000;
 $teal: #157CC1;
+$darkteal: #034F5F;
 $darklight: #60323D;
 
 
@@ -29,7 +30,7 @@ $darklight: #60323D;
 /* site-wide CSS */
 body {
 	font-family: Cormorant, serif;
-	font-size: 105%;
+	font-size: 120%;
 	line-height: 1.4;
 	color: $dkgray;
 	font-weight: normal;
@@ -56,25 +57,21 @@ figure {margin:0;}
 	}
 }
 a:active {
-	font-family: Arial, Helvetica, sans-serif;
 	color: $altclr;
 	font-weight: normal;
 }
 
 a:link {
-	font-family: Arial, Helvetica, sans-serif;
 	color: $altclr;
 	font-weight: normal;
 }
 
 a:hover {
-	font-family: Arial, Helvetica, sans-serif;
 	color: $mdgray;
 	font-weight: normal;
 }
 
 a:visited {
-	font-family: Arial, Helvetica, sans-serif;
 	color: $fourgray;
 	font-weight: normal;
 }
@@ -204,91 +201,98 @@ a.atcss:hover {
 
 /* index page */
 #front {
-	font-family: Arial, Helvetica, sans-serif;
-	color: $black;
-	font-weight: normal;
-	background-color: $black;
-	margin: 0;
-
-	#titlebar {
-		width: 100%;
-		background: $white;
-		padding: 0;
-		margin: 0;
+	h1 {
+		img {
+			display: block;
+			margin:0 auto;
+			width: 66%;
+		}
+		.title {
+			display:block;
+			color:white;
+			font-family: Megrim, sans-serif;
+			font-variant: small-caps;
+			text-decoration:none;
+			font-size:1.35em;
+			text-shadow:1px 1px 1px $altclr;
+			filter: dropshadow(color=$dkaltclr, offx=1, offy=1);
+		}
+		.subtitle {
+			display:block;
+			color:white;
+			font-family: Cormorant, serif;
+			font-weight: 500;
+			text-decoration:none;
+			font-size:1.35em;
+		}
 	}
-
-	#titlebar h1 {
-		font-family: Megrim, sans-serif;
-		width: 538px;
-		margin: 0 auto;
-		padding: 0.7em 0 0 0;
+	nav {
 		text-align: center;
+		margin:2em;
 	}
-
-	.wrapper {
+	nav ul {
 		width:100%;
-		height:408px;
-		background-color: $white;
+		padding:0;
+		list-style-type: none;
+		li {
+			display:inline-block;
+		}
 	}
-	.content {
-		border: 2px solid $dkgray;
-		border-bottom: none;
-		border-right: 1px solid $dkgray;
-		height: 382px;
-		vertical-align: top;
-		padding: 10px 30px;
-		overflow: auto;
+	nav li a,
+	nav li a:link,
+	nav li a:visited {
+		height:44px;
+		text-decoration:none;
+		color: white;
+		font-family: Kristi, cursive;
+		font-size: 1.75em;
+		font-weight: normal;
+		padding: 0 0.5em;
 	}
-	.imgLeft {
-		float: left;
-		width: 267px;
-		margin:0;
-	}
-	.imgRight {
-		float: right;
-		width: 279px;
-		margin:0;
+	nav li a:hover,
+	nav li a:focus {
+		border-bottom: 3px solid #157CC1;
 	}
 
-	#navbar {
+	.portrait {
+		background-color: $darklight;
+		img {
+			display:block;
+			margin: 0 auto;
+		}
+	}
+	main {
+		z-index:30;
 		width: 100%;
-		background: $black;
-		padding: 0;
-		margin: 1.1em 0;
+		position:relative;
+		margin-top: 25px;
 	}
-
-	#navbar ul {
-		margin: 0 auto;
-		padding: 0;
-		width: 750px;
-		height: 70px;
+	.ie6 main {
+		position: absolute;
 	}
-
-	#navbar ul li {
-		margin: -2px;
-		padding: 0;
-		display: inline;
-		list-style: none;
-		color: $white;
-	}
-
-	#navbar ul li a,
-	#navbar ul li a:active,
-	#navbar ul li a:link,
-	#navbar ul li a:hover,
-	#navbar ul li a:visited,
-	#navbar ul li a img {
-		font-size: auto;
-		margin: 0;
-		padding: 0;
+	section {
+		color:$white;
+		display:block;
+		padding: 0 1em 1em;
+		margin: 12px 5%;
+		background-color: #034F5F;
+		border: 5px solid #222222;
+		-webkit-border-radius: 3em;
+		-moz-border-radius: 3em;
+		border-radius: 3em;
+		h2 {
+			font-size: 2em;
+			font-weight: 700;
+		}
 	}
 	#recentnews {
-		color:$white;
 		.eyebrow {
 			font-size:0.8em;
 			margin-top:1em;
 		}
 		h3 {
+			font-size: 1.5em;
+			font-weight: 600;
 			margin-top:0;
 			margin-bottom: 0.5em;
 		}
@@ -302,7 +306,7 @@ a.atcss:hover {
 	header a,
 	.desktop a {
 		color:white;
-		font-family: 'Jacques Francois', Georgia, sans-serif;
+		font-family: Megrim, sans-serif;
 		font-variant: small-caps;
 		text-decoration:none;
 		font-size:1.35em;

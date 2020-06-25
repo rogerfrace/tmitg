@@ -7,11 +7,6 @@
 <meta name="msapplication-TileColor" content="#9d0c0c">
 
 <link rel="stylesheet" type="text/css" href="/css/colorbox.css">
-<!-- this chunk is for the random header -->
-<style type="text/css">
-	#headblock { margin:0; padding:0; width:100%; height:150px; background: url("headers/images/2011/<?=$bgimg[$int];?>") no-repeat scroll 100% 0 #000000; }
-</style>
-<!-- end header code -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>

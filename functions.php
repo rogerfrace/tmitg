@@ -1,17 +1,4 @@
 <?php
-//for the header
-$int = rand(0,8);
-$bgimg = array(
-	"baats-r1.jpg",
-	"baats-r2.jpg",
-	"baats-r3.jpg",
-	"baats-rs1.jpg",
-	"baats-rs2.jpg",
-	"baats-rs3.jpg",
-	"baats-s1.jpg",
-	"baats-s3.jpg",
-	"baats-s4.jpg");
-
 // for the news - PHP5 only
 date_default_timezone_set('America/Chicago');
 

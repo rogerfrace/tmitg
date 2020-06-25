@@ -140,26 +140,27 @@ footer small {color:$ltgray; margin-left:1em;}
 
 a.atcss {
 	@include single-box-shadow($nearblack, 0.1em, 0.1em, 0.2em);
-	@include background-image(linear-gradient(#b25859, $dkred));
-	background-color:$dkred;
+	@include background-image(linear-gradient($teal, $darkteal));
+	background-color:$darkteal;
 	@include border-radius(9px);
-	border:1px solid #ab0e00;
+	border:1px solid $darkteal;
 	display:inline;
 	color:#ffffff;
-	font-family:'Italianno', cursive;
+	font-family:'Cormorant', serif;
 	font-size:20px;
-	font-weight:normal;
+	font-weight:600;
+	font-style: italic;
 	padding:2px 12px;
 	margin-left:10px;
 	position:relative;
 	top: -18px;
 	text-decoration:none;
-	text-shadow: 1px 1px 0 #7a160f;
+	text-shadow: 1px 1px 0 $darkteal;
 }
 a.atcss:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, $dkred), color-stop(1, #b25859) );
-	background:-moz-linear-gradient( center top, $dkred 5%, #b25859 100% );
-	background-color:$dkred;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, $darkteal), color-stop(1, #b25859) );
+	background:-moz-linear-gradient( center top, $darkteal 5%, $teal 100% );
+	background-color:$darkteal;
 }
 
 
@@ -301,8 +302,8 @@ a.atcss:hover {
 
 
 /* header block */
-/* #headblock is in headers-additional */
 #headblock {
+	height: 130px;
 	header a,
 	.desktop a {
 		color:white;
@@ -316,6 +317,9 @@ a.atcss:hover {
 	.desktop a:hover {
 		text-shadow:4px 4px 4px $altclr;
 		filter: dropshadow(color=$dkaltclr, offx=3, offy=3);
+	}
+	nav {
+		font-family: Cormorant, serif;
 	}
 	.top { margin:0; padding:0; position:absolute; left:20px; top:90px; }
 	.top li { padding:0 0 0 15px; display:inline; }

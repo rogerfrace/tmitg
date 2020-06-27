@@ -111,6 +111,12 @@ if (!empty($_GET['yt'])){
 			$sdesc="Teaser video for the album &quot;Before and After the Storm&quot; from the Machine in the Garden.";
 			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/9zKk2EWwWF8?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
+#places in between
+		case "teaser":
+			$stitle="&ldquo;Places in Between&rdquo; Teaser";
+			$sdesc="Teaser video for the album &quot;Places in Between&quot; from the Machine in the Garden.";
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/o1ai_xl0Lcw" frameborder="0" allowfullscreen></iframe>';
+			break;
 	
 	}
 } else {

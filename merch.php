@@ -62,7 +62,27 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/baatsico.jpg" alt="xv cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/placesico.jpg" alt="Places in Between CD" property="image" role="presentation" />
+</div>
+<div class="itemdesc">
+	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
+	<em property="name">Places in Between</em></h2>
+	<span property="mpn">dxm-008-cd</span> &copy;<span property="releaseDate">2020</span><br />
+	(<span property="description">full length CD</span>)<br />
+	<a href="places.php">more information <span class="wai">about Places in Between</span></a><br />
+	<div class="pricecart" property="offers" typeof="Offer">
+		<strong class="price" property="price">$12</strong>
+		<meta property="availability" content="http://schema.org/OnlineOnly">
+		<meta property="priceCurrency" content="USD" />
+		<meta property="gtin12" content="xxxxxxxxx" />
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/places-in-between" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'placesinbetween');">Buy <span class="wai">Places in Between</span> Now</a>
+	</div>
+</div>
+</section> <!-- /itemcontainer -->
+
+<section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
+<div class="itempic">
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/baatsico.jpg" alt="baats cd" property="image" role="presentation" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -79,6 +99,8 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
+
+<br style="clear:both;" />
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
@@ -100,8 +122,6 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 </div>
 </section> <!-- /itemcontainer -->
 
-<br style="clear:both;" />
-
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
 	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/spico.jpg" alt="shadow puppets cd" property="image" role="presentation" />
@@ -121,6 +141,8 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
+
+<br style="clear:both;" />
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
@@ -142,8 +164,6 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 </div>
 </section> <!-- /itemcontainer -->
 
-<br style="clear:both;" />
-
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
 	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/mistsico.jpg" alt="out of the mists cd" property="image" role="presentation" />
@@ -163,6 +183,8 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
+
+<br style="clear:both;" />
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
@@ -184,8 +206,6 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 </div>
 </section> <!-- /itemcontainer -->
 
-<br style="clear:both;" />
-
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
 	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/underworldico.jpg" alt="underworld cd" property="image" role="presentation" />
@@ -205,6 +225,8 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
+
+<br style="clear:both;" />
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">

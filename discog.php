@@ -22,7 +22,11 @@
 
 <section aria-labelledby="releases">
 <h2 id="releases" tabindex="-1">releases:</h2>
+
 <ul class="releases">
+
+<li><a href="places.php" title="Places in Between"><img src="albums/placesico.jpg" alt="places in between"></a></li>
+
 <li><a href="imageacoustic.php" title="image (acoustic)"><img src="albums/imageacousticico.jpg" alt="Image (acoustic)"></a></li>
 
 <li><a href="miscellany.php" title="miscellany"><img src="albums/miscellanyico.jpg" alt="Miscellany"></a></li>

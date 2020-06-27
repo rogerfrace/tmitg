@@ -24,6 +24,7 @@
 	<title><?=$fbog['og:title'];?></title>
 	<?php include_once("headers-additional.php"); ?>
 	<link rel="prev" href="/xv.php">
+	<link rel="next" href="/places.php">
 </head>
 
 <body id="discog">
@@ -89,7 +90,7 @@ $lyricsfile and videoname do not include .html
 <?php do_songtitle(4,"In the Vanir","inthevanir",NULL,"baats.jpg",NULL); ?>
 <?php do_songtitle(5,"The Piano","thepiano",NULL,"baats.jpg",NULL); ?>
 <?php do_songtitle(6,"Power and Prophesy","powerandprophesy","powerandprophesy-bc","baats.jpg",NULL); ?>
-<?php do_songtitle(7,"Mending the Sky","mendingthesky",NULL,"sp.jpg",NULL); ?>
+<?php do_songtitle(7,"Mending the Sky","mendingthesky",NULL,"baats.jpg",NULL); ?>
 <?php do_songtitle(8,"Cimmerian (reprise)",NULL,NULL,"baats.jpg",NULL); ?>
 <?php do_songtitle(9,"Scathefire (fire mix)",NULL,"firemix-bc","baats.jpg",NULL); ?>
 <?php do_songtitle(10,"Power and Prophesy (metal below mix)",NULL,NULL,"baats.jpg",NULL); ?>

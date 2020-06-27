@@ -183,6 +183,6 @@ $lyricsfile and videoname do not include .html
 	});
 	</script>
 <?php endif; ?>
-<script src="js/retina.js" type="text/javascript"></script>
+
 </body>
 </html>

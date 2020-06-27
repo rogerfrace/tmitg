@@ -105,6 +105,5 @@ $lyricsfile and videoname do not include .html
 
 </main> <!-- /mainbody -->
 
-<script src="js/retina.js" type="text/javascript"></script>
 </body>
 </html>

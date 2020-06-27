@@ -316,6 +316,6 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 	});
 	</script>
 <?php endif; ?>
-<script src="js/retina.js" type="text/javascript"></script>
+
 </body>
 </html>

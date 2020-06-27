@@ -52,6 +52,10 @@ jQuery(document).ready(function() {
 			jQuery("ul.subnav a[href='storm.php'] img").addClass('current');
 			jQuery("ul.subnav a[href='storm.php']").attr('aria-current','page');
 		break;
+		case '/places.php':
+			jQuery("ul.subnav a[href='places.php'] img").addClass('current');
+			jQuery("ul.subnav a[href='places.php']").attr('aria-current','page');
+		break;
 	// and main nav
 		case '/':
 			jQuery("nav a[href='/index.php']").attr('aria-current','page');

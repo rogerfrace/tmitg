@@ -54,7 +54,7 @@ require_once("functions.php");
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
 	<script src="tmitg.js" type="text/javascript"></script>
-	<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"MusicGroup","url":"http:\/\/www.tmitg.com\/","sameAs":["https:\/\/www.facebook.com\/tmitg","https:\/\/twitter.com\/tmitg","https:\/\/plus.google.com\/+Tmitg\/about","https:\/\/www.youtube.com\/tmitg"],"name":"the Machine in the Garden","foundingDate":"1992"}</script>
+	<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"MusicGroup","url":"http:\/\/www.tmitg.com\/","sameAs":["https:\/\/www.facebook.com\/tmitg","https:\/\/twitter.com\/tmitg","https:\/\/www.youtube.com\/tmitg"],"name":"the Machine in the Garden","foundingDate":"1992"}</script>
 	<?php include_once("googletracking.html"); ?>
 </head>
 
@@ -104,7 +104,7 @@ require_once("functions.php");
 </nav>
 
 <div class="portrait">
-	<img src="/headers/images/home-portrait.png" alt="">
+	<img src="/headers/images/home-portrait.jpg" alt="tMitG band members Roger and Summer pose seated in a Victorian-inspired decorated room">
 </div>
 
 </header>
@@ -112,12 +112,12 @@ require_once("functions.php");
 
 
 <main id="main">
-	<section aria-label="About TMITG">
+	<section aria-label="About tMitG">
 		<h2>About</h2>
-		<p class="notopmargin">The Machine in the Garden is a gothic/darkwave duo featuring Roger Frac&eacute; and Summer Bowman. Since their formation in the early 1990s, Roger and Summer have developed and advanced their unique style through years of collaborating and intertwining their musical tastes. The band has developed their own unique style and released seven full-length albums and one EP.</p>
+		<p class="notopmargin">The Machine in the Garden is a gothic/darkwave duo featuring Roger Frac&eacute; and Summer Bowman. Since their formation in the early 1990s, Roger and Summer have developed and advanced their unique style through years of collaborating and intertwining their musical tastes. The band has developed their own unique style and released eight full-length albums and one EP.</p>
 	</section>
 
-	<section id="recentnews" aria-label="Recent News">
+	<section id="recentnews" aria-label="tMitG Recent News">
 		<!-- recent news section -->
 		<h2>Recent News</h2>
 		<?php
@@ -136,7 +136,7 @@ require_once("functions.php");
 	</section>
 
 
-	<section id="liveshows" aria-label="Live Shows">
+	<section id="liveshows" aria-label="tMitG Live Shows">
 		<!-- live shows section -->
 		<h2>Live Shows</h2>
 

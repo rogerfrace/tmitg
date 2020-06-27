@@ -22,6 +22,25 @@
 	<meta name="twitter:creator" content="@tmitg" />
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once("headers-additional.php"); ?>
+	<script>
+		$(document).ready(function(){
+			// from https://stackoverflow.com/questions/16553075/colorbox-add-alt-text-to-gallery-images
+			$.colorbox.settings.createImg = function(){
+				var img = new Image();
+				var alt = $(this).attr('data-alt');
+				var title = $(this).attr('data-title');
+
+				if (alt) {
+					img.alt = alt;
+				}
+				if (title) {
+					img.title = title;
+				}
+				return img;
+			};
+			$(".imglink").colorbox({rel:'gallery', transition:"fade", width:"75%", height:"75%"});
+		});
+	</script>
 </head>
 
 <body id="merch">
@@ -68,7 +87,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">Places in Between</em></h2>
 	<span property="mpn">dxm-008-cd</span> &copy;<span property="releaseDate">2020</span><br />
-	(<span property="description">full length CD</span>)<br />
+	(<span property="description">full-length CD</span>)<br />
 	<a href="places.php">more information <span class="wai">about Places in Between</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$12</strong>
@@ -110,7 +129,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">XV</em></h2>
 	<span property="mpn">dxm-015-cd</span> &copy;<span property="releaseDate">2007</span><br />
-	(<span property="description">full length CD</span>)<br />
+	(<span property="description">full-length CD</span>)<br />
 	<a href="xv.php">more information <span class="wai">about XV</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$7</strong>
@@ -130,7 +149,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">Shadow Puppets</em></h2>
 	<span property="mpn">MPP975</span> &copy;<span property="releaseDate">2005</span><br />
-	(<span property="description">full length CD</span>)<br />
+	(<span property="description">full-length CD</span>)<br />
 	<a href="shadowpuppets.php">more information <span class="wai">about Shadow Puppets</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$8</strong>
@@ -152,7 +171,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">Asphodel</em></h2>
 	<span property="mpn">MPP986</span> &copy;<span property="releaseDate">2002</span><br />
-	(<span property="description">full length CD</span>)<br />
+	(<span property="description">full-length CD</span>)<br />
 	<a href="asphodel.php">more information <span class="wai">about Asphodel</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$8</strong>
@@ -172,7 +191,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">Out of the Mists</em></h2>
 	<span property="mpn">MPP994</span> &copy;<span property="releaseDate">2000</span><br />
-	(<span property="description">full length enhanced digipack CD</span>)<br />
+	(<span property="description">full-length enhanced digipack CD</span>)<br />
 	<a href="mists.php">more information <span class="wai">about Out of the Mists</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$8</strong>
@@ -194,7 +213,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">One Winter's Night&hellip;</em></h2>
 	<span property="mpn">MPP999</span> &copy;<span property="releaseDate">1999</span><br />
-	(<span property="description">full length digipack CD</span>)<br />
+	(<span property="description">full-length digipack CD</span>)<br />
 	<a href="winters.php">more information <span class="wai">about One Winter's Night&hellip;</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$8</strong>
@@ -214,7 +233,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">Underworld</em></h2>
 	<span property="mpn">dxm-001-cd</span> &copy;<span property="releaseDate">1997</span><br />
-	(<span property="description">full length CD</span>)<br />
+	(<span property="description">full-length CD</span>)<br />
 	<a href="underworld.php">more information <span class="wai">about Underworld</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" style="color:#900;">Out of Print</strong>
@@ -252,6 +271,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <br style="clear:both;" />
 
+
 <div role="region" aria-label="Mirabilis albums">
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
@@ -263,7 +283,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<em property="name">Here and the Hereafter</em></h2>
 	<span style="font-weight:normal; font-size:.75em;">(Summer's other project)</span><br />
 	<span property="mpn">PRO307</span> &copy;<span property="releaseDate">2014</span><br />
-	(<span property="description">full length CD</span>)<br />
+	(<span property="description">full-length CD</span>)<br />
 	<a href="http://www.mirabilismusic.com/hereafter.php">more information <span class="wai">about Here and the Hereafter</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$10</strong>
@@ -283,7 +303,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<em property="name">Sub Rosa</em></h2>
 	<span style="font-weight:normal; font-size:.75em;">(Summer's other project)</span><br />
 	<span property="mpn">PRO207</span> &copy;<span property="releaseDate">2007</span><br />
-	(<span property="description">full length CD</span>)<br />
+	(<span property="description">full-length CD</span>)<br />
 	<a href="http://www.mirabilismusic.com/subrosa.php">more information <span class="wai">about Sub Rosa</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$7</strong>
@@ -306,7 +326,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<em property="name">Pleiades</em></h2>
 	<span style="font-weight:normal; font-size:.75em;">(Summer's other project)</span><br />
 	<span property="mpn">PRO206</span> &copy;<span property="productionDate">2004</span>, reissued <span property="releaseDate">2007</span><br />
-	(<span property="description">full length CD</span>)<br />
+	(<span property="description">full-length CD</span>)<br />
 	<a href="http://www.mirabilismusic.com/pleiades.php">more information <span class="wai">about Pleiades</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$7</strong>
@@ -342,11 +362,30 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <br style="clear:both;" /><hr><br />
 
+
 <div role="region" aria-label="TMITG shirts">
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<a href="images/redshirt.jpg" data-sb="shadowbox[merch]" title="red design t-shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtico.jpg" alt="Red design t-shirt" /></a>
+	<a role="button" aria-haspopup="dialog" href="images/tealshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="vintage ornament design t-shirt" title="vintage ornament design t-shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tealshirtico.jpg" alt="vintage ornament design t-shirt" /></a>
+	<meta property="image" role="presentation" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tealshirt.jpg" />
+</div>
+<div class="itemdesc">
+	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
+	<em property="name">"vintage ornament" design t-shirt</em></h2>
+	<span property="description">(teal "vintage ornament" design with silver text, black short sleeve, unisex or ladies cut v-neck - click picture to view larger image)</span>
+	<div class="pricecart" property="offers" typeof="Offer">
+		<strong class="price" property="price">$12</strong>
+		<meta property="availability" content="http://schema.org/OnlineOnly">
+		<meta property="priceCurrency" content="USD" />
+		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-vintage-ornament-design-t-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'tealshirt');">Buy <span class="wai">vintage ornament design t-shirt</span> Now</a>
+	</div>
+</div>
+</section> <!-- /itemcontainer -->
+
+<section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
+<div class="itempic">
+	<a role="button" aria-haspopup="dialog" href="images/redshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="red design t-shirt" title="red design t-shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtico.jpg" alt="red design t-shirt" /></a>
 	<meta property="image" role="presentation" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirt.jpg" />
 </div>
 <div class="itemdesc">
@@ -362,10 +401,12 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
+
+<br style="clear:both;" />
    
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<a href="images/redbandedtshirt.jpg" data-sb="shadowbox[merch]" title="red design baby-doll"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redbandedico.jpg" alt="Red design baby-doll" /></a>
+	<a role="button" aria-haspopup="dialog" href="images/redbandedtshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="red design baby-doll shirt" title="red design baby-doll shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redbandedico.jpg" alt="red design baby-doll" /></a>
 	<meta property="image" role="presentation" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redbandedtshirt.jpg" />
 </div>
 <div class="itemdesc">
@@ -382,11 +423,9 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 </div>
 </section> <!-- /itemcontainer -->
 
-<br style="clear:both;" />
-
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<a href="images/redshirtraglan.jpg" data-sb="shadowbox[merch]" title="red design ladies raglan"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtraglanico.jpg" alt="Red design raglan shirt" /></a>
+	<a role="button" aria-haspopup="dialog" href="images/redshirtraglan.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="red design ladies raglan shirt" title="red design ladies raglan shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtraglanico.jpg" alt="red design ladies raglan shirt" /></a>
 	<meta property="image" role="presentation" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtraglan.jpg" />
 </div>
 <div class="itemdesc">
@@ -402,10 +441,12 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
+
+<br style="clear:both;" />
  
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<a href="images/tulipshirt.jpg" data-sb="shadowbox[merch]" title="tulip t-shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tulipshirtico.jpg" alt="Tulip t-shirt" /></a>
+	<a role="button" aria-haspopup="dialog" href="images/tulipshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="tulip t-shirt" title="tulip t-shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tulipshirtico.jpg" alt="tulip t-shirt" /></a>
 	<meta property="image" role="presentation" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tulipshirt.jpg" />
 </div>
 <div class="itemdesc">

@@ -16,19 +16,19 @@
 
 <h1>Oblician</h1>
 
-<p>moving into love and lies<br />
-the house of desire<br />
-today we fall from eden<br />
+<p>moving into love and lies<br>
+the house of desire<br>
+today we fall from eden<br>
 into the realm of fire</p>
 
-<p>scratch my eyes out with fingers like claws<br />
-let me see the truth i deny<br />
+<p>scratch my eyes out with fingers like claws<br>
+let me see the truth i deny<br>
 the temptation of sinning</p>
 
-<p>how do you feel?<br />
-how do you feel?<br />
-how do you feel?<br />
-how do you feel?<br />
+<p>how do you feel?<br>
+how do you feel?<br>
+how do you feel?<br>
+how do you feel?<br>
 oblician</p>
       
 </body>

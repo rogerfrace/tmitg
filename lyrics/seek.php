@@ -16,25 +16,25 @@
 
 <h1>Seek</h1>
 
-<p>being within the outside<br />
-in a voice of my own<br />
-to truly have a place<br />
-worth something<br />
-I've been so many places<br />
-done so many things<br />
-had so many dreams<br />
+<p>being within the outside<br>
+in a voice of my own<br>
+to truly have a place<br>
+worth something<br>
+I've been so many places<br>
+done so many things<br>
+had so many dreams<br>
 fought for nothing</p>
 
-<p>for the glory of<br />
-for the silent ones<br />
-I seek you<br />
-for the end of<br />
-for the gathered one<br />
+<p>for the glory of<br>
+for the silent ones<br>
+I seek you<br>
+for the end of<br>
+for the gathered one<br>
 I seek you</p>
 
-<p>will they ever listen<br />
-do they think I can't<br />
-hear them whispering?<br />
+<p>will they ever listen<br>
+do they think I can't<br>
+hear them whispering?<br>
 they stare at me</p>
       
 </body>

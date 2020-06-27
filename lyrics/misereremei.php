@@ -14,13 +14,13 @@
 </head>
 <body id="lyrics">
 
-<h1>Miserere Mei</h1>
+<h1 lang="la">Miserere Mei</h1>
 
-<p>Miserere, miserere mei Deus<br />
-Secundum magnam, misericordiam<br />
-Misericordiam tuam<br />
-Et secundum multitudinem<br />
-Miserationum tuarum<br />
+<p lang="la">Miserere, miserere mei Deus<br>
+Secundum magnam, misericordiam<br>
+Misericordiam tuam<br>
+Et secundum multitudinem<br>
+Miserationum tuarum<br>
 Dele iniquitatem meam</p>
       
 </body>

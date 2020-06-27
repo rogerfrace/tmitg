@@ -16,22 +16,22 @@
 
 <h1>Words in Heaven Lost</h1>
 
-<p>sincerity in patience<br />
+<p>sincerity in patience<br>
 words in heaven lost</p>
 
-<p>obliquely in my mind<br />
+<p>obliquely in my mind<br>
 faithfully gone by</p>
 
-<p>we are following the same path<br />
+<p>we are following the same path<br>
 recognize the loss</p>
 
-<p>like water in my hands<br />
+<p>like water in my hands<br>
 weakness takes a hold</p>
 
-<p>it very well may not be me<br />
+<p>it very well may not be me<br>
 i'm solidifying nothing</p>
 
-<p>get out of this<br />
+<p>get out of this<br>
 thinking into fits</p>
       
 </body>

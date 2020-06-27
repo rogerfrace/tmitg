@@ -16,34 +16,34 @@
 
 <h1>Wonderland</h1>
 
-<p>feel the water that falls down<br />
-and washes me clean<br />
-from all the stars of the fears<br />
+<p>feel the water that falls down<br>
+and washes me clean<br>
+from all the stars of the fears<br>
 that linger in my dreams</p>
 
-<p>I want to drive my eyes away<br />
-no more to wonder<br />
-taken in the hands of fate<br />
+<p>I want to drive my eyes away<br>
+no more to wonder<br>
+taken in the hands of fate<br>
 days filled with thunder</p>
 
-<p>here we are here we stand<br />
-trapped inside this wonderland<br />
-moving in circles falling around<br />
+<p>here we are here we stand<br>
+trapped inside this wonderland<br>
+moving in circles falling around<br>
 they go up but we fall down</p>
 
-<p>I hear you again<br />
-again, again<br />
-I hear you again<br />
+<p>I hear you again<br>
+again, again<br>
+I hear you again<br>
 again, again</p>
 
-<p>the nights drown away in stars<br />
-growing deeper and colder<br />
-nothing can awake my mind<br />
+<p>the nights drown away in stars<br>
+growing deeper and colder<br>
+nothing can awake my mind<br>
 another year older</p>
 
-<p>why we always soon forget<br />
-with no reason<br />
-how low we are again<br />
+<p>why we always soon forget<br>
+with no reason<br>
+how low we are again<br>
 taken with the seasons</p>
       
 </body>

@@ -16,26 +16,26 @@
 
 <h1>Control</h1>
 
-<p>walk through the door<br />
-into her night time orb<br />
-leading light away from you<br />
-she's standing in the shadows<br />
-reshaping the room<br />
-for her intentions<br />
-she slams your doors<br />
+<p>walk through the door<br>
+into her night time orb<br>
+leading light away from you<br>
+she's standing in the shadows<br>
+reshaping the room<br>
+for her intentions<br>
+she slams your doors<br>
 and hides inside the walls</p>
 
-<p>lead their dreams in rivers<br />
-flowing streams of love and hate<br />
-each night she enters<br />
+<p>lead their dreams in rivers<br>
+flowing streams of love and hate<br>
+each night she enters<br>
 she's the master of your fate</p>
 
-<p>entering their minds<br />
-she stares the good thoughts down<br />
-sleeping children cry inside the horror of her arms<br />
-unfeeling of emotion<br />
-she will smother and encompass you<br />
-don't run away<br />
+<p>entering their minds<br>
+she stares the good thoughts down<br>
+sleeping children cry inside the horror of her arms<br>
+unfeeling of emotion<br>
+she will smother and encompass you<br>
+don't run away<br>
 you cannot hide</p>
       
 </body>

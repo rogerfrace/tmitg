@@ -16,36 +16,36 @@
 
 <h1>Outside</h1>
 
-<p>will I ever be there?<br />
+<p>will I ever be there?<br>
 will they ever care?</p>
 
-<p>there was never a time<br />
-with any meaning<br />
-never a place<br />
+<p>there was never a time<br>
+with any meaning<br>
+never a place<br>
 to find a beginning</p>
 
-<p>the words never spoken<br />
-and the past long forgotten<br />
-the road never traveled<br />
+<p>the words never spoken<br>
+and the past long forgotten<br>
+the road never traveled<br>
 and the memories now gone</p>
 
-<p>why don't you see them?<br />
-I'm sure you know them<br />
-why can't you hear them?<br />
+<p>why don't you see them?<br>
+I'm sure you know them<br>
+why can't you hear them?<br>
 for they are there</p>
 
-<p>the future never happened<br />
-and the feeling displaced<br />
-as if in some other light<br />
+<p>the future never happened<br>
+and the feeling displaced<br>
+as if in some other light<br>
 and into the dawn of the day</p>
 
-<p>a thought outside of time<br />
-it could just go away<br />
-transparent eyes look inside<br />
+<p>a thought outside of time<br>
+it could just go away<br>
+transparent eyes look inside<br>
 through to my senses</p>
 
-<p>these games they play<br />
-I'm on the outside<br />
+<p>these games they play<br>
+I'm on the outside<br>
 I feel so far away</p>
       
 </body>

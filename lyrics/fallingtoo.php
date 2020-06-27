@@ -16,21 +16,21 @@
 
 <h1>Falling, Too</h1>
 
-<p>transformed in oblivion<br />
-a bright flutter<br />
-falling all around<br />
-street lights flicker<br />
-within their torn eyes<br />
-come see the winters<br />
-in a brighter day<br />
-silver scapes falling<br />
-onto their shoulders<br />
-upon the pallet<br />
-of almost blackness<br />
-inside our eyes<br />
-rhythmically flowing<br />
-mixed within their souls<br />
-and deafened their minds<br />
+<p>transformed in oblivion<br>
+a bright flutter<br>
+falling all around<br>
+street lights flicker<br>
+within their torn eyes<br>
+come see the winters<br>
+in a brighter day<br>
+silver scapes falling<br>
+onto their shoulders<br>
+upon the pallet<br>
+of almost blackness<br>
+inside our eyes<br>
+rhythmically flowing<br>
+mixed within their souls<br>
+and deafened their minds<br>
 it deafened their minds</p>
       
 </body>

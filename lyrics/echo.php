@@ -16,26 +16,26 @@
 
 <h1>Echo</h1>
 
-<p>it seems strange<br />
-the way their thoughts bang around<br />
-inside stair steps<br />
+<p>it seems strange<br>
+the way their thoughts bang around<br>
+inside stair steps<br>
 up and down</p>
 
-<p>echo, it echoes<br />
+<p>echo, it echoes<br>
 before and after</p>
 
-<p>going in<br />
-the wrong direction<br />
-and I know<br />
-we won't reach our destination<br />
-in my head<br />
-bring me around to the exit<br />
-get me out<br />
+<p>going in<br>
+the wrong direction<br>
+and I know<br>
+we won't reach our destination<br>
+in my head<br>
+bring me around to the exit<br>
+get me out<br>
 I can't see through</p>
 
-<p>all around me<br />
-I did this to myself<br />
-all around me<br />
+<p>all around me<br>
+I did this to myself<br>
+all around me<br>
 echo, it just echoes</p>
       
 </body>

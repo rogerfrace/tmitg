@@ -16,22 +16,22 @@
 
 <h1>Falling Into the Sea</h1>
 
-<p>that in realization<br />
-ceases to be mine<br />
-in existence in visions<br />
-arising in nothing<br />
+<p>that in realization<br>
+ceases to be mine<br>
+in existence in visions<br>
+arising in nothing<br>
 but having in everything</p>
 
-<p>see in the distance<br />
-in the span of dreams<br />
-to sleep in the birth of the wind<br />
-and fly in the consciousness<br />
+<p>see in the distance<br>
+in the span of dreams<br>
+to sleep in the birth of the wind<br>
+and fly in the consciousness<br>
 of your mind</p>
 
-<p>time coming true<br />
-if only to need me<br />
-in encompassing<br />
-love falling<br />
+<p>time coming true<br>
+if only to need me<br>
+in encompassing<br>
+love falling<br>
 into the sea</p>
       
 </body>

@@ -16,36 +16,36 @@
 
 <h1>Metallic</h1>
 
-<p>resonant and high<br />
-sounds of the leaden<br />
+<p>resonant and high<br>
+sounds of the leaden<br>
 deep within the core</p>
 
-<p><em>nature shock<br />
-future crash<br /></em>
-<br />
-molten and glowing<br />
-soft, strident din<br />
+<p><em>nature shock<br>
+future crash<br></em>
+<br>
+molten and glowing<br>
+soft, strident din<br>
 tuned to underscore</p>
 
-<p><em>nature shock<br />
-future crash<br /></em>
-<br />
-spinning and swirling<br />
-a clanging deep within<br />
+<p><em>nature shock<br>
+future crash<br></em>
+<br>
+spinning and swirling<br>
+a clanging deep within<br>
 fire beneath the ore</p>
 
-<p><em>nature shock<br />
-future crash<br /></em>
-<br />
-golden and molten<br />
-penetrating resonance<br />
+<p><em>nature shock<br>
+future crash<br></em>
+<br>
+golden and molten<br>
+penetrating resonance<br>
 never heretofore</p>
 
-<p><em>nature shock<br />
-future crash<br /></em>
-<br />
-spiraling mass of beautiful momentum<br />
-approaching abstracted time<br />
+<p><em>nature shock<br>
+future crash<br></em>
+<br>
+spiraling mass of beautiful momentum<br>
+approaching abstracted time<br>
 prospect of destiny hereafter</p>
 
 </body>

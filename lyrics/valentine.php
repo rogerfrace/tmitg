@@ -16,24 +16,24 @@
 
 <h1>Valentine</h1>
 
-<p>softly music plays in mine ear<br />
-whilst waves of laughter bring forth tears<br />
-but so i look on you fair and true<br />
+<p>softly music plays in mine ear<br>
+whilst waves of laughter bring forth tears<br>
+but so i look on you fair and true<br>
 look back at me, ere i be blue</p>
 
-<p>tis the play my heart draws near<br />
-the words, not verse, that are so dear<br />
-i give myself to you in my hands<br />
+<p>tis the play my heart draws near<br>
+the words, not verse, that are so dear<br>
+i give myself to you in my hands<br>
 this, our journey, to wonderland</p>
 
-<p>gallant hearts collide in one<br />
-i hope you not let me be undone<br />
-on my life, you are a dream<br />
+<p>gallant hearts collide in one<br>
+i hope you not let me be undone<br>
+on my life, you are a dream<br>
 i please you, be you what you seem?</p>
 
-<p>speak you fair and tell me so<br />
-if you love me not, ere i'll go<br />
-but place a kiss on my gentle hand<br />
+<p>speak you fair and tell me so<br>
+if you love me not, ere i'll go<br>
+but place a kiss on my gentle hand<br>
 and with you always i will stand</p>
       
 </body>

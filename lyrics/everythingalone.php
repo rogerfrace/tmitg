@@ -16,25 +16,25 @@
 
 <h1>Everything Alone</h1>
 
-<p>she said that I could not have<br />
-all the things I wanted<br />
-and in the end I found<br />
+<p>she said that I could not have<br>
+all the things I wanted<br>
+and in the end I found<br>
 the span of fortune's decade</p>
 
-<p>and as the years pass by<br />
-feeding non-emotion<br />
-more of the world I possess<br />
+<p>and as the years pass by<br>
+feeding non-emotion<br>
+more of the world I possess<br>
 less of myself I encompass</p>
 
-<p>never needing intangible<br />
-their joys and their sorrows<br />
-why should I care to find<br />
+<p>never needing intangible<br>
+their joys and their sorrows<br>
+why should I care to find<br>
 a love to last past tomorrow</p>
 
-<p>and in the end I find<br />
-does it really matter<br />
-what things we take with us<br />
-to be alone with everything<br />
+<p>and in the end I find<br>
+does it really matter<br>
+what things we take with us<br>
+to be alone with everything<br>
 is to be alone&hellip;</p>
       
 </body>

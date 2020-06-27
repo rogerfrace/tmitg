@@ -16,19 +16,19 @@
 
 <h1>Clarity</h1>
 
-<p>it's difficult to see where you're going<br />
-when the rains come with no warning<br />
-my eyes are all blurry<br />
+<p>it's difficult to see where you're going<br>
+when the rains come with no warning<br>
+my eyes are all blurry<br>
 and my hands shake with fear</p>
 
-<p>feels like I'm drowning<br />
-in a sea of myself<br />
-won't someone<br />
+<p>feels like I'm drowning<br>
+in a sea of myself<br>
+won't someone<br>
 release me</p>
 
-<p>what I'm seeing will not disappear<br />
-it won't stop if you ask it to<br />
-you can't think it away<br />
+<p>what I'm seeing will not disappear<br>
+it won't stop if you ask it to<br>
+you can't think it away<br>
 cleansed or confused</p>
       
 </body>

@@ -16,19 +16,19 @@
 
 <h1>Icarus</h1>
 
-<p>it's out of my control<br />
-what you find follows<br />
-something set in motion<br />
+<p>it's out of my control<br>
+what you find follows<br>
+something set in motion<br>
 until the ends of the earth</p>
 
-<p>you're above it all<br />
-so you'll never see<br />
-the terrible mistakes<br />
+<p>you're above it all<br>
+so you'll never see<br>
+the terrible mistakes<br>
 you can't ever correct</p>
 
-<p>and take me there<br />
-fly above<br />
-take me away<br />
+<p>and take me there<br>
+fly above<br>
+take me away<br>
 far from here</p>
       
 </body>

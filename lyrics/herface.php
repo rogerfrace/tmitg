@@ -16,21 +16,21 @@
 
 <h1>Her Face</h1>
 
-<p>her will she drove them<br />
-she needed them to<br />
-they never saw her<br />
+<p>her will she drove them<br>
+she needed them to<br>
+they never saw her<br>
 so gently she had fled</p>
 
 <p>and you're calling home</p>
 
-<p>so many nights have passed<br />
-and her face shown in the moon<br />
-something of nothing so beautiful<br />
+<p>so many nights have passed<br>
+and her face shown in the moon<br>
+something of nothing so beautiful<br>
 a dream years past</p>
 
-<p>she riveted them all<br />
-a thousand and more there<br />
-the blood and the glory<br />
+<p>she riveted them all<br>
+a thousand and more there<br>
+the blood and the glory<br>
 all for the sake of her beauty</p>
       
 </body>

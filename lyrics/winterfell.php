@@ -16,29 +16,29 @@
 
 <h1>Winter Fell</h1>
 
-<p>Waiting for my own fault<br />
-I doubt the long road<br />
-There's a place I must go to<br />
+<p>Waiting for my own fault<br>
+I doubt the long road<br>
+There's a place I must go to<br>
 Won't I wander alone</p>
 
-<p>Into the trail of the wind<br />
-Across a foreign soil<br />
-Tired and colder<br />
+<p>Into the trail of the wind<br>
+Across a foreign soil<br>
+Tired and colder<br>
 I long to return</p>
 
-<p>I'm not my own self<br />
-A new life<br />
-She treads behind me<br />
+<p>I'm not my own self<br>
+A new life<br>
+She treads behind me<br>
 A white dream</p>
 
-<p>Running from the shadows<br />
-Running home<br />
-They're fast behind me<br />
+<p>Running from the shadows<br>
+Running home<br>
+They're fast behind me<br>
 A breath each night</p>
 
-<p>Where are you now<br />
-A long continent to go<br />
-A vision of forests<br />
+<p>Where are you now<br>
+A long continent to go<br>
+A vision of forests<br>
 I speak the words&hellip;of wisdom</p>
       
 </body>

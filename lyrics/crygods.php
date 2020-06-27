@@ -16,14 +16,14 @@
 
 <h1>CryGods</h1>
 
-<p>the gods are crying and the clouds are blowing overhead<br />
-the gathering in black for the mourning of the dead<br />
-rain falling in torrents bringing life to the ground<br />
+<p>the gods are crying and the clouds are blowing overhead<br>
+the gathering in black for the mourning of the dead<br>
+rain falling in torrents bringing life to the ground<br>
 no way to break the feelings to which i am bound</p>
 
-<p>a single black dress flows whispfully in the wind<br />
-the woman underneath her heart as black as sin<br />
-no way to understand the feelings she has found<br />
+<p>a single black dress flows whispfully in the wind<br>
+the woman underneath her heart as black as sin<br>
+no way to understand the feelings she has found<br>
 no way to break the feelings to which she is bound</p>
       
 </body>

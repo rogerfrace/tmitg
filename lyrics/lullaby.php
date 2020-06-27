@@ -16,20 +16,20 @@
 
 <h1>Lullaby</h1>
 
-<p>in quiet and rest<br />
-calm and content<br />
-let the night circle and fall<br />
-the candle burns<br />
-and stars shine in the sky<br />
-I am comfort<br />
+<p>in quiet and rest<br>
+calm and content<br>
+let the night circle and fall<br>
+the candle burns<br>
+and stars shine in the sky<br>
+I am comfort<br>
 a place to keep you safe</p>
 
-<p>I will hold you<br />
-until the soft rays<br />
-of sun warm your face<br />
-and in your mind<br />
-gentle dreams<br />
-will brush against your thoughts<br />
+<p>I will hold you<br>
+until the soft rays<br>
+of sun warm your face<br>
+and in your mind<br>
+gentle dreams<br>
+will brush against your thoughts<br>
 and love will smooth your soul</p>
       
 </body>

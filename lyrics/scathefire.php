@@ -16,34 +16,34 @@
 
 <h1>Scathefire</h1>
 
-<p>kindled within the waters<br />
-beneath the highest heaven<br />
-mighty and wise<br />
+<p>kindled within the waters<br>
+beneath the highest heaven<br>
+mighty and wise<br>
 protecting and delivering</p>
 
-<p>rising from the flames<br />
-destruction and construction<br />
-with your fiery horses<br />
+<p>rising from the flames<br>
+destruction and construction<br>
+with your fiery horses<br>
 creator of sun and stars</p>
 
-<p><em>burn and dispel<br />
-burn and devour<br />
-burn and purify<br />
-burn and be born<br />
-sacrificial fire<br />
+<p><em>burn and dispel<br>
+burn and devour<br>
+burn and purify<br>
+burn and be born<br>
+sacrificial fire<br>
 scathefire</em></p>
 
-<p>linking heaven and earth<br />
-offering into the fire<br />
-your wisdom burns delusion<br />
+<p>linking heaven and earth<br>
+offering into the fire<br>
+your wisdom burns delusion<br>
 facing all directions</p>
 
-<p>dwelt upon brightness<br />
-lightning of a raincloud<br />
-flames of roaring waves<br />
+<p>dwelt upon brightness<br>
+lightning of a raincloud<br>
+flames of roaring waves<br>
 in the thunder of heaven</p>
 
-<p><em>charioteer, sacrifice<br />
+<p><em>charioteer, sacrifice<br>
 two origins, two births</em></p>
 
 </body>

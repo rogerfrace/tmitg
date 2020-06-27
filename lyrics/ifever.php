@@ -16,29 +16,29 @@
 
 <h1>If Ever</h1>
 
-<p>If ever we could bind it up<br />
-Integrate it in our souls<br />
-Find the time we saw blind<br />
+<p>If ever we could bind it up<br>
+Integrate it in our souls<br>
+Find the time we saw blind<br>
 Figure the wrongs gone right</p>
 
-<p>If ever we learned what we had lost<br />
-Incomplete and worn<br />
-With no sweetness I can have it<br />
+<p>If ever we learned what we had lost<br>
+Incomplete and worn<br>
+With no sweetness I can have it<br>
 A thousand times of nothing</p>
 
-<p>Don't you stop here <br />
-Playing with my dirty fears<br />
-Falling down the drain<br />
+<p>Don't you stop here <br>
+Playing with my dirty fears<br>
+Falling down the drain<br>
 It ended yesterday</p>
 
-<p>If ever we could push away<br />
-Smother all the pain<br />
-Tear the day down<br />
+<p>If ever we could push away<br>
+Smother all the pain<br>
+Tear the day down<br>
 Smooth all the insanity over</p>
 
-<p>If ever we knew the truth<br />
-And grasp the lies within<br />
-Wouldn't make it all right<br />
+<p>If ever we knew the truth<br>
+And grasp the lies within<br>
+Wouldn't make it all right<br>
 To deny all the things we have done</p>
       
 </body>

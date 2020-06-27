@@ -16,42 +16,42 @@
 
 <h1>Otherworld</h1>
 
-<p>in the sunlight<br />
-I'll be on the horizon<br />
+<p>in the sunlight<br>
+I'll be on the horizon<br>
 on the other side of time</p>
 
-<p>we will linger<br />
-finding our way north<br />
+<p>we will linger<br>
+finding our way north<br>
 on the other side of life</p>
 
-<p>stillness inside<br />
-slip the knife into the crescent moon<br />
+<p>stillness inside<br>
+slip the knife into the crescent moon<br>
 on the other side of time</p>
 
-<p>luminescence<br />
-spins us around the compass<br />
+<p>luminescence<br>
+spins us around the compass<br>
 on the other side of life</p>
 
-<p>anima mundi <br />
-I hear it<br />
-otherworld<br />
-I see it<br />
+<p>anima mundi <br>
+I hear it<br>
+otherworld<br>
+I see it<br>
 terra firma</p>
 
-<p>over the ground<br />
-climbing beyond the waters<br />
+<p>over the ground<br>
+climbing beyond the waters<br>
 on the other side of time</p>
 
-<p>sever phantom<br />
-kindred form of existence<br />
+<p>sever phantom<br>
+kindred form of existence<br>
 on the other side of life</p>
 
-<p>innocent wonder<br />
-textures encircle the sleeping<br />
+<p>innocent wonder<br>
+textures encircle the sleeping<br>
 on the other side of time</p>
 
-<p>in the moonlight<br />
-safely beyond the horizon<br />
+<p>in the moonlight<br>
+safely beyond the horizon<br>
 on the other side of life</p>
       
 </body>

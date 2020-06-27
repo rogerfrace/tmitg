@@ -16,16 +16,16 @@
 
 <h1>Fade</h1>
 
-<p>be&aacute;tam me d&iacute;cent &oacute;mnes (all shall call me blessed)</p>
+<p><span lang="la">be&aacute;tam me d&iacute;cent &oacute;mnes</span> (all shall call me blessed)</p>
 
-<p>around the leaves and willow wisps<br />
-the starlight fades out of the mists<br />
-there is a journey to find another<br />
+<p>around the leaves and willow wisps<br>
+the starlight fades out of the mists<br>
+there is a journey to find another<br>
 a distant place i will uncover</p>
 
-<p>to pacify these aches and pains<br />
-and taste the warmth of a summer rain<br />
-in this swirl where memory exists<br />
+<p>to pacify these aches and pains<br>
+and taste the warmth of a summer rain<br>
+in this swirl where memory exists<br>
 the stream flows away out of the mists</p>
       
 </body>

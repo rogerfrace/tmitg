@@ -16,15 +16,15 @@
 
 <h1>Time</h1> 
 
-<p>something that never happened<br />
-if it hadn't begun<br />
-this terrible feeling<br />
-without any meaning<br />
-a daylight so grim<br />
-and the conscious within<br />
-the future's lost in the distance<br />
-never knowing their names<br />
-and inside my mind<br />
+<p>something that never happened<br>
+if it hadn't begun<br>
+this terrible feeling<br>
+without any meaning<br>
+a daylight so grim<br>
+and the conscious within<br>
+the future's lost in the distance<br>
+never knowing their names<br>
+and inside my mind<br>
 the passing of time</p>
       
 </body>

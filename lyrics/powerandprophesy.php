@@ -16,17 +16,17 @@
 
 <h1>Power and Prophesy</h1>
 
-<p>glimmer of the metal below<br />
-flesh in virtue forgotten<br />
-what once was joy now<br />
+<p>glimmer of the metal below<br>
+flesh in virtue forgotten<br>
+what once was joy now<br>
 within great loss we fall</p>
 
-<p>we will inherit another world<br />
+<p>we will inherit another world<br>
 the art of power and prophesy</p>
 
-<p>words taken the wrong way<br />
-ownership of feelings lost<br />
-those we strike, hit harder<br />
+<p>words taken the wrong way<br>
+ownership of feelings lost<br>
+those we strike, hit harder<br>
 until we have no control</p>
 
 </body>

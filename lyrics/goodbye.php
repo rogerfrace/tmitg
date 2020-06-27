@@ -16,24 +16,24 @@
 
 <h1>Goodbye</h1>
 
-<p>Fly away<br />
-All alone today<br />
-Like the birds<br />
+<p>Fly away<br>
+All alone today<br>
+Like the birds<br>
 Say our parting words</p>
 
-<p>It falls to me<br />
-Frayed and old and beat<br />
-See it fade<br />
+<p>It falls to me<br>
+Frayed and old and beat<br>
+See it fade<br>
 All the dreams we made</p>
 
-<p>I bid my final goodbye<br />
+<p>I bid my final goodbye<br>
 It's time to say goodbye</p>
 
-<p>And my body falls beneath the clouds<br />
+<p>And my body falls beneath the clouds<br>
 And my body falls beneath the waves</p>
 
-<p>It ends this way<br />
-To find another place<br />
+<p>It ends this way<br>
+To find another place<br>
 So goodbye&hellip;</p>
       
 </body>

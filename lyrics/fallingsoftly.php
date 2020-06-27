@@ -16,26 +16,26 @@
 
 <h1>Falling Softly</h1>
 
-<p>Softly&hellip;<br />
-Her tears rang loud as lightning<br />
+<p>Softly&hellip;<br>
+Her tears rang loud as lightning<br>
 And colder than snow</p>
 
 <p>Snowflakes falling softly&hellip;</p>
 
-<p>Glistening world of dreams<br />
+<p>Glistening world of dreams<br>
 As snowflakes fall, softly</p>
 
-<p>A thousand colors bloom<br />
+<p>A thousand colors bloom<br>
 Inside one of none</p>
 
 <p>Falling softly&hellip;</p>
 
-<p>The new day hides my sun<br />
+<p>The new day hides my sun<br>
 I need&hellip;</p>
 
 <p>Falling softly&hellip;</p>
 
-<p>Of bright frozen light<br />
+<p>Of bright frozen light<br>
 Of days dressed in white</p>
 
 <p>Softly&hellip;</p>

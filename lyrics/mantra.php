@@ -16,19 +16,19 @@
 
 <h1>Mantra</h1>
 
-<p>No tongues speak the same<br />
-My words don't find them<br />
-Your lips move for different thoughts<br />
+<p>No tongues speak the same<br>
+My words don't find them<br>
+Your lips move for different thoughts<br>
 I speak no evil</p>
 
-<p>No eyes look on the same<br />
-Your eyes can't feel my pain<br />
-Sight won't correct your vision<br />
+<p>No eyes look on the same<br>
+Your eyes can't feel my pain<br>
+Sight won't correct your vision<br>
 I see no evil</p>
 
-<p>No ears hear the same<br />
-My sounds don't correct your days<br />
-Our ears hear no thoughts<br />
+<p>No ears hear the same<br>
+My sounds don't correct your days<br>
+Our ears hear no thoughts<br>
 I hear no evil</p>
       
 </body>

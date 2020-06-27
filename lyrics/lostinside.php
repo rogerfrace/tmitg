@@ -15,26 +15,27 @@
 <body id="lyrics">
 
 <h1>Lost in Side</h1> 
-<h3>words by John McDonagh</h3>
 
-<p>dreams of self in the darkening light<br />
-a lingering scent of eternal night<br />
-wolves howl long and the people scream<br />
+<p><i>words by John McDonagh</i></p>
+
+<p>dreams of self in the darkening light<br>
+a lingering scent of eternal night<br>
+wolves howl long and the people scream<br>
 clenching their bones with forbidden dreams</p>
 
-<p>alone in pain with no one here<br />
-fear to scream, fear to tear<br />
-darkness sighs and all is clear<br />
+<p>alone in pain with no one here<br>
+fear to scream, fear to tear<br>
+darkness sighs and all is clear<br>
 for only shadows can draw near</p>
 
-<p>wandering paths that were never trod<br />
-why weren't you there by the holy pond?<br />
-I see the waters of that misty day<br />
+<p>wandering paths that were never trod<br>
+why weren't you there by the holy pond?<br>
+I see the waters of that misty day<br>
 images of love keep me away</p>
 
-<p>this is for you and you alone<br />
-there's nothing left of my emotion<br />
-a lost embrace within my mind<br />
+<p>this is for you and you alone<br>
+there's nothing left of my emotion<br>
+a lost embrace within my mind<br>
 thoughts so bright my eyes go blind</p>
       
 </body>

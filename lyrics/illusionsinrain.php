@@ -16,19 +16,19 @@
 
 <h1>Illusions In Rain</h1>
 
-<p>Push the tender nights aside<br />
-As emotions drift by<br />
-Many thoughts collide<br />
+<p>Push the tender nights aside<br>
+As emotions drift by<br>
+Many thoughts collide<br>
 Cruel ravishing strains</p>
 
-<p>The heavens open wide<br />
-And the windows close tight<br />
-And the wind it sings by my side<br />
+<p>The heavens open wide<br>
+And the windows close tight<br>
+And the wind it sings by my side<br>
 Never a sorrow</p>
 
-<p>And now the words leave<br />
-No explanation for me<br />
-How can we see<br />
+<p>And now the words leave<br>
+No explanation for me<br>
+How can we see<br>
 The illusions dance away</p>
       
 </body>

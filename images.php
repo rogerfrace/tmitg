@@ -53,7 +53,7 @@ function do_photo($imgname,$gallery=NULL,$alt=NULL) {
 	if (check_mobile()==true) {
 		echo "<li><a href=\"$phopath/$imgname.jpg\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" loading=\"lazy\" border=\"0\" hspace=\"4\" vspace=\"4\"></a></li>\n";
 	} else {
-		echo "<li><a href=\"$phopath/$imgname.jpg\" class=\"imglink\" data-title=\"$gallery\" data-alt=\"$alt\" aria-haspopup=\"dialog\" onclick=\"ga('send', 'event', 'Photo', 'View', '$imgname;');\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" loading=\"lazy\" width=\"$tnwidth\" height=\"$tnheight\"></a>
+		echo "<li><a role=\"button\" href=\"$phopath/$imgname.jpg\" class=\"imglink\" data-title=\"$gallery\" data-alt=\"$alt\" aria-haspopup=\"dialog\" onclick=\"ga('send', 'event', 'Photo', 'View', '$imgname;');\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" loading=\"lazy\" width=\"$tnwidth\" height=\"$tnheight\"></a>
 		<noscript><a href=\"$phopath/$imgname.jpg\" title=\"$gallery\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" width=\"$tnwidth\" height=\"$tnheight\"></a></noscript></li>\n";
 	}
 } // end function
@@ -368,6 +368,7 @@ do_photo('tmitgpic3','1992');
 	<li>2011: <em>Before and After the Storm</em> photoshoot - Roger Frac&eacute; and Summer Bowman</li>
 	<li>2013: live at Elysium, Austin, TX - John Nuncio</li>
 	<li>2015: Mirabilis live at Secret Oktober, Austin, TX - Phil Schafer</li>
+	<li>2020: <em>Places in Between</em> photoshoot - Roger Frac&eacute; and Summer Bowman</li>
 </ul>
 </section>
 

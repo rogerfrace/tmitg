@@ -17,68 +17,12 @@
 		$('table#liveTable').stickyTableHeaders();
 	});
 	</script>
-	<!--<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAA1X0V6TOrwS2XcT9oTLdSyxTpVTUd74_NY-Jkhumb6CF42d9gpBT6YuUiVE3t2jtcZZ7oOAuXeYGDZg" type="text/javascript"></script>
-	<script type="text/javascript">
-		function initialize() {
-			if (GBrowserIsCompatible()) {
-				// this variable will collect the html which will eventualkly be placed in the side_bar
-				var side_bar_html = "";
-
-				// arrays to hold copies of the markers used by the side_bar
-				// because the function closure trick doesnt work there
-				var gmarkers = [];
-
-				// A function to create the marker and set up the event window
-				function createMarker(point,name,html) {
-					var marker = new GMarker(point);
-					GEvent.addListener(marker, "click", function() {
-					marker.openInfoWindowHtml(html);
-				});
-				// save the info we need to use later for the side_bar
-				gmarkers.push(marker);
-				// add a line to the side_bar html
-				side_bar_html += '<a href="javascript:myclick(' + (gmarkers.length-1) + ')">' + name + '<\/a><br>';
-				return marker;
-				}
-
-
-				// This function picks up the click and opens the corresponding info window
-				function myclick(i) {
-				GEvent.trigger(gmarkers[i], "click");
-				}
-
-				var map = new GMap2(document.getElementById("map_canvas"));
-				map.setCenter(new GLatLng(37.464165, -97.685381), 4);
-				map.setUIToDefault();
-
-				// Read the data from example.xml
-				GDownloadUrl("livegmap.xml", function(doc) {
-				var xmlDoc = GXml.parse(doc);
-				var markers = xmlDoc.documentElement.getElementsByTagName("marker");
-
-				for (var i = 0; i < markers.length; i++) {
-					// obtain the attribues of each marker
-					var lat = parseFloat(markers[i].getAttribute("lat"));
-					var lng = parseFloat(markers[i].getAttribute("lng"));
-					var point = new GLatLng(lat,lng);
-					var html = markers[i].getAttribute("html");
-					var label = markers[i].getAttribute("label");
-					// create the marker
-					var marker = createMarker(point,label,html);
-					map.addOverlay(marker);
-				}
-				// put the assembled side_bar_html contents into the side_bar div
-				document.getElementById("side_bar").innerHTML = side_bar_html;
-				});
-			}
-		}
-	</script>-->
 
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
 	<?php include_once("googletracking.html"); ?>
 </head>
 
-<body id="live" onload="initialize()" onunload="GUnload()">
+<body id="live">
 	<span id="skip-links">
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>

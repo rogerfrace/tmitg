@@ -3,7 +3,7 @@
 	'og:title'=>'the Machine in the Garden - Places in Between',
 	'og:type'=>'music.album',
 	'og:upc'=>'xxxxxxx',
-	'og:url'=>'http://www.tmitg.com/storm.php',
+	'og:url'=>'http://www.tmitg.com/places.php',
 	'og:description'=>'the Machine in the Garden &ldquo;Places in Between&rdquo; is the band&rsquo;s ninth studio album.',
 	'og:image'=>'http://www.tmitg.com/albums/places.jpg',
 	'og:image:type'=>'image/jpeg',
@@ -53,11 +53,11 @@
 	<h1 itemprop="name">Places in Between</h1>
 
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">dxm-008-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2020</span><br />Digital Album released <time datetime="2020-07-17" itemprop="datePublished">17 July 2020</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">dxm-008-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2020</span><br />Digital Album to be released <time datetime="2020-07-17" itemprop="datePublished">July 2020</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p>(<span itemprop="catalogNumber" aria-label="catalog number">dxm-008-cd</span>) <span itemprop="about">full-length CD</span> released <time datetime="2020-07-31" itemprop="datePublished">31 July 2020</time></p>
+		<p>(<span itemprop="catalogNumber" aria-label="catalog number">dxm-008-cd</span>) <span itemprop="about">full-length CD</span> to be released <time datetime="2020-07-31" itemprop="datePublished">July 2020</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>
 

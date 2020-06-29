@@ -103,9 +103,11 @@ require_once("functions.php");
   </div>
 </nav>
 
-<div class="portrait">
-	<img src="/headers/images/home-portrait.jpg" alt="tMitG band members Roger and Summer pose seated in a Victorian-inspired decorated room">
-</div>
+<figure class="portrait">
+	<div class="portraitimg"></div>
+	<div class="portraitgrad"><div>
+	<figcaption class="wai">tMitG band members Roger and Summer pose seated in a Victorian-inspired decorated room</figcaption>
+</figure>
 
 </header>
 <!--- end title bar -->

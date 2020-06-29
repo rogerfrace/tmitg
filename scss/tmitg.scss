@@ -2,7 +2,7 @@
 @import "compass";
 
 /* my colors */
-$altclr: #157CC1; /* this is the main blue-gray highlight color */
+$altclr: #1579BC; /* this is the main blue-gray highlight color */
 $dkaltclr: #486178; /* this is a dark version used in IE filters */
 $dkred: #60323D;
 
@@ -15,14 +15,12 @@ $fourgray: #444444;
 $dkgray: #333333;
 $nearblack: #222222;
 $black: #000000;
-$teal: #157CC1;
+$teal: #1579BC;
 $darkteal: #034F5F;
-$darklight: #60323D;
+$lightteal: #75BFF0;
+$darklight: #372231; /* was #60323D */
 
 
-/*@import url(http://fonts.googleapis.com/css?family=Piedra);
-@import url(http://fonts.googleapis.com/css?family=Jacques+Francois);
-@import url(http://fonts.googleapis.com/css?family=Italianno); */
 @import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
@@ -102,7 +100,7 @@ address {
 	font-style: normal;
 }
 
-small {font-size:50%;}
+small {font-size:66%;}
 footer small {color:$ltgray; margin-left:1em;}
 .block {display:block;}
 
@@ -140,7 +138,6 @@ footer small {color:$ltgray; margin-left:1em;}
 
 a.atcss {
 	@include single-box-shadow($nearblack, 0.1em, 0.1em, 0.2em);
-	@include background-image(linear-gradient($teal, $darkteal));
 	background-color:$darkteal;
 	@include border-radius(9px);
 	border:1px solid $darkteal;
@@ -158,9 +155,7 @@ a.atcss {
 	text-shadow: 1px 1px 0 $darkteal;
 }
 a.atcss:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, $darkteal), color-stop(1, #b25859) );
-	background:-moz-linear-gradient( center top, $darkteal 5%, $teal 100% );
-	background-color:$darkteal;
+	background-color:$teal;
 }
 
 
@@ -207,6 +202,7 @@ a.atcss:hover {
 			display: block;
 			margin:0 auto;
 			width: 66%;
+			max-height: 33vh;
 		}
 		.title {
 			display:block;
@@ -254,12 +250,39 @@ a.atcss:hover {
 	nav li a:focus {
 		border-bottom: 3px solid #157CC1;
 	}
+	nav.mobile {
+		margin:0;
+	}
 
 	.portrait {
+		position: relative;
+		height:500px;
 		background-color: $darklight;
-		img {
+		.portraitimg {
+			position: absolute;
+			left: 50%;
+			-webkit-transform: translateX(-50%);
+			transform: translateX(-50%);
+			top: 0;
+			width:643px;
+			height:500px;
 			display:block;
-			margin: 0 auto;
+			margin: auto;
+			background-image: url('headers/images/home-portrait-643.jpg');
+			background-repeat: no-repeat;
+		}
+		.portraitgrad {
+			position: absolute;
+			left: 50%;
+			-webkit-transform: translateX(-50%);
+			transform: translateX(-50%);
+			top: 0;
+			width:643px;
+			height:500px;
+			display:block;
+			margin: auto;
+			/* from https://cssgradient.io/ */
+			background: linear-gradient(90deg, rgba(55,34,49,1) 0%, rgba(0,0,0,0) 15%, rgba(0,0,0,0) 85%, rgba(55,34,49,1) 100%);
 		}
 	}
 	main {
@@ -285,6 +308,12 @@ a.atcss:hover {
 			font-size: 2em;
 			font-weight: 700;
 		}
+		a,a:link {
+			color:$nearwhite;
+		}
+		a:visited {
+			color:$lightteal;
+		}
 	}
 	#recentnews {
 		.eyebrow {
@@ -299,48 +328,105 @@ a.atcss:hover {
 		}
 	}
 }
-
-
+@media screen and (max-width: 643px) {
+	#front {
+		.portrait {
+			position: relative;
+			height:293px;
+			background-color: $darklight;
+			.portraitimg {
+				position: absolute;
+				left: 50%;
+				-webkit-transform: translateX(-50%);
+				transform: translateX(-50%);
+				top: 0;
+				width:379px;
+				height:293px;
+				display:block;
+				margin: auto;
+				background-image: url('headers/images/home-portrait-379.jpg');
+				background-repeat: no-repeat;
+			}
+			.portraitgrad {
+				position: absolute;
+				left: 50%;
+				-webkit-transform: translateX(-50%);
+				transform: translateX(-50%);
+				top: 0;
+				width:379px;
+				height:293px;
+				display:block;
+				margin: auto;
+				/* from https://cssgradient.io/ */
+				background: linear-gradient(90deg, rgba(96,50,61,1) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(96,50,61,1) 100%);
+			}
+		}
+	}
+}
 /* header block */
 #headblock {
-	height: 130px;
-	header a,
-	.desktop a {
-		color:white;
-		font-family: Megrim, sans-serif;
-		font-variant: small-caps;
-		text-decoration:none;
-		font-size:1.35em;
-		text-shadow:1px 1px 1px $altclr;
-		filter: dropshadow(color=$dkaltclr, offx=1, offy=1);
-	}
-	.desktop a:hover {
-		text-shadow:4px 4px 4px $altclr;
-		filter: dropshadow(color=$dkaltclr, offx=3, offy=3);
+	height: 110px;
+	.desktop {
+		a {
+			color:$nearwhite;
+			font-family: Cormorant, serif;
+			font-variant: small-caps;
+			text-decoration:none;
+			font-size:1.35em;
+		}
+		a:hover, a:focus {
+			border-bottom: 3px solid #157CC1;
+		}
 	}
 	nav {
 		font-family: Cormorant, serif;
 	}
-	.top { margin:0; padding:0; position:absolute; left:20px; top:90px; }
-	.top li { padding:0 0 0 15px; display:inline; }
-	.bottom { margin:0; padding:0; position:absolute; left:20px; top:120px; }
-	.bottom li { padding:0 0 0 15px; display:inline; }
+	.top {
+		margin:0;
+		padding:0;
+		position:absolute;
+		left:20px;
+		top:70px;
+	}
+	.top li {
+		padding:0 0 0 15px;
+		display:inline;
+	}
+	.bottom {
+		margin:0;
+		padding:0;
+		position:absolute;
+		left:20px;
+		top:120px;
+	}
+	.bottom li {
+		padding:0 0 0 15px;
+		display:inline;
+	}
 	.sitename {
 		position: absolute;
 		top: 8px;
 		left: 30px;
-		font-family: 'Jacques Francois', Georgia, serif;
+		font-family: Megrim, serif;
 		font-variant: small-caps;
 		font-size: 2em;
 		color: $nearwhite;
-		text-shadow:2px 2px 3px $altclr;
-		filter: dropshadow(color=$dkaltclr, offx=2, offy=2);
+		a, a:link, a:visited {
+			text-decoration:none;
+			color: $nearwhite;
+		}
+		a:hover, a:focus {
+			border-bottom: 3px solid #157CC1;
+		}
 	}
 }
 @media (max-width: 725px) {
-	#headblock .sitename {
+	#headblock {
+		height: 50px;
+		.sitename {
 		top: 0;
 		left: 55px;
+		}
 	}
 }
 @media screen and (max-width: 640px) {
@@ -499,7 +585,7 @@ a.atcss:hover {
 	}
 
 	thead {
-		color: $white;
+		/*color: $white;*/
 		text-align: left;
 		font-weight: lighter;
 		font-style: oblique;
@@ -532,6 +618,7 @@ a.atcss:hover {
 }
 
 #discog_topnav {
+	margin:2em 0 0 23px;
 	ul {
 		margin: 0;
 		padding: 0 0 0 15px;
@@ -663,7 +750,7 @@ iframe#sb-player {
 		float: left;
 		text-align: left;
 
-		h4 {font-family: 'Italianno', cursive; color:$dkred; font-size:2em; font-weight:normal; margin:0.5em 0 0 0;}
+		h4 {font-family: 'Kristi', cursive; color:$dkred; font-size:2em; font-weight:normal; margin:0.5em 0 0 0;}
 	}
 	.albumcol { width: 33%; *width: 28%; min-width:250px; min-height:250px;}
 	.audiocol { width: 33%; *width: 33%; min-width:200px; }

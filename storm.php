@@ -34,7 +34,6 @@
 
 <?php get_header(); ?>
 
-<div><br /><br /></div>
 
 <!-- this is the album header nav -->
 <?php include_once("includes/discogsubnav.inc.php"); ?>
@@ -50,7 +49,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/baats.jpg" alt="Before and After the Storm" class="albumimg ariapreso" itemprop="image" /></div>
+	<div><img src="albums/baats.jpg" alt="Before and After the Storm album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Before and After the Storm</h1>
 
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
@@ -71,11 +70,11 @@
 	<caption class="wai">Track listing for "Before and After the Storm"</caption>
 	<thead>
 		<tr>
-			<th scope="col">Track Number</th>
-			<th scope="col">Track Title</th>
-			<th scope="col">Lyrics</th>
-			<th scope="col">Audio</th>
-			<th scope="col">Video</th>
+			<th scope="col" class="wai">Track Number</th>
+			<th scope="col" class="wai">Track Title</th>
+			<th scope="col" class="wai">Lyrics</th>
+			<th scope="col" class="wai">Audio</th>
+			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
 	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">

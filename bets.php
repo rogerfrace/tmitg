@@ -18,7 +18,6 @@
 
 <?php get_header(); ?>
 
-<div><br /><br /></div>
 
 <!-- this is the album header nav -->
 <?php include_once("includes/discogsubnav.inc.php"); ?>

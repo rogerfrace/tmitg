@@ -34,7 +34,6 @@
 
 <?php get_header(); ?>
 
-<div><br /><br /></div>
 
 <!-- this is the album header nav -->
 <?php include_once("includes/discogsubnav.inc.php"); ?>
@@ -50,7 +49,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-    <div><img src="albums/winters.jpg" alt="One Winter's Night" class="albumimg ariapreso" itemprop="image" /></div>
+    <div><img src="albums/winters.jpg" alt="One Winter's Night album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">One Winter's Night&hellip;</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">MPP999</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">1999</span><br />full-length CD released <time datetime="1999-05" itemprop="datePublished">May 1999</time></p>
@@ -65,11 +64,11 @@
 	<caption class="wai">Track listing for "One Winter's Night&hellip;"</caption>
 	<thead>
 		<tr>
-			<th scope="col">Track Number</th>
-			<th scope="col">Track Title</th>
-			<th scope="col">Lyrics</th>
-			<th scope="col">Audio</th>
-			<th scope="col">Video</th>
+			<th scope="col" class="wai">Track Number</th>
+			<th scope="col" class="wai">Track Title</th>
+			<th scope="col" class="wai">Lyrics</th>
+			<th scope="col" class="wai">Audio</th>
+			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
 	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">

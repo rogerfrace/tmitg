@@ -96,8 +96,6 @@ jQuery(document).ready(function() {
 	});
 	// convert aria classes to roles and states
 	jQuery(".ariahidden").attr("aria-hidden","true");
-	jQuery(".ariapreso").attr("role","presentation");
-	jQuery(".ariapreso").attr("role","presentation");
 
 	// colorbox activation (non-photos)
 	jQuery(".lyriclink").colorbox({iframe:'true', returnFocus:'true', rel:'lyrics', transition:"fade", width:"400px", height:"80%"});

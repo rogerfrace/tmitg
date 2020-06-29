@@ -18,7 +18,6 @@
 
 <?php get_header(); ?>
 
-<div><br /><br /></div>
 
 <!-- this is the album header nav -->
 <?php include_once("includes/discogsubnav.inc.php"); ?>
@@ -58,9 +57,7 @@
 	<td>
 	<?php do_mp3bc2("smoothmotionmix","The Unaware (smooth motion mix)",1); ?>
 	</td>
-	<td>
-	&nbsp;
-	</td>
+	<td></td>
 	</tr>
 	
 	<tr>

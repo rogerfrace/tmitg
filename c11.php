@@ -19,7 +19,6 @@
 
 <?php get_header(); ?>
 
-<div><br /><br /></div>
 
 <!-- this is the album header nav -->
 <?php include_once("includes/discogsubnav.inc.php"); ?>
@@ -55,24 +54,18 @@
 	<td>
 	<?php do_lyrics("wonderland"); ?>
 	</td>
-	<td>
-	&nbsp;
-	</td>
+	<td></td>
 	</tr>
 	
 	<tr>
-	<td>
-	&nbsp;
-	</td>
+	<td></td>
 	<td>
 	<small>Also available on <a href="xv.php"><i>XV</i></a><br>Original version available on <a href="asphodel.php"><i>Asphodel</i></a></small>
 	</td>
 	</tr>
 	
 	<tr>
-	<td>
-	&nbsp;
-	</td>
+	<td></td>
 	<td>
 	The Inside World
 	</td>
@@ -85,9 +78,7 @@
 	</tr>
 	
 	<tr>
-	<td>
-	&nbsp;
-	</td>
+	<td></td>
 	<td>
 	<small>Also available on <a href="shadowpuppets.php"><i>Shadow Puppets</i></a></small>
 	</td>

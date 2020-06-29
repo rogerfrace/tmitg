@@ -63,7 +63,7 @@ function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videon
 
 	if ($lyricsfile) {
 		do_lyrics("$lyricsfile","$songname");
-	} else {echo "&nbsp;";}
+	} else {echo "";}
 
 	echo "</td>
 	<td>";
@@ -71,14 +71,14 @@ function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videon
 	if (($mp3name != NULL) && (strstr($mp3name, "-bc"))) {
 		$mp3name = str_replace("-bc", "", $mp3name);
 		do_mp3bc2("$mp3name","$songname",1);
-	} else {echo "&nbsp;";}
+	} else {echo "";}
 
 	echo "</td>
 	<td>";
 
 	if ($videoname) {
 		do_video("$videoname","$videotitle",1);
-	} else {echo "&nbsp;";}
+	} else {echo "";}
 
 	echo "</td>
 	</tr>";

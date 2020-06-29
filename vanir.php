@@ -31,7 +31,6 @@
 
 <?php get_header(); ?>
 
-<div><br /><br /></div>
 
 <!-- this is the album header nav -->
 <?php include_once("includes/discogsubnav.inc.php"); ?>
@@ -47,7 +46,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/vanir.jpg" alt="In the Vanir" class="albumimg ariapreso" itemprop="image" /></div>
+	<div><img src="albums/vanir.jpg" alt="In the Vanir album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">In the Vanir</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">dxm-004-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2010</span><br />Digital Single released <time datetime="2010-12-10" itemprop="datePublished">10 December 2010</time></p>
@@ -62,11 +61,11 @@
 	<caption class="wai">Track listing for "In the Vanir"</caption>
 	<thead>
 		<tr>
-			<th scope="col">Track Number</th>
-			<th scope="col">Track Title</th>
-			<th scope="col">Lyrics</th>
-			<th scope="col">Audio</th>
-			<th scope="col">Video</th>
+			<th scope="col" class="wai">Track Number</th>
+			<th scope="col" class="wai">Track Title</th>
+			<th scope="col" class="wai">Lyrics</th>
+			<th scope="col" class="wai">Audio</th>
+			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
 	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">

@@ -4,6 +4,56 @@ xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
 	<loc>http://www.tmitg.com/images.php</loc>
 	<image:image>
+		<image:loc>http://www.tmitg.com/photos/PiB-IMG_3571.jpg</image:loc>
+		<image:title>Summer standing in a Victorian-inspired decorated room with a cat</image:title>
+		<image:license>http://creativecommons.org/licenses/by-nd/3.0/legalcode</image:license>
+	</image:image>
+	<image:image>
+		<image:loc>http://www.tmitg.com/photos/PiB-IMG_3646.jpg</image:loc>
+		<image:title>Roger standing in a Victorian-inspired decorated room</image:title>
+		<image:license>http://creativecommons.org/licenses/by-nd/3.0/legalcode</image:license>
+	</image:image>
+	<image:image>
+		<image:loc>http://www.tmitg.com/photos/PiB-IMG_3728.jpg</image:loc>
+		<image:title>Summer standing in front a white background #1</image:title>
+		<image:license>http://creativecommons.org/licenses/by-nd/3.0/legalcode</image:license>
+	</image:image>
+	<image:image>
+		<image:loc>http://www.tmitg.com/photos/PiB-IMG_3732.jpg</image:loc>
+		<image:title>Summer standing in front a white background #2</image:title>
+		<image:license>http://creativecommons.org/licenses/by-nd/3.0/legalcode</image:license>
+	</image:image>
+	<image:image>
+		<image:loc>http://www.tmitg.com/photos/PiB-IMG_3745.jpg</image:loc>
+		<image:title>Roger standing in front a white background #1</image:title>
+		<image:license>http://creativecommons.org/licenses/by-nd/3.0/legalcode</image:license>
+	</image:image>
+	<image:image>
+		<image:loc>http://www.tmitg.com/photos/PiB-IMG_3746.jpg</image:loc>
+		<image:title>Roger standing in front a white background #2</image:title>
+		<image:license>http://creativecommons.org/licenses/by-nd/3.0/legalcode</image:license>
+	</image:image>
+	<image:image>
+		<image:loc>http://www.tmitg.com/photos/PiB-IMG_3755.jpg</image:loc>
+		<image:title>Roger sitting in a Victorian-inspired decorated room</image:title>
+		<image:license>http://creativecommons.org/licenses/by-nd/3.0/legalcode</image:license>
+	</image:image>
+	<image:image>
+		<image:loc>http://www.tmitg.com/photos/PiB-IMG_3840.jpg</image:loc>
+		<image:title>Roger and Summer sitting in a Victorian-inspired decorated room #1</image:title>
+		<image:license>http://creativecommons.org/licenses/by-nd/3.0/legalcode</image:license>
+	</image:image>
+	<image:image>
+		<image:loc>http://www.tmitg.com/photos/PiB-IMG_3847.jpg</image:loc>
+		<image:title>Roger and Summer sitting in a Victorian-inspired decorated room #2</image:title>
+		<image:license>http://creativecommons.org/licenses/by-nd/3.0/legalcode</image:license>
+	</image:image>
+	<image:image>
+		<image:loc>http://www.tmitg.com/photos/PiB-IMG_3865.jpg</image:loc>
+		<image:title>Summer sitting in a Victorian-inspired decorated room</image:title>
+		<image:license>http://creativecommons.org/licenses/by-nd/3.0/legalcode</image:license>
+	</image:image>
+	<image:image>
 		<image:loc>http://www.tmitg.com/photos/baats-rs1.jpg</image:loc>
 		<image:title>tMitG Before and After the Storm photoshoot #1</image:title>
 		<image:license>http://creativecommons.org/licenses/by-nd/3.0/legalcode</image:license>

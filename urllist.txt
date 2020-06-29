@@ -30,6 +30,7 @@ http://www.tmitg.com/news.php?item=072
 http://www.tmitg.com/news.php?item=071
 http://www.tmitg.com/news.php?item=070
 http://www.tmitg.com/news.php?item=069
+http://www.tmitg.com/places.php
 http://www.tmitg.com/miscellany.php
 http://www.tmitg.com/xv.php
 http://www.tmitg.com/shadowpuppets.php

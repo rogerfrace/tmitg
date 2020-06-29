@@ -2,7 +2,7 @@
 <?php $fbog = array(
 	'og:title'=>'the Machine in the Garden - Places in Between',
 	'og:type'=>'music.album',
-	'og:upc'=>'xxxxxxx',
+	'og:upc'=>'012345678901',
 	'og:url'=>'http://www.tmitg.com/places.php',
 	'og:description'=>'the Machine in the Garden &ldquo;Places in Between&rdquo; is the band&rsquo;s ninth studio album.',
 	'og:image'=>'http://www.tmitg.com/albums/places.jpg',
@@ -41,7 +41,7 @@
 <main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
 	<meta itemprop="albumReleaseType" content="album">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
-	<meta itemprop="numTracks" content="11">
+	<meta itemprop="numTracks" content="13">
 	<meta itemprop="byArtist" content="the Machine in the Garden" />
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
@@ -52,7 +52,7 @@
 	<h1 itemprop="name">Places in Between</h1>
 
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">dxm-008-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2020</span><br />Digital Album to be released <time datetime="2020-07-17" itemprop="datePublished">July 2020</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">dxm-008-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2020</span><br />Digital Album to be released <time datetime="2020-07-10" itemprop="datePublished">July 10, 2020</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">

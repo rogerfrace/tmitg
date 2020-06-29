@@ -71,8 +71,10 @@ require_once("functions.php");
 
 <!-- title bar -->
 <header id="titlebar">
-	<!--<h1><span class="title">the Machine in the Garden</span><span class="subtitle">the official website</span></h1>-->
-	<h1><img role="img" src="/headers/images/tMitG-PiB-logo.svg" alt="the Machine in the Garden"></h1>
+	<h1>
+		<img role="img" src="/headers/images/tMitG-PiB-logo.svg" alt="the Machine in the Garden">
+		<span class="subtitle">the official website</span>
+	</h1>
 
 <nav class="desktop" aria-label="Primary">
 	<ul>

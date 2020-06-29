@@ -89,13 +89,14 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<span property="mpn">dxm-008-cd</span> &copy;<span property="releaseDate">2020</span><br />
 	(<span property="description">full-length CD</span>)<br />
 	<a href="places.php">more information <span class="wai">about Places in Between</span></a><br />
-	<div class="pricecart" property="offers" typeof="Offer">
+<!--	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$12</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="xxxxxxxxx" />
 		<a class="atcss" href="https://tmitg.bandcamp.com/album/places-in-between" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'placesinbetween');">Buy <span class="wai">Places in Between</span> Now</a>
-	</div>
+	</div>-->
+	<div><strong>Coming Soon</strong></div>
 </div>
 </section> <!-- /itemcontainer -->
 
@@ -374,12 +375,13 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">"vintage ornament" design t-shirt</em></h2>
 	<span property="description">(teal "vintage ornament" design with silver text, black short sleeve, unisex or ladies cut v-neck - click picture to view larger image)</span>
-	<div class="pricecart" property="offers" typeof="Offer">
+<!--	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$12</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-vintage-ornament-design-t-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'tealshirt');">Buy <span class="wai">vintage ornament design t-shirt</span> Now</a>
-	</div>
+	</div>-->
+	<div><strong>Coming Soon</strong></div>
 </div>
 </section> <!-- /itemcontainer -->
 
@@ -453,19 +455,6 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">tulip t-shirt</em></h2>
 	(<span property="description">purple tulip with silver text - click picture to view larger image</span>)<br /><br />
-
-	<div typeof="IndividualProduct" resource="#product">
-		<span property="description">baby-doll (M or L &mdash; <em>note: the medium shirt runs small and short but is also somewhat stretchy, approx. 30&Prime; around the bust and 14&Prime; from neckline to bottom</em>)</span>
-		<div class="pricecart" property="offers" typeof="Offer">
-			<strong class="price" property="price">$6</strong>
-			<meta property="availability" content="http://schema.org/OnlineOnly">
-			<meta property="priceCurrency" content="USD" />
-			<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-tulip-baby-doll-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'tulipbd');">Buy <span class="wai">tulip baby doll shirt</span> Now</a>
-		</div>
-	</div>
-
-		<br />
-
 	<div typeof="IndividualProduct" resource="#product">
 		<span property="description">long-sleeve (XL)</span>
 		<div class="pricecart" property="offers" typeof="Offer">

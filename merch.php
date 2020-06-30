@@ -93,7 +93,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<strong class="price" property="price">$12</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
-		<meta property="gtin12" content="xxxxxxxxx" />
+		<meta property="gtin12" content="195269018252" />
 		<a class="atcss" href="https://tmitg.bandcamp.com/album/places-in-between" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'placesinbetween');">Buy <span class="wai">Places in Between</span> Now</a>
 	</div>-->
 	<div><strong>Coming Soon</strong></div>

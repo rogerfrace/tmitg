@@ -25,33 +25,33 @@
 
 <ul class="releases">
 
-<li><a href="places.php" title="Places in Between"><img src="albums/placesico.jpg" alt="places in between"></a></li>
+<li><a href="places.php" title="Places in Between"><img src="albums/placesico.jpg" alt="Places in Between"></a></li>
 
-<li><a href="imageacoustic.php" title="image (acoustic)"><img src="albums/imageacousticico.jpg" alt="Image (acoustic)"></a></li>
+<li><a href="imageacoustic.php" title="Image (acoustic)"><img src="albums/imageacousticico.jpg" alt="Image (acoustic)"></a></li>
 
-<li><a href="miscellany.php" title="miscellany"><img src="albums/miscellanyico.jpg" alt="Miscellany"></a></li>
+<li><a href="miscellany.php" title="Miscellany"><img src="albums/miscellanyico.jpg" alt="Miscellany"></a></li>
 
-<li><a href="storm.php" title="before and after the storm"><img src="albums/baatsico.jpg" alt="Before and After the Storm"></a></li>
+<li><a href="storm.php" title="Before and After the Storm"><img src="albums/baatsico.jpg" alt="Before and After the Storm"></a></li>
 
 <li><a href="vanir.php" title="in the vanir"><img src="albums/vanirico.jpg" alt="In the Vanir"></a></li>
 
-<li><a href="xv.php" title="xv"><img src="albums/xvico.jpg" alt="XV"></a></li>
+<li><a href="xv.php" title="XV"><img src="albums/xvico.jpg" alt="XV"></a></li>
 
-<li><a href="shadowpuppets.php" title="shadow puppets"><img src="albums/spico.jpg" alt="Shadow Puppets"></a></li>
+<li><a href="shadowpuppets.php" title="Shadow Puppets"><img src="albums/spico.jpg" alt="Shadow Puppets"></a></li>
 
-<li><a href="asphodel.php" title="asphodel"><img src="albums/asphodelico.jpg" alt="Asphodel"></a></li>
+<li><a href="asphodel.php" title="Asphodel"><img src="albums/asphodelico.jpg" alt="Asphodel"></a></li>
 
-<li><a href="wapfuu2.php" title="when angels peer favorably upon us, vol. 2"><img src="albums/wapfuu2ico.jpg" alt="When Angels Peer Favorably Upon Us, Vol. 2"></a></li>
+<li><a href="wapfuu2.php" title="When Angels Peer Favorably Upon Us, vol. 2"><img src="albums/wapfuu2ico.jpg" alt="When Angels Peer Favorably Upon Us, Vol. 2"></a></li>
 
-<li><a href="mists.php" title="out of the mists"><img src="albums/mistsico.jpg" alt="Out of the Mists"></a></li>
+<li><a href="mists.php" title="Out of the Mists"><img src="albums/mistsico.jpg" alt="Out of the Mists"></a></li>
 
-<li><a href="wapfuu1.php" title="when angels peer favorably upon us, vol. 1"><img src="albums/wapfuu1ico.jpg" alt="When Angels Peer Favorably Upon Us, Vol. 1"></a></li>
+<li><a href="wapfuu1.php" title="When Angels Peer Favorably Upon Us, vol. 1"><img src="albums/wapfuu1ico.jpg" alt="When Angels Peer Favorably Upon Us, Vol. 1"></a></li>
 
-<li><a href="winters.php" title="one winter's night..."><img src="albums/wintersico.jpg" alt="One Winter's Night..."></a></li>
+<li><a href="winters.php" title="One Winter's Night..."><img src="albums/wintersico.jpg" alt="One Winter's Night..."></a></li>
 
-<li><a href="underworld.php" title="underworld"><img src="albums/underworldico.jpg" alt="Underworld"></a></li>
+<li><a href="underworld.php" title="Underworld"><img src="albums/underworldico.jpg" alt="Underworld"></a></li>
 
-<li><a href="vs.php" title="veils and shadows ep"><img src="albums/vsico.jpg" alt="Veils and Shadows EP"></a></li>
+<li><a href="vs.php" title="Veils and Shadows EP"><img src="albums/vsico.jpg" alt="Veils and Shadows EP"></a></li>
 </ul>
 </section>
 

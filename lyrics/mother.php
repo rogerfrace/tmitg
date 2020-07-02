@@ -15,22 +15,23 @@
 <body id="lyrics">
 
 <h1>Mother</h1>
-<h3>Words by Elaine Walker, &copy;1999 ZIA. Used with permission.</h3>
 
-<p>She's sick, in need<br />
-Life support, system failure<br />
-Atmosphere control error<br />
+<p><i>Words by Elaine Walker, &copy;1999 ZIA. Used with permission.</i></p>
+
+<p>She's sick, in need<br>
+Life support, system failure<br>
+Atmosphere control error<br>
 Emergency procedures must take effect</p>
 
-<p>No alternative, cannot abandon ship<br />
+<p>No alternative, cannot abandon ship<br>
 We'll die with her, Mother</p>
 
-<p>She's sick in need<br />
-Life support, system failure<br />
-Atmosphere control error<br />
+<p>She's sick in need<br>
+Life support, system failure<br>
+Atmosphere control error<br>
 Suffocation process must take effect</p>
 
-<p>No alternative, cannot abandon ship<br />
+<p>No alternative, cannot abandon ship<br>
 We'll die with her, Mother</p>
       
 </body>

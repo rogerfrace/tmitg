@@ -16,34 +16,34 @@
 
 <h1>The Piano</h1>
 
-<p>on the darkened stage<br />
-he takes his place<br />
-black and white<br />
+<p>on the darkened stage<br>
+he takes his place<br>
+black and white<br>
 beneath his hands</p>
 
-<p>waiting in the wings<br />
-she doesn't speak <br />
-but listens, quietly<br />
+<p>waiting in the wings<br>
+she doesn't speak <br>
+but listens, quietly<br>
 sustain, rise and fall</p>
 
-<p>neverending melody<br />
-a spell in the dark<br />
-fingers dancing <br />
+<p>neverending melody<br>
+a spell in the dark<br>
+fingers dancing <br>
 on the keys</p>
 
-<p>the night is broken<br />
-a subtle shift occurrs<br />
-all those gathered<br />
+<p>the night is broken<br>
+a subtle shift occurrs<br>
+all those gathered<br>
 breathe as one</p>
 
-<p>nothing else can echo now<br />
-the story has ended<br />
-he nods <br />
+<p>nothing else can echo now<br>
+the story has ended<br>
+he nods <br>
 and takes his leave</p>
 
-<p>we felt deeply there<br />
-something more than truth<br />
-across the boards<br />
+<p>we felt deeply there<br>
+something more than truth<br>
+across the boards<br>
 where memories lie</p>
 
 </body>

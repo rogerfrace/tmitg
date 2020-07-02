@@ -16,30 +16,30 @@
 
 <h1>Ghost</h1>
 
-<p>do you see the brightness of the earth?<br />
-and do you see the way I'm fading?<br />
-I am the bird and she is within me<br />
-I am the stars that you can see<br />
-do you feel the winds of the day?<br />
-and do you feel the sun's rays?<br />
-I'm the bird and she's within me<br />
-do you see the weakness in my eyes?<br />
-and do you feel the shadow in my skies?<br />
-can you feel that?<br />
-can you feel me?<br />
-cause I can feel you<br />
-away, running away from me<br />
-you're all running away from me<br />
-far away, far from everything <br />
-there is today<br />
-can you feel it rain?<br />
-can't you feel it rain down?<br />
-feel me coming away from you<br />
-you pull away, and away from me<br />
-you take me away, you take me away<br />
-taking me far from my place<br />
-taking me close to the end of space<br />
-can you feel me?<br />
+<p>do you see the brightness of the earth?<br>
+and do you see the way I'm fading?<br>
+I am the bird and she is within me<br>
+I am the stars that you can see<br>
+do you feel the winds of the day?<br>
+and do you feel the sun's rays?<br>
+I'm the bird and she's within me<br>
+do you see the weakness in my eyes?<br>
+and do you feel the shadow in my skies?<br>
+can you feel that?<br>
+can you feel me?<br>
+cause I can feel you<br>
+away, running away from me<br>
+you're all running away from me<br>
+far away, far from everything <br>
+there is today<br>
+can you feel it rain?<br>
+can't you feel it rain down?<br>
+feel me coming away from you<br>
+you pull away, and away from me<br>
+you take me away, you take me away<br>
+taking me far from my place<br>
+taking me close to the end of space<br>
+can you feel me?<br>
 feel me</p>
       
 </body>

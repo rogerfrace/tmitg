@@ -15,17 +15,18 @@
 <body id="lyrics">
 
 <h1>Dawn</h1>
-<h3>words by John Ford (1586-1639)</h3>
 
-<p>fly hence, shadows, that do not keep<br />
-watchful sorrows charm'd in sleep!<br />
-tho' the eyes be overtaken,<br />
-yet the heart doth ever waken<br />
-thoughts chain'd up in busy snares<br />
-of continual woes and care:<br />
-love and griefs are so exprest<br />
-as they rather sigh than rest.<br />
-fly hence, shadows, that do not keep<br />
+<p><i>words by John Ford (1586-1639)</i></p>
+
+<p>fly hence, shadows, that do not keep<br>
+watchful sorrows charm'd in sleep!<br>
+tho' the eyes be overtaken,<br>
+yet the heart doth ever waken<br>
+thoughts chain'd up in busy snares<br>
+of continual woes and care:<br>
+love and griefs are so exprest<br>
+as they rather sigh than rest.<br>
+fly hence, shadows, that do not keep<br>
 watchful sorrow charm'd in sleep!</p>
       
 </body>

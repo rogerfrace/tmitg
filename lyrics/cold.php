@@ -16,27 +16,27 @@
 
 <h1>Cold</h1>
 
-<p>the beautiful have come<br />
-to take me away<br />
-a deep dark grave<br />
-awaits it's day<br />
-the coldness of the flowers<br />
-is my only warmth<br />
-for the cold is the darkness<br />
+<p>the beautiful have come<br>
+to take me away<br>
+a deep dark grave<br>
+awaits it's day<br>
+the coldness of the flowers<br>
+is my only warmth<br>
+for the cold is the darkness<br>
 that is left all alone</p>
 
-<p>cold eyes gaze<br />
-upon the cold stone<br />
-tear filled eyes<br />
+<p>cold eyes gaze<br>
+upon the cold stone<br>
+tear filled eyes<br>
 as she mourns all alone</p>
 
-<p>the beautiful have come<br />
-and taken me away<br />
-the deep dark grave<br />
-has seen its day<br />
-the flowers have died<br />
-the people gone home<br />
-I'm left cold in the darkness<br />
+<p>the beautiful have come<br>
+and taken me away<br>
+the deep dark grave<br>
+has seen its day<br>
+the flowers have died<br>
+the people gone home<br>
+I'm left cold in the darkness<br>
 left cold and all alone</p>
       
 </body>

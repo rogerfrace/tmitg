@@ -16,20 +16,20 @@
 
 <h1>Shadowy Depths</h1>
 
-<p>moonlight filters inward<br />
-caressing blackness looks on<br />
-i reach for you, bring me near<br />
+<p>moonlight filters inward<br>
+caressing blackness looks on<br>
+i reach for you, bring me near<br>
 wide eyes i drop downward</p>
 
-<p>shadowy depths in dreams<br />
+<p>shadowy depths in dreams<br>
 shoving walls aside</p>
 
-<p>this is where i find my fear<br />
-the wasteland climbs inward<br />
-within my mind reaching deeper<br />
+<p>this is where i find my fear<br>
+the wasteland climbs inward<br>
+within my mind reaching deeper<br>
 pushing you into darkness</p>
 
-<p>shadowy depths in dreams<br />
+<p>shadowy depths in dreams<br>
 shoving walls aside</p>
       
 </body>

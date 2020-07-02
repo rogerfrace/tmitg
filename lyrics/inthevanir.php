@@ -16,43 +16,43 @@
 
 <h1>In the Vanir</h1>
 
-<p>wind and sea<br />
-in the Vanir<br />
-joined together<br />
-foreknowledge<br />
-my wisdom<br />
-those who honor<br />
-drawn forward<br />
-we embraced<br />
-a piece of metal<br />
+<p>wind and sea<br>
+in the Vanir<br>
+joined together<br>
+foreknowledge<br>
+my wisdom<br>
+those who honor<br>
+drawn forward<br>
+we embraced<br>
+a piece of metal<br>
 linked in freedom</p>
 
-<p><em>for the ancients<br />
-divine marriage<br />
-they dance<br />
-known among us<br />
-migration<br />
-wild nature<br />
-time before<br />
+<p><em>for the ancients<br>
+divine marriage<br>
+they dance<br>
+known among us<br>
+migration<br>
+wild nature<br>
+time before<br>
 assimilation</em></p>
 
-<p>cold wind<br />
-in the Vanir<br />
-golden goddess<br />
-no knowledge<br />
-her wisdom<br />
-for the fallen<br />
-pushed behind<br />
-we departed<br />
-a throne of metal<br />
+<p>cold wind<br>
+in the Vanir<br>
+golden goddess<br>
+no knowledge<br>
+her wisdom<br>
+for the fallen<br>
+pushed behind<br>
+we departed<br>
+a throne of metal<br>
 joined in freedom</p>
 
-<p><em>I have brought myself to this point<br />
-now I can't escape<br />
-from my thoughts<br />
-my own life<br />
-and the energy of past<br />
-I'm a warrior<br />
+<p><em>I have brought myself to this point<br>
+now I can't escape<br>
+from my thoughts<br>
+my own life<br>
+and the energy of past<br>
+I'm a warrior<br>
 reaching towards light</em></p>
 
 </body>

@@ -16,17 +16,17 @@
 
 <h1>Cry</h1>
 
-<p>I cry for the things you know<br />
+<p>I cry for the things you know<br>
 the things that you must say</p>
 
-<p>fly my soul into the air<br />
-it isn't as though you don't know<br />
-by now they all know<br />
+<p>fly my soul into the air<br>
+it isn't as though you don't know<br>
+by now they all know<br>
 and all I can do is cry</p>
 
-<p>these are the things we can't see<br />
-places we will never go<br />
-feelings we won't encounter<br />
+<p>these are the things we can't see<br>
+places we will never go<br>
+feelings we won't encounter<br>
 lives we don't want to live</p>
       
 </body>

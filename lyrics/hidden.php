@@ -16,11 +16,11 @@
 
 <h1>Hidden</h1>
 
-<p>can you hear them?<br />
-can you know them?<br />
+<p>can you hear them?<br>
+can you know them?<br>
 can you find them?</p>
 
-<p>they will find you<br />
+<p>they will find you<br>
 they will know you</p>
 
 <p>can you hear them?</p>

@@ -16,24 +16,24 @@
 
 <h1>Windows of Their Eyes</h1>
 
-<p>see the petals<br />
-in the windows<br />
-of their eyes<br />
+<p>see the petals<br>
+in the windows<br>
+of their eyes<br>
 staring back at me again</p>
 
-<p>outside the window<br />
-rain falls<br />
-bright clouds<br />
+<p>outside the window<br>
+rain falls<br>
+bright clouds<br>
 in my sky</p>
 
-<p>finding nothing<br />
-in their faces<br />
-of their eyes<br />
+<p>finding nothing<br>
+in their faces<br>
+of their eyes<br>
 I see nothing but the stars</p>
 
-<p>outside the window<br />
-stars fade<br />
-clouds covering<br />
+<p>outside the window<br>
+stars fade<br>
+clouds covering<br>
 my sky</p>
       
 </body>

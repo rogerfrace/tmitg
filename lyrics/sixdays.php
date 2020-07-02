@@ -16,27 +16,27 @@
 
 <h1>Six Days</h1>
 
-<p>how can you find her there<br />
-when she can't even find herself<br />
-why weren't you with her there<br />
+<p>how can you find her there<br>
+when she can't even find herself<br>
+why weren't you with her there<br>
 when she always needed you</p>
 
-<p>we twist<br />
-6 days 6 days we're weeping<br />
-we're weeping there<br />
-6 days 6 days we fall<br />
-we fall<br />
-6 days 6 days we twist<br />
+<p>we twist<br>
+6 days 6 days we're weeping<br>
+we're weeping there<br>
+6 days 6 days we fall<br>
+we fall<br>
+6 days 6 days we twist<br>
 6 days here</p>
 
-<p>found at just the wrong time<br />
-loved at just the right<br />
-what can you be right here<br />
+<p>found at just the wrong time<br>
+loved at just the right<br>
+what can you be right here<br>
 are you a dream in her eyes</p>
 
-<p>these days and nights concede<br />
-as the illusions fade away<br />
-and as the darkness falls<br />
+<p>these days and nights concede<br>
+as the illusions fade away<br>
+and as the darkness falls<br>
 open her up and feel her pain</p>
       
 </body>

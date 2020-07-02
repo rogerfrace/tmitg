@@ -15,22 +15,23 @@
 <body id="lyrics">
 
 <h1>Heavenly Air</h1> 
-<h3>words by Aeschylus. adapted by Roger Frac&eacute;</h3>
 
-<p>she broke away in the middle of her speech<br />
-and she flees from the light<br />
-she turned away from the sight of man<br />
+<p><i>words by Aeschylus. adapted by Roger Frac&eacute;</i></p>
+
+<p>she broke away in the middle of her speech<br>
+and she flees from the light<br>
+she turned away from the sight of man<br>
 fleeing though the night</p>
 
-<p>midway between heaven and earth<br />
-so much with its top towards heavenly air<br />
-so much with its roots towards the earth<br />
+<p>midway between heaven and earth<br>
+so much with its top towards heavenly air<br>
+so much with its roots towards the earth<br>
 so much with its top towards heavenly air</p>
 
-<p>half dead in her bosom<br />
-she embraces her offspring<br />
-and three times she erected herself<br />
-and three times she fell </p>
+<p>half dead in her bosom<br>
+she embraces her offspring<br>
+and three times she erected herself<br>
+and three times she fell</p>
       
 </body>
 </html>

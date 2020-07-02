@@ -52,6 +52,10 @@ jQuery(document).ready(function() {
 			jQuery("ul.subnav a[href='storm.php'] img").addClass('current');
 			jQuery("ul.subnav a[href='storm.php']").attr('aria-current','page');
 		break;
+		case '/places.php':
+			jQuery("ul.subnav a[href='places.php'] img").addClass('current');
+			jQuery("ul.subnav a[href='places.php']").attr('aria-current','page');
+		break;
 	// and main nav
 		case '/':
 			jQuery("nav a[href='/index.php']").attr('aria-current','page');
@@ -92,8 +96,6 @@ jQuery(document).ready(function() {
 	});
 	// convert aria classes to roles and states
 	jQuery(".ariahidden").attr("aria-hidden","true");
-	jQuery(".ariapreso").attr("role","presentation");
-	jQuery(".ariapreso").attr("role","presentation");
 
 	// colorbox activation (non-photos)
 	jQuery(".lyriclink").colorbox({iframe:'true', returnFocus:'true', rel:'lyrics', transition:"fade", width:"400px", height:"80%"});

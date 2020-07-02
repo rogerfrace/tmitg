@@ -19,7 +19,6 @@
 
 <?php get_header(); ?>
 
-<div><br /><br /></div>
 
 <!-- this is the album header nav -->
 <?php include_once("includes/discogsubnav.inc.php"); ?>
@@ -56,18 +55,14 @@
 	<td>
 	<?php do_lyrics("suspend"); ?>
 	</td>
-	<td>
-	&nbsp;
-	</td>
+	<td></td>
 	<td>
 	<?php do_video("suspend",320,204); ?>
 	</td>
 	</tr>
 	
 	<tr>
-	<td>
-	&nbsp;
-	</td>
+	<td></td>
 	<td>
 	<small>Alternate version available on <a href="shadowpuppets.php"><i>Shadow Puppets</i></a>.<br>
 	Available digitally on <a href="miscellany.php">Miscellany</a>.</small>
@@ -81,15 +76,9 @@
 	<td>
 	In the Dark (remix by Roger Frac&eacute;)
 	</td>
-	<td>
-	&nbsp;
-	</td>
-	<td>
-	&nbsp;
-	</td>
-	<td>
-	&nbsp;
-	</td>
+	<td></td>
+	<td></td>
+	<td></td>
 	</tr>
 	</tbody>
 </table>

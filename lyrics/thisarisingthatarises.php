@@ -16,34 +16,34 @@
 
 <h1>This Arising, That Arises</h1>
 
-<p><em>-part 1, vocal A-</em><br />
-existential anxiety<br />
-vicious circling<br />
-greed, hate and delusion<br />
-becoming me<br />
-encompassing moments<br />
+<p><em>-part 1, vocal A-</em><br>
+existential anxiety<br>
+vicious circling<br>
+greed, hate and delusion<br>
+becoming me<br>
+encompassing moments<br>
 life as becoming</p>
 
-<p><em>-part 1, vocal B-</em><br />
-recognition of desire<br />
-generalizing fear<br />
-in body and in mind<br />
-clinging to strength<br />
-perpetuation of existence<br />
-arising only to cease<br />
+<p><em>-part 1, vocal B-</em><br>
+recognition of desire<br>
+generalizing fear<br>
+in body and in mind<br>
+clinging to strength<br>
+perpetuation of existence<br>
+arising only to cease<br>
 conscious identification</p>
 
-<p><em>-part 2, vocal A and B-</em><br />
-a point in moments<br />
-joined yet free<br />
-this arising, that arises<br />
-reflections on wisdom<br />
-a state of suffering<br />
+<p><em>-part 2, vocal A and B-</em><br>
+a point in moments<br>
+joined yet free<br>
+this arising, that arises<br>
+reflections on wisdom<br>
+a state of suffering<br>
 a longing that now bleeds</p>
 
-<p><em>-part 3-</em><br />
-this arising, that arises<br />
-perpetuation of existence<br />
+<p><em>-part 3-</em><br>
+this arising, that arises<br>
+perpetuation of existence<br>
 arising only to cease</p>
       
 </body>

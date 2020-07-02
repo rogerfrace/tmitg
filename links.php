@@ -7,7 +7,6 @@
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<title>the Machine in the Garden - links</title>
 	<?php include_once("headers-additional.php"); ?>
-	<script src="js/jquery.ba-hashchange.min.js" type="text/javascript"></script>
 </head>
 
 <body id="links">
@@ -220,9 +219,6 @@
 jQuery(document).ready(function() {
 	$("a[href^='http']").click(function(){
 		ga('send', 'event', 'outbound', 'click', this.href);
-	});
-	$(window).hashchange(function(){
-		ga('send', 'event', 'hash', 'click', location.hash);
 	});
 	$("a[target]").attr("rel","noopener");
 });

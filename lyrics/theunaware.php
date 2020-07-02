@@ -16,19 +16,19 @@
 
 <h1>The Unaware</h1>
 
-<p>the other sun is burning<br />
-as they bite inside<br />
-they will find you there<br />
+<p>the other sun is burning<br>
+as they bite inside<br>
+they will find you there<br>
 standing there</p>
 
-<p>fighting with the sky tonight<br />
-i can't forget<br />
-why can't we see them<br />
+<p>fighting with the sky tonight<br>
+i can't forget<br>
+why can't we see them<br>
 the always unaware</p>
 
-<p>  in the time of yearning<br />
-this place and energy<br />
-the smooth motion<br />
+<p>in the time of yearning<br>
+this place and energy<br>
+the smooth motion<br>
 of the trees</p>
       
 </body>

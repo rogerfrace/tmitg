@@ -11,13 +11,13 @@ require_once("functions.php");
 <!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <!--<![endif]-->
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="description" content="the Machine in the Garden is one of the premiere ethereal-electronic-darkwave-neoclassical-goth band in the American music industry. With 8 official releases and numerous other appearances since their founding in 1992, tMitG is one of the most lasting and prolific dark underground bands of the new era." />
+	<meta name="description" content="the Machine in the Garden is one of the premiere ethereal-electronic-darkwave-neoclassical-goth band in the American music industry. With 9 official releases and numerous other appearances since their founding in 1992, tMitG is one of the most lasting and prolific dark underground bands of the new era." />
 	<meta name="keywords" content="machine in the garden, tmitg, ethereal, electronic, darkwave, goth, gothic, old school goth, neoclassical, band, music, CDs, roger frace, summer bowman" />
 	<meta property="og:site_name" content="the Machine in the Garden" />
 	<meta property="og:title" content="the Machine in the Garden" />
 	<meta property="og:type" content="musician" />
 	<meta property="og:url" content="http://www.tmitg.com/" />
-	<meta property="og:description" content="the Machine in the Garden is one of the premiere ethereal-electronic-darkwave-neoclassical-goth band in the American music industry. With 8 official releases and numerous other appearances since their founding in 1992, tMitG is one of the most lasting and prolific dark underground bands of the new era." />
+	<meta property="og:description" content="the Machine in the Garden is one of the premiere ethereal-electronic-darkwave-neoclassical-goth band in the American music industry. With 9 official releases and numerous other appearances since their founding in 1992, tMitG is one of the most lasting and prolific dark underground bands of the new era." />
 	<meta property="og:image" content="http://www.tmitg.com/photos/xv1.jpg" />
     <meta property="og:locale" content="en_US" />
     <meta property="fb:app_id" content="121619441387">
@@ -28,26 +28,33 @@ require_once("functions.php");
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<meta content="minimum-scale=1.0, initial-scale=1" name="viewport" />
 
-	<link rel="apple-touch-icon" href="touch-icon-precomposed.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="touch-icon-72x72-precomposed.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="touch-icon-114x114-precomposed.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="touch-icon-144x144-precomposed.png">
-	<meta name="msapplication-TileColor" content="#bf1025"/>
-	<meta name="msapplication-TileImage" content="touch-icon-144x144-precomposed.png">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+	<meta name="msapplication-square70x70logo" content="/ms-smalltile.png" />
+	<meta name="msapplication-square150x150logo" content="/ms-mediumtile.png" />
+	<meta name="msapplication-square310x310logo" content="/ms-largetile.png" />
 
 	<title>the Machine in the Garden</title>
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />
-	<link rel="stylesheet" type="text/css" href="tmitg-home.css.php" media="all">
-	<style type="text/css">
-		body {background-image: url("headers/images/home/<?=$bgimg[$int];?>");}
-	</style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
 	<script src="tmitg.js" type="text/javascript"></script>
-	<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"MusicGroup","url":"http:\/\/www.tmitg.com\/","sameAs":["https:\/\/www.facebook.com\/tmitg","https:\/\/twitter.com\/tmitg","https:\/\/plus.google.com\/+Tmitg\/about","https:\/\/www.youtube.com\/tmitg"],"name":"the Machine in the Garden","foundingDate":"1992"}</script>
+	<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"MusicGroup","url":"http:\/\/www.tmitg.com\/","sameAs":["https:\/\/www.facebook.com\/tmitg","https:\/\/twitter.com\/tmitg","https:\/\/www.youtube.com\/tmitg"],"name":"the Machine in the Garden","foundingDate":"1992"}</script>
 	<?php include_once("googletracking.html"); ?>
 </head>
 
@@ -55,8 +62,6 @@ require_once("functions.php");
 	<span id="skip-links">
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
-
-<div id="bkgrnd"><img src="headers/images/home/<?=$bgimg[$int];?>" alt=""></div>
 
 <?php if (stristr($_SERVER['HTTP_USER_AGENT'],"Windows NT 5.1")): ?>
 <!--[if lt IE 8]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative; left:200px;'> <a href="http://www.microsoft.com/en-us/download/details.aspx?id=43"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div> <![endif]-->
@@ -66,9 +71,10 @@ require_once("functions.php");
 
 <!-- title bar -->
 <header id="titlebar">
-	<h1><span class="title">the Machine in the Garden</span><span class="subtitle">the official website</span></h1>
-</header>
-<!--- end title bar -->
+	<h1>
+		<img role="img" src="/headers/images/tMitG-PiB-logo.svg" alt="the Machine in the Garden">
+		<span class="subtitle">the official website</span>
+	</h1>
 
 <nav class="desktop" aria-label="Primary">
 	<ul>
@@ -99,14 +105,23 @@ require_once("functions.php");
   </div>
 </nav>
 
+<figure class="portrait">
+	<div class="portraitimg"></div>
+	<div class="portraitgrad"><div>
+	<figcaption class="wai">tMitG band members Roger and Summer pose seated in a Victorian-inspired decorated room</figcaption>
+</figure>
+
+</header>
+<!--- end title bar -->
+
 
 <main id="main">
-	<section aria-label="About TMITG">
+	<section aria-label="About tMitG">
 		<h2>About</h2>
-		<p class="notopmargin">The Machine in the Garden is a gothic/darkwave duo featuring Roger Frac&eacute; and Summer Bowman. Since their formation in the early 1990s, Roger and Summer have developed and advanced their unique style through years of collaborating and intertwining their musical tastes. The band has developed their own unique style and released seven full-length albums and one EP.</p>
+		<p class="notopmargin">The Machine in the Garden is a gothic/darkwave duo featuring Roger Frac&eacute; and Summer Bowman. Since their formation in the early 1990s, Roger and Summer have developed and advanced their unique style through years of collaborating and intertwining their musical tastes. The band has developed their own unique style and released eight full-length albums and one EP.</p>
 	</section>
 
-	<section id="recentnews" aria-label="Recent News">
+	<section id="recentnews" aria-label="tMitG Recent News">
 		<!-- recent news section -->
 		<h2>Recent News</h2>
 		<?php
@@ -125,7 +140,7 @@ require_once("functions.php");
 	</section>
 
 
-	<section id="liveshows" aria-label="Live Shows">
+	<section id="liveshows" aria-label="tMitG Live Shows">
 		<!-- live shows section -->
 		<h2>Live Shows</h2>
 

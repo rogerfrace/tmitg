@@ -1,17 +1,4 @@
 <?php
-//for the header
-$int = rand(0,8);
-$bgimg = array(
-	"baats-r1.jpg",
-	"baats-r2.jpg",
-	"baats-r3.jpg",
-	"baats-rs1.jpg",
-	"baats-rs2.jpg",
-	"baats-rs3.jpg",
-	"baats-s1.jpg",
-	"baats-s3.jpg",
-	"baats-s4.jpg");
-
 // for the news - PHP5 only
 date_default_timezone_set('America/Chicago');
 
@@ -76,7 +63,7 @@ function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videon
 
 	if ($lyricsfile) {
 		do_lyrics("$lyricsfile","$songname");
-	} else {echo "&nbsp;";}
+	} else {echo "";}
 
 	echo "</td>
 	<td>";
@@ -84,14 +71,14 @@ function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videon
 	if (($mp3name != NULL) && (strstr($mp3name, "-bc"))) {
 		$mp3name = str_replace("-bc", "", $mp3name);
 		do_mp3bc2("$mp3name","$songname",1);
-	} else {echo "&nbsp;";}
+	} else {echo "";}
 
 	echo "</td>
 	<td>";
 
 	if ($videoname) {
 		do_video("$videoname","$videotitle",1);
-	} else {echo "&nbsp;";}
+	} else {echo "";}
 
 	echo "</td>
 	</tr>";

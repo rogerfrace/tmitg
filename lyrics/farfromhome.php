@@ -16,29 +16,29 @@
 
 <h1>Far From Home</h1>
 
-<p>When she fair and lonely<br />
-Finds her heart far from home<br />
-Beloved of that wondrous place<br />
+<p>When she fair and lonely<br>
+Finds her heart far from home<br>
+Beloved of that wondrous place<br>
 Why did she ever roam?</p>
 
-<p>Wandering across the hills at nigh<br />
-All that she loved is lost<br />
-To find her way back again<br />
+<p>Wandering across the hills at nigh<br>
+All that she loved is lost<br>
+To find her way back again<br>
 Would come at to high a cost</p>
 
-<p>Outcast of her own accord<br />
-And fallen far away<br />
-She searched her soul for the answers there<br />
+<p>Outcast of her own accord<br>
+And fallen far away<br>
+She searched her soul for the answers there<br>
 In the depths of night and day</p>
 
-<p>Growing old and weary <br />
-Walking a forbidden path<br />
-Taking a journey beyond her sphere<br />
+<p>Growing old and weary <br>
+Walking a forbidden path<br>
+Taking a journey beyond her sphere<br>
 She feared the lady's wrath</p>
 
-<p>She found her way home at last<br />
-Raising her arms up high<br />
-Tears gleamed within her eyes<br />
+<p>She found her way home at last<br>
+Raising her arms up high<br>
+Tears gleamed within her eyes<br>
 The rose into the sky</p>
       
 </body>

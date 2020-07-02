@@ -16,33 +16,33 @@
 
 <h1>Mental Wasteland</h1>
 
-<p>she's falling through the cracks<br />
-stumbling down the stairs<br />
-ripped to tiny pieces<br />
+<p>she's falling through the cracks<br>
+stumbling down the stairs<br>
+ripped to tiny pieces<br>
 fading far away again</p>
 
-<p>running down the street<br />
-every thought a riddle<br />
-vision blurred and hazy<br />
+<p>running down the street<br>
+every thought a riddle<br>
+vision blurred and hazy<br>
 all her cares a jumble</p>
 
-<p>severed from existence<br />
-what seems to be an end<br />
-is only the beginning<br />
-to salvage one last shred<br />
-I seem to not endure<br />
-frozen in my mind<br />
-everything in chaos<br />
+<p>severed from existence<br>
+what seems to be an end<br>
+is only the beginning<br>
+to salvage one last shred<br>
+I seem to not endure<br>
+frozen in my mind<br>
+everything in chaos<br>
 leading us away</p>
 
-<p>smashing into dreams<br />
-fighting through the night<br />
-breaking down the doors<br />
+<p>smashing into dreams<br>
+fighting through the night<br>
+breaking down the doors<br>
 taking her away again</p>
 
-<p>humanity is torn<br />
-actions are confounded<br />
-beaten, clawed and damaged<br />
+<p>humanity is torn<br>
+actions are confounded<br>
+beaten, clawed and damaged<br>
 where do we go next?</p>
       
 </body>

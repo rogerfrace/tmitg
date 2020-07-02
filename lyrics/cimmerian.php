@@ -16,51 +16,51 @@
 
 <h1>Cimmerian</h1>
 
-<p>down<br />
-a dance <br />
-a dream<br />
-a thought<br />
+<p>down<br>
+a dance <br>
+a dream<br>
+a thought<br>
 a vision</p>
 
-<p>fight<br />
-a price<br />
-a pang<br />
-a dread<br />
+<p>fight<br>
+a price<br>
+a pang<br>
+a dread<br>
 a moment</p>
 
-<p>future<br />
-a light<br />
-a face<br />
-a gleam<br />
+<p>future<br>
+a light<br>
+a face<br>
+a gleam<br>
 a torture</p>
 
-<p>seize<br />
-a twitch<br />
-a shame<br />
-a circle<br />
+<p>seize<br>
+a twitch<br>
+a shame<br>
+a circle<br>
 a nightfall</p>
 
-<p>cimmerian<br />
+<p>cimmerian<br>
 cimmerian</p>
 
-<p>tell me where the others are<br />
-take me to the edge of the world<br />
-find me in perpetuity <br />
+<p>tell me where the others are<br>
+take me to the edge of the world<br>
+find me in perpetuity <br>
 taken beyond the night</p>
 
-<p>for my world is crisp and bright<br />
-and no darkness tarnishes my sight<br />
-you must have been mistaken<br />
+<p>for my world is crisp and bright<br>
+and no darkness tarnishes my sight<br>
+you must have been mistaken<br>
 when in shadows you thought I rule</p>
 
-<p>so go and find a place for us<br />
-a time of truth and thought<br />
-of dreams filtered through sunlight<br />
+<p>so go and find a place for us<br>
+a time of truth and thought<br>
+of dreams filtered through sunlight<br>
 and sunlit days of reverie</p>
 
-<p>and I will live in peace there<br />
-pensive, musing and wise<br />
-distracted by the air and wind<br />
+<p>and I will live in peace there<br>
+pensive, musing and wise<br>
+distracted by the air and wind<br>
 the beauty of the light</p>
 
 </body>

@@ -16,29 +16,29 @@
 
 <h1>Mending the Sky</h1>
 
-<p>nvwa, nvwa<br />
-ancestor of mine<br />
-mending the sky<br />
-pillars of the earth<br />
-break and shatter<br />
-sky and chasm<br />
-cover the earth<br />
-broken land<br />
-split asunder<br />
-raging sea<br />
-crashing wind<br />
+<p>nvwa, nvwa<br>
+ancestor of mine<br>
+mending the sky<br>
+pillars of the earth<br>
+break and shatter<br>
+sky and chasm<br>
+cover the earth<br>
+broken land<br>
+split asunder<br>
+raging sea<br>
+crashing wind<br>
 river of fire</p>
 
-<p>nvwa, nvwa<br />
-mend the sky<br />
-mend the sky<br />
-select the stones<br />
+<p>nvwa, nvwa<br>
+mend the sky<br>
+mend the sky<br>
+select the stones<br>
 fill the chasms</p>
 
-<p>the black beast destroyed<br />
-the burnt reeds turn to ash<br />
-blocking the flood<br />
-conquer our fear<br />
+<p>the black beast destroyed<br>
+the burnt reeds turn to ash<br>
+blocking the flood<br>
+conquer our fear<br>
 as we live in peace</p>
 
 </body>

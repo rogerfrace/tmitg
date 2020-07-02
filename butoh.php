@@ -19,7 +19,6 @@
 
 <?php get_header(); ?>
 
-<div><br /><br /></div>
 
 <!-- this is the album header nav -->
 <?php include_once("includes/discogsubnav.inc.php"); ?>
@@ -62,9 +61,7 @@
 	</tr>
 	
 	<tr>
-	<td>
-	&nbsp;
-	</td>
+	<td></td>
 	<td>
 	<small>Original version available on <a href="mists.php"><i>Out of the Mists</i></a><br>
 	Available digitally on <a href="miscellany.php">Miscellany</a>.</small>
@@ -72,24 +69,18 @@
 	</tr>
 	
 	<tr>
-	<td>
-	&nbsp;
-	</td>
+	<td></td>
 	<td>
 	Midnight <i>Dancing There</i>
 	</td>
 	<td>
 	<?php do_lyrics("midnight"); ?>
 	</td>
-	<td>
-	&nbsp;
-	</td>
+	<td></td>
 	</tr>
 	
 	<tr>
-	<td>
-	&nbsp;
-	</td>
+	<td></td>
 	<td>
 	<small>Exclusive mix. 
 	<br>Original version available on <a href="winters.php"><i>One Winter's Night...</i></a><br>

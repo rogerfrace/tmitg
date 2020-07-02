@@ -16,28 +16,28 @@
 
 <h1>Dreams of the Absent</h1>
 
-<p>ignorant human's grave in the domain of dreams<br />
-sleepy wandering fantasies in the air<br />
-captured addicted spirit in the world of the dead<br />
+<p>ignorant human's grave in the domain of dreams<br>
+sleepy wandering fantasies in the air<br>
+captured addicted spirit in the world of the dead<br>
 cease to exist, body without a soul, senseless stare</p>
 
-<p>when time cascades into the dawn<br />
-when life clings to the weary frame<br />
-when binding disbelief takes hold<br />
+<p>when time cascades into the dawn<br>
+when life clings to the weary frame<br>
+when binding disbelief takes hold<br>
 when i dissolve into the rain</p>
 
-<p>who can come and go<br />
-gazing at the stars in the sky<br />
-journey's difficult for some<br />
-the passage into the next world comes<br />
-where angels fly into the dawn<br />
-bound by chains restrained to walls<br />
-where devils claw in the night<br />
+<p>who can come and go<br>
+gazing at the stars in the sky<br>
+journey's difficult for some<br>
+the passage into the next world comes<br>
+where angels fly into the dawn<br>
+bound by chains restrained to walls<br>
+where devils claw in the night<br>
 tortured souls igniting flaming fall</p>
 
-<p>when time cascades into the dawn<br />
-when life clings to the weary frame<br />
-when binding disbelief takes hold<br />
+<p>when time cascades into the dawn<br>
+when life clings to the weary frame<br>
+when binding disbelief takes hold<br>
 when i dissolve into the rain</p>
       
 </body>

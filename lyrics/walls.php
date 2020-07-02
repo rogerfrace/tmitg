@@ -16,26 +16,26 @@
 
 <h1>Walls</h1>
 
-<p>walls towering overhead<br />
-cracks so elegant and split<br />
-pure white monolith<br />
+<p>walls towering overhead<br>
+cracks so elegant and split<br>
+pure white monolith<br>
 words speak around it</p>
 
-<p>pure white and elegant<br />
-washing walls and so content<br />
-wishing by the stars at night<br />
+<p>pure white and elegant<br>
+washing walls and so content<br>
+wishing by the stars at night<br>
 staring cracking fall apart tonight</p>
 
 <p><em>white light, radiant beams, blackened plague, broken dreams</em></p>
 
-<p>personal feelings for the dead<br />
-thinking of words that my mother said<br />
-blackened plague appears on the wall<br />
+<p>personal feelings for the dead<br>
+thinking of words that my mother said<br>
+blackened plague appears on the wall<br>
 crooked lines broken dead</p>
 
-<p>dark stained and elegant<br />
-blackened walls cracked and condemned<br />
-pleading falling stars at night<br />
+<p>dark stained and elegant<br>
+blackened walls cracked and condemned<br>
+pleading falling stars at night<br>
 dark stains on my heart tonight</p>
       
 </body>

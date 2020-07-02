@@ -8,9 +8,22 @@
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once("headers-additional.php"); ?>
-	<script src="/js/jail.0.9.5.min.js" type="text/javascript"></script>
 	<script>
 		$(document).ready(function(){
+			// from https://stackoverflow.com/questions/16553075/colorbox-add-alt-text-to-gallery-images
+			$.colorbox.settings.createImg = function(){
+				var img = new Image();
+				var alt = $(this).attr('data-alt');
+				var title = $(this).attr('data-title');
+
+				if (alt) {
+					img.alt = alt;
+				}
+				if (title) {
+					img.title = title;
+				}
+				return img;
+			};
 			$(".imglink").colorbox({rel:'gallery', transition:"fade", width:"75%", height:"75%"});
 		});
 	</script>
@@ -38,9 +51,9 @@ function do_photo($imgname,$gallery=NULL,$alt=NULL) {
 
 	// combo colorbox/php code
 	if (check_mobile()==true) {
-		echo "<li><a href=\"$phopath/$imgname.jpg\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" border=\"0\" hspace=\"4\" vspace=\"4\"></a></li>\n";
+		echo "<li><a href=\"$phopath/$imgname.jpg\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" loading=\"lazy\" border=\"0\" hspace=\"4\" vspace=\"4\"></a></li>\n";
 	} else {
-		echo "<li><a href=\"$phopath/$imgname.jpg\" class=\"imglink\" title=\"$gallery\" aria-haspopup=\"true\" onclick=\"ga('send', 'event', 'Photo', 'View', '$imgname;');\"><img class=\"lazy\" src=\"/images/spacer.gif\" data-href=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" width=\"$tnwidth\" height=\"$tnheight\"></a>
+		echo "<li><a role=\"button\" href=\"$phopath/$imgname.jpg\" class=\"imglink\" data-title=\"$gallery\" data-alt=\"$alt\" aria-haspopup=\"dialog\" onclick=\"ga('send', 'event', 'Photo', 'View', '$imgname;');\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" loading=\"lazy\" width=\"$tnwidth\" height=\"$tnheight\"></a>
 		<noscript><a href=\"$phopath/$imgname.jpg\" title=\"$gallery\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" width=\"$tnwidth\" height=\"$tnheight\"></a></noscript></li>\n";
 	}
 } // end function
@@ -48,6 +61,24 @@ function do_photo($imgname,$gallery=NULL,$alt=NULL) {
 
 
 <!-- Build photo block -->
+
+<section>
+<h2>2020</h2>
+<ul class="2020">
+<?php
+do_photo('PiB-IMG_3571','2020','Summer standing in a Victorian-inspired decorated room with a cat');
+do_photo('PiB-IMG_3646','2020','Roger standing in a Victorian-inspired decorated room');
+do_photo('PiB-IMG_3728','2020','Summer standing in front a white background #1');
+do_photo('PiB-IMG_3732','2020','Summer standing in front a white background #2');
+do_photo('PiB-IMG_3745','2020','Roger standing in front a white background #1');
+do_photo('PiB-IMG_3746','2020','Roger standing in front a white background #2');
+do_photo('PiB-IMG_3755','2020','Roger sitting in a Victorian-inspired decorated room');
+do_photo('PiB-IMG_3840','2020','Roger and Summer sitting in a Victorian-inspired decorated room #1');
+do_photo('PiB-IMG_3847','2020','Roger and Summer sitting in a Victorian-inspired decorated room #2');
+do_photo('PiB-IMG_3865','2020','Summer sitting in a Victorian-inspired decorated room');
+?>
+</ul>
+</section>
 
 <section>
 <h2>2015</h2>
@@ -337,17 +368,11 @@ do_photo('tmitgpic3','1992');
 	<li>2011: <em>Before and After the Storm</em> photoshoot - Roger Frac&eacute; and Summer Bowman</li>
 	<li>2013: live at Elysium, Austin, TX - John Nuncio</li>
 	<li>2015: Mirabilis live at Secret Oktober, Austin, TX - Phil Schafer</li>
+	<li>2020: <em>Places in Between</em> photoshoot - Roger Frac&eacute; and Summer Bowman</li>
 </ul>
 </section>
 
 </div> <!-- /mainbody -->
-
-<!-- append tracking -->
-<script type="text/javascript">
-$(document).ready(function() {
-	$('img.lazy').jail({effect:"fadeIn"});
-});
-</script>
 
 </body>
 </html>

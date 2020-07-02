@@ -16,22 +16,22 @@
 
 <h1>Oh Dear</h1>
 
-<p>when the dreams have found you<br />
-nowhere<br />
-i will guide you<br />
+<p>when the dreams have found you<br>
+nowhere<br>
+i will guide you<br>
 to the doorway there</p>
 
-<p>oh dear<br />
+<p>oh dear<br>
 oh my dear</p>
 
-<p>when you see<br />
-right there<br />
-the doorway opens<br />
-and the clouds are there<br />
-don't worry so<br />
-i will guide you there<br />
-don't you worry so<br />
-i will guide you there<br />
+<p>when you see<br>
+right there<br>
+the doorway opens<br>
+and the clouds are there<br>
+don't worry so<br>
+i will guide you there<br>
+don't you worry so<br>
+i will guide you there<br>
 oh dear</p>
       
 </body>

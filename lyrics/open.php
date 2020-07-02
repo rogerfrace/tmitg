@@ -16,19 +16,19 @@
 
 <h1>Open</h1>
 
-<p>I am a million hues of shade<br />
-a tide within me<br />
-a life will change meaning<br />
+<p>I am a million hues of shade<br>
+a tide within me<br>
+a life will change meaning<br>
 be open to me</p>
 
-<p>before we couldn't be<br />
-I would know where to go<br />
-we understand<br />
+<p>before we couldn't be<br>
+I would know where to go<br>
+we understand<br>
 I see</p>
 
-<p>things come apart slowly<br />
-suspending time<br />
-these things within the weary <br />
+<p>things come apart slowly<br>
+suspending time<br>
+these things within the weary <br>
 to drown within me</p>
       
 </body>

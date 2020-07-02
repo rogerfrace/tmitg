@@ -20,6 +20,14 @@
 <main id="main" class="mainbody">
 
 <div id="accordion" role="tablist">
+	<div class="item places" id="placestab" role="tab" tabindex="0" aria-controls="places" aria-selected="false">
+		<img src="albums/placesico.jpg" class="placesimg" alt="Places in Between" role="presentation">
+		<div class="detail">
+			<h3>Places in Between</h3>
+			<p>2020</p>
+		</div>
+	</div>
+
 	<div class="item image" id="imagetab" role="tab" tabindex="0" aria-controls="image" aria-selected="false">
 		<img src="albums/imageacousticico.jpg" class="imageimg" alt="Image (acoustic)" role="presentation">
 		<div class="detail">
@@ -103,6 +111,22 @@
 
 
 <section id="songlist" aria-label="Album Samples">
+
+	<div class="songs places" id="places" role="tabpanel" tabindex="-1" aria-labelledby="placestab">
+		<div class="albumcol">
+			<p><a href="places.php"><img src="albums/places.jpg" width="200" height="200" class="cover" alt="Places in Between"></a></p>
+		</div>
+		<div class="listwrap">
+			<div class="audiocol">
+			</div>
+			<div class="videocol">
+				<h4>video clips</h4>
+				<p><?php do_video("teaser","Places in Between Teaser"); ?></p>
+			</div>
+		</div>
+	</div>
+	<div class="clearleft"></div>
+
 	<div class="songs image" id="image" role="tabpanel" tabindex="-1" aria-labelledby="imagetab">
 		<div class="albumcol">
 			<p><a href="imageacoustic.php"><img src="albums/imageacoustic.jpg" width="200" height="200" class="cover" alt="Image (acoustic)"></a></p>
@@ -326,12 +350,21 @@ $(document).ready(function() {
 	
 	/* set initial song display */
 	$("#songlist div.songs:visible").hide();
-	$("#songlist div.songs.image").show();
+	$("#songlist div.songs.places").show();
 	$("#accordion .item").addClass('fade');
 	$("#accordion .item img").attr("aria-hidden","true");
-	$("#accordion .image").removeClass('fade').attr("aria-selected","true");
+	$("#accordion .places").removeClass('fade').attr("aria-selected","true");
 
 	/* all of the click activations */
+	$("#accordion .item.places").on("click keydown",function(e) {
+		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
+			$("#accordion .item").addClass('fade').attr("aria-selected","false");
+			$("#accordion .places").removeClass('fade').attr("aria-selected","true");
+			$("#songlist div.songs:visible").hide();
+			$("#songlist div.songs.places").show().focus();
+			ga('send', 'event', 'MusicPage', 'ArtClick', 'placesinbetween');
+		}
+	});
 	$("#accordion .item.image").on("click keydown",function(e) {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
 			$("#accordion .item").addClass('fade').attr("aria-selected","false");

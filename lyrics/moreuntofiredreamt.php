@@ -16,24 +16,24 @@
 
 <h1>More Unto Fire Dreamt</h1>
 
-<p>Fly into the arms of the wind<br />
-Into the path of eternity waiting<br />
-Union worn away by time<br />
+<p>Fly into the arms of the wind<br>
+Into the path of eternity waiting<br>
+Union worn away by time<br>
 Shattered by misunderstanding</p>
 
-<p>Finding whispers in the ground<br />
-Lies muttered in waves of pain<br />
-Scratching and burning of the past<br />
+<p>Finding whispers in the ground<br>
+Lies muttered in waves of pain<br>
+Scratching and burning of the past<br>
 Dancing and dreaming in circles</p>
 
-<p>Take this air beneath me<br />
-A breath that now drowns<br />
-Imminent perception of life<br />
+<p>Take this air beneath me<br>
+A breath that now drowns<br>
+Imminent perception of life<br>
 Left without a glance behind</p>
 
-<p>More unto fire dreamt<br />
-Coursed by a stream of light shining<br />
-Drawn by the sights of clouds<br />
+<p>More unto fire dreamt<br>
+Coursed by a stream of light shining<br>
+Drawn by the sights of clouds<br>
 Night sky breathes into me</p>
       
 </body>

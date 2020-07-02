@@ -16,29 +16,29 @@
 
 <h1>Radiant</h1>
 
-<p>in my dreams<br />
-while light blinds me<br />
-the radiant sun<br />
+<p>in my dreams<br>
+while light blinds me<br>
+the radiant sun<br>
 reborn before me</p>
 
-<p>this phoenix of flame<br />
-and searing heat<br />
-boils my skin<br />
+<p>this phoenix of flame<br>
+and searing heat<br>
+boils my skin<br>
 and makes me bleed</p>
 
-<p>the sun collapses<br />
-the fire collides<br />
-my eyes are burning<br />
+<p>the sun collapses<br>
+the fire collides<br>
+my eyes are burning<br>
 black star falling</p>
 
-<p>in this consciousness<br />
-i am aware<br />
-of the power<br />
+<p>in this consciousness<br>
+i am aware<br>
+of the power<br>
 that is everywhere</p>
 
-<p>this burning flame<br />
-that i peer into<br />
-cleanses my soul<br />
+<p>this burning flame<br>
+that i peer into<br>
+cleanses my soul<br>
 and purifies me through</p>
       
 </body>

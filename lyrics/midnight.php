@@ -16,34 +16,34 @@
 
 <h1>Midnight</h1>
 
-<p>glistening in the snow<br />
-the world carries on<br />
-now I find the time has come<br />
+<p>glistening in the snow<br>
+the world carries on<br>
+now I find the time has come<br>
 the truth I face alone</p>
 
-<p>tell them they don't love you<br />
-ask them if they care<br />
-the coldness of their faces<br />
+<p>tell them they don't love you<br>
+ask them if they care<br>
+the coldness of their faces<br>
 the burden they all bear</p>
 
-<p>it finds me<br />
-clouds parting<br />
-invades me<br />
+<p>it finds me<br>
+clouds parting<br>
+invades me<br>
 midnight standing there</p>
 
-<p>the winters they have come<br />
-to cast on brighter days<br />
-silver stars in blackness<br />
+<p>the winters they have come<br>
+to cast on brighter days<br>
+silver stars in blackness<br>
 slowly find their way</p>
 
-<p>as the nighttime falls<br />
-the children they all gasp<br />
-closed up tight for dreaming<br />
+<p>as the nighttime falls<br>
+the children they all gasp<br>
+closed up tight for dreaming<br>
 you know they are the last</p>
 
-<p>tonight the silent stillness<br />
-now has come<br />
-to put the world in motion<br />
+<p>tonight the silent stillness<br>
+now has come<br>
+to put the world in motion<br>
 tonight it must be done</p>
       
 </body>

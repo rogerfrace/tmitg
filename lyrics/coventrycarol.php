@@ -16,24 +16,24 @@
 
 <h1>Coventry Carol</h1>
 
-<p>Lully, Lullay, Thou little tiny Child,<br />
-By, by, lully, lullay.<br />
+<p>Lully, Lullay, Thou little tiny Child,<br>
+By, by, lully, lullay.<br>
 By, by, lully, lullay.</p>
 
-<p>O sisters too, how may we do,<br />
-For to preserve this day.<br />
-This poor youngling for whom we sing<br />
+<p>O sisters too, how may we do,<br>
+For to preserve this day.<br>
+This poor youngling for whom we sing<br>
 By, by, lully, lullay.</p>
 
-<p>Herod the king, in his raging,<br />
-Charged he hath this day.<br />
-His men of might, in his own sight,<br />
+<p>Herod the king, in his raging,<br>
+Charged he hath this day.<br>
+His men of might, in his own sight,<br>
 All young children to slay.</p>
 
-<p>That woe is me, poor Child for Thee!<br />
-And ever morn and day,<br />
-For thy parting neither say nor sing,<br />
-By, by, lully, lullay.<br />
+<p>That woe is me, poor Child for Thee!<br>
+And ever morn and day,<br>
+For thy parting neither say nor sing,<br>
+By, by, lully, lullay.<br>
 By, by, lully, lullay.</p>
 
 <p>By, by, lully, lullay.</p>

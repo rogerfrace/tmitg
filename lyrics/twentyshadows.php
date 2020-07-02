@@ -17,15 +17,15 @@
 <h1>Twenty Shadows</h1>
 <h3>words from <em>Richard II</em> by Shakespeare. adapted by Summer Bowman</h3>
 
-<p>each substance of grief, hath twenty shadows<br />
-which shows like grief itself, but is not so<br />
-for sorrows' eye, glazed with blinding tears<br />
-divides one thing entire to many objects<br />
-like perspectives, which gazed upon show nothing but confusion<br />
+<p>each substance of grief, hath twenty shadows<br>
+which shows like grief itself, but is not so<br>
+for sorrows' eye, glazed with blinding tears<br>
+divides one thing entire to many objects<br>
+like perspectives, which gazed upon show nothing but confusion<br>
 eyed awry, distinguished form, find shapes of grief more than himself 
-to wail<br />
-which for things true weeps though things imaginary<br />
-for sorrows' eye, glazed with blinding tears<br />
+to wail<br>
+which for things true weeps though things imaginary<br>
+for sorrows' eye, glazed with blinding tears<br>
 divides one thing entire to many objects</p>
       
 </body>

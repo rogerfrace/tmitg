@@ -33,7 +33,6 @@
 
 <?php get_header(); ?>
 
-<div><br /><br /></div>
 
 <!-- this is the album header nav -->
 <?php include_once("includes/discogsubnav.inc.php"); ?>
@@ -49,7 +48,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-    <div><img src="albums/vs.jpg" alt="Veils and Shadows" class="albumimg ariapreso" itemprop="image" /></div>
+    <div><img src="albums/vs.jpg" alt="Veils and Shadows album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Veils and Shadows EP</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">ISOL8-002-2</span>) <span itemprop="recordLabel">Industrial Isolation Music</span> &copy;<span itemprop="copyrightYear">1993</span><br />CDEP released <time datetime="1993-09-12" itemprop="datePublished">12 September 1994</time></p>
@@ -64,11 +63,11 @@
 	<caption class="wai">Track listing for "Veils and Shadows EP"</caption>
 	<thead>
 		<tr>
-			<th scope="col">Track Number</th>
-			<th scope="col">Track Title</th>
-			<th scope="col">Lyrics</th>
-			<th scope="col">Audio</th>
-			<th scope="col">Video</th>
+			<th scope="col" class="wai">Track Number</th>
+			<th scope="col" class="wai">Track Title</th>
+			<th scope="col" class="wai">Lyrics</th>
+			<th scope="col" class="wai">Audio</th>
+			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
 	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
@@ -212,6 +211,6 @@ $lyricsfile and videoname do not include .html
 	});
 	</script>
 <?php endif; ?>
-<script src="js/retina.js" type="text/javascript"></script>
+
 </body>
 </html>

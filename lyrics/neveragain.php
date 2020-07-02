@@ -16,24 +16,24 @@
 
 <h1>Never Again</h1>
 
-<p>as the daylight dims<br />
-the dawning begins<br />
-another one to fall<br />
-i begin again<br />
-i know the day<br />
-when time runs together<br />
-shades of gray return<br />
-i feel again<br />
-the clouds shade the words<br />
-dreams blare aloud<br />
-eyes burn with tears<br />
-i drown again<br />
-walking in September<br />
-i left another place<br />
-clawing at the surface of the waves<br />
-circling and grasping<br />
-the truth finds me<br />
-moving against the darkness<br />
+<p>as the daylight dims<br>
+the dawning begins<br>
+another one to fall<br>
+i begin again<br>
+i know the day<br>
+when time runs together<br>
+shades of gray return<br>
+i feel again<br>
+the clouds shade the words<br>
+dreams blare aloud<br>
+eyes burn with tears<br>
+i drown again<br>
+walking in September<br>
+i left another place<br>
+clawing at the surface of the waves<br>
+circling and grasping<br>
+the truth finds me<br>
+moving against the darkness<br>
 never again</p>
       
 </body>

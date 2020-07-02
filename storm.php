@@ -24,6 +24,7 @@
 	<title><?=$fbog['og:title'];?></title>
 	<?php include_once("headers-additional.php"); ?>
 	<link rel="prev" href="/xv.php">
+	<link rel="next" href="/places.php">
 </head>
 
 <body id="discog">
@@ -33,7 +34,6 @@
 
 <?php get_header(); ?>
 
-<div><br /><br /></div>
 
 <!-- this is the album header nav -->
 <?php include_once("includes/discogsubnav.inc.php"); ?>
@@ -49,7 +49,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/baats.jpg" alt="Before and After the Storm" class="albumimg ariapreso" itemprop="image" /></div>
+	<div><img src="albums/baats.jpg" alt="Before and After the Storm album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Before and After the Storm</h1>
 
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
@@ -70,11 +70,11 @@
 	<caption class="wai">Track listing for "Before and After the Storm"</caption>
 	<thead>
 		<tr>
-			<th scope="col">Track Number</th>
-			<th scope="col">Track Title</th>
-			<th scope="col">Lyrics</th>
-			<th scope="col">Audio</th>
-			<th scope="col">Video</th>
+			<th scope="col" class="wai">Track Number</th>
+			<th scope="col" class="wai">Track Title</th>
+			<th scope="col" class="wai">Lyrics</th>
+			<th scope="col" class="wai">Audio</th>
+			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
 	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
@@ -89,7 +89,7 @@ $lyricsfile and videoname do not include .html
 <?php do_songtitle(4,"In the Vanir","inthevanir",NULL,"baats.jpg",NULL); ?>
 <?php do_songtitle(5,"The Piano","thepiano",NULL,"baats.jpg",NULL); ?>
 <?php do_songtitle(6,"Power and Prophesy","powerandprophesy","powerandprophesy-bc","baats.jpg",NULL); ?>
-<?php do_songtitle(7,"Mending the Sky","mendingthesky",NULL,"sp.jpg",NULL); ?>
+<?php do_songtitle(7,"Mending the Sky","mendingthesky",NULL,"baats.jpg",NULL); ?>
 <?php do_songtitle(8,"Cimmerian (reprise)",NULL,NULL,"baats.jpg",NULL); ?>
 <?php do_songtitle(9,"Scathefire (fire mix)",NULL,"firemix-bc","baats.jpg",NULL); ?>
 <?php do_songtitle(10,"Power and Prophesy (metal below mix)",NULL,NULL,"baats.jpg",NULL); ?>
@@ -287,6 +287,6 @@ function googleSectionalElementInit() {
 	});
 	</script>
 <?php endif; ?>
-<script src="js/retina.js" type="text/javascript"></script>
+
 </body>
 </html>

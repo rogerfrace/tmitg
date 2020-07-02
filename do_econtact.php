@@ -33,7 +33,6 @@ function removeJS($str) {
 	<title>the Machine in the Garden - contact</title>
 	<?php include_once("headers-additional.php"); ?>
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
-	<?php include_once("fontawesome.inc.php"); ?>
 	<?php include_once("googletracking.html"); ?>
 </head>
 

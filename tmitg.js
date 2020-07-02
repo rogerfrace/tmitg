@@ -58,34 +58,34 @@ jQuery(document).ready(function() {
 		break;
 	// and main nav
 		case '/':
-			jQuery("nav a[href='/index.php']").attr('aria-current','page');
+			jQuery("nav a[href='/index.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/news.php':
-			jQuery("nav a[href='/news.php']").attr('aria-current','page');
+			jQuery("nav a[href='/news.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/discog.php':
-			jQuery("nav a[href='/discog.php']").attr('aria-current','page');
+			jQuery("nav a[href='/discog.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/music.php':
-			jQuery("nav a[href='/music.php']").attr('aria-current','page');
+			jQuery("nav a[href='/music.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/images.php':
-			jQuery("nav a[href='/images.php']").attr('aria-current','page');
+			jQuery("nav a[href='/images.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/bio.php':
-			jQuery("nav a[href='/bio.php']").attr('aria-current','page');
+			jQuery("nav a[href='/bio.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/merch.php':
-			jQuery("nav a[href='/merch.php']").attr('aria-current','page');
+			jQuery("nav a[href='/merch.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/contact.php':
-			jQuery("nav a[href='/contact.php']").attr('aria-current','page');
+			jQuery("nav a[href='/contact.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/links.php':
-			jQuery("nav a[href='/links.php']").attr('aria-current','page');
+			jQuery("nav a[href='/links.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/live.php':
-			jQuery("nav a[href='/live.php']").attr('aria-current','page');
+			jQuery("nav a[href='/live.php']").attr('aria-current','page').addClass('current');
 		break;
 	}
 

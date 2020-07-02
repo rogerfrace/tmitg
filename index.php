@@ -51,6 +51,7 @@ require_once("functions.php");
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />
+	<?php include_once("fontawesome.inc.php"); ?>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
 	<script src="tmitg.js" type="text/javascript"></script>
@@ -87,28 +88,34 @@ require_once("functions.php");
 		<li><a href="contact.php">contact</a></li>
 		<li><a href="links.php">links</a></li>
 		<li><a href="live.php">live shows</a></li>
+		<li><span class="iblock"><a href="https://www.facebook.com/tmitg" title="tMitG on Facebook"><i class="fab fa-facebook"></i></a>
+			<a href="https://twitter.com/tmitg" title="tMitG on Twitter"><i class="fab fa-twitter"></i></a>
+			<a href="https://tmitg.bandcamp.com" title="tMitG on Bandcamp"><i class="fab fa-bandcamp"></i></a></span></li>
 	</ul>
 </nav>
 <nav class="mobile" aria-label="Primary">
   <button aria-expanded="false"><span class="wai">Toggle Navigation</span></button>
   <div>
-		<a href="/index.php">home</a>
-		<a href="/news.php">news</a>
-		<a href="/discog.php">discography</a>
-		<a href="/music.php">music</a>
-		<a href="/images.php">images</a>
-		<a href="/bio.php">bio</a>
-		<a href="/merch.php">merchandise</a>
-		<a href="/contact.php">contact</a>
-		<a href="/links.php">links</a>
-		<a href="/live.php">live shows</a>
+		<a href="/index.php">Home</a>
+		<a href="/news.php">News</a>
+		<a href="/discog.php">Discography</a>
+		<a href="/music.php">Music</a>
+		<a href="/images.php">Images</a>
+		<a href="/bio.php">Bio</a>
+		<a href="/merch.php">Merchandise</a>
+		<a href="/contact.php">Contact</a>
+		<a href="/links.php">Links</a>
+		<a href="/live.php">Live Shows</a>
+		<a href="https://www.facebook.com/tmitg" title="tMitG on Facebook"><i class="fab fa-facebook"></i> Facebook</a>
+		<a href="https://twitter.com/tmitg" title="tMitG on Twitter"><i class="fab fa-twitter"></i> Twitter</a>
+		<a href="https://tmitg.bandcamp.com" title="tMitG on Bandcamp"><i class="fab fa-bandcamp"></i> Bandcamp</a>
   </div>
 </nav>
 
 <figure class="portrait">
+	<figcaption class="wai">tMitG band members Roger and Summer pose seated in a Victorian-inspired decorated room</figcaption>
 	<div class="portraitimg"></div>
 	<div class="portraitgrad"><div>
-	<figcaption class="wai">tMitG band members Roger and Summer pose seated in a Victorian-inspired decorated room</figcaption>
 </figure>
 
 </header>

@@ -10,9 +10,9 @@ function do_lyrics($filename,$songname=NULL) {
 	global $lyrpath;
 
 	if (check_mobile()==true) {
-		echo "<a href=\"$lyrpath/$filename.php\"><span class=\"icon-file-alt\"></span></a>\n";
+		echo "<a href=\"$lyrpath/$filename.php\"><span class=\"fas fa-file-alt\"></span></a>\n";
 	} else {
-		echo "<a role=\"button\" href=\"$lyrpath/$filename.php\" class=\"lyriclink\" aria-haspopup=\"true\"><span class=\"icon-file-alt\"></span><span class=\"wai\">view $songname lyrics</span></a>\n";
+		echo "<a role=\"button\" href=\"$lyrpath/$filename.php\" class=\"lyriclink\" aria-haspopup=\"true\"><span class=\"fas fa-file-alt\"></span><span class=\"wai\">view $songname lyrics</span></a>\n";
 	}
 }
 
@@ -24,7 +24,7 @@ function do_video($videoname,$songtitle=NULL,$ico=NULL) {
 	$songtitle = stripslashes($songtitle);
 
 	if ($ico) {
-		$linkname = "<span class=\"icon-film\"></span><span class=\"wai\">watch $songtitle video</span>";
+		$linkname = "<span class=\"fas fa-video\"></span><span class=\"wai\">watch $songtitle video</span>";
 	} else {
 		$linkname = "<span class=\"wai\">watch </span>$songtitle<span class=\"wai\"> video</span>";
 	}
@@ -41,7 +41,7 @@ function do_mp3bc2($samplename,$songtitle=NULL,$ico=NULL) {
 	$songtitle = stripslashes($songtitle);
 
 	if ($ico) {
-		$linkname = "<span class=\"icon-music\"></span><span class=\"wai\">listen to $songtitle music sample</span>";
+		$linkname = "<span class=\"fas fa-music\"></span><span class=\"wai\">listen to $songtitle music sample</span>";
 	} else {
 		$linkname = "<span class=\"wai\">listen to </span>$songtitle<span class=\"wai\"> music sample</span>";
 	}

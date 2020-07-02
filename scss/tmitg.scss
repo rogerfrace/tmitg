@@ -135,6 +135,8 @@ footer small {color:$ltgray; margin-left:1em;}
 	@include single-transition(all, 250ms, linear, 0);
 }
 
+.block {display:block;}
+.iblock {display:inline-block;}
 .clearleft {clear:left; @include clearfix;}
 .clearright {clear:right; @include clearfix;}
 .clearboth {clear:both; @include clearfix;}
@@ -232,17 +234,19 @@ a.atcss:hover {
 		margin:2em;
 	}
 	nav ul {
-		width:100%;
-		padding:0;
+		display: flex;
+		flex-wrap: wrap;
 		list-style-type: none;
+		padding-left: 0;
 		li {
-			display:inline-block;
+			flex: 0 0 16.66666%; /* flex-grow, flex-shrink, flex-basis */
+			margin: 10px 0 0 0;
 		}
 	}
 	nav li a,
 	nav li a:link,
 	nav li a:visited {
-		height:44px;
+		min-height:44px;
 		text-decoration:none;
 		color: white;
 		font-family: Kristi, cursive;
@@ -294,9 +298,6 @@ a.atcss:hover {
 		width: 100%;
 		position:relative;
 		margin-top: 25px;
-	}
-	.ie6 main {
-		position: absolute;
 	}
 	section {
 		color:$white;
@@ -382,7 +383,10 @@ a.atcss:hover {
 			font-size:1.35em;
 		}
 		a:hover, a:focus {
-			border-bottom: 3px solid #157CC1;
+			border-bottom: 3px solid $teal;
+		}
+		.current {
+			border-bottom: 3px solid $darkteal;
 		}
 	}
 	nav {

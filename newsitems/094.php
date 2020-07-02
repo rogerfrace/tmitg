@@ -1,6 +1,6 @@
 <?php
 
-$pubdate = "Fri, 3 Jul 2020 08:30:00 CST";
+$pubdate = "Fri, 3 Jul 2020 08:30:00 CDT";
 $title = "New Album Announcement: <em>Places in Between</em>";
 $description = "<a href=\"https://tmitg.bandcamp.com/album/places-in-between\"><img itemprop=\"image\" align=\"left\" hspace=\"8\" vspace=\"8\" border=\"0\" src=\"http://tmitg.com/albums/places.jpg\" alt=\"Places in Between\" /></a><p><strong>the Machine in the Garden</strong> and <strong>Deus ex Musica</strong> present <strong><em>Places in Between</em></strong>, the band&apos;s ninth studio album and their first in nine years.</p>
 <p><a href=\"https://youtu.be/o1ai_xl0Lcw\">Watch the <em>Places in Between</em> teaser video</a></p>

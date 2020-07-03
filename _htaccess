@@ -81,6 +81,10 @@ ErrorDocument 508 '<a href="http://www.flickr.com/photos/girliemac/6509400445/" 
   RewriteRule ^lyrics/(.*).html$ http://www.tmitg.com/lyrics/$1.php [R=301]
   RewriteRule ^qr2011$ http://www.tmitg.com/files/tmitg-silly.jpg [R=302]
 
+  # 2020 promo code downloads
+  RewriteRule ^code/oQAVQBdu$ http://www.tmitg.com/files/tmitg-promo.php?receipt=Roger2 [R=301,L]
+
+
   # mp3 redirects
   RewriteRule ^media/cimmerian-audio.php$ http://www.tmitg.com/viewmp3bc.php?bcsample=cimmerian [R=301,L]
   RewriteRule ^media/finalform-audio.php$ http://www.tmitg.com/viewmp3bc.php?bcsample=finalform [R=301,L]

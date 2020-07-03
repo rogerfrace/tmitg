@@ -60,19 +60,8 @@ if (isset($_GET["item"])) {
 <main id="main" class="mainbody">
 
 <section class="rssicons">
-
-		<!-- generic XML image -->
-		<a type="application/rss+xml" href="http://www.tmitg.com/news-rss.xml.php"><img src="images/xml_logo.gif" alt="XML Logo" width="36" height="14" /></a>
-
-		<!-- LiveJournal link -->
-		<a href="http://www.livejournal.com/friends/add.bml?user=tmitgnews"><img src="http://www.tmitg.com/images/LJrss.gif" alt="LiveJournal RSS" width="74" height="18" style="vertical-align:-2px;" /></a>
-
-		<!-- my google link -->
-		<a href="http://fusion.google.com/add?feedurl=http://www.tmitg.com/news-rss.xml.php"><img src="http://buttons.googlesyndication.com/fusion/add.gif" alt="Add to Google" width="104" height="17" /></a>
-
-		<!-- my Yahoo link -->
-		<a href="http://us.rd.yahoo.com/my/atm/the%20Machine%20in%20the%20Garden/the%20Machine%20in%20the%20Garden%20-%20news/*http://add.my.yahoo.com/rss?url=http%3A//www.tmitg.com/news-rss.xml.php"><img src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif" width="91" height="17" alt="Add to My Yahoo!" /></a>
-
+	<!-- generic XML image -->
+	<a type="application/rss+xml" href="http://www.tmitg.com/news-rss.xml.php"><img src="images/xml_logo.gif" alt="XML Logo" width="36" height="14" /></a>
 </section>
 
 <br style="clear:both;" />

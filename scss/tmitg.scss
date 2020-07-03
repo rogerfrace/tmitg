@@ -10,7 +10,7 @@ $dkred: #60323D;
 $white: #ffffff;
 $nearwhite: #eeeeee;
 $ltgray: #999999;
-$mdgray: #666666;
+$mdgray: #757575;
 $fourgray: #444444;
 $dkgray: #333333;
 $nearblack: #222222;
@@ -55,17 +55,23 @@ figure {margin:0;}
 		margin: 8px;
 	}
 }
-a:active {
-	color: $altclr;
+
+a:link {
+	color: $teal;
 	font-weight: normal;
 }
 
-a:link {
-	color: $altclr;
+a:active {
+	color: $teal;
 	font-weight: normal;
 }
 
 a:hover {
+	color: $mdgray;
+	font-weight: normal;
+}
+
+a:focus {
 	color: $mdgray;
 	font-weight: normal;
 }

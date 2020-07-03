@@ -37,8 +37,8 @@ if (isset($_GET["item"])) {
 	<meta property="fb:admins" content="1120445561,713632115" />
 	<?php // happy image thumbnail for FB
 		if ((isset($_GET["item"])) && (!stristr($description,"<img "))) {
-		print '<link rel="image_src" href="http://www.tmitg.com/photos/xv1.jpg" />
-			   <meta property="og:image" content="http://www.tmitg.com/photos/xv1.jpg" />';
+		print '<link rel="image_src" href="http://tmitg.com/photos/PiB-IMG_3840.jpg" />
+			   <meta property="og:image" content="http://tmitg.com/photos/PiB-IMG_3840.jpg" />';
 	} ?>
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@tmitg" />

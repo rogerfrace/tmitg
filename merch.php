@@ -396,7 +396,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<span property="description">(red spiral with white text - click picture to view larger image)<br /><br />
 	short-sleeve (M, L, or XL)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$10</strong>
+		<strong class="price" property="price">$8</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-red-design-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'redshirt');">Buy <span class="wai">red design t-shirt</span> Now</a>
@@ -417,7 +417,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<span property="description">(red spiral with white text - click picture to view larger image)<br /><br />
 	baby-doll with red bands on collar and sleeves (M, L, or XL)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$12</strong>
+		<strong class="price" property="price">$10</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-red-design-baby-doll-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'redbd');">Buy <span class="wai">red design baby doll shirt</span> Now</a>
@@ -436,7 +436,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<span property="description">(red spiral with white text - click picture to view larger image)<br /><br />
 	ladies shirt with 3/4 length red raglan sleeves (M or L)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$14</strong>
+		<strong class="price" property="price">$12</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-red-design-raglan-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'redraglan');">Buy <span class="wai">red design raglan shirt</span> Now</a>

@@ -526,6 +526,7 @@ a.atcss:hover {
 		@include inline-block(top);
 		*display: inline;
 		margin-right: 0.5em;
+		.fb-share-button {top:-6px;}
 	}
 
 	.twitterblock {

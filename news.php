@@ -51,6 +51,10 @@ if (isset($_GET["item"])) {
 </head>
 
 <body id="news">
+	<!-- fb share button -->
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=207159742735690&autoLogAppEvents=1" nonce="YigLuG1p"></script>
+	<!-- /fb share button -->
 	<span id="skip-links">
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
@@ -80,8 +84,8 @@ function display_news($newsnum,$pubdate,$title,$description) {
 				echo "<div class=\"shareitem\">
 					<a href=\"/news.php?item=".$newsnum."\" itemprop=\"url\" title=\"Permalink\" name=\"Permalink\"><img src=\"images/icon-link.png\" alt=\"Permalink\" /><span class=\"wai\">Permalink</span></a>
 					</div>\n";
-				// facebook
-				echo "<div class=\"shareitem\"><iframe src=\"https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.tmitg.com%2Fnews.php%3Fitem%3D".$newsnum."&width=61&layout=button_count&action=like&size=small&show_faces=false&share=false&height=21&appId=121619441387\" width=\"61\" height=\"21\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe></div>";
+				//facebook share
+				echo "<div class=\"shareitem\"><div class=\"fb-share-button\" data-href=\"https://tmitg.com/".$newsnum."\" data-layout=\"button_count\" data-size=\"small\"><a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftmitg.com%2F".$newsnum."&amp;src=sdkpreparse\" class=\"fb-xfbml-parse-ignore\">Share</a></div></div>";
 				//twitter
 				echo "<div class=\"shareitem\"><a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://www.tmitg.com/news.php?item=".$newsnum."\" data-via=\"tmitg\" data-show-count=\"false\">Tweet</a><script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></div>";
 			echo "</div> <!--/sharelinks-->";

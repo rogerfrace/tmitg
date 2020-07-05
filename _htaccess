@@ -6,25 +6,21 @@ AddType video/webm .webm
 AddType application/x-woff .woff
 
 # from https://gist.github.com/1476499
-ErrorDocument 400 '<a href="http://www.flickr.com/photos/girliemac/6540669737/" title="400 - Bad Request by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7022/6540669737_7527a5de13.jpg" width="500" height="400" alt="400 - Bad Request"></a>'
-
+ErrorDocument 404 '<a href="http://www.flickr.com/photos/girliemac/6508022985/" title="404 - Not Found by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7172/6508022985_b22200ced0.jpg" width="500" height="400" alt="404 - Not Found"></a>'
 ErrorDocument 401 '<a href="http://www.flickr.com/photos/girliemac/6508023065/" title="401 - Unauthorized by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7148/6508023065_8dae48a30b.jpg" width="500" height="400" alt="401 - Unauthorized"></a>'
-
-ErrorDocument 403 '<a href="http://www.flickr.com/photos/girliemac/6508023617/" title="403 - Forbidden by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7173/6508023617_f3ffc34e17.jpg" width="500" height="400" alt="403 - Forbidden"></a>'
-
-ErrorDocument 405 '<a href="http://www.flickr.com/photos/girliemac/6508023523/" title="405 - Method Not Allowed by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7175/6508023523_996188af86.jpg" width="500" height="400" alt="405 - Method Not Allowed"></a>'
-
+ErrorDocument 406 '<a href="http://www.flickr.com/photos/girliemac/6508023119/" title="406 - Not Acceptable by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7143/6508023119_b681209a58.jpg" width="500" height="400" alt="406 - Not Acceptable"></a>'
 ErrorDocument 408 '<a href="http://www.flickr.com/photos/girliemac/6508023179/" title="408 - Request Timeout by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7018/6508023179_bab3eebce8.jpg" width="500" height="400" alt="408 - Request Timeout"></a>'
-
-ErrorDocument 410 '<a href="http://www.flickr.com/photos/girliemac/6514567755/" title="410 - Gone by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7145/6514567755_1c5b7f575f.jpg" width="500" height="400" alt="410 - Gone"></a>'
-
-ErrorDocument 413 '<a href="http://www.flickr.com/photos/girliemac/6508023747/" title="413 - Request Entity Too Long by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7161/6508023747_1d60889626.jpg" width="500" height="400" alt="413 - Request Entity Too Long"></a>'
-
+ErrorDocument 409 '<a href="http://www.flickr.com/photos/girliemac/6508023259/" title="409 - Conflict by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7010/6508023259_b1c6f5a353.jpg" width="500" height="400" alt="409 - Conflict"></a>'
 ErrorDocument 414 '<a href="http://www.flickr.com/photos/girliemac/6508023351/" title="414 - Request-URI Too Long by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7152/6508023351_6732ed2f58.jpg" width="400" height="500" alt="414 - Request-URI Too Long"></a>'
-
-ErrorDocument 500 '<a href="http://www.flickr.com/photos/girliemac/6509400855/" title="500 - Internal Server Error by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7001/6509400855_aaaf915871.jpg" width="500" height="400" alt="500 - Internal Server Error"></a>'
-
+ErrorDocument 502 '<a href="http://www.flickr.com/photos/girliemac/6508023429/" title="502 - Bad Gateway by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7158/6508023429_735b433a36.jpg" width="500" height="400" alt="502 - Bad Gateway"></a>'
+ErrorDocument 405 '<a href="http://www.flickr.com/photos/girliemac/6508023523/" title="405 - Method Not Allowed by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7175/6508023523_996188af86.jpg" width="500" height="400" alt="405 - Method Not Allowed"></a>'
+ErrorDocument 403 '<a href="http://www.flickr.com/photos/girliemac/6508023617/" title="403 - Forbidden by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7173/6508023617_f3ffc34e17.jpg" width="500" height="400" alt="403 - Forbidden"></a>'
+ErrorDocument 417 '<a href="http://www.flickr.com/photos/girliemac/6508023679/" title="417 - Expectation Failed by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7009/6508023679_cb3e88fa92.jpg" width="500" height="400" alt="417 - Expectation Failed"></a>'
+ErrorDocument 413 '<a href="http://www.flickr.com/photos/girliemac/6508023747/" title="413 - Request Entity Too Large by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7161/6508023747_1d60889626.jpg" width="500" height="400" alt="413 - Request Entity Too Large"></a>'
+ErrorDocument 507 '<a href="http://www.flickr.com/photos/girliemac/6509400503/" title="507 - Insufficient Storage by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7160/6509400503_648dc8a2e5.jpg" width="500" height="400" alt="507 - Insufficient Storage"></a>'
 ErrorDocument 508 '<a href="http://www.flickr.com/photos/girliemac/6509400445/" title="508 - Loop Detected by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7025/6509400445_5fd9c7a9c3.jpg" width="500" height="400" alt="508 - Loop Detected"></a>'
+ErrorDocument 426 '<a href="http://www.flickr.com/photos/girliemac/6509400771/" title="426 - Upgrade Required by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7167/6509400771_33a1f59890.jpg" width="500" height="400" alt="426 - Upgrade Required"></a>'
+ErrorDocument 500 '<a href="http://www.flickr.com/photos/girliemac/6509400855/" title="500 - Internal Server Error by GirlieMac, on Flickr"><img src="http://farm8.staticflickr.com/7001/6509400855_aaaf915871.jpg" width="500" height="400" alt="500 - Internal Server Error"></a>'
 
 <IfModule mod_headers.c>
 	<Files ~ "\.(gif|jpg|png|ico|woff|ttf|eot|svg)$">
@@ -82,8 +78,38 @@ ErrorDocument 508 '<a href="http://www.flickr.com/photos/girliemac/6509400445/" 
   RewriteRule ^qr2011$ http://www.tmitg.com/files/tmitg-silly.jpg [R=302]
 
   # 2020 promo code downloads
-  RewriteRule ^code/oQAVQBdu$ http://www.tmitg.com/files/tmitg-promo.php?receipt=Roger2 [R=301,L]
-
+  # RewriteRule ^code/abcdefgh$ http://www.tmitg.com/files/tmitg-promo.php?receipt=Name [R=301,L]
+  RewriteRule ^code/oQAVQBdu$ http://www.tmitg.com/files/tmitg-promo.php?receipt=BatBoySlim [R=301,L]
+  RewriteRule ^code/VtZz3pu3$ http://www.tmitg.com/files/tmitg-promo.php?receipt=BatsintheBelfryRadio [R=301,L]
+  RewriteRule ^code/Z3AWHAj3$ http://www.tmitg.com/files/tmitg-promo.php?receipt=Cathedral13 [R=301,L]
+  RewriteRule ^code/9Ju3fEKq$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DarkEntries:GothRadio [R=301,L]
+  RewriteRule ^code/MPoD8Y5D$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DarkMotherMedia [R=301,L]
+  RewriteRule ^code/6V8jNri4$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DarkNoiseRadio [R=301,L]
+  RewriteRule ^code/fKszaCvj$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DarkroomMagazine [R=301,L]
+  RewriteRule ^code/J3TuaYFM$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DecayedLaceRadio [R=301,L]
+  RewriteRule ^code/xVqKRr3U$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DJCruelBritannia [R=301,L]
+  RewriteRule ^code/r4w5Muyh$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DjDarkDave [R=301,L]
+  RewriteRule ^code/HNJvqHTe$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DJMartinOldgoth [R=301,L]
+  RewriteRule ^code/fPCrqnv4$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DominionMagazine [R=301,L]
+  RewriteRule ^code/BNKyZo9p$ http://www.tmitg.com/files/tmitg-promo.php?receipt=EtherealVoices [R=301,L]
+  RewriteRule ^code/rs7FHcDC$ http://www.tmitg.com/files/tmitg-promo.php?receipt=GothDarknessRadio [R=301,L]
+  RewriteRule ^code/Sp7Jnt3Z$ http://www.tmitg.com/files/tmitg-promo.php?receipt=GraveConcerns [R=301,L]
+  RewriteRule ^code/feJbQLCF$ http://www.tmitg.com/files/tmitg-promo.php?receipt=Hexx9Radio [R=301,L]
+  RewriteRule ^code/ygGcRB7a$ http://www.tmitg.com/files/tmitg-promo.php?receipt=IntravenousMagazine [R=301,L]
+  RewriteRule ^code/HCHzF7RM$ http://www.tmitg.com/files/tmitg-promo.php?receipt=NightbreedRadio [R=301,L]
+  RewriteRule ^code/r9H28ZsF$ http://www.tmitg.com/files/tmitg-promo.php?receipt=NocturnalAsylum [R=301,L]
+  RewriteRule ^code/9v7dpxXp$ http://www.tmitg.com/files/tmitg-promo.php?receipt=OfAshAndWake [R=301,L]
+  RewriteRule ^code/SNqsKBoP$ http://www.tmitg.com/files/tmitg-promo.php?receipt=OwenOwingtonOwensford [R=301,L]
+  RewriteRule ^code/isqUJGpV$ http://www.tmitg.com/files/tmitg-promo.php?receipt=radiotwiNight [R=301,L]
+  RewriteRule ^code/obqotUwR$ http://www.tmitg.com/files/tmitg-promo.php?receipt=ReGenMagazine [R=301,L]
+  RewriteRule ^code/MV2RsUoR$ http://www.tmitg.com/files/tmitg-promo.php?receipt=Side-LineMagazine [R=301,L]
+  RewriteRule ^code/d9N3Lw4g$ http://www.tmitg.com/files/tmitg-promo.php?receipt=SubcultureShock [R=301,L]
+  RewriteRule ^code/LdBrFfj5$ http://www.tmitg.com/files/tmitg-promo.php?receipt=TCUnderground [R=301,L]
+  RewriteRule ^code/aUhD4eEw$ http://www.tmitg.com/files/tmitg-promo.php?receipt=TerraRelicta [R=301,L]
+  RewriteRule ^code/WJJPU84Z$ http://www.tmitg.com/files/tmitg-promo.php?receipt=ThatDarlingDJDuo [R=301,L]
+  RewriteRule ^code/q8a9GpTU$ http://www.tmitg.com/files/tmitg-promo.php?receipt=ThePirateTwins [R=301,L]
+  RewriteRule ^code/aaQ6TwLf$ http://www.tmitg.com/files/tmitg-promo.php?receipt=JenGriggs [R=301,L]
+  RewriteRule ^code/sU3DdrwF$ http://www.tmitg.com/files/tmitg-promo.php?receipt=MistressMcCutchan [R=301,L]
 
   # mp3 redirects
   RewriteRule ^media/cimmerian-audio.php$ http://www.tmitg.com/viewmp3bc.php?bcsample=cimmerian [R=301,L]

@@ -81,7 +81,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/placesico.jpg" alt="Places in Between CD" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/placesico.jpg" alt="places in between CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -102,7 +102,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/baatsico.jpg" alt="baats cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/baatsico.jpg" alt="before and after the storm CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -114,6 +114,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<strong class="price" style="color:#900;">Out of Print</strong>
 		<meta property="availability" content="http://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
+		<meta property="price" content="8.00" />
 		<meta property="gtin12" content="885767743120" />
 		<a class="atcss" href="https://tmitg.bandcamp.com/album/before-and-after-the-storm" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'baats');">Buy Digital <span class="wai">Before and After the Storm</span></a>
 	</div>
@@ -124,7 +125,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/xvico.jpg" alt="xv cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/xvico.jpg" alt="XV CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -144,7 +145,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/spico.jpg" alt="shadow puppets cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/spico.jpg" alt="shadow puppets CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -166,7 +167,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/asphodelico.jpg" alt="asphodel cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/asphodelico.jpg" alt="asphodel CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -186,7 +187,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/mistsico.jpg" alt="out of the mists cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/mistsico.jpg" alt="out of the mists CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -208,7 +209,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/wintersico.jpg" alt="one winters night cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/wintersico.jpg" alt="one winters night CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -228,7 +229,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/underworldico.jpg" alt="underworld cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/underworldico.jpg" alt="underworld CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -240,6 +241,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<strong class="price" style="color:#900;">Out of Print</strong>
 		<meta property="availability" content="http://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
+		<meta property="price" content="8.00" />
 		<meta property="gtin12" content="792733800421" />
 		<a class="atcss" href="https://tmitg.bandcamp.com/album/underworld" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'underworld');">Buy Digital <span class="wai">Underworld</span></a>
 	</div>
@@ -250,7 +252,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/vsico.jpg" alt="veils and shadows cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/vsico.jpg" alt="veils and shadows EP CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -277,7 +279,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/hereaftersm.jpg" alt="mirabilis here and the hereafter cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/hereaftersm.jpg" alt="mirabilis here and the hereafter CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">Mirabilis</span></span><br />
@@ -297,7 +299,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/subrosaico.jpg" alt="mirabilis sub rosa cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/subrosaico.jpg" alt="mirabilis sub rosa CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">Mirabilis</span></span><br />
@@ -320,7 +322,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/pleiadescoversm.jpg" alt="mirabilis pleiades cd" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/pleiadescoversm.jpg" alt="mirabilis pleiades CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">Mirabilis</span></span><br />
@@ -341,7 +343,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/7inchsm.jpg" alt="mirabilis 7-inch" property="image" role="presentation" />
+	<img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>albums/7inchsm.jpg" alt="mirabilis 7-inch" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">Mirabilis</span></span><br />
@@ -354,6 +356,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<strong class="price" style="color:#900;">Out of Print</strong>
 		<meta property="availability" content="http://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
+		<meta property="price" content="3.00" />
 		<a class="atcss" href="https://mirabilis.bandcamp.com/album/mirabilis-7-ep" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'mirabilis7');">Buy Digital <span class="wai">Mirabilis 7-inch</span></a>
 	</div>
 </div>
@@ -368,8 +371,8 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<a role="button" aria-haspopup="dialog" href="images/tealshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="vintage ornament design t-shirt" title="vintage ornament design t-shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tealshirtico.jpg" alt="vintage ornament design t-shirt" /></a>
-	<meta property="image" role="presentation" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tealshirt.jpg" />
+	<a role="button" aria-haspopup="dialog" href="images/tealshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="vintage ornament design t-shirt" title="vintage ornament design t-shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tealshirtico.jpg" alt="tmitg vintage ornament design t-shirt" /></a>
+	<meta property="image" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tealshirt.jpg" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -387,8 +390,8 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<a role="button" aria-haspopup="dialog" href="images/redshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="red design t-shirt" title="red design t-shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtico.jpg" alt="red design t-shirt" /></a>
-	<meta property="image" role="presentation" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirt.jpg" />
+	<a role="button" aria-haspopup="dialog" href="images/redshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="red design t-shirt" title="red design t-shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtico.jpg" alt="tmitg red design t-shirt" /></a>
+	<meta property="image" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirt.jpg" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -408,8 +411,8 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
    
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<a role="button" aria-haspopup="dialog" href="images/redbandedtshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="red design baby-doll shirt" title="red design baby-doll shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redbandedico.jpg" alt="red design baby-doll" /></a>
-	<meta property="image" role="presentation" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redbandedtshirt.jpg" />
+	<a role="button" aria-haspopup="dialog" href="images/redbandedtshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="red design baby-doll shirt" title="red design baby-doll shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redbandedico.jpg" alt="tmitg red design baby-doll" /></a>
+	<meta property="image" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redbandedtshirt.jpg" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -427,8 +430,8 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<a role="button" aria-haspopup="dialog" href="images/redshirtraglan.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="red design ladies raglan shirt" title="red design ladies raglan shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtraglanico.jpg" alt="red design ladies raglan shirt" /></a>
-	<meta property="image" role="presentation" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtraglan.jpg" />
+	<a role="button" aria-haspopup="dialog" href="images/redshirtraglan.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="red design ladies raglan shirt" title="red design ladies raglan shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtraglanico.jpg" alt="tmitg red design ladies raglan shirt" /></a>
+	<meta property="image" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/redshirtraglan.jpg" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -448,8 +451,8 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
  
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
 <div class="itempic">
-	<a role="button" aria-haspopup="dialog" href="images/tulipshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="tulip t-shirt" title="tulip t-shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tulipshirtico.jpg" alt="tulip t-shirt" /></a>
-	<meta property="image" role="presentation" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tulipshirt.jpg" />
+	<a role="button" aria-haspopup="dialog" href="images/tulipshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="tulip t-shirt" title="tulip t-shirt"><img src="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tulipshirtico.jpg" alt="tmitg tulip t-shirt" /></a>
+	<meta property="image" content="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>images/tulipshirt.jpg" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />

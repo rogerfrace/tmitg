@@ -112,6 +112,7 @@ ErrorDocument 500 '<a href="http://www.flickr.com/photos/girliemac/6509400855/" 
   RewriteRule ^code/P3gRPFiX$ http://www.tmitg.com/files/tmitg-promo.php?receipt=PeekABooMusicMagazine [R=301,L]
   RewriteRule ^code/FA7dfPkn$ http://www.tmitg.com/files/tmitg-promo.php?receipt=SheenasShowtime [R=301,L]
   RewriteRule ^code/GdfqA484$ http://www.tmitg.com/files/tmitg-promo.php?receipt=StrangewaysRadio [R=301,L]
+  RewriteRule ^code/L8tautKW$ http://www.tmitg.com/files/tmitg-promo.php?receipt=LigeiaResurrected [R=301,L]
 
   # mp3 redirects
   RewriteRule ^media/cimmerian-audio.php$ http://www.tmitg.com/viewmp3bc.php?bcsample=cimmerian [R=301,L]

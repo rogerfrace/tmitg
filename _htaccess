@@ -89,7 +89,6 @@ ErrorDocument 500 '<a href="http://www.flickr.com/photos/girliemac/6509400855/" 
   RewriteRule ^code/xVqKRr3U$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DJCruelBritannia [R=301,L]
   RewriteRule ^code/r4w5Muyh$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DjDarkDave [R=301,L]
   RewriteRule ^code/HNJvqHTe$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DJMartinOldgoth [R=301,L]
-  RewriteRule ^code/fPCrqnv4$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DominionMagazine [R=301,L]
   RewriteRule ^code/rs7FHcDC$ http://www.tmitg.com/files/tmitg-promo.php?receipt=GothDarknessRadio [R=301,L]
   RewriteRule ^code/Sp7Jnt3Z$ http://www.tmitg.com/files/tmitg-promo.php?receipt=GraveConcerns [R=301,L]
   RewriteRule ^code/feJbQLCF$ http://www.tmitg.com/files/tmitg-promo.php?receipt=Hexx9Radio [R=301,L]
@@ -106,6 +105,13 @@ ErrorDocument 500 '<a href="http://www.flickr.com/photos/girliemac/6509400855/" 
   RewriteRule ^code/q8a9GpTU$ http://www.tmitg.com/files/tmitg-promo.php?receipt=ThePirateTwins [R=301,L]
   RewriteRule ^code/aaQ6TwLf$ http://www.tmitg.com/files/tmitg-promo.php?receipt=JenGriggs [R=301,L]
   RewriteRule ^code/sU3DdrwF$ http://www.tmitg.com/files/tmitg-promo.php?receipt=MistressMcCutchan [R=301,L]
+  RewriteRule ^code/82enJVsF$ http://www.tmitg.com/files/tmitg-promo.php?receipt=GothicandAmazing [R=301,L]
+  RewriteRule ^code/ibwQB79q$ http://www.tmitg.com/files/tmitg-promo.php?receipt=GothicMagazine [R=301,L]
+  RewriteRule ^code/hDuV7aW7$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DarkestGothMagazine [R=301,L]
+  RewriteRule ^code/y2u7mQ9t$ http://www.tmitg.com/files/tmitg-promo.php?receipt=GavtheGothicChav [R=301,L]
+  RewriteRule ^code/P3gRPFiX$ http://www.tmitg.com/files/tmitg-promo.php?receipt=PeekABooMusicMagazine [R=301,L]
+  RewriteRule ^code/FA7dfPkn$ http://www.tmitg.com/files/tmitg-promo.php?receipt=SheenasShowtime [R=301,L]
+  RewriteRule ^code/GdfqA484$ http://www.tmitg.com/files/tmitg-promo.php?receipt=StrangewaysRadio [R=301,L]
 
   # mp3 redirects
   RewriteRule ^media/cimmerian-audio.php$ http://www.tmitg.com/viewmp3bc.php?bcsample=cimmerian [R=301,L]

@@ -91,7 +91,7 @@
 
 <div>
 <label for="message">Your Message:</label>
-<textarea name="message" id="message" class="required" rows="10" cols="40" required></textarea>
+<textarea name="message" id="message" class="required" rows="10" cols="38" required></textarea>
 </div>
 
 <div class="honey">

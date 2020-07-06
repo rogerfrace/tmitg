@@ -109,6 +109,7 @@ if ($newsnum != "") {
 		$dirArray[] = $entryName;
 	}
 	closedir($myDirectory);
+	//I think this means I'm displaying the 20 most recent items
 	$indexCount = (count($dirArray) < 20 ? count($dirArray) : 20);
 	
 	rsort($dirArray);

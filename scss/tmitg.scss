@@ -266,6 +266,7 @@ a.atcss:hover {
 	}
 
 	.portrait {
+		overflow: hidden;
 		position: relative;
 		height:500px;
 		background-color: $darklight;
@@ -487,6 +488,8 @@ a.atcss:hover {
 		font-weight: bold;
 	}
 	.btt {font-size:0.7em; text-decoration:none;}
+	.btt:hover,
+	.btt:focus {text-decoration:underline;}
 }
 
 
@@ -515,6 +518,7 @@ a.atcss:hover {
 		width: -webkit-calc(100% - 350px);
 		width: calc(100% - 350px);
 		margin-right: 350px;
+		article {overflow:hidden;}
 	}
 
 	.rightcolumn {
@@ -558,6 +562,7 @@ a.atcss:hover {
 		}
 		.newscolumn {
 			width: 100%;
+			margin-right: auto;
 		}
 	}
 }

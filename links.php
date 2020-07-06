@@ -37,7 +37,7 @@
 
 <section tabindex="-1" id="tmitg" class="linksec" aria-labelledby="labela">
 <h2 id="labela">other tMitG-related sites...</h2>
-<a href="#top" class="btt">(back to top)</a>
+<a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li style="list-style-image:url(<?=get_favicon('http://www.facebook.com');?>);"><a rel="me" href="http://www.facebook.com/tmitg" target="_blank">tMitG on Facebook</a></li>
 <li style="list-style-image:url(<?=get_favicon('http://twitter.com');?>);"><a rel="me" href="http://twitter.com/tmitg" target="_blank">tMitG on Twitter</a></li>
@@ -51,7 +51,7 @@
 
 <section tabindex="-1" id="digital" class="linksec" aria-labelledby="labelb">
 <h2 id="labelb">tMitG digital downloads and streams</h2>
-<a href="#top" class="btt">(back to top)</a>
+<a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a href="http://www.amazon.com/gp/product/B000QK6ULW?ie=UTF8&amp;tag=themachininth-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B000QK6ULW" target="_blank">tMitG on Amazon MP3</a><img src="http://www.assoc-amazon.com/e/ir?t=themachininth-20&amp;l=as2&amp;o=1&amp;a=B000QK6ULW" width="1" height="1" alt="" style="border:none !important; margin:0px !important;"></li>
 <li><a rel="me" href="http://tmitg.bandcamp.com/" target="_blank">tMitG on Bandamp</a></li>
@@ -65,7 +65,7 @@
 
 <section tabindex="-1" id="cds" class="linksec" aria-labelledby="labelc">
 <h2 id="labelc">other tMitG/goth music retailers...</h2>
-<a href="#top" class="btt">(back to top)</a>
+<a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a href="http://www.projekt.com/store/?s=machine+in+the+garden&amp;post_type=product" target="_blank">Projekt/darkwave</a></li>
 <li><a href="http://www.going-underground.de/" target="_blank">Going Underground</a> (Germany &mdash; listed in "T")</li>
@@ -76,7 +76,7 @@
 
 <section tabindex="-1" id="bands" class="linksec" aria-labelledby="labeld">
 <h2 id="labeld">bands...</h2>
-<a href="#top" class="btt">(back to top)</a>
+<a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a href="http://theazoic.com/" target="_blank">The Azoic</a></li>
 <li><a href="http://www.christiandeath.com/" target="_blank">Christian Death</a></li>
@@ -109,7 +109,7 @@
 
 <section tabindex="-1" id="zines" class="linksec" aria-labelledby="labele">
 <h2 id="labele">webzines and print zines with web pages...</h2>
-<a href="#top" class="btt">(back to top)</a>
+<a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a href="http://www.monolithgraphics.com/darkrealms.html" target="_blank">Dark Realms</a></li>
 <li><a href="http://www.gothicbeauty.com" target="_blank">Gothic Beauty</a></li>
@@ -123,7 +123,7 @@
 
 <section tabindex="-1" id="labels" class="linksec" aria-labelledby="labelf">
 <h2 id="labelf">record labels...</h2>
-<a href="#top" class="btt">(back to top)</a>
+<a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a href="http://www.fossildungeon.com/" target="_blank">Fossil Dungeon</a></li>
 <li><a href="http://www.metropolis-records.com/" target="_blank">Metropolis</a></li>
@@ -137,7 +137,7 @@
 
 <section tabindex="-1" id="radio" class="linksec" aria-labelledby="labelg">
 <h2 id="labelg">radio shows, clubs, and DJs...</h2>
-<a href="#top" class="btt">(back to top)</a>
+<a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a href="http://www.vamp.org/Gothic/clublist.html" target="_blank"><b>Gothic Club Listing</b></a></li>
 <li><a href="http://www.blackchannel.org" target="_blank">Black Channel Radio</a></li>
@@ -156,7 +156,7 @@
 
 <section tabindex="-1" id="fashion" class="linksec" aria-labelledby="labelh">
 <h2 id="labelh">gothic fashion...</h2>
-<a href="#top" class="btt">(back to top)</a>
+<a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a href="http://www.eriu.com/gothshop.html" target="_blank"><b>Goth Shopping</b></a> directory</li>
 <li><a href="http://www.azacdesigns.com/" target="_blank">Azrael's Accomplice</a></li>
@@ -178,7 +178,7 @@
 
 <section tabindex="-1" id="art" class="linksec" aria-labelledby="labeli">
 <h2 id="labeli">art and design...</h2>
-<a href="#top" class="btt">(back to top)</a>
+<a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a href="http://www.corbijn.co.uk/" target="_blank">Anton Corbijn</a></li>
 <li><a href="http://www.louisguidone.com/" target="_blank">Louis Guidone</a></li>
@@ -192,7 +192,7 @@
 
 <section tabindex="-1" id="gothstuff" class="linksec" aria-labelledby="labelj">
 <h2 id="labelj">various gothy stuff...</h2>
-<a href="#top" class="btt">(back to top)</a>
+<a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a href="http://www.darklinks.com" target="_blank"><b>Dark Side of the Net</b></a></li>
 <li><a href="http://www.waningmoon.com/" target="_blank">Encyclopedia Gothica</a></li>
@@ -205,7 +205,7 @@
 
 <section tabindex="-1" id="misc" class="linksec" aria-labelledby="labelk">
 <h2 id="labelk">humor, culture, entertainment, and other miscellaneous things...</h2>
-<a href="#top" class="btt">(back to top)</a>
+<a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a href="http://www.flowersforthedead.com/dolls/" target="_blank">Fairy Paper Dolls</a></li>
 <li><a href="http://www.happytreefriends.com/" target="_blank">Happy Tree Friends</a></li>

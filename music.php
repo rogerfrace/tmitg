@@ -19,91 +19,93 @@
 
 <main id="main" class="mainbody">
 
+<h1 class="wai">the Machine in the Garden music samples</h1>
+
 <div id="accordion" role="tablist">
 	<div class="item places" id="placestab" role="tab" tabindex="0" aria-controls="places" aria-selected="false">
-		<img src="albums/placesico.jpg" class="placesimg" alt="Places in Between" role="presentation">
+		<img src="albums/placesico.jpg" class="placesimg" alt="Places in Between">
 		<div class="detail">
-			<h3>Places in Between</h3>
+			<p class="tabtitle">Places in Between</p>
 			<p>2020</p>
 		</div>
 	</div>
 
 	<div class="item image" id="imagetab" role="tab" tabindex="0" aria-controls="image" aria-selected="false">
-		<img src="albums/imageacousticico.jpg" class="imageimg" alt="Image (acoustic)" role="presentation">
+		<img src="albums/imageacousticico.jpg" class="imageimg" alt="Image (acoustic)">
 		<div class="detail">
-			<h3>Image (acoustic)</h3>
+			<p class="tabtitle">Image (acoustic)</p>
 			<p>2017</p>
 		</div>
 	</div>
 
 	<div class="item baats" id="baatstab" role="tab" tabindex="0" aria-controls="baats" aria-selected="false">
-		<img src="albums/baatsico.jpg" class="baatsimg" alt="Before and After the Storm" role="presentation">
+		<img src="albums/baatsico.jpg" class="baatsimg" alt="Before and After the Storm">
 		<div class="detail">
-			<h3>Before and After the Storm</h3>
+			<p class="tabtitle">Before and After the Storm</p>
 			<p>2011</p>
 		</div>
 	</div>
 	
 	<div class="item vanir" id="vanirtab" role="tab" tabindex="0" aria-controls="vanir" aria-selected="false">
-		<img src="albums/vanirico.jpg" class="vanirimg" alt="In the Vanir" role="presentation">
+		<img src="albums/vanirico.jpg" class="vanirimg" alt="In the Vanir">
 		<div class="detail">
-			<h3>In the Vanir</h3>
+			<p class="tabtitle">In the Vanir</p>
 			<p>2010</p>
 		</div>
 	</div>
 	
 	<div class="item xv" id="xvtab" role="tab" tabindex="0" aria-controls="xv" aria-selected="false">
-		<img src="albums/xvico.jpg" class="xvimg" alt="" role="presentation">
+		<img src="albums/xvico.jpg" class="xvimg" alt="">
 		<div class="detail">
-			<h3>XV</h3>
+			<p class="tabtitle">XV</p>
 			<p>2007</p>
 		</div>
 	</div>
 		
 	<div class="item sp" id="sptab" role="tab" tabindex="0" aria-controls="sp" aria-selected="false">
-		<img src="albums/spico.jpg" class="spimg" alt="Shadow Puppets" role="presentation">
+		<img src="albums/spico.jpg" class="spimg" alt="Shadow Puppets">
 		<div class="detail">
-			<h3>Shadow Puppets</h3>
+			<p class="tabtitle">Shadow Puppets</p>
 			<p>2005</p>
 		</div>
 	</div>
 	
 	<div class="item asp" id="asptab" role="tab" tabindex="0" aria-controls="asp" aria-selected="false">
-		<img src="albums/asphodelico.jpg" class="aspimg" alt="Asphodel" role="presentation">
+		<img src="albums/asphodelico.jpg" class="aspimg" alt="Asphodel">
 		<div class="detail">
-			<h3>Asphodel</h3>
+			<p class="tabtitle">Asphodel</p>
 			<p>2002</p>
 		</div>	
 	</div>
 	
 	<div class="item ootm" id="ootmtab" role="tab" tabindex="0" aria-controls="ootm" aria-selected="false">
-		<img src="albums/mistsico.jpg" class="ootmimg" alt="Out of the Mists" role="presentation">
+		<img src="albums/mistsico.jpg" class="ootmimg" alt="Out of the Mists">
 		<div class="detail">
-			<h3>Out of the Mists</h3>
+			<p class="tabtitle">Out of the Mists</p>
 			<p>2000</p>
 		</div>	
 	</div>
 	
 	<div class="item own" id="owntab" role="tab" tabindex="0" aria-controls="own" aria-selected="false">
-		<img src="albums/wintersico.jpg" class="ownimg" alt="One Winter's Night..." role="presentation">
+		<img src="albums/wintersico.jpg" class="ownimg" alt="One Winter's Night...">
 		<div class="detail">
-			<h3>One Winter&rsquo;s Night&hellip;</h3>
+			<p class="tabtitle">One Winter&rsquo;s Night&hellip;</p>
 			<p>1999</p>
 		</div>	
 	</div>
 	
 	<div class="item uw" id="uwtab" role="tab" tabindex="0" aria-controls="uw" aria-selected="false">
-		<img src="albums/underworldico.jpg" class="uwimg" alt="Underworld" role="presentation">
+		<img src="albums/underworldico.jpg" class="uwimg" alt="Underworld">
 		<div class="detail">
-			<h3>Underworld</h3>
+			<p class="tabtitle">Underworld</p>
 			<p>1997</p>
 		</div>	
 	</div>
 	
 	<div class="item vs" id="vstab" role="tab" tabindex="0" aria-controls="vs" aria-selected="false">
-		<img src="albums/vsico.jpg" class="vsimg" alt="Veils and Shadows EP" role="presentation">
+		<img src="albums/vsico.jpg" class="vsimg" alt="Veils and Shadows EP">
 		<div class="detail">
-			<h3>Veils and Shadows EP</h3>
+			<p class="tabtitle">Veils and Shadows EP</p>
 			<p>1993</p>
 		</div>	
 	</div>
@@ -120,7 +122,7 @@
 			<div class="audiocol">
 			</div>
 			<div class="videocol">
-				<h4>video clips</h4>
+				<h2>video clips</h2>
 				<p><?php do_video("teaser","Places in Between Teaser"); ?></p>
 			</div>
 		</div>
@@ -133,7 +135,7 @@
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h4>mp3 samples</h4>
+				<h2>mp3 samples</h2>
 				<p><?php do_mp3bc2("imageacoustic","Image (acoustic)"); ?></p>
 			</div>
 			<div class="videocol">
@@ -148,14 +150,14 @@
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h4>mp3 samples</h4>
+				<h2>mp3 samples</h2>
 				<p><?php do_mp3bc2("cimmerian","Cimmerian"); ?></p>
 				<p><?php do_mp3bc2("metallic","Metallic"); ?></p>
 				<p><?php do_mp3bc2("powerandprophesy","Power and Prophesy"); ?></p>
 				<p><?php do_mp3bc2("firemix","Scathefire (fire mix)"); ?></p>
 			</div>
 			<div class="videocol">
-				<h4>video clips</h4>
+				<h2>video clips</h2>
 				<p><?php do_video("cimmerian","Cimmerian teaser"); ?></p>
 			</div>
 		</div>
@@ -168,7 +170,7 @@
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h4>mp3 samples</h4>
+				<h2>mp3 samples</h2>
 				<p><?php do_mp3bc2("vanirsingle","In the Vanir (single mix)"); ?></p>
 			</div>
 			<div class="videocol">
@@ -183,7 +185,7 @@
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h4>mp3 samples</h4>
+				<h2>mp3 samples</h2>
 				<p><?php do_mp3bc2("sixdays","Six Days"); ?></p>
 				<p><?php do_mp3bc2("mantraremix","Mantra (Shades of Grey Remix)"); ?></p>
 				<p><?php do_mp3bc2("dawnremix","Dawn (On the Rocks Mix)"); ?></p>
@@ -202,7 +204,7 @@
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h4>mp3 samples</h4>
+				<h2>mp3 samples</h2>
 				<p><?php do_mp3bc2("theinsideworld","The Inside World"); ?></p>
 				<p><?php do_mp3bc2("winterfell","Winter Fell"); ?></p>
 				<p><?php do_mp3bc2("mantra","Mantra"); ?></p>
@@ -210,7 +212,7 @@
 				<p><?php do_mp3bc2("spidersbride","Spider&rsquo;s Bride"); ?></p>
 			</div>
 			<div class="videocol">
-				<h4>video clips</h4>
+				<h2>video clips</h2>
 				<p><?php do_video("thissilence","This Silence (live)"); ?></p>
 				<p><?php do_video("theinsideworld","The Inside World (live)"); ?></p>
 				<p><?php do_video("suspend","Suspend (live)"); ?></p>
@@ -225,7 +227,7 @@
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h4>mp3 samples</h4>
+				<h2>mp3 samples</h2>
 				<p><?php do_mp3bc2("clarity","Clarity"); ?></p>
 				<p><?php do_mp3bc2("dawn","Dawn"); ?></p>
 				<p><?php do_mp3bc2("outside","Outside"); ?></p>
@@ -233,7 +235,7 @@
 				<p><?php do_mp3bc2("wonderland","Wonderland"); ?></p>
 			</div>
 			<div class="videocol">
-				<h4>video clips</h4>
+				<h2>video clips</h2>
 				<p><?php do_video("masks","Masks (live)"); ?></p>
 				<p><?php do_video("outside","Outside (live)"); ?></p>
 				<p><?php do_video("outside-amv","Outside"); ?></p>
@@ -249,7 +251,7 @@
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h4>mp3 samples</h4>
+				<h2>mp3 samples</h2>
 				<p><?php do_mp3bc2("fade","Fade"); ?></p>
 				<p><?php do_mp3bc2("herface","Her Face"); ?></p>
 				<p><?php do_mp3bc2("intrigue","Intrigue"); ?></p>
@@ -257,7 +259,7 @@
 				<p><?php do_mp3bc2("valentine","Valentine"); ?></p>
 			</div>
 			<div class="videocol">
-				<h4>video clips</h4>
+				<h2>video clips</h2>
 				<p><?php do_video("everythingsheis","Every Thing She Is (live)"); ?></p>
 				<p><?php do_video("failure","Failure (live)"); ?></p>
 				<p><?php do_video("unaware","The Unaware"); ?></p>
@@ -272,7 +274,7 @@
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h4>mp3 samples</h4>
+				<h2>mp3 samples</h2>
 				<p><?php do_mp3bc2("control","Control"); ?></p>
 				<p><?php do_mp3bc2("fallingtoo","Falling, Too"); ?></p>
 				<p><?php do_mp3bc2("fearnomore","Fear No More"); ?></p>
@@ -281,7 +283,7 @@
 				<p><?php do_mp3bc2("theseillusions","These Illusions"); ?></p>
 			</div>
 			<div class="videocol">
-				<h4>video clips</h4>
+				<h2>video clips</h2>
 				<p><?php do_video("control","Control (live)"); ?></p>
 				<p><?php do_video("control-vid","Control"); ?></p>
 				<p><?php do_video("miserere-fan","Miserere Mei (Fan Video)"); ?></p>
@@ -299,7 +301,7 @@
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h4>mp3 samples</h4>
+				<h2>mp3 samples</h2>
 				<p><?php do_mp3bc2("finalform","Final Form"); ?></p>
 				<p><?php do_mp3bc2("dreamsoftheabsent","Dreams of the Absent"); ?></p>
 				<p><?php do_mp3bc2("shadowydepths","Shadowy Depths"); ?></p>
@@ -307,7 +309,7 @@
 				<p><?php do_mp3bc2("cold","Cold"); ?></p>
 			</div>
 			<div class="videocol">
-				<h4>video clips</h4>
+				<h2>video clips</h2>
 				<p><?php do_video("finalform","Final Form (live '97)"); ?></p>
 				<p><?php do_video("finalform2","Final Form (live '00)"); ?></p>
 				<p><?php do_video("finalform-fan","Final Form (Fan Video)"); ?></p>
@@ -322,7 +324,7 @@
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h4>mp3 samples</h4>
+				<h2>mp3 samples</h2>
 				<p><?php do_mp3bc2("atouchofheaven","A Touch of Heaven"); ?></p>
 				<p><?php do_mp3bc2("darksplinteredheart","Dark Splintered Heart"); ?></p>
 			</div>

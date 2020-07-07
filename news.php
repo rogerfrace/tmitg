@@ -46,7 +46,6 @@ if (isset($_GET["item"])) {
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once("headers-additional.php"); ?>
 	<link rel="alternate" type="application/rss+xml" href="/news-rss.xml.php" title="the Machine in the Garden - news" />
-	<link href="https://plus.google.com/111746563913739447111" rel="publisher" />
 	<?php if (check_mobile()==false) { include_once("fblike.html"); } ?>
 </head>
 
@@ -88,7 +87,7 @@ function display_news($newsnum,$pubdate,$title,$description) {
 					<a href=\"/news.php?item=".$newsnum."\" itemprop=\"url\" title=\"Permalink\" name=\"Permalink\"><img src=\"images/icon-link.png\" alt=\"Permalink\" /><span class=\"wai\">Permalink</span></a>
 					</div>\n";
 				//facebook share
-				echo "<div class=\"shareitem\"><div class=\"fb-share-button\" data-href=\"http://www.tmitg.com/news.php?item=".$newsnum."\" data-layout=\"button_count\" data-size=\"small\"><a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.tmitg.com%2Fnews.php%3Fitem%3D".$newsnum."&amp;src=sdkpreparse\" class=\"fb-xfbml-parse-ignore\">Share</a></div></div>";
+				echo "<div class=\"shareitem\"><div class=\"fb-share-button\" data-href=\"http://www.tmitg.com/news.php?item=".$newsnum."\" data-layout=\"button_count\" data-size=\"small\"><a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.tmitg.com%2Fnews.php%3Fitem%3D".$newsnum."&amp;src=sdkpreparse\" class=\"fb-xfbml-parse-ignore\" aria-label=\"Share on Facebook\">Share</a></div></div>";
 				//twitter
 				echo "<div class=\"shareitem\"><a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://www.tmitg.com/news.php?item=".$newsnum."\" data-via=\"tmitg\" data-show-count=\"false\">Tweet</a><script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></div>";
 			echo "</div> <!--/sharelinks-->";
@@ -134,7 +133,7 @@ if ($newsnum != "") {
 
 	<div class="fbblock">
 	<?php if (check_mobile()==false): ?>
-		<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftmitg%2F&tabs=timeline&width=300&height=750&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=121619441387" width="300" height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+		<iframe title="tMitG Facebook feed" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftmitg%2F&tabs=timeline&width=300&height=750&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=121619441387" width="300" height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 	<?php endif; ?>
 	</div>
 	

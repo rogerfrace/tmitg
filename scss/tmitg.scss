@@ -731,10 +731,13 @@ iframe#sb-player {
 			height: 80px;
 			display: block;
 		}
-		h3 {
+		p.tabtitle {
 			padding: 0;
 			margin: 0;
-			font-family: 'Tenderness Regular',Arial,Helvetica,sans-serif;
+			font-family: Cormorant,serif;
+			font-weight: 700;
+			font-size:1.1em;
+			line-height:1;
 		}
 		.item {
 			padding: 8px;
@@ -771,7 +774,7 @@ iframe#sb-player {
 		float: left;
 		text-align: left;
 
-		h4 {font-family: 'Kristi', cursive; color:$darklight; font-size:2em; font-weight:normal; margin:0.5em 0 0 0;}
+		h2 {font-family: 'Kristi', cursive; color:$darklight; font-size:2em; font-weight:normal; margin:0.5em 0 0 0;}
 	}
 	.albumcol { width: 33%; *width: 28%; min-width:250px; min-height:250px;}
 	.audiocol { width: 33%; *width: 33%; min-width:200px; }

@@ -32,12 +32,7 @@
 <section id="leftcolumn" aria-label="Physical Location">
 <h2 class="wai">Physical Location</h2>
 <!-- address card -->
-<address id="hcard-the-Machine-in-the-Garden" class="vcard">
-	<img style="display:none;" src="http://www.tmitg.com/photos/xv1-ico.jpg" alt="photo of " class="photo ariahidden" />
-	<a class="url n ariahidden" id="url" href="http://www.tmitg.com/">  <span class="given-name"></span>
-	<span class="additional-name"></span>
-	<span class="family-name"></span>
-	</a>
+<address>
 	<div class="org" rel="me">the Machine in the Garden</div>
 	<div class="fn note">Roger Frac&eacute; &amp; <a href="http://www.tmitg.com/summer/" target="_blank">Summer Bowman</a></div>
 	<div class="adr">

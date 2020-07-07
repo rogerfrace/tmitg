@@ -52,6 +52,8 @@
 .mobile a:focus {
   background: #e7e7e7;
 }
+.mobile a.current{background:#dddddd;}
+
 @media (max-width: 725px) {
   .mobile {
     display: block;

@@ -89,14 +89,13 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<span property="mpn">dxm-008-cd</span> &copy;<span property="releaseDate">2020</span><br />
 	(<span property="description">full-length CD</span>)<br />
 	<a href="places.php">more information <span class="wai">about Places in Between</span></a><br />
-<!--	<div class="pricecart" property="offers" typeof="Offer">
+	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$12</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="195269018252" />
 		<a class="atcss" href="https://tmitg.bandcamp.com/album/places-in-between" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'placesinbetween');">Buy <span class="wai">Places in Between</span> Now</a>
-	</div>-->
-	<div><strong>Coming Soon</strong></div>
+	</div>
 </div>
 </section> <!-- /itemcontainer -->
 
@@ -378,13 +377,12 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">"vintage ornament" design t-shirt</em></h2>
 	<span property="description">(teal "vintage ornament" design with silver text, black short sleeve, unisex or ladies cut v-neck - click picture to view larger image)</span>
-<!--	<div class="pricecart" property="offers" typeof="Offer">
+	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$12</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-vintage-ornament-design-t-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'tealshirt');">Buy <span class="wai">vintage ornament design t-shirt</span> Now</a>
-	</div>-->
-	<div><strong>Coming Soon</strong></div>
+	</div>
 </div>
 </section> <!-- /itemcontainer -->
 

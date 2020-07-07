@@ -21,7 +21,7 @@
 <h1 class="wai">Discography of the Machine in the Garden</h1>
 
 <section aria-labelledby="releases">
-<h2 id="releases" tabindex="-1">releases:</h2>
+<h2 id="releases">releases:</h2>
 
 <ul class="releases">
 
@@ -56,7 +56,7 @@
 </section>
 
 <section aria-labelledby="compilations">
-<h2 id="compilations" tabindex="-1">compilation appearances:</h2>
+<h2 id="compilations">compilation appearances:</h2>
 <ul class="comps">
 <li><a href="rebellion.php"><img src="albums/rebellionico.png" alt="Rebellion: Vol 1"></a></li>
 
@@ -127,19 +127,6 @@
 </section>
 
 </main> <!-- /mainbody -->
-
-<?php if (check_mobile()==true): ?>
-	<style type="text/css">
-		#compilations::before {content: "+ ";}
-		#compilations {background-color:#cccccc; padding:0.25em;}
-	</style>
-	<script type="text/javascript">
-	jQuery(".comps").hide();
-	jQuery("#compilations").click(function() {
-		jQuery(".comps").toggle("fast");
-	});
-	</script>
-<?php endif; ?>
 
 </body>
 </html>

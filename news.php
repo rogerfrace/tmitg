@@ -52,9 +52,12 @@ if (isset($_GET["item"])) {
 
 <body id="news">
 	<!-- fb share button -->
-	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=207159742735690&autoLogAppEvents=1" nonce="YigLuG1p"></script>
+	<?php if (check_mobile()==false) {
+		echo '<div id="fb-root"></div>';
+		echo '<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=207159742735690&autoLogAppEvents=1" nonce="YigLuG1p"></script>';
+	} ?>
 	<!-- /fb share button -->
+
 	<span id="skip-links">
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
@@ -109,8 +112,8 @@ if ($newsnum != "") {
 		$dirArray[] = $entryName;
 	}
 	closedir($myDirectory);
-	//I think this means I'm displaying the 20 most recent items
-	$indexCount = (count($dirArray) < 20 ? count($dirArray) : 20);
+	//I think this means I'm displaying the 15 most recent items
+	$indexCount = (count($dirArray) < 15 ? count($dirArray) : 15);
 	
 	rsort($dirArray);
 	for($index=0; $index < $indexCount; $index++) {

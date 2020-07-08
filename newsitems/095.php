@@ -2,7 +2,7 @@
 
 $pubdate = "Fri, 10 Jul 2020 00:00:00 CDT";
 $title = "Now Available: <em>Places in Between</em>";
-$description = "<a href=\"https://tmitg.bandcamp.com/album/places-in-between\"><img itemprop=\"image\" align=\"left\" hspace=\"8\" vspace=\"8\" border=\"0\" src=\"http://tmitg.com/albums/places.jpg\" alt=\"Places in Between album on Bandcamp\" /></a>";
+$description = "<a href=\"https://tmitg.bandcamp.com/album/places-in-between\"><img itemprop=\"image\" src=\"http://tmitg.com/albums/places.jpg\" alt=\"Places in Between album on Bandcamp\" /></a>";
 
 $description .= "<p><strong>the Machine in the Garden's</strong> ninth studio album and our first in nine years, <i>Places in Between</i>, is now available for digital download on <a href=\"https://tmitg.bandcamp.com/album/places-in-between\">our Bandcamp page</a>. We are also accepting pre-orders for <a href=\"https://tmitg.bandcamp.com/merch\">the physical CD and various combos</a> including a CD with a t-shirt and/or a handwritten lyrics sheet.</p>";
 

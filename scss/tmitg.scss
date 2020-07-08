@@ -335,6 +335,11 @@ a.atcss:hover {
 			margin-top:0;
 			margin-bottom: 0.5em;
 		}
+		img {
+			float:left;
+			max-width:50%;
+			margin: 0 6px 4px 0;
+		}
 	}
 }
 @media screen and (max-width: 643px) {
@@ -496,7 +501,7 @@ a.atcss:hover {
 /* news pages */
 #news {
 	h1 {
-		font-size:100%;
+		font-size:110%;
 		margin-top: 0;
 	}
 	.mainbody {
@@ -518,7 +523,14 @@ a.atcss:hover {
 		width: -webkit-calc(100% - 350px);
 		width: calc(100% - 350px);
 		margin-right: 350px;
-		article {overflow:hidden;}
+		article {
+			overflow:hidden;
+			img {
+				float:left;
+				max-width:50%;
+				margin: 0 6px 4px 0;
+			}
+		}
 	}
 
 	.rightcolumn {

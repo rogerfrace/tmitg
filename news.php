@@ -149,7 +149,7 @@ if (isset($_GET["item"])) {
   
 	</aside> <!-- /rightcolumn -->
 
-</div>
+</div> <!-- /flexwrapper -->
 
 <br style="clear:both;" />
 

@@ -881,26 +881,19 @@ iframe#sb-player {
 
 /* contact page */
 #contact {
-	#leftcolumn {
-		float:left;
-		margin: 0 4em 1em 0;
+	.flexwrapper {
+		display:flex;
 	}
 
-	.vcard .org {
-		text-decoration: none;
-		color: $black;
-		font-weight: bold;
-		font-size: 1.2em;
+	#leftcolumn {
+		flex:1;
 	}
 
 	#rightcolumn {
-		float: left;
-		border-left: 1px solid gray;
-		margin-bottom: 2em;
-	}
-
-	#rightcolumn h1 {
-		margin: 1px 0 1em 3em;
+		flex:1;
+		h1 {
+			margin: 1px 0 1em 3em;
+		}
 	}
 
 	form small {
@@ -980,23 +973,19 @@ iframe#sb-player {
 	}
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 680px) {
 	#contact {
+		.flexwrapper {
+			display:block;
+		}
+		#leftcolumn {
+			flex:none;
+		}
 		#rightcolumn {
-			border-left: none;
-		}
-		form {
-			margin-left: 0;
-		}
-		form label {
-			float: none;
-			text-align: left;
-		}
-		.captchainput {
-			margin: 0;
-		}
-		#submit {
-			margin-left: 0;
+			flex:none;
+			margin-top: 6px;
+			padding-top: 6px;
+			border-top: 1px solid $black;
 		}
 	}
 }

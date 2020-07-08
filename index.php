@@ -166,6 +166,9 @@ require_once("functions.php");
 	</section>
 </main>
 
+<footer>
+	<small>View our <a href="policy.php">site policies, terms and conditions</a>.</small>
+</footer>
 
 </body>
 </html>

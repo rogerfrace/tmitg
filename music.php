@@ -116,7 +116,7 @@
 
 	<div class="songs places" id="places" role="tabpanel" tabindex="-1" aria-labelledby="placestab">
 		<div class="albumcol">
-			<p><a href="places.php"><img src="albums/places.jpg" width="200" height="200" class="cover" alt="Places in Between"></a></p>
+			<p><a href="places.php"><img src="albums/places.jpg" width="200" height="200" class="cover" alt="more information about Places in Between"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
@@ -131,7 +131,7 @@
 
 	<div class="songs image" id="image" role="tabpanel" tabindex="-1" aria-labelledby="imagetab">
 		<div class="albumcol">
-			<p><a href="imageacoustic.php"><img src="albums/imageacoustic.jpg" width="200" height="200" class="cover" alt="Image (acoustic)"></a></p>
+			<p><a href="imageacoustic.php"><img src="albums/imageacoustic.jpg" width="200" height="200" class="cover" alt="more information about Image (acoustic)"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
@@ -146,7 +146,7 @@
 
 	<div class="songs baats" id="baats" role="tabpanel" tabindex="-1" aria-labelledby="baatstab">
 		<div class="albumcol">
-			<p><a href="storm.php"><img src="albums/baats.jpg" width="200" height="200" class="cover" alt="Before and After the Storm"></a></p>
+			<p><a href="storm.php"><img src="albums/baats.jpg" width="200" height="200" class="cover" alt="more information about Before and After the Storm"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
@@ -166,7 +166,7 @@
 
 	<div class="songs vanir" id="vanir" role="tabpanel" tabindex="-1" aria-labelledby="vanirtab">
 		<div class="albumcol">
-			<p><a href="vanir.php"><img src="albums/vanir.jpg" width="200" height="200" class="cover" alt="In the Vanir"></a></p>
+			<p><a href="vanir.php"><img src="albums/vanir.jpg" width="200" height="200" class="cover" alt="more information about In the Vanir"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
@@ -181,7 +181,7 @@
 
 	<div class="songs xv" id="xv" role="tabpanel" tabindex="-1" aria-labelledby="xvtab">
 		<div class="albumcol">
-			<p><a href="xv.php"><img src="albums/xv.jpg" width="200" height="200" class="cover" alt="XV"></a></p>
+			<p><a href="xv.php"><img src="albums/xv.jpg" width="200" height="200" class="cover" alt="more information about XV"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
@@ -200,7 +200,7 @@
 
 	<div class="songs sp" id="sp" role="tabpanel" tabindex="-1" aria-labelledby="sptab">
 		<div class="albumcol">
-			<p><a href="shadowpuppets.php"><img src="albums/sp.jpg" width="200" height="200" class="cover" alt="Shadow Puppets"></a></p>
+			<p><a href="shadowpuppets.php"><img src="albums/sp.jpg" width="200" height="200" class="cover" alt="more information about Shadow Puppets"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
@@ -223,7 +223,7 @@
 
 	<div class="songs asp" id="asp" role="tabpanel" tabindex="-1" aria-labelledby="asptab">
 		<div class="albumcol">
-			<p><a href="asphodel.php"><img src="albums/asphodel.jpg" width="200" height="200" class="cover" alt="Asphodel"></a></p>
+			<p><a href="asphodel.php"><img src="albums/asphodel.jpg" width="200" height="200" class="cover" alt="more information about Asphodel"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
@@ -247,7 +247,7 @@
 
 	<div class="songs ootm" id="ootm" role="tabpanel" tabindex="-1" aria-labelledby="ootmtab">
 		<div class="albumcol">
-			<p><a href="mists.php"><img src="albums/mists.jpg" width="224" height="200" class="cover" alt="Out of the Mists"></a></p>
+			<p><a href="mists.php"><img src="albums/mists.jpg" width="224" height="200" class="cover" alt="more information about Out of the Mists"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
@@ -270,7 +270,7 @@
 
 	<div class="songs own" id="own" role="tabpanel" tabindex="-1" aria-labelledby="owntab">
 		<div class="albumcol">
-			<p><a href="winters.php"><img src="albums/winters.jpg" width="224" height="200" class="cover" alt="One Winter's Night..."></a></p>
+			<p><a href="winters.php"><img src="albums/winters.jpg" width="224" height="200" class="cover" alt="more information about One Winter's Night..."></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
@@ -297,7 +297,7 @@
 
 	<div class="songs uw" id="uw" role="tabpanel" tabindex="-1" aria-labelledby="uwtab">
 		<div class="albumcol">
-			<p><a href="underworld.php"><img src="albums/underworld.jpg" width="200" height="200" class="cover" alt="Underworld"></a></p>
+			<p><a href="underworld.php"><img src="albums/underworld.jpg" width="200" height="200" class="cover" alt="more information about Underworld"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
@@ -320,7 +320,7 @@
 
 	<div class="songs vs" id="vs" role="tabpanel" tabindex="-1" aria-labelledby="vstab">
 		<div class="albumcol">
-			<p><a href="vs.php"><img src="albums/vs.jpg" width="200" height="200" class="cover" alt="Veils and Shadows EP"></a></p>
+			<p><a href="vs.php"><img src="albums/vs.jpg" width="200" height="200" class="cover" alt="more information about Veils and Shadows EP"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">

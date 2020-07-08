@@ -98,7 +98,8 @@
 <input type="hidden" name="timestamp" id="timestamp" value="<?php echo time(); ?>" />
 <input type="hidden" name="referrer" id="referrer" value="<?php echo $_SERVER['HTTP_REFERER']; ?>" />
 
-<input type="submit" id="submit" value="Submit" /> <input type="reset" id="reset" value="Reset Form" />
+<input type="reset" id="reset" value="Reset Form" />
+<input type="submit" id="submit" value="Submit Contact Form" />
 </div>
 
 </form>

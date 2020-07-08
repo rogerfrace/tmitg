@@ -504,25 +504,20 @@ a.atcss:hover {
 		font-size:110%;
 		margin-top: 0;
 	}
-	.mainbody {
-		*width: 90%;
-		*margin-right: 20px;
-	}
-	.newscolumn fieldset {
-		@include border-bottom-right-radius(0.75em);
-		*width: 100%;
-	}
-	.newscolumn fieldset legend {
-		padding: 0.5em 0;
-	}
 
+	.flexwrapper {
+		display:flex;
+	}
 	.newscolumn {
-		float:left;
-		width: 63%; /* fallback for non-calc */
-		width: -moz-calc(100% - 350px);
-		width: -webkit-calc(100% - 350px);
-		width: calc(100% - 350px);
-		margin-right: 350px;
+        flex-grow: 1;
+        margin-right:1%;
+		fieldset {
+			@include border-bottom-right-radius(0.75em);
+			*width: 100%;
+			legend {
+				padding: 0.5em 0;
+			}
+		}
 		article {
 			overflow:hidden;
 			img {
@@ -534,8 +529,7 @@ a.atcss:hover {
 	}
 
 	.rightcolumn {
-		float:left;
-		margin: 9px 0 0 -325px;
+		width: 350px;
 	}
 
 	.sharelinks {

@@ -263,7 +263,8 @@ $lyricsfile and videoname do not include .html
 </main> <!-- /mainbody -->
 <?php include_once("includes/amazonfooter.inc.php"); ?>
 
-<!-- google translate stuff -->
+<!-- google translate widget -->
+<?php if (!stristr($_SERVER['HTTP_USER_AGENT'],"Googlebot")): ?>
 <script type="text/javascript">
 function googleSectionalElementInit() {
   new google.translate.SectionalElement({
@@ -274,6 +275,8 @@ function googleSectionalElementInit() {
 }
 </script>
 <script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleSectionalElementInit&amp;ug=section&amp;hl=en"></script>
+<?php endif; ?>
+<!-- /google translate -->
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

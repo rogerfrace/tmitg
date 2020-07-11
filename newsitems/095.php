@@ -1,6 +1,6 @@
 <?php
 
-$pubdate = "Fri, 10 Jul 2020 00:00:00 CDT";
+$pubdate = "Fri, 10 Jul 2020 01:00:00 CDT";
 $title = "Now Available: <em>Places in Between</em>";
 $description = "<a href=\"https://tmitg.bandcamp.com/album/places-in-between\"><img itemprop=\"image\" src=\"http://tmitg.com/albums/places.jpg\" alt=\"Places in Between album on Bandcamp\" /></a>";
 

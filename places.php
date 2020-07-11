@@ -82,15 +82,15 @@ do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$song
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"Cold Storm","coldstorm",NULL,"places.jpg",NULL); ?>
+<?php do_songtitle(1,"Cold Storm","coldstorm","coldstorm-bc","places.jpg",NULL); ?>
 <?php do_songtitle(2,"A Thousand Years of War","athousandyearsofwar",NULL,"places.jpg",NULL); ?>
-<?php do_songtitle(3,"Beyond","beyond",NULL,"places.jpg",NULL); ?>
+<?php do_songtitle(3,"Beyond","beyond","beyond-bc","places.jpg",NULL); ?>
 <?php do_songtitle(4,"Underneath","underneath",NULL,"places.jpg",NULL); ?>
-<?php do_songtitle(5,"Prophetic Bird","propheticbird",NULL,"places.jpg",NULL); ?>
+<?php do_songtitle(5,"Prophetic Bird","propheticbird","propheticbird-bc","places.jpg",NULL); ?>
 <?php do_songtitle(6,"Broken Days","brokendays",NULL,"places.jpg",NULL); ?>
 <?php do_songtitle(7,"Ad Astra Per Aspera","adastraperaspera",NULL,"places.jpg",NULL); ?>
 <?php do_songtitle(8,"Courage, Power, and Wisdom","couragepowerandwisdom",NULL,"places.jpg",NULL); ?>
-<?php do_songtitle(9,"Spirit and Image","spiritandimage",NULL,"places.jpg",NULL); ?>
+<?php do_songtitle(9,"Spirit and Image","spiritandimage","spiritandimage-bc","places.jpg",NULL); ?>
 <?php do_songtitle(10,"Orbital","orbital",NULL,"places.jpg",NULL); ?>
 <?php do_songtitle(11,"O Euchari","oeuchari",NULL,"places.jpg",NULL); ?>
 <?php do_songtitle(12,"Find a Way","findaway",NULL,"places.jpg",NULL); ?>

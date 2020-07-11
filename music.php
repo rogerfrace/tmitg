@@ -21,121 +21,129 @@
 
 <h1 class="wai">the Machine in the Garden music samples</h1>
 
-<div id="accordion" role="tablist">
-	<div class="item places" id="placestab" role="tab" tabindex="0" aria-controls="places" aria-selected="false">
+<!-- tabs -->
+<!-- based on https://www.w3.org/TR/wai-aria-practices-1.1/examples/tabs/tabs-2/tabs.html -->
+<div id="accordion" role="tablist" aria-label="album list">
+	<div class="item places" id="placestab" role="tab" tabindex="-1" aria-controls="places" aria-selected="false">
 		<img src="albums/placesico.jpg" class="placesimg" alt="Places in Between">
 		<div class="detail">
 			<p class="tabtitle">Places in Between</p>
-			<p>2020</p>
+			<time>2020</time>
 		</div>
 	</div>
 
-	<div class="item image" id="imagetab" role="tab" tabindex="0" aria-controls="image" aria-selected="false">
+	<div class="item image" id="imagetab" role="tab" tabindex="-1" aria-controls="image" aria-selected="false">
 		<img src="albums/imageacousticico.jpg" class="imageimg" alt="Image (acoustic)">
 		<div class="detail">
 			<p class="tabtitle">Image (acoustic)</p>
-			<p>2017</p>
+			<time>2017</time>
 		</div>
 	</div>
 
-	<div class="item baats" id="baatstab" role="tab" tabindex="0" aria-controls="baats" aria-selected="false">
+	<div class="item baats" id="baatstab" role="tab" tabindex="-1" aria-controls="baats" aria-selected="false">
 		<img src="albums/baatsico.jpg" class="baatsimg" alt="Before and After the Storm">
 		<div class="detail">
 			<p class="tabtitle">Before and After the Storm</p>
-			<p>2011</p>
+			<time>2011</time>
 		</div>
 	</div>
 	
-	<div class="item vanir" id="vanirtab" role="tab" tabindex="0" aria-controls="vanir" aria-selected="false">
+	<div class="item vanir" id="vanirtab" role="tab" tabindex="-1" aria-controls="vanir" aria-selected="false">
 		<img src="albums/vanirico.jpg" class="vanirimg" alt="In the Vanir">
 		<div class="detail">
 			<p class="tabtitle">In the Vanir</p>
-			<p>2010</p>
+			<time>2010</time>
 		</div>
 	</div>
 	
-	<div class="item xv" id="xvtab" role="tab" tabindex="0" aria-controls="xv" aria-selected="false">
+	<div class="item xv" id="xvtab" role="tab" tabindex="-1" aria-controls="xv" aria-selected="false">
 		<img src="albums/xvico.jpg" class="xvimg" alt="">
 		<div class="detail">
 			<p class="tabtitle">XV</p>
-			<p>2007</p>
+			<time>2007</time>
 		</div>
 	</div>
 		
-	<div class="item sp" id="sptab" role="tab" tabindex="0" aria-controls="sp" aria-selected="false">
+	<div class="item sp" id="sptab" role="tab" tabindex="-1" aria-controls="sp" aria-selected="false">
 		<img src="albums/spico.jpg" class="spimg" alt="Shadow Puppets">
 		<div class="detail">
 			<p class="tabtitle">Shadow Puppets</p>
-			<p>2005</p>
+			<time>2005</time>
 		</div>
 	</div>
 	
-	<div class="item asp" id="asptab" role="tab" tabindex="0" aria-controls="asp" aria-selected="false">
+	<div class="item asp" id="asptab" role="tab" tabindex="-1" aria-controls="asp" aria-selected="false">
 		<img src="albums/asphodelico.jpg" class="aspimg" alt="Asphodel">
 		<div class="detail">
 			<p class="tabtitle">Asphodel</p>
-			<p>2002</p>
+			<time>2002</time>
 		</div>	
 	</div>
 	
-	<div class="item ootm" id="ootmtab" role="tab" tabindex="0" aria-controls="ootm" aria-selected="false">
+	<div class="item ootm" id="ootmtab" role="tab" tabindex="-1" aria-controls="ootm" aria-selected="false">
 		<img src="albums/mistsico.jpg" class="ootmimg" alt="Out of the Mists">
 		<div class="detail">
 			<p class="tabtitle">Out of the Mists</p>
-			<p>2000</p>
+			<time>2000</time>
 		</div>	
 	</div>
 	
-	<div class="item own" id="owntab" role="tab" tabindex="0" aria-controls="own" aria-selected="false">
+	<div class="item own" id="owntab" role="tab" tabindex="-1" aria-controls="own" aria-selected="false">
 		<img src="albums/wintersico.jpg" class="ownimg" alt="One Winter's Night...">
 		<div class="detail">
 			<p class="tabtitle">One Winter&rsquo;s Night&hellip;</p>
-			<p>1999</p>
+			<time>1999</time>
 		</div>	
 	</div>
 	
-	<div class="item uw" id="uwtab" role="tab" tabindex="0" aria-controls="uw" aria-selected="false">
+	<div class="item uw" id="uwtab" role="tab" tabindex="-1" aria-controls="uw" aria-selected="false">
 		<img src="albums/underworldico.jpg" class="uwimg" alt="Underworld">
 		<div class="detail">
 			<p class="tabtitle">Underworld</p>
-			<p>1997</p>
+			<time>1997</time>
 		</div>	
 	</div>
 	
-	<div class="item vs" id="vstab" role="tab" tabindex="0" aria-controls="vs" aria-selected="false">
+	<div class="item vs" id="vstab" role="tab" tabindex="-1" aria-controls="vs" aria-selected="false">
 		<img src="albums/vsico.jpg" class="vsimg" alt="Veils and Shadows EP">
 		<div class="detail">
 			<p class="tabtitle">Veils and Shadows EP</p>
-			<p>1993</p>
+			<time>1993</time>
 		</div>	
 	</div>
-</div> <!-- /accordion -->
+</div>
+<!-- /tabs -->
 
-
+<!-- tabpanels -->
 <section id="songlist" aria-label="Album Samples">
 
-	<div class="songs places" id="places" role="tabpanel" tabindex="-1" aria-labelledby="placestab">
+	<div class="songs places" id="places" role="tabpanel" tabindex="0" aria-labelledby="placestab">
 		<div class="albumcol">
 			<p><a href="places.php"><img src="albums/places.jpg" width="200" height="200" class="cover" alt="more information about Places in Between"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
+				<h2>audio samples</h2>
+				<p><?php do_mp3bc2("coldstorm","Cold Storm"); ?></p>
+				<p><?php do_mp3bc2("beyond","Beyond"); ?></p>
+				<p><?php do_mp3bc2("propheticbird","Prophetic Bird"); ?></p>
+				<p><?php do_mp3bc2("spiritandimage","Spirit and Image"); ?></p>
 			</div>
 			<div class="videocol">
 				<h2>video clips</h2>
-				<p><?php do_video("teaser","Places in Between Teaser"); ?></p>
+				<p><?php do_video("teaser","Places in Between teaser"); ?></p>
 			</div>
 		</div>
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs image" id="image" role="tabpanel" tabindex="-1" aria-labelledby="imagetab">
+	<div class="songs image" id="image" role="tabpanel" tabindex="0" aria-labelledby="imagetab">
 		<div class="albumcol">
-			<p><a href="imageacoustic.php"><img src="albums/imageacoustic.jpg" width="200" height="200" class="cover" alt="more information about Image (acoustic)"></a></p>
+			<p><a href="imageacoustic.php"><img src="albums/imageacoustic.jpg" width="200" height="200" class="cover" alt="more information about Image acoustic"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h2>mp3 samples</h2>
+				<h2>audio samples</h2>
 				<p><?php do_mp3bc2("imageacoustic","Image (acoustic)"); ?></p>
 			</div>
 			<div class="videocol">
@@ -144,13 +152,13 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs baats" id="baats" role="tabpanel" tabindex="-1" aria-labelledby="baatstab">
+	<div class="songs baats" id="baats" role="tabpanel" tabindex="0" aria-labelledby="baatstab">
 		<div class="albumcol">
 			<p><a href="storm.php"><img src="albums/baats.jpg" width="200" height="200" class="cover" alt="more information about Before and After the Storm"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h2>mp3 samples</h2>
+				<h2>audio samples</h2>
 				<p><?php do_mp3bc2("cimmerian","Cimmerian"); ?></p>
 				<p><?php do_mp3bc2("metallic","Metallic"); ?></p>
 				<p><?php do_mp3bc2("powerandprophesy","Power and Prophesy"); ?></p>
@@ -164,13 +172,13 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs vanir" id="vanir" role="tabpanel" tabindex="-1" aria-labelledby="vanirtab">
+	<div class="songs vanir" id="vanir" role="tabpanel" tabindex="0" aria-labelledby="vanirtab">
 		<div class="albumcol">
 			<p><a href="vanir.php"><img src="albums/vanir.jpg" width="200" height="200" class="cover" alt="more information about In the Vanir"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h2>mp3 samples</h2>
+				<h2>audio samples</h2>
 				<p><?php do_mp3bc2("vanirsingle","In the Vanir (single mix)"); ?></p>
 			</div>
 			<div class="videocol">
@@ -179,13 +187,13 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs xv" id="xv" role="tabpanel" tabindex="-1" aria-labelledby="xvtab">
+	<div class="songs xv" id="xv" role="tabpanel" tabindex="0" aria-labelledby="xvtab">
 		<div class="albumcol">
 			<p><a href="xv.php"><img src="albums/xv.jpg" width="200" height="200" class="cover" alt="more information about XV"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h2>mp3 samples</h2>
+				<h2>audio samples</h2>
 				<p><?php do_mp3bc2("sixdays","Six Days"); ?></p>
 				<p><?php do_mp3bc2("mantraremix","Mantra (Shades of Grey Remix)"); ?></p>
 				<p><?php do_mp3bc2("dawnremix","Dawn (On the Rocks Mix)"); ?></p>
@@ -198,13 +206,13 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs sp" id="sp" role="tabpanel" tabindex="-1" aria-labelledby="sptab">
+	<div class="songs sp" id="sp" role="tabpanel" tabindex="0" aria-labelledby="sptab">
 		<div class="albumcol">
 			<p><a href="shadowpuppets.php"><img src="albums/sp.jpg" width="200" height="200" class="cover" alt="more information about Shadow Puppets"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h2>mp3 samples</h2>
+				<h2>audio samples</h2>
 				<p><?php do_mp3bc2("theinsideworld","The Inside World"); ?></p>
 				<p><?php do_mp3bc2("winterfell","Winter Fell"); ?></p>
 				<p><?php do_mp3bc2("mantra","Mantra"); ?></p>
@@ -221,13 +229,13 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs asp" id="asp" role="tabpanel" tabindex="-1" aria-labelledby="asptab">
+	<div class="songs asp" id="asp" role="tabpanel" tabindex="0" aria-labelledby="asptab">
 		<div class="albumcol">
 			<p><a href="asphodel.php"><img src="albums/asphodel.jpg" width="200" height="200" class="cover" alt="more information about Asphodel"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h2>mp3 samples</h2>
+				<h2>audio samples</h2>
 				<p><?php do_mp3bc2("clarity","Clarity"); ?></p>
 				<p><?php do_mp3bc2("dawn","Dawn"); ?></p>
 				<p><?php do_mp3bc2("outside","Outside"); ?></p>
@@ -245,13 +253,13 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs ootm" id="ootm" role="tabpanel" tabindex="-1" aria-labelledby="ootmtab">
+	<div class="songs ootm" id="ootm" role="tabpanel" tabindex="0" aria-labelledby="ootmtab">
 		<div class="albumcol">
 			<p><a href="mists.php"><img src="albums/mists.jpg" width="224" height="200" class="cover" alt="more information about Out of the Mists"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h2>mp3 samples</h2>
+				<h2>audio samples</h2>
 				<p><?php do_mp3bc2("fade","Fade"); ?></p>
 				<p><?php do_mp3bc2("herface","Her Face"); ?></p>
 				<p><?php do_mp3bc2("intrigue","Intrigue"); ?></p>
@@ -268,13 +276,13 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs own" id="own" role="tabpanel" tabindex="-1" aria-labelledby="owntab">
+	<div class="songs own" id="own" role="tabpanel" tabindex="0" aria-labelledby="owntab">
 		<div class="albumcol">
 			<p><a href="winters.php"><img src="albums/winters.jpg" width="224" height="200" class="cover" alt="more information about One Winter's Night..."></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h2>mp3 samples</h2>
+				<h2>audio samples</h2>
 				<p><?php do_mp3bc2("control","Control"); ?></p>
 				<p><?php do_mp3bc2("fallingtoo","Falling, Too"); ?></p>
 				<p><?php do_mp3bc2("fearnomore","Fear No More"); ?></p>
@@ -295,13 +303,13 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs uw" id="uw" role="tabpanel" tabindex="-1" aria-labelledby="uwtab">
+	<div class="songs uw" id="uw" role="tabpanel" tabindex="0" aria-labelledby="uwtab">
 		<div class="albumcol">
 			<p><a href="underworld.php"><img src="albums/underworld.jpg" width="200" height="200" class="cover" alt="more information about Underworld"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h2>mp3 samples</h2>
+				<h2>audio samples</h2>
 				<p><?php do_mp3bc2("finalform","Final Form"); ?></p>
 				<p><?php do_mp3bc2("dreamsoftheabsent","Dreams of the Absent"); ?></p>
 				<p><?php do_mp3bc2("shadowydepths","Shadowy Depths"); ?></p>
@@ -318,13 +326,13 @@
 	</div>
 	<div class="clearleft"></div>
 
-	<div class="songs vs" id="vs" role="tabpanel" tabindex="-1" aria-labelledby="vstab">
+	<div class="songs vs" id="vs" role="tabpanel" tabindex="0" aria-labelledby="vstab">
 		<div class="albumcol">
 			<p><a href="vs.php"><img src="albums/vs.jpg" width="200" height="200" class="cover" alt="more information about Veils and Shadows EP"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
-				<h2>mp3 samples</h2>
+				<h2>audio samples</h2>
 				<p><?php do_mp3bc2("atouchofheaven","A Touch of Heaven"); ?></p>
 				<p><?php do_mp3bc2("darksplinteredheart","Dark Splintered Heart"); ?></p>
 			</div>
@@ -332,17 +340,18 @@
 			</div>	
 		</div>
 	</div>
-</section> <!-- /songlist -->
+</section>
+<!-- /tabpanels -->
 
 
-</main> <!-- /mainbody -->
+</main>
 
 <!-- accordion/tabs javascript -->
 <script type="text/javascript">
 $(document).ready(function() {
 	/* allow arrow usage in accordion */
-	$("#accordion").keydown(function(f) { /* right */
-		if (f.keyCode == 39) {
+	$("#accordion").keydown(function(f) {
+		if (f.keyCode == 39) { /* right */
 			$(".item:focus").next().focus();
 		}
 		if (f.keyCode == 37) { /* left */
@@ -355,105 +364,105 @@ $(document).ready(function() {
 	$("#songlist div.songs.places").show();
 	$("#accordion .item").addClass('fade');
 	$("#accordion .item img").attr("aria-hidden","true");
-	$("#accordion .places").removeClass('fade').attr("aria-selected","true");
+	$("#accordion .places").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 
 	/* all of the click activations */
 	$("#accordion .item.places").on("click keydown",function(e) {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false");
-			$("#accordion .places").removeClass('fade').attr("aria-selected","true");
+			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
+			$("#accordion .places").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.places").show().focus();
+			$("#songlist div.songs.places").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'placesinbetween');
 		}
 	});
 	$("#accordion .item.image").on("click keydown",function(e) {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false");
-			$("#accordion .image").removeClass('fade').attr("aria-selected","true");
+			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
+			$("#accordion .image").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.image").show().focus();
+			$("#songlist div.songs.image").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'image');
 		}
 	});
 	$("#accordion .item.baats").on("click keydown",function(e) {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false");
-			$("#accordion .baats").removeClass('fade').attr("aria-selected","true");
+			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
+			$("#accordion .baats").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.baats").show().focus();
+			$("#songlist div.songs.baats").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'baats');
 		}
 	});
 	$("#accordion .item.vanir").on("click keydown",function(e) {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false");
-			$("#accordion .vanir").removeClass('fade').attr("aria-selected","true");
+			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
+			$("#accordion .vanir").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.vanir").show().focus();
+			$("#songlist div.songs.vanir").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'vanir');
 		}
 	});
 	$("#accordion .item.xv").on("click keydown",function(e) {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false");
-			$("#accordion .xv").removeClass('fade').attr("aria-selected","true");
+			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
+			$("#accordion .xv").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.xv").show().focus();
+			$("#songlist div.songs.xv").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'xv');
 		}
 	});
 	$("#accordion .item.sp").on("click keydown",function(e) {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false");
-			$("#accordion .sp").removeClass('fade').attr("aria-selected","true");
+			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
+			$("#accordion .sp").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.sp").show().focus();
+			$("#songlist div.songs.sp").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'shadowpuppets');
 		}
 	});
 	$("#accordion .item.asp").on("click keydown",function(e) {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false");
-			$("#accordion .asp").removeClass('fade').attr("aria-selected","true");
+			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
+			$("#accordion .asp").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.asp").show().focus();
+			$("#songlist div.songs.asp").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'asphodel');
 		}
 	});
 	$("#accordion .item.ootm").on("click keydown",function(e) {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false");
-			$("#accordion .ootm").removeClass('fade').attr("aria-selected","true");
+			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
+			$("#accordion .ootm").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.ootm").show().focus();
+			$("#songlist div.songs.ootm").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'mists');
 		}
 	});
 	$("#accordion .item.own").on("click keydown",function(e) {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false");
-			$("#accordion .own").removeClass('fade').attr("aria-selected","true");
+			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
+			$("#accordion .own").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.own").show().focus();
+			$("#songlist div.songs.own").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'winters');
 		}
 	});
 	$("#accordion .item.uw").on("click keydown",function(e) {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false");
-			$("#accordion .uw").removeClass('fade').attr("aria-selected","true");
+			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
+			$("#accordion .uw").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.uw").show().focus();
+			$("#songlist div.songs.uw").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'underworld');
 		}
 	});
 	$("#accordion .item.vs").on("click keydown",function(e) {
 		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false");
-			$("#accordion .vs").removeClass('fade').attr("aria-selected","true");
+			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
+			$("#accordion .vs").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.vs").show().focus();
+			$("#songlist div.songs.vs").show();
 			ga('send', 'event', 'MusicPage', 'ArtClick', 'vsep');
 		}
 	});

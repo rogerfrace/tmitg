@@ -111,6 +111,9 @@ $lyricsfile and videoname do not include .html
 
 <section aria-labelledby="reviews">	
 	<h2 id="reviews" tabindex="-1">Reviews of <em>Shadow Puppets</em>:</h2>
+	<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+		<meta itemprop="reviewCount" content="10">
+	</div>
 	<div class="revcontent">
 
 <blockquote cite="http://www.starvox.net/cdr/machine.htm" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">

@@ -18,7 +18,7 @@
 
 <p>we are lost into the fire<br>
 but time is not within our minds<br>
-and words expose the depths within<br>
+and words expose the depth within<br>
 tearing trauma deep inside</p>
 
 <p>searing light dancing by<br>

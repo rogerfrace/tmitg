@@ -29,88 +29,84 @@
 
 <main id="main" class="mainbody">
 
-<section id="leftcolumn" aria-label="Physical Location">
-<h2 class="wai">Physical Location</h2>
-<!-- address card -->
-<address id="hcard-the-Machine-in-the-Garden" class="vcard">
-	<img style="display:none;" src="http://www.tmitg.com/photos/xv1-ico.jpg" alt="photo of " class="photo ariahidden" />
-	<a class="url n ariahidden" id="url" href="http://www.tmitg.com/">  <span class="given-name"></span>
-	<span class="additional-name"></span>
-	<span class="family-name"></span>
-	</a>
-	<div class="org" rel="me">the Machine in the Garden</div>
-	<div class="fn note">Roger Frac&eacute; &amp; <a href="http://www.tmitg.com/summer/" target="_blank">Summer Bowman</a></div>
-	<div class="adr">
-		<span class="locality">Austin</span>, 
-		<span class="region">Texas</span> 
-		<div class="country-name">USA</div>
+<div class="flexwrapper">
+
+	<section id="leftcolumn" aria-label="Physical Location">
+	<h2 class="wai">Physical Location</h2>
+	<!-- address card -->
+	<address>
+		<div class="org" rel="me">the Machine in the Garden</div>
+		<div class="fn note">Roger Frac&eacute; &amp; <a href="http://www.tmitg.com/summer/" target="_blank">Summer Bowman</a></div>
+		<div class="adr">
+			<span class="locality">Austin</span>, 
+			<span class="region">Texas</span> 
+			<div class="country-name">USA</div>
+		</div>
+	</address>
+
+	<!-- /address card -->
+
+	</section> <!-- /leftcolumn -->
+
+	<section id="rightcolumn" aria-label="Email Contact Form">
+
+	<h1>tMitG Email Contact Form</h1>
+
+	<form id="contactForm" action="do_econtact.php" method="post">
+	<small>all fields are required</small>
+
+	<div>
+	<label for="name">Your Name:</label>
+	<input type="text" name="name" id="name" class="required" size="40" maxlength="50" required />
 	</div>
-</address>
 
-<!-- /address card -->
+	<div>
+	<label for="email">Your Email Address:</label>
+	<input type="email" name="email" id="email" class="required email" size="40" maxlength="50" required />
+	</div>
 
-</section> <!-- /leftcolumn -->
+	<div>
+	<label for="to">To:</label>
+	<select name="to" id="to" size="1" class="required" required>
+		<option value="" selected="selected">--Pull down to select contact--</option>
+		<option value="1">the Band</option>
+		<option value="2">Summer</option>
+		<option value="3">Roger</option>
+		<option value="5">Promotional Inquiries</option>
+		<option value="8">Booking</option>
+		<option value="6">Merchandise Order Inquiries</option>
+		<option value="7">Web Site Problems</option>
+	</select>
+	</div>
 
-<!-- ########################################## -->
+	<div>
+	<label for="subject">Subject:</label>
+	<input type="text" name="subject" id="subject" class="required" size="40" maxlength="75" required />
+	</div>
 
-<section id="rightcolumn" aria-label="Email Contact Form">
+	<div>
+	<label for="message">Your Message:</label>
+	<textarea name="message" id="message" class="required" rows="10" cols="38" required></textarea>
+	</div>
 
-<h1>tMitG Email Contact Form</h1>
+	<div class="honey">
+	<label for="honeypot">Enter something here if you're a spammer</label>
+	<input type="text" id="honeypot" name="honeypot">
+	</div>
 
-<form id="contactForm" action="do_econtact.php" method="post">
-<small>all fields are required</small>
+	<div>
+	<input type="hidden" name="timestamp" id="timestamp" value="<?php echo time(); ?>" />
+	<input type="hidden" name="referrer" id="referrer" value="<?php echo $_SERVER['HTTP_REFERER']; ?>" />
 
-<div>
-<label for="name">Your Name:</label>
-<input type="text" name="name" id="name" class="required" size="40" maxlength="50" required />
-</div>
+	<input type="reset" id="reset" value="Reset Form" />
+	<input type="submit" id="submit" value="Submit Contact Form" />
+	</div>
 
-<div>
-<label for="email">Your Email Address:</label>
-<input type="email" name="email" id="email" class="required email" size="40" maxlength="50" required />
-</div>
+	</form>
 
-<div>
-<label for="to">To:</label>
-<select name="to" id="to" size="1" class="required" required>
-	<option value="" selected="selected">--Pull down to select contact--</option>
-	<option value="1">the Band</option>
-	<option value="2">Summer</option>
-	<option value="3">Roger</option>
-	<option value="5">Promotional Inquiries</option>
-	<option value="8">Booking</option>
-	<option value="6">Merchandise Order Inquiries</option>
-	<option value="7">Web Site Problems</option>
-</select>
-</div>
+	</section> <!-- /rightcolumn -->
 
-<div>
-<label for="subject">Subject:</label>
-<input type="text" name="subject" id="subject" class="required" size="40" maxlength="75" required />
-</div>
-
-<div>
-<label for="message">Your Message:</label>
-<textarea name="message" id="message" class="required" rows="10" cols="38" required></textarea>
-</div>
-
-<div class="honey">
-<label for="honeypot">Enter something here if you're a spammer</label>
-<input type="text" id="honeypot" name="honeypot">
-</div>
-
-<div>
-<input type="hidden" name="timestamp" id="timestamp" value="<?php echo time(); ?>" />
-<input type="hidden" name="referrer" id="referrer" value="<?php echo $_SERVER['HTTP_REFERER']; ?>" />
-
-<input type="submit" id="submit" value="Submit" /> <input type="reset" id="reset" value="Reset Form" />
-</div>
-
-</form>
-
-</section> <!-- /rightcolumn -->
-
-<!-- ########################################## -->
+</div> <!-- /flexwrapper -->
 
 <div style="clear:both;"></div>
 </main> <!-- /mainbody -->

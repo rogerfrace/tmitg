@@ -122,6 +122,9 @@ $lyricsfile and videoname do not include .html
 	
 <section aria-labelledby="reviews">	
 	<h2 id="reviews" tabindex="-1">Reviews of <em>Underworld</em>:</h2>
+	<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+		<meta itemprop="reviewCount" content="9">
+	</div>
 	<div class="revcontent">
 
 <blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">

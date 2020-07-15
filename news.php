@@ -46,15 +46,17 @@ if (isset($_GET["item"])) {
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once("headers-additional.php"); ?>
 	<link rel="alternate" type="application/rss+xml" href="/news-rss.xml.php" title="the Machine in the Garden - news" />
-	<link href="https://plus.google.com/111746563913739447111" rel="publisher" />
 	<?php if (check_mobile()==false) { include_once("fblike.html"); } ?>
 </head>
 
 <body id="news">
 	<!-- fb share button -->
-	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=207159742735690&autoLogAppEvents=1" nonce="YigLuG1p"></script>
+	<?php if (check_mobile()==false) {
+		echo '<div id="fb-root"></div>';
+		echo '<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=207159742735690&autoLogAppEvents=1" nonce="YigLuG1p"></script>';
+	} ?>
 	<!-- /fb share button -->
+
 	<span id="skip-links">
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
@@ -70,83 +72,88 @@ if (isset($_GET["item"])) {
 
 <br style="clear:both;" />
 
-<section class="newscolumn">
-<?php
-function display_news($newsnum,$pubdate,$title,$description) {
-	echo "<article>
-		<fieldset style=\"margin-bottom:14px;\" itemprop=\"NewsArticle\" itemscope itemtype=\"http://schema.org/NewsArticle\">
-		<legend><time itemprop=\"datePublished\" datetime=\"".date("Y-m-d",strtotime($pubdate))."\" content=\"".date("Ymd",strtotime($pubdate))."\" style=\"font-family:arial,sans-serif; font-size:1.25em;\">".date("F jS, Y",strtotime($pubdate))."</time></legend>
-        <h1 itemprop=\"headline\">".$title."</h1>
-		<p itemprop=\"articleBody\">".$description."</p>";
-		if (check_mobile()==false) {
-			echo "<div class=\"sharelinks\">";
-				//permalink
-				echo "<div class=\"shareitem\">
-					<a href=\"/news.php?item=".$newsnum."\" itemprop=\"url\" title=\"Permalink\" name=\"Permalink\"><img src=\"images/icon-link.png\" alt=\"Permalink\" /><span class=\"wai\">Permalink</span></a>
-					</div>\n";
-				//facebook share
-				echo "<div class=\"shareitem\"><div class=\"fb-share-button\" data-href=\"http://www.tmitg.com/news.php?item=".$newsnum."\" data-layout=\"button_count\" data-size=\"small\"><a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.tmitg.com%2Fnews.php%3Fitem%3D".$newsnum."&amp;src=sdkpreparse\" class=\"fb-xfbml-parse-ignore\">Share</a></div></div>";
-				//twitter
-				echo "<div class=\"shareitem\"><a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://www.tmitg.com/news.php?item=".$newsnum."\" data-via=\"tmitg\" data-show-count=\"false\">Tweet</a><script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></div>";
-			echo "</div> <!--/sharelinks-->";
-		}
-	echo "</fieldset>
-	</article>";
-}
+<div class="flexwrapper">
 
-$newsnum = !empty($_GET['item']) ? $_GET['item'] : '';
-
-if ($newsnum != "") {
-// single display
-	include_once("newsitems/".$newsnum.".php");
-	display_news($newsnum,$pubdate,$title,$description);
-	echo "<a href=\"/news.php\">Show all news</a>";
-} else {
-// multi-display
-	$newsdir = "newsitems";
-	$myDirectory = opendir($newsdir);
-	while($entryName = readdir($myDirectory)) {
-		$dirArray[] = $entryName;
+	<section class="newscolumn">
+	<?php
+	function display_news($newsnum,$pubdate,$title,$description) {
+		echo "<article>
+			<fieldset style=\"margin-bottom:14px;\" itemprop=\"NewsArticle\" itemscope itemtype=\"http://schema.org/NewsArticle\">
+			<legend><time itemprop=\"datePublished\" datetime=\"".date("Y-m-d",strtotime($pubdate))."\" content=\"".date("Ymd",strtotime($pubdate))."\" style=\"font-family:arial,sans-serif; font-size:1.25em;\">".date("F jS, Y",strtotime($pubdate))."</time></legend>
+			<h1 itemprop=\"headline\">".$title."</h1>
+			<p itemprop=\"articleBody\">".$description."</p>";
+			if (check_mobile()==false) {
+				echo "<div class=\"sharelinks\">";
+					//permalink
+					echo "<div class=\"shareitem\">
+						<a href=\"/news.php?item=".$newsnum."\" itemprop=\"url\" title=\"Permalink\" name=\"Permalink\"><i class=\"fa fa-link\" aria-hidden=\"true\"></i></a>
+						</div>\n";
+					//facebook share
+					echo "<div class=\"shareitem\"><div class=\"fb-share-button\" data-href=\"http://www.tmitg.com/news.php?item=".$newsnum."\" data-layout=\"button_count\" data-size=\"small\"><a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.tmitg.com%2Fnews.php%3Fitem%3D".$newsnum."&amp;src=sdkpreparse\" class=\"fb-xfbml-parse-ignore\" aria-label=\"Share on Facebook\">Share</a></div></div>";
+					//twitter
+					echo "<div class=\"shareitem\"><a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://www.tmitg.com/news.php?item=".$newsnum."\" data-via=\"tmitg\" data-show-count=\"false\">Tweet</a><script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></div>";
+				echo "</div> <!--/sharelinks-->";
+			}
+		echo "</fieldset>
+		</article>";
 	}
-	closedir($myDirectory);
-	//I think this means I'm displaying the 20 most recent items
-	$indexCount = (count($dirArray) < 20 ? count($dirArray) : 20);
-	
-	rsort($dirArray);
-	for($index=0; $index < $indexCount; $index++) {
-		if (substr("$dirArray[$index]", 0, 1) != ".") { // don't list hidden files
-			unset($pubdate);
-			unset($title);
-			unset($description);
-			include($newsdir.'/'.$dirArray[$index]);
-			$newsnum = str_replace(".php","",$dirArray[$index]);
-			display_news($newsnum,$pubdate,$title,$description);
+
+	$newsnum = !empty($_GET['item']) ? $_GET['item'] : '';
+
+	if ($newsnum != "") {
+	// single display
+		include_once("newsitems/".$newsnum.".php");
+		display_news($newsnum,$pubdate,$title,$description);
+		echo "<a href=\"/news.php\">Show all news</a>";
+	} else {
+	// multi-display
+		$newsdir = "newsitems";
+		$myDirectory = opendir($newsdir);
+		while($entryName = readdir($myDirectory)) {
+			$dirArray[] = $entryName;
+		}
+		closedir($myDirectory);
+		//I think this means I'm displaying the 15 most recent items
+		$indexCount = (count($dirArray) < 15 ? count($dirArray) : 15);
+  
+		rsort($dirArray);
+		for($index=0; $index < $indexCount; $index++) {
+			if (substr("$dirArray[$index]", 0, 1) != ".") { // don't list hidden files
+				unset($pubdate);
+				unset($title);
+				unset($description);
+				include($newsdir.'/'.$dirArray[$index]);
+				$newsnum = str_replace(".php","",$dirArray[$index]);
+				display_news($newsnum,$pubdate,$title,$description);
+			}
 		}
 	}
-}
-?>
-</section>
+	?>
+	</section>
 
-<aside class="rightcolumn">
+	<aside class="rightcolumn">
 
-	<div class="fbblock">
-	<?php if (check_mobile()==false): ?>
-		<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftmitg%2F&tabs=timeline&width=300&height=750&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=121619441387" width="300" height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-	<?php endif; ?>
-	</div>
-	
-	<div class="twitterblock">
-	<?php if (check_mobile()==false): ?>
-		<a class="twitter-timeline" data-width="300" data-height="750" href="https://twitter.com/tmitg">Tweets by tmitg</a>
-		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-	<?php endif; ?>
-	</div>
-	
-</aside> <!-- /rightcolumn -->
+		<div class="fbblock">
+		<?php if (check_mobile()==false): ?>
+			<iframe title="tMitG Facebook feed" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftmitg%2F&tabs=timeline&width=300&height=750&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=121619441387" width="300" height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+		<hr>
+		<?php endif; ?>
+		</div>
+  
+		<div class="twitterblock">
+		<?php if (check_mobile()==false): ?>
+			<a class="twitter-timeline" data-width="300" data-height="750" href="https://twitter.com/tmitg">Tweets by tmitg</a>
+			<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<?php endif; ?>
+		</div>
+  
+	</aside> <!-- /rightcolumn -->
+
+</div> <!-- /flexwrapper -->
 
 <br style="clear:both;" />
 
-</main> <!-- /mainbody -->
+</main>
 
 </body>
 </html>

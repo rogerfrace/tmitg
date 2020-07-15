@@ -114,6 +114,9 @@ $lyricsfile and videoname do not include .html
 
 <section aria-labelledby="reviews">	
 	<h2 id="reviews" tabindex="-1">Reviews of <em>Out of the Mists</em>:</h2>
+	<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+		<meta itemprop="reviewCount" content="1">
+	</div>
 	<div class="revcontent">
 
 <blockquote cite="http://music.gothic.ru/review/07-03-01_e.htm" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">

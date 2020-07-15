@@ -97,7 +97,7 @@ jQuery(document).ready(function() {
 	// convert aria classes to roles and states
 	jQuery(".ariahidden").attr("aria-hidden","true");
 
-	if (jQuery.isFunction(window.colorbox)) {
+	if (jQuery().colorbox) {
 		// colorbox activation (non-photos), only if loaded (non-mobile)
 		jQuery(".lyriclink").colorbox({iframe:'true', returnFocus:'true', rel:'lyrics', transition:"fade", width:"400px", height:"80%"});
 		jQuery(".musiclink").colorbox({iframe:'true', returnFocus:'true', rel:'music', transition:"fade", width:"380px", height:"520px"});

@@ -51,6 +51,8 @@
 
 <li><a href="underworld.php" title="Underworld"><img src="albums/underworldico.jpg" alt="Underworld"></a></li>
 
+<li><a href="vsremix.php" title="Veils and Shadows Remixes"><img src="albums/vsremixico.jpg" alt="Veils and Shadows Remixes"></a></li>
+
 <li><a href="vs.php" title="Veils and Shadows EP"><img src="albums/vsico.jpg" alt="Veils and Shadows EP"></a></li>
 </ul>
 </section>

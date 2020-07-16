@@ -19,13 +19,19 @@
 <?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<div class="mainbody" role="main">
+<main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
+	<meta itemprop="albumReleaseType" content="album">
+	<meta itemprop="albumProductionType" content="StudioAlbum">
+	<meta itemprop="numTracks" content="12">
+	<meta itemprop="byArtist" content="the Machine in the Garden" />
+	<meta itemprop="genre" content="gothic" />
+	<meta itemprop="inLanguage" content="en" />
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
 	<div><img src="albums/wapfuu2.jpg" alt="When Angels Peer Favorably Upon Us, Volume Two album cover" class="albumimg" itemprop="image" /></div>
-	<h1>When Angels Peer Favorably Upon Us, Volume Two</h1>
-	<p class="notopmargin">&copy;2001<br>
+	<h1 itemprop="name">When Angels Peer Favorably Upon Us, Volume Two</h1>
+	<p class="notopmargin">&copy;<span itemprop="copyrightYear">2001</span><br>
 	mp3.com CD released 2001</p>
 
 </section> <!-- end album info div -->
@@ -36,7 +42,7 @@
 <table role="grid" aria-label="track list">
 	<caption class="wai">Track listing for "When Angels Peer Favorably Upon Us, Volume Two"</caption>
 	<thead>
-		<tr role="row">
+		<tr>
 			<th scope="col" class="wai">Track Number</th>
 			<th scope="col" class="wai">Track Title</th>
 			<th scope="col" class="wai">Lyrics</th>
@@ -44,7 +50,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody>
+	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html
@@ -66,7 +72,7 @@ $lyricsfile and videoname do not include .html
 	<td colspan="5" style="border-top: 1px solid black; margin-top: 10px;">
 		<small>* Available (remastered) on <a href="xv.php"><i>XV</i></a></small><br>
 		<small>&deg; Available on <a href="miscellany.php"><i>Miscellany</i></a></small><br>
-		<small>&dagger; Available on <a href="https://tmitg.bandcamp.com/album/veils-and-shadows-remixes"><i>Veils and Shadows Remixes</i></a></small>
+		<small>&dagger; Available on <a href="vsremix.php"><i>Veils and Shadows Remixes</i></a></small>
 	</td>
 	</tr>
 
@@ -75,7 +81,7 @@ $lyricsfile and videoname do not include .html
 </div> <!-- end tracklist div -->
 
 <div class="clearboth"></div>
-</div> <!-- /mainbody -->
+</main> <!-- /mainbody -->
 
 </body>
 </html>

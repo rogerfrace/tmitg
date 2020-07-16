@@ -8,11 +8,9 @@
 </head>
 
 <body id="discog">
-	<nav aria-label="Skip Links" class="wai" id="skip-links">
-		<a href="#discog_topnav">Skip to Discography Sub Navigation</a>
-		<a href="#discog_albuminfo">Skip to Album Info</a>
-		<a href="#discog_tracklist">Skip to Track Listing</a>
-	</nav>
+	<span id="skip-links">
+		<a class="wai" href="#main">Skip to Main</a>
+	</span>
 
 <?php get_header(); ?>
 
@@ -54,18 +52,19 @@ $lyricsfile and videoname do not include .html
 <?php do_songtitle(1,"Machinery <i>mind/body mix</i>&deg;",NULL,NULL,NULL,NULL); ?>
 <?php do_songtitle(2,"Cut Me <i>version 1</i>","cutme",NULL,NULL,NULL); ?>
 <?php do_songtitle(3,"Six Days*","sixdays",NULL,NULL,NULL); ?>
-<?php do_songtitle(4,"CryGods <i>falling rain</i>","crygods",NULL,NULL,NULL); ?>
+<?php do_songtitle(4,"CryGods <i>falling rain</i>&dagger;","crygods",NULL,NULL,NULL); ?>
 <?php do_songtitle(5,"Ex Oblivione <i>version 1</i>*","exoblivione",NULL,NULL,NULL); ?>
 <?php do_songtitle(6,"Oblician <i>&eacute;ire mix</i>*","oblician",NULL,NULL,NULL); ?>
 <?php do_songtitle(7,"Words in Heaven Lost <i>version 1</i>","wordsinheavenlost",NULL,NULL,NULL); ?>
 <?php do_songtitle(8,"Dreams of the Absent <i>orchestral</i>&deg;","dreamsoftheabsent",NULL,NULL,NULL); ?>
 <?php do_songtitle(9,"Walls*","walls",NULL,NULL,NULL); ?>
-<?php do_songtitle(10,"Heavenly Dub",NULL,NULL,NULL,NULL); ?>
+<?php do_songtitle(10,"Heavenly Dub&dagger;",NULL,NULL,NULL,NULL); ?>
 
 	<tr>
 	<td colspan="5" style="border-top: 1px solid black; margin-top: 10px;">
-	<span style="font-size:90%;">* Available (remastered) on <a href="xv.php"><i>XV</i></a></span><br>
-	<span style="font-size:90%;">&deg; Available on <a href="miscellany.php"><i>Miscellany</i></a></span>
+		<small>* Available (remastered) on <a href="xv.php"><i>XV</i></a></small><br>
+		<small>&deg; Available on <a href="miscellany.php"><i>Miscellany</i></a></small>
+		<small>&dagger; Available on <a href="https://tmitg.bandcamp.com/album/veils-and-shadows-remixes"><i>Veils and Shadows Remixes</i></a></small>
 	</td>
 	</tr>
 

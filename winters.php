@@ -52,7 +52,7 @@
     <div><img src="albums/winters.jpg" alt="One Winter's Night album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">One Winter's Night&hellip;</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">MPP999</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">1999</span><br />full-length CD released <time datetime="1999-05" itemprop="datePublished">May 1999</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">MPP999</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">1999</span><br />full-length CD released <time datetime="1999-05" itemprop="datePublished">May 1999</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>
 </section> <!-- end album info div -->

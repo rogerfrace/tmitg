@@ -49,7 +49,7 @@
 	<div><img src="albums/vanir.jpg" alt="In the Vanir album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">In the Vanir</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">dxm-004-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2010</span><br />Digital Single released <time datetime="2010-12-10" itemprop="datePublished">10 December 2010</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-004-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2010</span><br />Digital Single released <time datetime="2010-12-10" itemprop="datePublished">10 December 2010</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 </section> <!-- end album info div -->

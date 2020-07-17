@@ -52,7 +52,7 @@
 	<div><img src="albums/mists.jpg" alt="Out of the Mists album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Out of the Mists</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">MPP994</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2000</span><br />full-length enhanced CD released <time datetime="2000-12" itemprop="datePublished">December 2000</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">MPP994</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2000</span><br />full-length enhanced CD released <time datetime="2000-12" itemprop="datePublished">December 2000</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>	
 </section> <!-- end album info div -->

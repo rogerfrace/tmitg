@@ -49,7 +49,7 @@
 	<div><img src="albums/miscellany.jpg" alt="Miscellany album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Miscellany</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">dxm-006-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2014</span><br />rarities collection released <time datetime="2014-10-31" itemprop="datePublished">31 October 2014</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-006-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2014</span><br />rarities collection released <time datetime="2014-10-31" itemprop="datePublished">31 October 2014</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 </section> <!-- end album info div -->

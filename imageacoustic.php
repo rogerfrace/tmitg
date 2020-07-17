@@ -49,7 +49,7 @@
 	<div><img src="albums/imageacoustic.jpg" alt="Image (acoustic) album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Image (acoustic)</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">dxm-007-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2017</span><br />Digital Single released <time datetime="2017-12-16" itemprop="datePublished">16 December 2017</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-007-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2017</span><br />Digital Single released <time datetime="2017-12-16" itemprop="datePublished">16 December 2017</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 </section> <!-- end album info div -->

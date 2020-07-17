@@ -52,7 +52,7 @@
 	<div><img src="albums/underworld.jpg" alt="Underworld album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Underworld</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">dxm-001-cd</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">1997</span><br />
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-001-cd</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">1997</span><br />
 		full-length CD released <time datetime="1997-12-16" itemprop="datePublished">16 December 1997</time><br />
 		Out of print.<br />
 		*A limited quantity was re-released in<br />

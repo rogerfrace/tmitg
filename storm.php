@@ -53,11 +53,11 @@
 	<h1 itemprop="name">Before and After the Storm</h1>
 
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">dxm-005-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2011</span><br />Digital Album released <time datetime="2011-06-24" itemprop="datePublished">24 June 2011</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-005-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2011</span><br />Digital Album released <time datetime="2011-06-24" itemprop="datePublished">24 June 2011</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p>(<span itemprop="catalogNumber" aria-label="catalog number">dxm-005-cdse</span>) <span itemprop="about">Special Edition CD</span> released <time datetime="2011-07-13" itemprop="datePublished">13 July 2011</time></p>
+		<p>(<span itemprop="catalogNumber">dxm-005-cdse</span>) <span itemprop="about">Special Edition CD</span> released <time datetime="2011-07-13" itemprop="datePublished">13 July 2011</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>
 

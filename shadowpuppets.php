@@ -52,7 +52,7 @@
     <div><img src="albums/sp.jpg" alt="Shadow Puppets album cover" class="albumimg" itemprop="image" /></div>
  	<h1 itemprop="name">Shadow Puppets</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber" aria-label="catalog number">MPP975</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2005</span><br />full-length CD released <time datetime="2005-04" itemprop="datePublished">April 2005</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">MPP975</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2005</span><br />full-length CD released <time datetime="2005-04" itemprop="datePublished">April 2005</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>
 </section> <!-- end album info div -->

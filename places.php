@@ -52,11 +52,11 @@
 	<h1 itemprop="name">Places in Between</h1>
 
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-008-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2020</span><br />Digital Album released <time datetime="2020-07-10" itemprop="datePublished">July 10, 2020</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-008-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2020</span><br />Digital Album released <time datetime="2020-07-10" itemprop="datePublished">10 July 2020</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p>(<span itemprop="catalogNumber">dxm-008-cd</span>) <span itemprop="about">Limited Edition CD</span> to be released <time datetime="2020-07-21" itemprop="datePublished">July 21, 2020</time></p>
+		<p>(<span itemprop="catalogNumber">dxm-008-cd</span>) <span itemprop="about">Limited Edition CD</span> released <time datetime="2020-07-21" itemprop="datePublished">21 July 2020</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>
 

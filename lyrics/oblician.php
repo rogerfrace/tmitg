@@ -21,7 +21,8 @@ the house of desire<br>
 today we fall from eden<br>
 into the realm of fire</p>
 
-<p>scratch my eyes out with fingers like claws<br>
+<p>scratch my eyes out<br>
+with fingers like claws<br>
 let me see the truth i deny<br>
 the temptation of sinning</p>
 

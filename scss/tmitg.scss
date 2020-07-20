@@ -109,8 +109,24 @@ address {
 	font-style: normal;
 }
 
-small {font-size:66%;}
-footer small {color:$ltgray; margin-left:1em;}
+small {
+	display:block;
+	font-size:66%;
+	line-height:auto;
+}
+footer small {
+	color:$ltgray;
+	margin-left:1em;
+}
+footer small {
+	a {color:$ltgray;}
+	a:link {color:$ltgray;}
+	a:visited {color:$ltgray;}
+	a:hover {color:$ltgray;}
+	a:active {color:$ltgray;}
+	a:focus {color:$ltgray;}
+}
+
 .block {display:block;}
 
 .notopmargin {

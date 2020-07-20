@@ -12,11 +12,11 @@
 
 <?php get_header(); ?>
 
-<main>
+<main id="main" class="mainbody">
 
 <h1>Policies</h1>
 
-<small>Last updated July 8, 2020</small>
+<small>Last updated July 20, 2020</small>
 
 <h2>Return Policy</h2>
 <p>Unopened CDs may be returned within 30 days for a full refund less shipping. Shipping charges are not refundable. Opened CDs may only be returned in the event of a defective CD. If your CD is defective, we will pay return shipping and we will pay to ship a new CD to you.</p>
@@ -37,6 +37,8 @@
 <h2>Terms of Service</h2>
 <p>No guarantees are made regarding quality, compatibility, functionality or content of this website &mdash; we simply do our best to be as cross-compatible, accessible and user-friendly as possible. If you discover any problems with out website, please <a href="contact.php">contact us</a>.</p>
 
+<h2>Trademark Notice</h2>
+<p>the Machine in the Garden&reg; is a registered trademark of Summer and Roger Frace.</p>
 </main>
 
 </body>

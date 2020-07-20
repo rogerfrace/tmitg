@@ -18,7 +18,7 @@
 <?php get_header(); ?>
 
 <main id="main" class="mainbody">
-<h1 class="wai"><abbr title="the Machine in the Garden">tMitG</abbr> Biography</h1>
+<h1 class="wai">the Machine in the Garden Biography</h1>
 
 <div class="twocols">
 <p>The Machine in the Garden is a gothic/darkwave duo featuring Roger Frac&eacute; and Summer Bowman. Since their formation, Roger and Summer have developed and advanced their unique style through years of collaborating and intertwining their musical tastes.</p>
@@ -34,6 +34,11 @@
 <p>Nine years later and the band is back with thirteen new songs exploring the variety of styles&mdash;from goth rock to electronic ethereal&mdash;the band is known for. Coming in at over an hour in length, <i>Places in Between</i> is chock full of epic electronics, sweeping guitars and shining vocals. The album has everything fans have come to appreciate about the band in their nearly 30 year history, while still sounding elevated and modern.</p>
 
 <p>The name &ldquo;the Machine in the Garden&rdquo; refers to the progress of technology and its relationship with nature. Each release explores this relationship between the mechanical, natural, and spiritual worlds. Ever evolving and pushing the limits of the ethereal/darkwave genre, the Machine in the Garden strives to explore all aspects of electronic music while composing songs that endure.</p>
+
+<hr>
+
+<small>the Machine in the Garden&reg; is a registered trademark of Summer and Roger Frace.</small>
+
 </div> <!-- /twocols -->
 
 </main> <!-- /mainbody -->

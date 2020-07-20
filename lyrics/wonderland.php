@@ -44,7 +44,7 @@ another year older</p>
 <p>why we always soon forget<br>
 with no reason<br>
 how low we are again<br>
-taken with the seasons</p>
+gone with the seasons</p>
       
 </body>
 </html>

@@ -124,8 +124,7 @@
 <h2 id="availability" tabindex="-1" style="display:inline;"><abbr title="the Machine in the Garden">tMitG</abbr> releases are available from </h2>
 <p style="display:inline;"><a href="merch.php">us directly</a>,
 <a href="http://astore.amazon.com/themachininth-20" onclick="ga('send', 'event', 'outbound', 'DiscogPage', 'Amazon');" target="_blank">Amazon.com</a><img src="http://www.assoc-amazon.com/e/ir?t=themachininth-20&amp;l=ur2&amp;o=1" width="1" height="1" alt="" style="border:none !important; margin:0px !important;">, 
-<a href="http://www.projekt.com/store/?s=machine+in+the+garden&amp;post_type=product" onclick="ga('send', 'event', 'outbound', 'DiscogPage', 'Projekt');" target="_blank">Projekt</a>, 
-<a href="links.php#cds">various other online retailers</a> and fine independent music stores around the globe.</p>
+and through <a href="https://support.cdbaby.com/hc/en-us/articles/209422346-What-is-your-Physical-Distribution-Program-" onclick="ga('send', 'event', 'outbound', 'DiscogPage', 'CDBaby');">CD Baby's Physical Distribution Program</a>.</p>
 </section>
 
 </main> <!-- /mainbody -->

@@ -92,7 +92,7 @@ $lyricsfile and videoname do not include .html
 	<hr />
 	
 <section aria-labelledby="reviews">	
-	<h2 id="reviews" tabindex="-1">Reviews of <em>Image (acoustic)</em>:</h2>
+	<h2 id="reviews" tabindex="-1">Reviews of <i>Image (acoustic)</i>:</h2>
 	<div class="revcontent">
 
 <blockquote cite="http://pingthings.blogspot.com/2011/01/top-ten-for-2010.html" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">

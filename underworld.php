@@ -121,7 +121,7 @@ $lyricsfile and videoname do not include .html
 	<hr />
 	
 <section aria-labelledby="reviews">	
-	<h2 id="reviews" tabindex="-1">Reviews of <em>Underworld</em>:</h2>
+	<h2 id="reviews" tabindex="-1">Reviews of <i>Underworld</i>:</h2>
 	<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
 		<meta itemprop="reviewCount" content="9">
 	</div>

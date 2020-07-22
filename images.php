@@ -352,23 +352,23 @@ do_photo('tmitgpic3','1992');
 <section>
 <h2>Photo credits:</h2>
 <ul class="credits">
-	<li>1992: <em>Veils and Shadows EP</em> promo photos - Roland Raquet</li>
-	<li>1993: <em>Veils and Shadows EP</em> promo photos - Cinimin</li>
+	<li>1992: <i>Veils and Shadows EP</i> promo photos - Roland Raquet</li>
+	<li>1993: <i>Veils and Shadows EP</i> promo photos - Cinimin</li>
 	<li>1994: live in Louisville, KY - Tig</li>
 	<li>1995: live at Convergence I, Chicago, IL - E. Katie Holm; promo photo - William Scalia</li>
 	<li>1996: promo photos - Denise Rogers</li>
-	<li>1997: <em>Underworld</em> promo photo - Celine Donnelly; live in Denver, CO - Celine Donnelly; live in San Francisco, CA - Jessie Therriault</li>
+	<li>1997: <i>Underworld</i> promo photo - Celine Donnelly; live in Denver, CO - Celine Donnelly; live in San Francisco, CA - Jessie Therriault</li>
 	<li>1999: promo photos - Donna Clancy-Goertz</li>
-	<li>2000: "The Unaware" video shoot behind the scenes - Donna Clancy-Goertz; live in Dallas, TX - Clancy-Goertz; <em>Out of the Mists</em> promo photos - Donna Clancy-Goertz</li>
+	<li>2000: "The Unaware" video shoot behind the scenes - Donna Clancy-Goertz; live in Dallas, TX - Clancy-Goertz; <i>Out of the Mists</i> promo photos - Donna Clancy-Goertz</li>
 	<li>2001: live in Los Angeles, CA - Dru and Wayne; promo photos - Donna Clancy-Goertz</li>
-	<li>2002: live at GothCon 2002, New Orleans, LA - James Babbo; <em>Asphodel</em> promo photos - Donna Clancy-Goertz</li>
-	<li>2005: <em>Shadow Puppets</em> promo photos - Roger Frac&eacute; and Summer Bowman; live in Charlottesville, VA  - Chad Van Pelt</li>
+	<li>2002: live at GothCon 2002, New Orleans, LA - James Babbo; <i>Asphodel</i> promo photos - Donna Clancy-Goertz</li>
+	<li>2005: <i>Shadow Puppets</i> promo photos - Roger Frac&eacute; and Summer Bowman; live in Charlottesville, VA  - Chad Van Pelt</li>
 	<li>2006: live at Elysium, Austin, TX - Cindy Chang-Fricke</li>
-	<li>2007: <em>XV</em> photoshoot - Cindy Chang-Fricke</li>
-	<li>2011: <em>Before and After the Storm</em> photoshoot - Roger Frac&eacute; and Summer Bowman</li>
+	<li>2007: <i>XV</i> photoshoot - Cindy Chang-Fricke</li>
+	<li>2011: <i>Before and After the Storm</i> photoshoot - Roger Frac&eacute; and Summer Bowman</li>
 	<li>2013: live at Elysium, Austin, TX - John Nuncio</li>
 	<li>2015: Mirabilis live at Secret Oktober, Austin, TX - Phil Schafer</li>
-	<li>2020: <em>Places in Between</em> photoshoot - Roger Frac&eacute; and Summer Bowman</li>
+	<li>2020: <i>Places in Between</i> photoshoot - Roger Frac&eacute; and Summer Bowman</li>
 </ul>
 </section>
 

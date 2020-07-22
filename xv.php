@@ -115,7 +115,7 @@ $lyricsfile and videoname do not include .html
 	<hr />
 
 <section aria-labelledby="reviews">	
-	<h2 id="reviews" tabindex="-1">Reviews of <em>XV</em>:</h2>
+	<h2 id="reviews" tabindex="-1">Reviews of <i>XV</i>:</h2>
 	<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
 		<meta itemprop="reviewCount" content="5">
 	</div>
@@ -153,15 +153,15 @@ $lyricsfile and videoname do not include .html
 <blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
-<p>A collection of rare tracks, remixes, and demos spanning the duo's 15-year existence, <em>XV</em> acts as proof that the world of darkwave music is a better place for having The Machine in the Garden.</p>
+<p>A collection of rare tracks, remixes, and demos spanning the duo's 15-year existence, <i>XV</i> acts as proof that the world of darkwave music is a better place for having The Machine in the Garden.</p>
 
-<p>For any band to last longer than a decade is something of an achievement, so it is with no small amount of pride that The Machine in the Garden should release the appropriately titled <em>XV</em> as a retrospective of their work. Not unlike their contemporaries, fellow darkwavers Faith and the Muse did with their <em>Vera Causa</em> release, the duo of Summer Bowman and Roger Frac&eacute; opted not simply to release a "greatest hits" or "best of," but rather a collection of alternate mixes, demos, and rarities, with two new songs serving as bookends; an intriguing move, but one that cements <em>XV</em> as an excellent sampler for those unfamiliar with The Machine in the Garden and longtime fans alike.</p>
+<p>For any band to last longer than a decade is something of an achievement, so it is with no small amount of pride that The Machine in the Garden should release the appropriately titled <i>XV</i> as a retrospective of their work. Not unlike their contemporaries, fellow darkwavers Faith and the Muse did with their <i>Vera Causa</i> release, the duo of Summer Bowman and Roger Frac&eacute; opted not simply to release a "greatest hits" or "best of," but rather a collection of alternate mixes, demos, and rarities, with two new songs serving as bookends; an intriguing move, but one that cements <i>XV</i> as an excellent sampler for those unfamiliar with The Machine in the Garden and longtime fans alike.</p>
 
 <p>Beginning with the first of the two new songs, "Mental Wasteland" waltzes its way through your speakers with everything one could expect from the band: ethereal moods and electronics complemented by gritty, psychedelic guitars and beats that are danceable yet conservative, topped off by Bowman's majestic and melodious vocals. "Otherworld" closes the record out with a slow marching rhythm and ringing guitar and thrumming bass tones befitting any gothic dirge by The Cure, while Bowman's operatic swells enchant the listener as wonderfully as ever, holding the listener's attention throughout the six-minute length.</p>
 
-<p>Of the other tracks on <em>XV</em>, several of the remixes have appeared on past releases, though the Shades of Grey remix of "Mantra" by Ego Likeness is worthy of mention with the wax and wane of oscillating synths and a steadily building dance beat, bridging the two bands' already similar styles into an enjoyable club track. The real treat here is the unreleased tracks, such as "Six Days" from the <em>One Winter's Night...</em> sessions, which begins with a m&eacute;lange of tribal percussion effects giving way to those quintessentially morose melodies and glasslike shards of guitars for good measure, while "Voice" displays Frac&eacute;'s own emotive vocals amidst a waltzing cadence of ambient, discordant guitars.</p>
+<p>Of the other tracks on <i>XV</i>, several of the remixes have appeared on past releases, though the Shades of Grey remix of "Mantra" by Ego Likeness is worthy of mention with the wax and wane of oscillating synths and a steadily building dance beat, bridging the two bands' already similar styles into an enjoyable club track. The real treat here is the unreleased tracks, such as "Six Days" from the <i>One Winter's Night...</i> sessions, which begins with a m&eacute;lange of tribal percussion effects giving way to those quintessentially morose melodies and glasslike shards of guitars for good measure, while "Voice" displays Frac&eacute;'s own emotive vocals amidst a waltzing cadence of ambient, discordant guitars.</p>
 
-<p>We even have an unreleased cover of The Sisters of Mercy's "On the Wire," and the out-of-tune acoustic guitar demo of "Every Thing She Is" adds a certain intimate charm to the proceedings, making <em>XV</em> an excellent collection of music overall. Just about the only thing missing here is a live track or two to provide newcomers with a taste of the duo's prowess in concert. Still, the world of darkwave music is a better place for having The Machine in the Garden in it; the proof is in <em>XV</em>.</p>
+<p>We even have an unreleased cover of The Sisters of Mercy's "On the Wire," and the out-of-tune acoustic guitar demo of "Every Thing She Is" adds a certain intimate charm to the proceedings, making <i>XV</i> an excellent collection of music overall. Just about the only thing missing here is a live track or two to provide newcomers with a taste of the duo's prowess in concert. Still, the world of darkwave music is a better place for having The Machine in the Garden in it; the proof is in <i>XV</i>.</p>
 </div>
 <p>-<span itemprop="author">Ilker Y&uuml;cel</span>, <a href="http://www.regenmag.com/" target="_blank"><span itemprop="publication">Re-Gen Magazine</span></a></p>
 </blockquote>

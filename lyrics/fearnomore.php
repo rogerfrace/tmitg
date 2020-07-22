@@ -16,7 +16,7 @@
 
 <h1>Fear No More</h1> 
 
-<p><i>Words from <em>Cymbeline</em> by Shakespeare, adapted by Summer Bowman</i></p>
+<p><i>Words from <i>Cymbeline</i> by Shakespeare, adapted by Summer Bowman</i></p>
 
 <p>fear no more the heat 'o the sun<br>
 nor the furious winters rages<br>

@@ -15,7 +15,7 @@
 <body id="lyrics">
 
 <h1>Twenty Shadows</h1>
-<h3>words from <em>Richard II</em> by Shakespeare. adapted by Summer Bowman</h3>
+<h3>words from <i>Richard II</i> by Shakespeare. adapted by Summer Bowman</h3>
 
 <p>each substance of grief, hath twenty shadows<br>
 which shows like grief itself, but is not so<br>

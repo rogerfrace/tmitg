@@ -116,7 +116,7 @@ $lyricsfile and videoname do not include .html
 	<hr />
 
 <section>
-	<h2 id="recognition">Recognition for <em>Before and After the Storm</em>:</h2>
+	<h2 id="recognition">Recognition for <i>Before and After the Storm</i>:</h2>
 	
 	<p>#3 on "<a href="http://theskysgoneout.org/post/14063746480/tsgo-2011-a-darker-shade-of-pagans-top-ten-of-2011" rel="external">A Darker Shade of Pagan's Top Ten of 2011</a>"</p>
 	<p>#3 on "<a href="http://theskysgoneout.org/post/14402004999/tsgo-2011-top-twenty-goth-darkwave-albums-of-2011" rel="external">Top Twenty Goth/Darkwave Albums of 2011</a>"</p>
@@ -126,7 +126,7 @@ $lyricsfile and videoname do not include .html
 	<hr />
 
 <section aria-labelledby="reviews">	
-	<h2 id="reviews" tabindex="-1">Reviews of <em>Before and After the Storm</em>:</h2>
+	<h2 id="reviews" tabindex="-1">Reviews of <i>Before and After the Storm</i>:</h2>
 	<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
 		<meta itemprop="reviewCount" content="7">
 	</div>
@@ -246,11 +246,11 @@ $lyricsfile and videoname do not include .html
 <blockquote cite="http://www.headfullofnoise.com/2012/05/review-the-machine-in-the-garden-before-and-after-the-storm/" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
-<p>The Machine in the Garden is a gothic/darkwave duo featuring Roger Frac&eacute; and Summer Bowman. Initially a solo endeavor by Roger Frac&eacute;, the band&rsquo;s debut, 1994&rsquo;s <em>Veils and Shadows</em> EP, blended the dark elements of goth with new wave and industrial tinges. Summer Bowman joined Frac&eacute; in 1997 for their first full-length album, <em>Underworld</em>.</p>
+<p>The Machine in the Garden is a gothic/darkwave duo featuring Roger Frac&eacute; and Summer Bowman. Initially a solo endeavor by Roger Frac&eacute;, the band&rsquo;s debut, 1994&rsquo;s <i>Veils and Shadows EP</i>, blended the dark elements of goth with new wave and industrial tinges. Summer Bowman joined Frac&eacute; in 1997 for their first full-length album, <i>Underworld</i>.</p>
 
-<p>In June 2011 The Machine In The Garden released <em>Before and After the Storm</em>, their first full album of new material since 2005. <em>Before and After the Storm</em> is an interesting mix of beautiful vocals, synth goodness and musical subtleties. Tracks like &ldquo;<em>Mending the Sky</em>&rdquo; and &ldquo;<em>In The Vanir</em>&rdquo; are slower, synth heavy darkwave tracks. Summer&rsquo;s vocals dominate while the synth tones swirl and envelope, weaving with the vocals well. &ldquo;<em>Cimmerian</em>&rdquo; is a wonderfully sluggish goth track filled with slow, tribal beats with haunting and beautiful vocals. Whereas &ldquo;<em>Power and Prophesy</em>&rdquo; speeds things up a bit with almost an 80&rsquo;s vibe. It has squealing guitars and synths working together on top a basic but catchy beat.</p>
+<p>In June 2011 The Machine In The Garden released <i>Before and After the Storm</i>, their first full album of new material since 2005. <i>Before and After the Storm</i> is an interesting mix of beautiful vocals, synth goodness and musical subtleties. Tracks like &ldquo;<i>Mending the Sky</i>&rdquo; and &ldquo;<i>In The Vanir</i>&rdquo; are slower, synth heavy darkwave tracks. Summer&rsquo;s vocals dominate while the synth tones swirl and envelope, weaving with the vocals well. &ldquo;<i>Cimmerian</i>&rdquo; is a wonderfully sluggish goth track filled with slow, tribal beats with haunting and beautiful vocals. Whereas &ldquo;<i>Power and Prophesy</i>&rdquo; speeds things up a bit with almost an 80&rsquo;s vibe. It has squealing guitars and synths working together on top a basic but catchy beat.</p>
 
-<p>I will say, <em>Before and After the Storm</em> is worth picking up for Summer&rsquo;s vocals alone. It&rsquo;s also, though, one of those albums where an excellent job is done mixing things up. Musically it keeps it interesting with tracks that stand on their own, but at the same time everything works together. If you&rsquo;re a fan of goth/darkwave, definitely check out The Machine In The Garden.</p>
+<p>I will say, <i>Before and After the Storm</i> is worth picking up for Summer&rsquo;s vocals alone. It&rsquo;s also, though, one of those albums where an excellent job is done mixing things up. Musically it keeps it interesting with tracks that stand on their own, but at the same time everything works together. If you&rsquo;re a fan of goth/darkwave, definitely check out The Machine In The Garden.</p>
 
 <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
 	<meta itemprop="worstRating" content = "1">

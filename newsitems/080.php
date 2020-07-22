@@ -2,7 +2,7 @@
 
 $pubdate = "Fri, 17 Jun 2011 23:35:00 CDT";
 $title = "Official Announcement for Before and After the Storm";
-$description = "<p>the Machine in the Garden and Deus ex Musica are proud to present <em>Before and After the Storm</em>, the band&rsquo;s eighth studio album.</p>
+$description = "<p>the Machine in the Garden and Deus ex Musica are proud to present <i>Before and After the Storm</i>, the band&rsquo;s eighth studio album.</p>
 
 <p>The eight new songs encompass the variety of styles &mdash; from goth rock to electronic ethereal &mdash; the band is known for. tMitG also tapped some of their favorite artists for three remixes on the album: Frances Byrne (Wench &ndash; <a href=\"http://www.wenchmusic.net\" target=\"_blank\">www.wenchmusic.net</a>), Falling You (<a href=\"http://www.fallingyou.com\" target=\"_blank\">www.fallingyou.com</a>) and Miles Fender (Earth Calling Angela, Charlottesville &ndash; <a href=\"http://www.streetlightfarm.com\" target=\"_blank\">www.streetlightfarm.com</a>).</p>
 
@@ -12,7 +12,7 @@ $description = "<p>the Machine in the Garden and Deus ex Musica are proud to pre
 
 <p>Lyrically many of the songs also follow a theme, says Summer, &ldquo;I looked to mythology and mysticism when I was writing the lyrics for these songs. I wanted to think about other cultures and their origin stories as a mirror of returning to many of our musical roots with this work.&rdquo;</p>
 
-<p><em>Before and After the Storm</em> will initially be a digital-only release on the Machine in the Garden&rsquo;s Bandcamp page <a href=\"http://tmitg.bandcamp.com/\" target=\"_blank\">tmitg.bandcamp.com</a> on Friday, 24 June 2011, followed soon after by digital release on the iTunes Music Store, Amazon mp3 and others (via CDBaby). <em>Before and After the Storm</em> will also be released in the near future as a very limited, special-edition CD available directly from the band.</p>
+<p><i>Before and After the Storm</i> will initially be a digital-only release on the Machine in the Garden&rsquo;s Bandcamp page <a href=\"http://tmitg.bandcamp.com/\" target=\"_blank\">tmitg.bandcamp.com</a> on Friday, 24 June 2011, followed soon after by digital release on the iTunes Music Store, Amazon mp3 and others (via CDBaby). <i>Before and After the Storm</i> will also be released in the near future as a very limited, special-edition CD available directly from the band.</p>
 
 <p>Additional information is available on <a href=\"http://www.tmitg.com/storm.php\">the album's discography page</a>.";
 

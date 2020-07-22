@@ -94,7 +94,7 @@
   <td>Secret Oktober</td>
   <td>Mirabilis</td>
   <td>Every Thing She Is, One, A Touch of Heaven, The Sleep of Angels, Walls, Valentine, Nowhere, Otherworld</td>
-  <td>semi-acoustic guitar/vox only; release party for <em>XV</em> and <em>Sub Rosa</em>; first ever Mirabilis show</td>
+  <td>semi-acoustic guitar/vox only; release party for <i>XV</i> and <i>Sub Rosa</i>; first ever Mirabilis show</td>
  </tr>
 
   <tr>

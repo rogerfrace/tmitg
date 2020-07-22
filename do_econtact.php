@@ -2,7 +2,7 @@
 session_start();
 
 function trackme($reason="other") {
-	echo "<script type=\"text/javascript\">_gaq.push(['_trackPageview','/do_econtact.php/".$reason."');</script>";
+	echo "<script type=\"text/javascript\">ga('send', 'event', 'do_econtact.php', 'error', '".$reason."');</script>";
 }
 
 // simplest XSS function ever, in case i ever want it
@@ -54,8 +54,7 @@ $rmsg = ob_get_clean();
 
 get_header();
 
-echo "<p>&nbsp;</p>
-	<div class=\"mainbody\">";
+echo "<div role=\"main\" class=\"mainbody\">";
 
 // for debugging
 $raw_to = $to;
@@ -144,7 +143,7 @@ $msg = stripslashes($msg);
 		trackme("error-send-problem");
 	}
 	else {
-		echo "<p class=subhead>Your email has been sent. Thank you.</p>";
+		echo "<p>Your email has been sent. Thank you.</p>";
 		trackme("success");
 	}
 

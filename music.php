@@ -132,6 +132,7 @@
 			<div class="videocol">
 				<h2>video clips</h2>
 				<p><?php do_video("teaser","Places in Between teaser"); ?></p>
+				<p><?php do_video("coldstorm","Cold Storm"); ?></p>
 			</div>
 		</div>
 	</div>

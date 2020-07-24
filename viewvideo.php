@@ -117,6 +117,11 @@ if (!empty($_GET['yt'])){
 			$sdesc="Teaser video for the album &quot;Places in Between&quot; from the Machine in the Garden.";
 			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/o1ai_xl0Lcw" frameborder="0" allowfullscreen></iframe>';
 			break;
+		case "coldstorm":
+			$stitle="&ldquo;Cold Storm&rdquo; Official Video";
+			$sdesc="Official music video for &quot;Cold Storm&quot; by the Machine in the Garden.";
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/V3_HSV_WwZE" frameborder="0" allowfullscreen></iframe>';
+			break;
 	
 	}
 } else {

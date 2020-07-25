@@ -29,7 +29,7 @@ if (!empty($_GET['yt'])){
 		case "control-vid":
 			$stitle="&ldquo;Control&rdquo;";
 			$sdesc="Music by the Machine in the Garden, from their 1999 release One Winter&#039;s Night... Video set to Fritz Lang's &quot;Metropolis,&quot; originally created in 2001 as a backing video for live shows.";
-			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/7bbNMxgvG8A?rel=0" frameborder="0" allowfullscreen></iframe>';
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/sXxTMshSwwk?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
 		case "miserere-fan":
 			$stitle="&ldquo;Miserere Mei&rdquo; (Fan Video)";
@@ -55,7 +55,7 @@ if (!empty($_GET['yt'])){
 		case "unaware":
 			$stitle="&ldquo;The Unaware&rdquo;";
 			$sdesc="Also available on the full-length enhanced CD &quot;Out of the Mists.&quot The video was filmed and produced by spectrumDV in Austin, Texas July 2000.";
-			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/nPVz9PMILM8?rel=0" frameborder="0" allowfullscreen></iframe>';
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/2uxlUjEJ_AM?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
 		case "failure":
 			$stitle="&ldquo;Failure&rdquo; (Live 2000)";
@@ -81,7 +81,7 @@ if (!empty($_GET['yt'])){
 		case "outside-amv":
 			$stitle="&ldquo;Outside&rdquo; (AMV)";
 			$sdesc="Music by the Machine in the Garden, from their 2002 release Asphodel. Video is clips from the anime &quot;Boogie Pop Phantom.&quot; This video was originally created in 2001 as a backing projection for live shows.";
-			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/04eQEQYBNEw?rel=0" frameborder="0" allowfullscreen></iframe>';
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/OWzXeNEMINI?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
 		case "time":
 			$stitle="&ldquo;Time&rdquo; (Live 2002)";

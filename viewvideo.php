@@ -8,12 +8,12 @@ if (!empty($_GET['yt'])){
 		case "finalform":
 			$stitle="&ldquo;Final Form&rdquo; (Live 1997)";
 			$sdesc="Filmed at Sanctuary in San Francisco, CA on March 29, 1997. This was Summer's first show with tMitG and the first live performance of &quot;Final Form.&quot;";
-			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/JjrPiIcctCU?rel=0" frameborder="0" allowfullscreen></iframe>';
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/AOV5BxJdeRg?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
 		case "finalform2":
 			$stitle="&ldquo;Final Form&rdquo; (Live 2000)";
 			$sdesc="Filmed at Downtime in New York City on December 2, 2000 by Chris Flam.";
-			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/IdoCZkLiCsQ?rel=0" frameborder="0" allowfullscreen></iframe>';
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/igRzCKHJfAc?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
 		case "finalform-fan":
 			$stitle="&ldquo;Final Form&rdquo; (Fan Video)";
@@ -24,7 +24,7 @@ if (!empty($_GET['yt'])){
 		case "control":
 			$stitle="&ldquo;Control&rdquo; (Live 2002)";
 			$sdesc="Filmed at Elysium in Austin, TX on October 25, 2002 by Chad R. Miller.";
-			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/kJMuTmY3ZNA?rel=0" frameborder="0" allowfullscreen></iframe>';
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/91w_v5eb3fc?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
 		case "control-vid":
 			$stitle="&ldquo;Control&rdquo;";
@@ -44,7 +44,7 @@ if (!empty($_GET['yt'])){
 		case "sleepofangels":
 			$stitle="&ldquo;The Sleep of Angels&rdquo; (Live 2004)";
 			$sdesc="Filmed at Elysium in Austin, TX on August 30, 2004.";
-			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/fyj3h7ktRgc?rel=0" frameborder="0" allowfullscreen></iframe>';
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/ftfBbIHDEEY?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
 		case "sleepofangels-fan":
 			$stitle="&ldquo;The Sleep of Angels&rdquo; (Fan Video)";
@@ -65,7 +65,7 @@ if (!empty($_GET['yt'])){
 		case "everythingsheis":
 			$stitle="&ldquo;Every Thing She Is&rdquo; (Live 2004)";
 			$sdesc="Filmed at Elysium in Austin, TX on August 30, 2004.";
-			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/7fCC_u_scZw?rel=0" frameborder="0" allowfullscreen></iframe>';
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/OQsWbpz_DkM?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
 #asphodel
 		case "masks":
@@ -76,7 +76,7 @@ if (!empty($_GET['yt'])){
 		case "outside":
 			$stitle="&ldquo;Outside&rdquo; (Live 2004)";
 			$sdesc="Filmed at Elysium in Austin, TX on August 30, 2004.";
-			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/6kjHlC5L-QA?rel=0" frameborder="0" allowfullscreen></iframe>';
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/TyHD66Bbnmg?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
 		case "outside-amv":
 			$stitle="&ldquo;Outside&rdquo; (AMV)";
@@ -92,24 +92,29 @@ if (!empty($_GET['yt'])){
 		case "thissilence":
 			$stitle="&ldquo;This Silence&rdquo; (Live 2005)";
 			$sdesc="Filmed at Convergence 11 (4th and B) in San Diego, CA on April 23, 2005.";
-			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/bSpQo2nyL4I?rel=0" frameborder="0" allowfullscreen></iframe>';
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/RuV0HXFG-iU?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
 		case "theinsideworld":
 			$stitle="&ldquo;The Inside World&rdquo; (Live 2005)";
 			$sdesc="Filmed at Convergence 11 (4th and B) in San Diego, CA on April 23, 2005.";
-			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/VgVSuvDHDro?rel=0" frameborder="0" allowfullscreen></iframe>';
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/ICGQ3GID2ak?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
 		case "suspend":
 			$stitle="&ldquo;Suspend&rdquo; (Live 2004)";
 			$sdesc="Filmed at Elysium in Austin, TX on August 30, 2004.";
-			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/WZi9FPszHEs?rel=0" frameborder="0" allowfullscreen></iframe>';
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/DzzpbLliBdI?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
 #xv
 #before and after the storm
 		case "cimmerian":
 			$stitle="&ldquo;Cimmerian&rdquo; Teaser";
 			$sdesc="Teaser video for the album &quot;Before and After the Storm&quot; from the Machine in the Garden.";
-			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/9zKk2EWwWF8?rel=0" frameborder="0" allowfullscreen></iframe>';
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/dRxiGUmvh3U?rel=0" frameborder="0" allowfullscreen></iframe>';
+			break;
+		case "vanir":
+			$stitle="&ldquo;In the Vanir&rdquo; (Live 2013)";
+			$sdesc="Filmed at Elysium in Austin, TX on November 30, 2013.";
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/lPiHYGcsz1A?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
 #places in between
 		case "teaser":

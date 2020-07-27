@@ -168,6 +168,7 @@
 			<div class="videocol">
 				<h2>video clips</h2>
 				<p><?php do_video("cimmerian","Cimmerian teaser"); ?></p>
+				<p><?php do_video("vanir","In the Vanir (live)"); ?></p>
 			</div>
 		</div>
 	</div>
@@ -183,6 +184,8 @@
 				<p><?php do_mp3bc2("vanirsingle","In the Vanir (single mix)"); ?></p>
 			</div>
 			<div class="videocol">
+				<h2>video clips</h2>
+				<p><?php do_video("vanir","In the Vanir (live)"); ?></p>
 			</div>
 		</div>
 	</div>

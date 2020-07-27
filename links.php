@@ -23,7 +23,6 @@
 <p id="subnav" tabindex="-1">
 <a href="#tmitg">other tMitG-related sites</a> |
 <a href="#digital">tMitG digital downloads and streams</a> |
-<a href="#cds">tMitG/goth music retailers</a> |
 <a href="#bands">bands</a> |
 <a href="#zines">webzines and print zines with web pages</a> |
 <a href="#labels">record labels</a> <br>
@@ -44,7 +43,6 @@
 <li style="list-style-image:url(<?=get_favicon('http://www.youtube.com');?>);"><a rel="me" href="http://www.youtube.com/tmitg" target="_blank">tMitG on YouTube</a></li>
 <li style="list-style-image:url(<?=get_favicon('http://en.wikipedia.org');?>);"><a rel="me" href="http://en.wikipedia.org/wiki/The_Machine_in_the_Garden_%28band%29" target="_blank">tMitG entry on Wikipedia</a></li>
 <li style="list-style-image:url(<?=get_favicon('http://www.discogs.com');?>);"><a rel="me" href="http://www.discogs.com/artist/120399-Machine-In-The-Garden-The" target="_blank">tMitG discography at discogs.com</a></li>
-<li style="list-style-image:url(<?=get_favicon('http://community.livejournal.com');?>);"><a href="http://community.livejournal.com/tmitg/" target="_blank">tMitG community on LiveJournal</a> (run by LiveJournal user severina)</li>
 </ul>
 </section>
 
@@ -53,23 +51,12 @@
 <h2 id="labelb">tMitG digital downloads and streams</h2>
 <a href="#top" class="btt">back to top&rarr;</a>
 <ul>
-<li><a href="http://www.amazon.com/gp/product/B000QK6ULW?ie=UTF8&amp;tag=themachininth-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B000QK6ULW" target="_blank">tMitG on Amazon MP3</a><img src="http://www.assoc-amazon.com/e/ir?t=themachininth-20&amp;l=as2&amp;o=1&amp;a=B000QK6ULW" width="1" height="1" alt="" style="border:none !important; margin:0px !important;"></li>
 <li><a rel="me" href="http://tmitg.bandcamp.com/" target="_blank">tMitG on Bandamp</a></li>
-<li><a href="http://www.emusic.com/artist/The-Machine-in-the-Garden-MP3-Download/11644054.html" target="_blank">tMitG on eMusic</a></li>
-<li><a href="https://market.android.com/details?id=artist-Apac5rsyndbjkfsx6462bompp64" target="_blank">tMitG on Google Music/Android Marketplace</a></li>
-<li><a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewArtist?id=5985533" target="_blank">tMitG on iTunes</a></li>
+<li><a href="https://www.amazon.com/The-Machine-in-the-Garden/e/B000APJSZI/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=themachininth-20&linkId=434b5d1887e4dda3df19fe0ab65e82ee&language=en_US" target="_blank">tMitG on Amazon MP3</a><img src="http://www.assoc-amazon.com/e/ir?t=themachininth-20&amp;l=as2&amp;o=1&amp;a=B000QK6ULW" width="1" height="1" alt="" style="border:none !important; margin:0px !important;"></li>
+<li><a href="https://market.android.com/details?id=artist-Apac5rsyndbjkfsx6462bompp64" target="_blank">tMitG on Google Play</a></li>
+<li><a href="https://music.apple.com/us/artist/the-machine-in-the-garden/5985533" target="_blank">tMitG on Apple Music</a></li>
 <li><a rel="me" href="http://www.last.fm/music/the+Machine+in+the+Garden" target="_blank">tMitG on last.fm</a></li>
-</ul>
-</section>
-
-
-<section tabindex="-1" id="cds" class="linksec" aria-labelledby="labelc">
-<h2 id="labelc">other tMitG/goth music retailers...</h2>
-<a href="#top" class="btt">back to top&rarr;</a>
-<ul>
-<li><a href="http://www.projekt.com/store/?s=machine+in+the+garden&amp;post_type=product" target="_blank">Projekt/darkwave</a></li>
-<li><a href="http://www.going-underground.de/" target="_blank">Going Underground</a> (Germany &mdash; listed in "T")</li>
-<li><a href="http://www.amazon.co.uk/exec/obidos/artist-search/The%20Machine%20in%20the%20Garden/202-6671557-5523018" target="_blank">Amazon.co.uk</a> (UK)</li>
+<li><a rel="me" href="https://open.spotify.com/artist/4XD8OHY6EPmFObxYhXUg5Y?si=QwdT4X86QUmXDk48bXiTbA" target="_blank">tMitG on Spotify</a></li>
 </ul>
 </section>
 
@@ -78,7 +65,6 @@
 <h2 id="labeld">bands...</h2>
 <a href="#top" class="btt">back to top&rarr;</a>
 <ul>
-<li><a href="http://theazoic.com/" target="_blank">The Azoic</a></li>
 <li><a href="http://www.christiandeath.com/" target="_blank">Christian Death</a></li>
 <li><a href="http://www.clairevoyant.com/" target="_blank">Claire Voyant</a></li>
 <li><a href="http://www.collide.net/" target="_blank">Collide</a></li>
@@ -88,10 +74,7 @@
 <li><a href="http://www.mercyground.com/" target="_blank">Faith and the Muse</a></li>
 <li><a href="http://www.gathering.nl/" target="_blank">The Gathering</a></li>
 <li><a href="http://www.iscintilla.com/" target="_blank">I:Scintilla</a></li>
-<li><a href="http://www.lafloamaldita.com" target="_blank">La Floa Maldita</a></li>
-<li><a href="http://www.lopromusic.com/" target="_blank">Lo-Pro</a></li>
-<li><a href="http://www.lictd.com/" target="_blank">Love is Colder Than Death</a></li>
-<li><a href="http://www.lyciummusic.com/" target="_blank">Lycia</a></li>
+<li><a href="https://lycia.bandcamp.com/" target="_blank">Lycia</a></li>
 <li><a href="http://www.marastorment.com/" target="_blank">Mara's Torment</a></li>
 <li><a href="http://www.mediaevalbaebes.com/" target="_blank">Medi&aelig;val B&aelig;bes</a></li>
 <li><a href="http://www.mephistowalz.com" target="_blank">Mephisto Walz</a></li>
@@ -100,7 +83,6 @@
 <li><a href="http://www.mmtm.net/" target="_blank">More Machine Than Man</a></li>
 <li><a href="http://www.petermurphy.info/" target="_blank">Peter Murphy</a></li>
 <li><a href="http://www.theshroud.com/" target="_blank">The Shroud</a></li>
-<li><a href="http://www.stoa.de/" target="_blank">Stoa</a></li>
 <li><a href="http://www.thisascension.com/" target="_blank">This Ascension</a></li>
 <li><a href="http://www.ziaspace.com/ZIA/" target="_blank">ZIA</a></li>
 </ul>
@@ -125,7 +107,6 @@
 <h2 id="labelf">record labels...</h2>
 <a href="#top" class="btt">back to top&rarr;</a>
 <ul>
-<li><a href="http://www.fossildungeon.com/" target="_blank">Fossil Dungeon</a></li>
 <li><a href="http://www.metropolis-records.com/" target="_blank">Metropolis</a></li>
 <li><a href="http://www.nettwerk.com/" target="_blank">Nettwerk</a></li>
 <li><a href="http://www.nilaihah.com/" target="_blank">Nilaihah Records</a></li>
@@ -141,7 +122,6 @@
 <ul>
 <li><a href="http://www.vamp.org/Gothic/clublist.html" target="_blank"><b>Gothic Club Listing</b></a></li>
 <li><a href="http://www.blackchannel.org" target="_blank">Black Channel Radio</a></li>
-<li><a href="http://www.bound.org/" target="_blank">Bound</a> (Washington, DC)</li>
 <li><a href="http://www.slcsanctuary.com/" target="_blank">Club Sanctuary</a> (Salt Lake City)</li>
 <li><a href="http://www.darkhorizonsradio.com/" target="_blank">Dark Horizons</a></li>
 <li><a href="http://www.darkmothermedia.com/" target="_blank">Dark Mother Media</a></li>
@@ -149,7 +129,6 @@
 <li><a href="http://www.angelfire.com/music/darkestserenade/" target="_blank">The Darkest Serenade</a> (Ohio)</li>
 <li><a href="http://fadeout.podomatic.com/" target="_blank">Fadeout</a> (DJ Cruel Britannia)</li>
 <li><a href="http://www.nightbreedradio.com/" target="_blank">Nightbreed Radio</a></li>
-<li><a href="http://www.thirteen13.co.uk/" target="_blank">Thirteen 13</a> (DJ Martin Oldgoth)</li>
 </ul>
 </section>
 
@@ -159,7 +138,6 @@
 <a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a href="http://www.eriu.com/gothshop.html" target="_blank"><b>Goth Shopping</b></a> directory</li>
-<li><a href="http://www.azacdesigns.com/" target="_blank">Azrael's Accomplice</a></li>
 <li><a href="http://www.blackrose.co.uk/" target="_blank">The Black Rose</a></li>
 <li><a href="http://www.bloomers4u.com/" target="_blank">Bloomers4U.com</a></li>
 <li><a href="http://www.darkelegancedesigns.co.uk/" target="_blank">Dark Elegance Designs</a></li>
@@ -181,10 +159,7 @@
 <a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a href="http://www.corbijn.co.uk/" target="_blank">Anton Corbijn</a></li>
-<li><a href="http://www.louisguidone.com/" target="_blank">Louis Guidone</a></li>
 <li><a href="http://www.monolithgraphics.com/" target="_blank">Monolith Graphics</a></li>
-<li><a href="http://www.visioluxus.com/" target="_blank">visioluxus</a></li>
-<li><a href="http://www.wyndfeather.com/" target="_blank">Wynd Feather Arts and Phantasm</a></li>
 <li><a href="http://www.georgeyepes.com/" target="_blank">George Yepes</a></li>
 </ul>
 </section>
@@ -197,7 +172,6 @@
 <li><a href="http://www.darklinks.com" target="_blank"><b>Dark Side of the Net</b></a></li>
 <li><a href="http://www.waningmoon.com/" target="_blank">Encyclopedia Gothica</a></li>
 <li><a href="http://www.gothauctions.com" target="_blank">Goth Auctions</a></li>
-<li><a href="http://gothic-portal.awardspace.com/" target="_blank">Gothic Portal</a></li>
 <li><a href="http://www.pocketfullofposiez.com/" target="_blank">Pocket Full of Posiez</a></li>
 </ul>
 </section>

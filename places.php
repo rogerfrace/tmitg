@@ -116,13 +116,28 @@ $lyricsfile and videoname do not include .html
 	<hr />
 
 <section aria-labelledby="reviews">	
-<!--	<h2 id="reviews" tabindex="-1">Reviews of <i>Places in Between</i>:</h2>
+	<h2 id="reviews" tabindex="-1">Reviews of <i>Places in Between</i>:</h2>
 	<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
 		<meta itemprop="reviewCount" content="1">
 	</div>
 	<div class="revcontent">
-		<p>Coming soon</p>
-	</div>--> <!-- /revcontent -->
+
+<blockquote cite="https://youtu.be/uh-K1Yiz7cg" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
+<div itemprop="reviewBody">
+<p>it's particularly exciting for me when a band from the past picks up the pieces from where they left off and continues to create something new. it's great.</p>
+
+<p>so this new album is called the places in between and like i said this is their first release in many many years. i will be going through each track on this album and how i feel about it and how awesome it is.</p>
+
+<p>overall this album is really fascinating, interesting, different, mystical, sophisticated, and inspiring. there are a lot of times in this album where summer sounds so much like lisa gerrard from dead can dance which i think is part of what adds to what makes this so mystical sounding. i really love how her voice has matured over the years and it really comes together here. from what i can gather in comparison to other earlier works, they have backed off the rock and post-punk distorted elements just a bit, but it doesn't make it any less engaging. if anything, this is an excellent demonstration of their versatility.</p>
+
+<p>this is really good reading music or road trip music, and some of it is really dancy. i dig. so if you guys are a huge fan of machine in the garden, faith in the muse, dead can dance, and this ascension, this will definitely suit your needs.</p>
+</div>
+<p>-<span itemprop="author">Adrienne LaVey</span>, excerpted from <a href="https://youtu.be/uh-K1Yiz7cg" target="_blank"><span itemprop="publication">LigeiaResurrected YouTube</span></a></p>
+<meta itemprop="datePublished" content="2020-07-30">
+</blockquote>
+
+	</div> <!-- /revcontent -->
 </section>
 
 </main> <!-- /mainbody -->

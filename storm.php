@@ -108,10 +108,9 @@ $lyricsfile and videoname do not include .html
 
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="iTunes"><a itemprop="url" href="https://music.apple.com/us/album/before-and-after-the-storm/1526953369" id="itmslink" rel="external" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'baats');"><img src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes105x31dark.gif" class="itunes" alt="Buy Now from iTunes" /></a></div>
 
-<!--	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a itemprop="url" href="http://www.amazon.com/gp/product/B0058ZE3H8/ref=as_li_ss_tl?ie=UTF8&amp;tag=themachininth-20&amp;linkCode=as2&amp;camp=217145&amp;creative=399373&amp;creativeASIN=B0058ZE3H8" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Amazon', 'baats');"><img src="images/amazonmp3.jpg" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img src="http://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B0058ZE3H8&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div> -->
+	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a itemprop="url" href="https://www.amazon.com/Before-After-Storm-Machine-Garden/dp/B08FGGH5PC/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=themachininth-20&linkId=df0bd25a90dddda39fa395234880471e&language=en_US" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Amazon', 'baats');"><img src="images/amazonmp3.jpg" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img src="http://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B0058ZE3H8&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
 
 </section> <!-- end buy button div -->
-
 
 	<hr />
 

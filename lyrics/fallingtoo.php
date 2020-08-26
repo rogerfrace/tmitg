@@ -20,18 +20,33 @@
 a bright flutter<br>
 falling all around<br>
 street lights flicker<br>
-within their torn eyes<br>
-come see the winters<br>
-in a brighter day<br>
-silver scapes falling<br>
+within their torn eyes</p>
+
+<p>come see the winters<br>
+in our brighter days</p>
+
+<p>come see the winters<br>
+come see our winters<br>
+in our brighter days</p>
+
+<p>silver scapes falling<br>
+onto their shoulders</p>
+
+<p>come see our winters<br>
+in our brighter days</p>
+
+<p>silver scapes falling<br>
 onto their shoulders<br>
-upon the pallet<br>
-of almost blackness<br>
-inside our eyes<br>
-rhythmically flowing<br>
-mixed within their souls<br>
+upon the palette<br>
+of almost blackness</p>
+
+<p>come see our winters</p>
+
+<p>rhythmically flowing<br>
 and deafened their minds<br>
 it deafened their minds</p>
+
+<p>come see our winters</p>
       
 </body>
 </html>

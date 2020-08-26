@@ -56,6 +56,7 @@
 <li><a href="https://market.android.com/details?id=artist-Apac5rsyndbjkfsx6462bompp64" target="_blank">tMitG on Google Play</a></li>
 <li><a href="https://music.apple.com/us/artist/the-machine-in-the-garden/5985533" target="_blank">tMitG on Apple Music</a></li>
 <li><a rel="me" href="http://www.last.fm/music/the+Machine+in+the+Garden" target="_blank">tMitG on last.fm</a></li>
+<li><a rel="me" href="https://soundcloud.com/the-machine-in-the-garden" target="_blank">tMitG on Soundcloud</a></li>
 <li><a rel="me" href="https://open.spotify.com/artist/4XD8OHY6EPmFObxYhXUg5Y?si=QwdT4X86QUmXDk48bXiTbA" target="_blank">tMitG on Spotify</a></li>
 </ul>
 </section>

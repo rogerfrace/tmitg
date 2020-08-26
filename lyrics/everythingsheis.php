@@ -17,7 +17,7 @@
 <h1>Every Thing She Is</h1>
 
 <p>night wonders are wilder<br>
-hiding higher up so low<br>
+holding higher up so low<br>
 stars glisten my tears away<br>
 sun evaporates the stains</p>
 

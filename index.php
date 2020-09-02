@@ -50,6 +50,9 @@ require_once("functions.php");
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+<?php if (check_mobile()==false): ?>
+	<link rel="preload" as="image" href="headers/images/home-portrait-643.jpg">
+<?php endif; ?>
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />
 	<?php include_once("fontawesome.inc.php"); ?>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

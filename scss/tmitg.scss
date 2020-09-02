@@ -730,12 +730,9 @@ a.atcss:hover {
 }
 
 .buynow {
-	width:107px;
-	min-height:44px;
-	overflow:hidden;
-	margin: 5px 0;
+	margin: 3px 0;
 }
-.buynow.ccnow {margin: 10px 0;}
+.buynow a img {border: 1px solid $black;}
 
 iframe#sb-player {
 	background-color: $black;

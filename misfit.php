@@ -70,7 +70,7 @@
 
 <div id="discog_buynow" tabindex="-1">
 		<h2 class="wai">Buy links</h2>
-		<p><a href="http://itunes.apple.com/us/album/see-amid-the-winters-snow/id204568133?i=204568191" id="itmslink" rel="external" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'misfit');"><img alt="iTunes Store" height="31" width="105" border="0" src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes105x31dark.gif"></a></p>
+		<p><a href="https://music.apple.com/us/album/see-amid-the-winters-snow/204568133?i=204568191" id="itmslink" rel="noopener external" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'misfit');"><img src="images/applemusic.gif" class="itunes" alt="Buy Now from Apple Music" /></a></p>
 </div> <!-- end buy button div -->
 
 

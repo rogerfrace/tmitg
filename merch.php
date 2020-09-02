@@ -71,7 +71,7 @@
 <?php else: ?>
 
 <div style="padding:0.5em; border:2px solid #990000;">
-For band news and special offers, be sure to follow us on <a href="http://www.facebook.com/tmitg" rel="external">Facebook</a> or <a href="http://twitter.com/tmitg" rel="external">Twitter</a>.
+For band news and special offers, be sure to follow us on <a href="http://www.facebook.com/tmitg" rel="noopener external">Facebook</a> or <a href="http://twitter.com/tmitg" rel="noopener external">Twitter</a>.
 </div>
 
 <?php endif; ?>

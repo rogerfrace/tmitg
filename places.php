@@ -105,11 +105,11 @@ $lyricsfile and videoname do not include .html
 	<meta itemprop="lowprice" content="12.00">
 	<h2 class="wai">Buy Now links</h2>
 	
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="12.00"><a itemprop="url" href="http://tmitg.bandcamp.com/album/places-in-between" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'placesinbetween');"><img src="images/bandcamp.jpg" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="12.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/places-in-between" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'placesinbetween');"><img src="images/bandcamp.gif" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
 
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="iTunes"><a itemprop="url" href="https://music.apple.com/us/album/places-in-between/1524569511" id="itmslink" rel="external" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'placesinbetween');"><img src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes105x31dark.gif" class="itunes" alt="Buy Now from iTunes" /></a></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="iTunes"><a rel="noopener external" itemprop="url" href="https://music.apple.com/us/album/places-in-between/1524569511" id="itmslink" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'placesinbetween');"><img src="images/applemusic.gif" class="itunes" alt="Buy Now from Apple Music" /></a></div>
 
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a itemprop="url" href="https://www.amazon.com/Places-Between-Machine-Garden/dp/B08DDHDLBQ/ref=as_li_ss_tl?dchild=1&keywords=places+in+between+mp3&qid=1595529263&sr=8-2&linkCode=ll1&tag=themachininth-20&linkId=b77e3324dd1bcf1d2990e1164a7e9565&language=en_US" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Amazon', 'placesinbetween');"><img src="images/amazonmp3.jpg" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img src="http://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B08DDHDLBQ&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="https://www.amazon.com/Places-Between-Machine-Garden/dp/B08DDHDLBQ/ref=as_li_ss_tl?dchild=1&keywords=places+in+between+mp3&qid=1595529263&sr=8-2&linkCode=ll1&tag=themachininth-20&linkId=b77e3324dd1bcf1d2990e1164a7e9565&language=en_US" onclick="ga('send', 'event', 'BuyNow', 'Amazon', 'placesinbetween');"><img src="images/amazonmp3.gif" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B08DDHDLBQ&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
 
 </section> <!-- end buy button div -->
 
@@ -133,7 +133,7 @@ $lyricsfile and videoname do not include .html
 
 <p>this is really good reading music or road trip music, and some of it is really dancy. i dig. so if you guys are a huge fan of machine in the garden, faith in the muse, dead can dance, and this ascension, this will definitely suit your needs.</p>
 </div>
-<p>-<span itemprop="author">Adrienne LaVey</span>, excerpted from <a href="https://youtu.be/uh-K1Yiz7cg" target="_blank"><span itemprop="publication">LigeiaResurrected YouTube</span></a></p>
+<p>-<span itemprop="author">Adrienne LaVey</span>, excerpted from <a rel="noopener" href="https://youtu.be/uh-K1Yiz7cg" target="_blank"><span itemprop="publication">LigeiaResurrected YouTube</span></a></p>
 <meta itemprop="datePublished" content="2020-07-30">
 </blockquote>
 

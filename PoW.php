@@ -72,11 +72,9 @@
 </div> <!-- end tracklist div -->
 
 
-<?php /*<div id="discog_buynow" tabindex="-1">
+<!-- <div id="discog_buynow" tabindex="-1">
 		<h2 class="wai">Buy links</h2>
-		<p><a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?playlistId=211275101&s=143441&i=211275225" id="itmslink" rel="external" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'PoW');"><img alt="iTunes Store" height="31" width="105" border="0" src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes105x31dark.gif"></a></p>
-		<div><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab" id="Player_564bd001-70ff-41e6-8214-ec6e5a2c7317"  WIDTH="120" HEIGHT="90"> <PARAM NAME="movie" VALUE="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fthemachininth-20%2F8014%2F564bd001-70ff-41e6-8214-ec6e5a2c7317&amp;Operation=GetDisplayTemplate"><PARAM NAME="quality" VALUE="high"><PARAM NAME="bgcolor" VALUE="#FFFFFF"><PARAM NAME="allowscriptaccess" VALUE="always"><embed src="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fthemachininth-20%2F8014%2F564bd001-70ff-41e6-8214-ec6e5a2c7317&amp;Operation=GetDisplayTemplate" id="Player_564bd001-70ff-41e6-8214-ec6e5a2c7317" quality="high" bgcolor="#ffffff" name="Player_564bd001-70ff-41e6-8214-ec6e5a2c7317" allowscriptaccess="always"  type="application/x-shockwave-flash" align="middle" height="90" width="120"></embed></OBJECT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fthemachininth-20%2F8014%2F564bd001-70ff-41e6-8214-ec6e5a2c7317&amp;Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT></div>
-</div> <!-- end buy button div --> */ ?>
+</div> --> <!-- end buy button div -->
 
 
 </div>

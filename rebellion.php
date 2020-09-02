@@ -69,7 +69,7 @@
 </div> <!-- end tracklist div -->
 
 <section id="discog_buynow">
-	<div class="buynow"><a href="https://darkmothermedia.bandcamp.com/album/rebellion-vol-1" rel="external"><img src="images/bandcamp.jpg" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
+	<div class="buynow"><a href="https://darkmothermedia.bandcamp.com/album/rebellion-vol-1" rel="noopener external"><img src="images/bandcamp.gif" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
 
 </section>
 

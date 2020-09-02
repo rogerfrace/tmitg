@@ -85,7 +85,7 @@ $lyricsfile and videoname do not include .html
 	<meta itemprop="lowprice" content="1.78">
 	<h2 class="wai">Buy links</h2>
 	
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="1.78"><a itemprop="url" href="https://tmitg.bandcamp.com/track/image-acoustic" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'image');"><img src="images/bandcamp.jpg" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="1.78"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/track/image-acoustic" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'image');"><img src="images/bandcamp.gif" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
 </section> <!-- end buy button div -->
 		
 <?php /*

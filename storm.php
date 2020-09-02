@@ -104,11 +104,11 @@ $lyricsfile and videoname do not include .html
 	<meta itemprop="lowprice" content="8.00">
 	<h2 class="wai">Buy Now links</h2>
 	
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="8.00"><a itemprop="url" href="http://tmitg.bandcamp.com/album/before-and-after-the-storm" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'baats');"><img src="images/bandcamp.jpg" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="8.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/before-and-after-the-storm" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'baats');"><img src="images/bandcamp.gif" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
 
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="iTunes"><a itemprop="url" href="https://music.apple.com/us/album/before-and-after-the-storm/1526953369" id="itmslink" rel="external" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'baats');"><img src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes105x31dark.gif" class="itunes" alt="Buy Now from iTunes" /></a></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="iTunes"><a rel="noopener external" itemprop="url" href="https://music.apple.com/us/album/before-and-after-the-storm/1526953369" id="itmslink" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'baats');"><img src="images/applemusic.gif" class="itunes" alt="Buy Now from Apple Music" /></a></div>
 
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a itemprop="url" href="https://www.amazon.com/Before-After-Storm-Machine-Garden/dp/B08FGGH5PC/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=themachininth-20&linkId=df0bd25a90dddda39fa395234880471e&language=en_US" rel="external" onclick="ga('send', 'event', 'BuyNow', 'Amazon', 'baats');"><img src="images/amazonmp3.jpg" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img src="http://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B0058ZE3H8&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="https://www.amazon.com/Before-After-Storm-Machine-Garden/dp/B08FGGH5PC/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=themachininth-20&linkId=df0bd25a90dddda39fa395234880471e&language=en_US" onclick="ga('send', 'event', 'BuyNow', 'Amazon', 'baats');"><img src="images/amazonmp3.gif" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B0058ZE3H8&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
 
 </section> <!-- end buy button div -->
 
@@ -117,9 +117,9 @@ $lyricsfile and videoname do not include .html
 <section>
 	<h2 id="recognition">Recognition for <i>Before and After the Storm</i>:</h2>
 	
-	<p>#3 on "<a href="http://theskysgoneout.org/post/14063746480/tsgo-2011-a-darker-shade-of-pagans-top-ten-of-2011" rel="external">A Darker Shade of Pagan's Top Ten of 2011</a>"</p>
-	<p>#3 on "<a href="http://theskysgoneout.org/post/14402004999/tsgo-2011-top-twenty-goth-darkwave-albums-of-2011" rel="external">Top Twenty Goth/Darkwave Albums of 2011</a>"</p>
-	<p><a href="http://pingthings.blogspot.com/2011/12/cool-music-from-2011.html" rel="external">Ping Things: Cool Music from 2011</a></p>
+	<p>#3 on "<a href="http://theskysgoneout.org/post/14063746480/tsgo-2011-a-darker-shade-of-pagans-top-ten-of-2011" rel="noopener external">A Darker Shade of Pagan's Top Ten of 2011</a>"</p>
+	<p>#3 on "<a href="http://theskysgoneout.org/post/14402004999/tsgo-2011-top-twenty-goth-darkwave-albums-of-2011" rel="noopener external">Top Twenty Goth/Darkwave Albums of 2011</a>"</p>
+	<p><a href="http://pingthings.blogspot.com/2011/12/cool-music-from-2011.html" rel="noopener external">Ping Things: Cool Music from 2011</a></p>
 </section>
 
 	<hr />

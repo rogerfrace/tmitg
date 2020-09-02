@@ -142,8 +142,7 @@ if (isset($_GET["item"])) {
   
 		<div class="twitterblock">
 		<?php if (check_mobile()==false): ?>
-			<a class="twitter-timeline" data-width="300" data-height="750" href="https://twitter.com/tmitg">Tweets by tmitg</a>
-			<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<a class="twitter-timeline" data-width="300" data-height="750" href="https://twitter.com/tmitg?ref_src=twsrc%5Etfw">Tweets by tmitg</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		<?php endif; ?>
 		</div>
   

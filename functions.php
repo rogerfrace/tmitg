@@ -99,12 +99,6 @@ function get_header() {
 	include_once("headers/header.php");
 }
 
-// from http://www.catswhocode.com/blog/10-super-useful-php-snippets
-function get_favicon($url){
-  $url = str_replace("http://",'',$url);
-  return "http://www.google.com/s2/favicons?domain=".$url;
-}
-
 // output OG tags
 function BuildFBOG($fields) {
 	// common OG fields

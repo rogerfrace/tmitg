@@ -1,11 +1,11 @@
 <?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
-
+<?php require_once("functions.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php require_once("functions.php"); ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - music</title>
+	<meta name="description" content="the Machine in the Garden music audio and video samples.">
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once("headers-additional.php"); ?>
 </head>

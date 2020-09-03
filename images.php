@@ -5,8 +5,9 @@
 <head>
 	<meta charset="utf-8" />
 	<title>the Machine in the Garden - images</title>
-	<link rel="stylesheet" type="text/css" href="tmitg.css">
+	<meta name="description" content="the Machine in the Garden band photo gallery.">
 	<meta name="copyright" content="<?=date('Y',time());?>">
+	<link rel="stylesheet" type="text/css" href="tmitg.css">
 	<?php include_once("headers-additional.php"); ?>
 	<script>
 		$(document).ready(function(){
@@ -53,7 +54,7 @@ function do_photo($imgname,$gallery=NULL,$alt=NULL) {
 	if (check_mobile()==true) {
 		echo "<li><a href=\"$phopath/$imgname.jpg\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" loading=\"lazy\" width=\"$tnwidth\" height=\"$tnheight\"></a></li>\n";
 	} else {
-		echo "<li><a role=\"button\" href=\"$phopath/$imgname.jpg\" class=\"imglink\" data-title=\"$gallery\" data-alt=\"$alt\" aria-haspopup=\"dialog\" onclick=\"ga('send', 'event', 'Photo', 'View', '$imgname;');\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" loading=\"lazy\" width=\"$tnwidth\" height=\"$tnheight\"></a>
+		echo "<li><a href=\"$phopath/$imgname.jpg\" class=\"imglink\" data-title=\"$gallery\" data-alt=\"$alt\" aria-haspopup=\"dialog\" onclick=\"ga('send', 'event', 'Photo', 'View', '$imgname;');\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" loading=\"lazy\" width=\"$tnwidth\" height=\"$tnheight\"></a>
 		<noscript><a href=\"$phopath/$imgname.jpg\" title=\"$gallery\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" width=\"$tnwidth\" height=\"$tnheight\"></a></noscript></li>\n";
 	}
 } // end function

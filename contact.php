@@ -1,18 +1,12 @@
+<?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
 <?php require_once("functions.php"); ?>
 <!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <!--<![endif]-->
+<html lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="copyright" content="<?=date('Y',time());?>" />
-	<meta property="og:site_name" content="the Machine in the Garden" />
-	<meta property="og:title" content="the Machine in the Garden - Contact Us" />
-	<meta property="og:type" content="band" />
-	<meta property="og:url" content="http://www.tmitg.com/contact.php" />
-	<meta property="og:image" content="http://www.tmitg.com/photos/xv1.jpg" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="fb:app_id" content="145634995501895">
-    <meta property="fb:admins" content="1120445561,713632115">
 	<title>the Machine in the Garden - contact</title>
+	<meta name="description" content="Contact form and information for the Machine in the Garden.">
+	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once("headers-additional.php"); ?>
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />
 

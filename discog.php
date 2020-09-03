@@ -1,11 +1,13 @@
+<?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
+<?php require_once("functions.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php require_once("functions.php"); ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - discography</title>
-	<link rel="stylesheet" type="text/css" href="tmitg.css">
+	<meta name="description" content="the Machine in the Garden discography of releases and compilations.">
 	<meta name="copyright" content="<?=date('Y',time());?>" />
+	<link rel="stylesheet" type="text/css" href="tmitg.css">
 	<?php include_once("headers-additional.php"); ?>
 	<?php include_once("googletracking.html"); ?>
 </head>

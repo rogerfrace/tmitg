@@ -1,14 +1,11 @@
 <?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
 <?php require_once("functions.php"); ?>
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html class="no-js ie6 ie678" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="no-js ie7 ie678" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="no-js ie8 ie678" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - live performances</title>
-	<meta name="keywords" content="machine in the garden, tmitg, music, CDs, roger frace, summer bowman, performances, shows, live">
+	<meta name="description" content="the Machine in the Garden upcoming live shows and list of past shows.">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once("headers-additional.php"); ?>
 	<script src="/js/jquery.stickytableheaders.min.js"></script>

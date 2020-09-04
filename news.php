@@ -50,12 +50,15 @@ if (isset($_GET["item"])) {
 </head>
 
 <body id="news">
+<?php if (check_mobile()==false): ?>
 	<!-- fb share button -->
-	<?php if (check_mobile()==false) {
-		echo '<div id="fb-root"></div>';
-		echo '<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=207159742735690&autoLogAppEvents=1" nonce="YigLuG1p"></script>';
-	} ?>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=207159742735690&autoLogAppEvents=1" nonce="YigLuG1p"></script>
 	<!-- /fb share button -->
+	<!-- twitter widget -->
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	<!-- /twitter widget -->
+<?php endif; ?>
 
 	<span id="skip-links">
 		<a class="wai" href="#main">Skip to Main</a>

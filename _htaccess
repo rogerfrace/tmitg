@@ -115,6 +115,7 @@ ErrorDocument 500 '<a href="http://www.flickr.com/photos/girliemac/6509400855/" 
   RewriteRule ^code/YSzZbGNr$ http://www.tmitg.com/files/tmitg-promo.php?receipt=MargaretFenton [R=301,L]
   RewriteRule ^code/63Gqcbso$ http://www.tmitg.com/files/tmitg-promo.php?receipt=JohnElysium [R=301,L]
   RewriteRule ^code/Fuw85mMB$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DarkestBeforeDawnKOOP [R=301,L]
+  RewriteRule ^code/PLzz4KGj$ http://www.tmitg.com/files/tmitg-promo.php?receipt=FrontiereRock [R=301,L]
 
   # mp3 redirects
   RewriteRule ^media/cimmerian-audio.php$ http://www.tmitg.com/viewmp3bc.php?bcsample=cimmerian [R=301,L]

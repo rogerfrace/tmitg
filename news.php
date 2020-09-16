@@ -46,6 +46,12 @@ if (isset($_GET["item"])) {
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once("headers-additional.php"); ?>
 	<link rel="alternate" type="application/rss+xml" href="/news-rss.xml.php" title="the Machine in the Garden - news" />
+	<style>
+		article {
+			content-visibility: auto;
+			contain-intrinsic-size: 600px;
+		}
+	</style>
 	<?php if (check_mobile()==false) { include_once("fblike.html"); } ?>
 </head>
 

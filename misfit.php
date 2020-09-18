@@ -70,7 +70,7 @@
 
 <div id="discog_buynow" tabindex="-1">
 		<h2 class="wai">Buy links</h2>
-		<p><a href="https://music.apple.com/us/album/see-amid-the-winters-snow/204568133?i=204568191" id="itmslink" rel="noopener external" onclick="ga('send', 'event', 'BuyNow', 'iTunes', 'misfit');"><img src="images/applemusic.gif" class="itunes" alt="Buy Now from Apple Music" /></a></p>
+		<div><a href="https://geo.music.apple.com/us/album/a-misfit-xmas/204568133?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=250x83&amp;releaseDate=1159660800&h=c9e4ef5f32b202474dbf10fec7738d83" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
 </div> <!-- end buy button div -->
 
 

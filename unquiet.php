@@ -76,7 +76,7 @@
 
 <div id="discog_buynow" tabindex="-1">
 		<h2 class="wai">Buy links</h2>
-		<div><SCRIPT charset="utf-8" type="text/javascript" src="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822/US/themachininth-20/8001/8c53f92c-9f64-4f8c-99dd-92bdcedbcbf3"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fthemachininth-20%2F8001%2F8c53f92c-9f64-4f8c-99dd-92bdcedbcbf3&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT></div>
+		<div><a href="https://geo.music.apple.com/us/album/unquiet-grave-the-ultimate-goth-collection/292251377?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=250x83&amp;releaseDate=1220227200&h=326df2370c76495f135df73f4599a9fe" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
 </div> <!-- end buy button div -->
 
 		

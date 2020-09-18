@@ -55,7 +55,7 @@
 <li><a rel="me noopener external" href="http://tmitg.bandcamp.com/" target="_blank">tMitG on Bandamp</a></li>
 <li><a rel="me noopener external" href="https://www.amazon.com/The-Machine-in-the-Garden/e/B000APJSZI/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=themachininth-20&linkId=434b5d1887e4dda3df19fe0ab65e82ee&language=en_US" target="_blank">tMitG on Amazon MP3</a><img src="https://www.assoc-amazon.com/e/ir?t=themachininth-20&amp;l=as2&amp;o=1&amp;a=B000QK6ULW" width="1" height="1" alt="" style="border:none !important; margin:0px !important;"></li>
 <li><a rel="me noopener external" href="https://market.android.com/details?id=artist-Apac5rsyndbjkfsx6462bompp64" target="_blank">tMitG on Google Play</a></li>
-<li><a rel="me noopener external" href="https://music.apple.com/us/artist/the-machine-in-the-garden/5985533" target="_blank">tMitG on Apple Music</a></li>
+<li><a rel="me noopener external" href="https://music.apple.com/us/artist/the-machine-in-the-garden/5985533?itsct=music_box&itscg=30200&at=1000l35Bw&ls=1&app=music" target="_blank">tMitG on Apple Music</a></li>
 <li><a rel="me noopener external" href="http://www.last.fm/music/the+Machine+in+the+Garden" target="_blank">tMitG on last.fm</a></li>
 <li><a rel="me noopener external" href="https://soundcloud.com/the-machine-in-the-garden" target="_blank">tMitG on Soundcloud</a></li>
 <li><a rel="me noopener external" href="https://open.spotify.com/artist/4XD8OHY6EPmFObxYhXUg5Y?si=QwdT4X86QUmXDk48bXiTbA" target="_blank">tMitG on Spotify</a></li>

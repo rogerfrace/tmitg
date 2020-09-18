@@ -54,7 +54,9 @@
 <section>
 <p>Physical products are sold through <a href="https://tmitg.bandcamp.com/merch">Bandcamp</a>.</p>
 
-<p>Alternately, you may visit the Machine in the Garden and Mirabilis store at <a href="http://astore.amazon.com/themachininth-20">amazon.com</a> or various retailers listed on <a href="links.php#cds">our links page</a>.</p>
+<p><a href="https://music.apple.com/us/artist/the-machine-in-the-garden/5985533?itsct=music_box&itscg=30200&ls=1&app=music">Listen on Apple Music</a></p>
+
+<p>Alternately, you can find the Machine in the Garden on <a href="https://amzn.to/3iIbi9c">amazon.com</a>.</p>
 </section>
 
 <hr />

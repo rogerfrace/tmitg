@@ -52,11 +52,11 @@
 <h1 class="wai">the Machine in the Garden merchandise</h1>
 
 <section>
-<p>Physical products are sold through <a href="https://tmitg.bandcamp.com/merch">Bandcamp</a>.</p>
+<p>Physical products are sold through <a rel="noopener external" href="https://tmitg.bandcamp.com/merch">Bandcamp</a>.</p>
 
-<p><a href="https://music.apple.com/us/artist/the-machine-in-the-garden/5985533?itsct=music_box&itscg=30200&at=1000l35Bw&ls=1&app=music">Listen on Apple Music</a></p>
+<p><a rel="noopener external" href="https://music.apple.com/us/artist/the-machine-in-the-garden/5985533?itsct=music_box&itscg=30200&at=1000l35Bw&ls=1&app=music">Listen on Apple Music</a></p>
 
-<p>Alternately, you can find the Machine in the Garden on <a href="https://amzn.to/3iIbi9c">amazon.com</a>.</p>
+<p>Alternately, you can find the Machine in the Garden on <a rel="noopener external" href="https://amzn.to/3iIbi9c">amazon.com</a>.</p>
 </section>
 
 <hr />

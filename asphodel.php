@@ -55,6 +55,10 @@
 		<p class="notopmargin">(<span itemprop="catalogNumber">MPP986</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2002</span><br />full-length CD released <time datetime="2002-06" itemprop="datePublished">June 2002</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>	
+	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-009-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span><br />Remastered Digital Album released <time datetime="2020-09-25" itemprop="datePublished">25 September 2020</time></p>
+		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
+	</div>
 </section> <!-- end album info div -->
 
 
@@ -91,7 +95,14 @@ $lyricsfile and videoname do not include .html
 <?php do_songtitle(12,"Seek","seek","seek-bc","asphodel.jpg",NULL); ?>
 <?php do_songtitle(13,"One","one",NULL,"asphodel.jpg",NULL); ?>
 <?php do_songtitle(14,"Photographic",NULL,NULL,NULL,NULL); ?>
+<?php do_songtitle(15,"*Open (Reimagined)",NULL,NULL,NULL,"open2020"); ?>
+<?php do_songtitle(16,"*Ghost (Reimagined)",NULL,NULL,NULL,NULL); ?>
 	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="4"><small id="excl">*exclusive to the remastered edition</small><td>
+		</tr>
+	</tfoot>
 </table>
 </div> <!-- end tracklist div -->
 
@@ -101,11 +112,15 @@ $lyricsfile and videoname do not include .html
 	<meta itemprop="lowprice" content="8.00">
 	<h2 class="wai">Buy links</h2>
 	
+	<fieldset><legend>Remastered Edition</legend>
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="8.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/asphodel" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'asphodel');"><img src="images/bandcamp.png" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
-
+	</fieldset>
+	<br>
+	<fieldset><legend>Original Version</legend>
 	<div><a rel="noopener external" href="https://geo.music.apple.com/us/album/asphodel/949296468?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=250x83&amp;releaseDate=1022889600&h=f5fafea5474207bb0f2d25503be1a385" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
 		
 	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="https://amzn.to/2ZRnBIO" onclick="ga('send', 'event', 'BuyNow', 'Amazon', 'asphodel');"><img src="images/amazonmp3.png" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B000QZU6H6&amp;camp=217153&amp;creative=399701" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
+	</fieldset>
 </section> <!-- end buy button div -->
 
 		

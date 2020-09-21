@@ -133,6 +133,8 @@
 				<h2>video clips</h2>
 				<p><?php do_video("teaser","Places in Between teaser"); ?></p>
 				<p><?php do_video("coldstorm","Cold Storm"); ?></p>
+				<p><?php do_video("athousandyears","A Thousand Years of War"); ?></p>
+				<p><?php do_video("findaway","Find a Way"); ?></p>
 			</div>
 		</div>
 	</div>

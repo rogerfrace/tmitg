@@ -83,7 +83,7 @@ $lyricsfile and videoname do not include .html
 */ ?>
 
 <?php do_songtitle(1,"Cold Storm","coldstorm","coldstorm-bc","places.jpg","coldstorm"); ?>
-<?php do_songtitle(2,"A Thousand Years of War","athousandyearsofwar",NULL,"places.jpg",NULL); ?>
+<?php do_songtitle(2,"A Thousand Years of War","athousandyearsofwar",NULL,"places.jpg","athousandyears"); ?>
 <?php do_songtitle(3,"Beyond","beyond","beyond-bc","places.jpg",NULL); ?>
 <?php do_songtitle(4,"Underneath","underneath",NULL,"places.jpg",NULL); ?>
 <?php do_songtitle(5,"Prophetic Bird","propheticbird","propheticbird-bc","places.jpg",NULL); ?>
@@ -93,7 +93,7 @@ $lyricsfile and videoname do not include .html
 <?php do_songtitle(9,"Spirit and Image","spiritandimage","spiritandimage-bc","places.jpg",NULL); ?>
 <?php do_songtitle(10,"Orbital","orbital",NULL,"places.jpg",NULL); ?>
 <?php do_songtitle(11,"O Euchari","oeuchari",NULL,"places.jpg",NULL); ?>
-<?php do_songtitle(12,"Find a Way","findaway",NULL,"places.jpg",NULL); ?>
+<?php do_songtitle(12,"Find a Way","findaway",NULL,"places.jpg","findaway"); ?>
 <?php do_songtitle(13,"Resist","resist",NULL,"places.jpg",NULL); ?>
 	</tbody>
 </table>

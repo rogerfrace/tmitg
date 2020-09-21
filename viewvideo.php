@@ -88,6 +88,11 @@ if (!empty($_GET['yt'])){
 			$sdesc="Filmed at Elysium in Austin, TX on October 25, 2002 by Chad R. Miller.";
 			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/NZmKJ-DpNyc?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
+		case "open2020":
+			$stitle="&ldquo;Open (Reimagined)&rdquo;";
+			$sdesc="Official music video for &quot;Open (Reimagined)&quot; by the Machine in the Garden.";
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/HVBhITDwX0Y?rel=0" frameborder="0" allowfullscreen></iframe>';
+			break;
 #shadow puppets
 		case "thissilence":
 			$stitle="&ldquo;This Silence&rdquo; (Live 2005)";
@@ -126,6 +131,16 @@ if (!empty($_GET['yt'])){
 			$stitle="&ldquo;Cold Storm&rdquo; Official Video";
 			$sdesc="Official music video for &quot;Cold Storm&quot; by the Machine in the Garden.";
 			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/V3_HSV_WwZE" frameborder="0" allowfullscreen></iframe>';
+			break;
+		case "athousandyears":
+			$stitle="&ldquo;A Thousand Years of War&rdquo; Official Lyric Video";
+			$sdesc="Official lyric video for &quot;A Thousand Years of War&quot; by the Machine in the Garden.";
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/KsTb1hgZ0io" frameborder="0" allowfullscreen></iframe>';
+			break;
+		case "findaway":
+			$stitle="&ldquo;Find a Way&rdquo; Official Lyric Video";
+			$sdesc="Official lyric video for &quot;Find a Way&quot; by the Machine in the Garden.";
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/lg2odj5wsbI" frameborder="0" allowfullscreen></iframe>';
 			break;
 	
 	}

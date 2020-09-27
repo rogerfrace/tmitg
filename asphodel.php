@@ -56,7 +56,7 @@
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>	
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-009-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span><br />Remastered Digital Album released <time datetime="2020-09-25" itemprop="datePublished">25 September 2020</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-009-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span><br />Remastered Digital Album released <time datetime="2020-10-02" itemprop="datePublished">2 October 2020</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 </section> <!-- end album info div -->

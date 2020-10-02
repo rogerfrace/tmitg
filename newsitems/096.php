@@ -1,6 +1,6 @@
 <?php
 
-$pubdate = "Fri, 2 Oct 2020 01:00:00 CDT";
+$pubdate = "Fri, 2 Oct 2020 02:30:00 CDT";
 $title = "Now Available: <i>Asphodel (Remastered)</i>";
 $description = "<a href=\"https://tmitg.bandcamp.com/album/asphodel\"><img itemprop=\"image\" src=\"http://tmitg.com/albums/asphodel.jpg\" alt=\"Asphodel remastered album on Bandcamp\" /></a>";
 

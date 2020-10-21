@@ -6,7 +6,7 @@ function trackme($reason="other") {
 }
 
 // simplest XSS function ever, in case i ever want it
-function removeJS($str) {
+function sanitize($str) {
 	// decode the possible entities 
 	$str = html_entity_decode($str);
 	// personal removal of bad cookie javascript
@@ -19,6 +19,9 @@ function removeJS($str) {
 	$str = str_ireplace("'>\">", "", $str);
 	$str = str_ireplace("alert(", "", $str);
 	$str = str_ireplace(")", "", $str);
+	// re-encode any remaining entities
+	$str = htmlspecialchars($str);
+	// return
 	return $str;
 }     
 
@@ -98,7 +101,9 @@ if (count($splitmessage) > 4) {
 }
 
 //sanitize for XSS
-$message = removeJS($message);
+$name = sanitize($name);
+$subject = sanitize($subject);
+$message = sanitize($message);
 
 // if it suvived the spam check, send me raw output
 mail('roger@tmitg.com','tMitG form var_dump',$rmsg);

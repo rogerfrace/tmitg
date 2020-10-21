@@ -254,6 +254,7 @@
 				<p><?php do_video("outside","Outside (live)"); ?></p>
 				<p><?php do_video("outside-amv","Outside"); ?></p>
 				<p><?php do_video("time","Time (live)"); ?></p>
+				<p><?php do_video("open2020","Open (Reimagined)"); ?></p>
 			</div>	
 		</div>
 	</div>

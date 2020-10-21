@@ -717,6 +717,7 @@ a.atcss:hover {
 
 #discog_buynow {
 	clear:both;
+	fieldset {display:inline-block;}
 }
 
 @media screen and (max-width: 480px) {

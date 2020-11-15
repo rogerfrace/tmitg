@@ -70,8 +70,8 @@ $lyricsfile and videoname do not include .html
 
 	<tr>
 	<td colspan="5" style="border-top: 1px solid black; margin-top: 10px;">
-		<small>* Available (remastered) on <a href="xv.php"><i>XV</i></a></small><br>
-		<small>&deg; Available on <a href="miscellany.php"><i>Miscellany</i></a></small><br>
+		<small>* Available (remastered) on <a href="xv.php"><i>XV</i></a></small>
+		<small>&deg; Available on <a href="miscellany.php"><i>Miscellany</i></a></small>
 		<small>&dagger; Available on <a href="vsremix.php"><i>Veils and Shadows Remixes</i></a></small>
 	</td>
 	</tr>

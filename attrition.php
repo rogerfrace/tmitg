@@ -40,11 +40,11 @@
 <table>
 	<thead>
 		<tr>
-			<th>Track Number</th>
-			<th>Track Title</th>
-			<th>Lyrics</th>
-			<th>Audio</th>
-			<th>Video</th>
+			<th scope="col" class="wai">Track Number</th>
+			<th scope="col" class="wai">Track Title</th>
+			<th scope="col" class="wai">Lyrics</th>
+			<th scope="col" class="wai">Audio</th>
+			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
 	<tbody>

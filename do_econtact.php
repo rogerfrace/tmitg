@@ -81,7 +81,7 @@ if ((strstr($email, '\\\\')) || (stristr($email, 'bcc:'))) {
 } elseif (stristr($message, '<a href=')) {
 	echo "<font color=red><b>There was a syntax error in your message. Please go back and correct the email body before submitting.</b></font>"; trackme("error-subject-anchor"); die;
 // checking for robots with time delay
-} elseif ((time() < ($timestamp+5)) || (time() > ($timestamp+(8*60)))) {
+} elseif ((time() < ($timestamp+10)) || (time() > ($timestamp+(8*60)))) {
 	echo "<font color=red><b>There was a probem with your submission (error 1). Please go back and try again.</b></font>"; trackme("error-fast-submit"); die;
 // make sure TO is an integer
 } elseif (!is_int(intval($to))) {

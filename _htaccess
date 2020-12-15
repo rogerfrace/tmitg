@@ -86,7 +86,6 @@ ErrorDocument 500 '<a href="http://www.flickr.com/photos/girliemac/6509400855/" 
   RewriteRule ^code/6V8jNri4$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DarkNoiseRadio [R=301,L]
   RewriteRule ^code/fKszaCvj$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DarkroomMagazine [R=301,L]
   RewriteRule ^code/J3TuaYFM$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DecayedLaceRadio [R=301,L]
-  RewriteRule ^code/xVqKRr3U$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DJCruelBritannia [R=301,L]
   RewriteRule ^code/r4w5Muyh$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DjDarkDave [R=301,L]
   RewriteRule ^code/HNJvqHTe$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DJMartinOldgoth [R=301,L]
   RewriteRule ^code/rs7FHcDC$ http://www.tmitg.com/files/tmitg-promo.php?receipt=GothDarknessRadio [R=301,L]
@@ -116,6 +115,7 @@ ErrorDocument 500 '<a href="http://www.flickr.com/photos/girliemac/6509400855/" 
   RewriteRule ^code/63Gqcbso$ http://www.tmitg.com/files/tmitg-promo.php?receipt=JohnElysium [R=301,L]
   RewriteRule ^code/Fuw85mMB$ http://www.tmitg.com/files/tmitg-promo.php?receipt=DarkestBeforeDawnKOOP [R=301,L]
   RewriteRule ^code/PLzz4KGj$ http://www.tmitg.com/files/tmitg-promo.php?receipt=FrontiereRock [R=301,L]
+  RewriteRule ^code/LW2ULau2$ http://www.tmitg.com/files/tmitg-promo.php?receipt=TheEleventhHourwithDJShadowplay [R=301,L]
 
   # mp3 redirects
   RewriteRule ^media/cimmerian-audio.php$ http://www.tmitg.com/viewmp3bc.php?bcsample=cimmerian [R=301,L]

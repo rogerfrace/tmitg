@@ -30,7 +30,7 @@ of sun warm your face<br>
 and in your mind<br>
 gentle dreams<br>
 will brush against your thoughts<br>
-and love will smooth your soul</p>
+and love will soothe your soul</p>
       
 </body>
 </html>

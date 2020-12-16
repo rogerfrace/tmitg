@@ -84,8 +84,8 @@
 	</div>
 
 	<div class="honey">
-	<label for="honeypot">Enter something here if you're a spammer</label>
-	<input type="text" id="honeypot" name="honeypot">
+	<label for="agreement">Enter something here if you are a spammer</label>
+	<input type="text" id="agreement" name="agreement">
 	</div>
 
 	<div>

@@ -43,7 +43,7 @@ function sanitize($str) {
 
 <?php
 // set POST variables
-$vars = array('name', 'email', 'to', 'subject', 'message', 'timestamp', 'referrer', 'honeypot');
+$vars = array('name', 'email', 'to', 'subject', 'message', 'timestamp', 'referrer', 'agreement');
 foreach ($vars as $v) {
   if (isset($_POST[$v])) {
     $$v = $_POST[$v];
@@ -89,8 +89,8 @@ if ((strstr($email, '\\\\')) || (stristr($email, 'bcc:'))) {
 // check for the double-slash in the referral
 } elseif (strstr($_SERVER['HTTP_REFERER'],'com//contact')) {
 	echo "<font color=red><b>There was a probem with your submission (error 2). Please go back and try again.</b></font>"; trackme("error-double-slash-referral"); die;
-// check the honeypot
-} elseif ($honeypot != "") {
+// check the honeypot (renamed "agreement")
+} elseif ($agreement != "") {
 	echo "<font color=red><b>There was a probem with your submission (error 3). Please go back and try again.</b></font>"; trackme("error-honeypot"); die;
 }
 

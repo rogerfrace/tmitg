@@ -62,6 +62,8 @@
 <section aria-labelledby="compilations">
 <h2 id="compilations">compilation appearances:</h2>
 <ul class="comps">
+<li><a href="ladansemacabre9.php" title="La Danse Macabre 9"><img src="albums/ladansemacabre9ico.jpg" alt="La Danse Macabre 9"></a></li>
+
 <li><a href="rebellion.php" title="Rebellion: Vol 1"><img src="albums/rebellionico.png" alt="Rebellion: Vol 1"></a></li>
 
 <li><a href="drownedvisions.php" title="Drowned Visions"><img src="albums/drownedvisionsico.jpg" alt="Drowned Visions"></a></li>

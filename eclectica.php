@@ -10,11 +10,9 @@
 </head>
 
 <body id="discog">
-	<nav aria-label="Skip Links" class="wai" id="skip-links">
-		<a href="#discog_topnav">Skip to Discography Sub Navigation</a>
-		<a href="#discog_albuminfo">Skip to Album Info</a>
-		<a href="#discog_tracklist">Skip to Track Listing</a>
-	</nav>
+	<span id="skip-links">
+		<a class="wai" href="#main">Skip to Main</a>
+	</span>
 
 <?php get_header(); ?>
 
@@ -23,7 +21,7 @@
 <?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<div class="mainbody clearleft" role="main">
+<div class="mainbody clearleft" role="main" id="main">
 
 
 <!-- this is the display table for the CD and info -->

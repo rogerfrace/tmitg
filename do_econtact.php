@@ -33,7 +33,7 @@ function sanitize($str) {
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="title" content="the Machine in the Garden - contact">
 	<meta name="Copyright" content="<?=date('Y',time());?>">
-	<title>the Machine in the Garden - contact</title>
+	<title>the Machine in the Garden - contact submitted</title>
 	<?php include_once("headers-additional.php"); ?>
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
 	<?php include_once("googletracking.html"); ?>
@@ -43,7 +43,7 @@ function sanitize($str) {
 
 <?php
 // set POST variables
-$vars = array('name', 'email', 'to', 'subject', 'message', 'timestamp', 'referrer', 'agreement');
+$vars = array('name', 'email', 'to', 'subject', 'message', 'timestamp','referrer', 'agreement');
 foreach ($vars as $v) {
   if (isset($_POST[$v])) {
     $$v = $_POST[$v];
@@ -64,6 +64,7 @@ $raw_to = $to;
 $raw_name = $name;
 $raw_email = $email;
 $raw_subject = $subject;
+$raw_captcha = $_POST['g-recaptcha-response'];
 
 
 // check for blank fields
@@ -92,6 +93,9 @@ if ((strstr($email, '\\\\')) || (stristr($email, 'bcc:'))) {
 // check the honeypot (renamed "agreement")
 } elseif ($agreement != "") {
 	echo "<font color=red><b>There was a probem with your submission (error 3). Please go back and try again.</b></font>"; trackme("error-honeypot"); die;
+// check the captcha
+} elseif (strlen($raw_captcha) < 10) {
+	echo "<font color=red><b>There was a probem with your submission (error 4). Please go back and try again.</b></font>"; trackme("error-captcha"); die;
 }
 
 // check for lots of URLs in the message
@@ -137,6 +141,7 @@ real from name: $raw_name
 real from email: $raw_email
 real to: $raw_to
 real subject: $raw_subject
+captcha token length: ".strlen($raw_captcha)." 
 ";
 
 $msg = stripslashes($msg);

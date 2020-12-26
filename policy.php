@@ -37,6 +37,9 @@
 <h2>Terms of Service</h2>
 <p>No guarantees are made regarding quality, compatibility, functionality or content of this website &mdash; we simply do our best to be as cross-compatible, accessible and user-friendly as possible. If you discover any problems with out website, please <a href="contact.php">contact us</a>.</p>
 
+<h2>Contact CAPTCHA</h2>
+<p>We have implemented reCAPTCHA v3 on our site and that your use of reCAPTCHA v3 is subject to the <a href="https://www.google.com/policies/privacy/" rel="external noopener">Google Privacy Policy</a> and <a href="https://www.google.com/policies/terms/" rel="external noopener">Terms of Use</a>.</p>
+
 <h2>Trademark Notice</h2>
 <p>the Machine in the Garden&reg; is a registered trademark of Summer and Roger Frace.</p>
 </main>

@@ -9,9 +9,8 @@
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once("headers-additional.php"); ?>
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />
-
-
 	<?php include_once("googletracking.html"); ?>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body id="contact">
@@ -89,8 +88,11 @@
 	</div>
 
 	<div>
+ 
 	<input type="hidden" name="timestamp" id="timestamp" value="<?php echo time(); ?>" />
 	<input type="hidden" name="referrer" id="referrer" value="<?php echo $_SERVER['HTTP_REFERER']; ?>" />
+
+    <div class="g-recaptcha" data-sitekey="6LfszBUaAAAAAG4-8445wKVkBZnNVa8blFoDvCgQ"></div>
 
 	<input type="reset" id="reset" value="Reset Form" />
 	<input type="submit" id="submit" value="Submit Contact Form" />

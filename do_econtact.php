@@ -64,10 +64,10 @@ $rmsg = ob_get_clean();
 
 // reCAPTCHA verify with Google
 // from https://codeforgeek.com/google-recaptcha-tutorial/
+require_once('google-captcha-keys.php'); // contains $SiteKey and $SecretKey
 
-$secretKey = "6LfszBUaAAAAANgkrzJn_OmAHFwz891W93X0J77r";
 // post request to server
-$url = 'https://www.google.com/recaptcha/api/siteverify?secret='.urlencode($secretKey).'&response='.urlencode($raw_captcha).'&remoteip='.urlencode($_SERVER['REMOTE_ADDR']);
+$url = 'https://www.google.com/recaptcha/api/siteverify?secret='.urlencode($SecretKey).'&response='.urlencode($raw_captcha).'&remoteip='.urlencode($_SERVER['REMOTE_ADDR']);
 $response = file_get_contents($url);
 $responseKeys = json_decode($response,true);
 

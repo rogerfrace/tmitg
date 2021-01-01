@@ -50,15 +50,6 @@ foreach ($vars as $v) {
   }
 }
 
-// send raw var_dump to roger
-ob_start();
-var_dump($_POST);
-$rmsg = ob_get_clean();
-
-get_header();
-
-echo "<div role=\"main\" class=\"mainbody\">";
-
 // for debugging
 $raw_to = $to;
 $raw_name = $name;
@@ -66,6 +57,29 @@ $raw_email = $email;
 $raw_subject = $subject;
 $raw_captcha = $_POST['g-recaptcha-response'];
 
+// prep raw var_dump to roger
+ob_start();
+var_dump($_POST);
+$rmsg = ob_get_clean();
+
+// reCAPTCHA verify with Google
+// from https://codeforgeek.com/google-recaptcha-tutorial/
+
+$secretKey = "6LfszBUaAAAAANgkrzJn_OmAHFwz891W93X0J77r";
+// post request to server
+$url = 'https://www.google.com/recaptcha/api/siteverify?secret='.urlencode($secretKey).'&response='.urlencode($raw_captcha).'&remoteip='.urlencode($_SERVER['REMOTE_ADDR']);
+$response = file_get_contents($url);
+$responseKeys = json_decode($response,true);
+
+// debug response
+//echo "<div>".print_r($responseKeys)."</div>";
+//echo "<div>".$raw_captcha."</div>";
+// end captcha verify
+
+// page HTML output
+get_header();
+
+echo "<div role=\"main\" class=\"mainbody\">";
 
 // check for blank fields
 if ((!$to) || (!$name) || (!$email) || (!$subject) || (!$message))
@@ -95,7 +109,9 @@ if ((strstr($email, '\\\\')) || (stristr($email, 'bcc:'))) {
 	echo "<font color=red><b>There was a probem with your submission (error 3). Please go back and try again.</b></font>"; trackme("error-honeypot"); die;
 // check the captcha
 } elseif (strlen($raw_captcha) < 10) {
-	echo "<font color=red><b>There was a probem with your submission (error 4). Please go back and try again.</b></font>"; trackme("error-captcha"); die;
+	echo "<font color=red><b>There was a probem with your submission (error 4). Please go back and try again.</b></font>"; trackme("error-captcha1"); die;
+} elseif($responseKeys["success"] != 1) {
+	echo "<font color=red><b>There was a probem with your submission (error 5). Please go back and try again.</b></font>"; trackme("error-captcha2"); die;
 }
 
 // check for lots of URLs in the message
@@ -142,6 +158,7 @@ real from email: $raw_email
 real to: $raw_to
 real subject: $raw_subject
 captcha token length: ".strlen($raw_captcha)." 
+response keys: ".implode(";",$responseKeys)."
 ";
 
 $msg = stripslashes($msg);

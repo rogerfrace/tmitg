@@ -76,6 +76,12 @@ $responseKeys = json_decode($response,true);
 //echo "<div>".$raw_captcha."</div>";
 // end captcha verify
 
+// myip.ms blacklist lookup - https://myip.ms/info/api/API_Dashboard.html
+// expected answer is "no" or "yes"
+include_once('do_econtact_myip.php');
+$blacklist = $arr["ip_blacklist"]["blacklist"];
+//echo "<div>".$arr["ip_blacklist"]["blacklist"]."</div>";
+
 // page HTML output
 get_header();
 
@@ -112,6 +118,8 @@ if ((strstr($email, '\\\\')) || (stristr($email, 'bcc:'))) {
 	echo "<font color=red><b>There was a probem with your submission (error 4). Please go back and try again.</b></font>"; trackme("error-captcha1"); die;
 } elseif($responseKeys["success"] != 1) {
 	echo "<font color=red><b>There was a probem with your submission (error 5). Please go back and try again.</b></font>"; trackme("error-captcha2"); die;
+} elseif($blacklist == "yes") {
+	echo "<font color=red><b>There was a probem with your submission (error 6). Please go back and try again.</b></font>"; trackme("error-blacklist"); die;
 }
 
 // check for lots of URLs in the message
@@ -139,10 +147,10 @@ $to_address[7] = "roger@tmitg.com"; //Web Site Problems
 $to_address[8] = "booking@tmitg.com"; //Booking
 
 // build and send the email
-	$to = "$to_address[$to]";
-	$subject = "[tMitG Web Form] $subject";
-	$mailheaders = "From: $name <$email>\n";
-	$mailheaders .= "Reply-To: $email";
+$to = "$to_address[$to]";
+$subject = "[tMitG Web Form] $subject";
+$mailheaders = "From: $name <$email>\n";
+$mailheaders .= "Reply-To: $email";
 $msg = "tMitG Web Contact Form:\n
 $message\n
 \n
@@ -157,22 +165,23 @@ real from name: $raw_name
 real from email: $raw_email
 real to: $raw_to
 real subject: $raw_subject
+blacklist: $blacklist
 captcha token length: ".strlen($raw_captcha)." 
 response keys: ".implode(";",$responseKeys)."
 ";
 
 $msg = stripslashes($msg);
 
-	mail($to, $subject, $msg, $mailheaders) or $mailerror="<p class=body><font color=red>There has been a problem sending your email.<br>Please contact the <a href=\"mailto:tmitg@tmitg.com\">webmaster</a>.</font></p>";
+mail($to, $subject, $msg, $mailheaders) or $mailerror="<p class=body><font color=red>There has been a problem sending your email.<br>Please contact the <a href=\"mailto:roger@tmitg.com\">webmaster</a>.</font></p>";
 
-	if ($mailerror != "") {
-		echo "$mailerror";
-		trackme("error-send-problem");
-	}
-	else {
-		echo "<p>Your email has been sent. Thank you.</p>";
-		trackme("success");
-	}
+if ($mailerror != "") {
+	echo "$mailerror";
+	trackme("error-send-problem");
+}
+else {
+	echo "<p>Your email has been sent. Thank you.</p>";
+	trackme("success");
+}
 
 ?>
 

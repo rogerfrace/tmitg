@@ -82,6 +82,14 @@ include_once('do_econtact_myip.php');
 $blacklist = $arr["ip_blacklist"]["blacklist"];
 //echo "<div>".$arr["ip_blacklist"]["blacklist"]."</div>";
 
+// my whack-a-mole blacklist
+if ($blacklist != "yes") {
+	include_once('do_econtact_whackamole.php');
+	if (in_array($_SERVER['REMOTE_ADDR'],$myblacklist)) {
+		$blacklist = "yes";
+	}
+}
+
 // page HTML output
 get_header();
 
@@ -134,7 +142,7 @@ $subject = sanitize($subject);
 $message = sanitize($message);
 
 // if it suvived the spam check, send me raw output
-mail('roger@tmitg.com','tMitG form var_dump',$rmsg);
+//mail('roger@tmitg.com','tMitG form var_dump',$rmsg);
 //
 
 // who to mail to

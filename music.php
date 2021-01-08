@@ -380,7 +380,6 @@ $(document).ready(function() {
 			$("#accordion .places").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
 			$("#songlist div.songs.places").show();
-			ga('send', 'event', 'MusicPage', 'ArtClick', 'placesinbetween');
 		}
 	});
 	$("#accordion .item.image").on("click keydown",function(e) {
@@ -389,7 +388,6 @@ $(document).ready(function() {
 			$("#accordion .image").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
 			$("#songlist div.songs.image").show();
-			ga('send', 'event', 'MusicPage', 'ArtClick', 'image');
 		}
 	});
 	$("#accordion .item.baats").on("click keydown",function(e) {
@@ -398,7 +396,6 @@ $(document).ready(function() {
 			$("#accordion .baats").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
 			$("#songlist div.songs.baats").show();
-			ga('send', 'event', 'MusicPage', 'ArtClick', 'baats');
 		}
 	});
 	$("#accordion .item.vanir").on("click keydown",function(e) {
@@ -407,7 +404,6 @@ $(document).ready(function() {
 			$("#accordion .vanir").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
 			$("#songlist div.songs.vanir").show();
-			ga('send', 'event', 'MusicPage', 'ArtClick', 'vanir');
 		}
 	});
 	$("#accordion .item.xv").on("click keydown",function(e) {
@@ -416,7 +412,6 @@ $(document).ready(function() {
 			$("#accordion .xv").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
 			$("#songlist div.songs.xv").show();
-			ga('send', 'event', 'MusicPage', 'ArtClick', 'xv');
 		}
 	});
 	$("#accordion .item.sp").on("click keydown",function(e) {
@@ -425,7 +420,6 @@ $(document).ready(function() {
 			$("#accordion .sp").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
 			$("#songlist div.songs.sp").show();
-			ga('send', 'event', 'MusicPage', 'ArtClick', 'shadowpuppets');
 		}
 	});
 	$("#accordion .item.asp").on("click keydown",function(e) {
@@ -434,7 +428,6 @@ $(document).ready(function() {
 			$("#accordion .asp").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
 			$("#songlist div.songs.asp").show();
-			ga('send', 'event', 'MusicPage', 'ArtClick', 'asphodel');
 		}
 	});
 	$("#accordion .item.ootm").on("click keydown",function(e) {
@@ -443,7 +436,6 @@ $(document).ready(function() {
 			$("#accordion .ootm").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
 			$("#songlist div.songs.ootm").show();
-			ga('send', 'event', 'MusicPage', 'ArtClick', 'mists');
 		}
 	});
 	$("#accordion .item.own").on("click keydown",function(e) {
@@ -452,7 +444,6 @@ $(document).ready(function() {
 			$("#accordion .own").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
 			$("#songlist div.songs.own").show();
-			ga('send', 'event', 'MusicPage', 'ArtClick', 'winters');
 		}
 	});
 	$("#accordion .item.uw").on("click keydown",function(e) {
@@ -461,7 +452,6 @@ $(document).ready(function() {
 			$("#accordion .uw").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
 			$("#songlist div.songs.uw").show();
-			ga('send', 'event', 'MusicPage', 'ArtClick', 'underworld');
 		}
 	});
 	$("#accordion .item.vs").on("click keydown",function(e) {
@@ -470,14 +460,7 @@ $(document).ready(function() {
 			$("#accordion .vs").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
 			$("#songlist div.songs:visible").hide();
 			$("#songlist div.songs.vs").show();
-			ga('send', 'event', 'MusicPage', 'ArtClick', 'vsep');
 		}
-	});
-	$(".audiocol a").click(function() {
-		ga('send', 'event', 'MusicPage', 'AudioClick', this.href);
-	});
-	$(".videocol a").click(function() {
-		ga('send', 'event', 'MusicPage', 'VideoClick', this.href);
 	});
 
 });

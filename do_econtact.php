@@ -2,7 +2,7 @@
 session_start();
 
 function trackme($reason="other") {
-	echo "<script type=\"text/javascript\">ga('send', 'event', 'do_econtact.php', 'error', '".$reason."');</script>";
+	echo "<script>gtag('event','error',{'event_category':'contact','event_label':'".$reason."'});</script>";
 }
 
 // simplest XSS function ever, in case i ever want it

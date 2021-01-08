@@ -194,7 +194,7 @@
 <script type="text/javascript">
 jQuery(document).ready(function() {
 	$("a[href^='http']").click(function(){
-		ga('send', 'event', 'outbound', 'click', this.href);
+		gtag('event','click',{'event_category':'outbound','event_label':this.href});
 	});
 	$("a[target]").attr("rel","noopener");
 });

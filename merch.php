@@ -98,7 +98,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="195269018252" />
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/places-in-between" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'placesinbetween');">Buy <span class="wai">Places in Between</span> Now</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/places-in-between" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy <span class="wai">Places in Between</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -119,7 +119,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<meta property="priceCurrency" content="USD" />
 		<meta property="price" content="8.00" />
 		<meta property="gtin12" content="885767743120" />
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/before-and-after-the-storm" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'baats');">Buy Digital <span class="wai">Before and After the Storm</span></a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/before-and-after-the-storm" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Digital <span class="wai">Before and After the Storm</span></a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -141,7 +141,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="634479658679" />
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/xv" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'xv');">Buy <span class="wai">XV</span> Now</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/xv" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy <span class="wai">XV</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -161,7 +161,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="685879997523" />
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/shadow-puppets" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'shadowpuppets');">Buy <span class="wai">Shadow Puppets</span> Now</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/shadow-puppets" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy <span class="wai">Shadow Puppets</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -183,7 +183,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="685879998629" />
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/asphodel" onclick="ga('send', 'event', 'BuyNow', 'bandcamp', 'asphodel');">Buy <span class="wai">Asphodel</span> Now</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/asphodel" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy <span class="wai">Asphodel</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -203,7 +203,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="685879999428" />
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/out-of-the-mists" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'mists');">Buy <span class="wai">Out of the Mists</span> Now</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/out-of-the-mists" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy <span class="wai">Out of the Mists</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -225,7 +225,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="685879999923" />
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/one-winters-night" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'winters');">Buy <span class="wai">One Winter's Night&hellip;</span> Now</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/one-winters-night" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy <span class="wai">One Winter's Night&hellip;</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -246,7 +246,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<meta property="priceCurrency" content="USD" />
 		<meta property="price" content="8.00" />
 		<meta property="gtin12" content="792733800421" />
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/underworld" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'underworld');">Buy Digital <span class="wai">Underworld</span></a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/underworld" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Digital <span class="wai">Underworld</span></a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -268,7 +268,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="780444900226" />
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/veils-and-shadows-ep" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'vsep');">Buy <span class="wai">Veils and Shadows EP</span> Now</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/veils-and-shadows-ep" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy <span class="wai">Veils and Shadows EP</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -295,7 +295,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<strong class="price" property="price">$10</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
-		<a class="atcss" href="https://projektrecords.bandcamp.com/album/here-and-the-hereafter" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'hereafter');">Buy <span class="wai">Here and the Hereafter</span> Now</a>
+		<a class="atcss" href="https://projektrecords.bandcamp.com/album/here-and-the-hereafter" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy <span class="wai">Here and the Hereafter</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -316,7 +316,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="617026020723" />
-		<a class="atcss" href="https://mirabilis.bandcamp.com/album/sub-rosa" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'subrosa');">Buy <span class="wai">Sub Rosa</span> Now</a>
+		<a class="atcss" href="https://mirabilis.bandcamp.com/album/sub-rosa" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy <span class="wai">Sub Rosa</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -339,7 +339,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="617026020624" />
-		<a class="atcss" href="https://mirabilis.bandcamp.com/album/pleiades" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'pleiades');">Buy <span class="wai">Pleiades</span> Now</a>
+		<a class="atcss" href="https://mirabilis.bandcamp.com/album/pleiades" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy <span class="wai">Pleiades</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -360,7 +360,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<meta property="availability" content="http://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="price" content="3.00" />
-		<a class="atcss" href="https://mirabilis.bandcamp.com/album/mirabilis-7-ep" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'mirabilis7');">Buy Digital <span class="wai">Mirabilis 7-inch</span></a>
+		<a class="atcss" href="https://mirabilis.bandcamp.com/album/mirabilis-7-ep" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Digital <span class="wai">Mirabilis 7-inch</span></a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -385,7 +385,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<strong class="price" property="price">$12</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
-		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-vintage-ornament-design-t-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'tealshirt');">Buy <span class="wai">vintage ornament design t-shirt</span> Now</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-vintage-ornament-design-t-shirt" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy <span class="wai">vintage ornament design t-shirt</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -404,7 +404,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<strong class="price" property="price">$8</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
-		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-red-design-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'redshirt');">Buy <span class="wai">red design t-shirt</span> Now</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-red-design-shirt" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy <span class="wai">red design t-shirt</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -425,7 +425,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<strong class="price" property="price">$10</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
-		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-red-design-baby-doll-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'redbd');">Buy <span class="wai">red design baby doll shirt</span> Now</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-red-design-baby-doll-shirt" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy <span class="wai">red design baby doll shirt</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -443,7 +443,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<strong class="price" property="price">$12</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
-		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-red-design-raglan-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'redraglan');">Buy <span class="wai">red design raglan shirt</span> Now</a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-red-design-raglan-shirt" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy <span class="wai">red design raglan shirt</span> Now</a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -463,7 +463,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 		<strong class="price" property="price">$10</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
-			<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-tulip-long-sleeve-shirt" onclick="ga('send', 'event', 'BuyNow', 'Bandcamp', 'tulipls');">Buy <span class="wai">tulip long sleeve shirt</span> Now</a>
+			<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-tulip-long-sleeve-shirt" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy <span class="wai">tulip long sleeve shirt</span> Now</a>
 		</div>
 	</div>
 </div>

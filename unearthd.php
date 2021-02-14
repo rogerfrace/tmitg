@@ -58,7 +58,7 @@
 	
 	<tr>
 	<td>
-	<small>Releasing 22 May 2021.<br>Also available on <a href="places.php"><i>Places in Between</i></a></small>
+	<small>Releasing 22 May 2021. Available for pre-order 14 February 2021.<br>Also available on <a href="places.php"><i>Places in Between</i></a></small>
 	</td>
 	</tr>
 	
@@ -67,7 +67,7 @@
 </div> <!-- end tracklist div -->
 
 <section id="discog_buynow">
-	<div class="buynow"><a href="https://brokensoundtapes.bandcamp.com" rel="noopener external"><img src="images/bandcamp.gif" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
+	<div class="buynow"><a href="https://brokensoundtapes.bandcamp.com/album/unearthd" rel="noopener external"><img src="images/bandcamp.gif" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
 
 </section>
 

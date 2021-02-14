@@ -62,7 +62,7 @@
 <section aria-labelledby="compilations">
 <h2 id="compilations">compilation appearances:</h2>
 <ul class="comps">
-<li><a href="unearthd.php" title="Unearth'd'"><img src="albums/unearthdico.jpg" alt="Unearth'd'"></a></li>
+<li><a href="unearthd.php" title="Unearth'd'"><img src="albums/unearthdico.jpg" alt="Unearth'd"></a></li>
 
 <li><a href="ladansemacabre9.php" title="La Danse Macabre 9"><img src="albums/ladansemacabre9ico.jpg" alt="La Danse Macabre 9"></a></li>
 

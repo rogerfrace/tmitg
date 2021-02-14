@@ -72,15 +72,19 @@ $response = file_get_contents($url);
 $responseKeys = json_decode($response,true);
 
 // debug response
+// $responseKeys["success"] should =1
 //echo "<div>".print_r($responseKeys)."</div>";
 //echo "<div>".$raw_captcha."</div>";
 // end captcha verify
 
-// myip.ms blacklist lookup - https://myip.ms/info/api/API_Dashboard.html
-// expected answer is "no" or "yes"
-include_once('do_econtact_myip.php');
-$blacklist = $arr["ip_blacklist"]["blacklist"];
-//echo "<div>".$arr["ip_blacklist"]["blacklist"]."</div>";
+// only ping blacklist if captcha=1
+if ($responseKeys["success"] == 1) {
+	// myip.ms blacklist lookup - https://myip.ms/info/api/API_Dashboard.html
+	// expected answer is "no" or "yes"
+	include_once('do_econtact_myip.php');
+	$blacklist = $arr["ip_blacklist"]["blacklist"];
+	//echo "<div>".$arr["ip_blacklist"]["blacklist"]."</div>";
+}
 
 // my whack-a-mole blacklist
 if ($blacklist != "yes") {

@@ -43,62 +43,11 @@
 
 	<section id="rightcolumn" aria-label="Email Contact Form">
 
-	<h1>tMitG Email Contact Form</h1>
+	<h1>Contact tMitG</h1>
 
-	<form id="contactForm" action="do_econtact.php" method="post">
-	<small>all fields are required</small>
-
-	<div>
-	<label for="name">Your Name:</label>
-	<input type="text" name="name" id="name" class="required" size="40" maxlength="50" required />
-	</div>
-
-	<div>
-	<label for="email">Your Email Address:</label>
-	<input type="email" name="email" id="email" class="required email" size="40" maxlength="50" required />
-	</div>
-
-	<div>
-	<label for="to">To:</label>
-	<select name="to" id="to" size="1" class="required" required>
-		<option value="" selected="selected">--Pull down to select contact--</option>
-		<option value="1">the Band</option>
-		<option value="2">Summer</option>
-		<option value="3">Roger</option>
-		<option value="5">Promotional Inquiries</option>
-		<option value="8">Booking</option>
-		<option value="6">Merchandise Order Inquiries</option>
-		<option value="7">Web Site Problems</option>
-	</select>
-	</div>
-
-	<div>
-	<label for="subject">Subject:</label>
-	<input type="text" name="subject" id="subject" class="required" size="40" maxlength="75" required />
-	</div>
-
-	<div>
-	<label for="message">Your Message:</label>
-	<textarea name="message" id="message" class="required" rows="10" cols="38" required></textarea>
-	</div>
-
-	<div class="honey">
-	<label for="agreement">Enter something here if you are a spammer</label>
-	<input type="text" id="agreement" name="agreement">
-	</div>
-
-	<div>
- 
-	<input type="hidden" name="timestamp" id="timestamp" value="<?php echo time(); ?>" />
-	<input type="hidden" name="referrer" id="referrer" value="<?php echo $_SERVER['HTTP_REFERER']; ?>" />
-
-    <div class="g-recaptcha" data-sitekey="6LfszBUaAAAAAG4-8445wKVkBZnNVa8blFoDvCgQ"></div>
-
-	<input type="reset" id="reset" value="Reset Form" />
-	<input type="submit" id="submit" value="Submit Contact Form" />
-	</div>
-
-	</form>
+	<p>Due to excessive amounts of spam, we have removed our contact form. Please find us instead on social media.</p>
+	
+	<p><a href="https://www.facebook.com/tmitg" title="tMitG on Facebook"><img src="images/facebook.png" alt=""></a> <a href="https://twitter.com/tmitg" title="tMitG on Twitter"><img src="images/twitter.png" alt=""></a> <a href="https://tmitg.bandcamp.com/" title="tMitG on Bandcamp"><img src="images/bandcamp-round.png" alt=""></a></p>
 
 	</section> <!-- /rightcolumn -->
 

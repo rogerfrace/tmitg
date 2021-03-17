@@ -16,14 +16,14 @@
 
 <h1>Policies</h1>
 
-<small>Last updated July 20, 2020</small>
+<small>Last updated March 16, 2021</small>
 
 <h2>Return Policy</h2>
 <p>Unopened CDs may be returned within 30 days for a full refund less shipping. Shipping charges are not refundable. Opened CDs may only be returned in the event of a defective CD. If your CD is defective, we will pay return shipping and we will pay to ship a new CD to you.</p>
 
 <h2>Shipping Policy</h2>
 <p>We generally ship orders within 5 business days.</p>
-<p>Shipping prices for a single CD in the United States (As of June 2020):
+<p>Shipping prices for a single CD in the United States (As of March 2021):
 <br>First Class Mail - $4.50</p>
 
 <h2>Privacy Policy</h2>
@@ -36,9 +36,6 @@
 
 <h2>Terms of Service</h2>
 <p>No guarantees are made regarding quality, compatibility, functionality or content of this website &mdash; we simply do our best to be as cross-compatible, accessible and user-friendly as possible. If you discover any problems with out website, please <a href="contact.php">contact us</a>.</p>
-
-<h2>Contact CAPTCHA</h2>
-<p>We have implemented reCAPTCHA v3 on our site and that your use of reCAPTCHA v3 is subject to the <a href="https://www.google.com/policies/privacy/" rel="external noopener">Google Privacy Policy</a> and <a href="https://www.google.com/policies/terms/" rel="external noopener">Terms of Use</a>.</p>
 
 <h2>Trademark Notice</h2>
 <p>the Machine in the Garden&reg; is a registered trademark of Summer and Roger Frace.</p>

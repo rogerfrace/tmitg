@@ -10,9 +10,9 @@ function do_lyrics($filename,$songname=NULL) {
 	global $lyrpath;
 
 	if (check_mobile()==true) {
-		echo "<a href=\"$lyrpath/$filename.php\"><span class=\"fas fa-file-alt\"></span></a>\n";
+		echo "<button href=\"$lyrpath/$filename.php\"><span class=\"fas fa-file-alt\"></span></button>\n";
 	} else {
-		echo "<a href=\"$lyrpath/$filename.php\" class=\"lyriclink\" aria-haspopup=\"dialog\"><span class=\"fas fa-file-alt\"></span><span class=\"wai\">view $songname lyrics</span></a>\n";
+		echo "<button href=\"$lyrpath/$filename.php\" class=\"lyriclink\" aria-haspopup=\"dialog\"><span class=\"fas fa-file-alt\"></span><span class=\"wai\">view $songname lyrics</span></button>\n";
 	}
 }
 
@@ -30,9 +30,9 @@ function do_video($videoname,$songtitle=NULL,$ico=NULL) {
 	}
 
 	if ( (check_mobile()==true) ) {
-		echo "<a href=\"viewvideo.php?yt=".$videoname."\" title=\"".stripslashes($songtitle)."\">".$linkname."</a>\n";
+		echo "<button href=\"viewvideo.php?yt=".$videoname."\" title=\"".stripslashes($songtitle)."\">".$linkname."</button>\n";
 	} else {
-		echo "<a href=\"viewvideo.php?yt=".$videoname."\" class=\"videolink\" aria-haspopup=\"dialog\">".$linkname."</a>\n";
+		echo "<button href=\"viewvideo.php?yt=".$videoname."\" class=\"videolink\" aria-haspopup=\"dialog\">".$linkname."</button>\n";
 	}
 }
 
@@ -47,9 +47,9 @@ function do_mp3bc2($samplename,$songtitle=NULL,$ico=NULL) {
 	}
 
 	if ( (check_mobile()==true) ) {
-		echo "<a href=\"viewmp3bc.php?bcsample=".$samplename."\" title=\"".stripslashes($songtitle)."\">".$linkname."</a>\n";
+		echo "<button href=\"viewmp3bc.php?bcsample=".$samplename."\" title=\"".stripslashes($songtitle)."\">".$linkname."</button>\n";
 	} else {
-		echo "<a href=\"viewmp3bc.php?bcsample=".$samplename."\" class=\"musiclink\" aria-haspopup=\"dialog\">".$linkname."</a>\n";
+		echo "<button href=\"viewmp3bc.php?bcsample=".$samplename."\" class=\"musiclink\" aria-haspopup=\"dialog\">".$linkname."</button>\n";
 	}
 }
 
@@ -77,6 +77,7 @@ function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videon
 	<td>";
 
 	if ($videoname) {
+		if (!$videotitle) {$videotitle=$songname;}
 		do_video("$videoname","$videotitle",1);
 	} else {echo "";}
 

@@ -1,4 +1,4 @@
-<div id="discog_topnav" role="navigation" aria-label="Secondary" tabindex="0">
+<div id="discog_topnav" role="navigation" aria-label="Secondary" tabindex="-1">
 <ul class="subnav">
 	<li><a href="places.php" title="Places in Between"><img src="albums/placesmini.jpg" alt="Places in Between" /></a></li>
 	<li><a href="storm.php" title="Before and After the Storm"><img src="albums/baatsmini.jpg" alt="Before and After the Storm" /></a></li>

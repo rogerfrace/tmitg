@@ -745,6 +745,22 @@ iframe#sb-player {
 
 /* music page */
 #music {
+	button { /*reset*/
+		display: inline-block;
+		border: 1px solid transparent;
+		margin: 0;
+		text-decoration: underline;
+		font-family: Cormorant, serif;
+		font-size:100%;
+		background: none;
+		color: $teal;
+		line-height: 1;
+		cursor: pointer;
+		text-align: center;
+		transition: background 250ms ease-in-out, transform 150ms ease;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+	}
 	#accordion {
 		width: auto;
 		background: #f5f5f6;

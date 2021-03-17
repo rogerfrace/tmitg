@@ -1238,6 +1238,9 @@ s::after {
 	#discog thead {color:$black;}
 	#merch a.atcss {color:$nearwhite;}
 	#music {
+		.albumcol, .audiocol, .videocol {
+			h2 {color:$lightdark;}
+		}
 		#accordion {background:$black;}
 		.videocol h4 {color:$lightdark;}
 		.audiocol h4 {color:$lightdark;}

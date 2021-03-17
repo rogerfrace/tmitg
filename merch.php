@@ -114,7 +114,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	(<span property="description">Special Edition CD</span>)<br />
 	<a href="storm.php">more information <span class="wai">about Before and After the Storm</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" style="color:#900;">Out of Print</strong>
+		<strong class="price" style="color:#E00;">Out of Print</strong>
 		<meta property="availability" content="http://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="price" content="8.00" />
@@ -241,7 +241,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	(<span property="description">full-length CD</span>)<br />
 	<a href="underworld.php">more information <span class="wai">about Underworld</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" style="color:#900;">Out of Print</strong>
+		<strong class="price" style="color:#E00;">Out of Print</strong>
 		<meta property="availability" content="http://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="price" content="8.00" />
@@ -356,7 +356,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	(<span property="description">4 song EP</span>)<br />
 	<a href="http://www.mirabilismusic.com/7inch.php">more information <span class="wai">about Mirabilis 7-inch</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" style="color:#900;">Out of Print</strong>
+		<strong class="price" style="color:#E00;">Out of Print</strong>
 		<meta property="availability" content="http://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="price" content="3.00" />

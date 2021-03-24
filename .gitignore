@@ -2,3 +2,4 @@
 .DS_Store
 google-captcha-keys.php
 .vscode/settings.json
+.vscode/launch.json

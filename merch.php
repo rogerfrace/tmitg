@@ -94,7 +94,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	(<span property="description">full-length CD</span>)<br />
 	<a href="places.php">more information <span class="wai">about Places in Between</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$12</strong>
+		<strong class="price" property="price">$10</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="195269018252" />
@@ -438,7 +438,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">red design t-shirt (raglan)</em></h2>
-	<span property="description">(red spiral with white text - click picture to view larger image)<br /><br />ladies shirt with 3/4 length red raglan sleeves (M or L)</span>
+	<span property="description">(red spiral with white text - click picture to view larger image)<br /><br />ladies shirt with &frac34; length red raglan sleeves (M or L)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$12</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">
@@ -458,7 +458,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">tulip t-shirt</em></h2>
-	(<span property="description">(purple tulip with silver text - click picture to view larger image)<br /><br />long-sleeve (XL)</span>
+	<span property="description">(purple tulip with silver text - click picture to view larger image)<br /><br />long-sleeve (XL)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$10</strong>
 		<meta property="availability" content="http://schema.org/OnlineOnly">

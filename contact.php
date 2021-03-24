@@ -29,7 +29,7 @@
 	<!-- address card -->
 	<address>
 		<div class="org" rel="me">the Machine in the Garden</div>
-		<div class="fn note">Roger Frac&eacute; &amp; <a href="http://www.tmitg.com/summer/" target="_blank">Summer Bowman</a></div>
+		<div class="fn note">Roger Frac&eacute; &amp; Summer Bowman</div>
 		<div class="adr">
 			<span class="locality">Austin</span>, 
 			<span class="region">Texas</span> 

@@ -123,6 +123,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 		<meta property="availability" content="http://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="price" content="8.00" />
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="gtin12" content="885767743120" />
 		<a class="atcss" href="https://tmitg.bandcamp.com/album/before-and-after-the-storm" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Digital <span class="wai">: Before and After the Storm</span></a>
 	</div>
@@ -255,6 +256,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 		<meta property="availability" content="http://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="price" content="8.00" />
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="gtin12" content="792733800421" />
 		<a class="atcss" href="https://tmitg.bandcamp.com/album/underworld" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Digital <span class="wai">: Underworld</span></a>
 	</div>
@@ -374,6 +376,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 		<meta property="availability" content="http://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="price" content="3.00" />
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<a class="atcss" href="https://mirabilis.bandcamp.com/album/mirabilis-7-ep" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Digital <span class="wai">: Mirabilis 7-inch</span></a>
 	</div>
 </div>

@@ -94,10 +94,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">Places in Between</em></h2>
+	<meta property="sku" content="dxm-008-cd" />
 	<span property="mpn">dxm-008-cd</span> &copy;<span property="releaseDate">2020</span><br />
-	(<span property="description">full-length CD</span>)<br />
-	<a href="places.php">more information <span class="wai">about Places in Between</span></a><br />
+	(<span property="description">full-length CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
+		<a property="url" href="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>places.php">more information <span class="wai">about Places in Between</span></a><br />
 		<strong class="price" property="price" content="10.00">$10</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
@@ -115,10 +116,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">Before and After the Storm</em></h2>
+	<meta property="sku" content="dxm-005-cdse" />
 	<span property="mpn">dxm-005-cdse</span> &copy;<span property="releaseDate">2011</span><br />
-	(<span property="description">Special Edition CD</span>)<br />
-	<a href="storm.php">more information <span class="wai">about Before and After the Storm</span></a><br />
+	(<span property="description">Special Edition CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
+		<a property="url" href="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>storm.php">more information <span class="wai">about Before and After the Storm</span></a><br />
 		<strong class="price" style="color:#E00;">Out of Print</strong>
 		<meta property="availability" content="http://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
@@ -139,10 +141,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">XV</em></h2>
+	<meta property="sku" content="dxm-015-cd" />
 	<span property="mpn">dxm-015-cd</span> &copy;<span property="releaseDate">2007</span><br />
-	(<span property="description">full-length CD</span>)<br />
-	<a href="xv.php">more information <span class="wai">about XV</span></a><br />
+	(<span property="description">full-length CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
+		<a property="url" href="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>xv.php">more information <span class="wai">about XV</span></a><br />
 		<strong class="price" property="price" content="7.00">$7</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
@@ -160,10 +163,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">Shadow Puppets</em></h2>
+	<meta property="sku" content="MPP975" />
 	<span property="mpn">MPP975</span> &copy;<span property="releaseDate">2005</span><br />
-	(<span property="description">full-length CD</span>)<br />
-	<a href="shadowpuppets.php">more information <span class="wai">about Shadow Puppets</span></a><br />
+	(<span property="description">full-length CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
+		<a property="url" href="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>shadowpuppets.php">more information <span class="wai">about Shadow Puppets</span></a><br />
 		<strong class="price" property="price" content="8.00">$8</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
@@ -183,10 +187,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">Asphodel</em></h2>
+	<meta property="sku" content="MPP986" />
 	<span property="mpn">MPP986</span> &copy;<span property="releaseDate">2002</span><br />
-	(<span property="description">full-length CD</span>)<br />
-	<a href="asphodel.php">more information <span class="wai">about Asphodel</span></a><br />
+	(<span property="description">full-length CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
+		<a property="url" href="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>asphodel.php">more information <span class="wai">about Asphodel</span></a><br />
 		<strong class="price" property="price" content="8.00">$8</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
@@ -204,10 +209,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">Out of the Mists</em></h2>
+	<meta property="sku" content="MPP994" />
 	<span property="mpn">MPP994</span> &copy;<span property="releaseDate">2000</span><br />
-	(<span property="description">full-length enhanced digipack CD</span>)<br />
-	<a href="mists.php">more information <span class="wai">about Out of the Mists</span></a><br />
+	(<span property="description">full-length enhanced digipack CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
+		<a property="url" href="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>mists.php">more information <span class="wai">about Out of the Mists</span></a><br />
 		<strong class="price" property="price" content="8.00">$8</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
@@ -227,10 +233,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">One Winter's Night&hellip;</em></h2>
+	<meta property="sku" content="MPP999" />
 	<span property="mpn">MPP999</span> &copy;<span property="releaseDate">1999</span><br />
-	(<span property="description">full-length digipack CD</span>)<br />
-	<a href="winters.php">more information <span class="wai">about One Winter's Night&hellip;</span></a><br />
+	(<span property="description">full-length digipack CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
+		<a property="url" href="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>winters.php">more information <span class="wai">about One Winter's Night&hellip;</span></a><br />
 		<strong class="price" property="price" content="8.00">$8</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
@@ -248,10 +255,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">Underworld</em></h2>
+	<meta property="sku" content="dxm-001-cd" />
 	<span property="mpn">dxm-001-cd</span> &copy;<span property="releaseDate">1997</span><br />
-	(<span property="description">full-length CD</span>)<br />
-	<a href="underworld.php">more information <span class="wai">about Underworld</span></a><br />
+	(<span property="description">full-length CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
+		<a property="url" href="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>underworld.php">more information <span class="wai">about Underworld</span></a><br />
 		<strong class="price" style="color:#E00;">Out of Print</strong>
 		<meta property="availability" content="http://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
@@ -272,10 +280,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 <div class="itemdesc">
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">Veils and Shadows EP</em></h2>
+	<meta property="sku" content="ISOL8-002-2" />
 	<span property="mpn">ISOL8-002-2</span> &copy;<span property="productionDate">1993</span><meta property="releaseDate" content="1994" /><br />
-	(<span property="description">4 song CD EP</span>)<br />
-	<a href="vs.php">more information <span class="wai">about Veils and Shadows EP</span></a><br />
+	(<span property="description">4 song CD EP</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
+		<a property="url" href="<?php echo "http://".$_SERVER['HTTP_HOST']."/"; ?>vs.php">more information <span class="wai">about Veils and Shadows EP</span></a><br />
 		<strong class="price" property="price" content="3.00">$3</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
@@ -301,10 +310,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">Mirabilis</span></span><br />
 	<em property="name">Here and the Hereafter</em></h2>
 	<span style="font-weight:normal; font-size:.75em;">(Summer's other project)</span><br />
+	<meta property="sku" content="PRO307" />
 	<span property="mpn">PRO307</span> &copy;<span property="releaseDate">2014</span><br />
-	(<span property="description">full-length CD</span>)<br />
-	<a href="http://www.mirabilismusic.com/hereafter.php">more information <span class="wai">about Here and the Hereafter</span></a><br />
+	(<span property="description">full-length CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
+		<a property="url" href="http://www.mirabilismusic.com/hereafter.php">more information <span class="wai">about Here and the Hereafter</span></a><br />
 		<strong class="price" property="price" content="10.00">$10</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
@@ -322,10 +332,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">Mirabilis</span></span><br />
 	<em property="name">Sub Rosa</em></h2>
 	<span style="font-weight:normal; font-size:.75em;">(Summer's other project)</span><br />
+	<meta property="sku" content="PRO207" />
 	<span property="mpn">PRO207</span> &copy;<span property="releaseDate">2007</span><br />
-	(<span property="description">full-length CD</span>)<br />
-	<a href="http://www.mirabilismusic.com/subrosa.php">more information <span class="wai">about Sub Rosa</span></a><br />
+	(<span property="description">full-length CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
+		<a property="url" href="http://www.mirabilismusic.com/subrosa.php">more information <span class="wai">about Sub Rosa</span></a><br />
 		<strong class="price" property="price" content="7.00">$7</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
@@ -346,10 +357,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">Mirabilis</span></span><br />
 	<em property="name">Pleiades</em></h2>
 	<span style="font-weight:normal; font-size:.75em;">(Summer's other project)</span><br />
+	<meta property="sku" content="PRO206" />
 	<span property="mpn">PRO206</span> &copy;<span property="productionDate">2004</span>, reissued <span property="releaseDate">2007</span><br />
-	(<span property="description">full-length CD</span>)<br />
-	<a href="http://www.mirabilismusic.com/pleiades.php">more information <span class="wai">about Pleiades</span></a><br />
+	(<span property="description">full-length CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
+		<a property="url" href="http://www.mirabilismusic.com/pleiades.php">more information <span class="wai">about Pleiades</span></a><br />
 		<strong class="price" property="price" content="7.00">$7</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
@@ -368,10 +380,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	<h2><span property="brand" vocab="http://schema.org/" typeof="Brand"><span property="name">Mirabilis</span></span><br />
 	<em property="name">Self-Titled 7-inch</em></h2>
 	<span style="font-weight:normal; font-size:.75em;">(Summer's other project)</span><br />
+	<meta property="sku" content="FD106" />
 	<span property="mpn">FD106</span> &copy;2003<br />
-	(<span property="description">4 song EP</span>)<br />
-	<a href="http://www.mirabilismusic.com/7inch.php">more information <span class="wai">about Mirabilis 7-inch</span></a><br />
+	(<span property="description">4 song EP</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
+		<a property="url" href="http://www.mirabilismusic.com/7inch.php">more information <span class="wai">about Mirabilis 7-inch</span></a><br />
 		<strong class="price" style="color:#E00;">Out of Print</strong>
 		<meta property="availability" content="http://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />

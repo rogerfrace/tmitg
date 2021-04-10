@@ -98,7 +98,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	(<span property="description">full-length CD</span>)<br />
 	<a href="places.php">more information <span class="wai">about Places in Between</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$10</strong>
+		<strong class="price" property="price" content="10.00">$10</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -142,7 +142,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	(<span property="description">full-length CD</span>)<br />
 	<a href="xv.php">more information <span class="wai">about XV</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$7</strong>
+		<strong class="price" property="price" content="7.00">$7</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -163,7 +163,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	(<span property="description">full-length CD</span>)<br />
 	<a href="shadowpuppets.php">more information <span class="wai">about Shadow Puppets</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$8</strong>
+		<strong class="price" property="price" content="8.00">$8</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -186,7 +186,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	(<span property="description">full-length CD</span>)<br />
 	<a href="asphodel.php">more information <span class="wai">about Asphodel</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$8</strong>
+		<strong class="price" property="price" content="8.00">$8</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -207,7 +207,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	(<span property="description">full-length enhanced digipack CD</span>)<br />
 	<a href="mists.php">more information <span class="wai">about Out of the Mists</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$8</strong>
+		<strong class="price" property="price" content="8.00">$8</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -230,7 +230,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	(<span property="description">full-length digipack CD</span>)<br />
 	<a href="winters.php">more information <span class="wai">about One Winter's Night&hellip;</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$8</strong>
+		<strong class="price" property="price" content="8.00">$8</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -274,7 +274,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	(<span property="description">4 song CD EP</span>)<br />
 	<a href="vs.php">more information <span class="wai">about Veils and Shadows EP</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$3</strong>
+		<strong class="price" property="price" content="3.00">$3</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -303,7 +303,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	(<span property="description">full-length CD</span>)<br />
 	<a href="http://www.mirabilismusic.com/hereafter.php">more information <span class="wai">about Here and the Hereafter</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$10</strong>
+		<strong class="price" property="price" content="10.00">$10</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -324,7 +324,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	(<span property="description">full-length CD</span>)<br />
 	<a href="http://www.mirabilismusic.com/subrosa.php">more information <span class="wai">about Sub Rosa</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$7</strong>
+		<strong class="price" property="price" content="7.00">$7</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -348,7 +348,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	(<span property="description">full-length CD</span>)<br />
 	<a href="http://www.mirabilismusic.com/pleiades.php">more information <span class="wai">about Pleiades</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$7</strong>
+		<strong class="price" property="price" content="7.00">$7</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -396,7 +396,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	<em property="name">"vintage ornament" design t-shirt</em></h2>
 	<span property="description">(teal "vintage ornament" design with silver text, black short sleeve, unisex or ladies cut v-neck - click picture to view larger image)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$12</strong>
+		<strong class="price" property="price" content="12.00">$12</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -416,7 +416,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	<span property="description">(red spiral with white text - click picture to view larger image)<br /><br />
 	short-sleeve (M, L, or XL)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$8</strong>
+		<strong class="price" property="price" content="8.00">$8</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -438,7 +438,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	<span property="description">(red spiral with white text - click picture to view larger image)<br /><br />
 	baby-doll with red bands on collar and sleeves (M, L, or XL)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$10</strong>
+		<strong class="price" property="price" content="10.00">$10</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -457,7 +457,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	<em property="name">red design t-shirt (raglan)</em></h2>
 	<span property="description">(red spiral with white text - click picture to view larger image)<br /><br />ladies shirt with &frac34; length red raglan sleeves (M or L)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$12</strong>
+		<strong class="price" property="price" content="12.00">$12</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -478,7 +478,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
 	<em property="name">tulip t-shirt</em></h2>
 	<span property="description">(purple tulip with silver text - click picture to view larger image)<br /><br />long-sleeve (XL)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price">$10</strong>
+		<strong class="price" property="price" content="10.00">$10</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />

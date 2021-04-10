@@ -81,6 +81,10 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <hr />
 
+<?php
+// for the meta priceValidUntil
+$validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
+?>
 <div role="region" aria-label="TMITG albums">
 
 <section class="itemcontainer" vocab="http://schema.org/" typeof="Product">
@@ -95,6 +99,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<a href="places.php">more information <span class="wai">about Places in Between</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$10</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="195269018252" />
@@ -138,6 +143,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<a href="xv.php">more information <span class="wai">about XV</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$7</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="634479658679" />
@@ -158,6 +164,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<a href="shadowpuppets.php">more information <span class="wai">about Shadow Puppets</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$8</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="685879997523" />
@@ -180,6 +187,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<a href="asphodel.php">more information <span class="wai">about Asphodel</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$8</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="685879998629" />
@@ -200,6 +208,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<a href="mists.php">more information <span class="wai">about Out of the Mists</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$8</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="685879999428" />
@@ -222,6 +231,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<a href="winters.php">more information <span class="wai">about One Winter's Night&hellip;</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$8</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="685879999923" />
@@ -265,6 +275,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<a href="vs.php">more information <span class="wai">about Veils and Shadows EP</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$3</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="780444900226" />
@@ -293,6 +304,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<a href="http://www.mirabilismusic.com/hereafter.php">more information <span class="wai">about Here and the Hereafter</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$10</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<a class="atcss" href="https://projektrecords.bandcamp.com/album/here-and-the-hereafter" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: Here and the Hereafter</span></a>
@@ -313,6 +325,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<a href="http://www.mirabilismusic.com/subrosa.php">more information <span class="wai">about Sub Rosa</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$7</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="617026020723" />
@@ -336,6 +349,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<a href="http://www.mirabilismusic.com/pleiades.php">more information <span class="wai">about Pleiades</span></a><br />
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$7</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="617026020624" />
@@ -383,6 +397,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<span property="description">(teal "vintage ornament" design with silver text, black short sleeve, unisex or ladies cut v-neck - click picture to view larger image)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$12</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-vintage-ornament-design-t-shirt" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: vintage ornament design t-shirt</span></a>
@@ -402,6 +417,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	short-sleeve (M, L, or XL)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$8</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-red-design-shirt" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: red design t-shirt</span></a>
@@ -423,6 +439,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	baby-doll with red bands on collar and sleeves (M, L, or XL)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$10</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-red-design-baby-doll-shirt" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: red design baby doll shirt</span></a>
@@ -441,6 +458,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<span property="description">(red spiral with white text - click picture to view larger image)<br /><br />ladies shirt with &frac34; length red raglan sleeves (M or L)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$12</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-red-design-raglan-shirt" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: red design raglan shirt</span></a>
@@ -461,6 +479,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 	<span property="description">(purple tulip with silver text - click picture to view larger image)<br /><br />long-sleeve (XL)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
 		<strong class="price" property="price">$10</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="http://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 			<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-tulip-long-sleeve-shirt" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: tulip long sleeve shirt</span></a>

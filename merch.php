@@ -61,7 +61,7 @@
 
 <hr />
 
-<section>
+<section aria-label="Special Offers">
 <?php if (
 		(date("Ymd",time()) == "20130522")
 	): ?>
@@ -83,7 +83,7 @@ For band news and special offers, be sure to follow us on <a href="http://www.fa
 
 <?php
 // for the meta priceValidUntil
-$validUntil = date('Y-m-d',strtotime(date("Y-m-d", mktime()) . " + 365 day"));
+$validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 ?>
 <div role="region" aria-label="TMITG albums">
 

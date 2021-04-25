@@ -1,9 +1,6 @@
 <?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html class="no-js ie6 ie678" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="no-js ie7 ie678" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="no-js ie8 ie678" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Twenty Shadows</title>
@@ -15,7 +12,7 @@
 <body id="lyrics">
 
 <h1>Twenty Shadows</h1>
-<h3>words from <i>Richard II</i> by Shakespeare. adapted by Summer Bowman</h3>
+<p>words from <i>Richard II</i> by Shakespeare. adapted by Summer Bowman</p>
 
 <p>each substance of grief, hath twenty shadows<br>
 which shows like grief itself, but is not so<br>

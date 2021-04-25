@@ -102,6 +102,7 @@ jQuery(document).ready(function() {
 	if (jQuery().colorbox) {
 		// colorbox activation (non-photos), only if loaded (non-mobile)
 		jQuery(".lyriclink").colorbox({iframe:'true', returnFocus:'true', rel:'lyrics', transition:"fade", width:"400px", height:"80%"});
+		jQuery(".noteslink").colorbox({iframe:'true', returnFocus:'true', rel:'notes', transition:"fade", width:"400px", height:"80%"});
 		jQuery(".musiclink").colorbox({iframe:'true', returnFocus:'true', rel:'music', transition:"fade", width:"380px", height:"520px"});
 		jQuery(".videolink").colorbox({iframe:'true', returnFocus:'true', rel:'videos', transition:"fade", width:"550px", height:"450px"});
 	}

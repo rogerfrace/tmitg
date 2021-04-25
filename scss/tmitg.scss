@@ -1342,16 +1342,30 @@ iframe#sb-player {
         font-weight: bold;
     }
 
-    h3 {
-        font-size: 0.75em;
-        font-weight: normal;
-        font-style: oblique;
+    h2 {
+        font-size: 1.1em;
+        font-weight: bold;
     }
 }
 
-.ie6 #lyrics h1,
-.ie7 #lyrics h1 {
-    margin-top: 10px;
+/* notes popups */
+#notes {
+    background: $black;
+    color: $nearwhite;
+    text-align: left;
+    font-family: serif;
+
+    h1 {
+        font-size: 1.25em;
+        font-weight: bold;
+    	text-align: center;
+    }
+
+    h2 {
+        font-size: 1.1em;
+        font-weight: bold;
+	    text-align: center;
+    }
 }
 
 

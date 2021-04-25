@@ -83,7 +83,7 @@ $lyricsfile and videoname do not include .html
 */ ?>
 
 <?php do_songtitle(1,"Cold Storm","coldstorm","coldstorm-bc","places.jpg","coldstorm"); ?>
-<?php do_songtitle(2,"A Thousand Years of War","athousandyearsofwar",NULL,"places.jpg","athousandyears"); ?>
+<?php do_songtitle(2,"A Thousand Years of War","athousandyearsofwar",NULL,"places.jpg","athousandyears",NULL,"athousandyearsofwar"); ?>
 <?php do_songtitle(3,"Beyond","beyond","beyond-bc","places.jpg",NULL); ?>
 <?php do_songtitle(4,"Underneath","underneath",NULL,"places.jpg",NULL); ?>
 <?php do_songtitle(5,"Prophetic Bird","propheticbird","propheticbird-bc","places.jpg",NULL); ?>

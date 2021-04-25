@@ -3,16 +3,26 @@
 date_default_timezone_set('America/Chicago');
 
 // name of lyrics folder here
-$lyrpath="lyrics";
 
 // define lyrics function here
 function do_lyrics($filename,$songname=NULL) {
-	global $lyrpath;
+	$lyrpath="lyrics";
 
 	if (check_mobile()==true) {
 		echo "<button href=\"$lyrpath/$filename.php\"><span class=\"fas fa-file-alt\"></span></button>\n";
 	} else {
 		echo "<button href=\"$lyrpath/$filename.php\" class=\"lyriclink\" aria-haspopup=\"dialog\"><span class=\"fas fa-file-alt\"></span><span class=\"wai\">view $songname lyrics</span></button>\n";
+	}
+}
+
+// define notes function here
+function do_notes($filename,$songname=NULL) {
+	$npath="notes";
+
+	if (check_mobile()==true) {
+		echo "<button href=\"$npath/$filename.php\"><span class=\"fas fa-file-alt\"></span></button>\n";
+	} else {
+		echo "<button href=\"$npath/$filename.php\" class=\"noteslink\" aria-haspopup=\"dialog\"><span class=\"fas fa-pen-fancy\"></span><span class=\"wai\">view $songname notes</span></button>\n";
 	}
 }
 
@@ -55,7 +65,7 @@ function do_mp3bc2($samplename,$songtitle=NULL,$ico=NULL) {
 
 
 // new table output structure for rows in discogs
-function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle=NULL) {
+function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle=NULL,$notesfile=NULL) {
 	echo "<tr itemprop=\"track\" itemscope itemtype=\"http://schema.org/MusicRecording\">
 	<th scope=\"row\" class=\"tracknum\"><span itemprop=\"position\">$tracknum</span></th>
 	<td itemprop=\"name\">".stripslashes($songname)."</td>
@@ -63,6 +73,13 @@ function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videon
 
 	if ($lyricsfile) {
 		do_lyrics("$lyricsfile","$songname");
+	} else {echo "";}
+
+	echo "</td>
+	<td>";
+
+	if ($notesfile) {
+		do_notes("$notesfile","$songname");
 	} else {echo "";}
 
 	echo "</td>

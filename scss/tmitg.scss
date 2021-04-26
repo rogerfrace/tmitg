@@ -72,12 +72,12 @@ a:link {
 }
 
 a:visited {
-    color: $fourgray;
+    color: $mdgray;
     font-weight: normal;
 }
 
 a:hover {
-    color: $mdgray;
+    color: $ltgray;
     font-weight: normal;
 }
 
@@ -1350,7 +1350,7 @@ iframe#sb-player {
     color: $nearwhite;
     text-align: left;
     font-family: serif;
-	padding: 0 12px;
+	padding: 0 12px 12px;
     h1 {
         font-size: 1.25em;
         font-weight: bold;

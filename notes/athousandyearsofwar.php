@@ -25,7 +25,7 @@
 
 <h2>The Lyrics (by Summer)</h2>
 
-<p>Again, I was inspired by mythology. I was actually familiar with this mythology from Hindu scriptures from a song by Vas called “Amrita (Churning the Sea of Milk).” I had been curious about what that meant so I looked it up and was really interested in it. But this was years ago and I had forgotten about it (that album came out in 2004). Our daughter had recently gotten a book about mythology geared towards kids and this myth was in there so I was reintroduced to it. I was immediately inspired and started writing words and when the music to this song came back to me, I knew it was the right fit.</p>
+<p>Again, I was inspired by mythology. I was actually familiar with this mythology from Hindu scriptures from a song by Vas called “<a rel="noopener external" href="https://apple.co/3dTM0oG" target="_blank">Amrita (Churning the Sea of Milk)</a>.” I had been curious about what that meant so I looked it up and was really interested in it. But this was years ago and I had forgotten about it (that album came out in 2004). Our daughter had recently gotten a book about mythology geared towards kids and this myth was in there so I was reintroduced to it. I was immediately inspired and started writing words and when the music to this song came back to me, I knew it was the right fit.</p>
 
 </body>
 </html>

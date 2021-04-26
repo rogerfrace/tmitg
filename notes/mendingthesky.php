@@ -21,11 +21,11 @@
 
 <p>"Mending the Sky" was the next song written after "Cimmerian," and in my mind the album (originally supposed to be a mini-album if you remember the announcement last December) was going to start with "Cimmerian" and end with "Mending the Sky." Of course that's not quite true: "Cimmerian (Reprise)" ended up completing the album, though I have some redemption in that the SLF Mix is at the very very end…</p>
 
-<p>Mood-wise, "Mending the Sky" is the lightest song on the album, and that feeling is very much in the spirit of Bauhaus' "Hope" on <i>Burning From The Inside</i>. I liked the idea of ending this album on a positive note, which I know isn't very goth of us, and I think Summer's lyrics/vocals contributed nicely to that light/hopeful feeling as well.</p>
+<p>Mood-wise, "Mending the Sky" is the lightest song on the album, and that feeling is very much in the spirit of Bauhaus' "<a rel="noopener external" href="https://apple.co/3tRWCde" target="_blank">Hope</a>" on <i>Burning From The Inside</i>. I liked the idea of ending this album on a positive note, which I know isn't very goth of us, and I think Summer's lyrics/vocals contributed nicely to that light/hopeful feeling as well.</p>
 
-<p>Musically the main influence on this song was "Burning" by Sarah Fimm. I liked the simplicity and beauty of the slow, solo electric piano at the beginning. Of course, that mood all went to hell when I added drums to the song, but that's kinda how my writing process in the studio works. In many ways, Miles' remix retained the original inspiration of the song much more effectively than the direction I ended up taking it.</p>
+<p>Musically the main influence on this song was "<a rel="noopener external" href="https://apple.co/3evjuJ3" target="_blank">Burning</a>" by Sarah Fimm. I liked the simplicity and beauty of the slow, solo electric piano at the beginning. Of course, that mood all went to hell when I added drums to the song, but that's kinda how my writing process in the studio works. In many ways, Miles' remix retained the original inspiration of the song much more effectively than the direction I ended up taking it.</p>
 
-<p>If you're not familiar with Sarah Fimm's work, we highly recommend her <i>White Birds EP</i>. Check it out!</p>
+<p>If you're not familiar with Sarah Fimm's work, we highly recommend her <a rel="noopener external" href="https://apple.co/3sSo7Cf" target="_blank"><i>White Birds EP</i></a>. Check it out!</p>
 
 <hr>
 

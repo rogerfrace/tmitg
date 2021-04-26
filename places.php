@@ -78,7 +78,7 @@
 	</thead>
 	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
 <?php /*
-do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
+do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname,$notesname)
 $lyricsfile and videoname do not include .html
 */ ?>
 

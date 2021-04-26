@@ -19,9 +19,9 @@
 
 <h2>The Music (by Roger)</h2>
 
-<p>I've written before about the old-school influences on this album, and I think "Power and Prophesy" is a big part of that. I wanted to do something straight out of the old-school goth rock playbook, ala The Sisters of Mercy/The Mission/The Wake, etc. It could even be argued that tMitG hasn't done a "rock" song with this level of energy for a long time, perhaps even back to "A Touch of Heaven" on the <i>Veils and Shadows EP</i>.</p>
+<p>I've written before about the old-school influences on this album, and I think "Power and Prophesy" is a big part of that. I wanted to do something straight out of the old-school goth rock playbook, ala The Sisters of Mercy/The Mission/The Wake, etc. It could even be argued that tMitG hasn't done a "rock" song with this level of energy for a long time, perhaps even back to "<a rel="noopener external" href="https://apple.co/3sU6FNN" target="_blank">A Touch of Heaven</a>" on the <i>Veils and Shadows EP</i>.</p>
 
-<p>The main guitar riff was very much in the vein of The Sisters of Mercy "First and Last and Always" or "Nine While Nine," just with more distortion, and in that regard it does harken back to my picking style in the old days like "A Touch of Heaven." The rest of the song was wrapped around the guitar riff and simply tried to keep up the energy. The song morphed over time with the break/bridge/solo being the final part added after a dozen mixdowns had already been done.</p>
+<p>The main guitar riff was very much in the vein of The Sisters of Mercy "<a rel="noopener external" href="https://apple.co/32PYKGw" target="_blank">First and Last and Always</a>" or "<a rel="noopener external" href="https://apple.co/3vluaAM" target="_blank">Nine While Nine</a>," just with more distortion, and in that regard it does harken back to my picking style in the old days like "A Touch of Heaven." The rest of the song was wrapped around the guitar riff and simply tried to keep up the energy. The song morphed over time with the break/bridge/solo being the final part added after a dozen mixdowns had already been done.</p>
 
 <hr>
 

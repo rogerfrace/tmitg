@@ -79,18 +79,18 @@
 	</thead>
 	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
 <?php /*
-do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
+do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname,$notesname)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"Cimmerian","cimmerian","cimmerian-bc","baats.jpg","cimmerian","Cimmerian"); ?>
+<?php do_songtitle(1,"Cimmerian","cimmerian","cimmerian-bc","baats.jpg","cimmerian","Cimmerian","cimmerian"); ?>
 <?php do_songtitle(2,"Scathefire","scathefire",NULL,"baats.jpg",NULL); ?>
-<?php do_songtitle(3,"Metallic","metallic","metallic-bc","baats.jpg",NULL); ?>
+<?php do_songtitle(3,"Metallic","metallic","metallic-bc","baats.jpg",NULL,NULL,"metallic"); ?>
 <?php do_songtitle(4,"In the Vanir","inthevanir",NULL,"baats.jpg",NULL); ?>
 <?php do_songtitle(5,"The Piano","thepiano",NULL,"baats.jpg",NULL); ?>
-<?php do_songtitle(6,"Power and Prophesy","powerandprophesy","powerandprophesy-bc","baats.jpg",NULL); ?>
-<?php do_songtitle(7,"Mending the Sky","mendingthesky",NULL,"baats.jpg",NULL); ?>
-<?php do_songtitle(8,"Cimmerian (reprise)",NULL,NULL,"baats.jpg",NULL); ?>
+<?php do_songtitle(6,"Power and Prophesy","powerandprophesy","powerandprophesy-bc","baats.jpg",NULL,NULL,"powerandprophesy"); ?>
+<?php do_songtitle(7,"Mending the Sky","mendingthesky",NULL,"baats.jpg",NULL,NULL,"mendingthesky"); ?>
+<?php do_songtitle(8,"Cimmerian (reprise)",NULL,NULL,"baats.jpg",NULL,NULL,"cimmerianreprise"); ?>
 <?php do_songtitle(9,"Scathefire (fire mix)",NULL,"firemix-bc","baats.jpg",NULL); ?>
 <?php do_songtitle(10,"Power and Prophesy (metal below mix)",NULL,NULL,"baats.jpg",NULL); ?>
 <?php do_songtitle(11,"Mending the Sky (slf mix)",NULL,NULL,"baats.jpg",NULL); ?>

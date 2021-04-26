@@ -19,7 +19,7 @@
 
 <h2>The Music (by Roger)</h2>
 
-<p>One day I was feeling a little under the weather and I ended up crashing out on the futon in our studio for some rest. At some point the next day when laying there in a bit of a  fog, I was thinking about doing a song that was slow and dirgey. I think one of the best songs of the style is "The Eternal" from Joy Division's <i>Closer</i>, and this song was very much running through my head as I began to imagine the music that would become "Metallic."</p>
+<p>One day I was feeling a little under the weather and I ended up crashing out on the futon in our studio for some rest. At some point the next day when laying there in a bit of a  fog, I was thinking about doing a song that was slow and dirgey. I think one of the best songs of the style is "<a rel="noopener external" href="https://apple.co/3vjaQnH" target="_blank">The Eternal</a>" from Joy Division's <i>Closer</i>, and this song was very much running through my head as I began to imagine the music that would become "Metallic."</p>
 
 <p>When I was starting to feel a little better, I made it across the room to the computer, fired up Logic, and started composing. I'm not entirely sure where everything came from because I was in a bit of a daze, but as with most other tMitG songs, simply playing with various sounds and effects changed the tone and mood of the song as it developed. This song probably changed less than others during this process, but I'm always trying to throw some interesting tidbits into the composition even if the main parts are long and repetitive.</p>
 

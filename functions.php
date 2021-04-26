@@ -9,9 +9,9 @@ function do_lyrics($filename,$songname=NULL) {
 	$lyrpath="lyrics";
 
 	if (check_mobile()==true) {
-		echo "<button href=\"$lyrpath/$filename.php\"><span class=\"fas fa-file-alt\"></span></button>\n";
+		echo "<a href=\"$lyrpath/$filename.php\"><span class=\"fas fa-file-alt\"></span></a>\n";
 	} else {
-		echo "<button href=\"$lyrpath/$filename.php\" class=\"lyriclink\" aria-haspopup=\"dialog\"><span class=\"fas fa-file-alt\"></span><span class=\"wai\">view $songname lyrics</span></button>\n";
+		echo "<button href=\"$lyrpath/$filename.php\" class=\"lyriclink\" aria-haspopup=\"dialog\" title=\"view $songname lyrics\"><span class=\"fas fa-file-alt\"></span></button>\n";
 	}
 }
 
@@ -20,9 +20,9 @@ function do_notes($filename,$songname=NULL) {
 	$npath="notes";
 
 	if (check_mobile()==true) {
-		echo "<button href=\"$npath/$filename.php\"><span class=\"fas fa-file-alt\"></span></button>\n";
+		echo "<a href=\"$npath/$filename.php\"><span class=\"fas fa-pen-fancy\"></span></a>\n";
 	} else {
-		echo "<button href=\"$npath/$filename.php\" class=\"noteslink\" aria-haspopup=\"dialog\"><span class=\"fas fa-pen-fancy\"></span><span class=\"wai\">view $songname notes</span></button>\n";
+		echo "<button href=\"$npath/$filename.php\" class=\"noteslink\" aria-haspopup=\"dialog\" title=\"view $songname notes\"><span class=\"fas fa-pen-fancy\"></span></button>\n";
 	}
 }
 
@@ -31,35 +31,23 @@ function do_notes($filename,$songname=NULL) {
 function do_video($videoname,$songtitle=NULL,$ico=NULL) {
 	// assuming embed size width="480" height="360"
 
-	$songtitle = stripslashes($songtitle);
-
-	if ($ico) {
-		$linkname = "<span class=\"fas fa-video\"></span><span class=\"wai\">watch $songtitle video</span>";
-	} else {
-		$linkname = "<span class=\"wai\">watch </span>$songtitle<span class=\"wai\"> video</span>";
-	}
+	$songname = stripslashes($songtitle);
 
 	if ( (check_mobile()==true) ) {
-		echo "<button href=\"viewvideo.php?yt=".$videoname."\" title=\"".stripslashes($songtitle)."\">".$linkname."</button>\n";
+		echo "<a href=\"viewvideo.php?yt=".$videoname."\" title=\"watch $songname video\"><span class=\"fas fa-video\"></span></a>\n";
 	} else {
-		echo "<button href=\"viewvideo.php?yt=".$videoname."\" class=\"videolink\" aria-haspopup=\"dialog\">".$linkname."</button>\n";
+		echo "<button href=\"viewvideo.php?yt=".$videoname."\" class=\"videolink\" aria-haspopup=\"dialog\" title=\"watch $songname video\"><span class=\"fas fa-video\"></span></button>\n";
 	}
 }
 
 
 function do_mp3bc2($samplename,$songtitle=NULL,$ico=NULL) {
-	$songtitle = stripslashes($songtitle);
-
-	if ($ico) {
-		$linkname = "<span class=\"fas fa-music\"></span><span class=\"wai\">listen to $songtitle music sample</span>";
-	} else {
-		$linkname = "<span class=\"wai\">listen to </span>$songtitle<span class=\"wai\"> music sample</span>";
-	}
+	$songname = stripslashes($songtitle);
 
 	if ( (check_mobile()==true) ) {
-		echo "<button href=\"viewmp3bc.php?bcsample=".$samplename."\" title=\"".stripslashes($songtitle)."\">".$linkname."</button>\n";
+		echo "<a href=\"viewmp3bc.php?bcsample=".$samplename."\" title=\"listen to $songname music sample\"><span class=\"fas fa-music\"></span></a>\n";
 	} else {
-		echo "<button href=\"viewmp3bc.php?bcsample=".$samplename."\" class=\"musiclink\" aria-haspopup=\"dialog\">".$linkname."</button>\n";
+		echo "<button href=\"viewmp3bc.php?bcsample=".$samplename."\" class=\"musiclink\" aria-haspopup=\"dialog\" title=\"listen to $songname music sample\"><span class=\"fas fa-music\"></span></button>\n";
 	}
 }
 

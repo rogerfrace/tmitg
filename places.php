@@ -85,15 +85,15 @@ $lyricsfile and videoname do not include .html
 <?php do_songtitle(1,"Cold Storm","coldstorm","coldstorm-bc","places.jpg","coldstorm"); ?>
 <?php do_songtitle(2,"A Thousand Years of War","athousandyearsofwar",NULL,"places.jpg","athousandyears",NULL,"athousandyearsofwar"); ?>
 <?php do_songtitle(3,"Beyond","beyond","beyond-bc","places.jpg",NULL); ?>
-<?php do_songtitle(4,"Underneath","underneath",NULL,"places.jpg",NULL); ?>
-<?php do_songtitle(5,"Prophetic Bird","propheticbird","propheticbird-bc","places.jpg",NULL); ?>
+<?php do_songtitle(4,"Underneath","underneath",NULL,"places.jpg",NULL,NULL,"underneathoeuchari"); ?>
+<?php do_songtitle(5,"Prophetic Bird","propheticbird","propheticbird-bc","places.jpg",NULL,NULL,"propheticbird"); ?>
 <?php do_songtitle(6,"Broken Days","brokendays",NULL,"places.jpg",NULL); ?>
 <?php do_songtitle(7,"Ad Astra Per Aspera","adastraperaspera",NULL,"places.jpg",NULL); ?>
-<?php do_songtitle(8,"Courage, Power, and Wisdom","couragepowerandwisdom",NULL,"places.jpg",NULL); ?>
-<?php do_songtitle(9,"Spirit and Image","spiritandimage","spiritandimage-bc","places.jpg",NULL); ?>
-<?php do_songtitle(10,"Orbital","orbital",NULL,"places.jpg",NULL); ?>
-<?php do_songtitle(11,"O Euchari","oeuchari",NULL,"places.jpg",NULL); ?>
-<?php do_songtitle(12,"Find a Way","findaway",NULL,"places.jpg","findaway"); ?>
+<?php do_songtitle(8,"Courage, Power, and Wisdom","couragepowerandwisdom",NULL,"places.jpg",NULL,NULL,"couragepowerandwisdom"); ?>
+<?php do_songtitle(9,"Spirit and Image","spiritandimage","spiritandimage-bc","places.jpg",NULL,NULL,"spiritandimage"); ?>
+<?php do_songtitle(10,"Orbital","orbital",NULL,"places.jpg",NULL,NULL,"orbital"); ?>
+<?php do_songtitle(11,"O Euchari","oeuchari",NULL,"places.jpg",NULL,NULL,"underneathoeuchari"); ?>
+<?php do_songtitle(12,"Find a Way","findaway",NULL,"places.jpg","findaway",NULL,"findaway"); ?>
 <?php do_songtitle(13,"Resist","resist",NULL,"places.jpg",NULL); ?>
 	</tbody>
 </table>

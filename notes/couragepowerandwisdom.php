@@ -23,7 +23,7 @@
 
 <figure>
 <img src="cpw.png" alt="">
-<figcaption>Courage, Power, and Wisdom’s chords, abbreviated<figcaption>
+<figcaption>"Courage, Power, and Wisdom"’s chords, abbreviated<figcaption>
 </figure>
 
 <p>The original intent of the song was much more minimal with the use of these basic chord and long reverb/delay with each chord lasting 16 measures. It ended up growing to include the guitar and drum parts and was eventually worked into what is on the album.</p>

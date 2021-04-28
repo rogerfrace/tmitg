@@ -100,16 +100,20 @@ jQuery(document).ready(function() {
 	jQuery(".ariahidden").attr("aria-hidden","true");
 
 	if (jQuery().colorbox) {
+		// http://www.jacklmoore.com/colorbox/
 		// colorbox activation (non-photos), only if loaded (non-mobile)
-		jQuery(".lyriclink").colorbox({iframe:'true', returnFocus:'true', rel:'lyrics', transition:"fade", width:"450px", height:"80%"});
-		jQuery(".noteslink").colorbox({iframe:'true', returnFocus:'true', rel:'notes', transition:"fade", width:"80%", height:"80%"});
-		jQuery(".musiclink").colorbox({iframe:'true', returnFocus:'true', rel:'music', transition:"fade", width:"380px", height:"520px"});
-		jQuery(".videolink").colorbox({iframe:'true', returnFocus:'true', rel:'videos', transition:"fade", width:"550px", height:"450px"});
+		jQuery(".lyriclink").colorbox({iframe:'true', current:'{current} of {total}', close:'close dialog', returnFocus:'true', rel:'lyrics', transition:"fade", width:"450px", height:"80%"});
+		jQuery(".noteslink").colorbox({iframe:'true', current:'{current} of {total}', close:'close dialog', returnFocus:'true', rel:'notes', transition:"fade", width:"80%", height:"80%"});
+		jQuery(".musiclink").colorbox({iframe:'true', current:'{current} of {total}', close:'close dialog', returnFocus:'true', rel:'music', transition:"fade", width:"380px", height:"520px"});
+		jQuery(".videolink").colorbox({iframe:'true', current:'{current} of {total}', close:'close dialog', returnFocus:'true', rel:'videos', transition:"fade", width:"550px", height:"450px"});
 	}
 	
-	// append aria-modal="true" to modals
+	// make some tweaks to colorbox
 	jQuery(document).bind('cbox_complete', function(){
 		jQuery("[role='dialog']").attr("aria-modal","true");
+		jQuery("#cboxContent").attr("aria-label","dialog").attr("tabindex","-1").focus();
+		jQuery(".cboxIframe").attr("title","dialog content");
+		jQuery(".lyriclink,.noteslink,.musiclink,.videolink").removeAttr("aria-expanded");
 	});
 
 	// homepage mobile nav

@@ -1407,6 +1407,10 @@ iframe#sb-player {
 #cboxCurrent {
     color: #666;
 }
+#cboxTitle {
+	text-align: right;
+	left: -30px;
+}
 
 /* special styles for screen readers */
 /* from http://adrianroselli.com/2017/12/tweaking-text-level-styles.html */

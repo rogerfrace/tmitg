@@ -114,7 +114,7 @@ $lyricsfile and videoname do not include .html
 	<h2 class="wai">Buy links</h2>
 	
 	<fieldset><legend>Remastered Edition</legend>
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="8.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/asphodel" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="8.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/asphodel" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" class="bandcamp" alt="Available at Bandcamp" /></a></div>
 	</fieldset>
 	<br>
 	<fieldset><legend>Original Version</legend>

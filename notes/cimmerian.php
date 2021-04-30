@@ -25,7 +25,7 @@
 
 <p>The orchestral elements that appear later in the song are very much typical tMitG style. After all, we talk in our bio about the exploration of technology and nature which I often express by mixing natural and unnatural sounds — of course in most cases the "natural" sounds are also produced from a synth, but they're still emulating natural sounds.</p>
 
-<p>The song ends in a grandiose fashion with all the instruments playing — again, pretty typical tMitG. If you haven't noticed before, I like things big, though my favorite word and the effect I like to achieve is "glorious." I thought of this particular adjective when trying to describe the sound I desired back on <i>One Winter's Night&hellip;</i> when trying to describe the chorus on "<a rel="noopener external" href="https://apple.co/3sQuKEX" target="_blank">The Sleep of Angels</a>" — big, beautiful and emotional all rolled together.</p>
+<p>The song ends in a grandiose fashion with all the instruments playing — again, pretty typical tMitG. If you haven't noticed before, I like things big, though my favorite word and the effect I like to achieve is "glorious." I thought of this particular adjective when trying to describe the sound I desired back on <i>One Winter's Night&hellip;</i> when trying to describe the chorus on "<a rel="noopener external" href="https://tmitg.bandcamp.com/track/the-sleep-of-angels" target="_blank">The Sleep of Angels</a>" — big, beautiful and emotional all rolled together.</p>
 
 <p>Even though I've listened to "Cimmerian" many hundreds of times by now, I still find myself welling-up a little inside when everything kicks in and Summer sings the last part of the song (starting around 5:03). But *that* is the point, isn't it?</p>
 

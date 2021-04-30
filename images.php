@@ -25,7 +25,14 @@
 				}
 				return img;
 			};
-			$(".imglink").colorbox({rel:'gallery', transition:"fade", width:"75%", height:"75%"});
+			$(".imglink").colorbox({rel:'gallery', close:'close dialog', returnFocus:'true', transition:"fade", width:"75%", height:"75%"});
+			$('a[role=button]').keypress(function(e){
+				if(e.keyCode == 32){
+					// user has pressed space
+					e.preventDefault();
+					$(this).trigger('click');
+				}
+			});
 		});
 	</script>
 </head>
@@ -54,7 +61,7 @@ function do_photo($imgname,$gallery=NULL,$alt=NULL) {
 	if (check_mobile()==true) {
 		echo "<li><a href=\"$phopath/$imgname.jpg\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" loading=\"lazy\" width=\"$tnwidth\" height=\"$tnheight\"></a></li>\n";
 	} else {
-		echo "<li><a href=\"$phopath/$imgname.jpg\" class=\"imglink\" data-title=\"$gallery\" data-alt=\"$alt\" aria-haspopup=\"dialog\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" loading=\"lazy\" width=\"$tnwidth\" height=\"$tnheight\"></a>
+		echo "<li><a role=\"button\" href=\"$phopath/$imgname.jpg\" class=\"imglink\" data-title=\"$gallery\" data-alt=\"$alt\" aria-haspopup=\"dialog\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" loading=\"lazy\" width=\"$tnwidth\" height=\"$tnheight\"></a>
 		<noscript><a href=\"$phopath/$imgname.jpg\" title=\"$gallery\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" width=\"$tnwidth\" height=\"$tnheight\"></a></noscript></li>\n";
 	}
 } // end function

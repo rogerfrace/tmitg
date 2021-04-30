@@ -113,7 +113,7 @@ jQuery(document).ready(function() {
 		jQuery("[role='dialog']").attr("aria-modal","true");
 		jQuery("#cboxContent").attr("aria-label","dialog").attr("tabindex","-1").focus();
 		jQuery(".cboxIframe").attr("title","dialog content");
-		jQuery(".lyriclink,.noteslink,.musiclink,.videolink").removeAttr("aria-expanded");
+		jQuery(".lyriclink,.noteslink,.musiclink,.videolink,#cboxPrevious,#cboxNext").removeAttr("aria-expanded");
 	});
 
 	// homepage mobile nav

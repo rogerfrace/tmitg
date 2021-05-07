@@ -863,6 +863,8 @@ a.atcss:hover {
     float: left;
     padding-left: 10px;
     margin-bottom: 12px;
+	
+	.mp3st {display:none;}
 
     table {
         border: 0;
@@ -918,7 +920,7 @@ iframe#sb-player {
 
 /* music page */
 #music {
-    button {
+    #songlist button {
         /*reset*/
         display: inline-block;
         border: 1px solid transparent;
@@ -930,7 +932,7 @@ iframe#sb-player {
         color: $teal;
         line-height: 1;
         cursor: pointer;
-        text-align: center;
+        text-align: left;
         transition: background 250ms ease-in-out, transform 150ms ease;
         -webkit-appearance: none;
         -moz-appearance: none;
@@ -1012,14 +1014,12 @@ iframe#sb-player {
 
     .albumcol {
         width: 33%;
-        *width: 28%;
         min-width: 250px;
         min-height: 250px;
     }
 
     .audiocol {
         width: 33%;
-        *width: 33%;
         min-width: 200px;
     }
 
@@ -1040,11 +1040,13 @@ iframe#sb-player {
             .audiocol {
                 float: none;
                 display: block;
+                width: auto;
             }
 
             .videocol {
                 float: none;
                 display: block;
+                width: auto;
             }
         }
     }

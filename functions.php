@@ -34,9 +34,9 @@ function do_video($videoname,$songtitle=NULL,$ico=NULL) {
 	$songname = stripslashes($songtitle);
 
 	if ( (check_mobile()==true) ) {
-		echo "<button role=\"link\" onclick=\"location.href='viewvideo.php?yt=".$videoname."';\" aria-label=\"watch $songname video\"><span class=\"fas fa-video\"></span></button>\n";
+		echo "<button role=\"link\" onclick=\"location.href='viewvideo.php?yt=".$videoname."';\" aria-label=\"watch $songname video\"><span class=\"fas fa-video\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></button>\n";
 	} else {
-		echo "<button href=\"viewvideo.php?yt=".$videoname."\" class=\"videolink\" aria-haspopup=\"dialog\" title=\"$songname video\" aria-label=\"watch $songname video\"><span class=\"fas fa-video\"></span></button>\n";
+		echo "<button href=\"viewvideo.php?yt=".$videoname."\" class=\"videolink\" aria-haspopup=\"dialog\" title=\"$songname video\" aria-label=\"watch $songname video\"><span class=\"fas fa-video\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></button>\n";
 	}
 }
 
@@ -45,9 +45,9 @@ function do_mp3bc2($samplename,$songtitle=NULL,$ico=NULL) {
 	$songname = stripslashes($songtitle);
 
 	if ( (check_mobile()==true) ) {
-		echo "<button role=\"link\" onclick=\"location.href='viewmp3bc.php?bcsample=".$samplename."';\" aria-label=\"listen to $songname music sample\"><span class=\"fas fa-music\"></span></button>\n";
+		echo "<button role=\"link\" onclick=\"location.href='viewmp3bc.php?bcsample=".$samplename."';\" aria-label=\"listen to $songname music sample\"><span class=\"fas fa-music\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></button>\n";
 	} else {
-		echo "<button href=\"viewmp3bc.php?bcsample=".$samplename."\" class=\"musiclink\" aria-haspopup=\"dialog\" title=\"$songname music sample\" aria-label=\"listen to $songname music sample\"><span class=\"fas fa-music\"></span></button>\n";
+		echo "<button href=\"viewmp3bc.php?bcsample=".$samplename."\" class=\"musiclink\" aria-haspopup=\"dialog\" title=\"$songname music sample\" aria-label=\"listen to $songname music sample\"><span class=\"fas fa-music\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></button>\n";
 	}
 }
 

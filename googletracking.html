@@ -1,8 +1,20 @@
+<script>
+// from https://idiallo.com/blog/do-not-track-users
+var _doNotTrack = navigator.doNotTrack ?
+	navigator.doNotTrack === "1" || navigator.doNotTrack === "yes": 
+	(window.doNotTrack? window.doNotTrack === "1": false);
+	//console.log('dnt: ' + _doNotTrack);
+</script>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-966611-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-966611-1');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-966611-1');
+	if (_doNotTrack){
+		// from https://developers.google.com/analytics/devguides/collection/analyticsjs/user-opt-out
+		window['ga-disable-UA-966611-1'] = true;
+	}
 </script>

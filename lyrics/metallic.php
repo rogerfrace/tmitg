@@ -15,33 +15,29 @@
 
 <p>resonant and high<br>
 sounds of the leaden<br>
-deep within the core</p>
+deep within the core<br>
+<em>nature shock<br>
+future crash</em></p>
 
-<p><em>nature shock<br>
-future crash<br></em>
-<br>
-molten and glowing<br>
+<p>molten and glowing<br>
 soft, strident din<br>
-tuned to underscore</p>
+tuned to underscore<br>
+<em>nature shock<br>
+future crash</em></p>
 
-<p><em>nature shock<br>
-future crash<br></em>
-<br>
-spinning and swirling<br>
+<p>spinning and swirling<br>
 a clanging deep within<br>
-fire beneath the ore</p>
+fire beneath the ore<br>
+<em>nature shock<br>
+future crash</em></p>
 
-<p><em>nature shock<br>
-future crash<br></em>
-<br>
-golden and molten<br>
+<p>golden and molten<br>
 penetrating resonance<br>
-never heretofore</p>
+never heretofore<br>
+<em>nature shock<br>
+future crash</em></p>
 
-<p><em>nature shock<br>
-future crash<br></em>
-<br>
-spiraling mass of beautiful momentum<br>
+<p>spiraling mass of beautiful momentum<br>
 approaching abstracted time<br>
 prospect of destiny hereafter</p>
 

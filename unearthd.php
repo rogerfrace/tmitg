@@ -58,7 +58,7 @@
 	
 	<tr>
 	<td>
-	<small>Releasing 22 May 2021. Available for pre-order 14 February 2021.<br>Also available on <a href="places.php"><i>Places in Between</i></a></small>
+	<small>Released <time>22 May 2021</time>.<br>Also available on <a href="places.php"><i>Places in Between</i></a></small>
 	</td>
 	</tr>
 	

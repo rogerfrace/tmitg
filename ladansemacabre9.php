@@ -58,7 +58,7 @@
 	
 	<tr>
 	<td>
-	<small>Released 15 December 2020.<br>Also available on <a href="places.php"><i>Places in Between</i></a></small>
+	<small>Released <time>15 December 2020</time>.<br>Also available on <a href="places.php"><i>Places in Between</i></a></small>
 	</td>
 	</tr>
 	

@@ -26,9 +26,9 @@ $lightdark: #9E6189;
 /* inverse for dark mode */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Kristi&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=fallback');
 
 /* site-wide CSS */
 body {

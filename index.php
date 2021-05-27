@@ -52,6 +52,8 @@ require_once("functions.php");
 	<![endif]-->
 <?php if (check_mobile()==false): ?>
 	<link rel="preload" as="image" href="headers/images/home-portrait-643.jpg">
+<?php else: ?>
+	<link rel="preload" as="image" href="headers/images/home-portrait-379.jpg">
 <?php endif; ?>
 	<link rel="preload" as="style" href="tmitg-mobile.css">
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />

@@ -41,7 +41,7 @@ body {
     margin: 0;
     direction: ltr;
     writing-mode: horizontal-tb;
-    min-width: 335px;
+    min-width: 320px;
     -ms-touch-action: auto;
 }
 
@@ -449,7 +449,6 @@ a.atcss:hover {
         h1 .subtitle {
             font-size: 1em;
         }
-
         .portrait {
             position: relative;
             height: 293px;
@@ -482,6 +481,13 @@ a.atcss:hover {
                 /* from https://cssgradient.io/ */
                 background: linear-gradient(90deg, rgba(96, 50, 61, 1) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 80%, rgba(96, 50, 61, 1) 100%);
             }
+        }
+        #recentnews {
+        	img {
+        		float: none;
+        		display: block;
+				max-width: 100%;
+        	}
         }
     }
 }

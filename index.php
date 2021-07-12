@@ -69,16 +69,10 @@ require_once("functions.php");
 		<a class="wai" href="#main">Skip to Main</a>
 	</span>
 
-<?php if (stristr($_SERVER['HTTP_USER_AGENT'],"Windows NT 5.1")): ?>
-<!--[if lt IE 8]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative; left:200px;'> <a href="http://www.microsoft.com/en-us/download/details.aspx?id=43"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div> <![endif]-->
-<?php else: ?>
-<!--[if lt IE 8]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative; left:200px;'> <a href="http://www.microsoft.com/en-us/download/details.aspx?id=22166"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div> <![endif]-->
-<?php endif; ?>
-
 <!-- title bar -->
 <header id="titlebar">
 	<h1>
-		<img role="img" src="/headers/images/tMitG-PiB-logo.svg" alt="the Machine in the Garden">
+		<img src="/headers/images/tMitG-PiB-logo.svg" alt="the Machine in the Garden">
 		<span class="subtitle">the official website</span>
 	</h1>
 

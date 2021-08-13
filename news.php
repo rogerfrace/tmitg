@@ -3,7 +3,8 @@
 //need to send different headers if this is a single-item view
 if (isset($_GET["item"])) {
 	$titlenum = $_GET["item"];
-	include("newsitems/".$titlenum.".php");
+	if(strlen($titlenum)!=3) {header('HTTP/1.0 404 not found');die();}
+	include_once("newsitems/".$titlenum.".php");
 	$mtitle = htmlentities(trim(strip_tags($title)));
 	$cleandesc = explode(".",strip_tags($description));
 	$mdescription = htmlentities(trim($cleandesc[0]));

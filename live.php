@@ -53,6 +53,7 @@
 <!--<div id="map_canvas" style="width: 100%; height: 300px" role="presentation" aria-hidden="true"></div>-->
 <!-- end google map -->
 
+<div class="tblwrap">
 <!-- paste below here -->
 <table id="liveTable">
   <caption class="wai">tMitG Shows List:</caption>
@@ -495,6 +496,7 @@
  </tr>
 </tbody>
 </table>
+</div> <!-- /tblwrap -->
 
 </section>
 

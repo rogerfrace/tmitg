@@ -64,10 +64,10 @@ require_once("functions.php");
 
 <!-- title bar -->
 <header id="titlebar">
-	<h1>
+	<h1><span role="text">
 		<img src="/headers/images/tMitG-PiB-logo.svg" alt="the Machine in the Garden">
 		<span class="subtitle">the official website</span>
-	</h1>
+	</span></h1>
 
 <nav class="desktop" aria-label="Primary">
 	<ul>

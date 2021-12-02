@@ -1,7 +1,7 @@
 <?php
 $promoer = $_GET['receipt'];
 if (!$promoer) { die("Unauthorized"); }
-//if ($promoer) { die("Promotional downloads have ended."); }
+if ($promoer) { die("Promotional downloads have ended."); }
 
 $to = "roger@tmitg.com";
 $subject = "[tMitG Promo Download]";

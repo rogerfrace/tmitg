@@ -32,7 +32,7 @@
 <p>Session cookies may be used on the site to accommodate site functionality. Third-party widgets and iframes may introduce their own cookies as well, including but not limited to Facebook, Twitter, and YouTube.</p>
 
 <h3>Tracking</h3>
-Tracking cookies, including but not limited to Google Analytics, are used for traffic analytics purposes. Google Analytics is disabled if your browser's "Do Not Track" setting is on.
+Tracking cookies, including but not limited to Google Analytics, are used for traffic analytics purposes. Google Analytics is disabled if your browser&apos;s <q>Do Not Track</q> setting is on.
 
 <h3>Contact Information</h3>
 <p>No contact information for visitors to this website will ever be given to a third party. Physical and electronic contact information provided on this site will only be used by the Machine in the Garden and related projects and properties, including but not limited to Deus ex Musica and Mirabilis.</p>

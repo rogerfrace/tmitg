@@ -67,7 +67,7 @@
 </div> <!-- end tracklist div -->
 
 <section id="discog_buynow">
-	<div class="buynow"><a href="https://atseacompilations.bandcamp.com/album/la-danse-macabre-9" rel="noopener external"><img src="images/bandcamp.gif" class="bandcamp" alt="Buy Now from Bandcamp" /></a></div>
+	<div class="buynow"><a href="https://atseacompilations.bandcamp.com/album/la-danse-macabre-9" rel="noopener external"><img src="images/bandcamp.png" class="bandcamp" alt="Available at Bandcamp" /></a></div>
 
 </section>
 

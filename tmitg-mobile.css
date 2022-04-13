@@ -41,6 +41,8 @@
   background: #eee;
   text-align: center;
   padding: 10px 0;
+  padding-top: min(10px,2vh);
+  padding-bottom: min(10px,2vh);
   border-bottom: 1px solid #ddd;
   text-decoration: none;
   color: #222;
@@ -56,6 +58,8 @@
 @media (max-width: 725px) {
   .mobile {
     display: block;
+    height: 100%;
+    overflow-y: scroll;
   }
   .desktop {
     display: none;

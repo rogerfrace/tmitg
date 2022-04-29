@@ -62,7 +62,9 @@
 <section aria-labelledby="compilations">
 <h2 id="compilations">compilation appearances:</h2>
 <ul class="comps">
-<li><a href="unearthd.php" title="Unearth'd'"><img src="albums/unearthdico.jpg" alt="Unearth'd"></a></li>
+<li><a href="unquietfinal.php" title="The Unquiet Grave: The Final Chapter"><img src="albums/unquietfinalico.jpg" alt="The Unquiet Grave: The Final Chapter"></a></li>
+
+<li><a href="unearthd.php" title="Unearth'd"><img src="albums/unearthdico.jpg" alt="Unearth'd"></a></li>
 
 <li><a href="ladansemacabre9.php" title="La Danse Macabre 9"><img src="albums/ladansemacabre9ico.jpg" alt="La Danse Macabre 9"></a></li>
 
@@ -110,7 +112,7 @@
 
 <li><a href="excelsis.php" title="Excelsis Vol. 2"><img src="albums/excelsisico.jpg" alt="Excelsis Vol. 2"></a></li>
 
-<li><a href="unquiet.php" title="The Unquiet Grave"><img src="albums/uqgico.jpg" alt="The Unquiet Grave"></a></li>
+<li><a href="unquiet.php" title="The Unquiet Grave Volume One"><img src="albums/uqgico.jpg" alt="The Unquiet Grave Volume One"></a></li>
 
 <li><a href="eternal.php" title="What Is Eternal"><img src="albums/eternalico.jpg" alt="What Is Eternal"></a></li>
 

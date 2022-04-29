@@ -237,6 +237,11 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://www.tmitg.com/unquietfinal.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://www.tmitg.com/darkhorizons.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>

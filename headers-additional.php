@@ -6,8 +6,10 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous" async></script>
 
 <?php if (check_mobile()==false): ?>
-<!-- colorbox -->
-<link rel="stylesheet" type="text/css" href="/css/colorbox.css">
+<!-- colorbox --> <!-- async load from https://web.dev/defer-non-critical-css/ -->
+<link rel="preload" href="/css/colorbox.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" type="text/css" href="/css/colorbox.css"></noscript>
+<!--<link rel="stylesheet" type="text/css" href="/css/colorbox.css">-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js" integrity="sha512-DAVSi/Ovew9ZRpBgHs6hJ+EMdj1fVKE+csL7mdf9v7tMbzM1i4c/jAvHE8AhcKYazlFl7M8guWuO3lDNzIA48A==" crossorigin="anonymous" async></script>
 <?php endif; ?>
 

@@ -67,7 +67,7 @@
 </div> <!-- end tracklist div -->
 
 <section id="discog_buynow">
-	<div class="buynow"><a href="https://darkmothermedia.bandcamp.com/album/rebellion-vol-1" rel="noopener external"><img src="images/bandcamp.png" class="bandcamp" alt="Available at Bandcamp" /></a></div>
+	<div class="buynow"><a href="https://darkmothermedia.bandcamp.com/album/rebellion-vol-1" rel="noopener external"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
 
 </section>
 

@@ -70,7 +70,7 @@ $lyricsfile and videoname do not include .html
 <section id="discog_buynow" tabindex="-1">
 	<h2 class="wai">Buy Now links</h2>
 	
-	<div class="buynow"><a rel="noopener external" href="https://tmitg.bandcamp.com/album/veils-and-shadows-remixes" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" class="bandcamp" alt="Available at Bandcamp" /></a></div>
+	<div class="buynow"><a rel="noopener external" href="https://tmitg.bandcamp.com/album/veils-and-shadows-remixes" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
 
 </section> <!-- end buy button div -->
 

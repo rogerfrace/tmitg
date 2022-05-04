@@ -48,7 +48,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/places.jpg" alt="Places in Between album cover" class="albumimg" itemprop="image" /></div>
+	<div><img src="albums/places.jpg" width="278" height="250" alt="Places in Between album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Places in Between</h1>
 
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
@@ -106,11 +106,11 @@ $lyricsfile and videoname do not include .html
 	<meta itemprop="lowprice" content="12.00">
 	<h2 class="wai">Buy Now links</h2>
 	
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="12.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/places-in-between" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" class="bandcamp" alt="Available at Bandcamp" /></a></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="12.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/places-in-between" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
 
 	<div><a rel="noopener external" href="https://geo.music.apple.com/us/album/places-in-between/1524569511?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=1594339200&h=c17228e92635bb8bc4766252b3c14867" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
 
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="https://www.amazon.com/Places-Between-Machine-Garden/dp/B08DDHDLBQ/ref=as_li_ss_tl?dchild=1&keywords=places+in+between+mp3&qid=1595529263&sr=8-2&linkCode=ll1&tag=themachininth-20&linkId=b77e3324dd1bcf1d2990e1164a7e9565&language=en_US" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B08DDHDLBQ&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="https://www.amazon.com/Places-Between-Machine-Garden/dp/B08DDHDLBQ/ref=as_li_ss_tl?dchild=1&keywords=places+in+between+mp3&qid=1595529263&sr=8-2&linkCode=ll1&tag=themachininth-20&linkId=b77e3324dd1bcf1d2990e1164a7e9565&language=en_US" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B08DDHDLBQ&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
 
 </section> <!-- end buy button div -->
 

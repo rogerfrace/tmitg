@@ -245,6 +245,8 @@ a.atcss:hover {
     background-color: $teal;
 }
 
+/* Google Translate widget colors */
+.goog-te-gadget, .goog-logo-link, .goog-logo-link:link, .goog-logo-link:visited, .goog-logo-link:hover, .goog-logo-link:active {color:#777 !important;}
 
 @media screen and (max-width: 700px) {
     .twocols {

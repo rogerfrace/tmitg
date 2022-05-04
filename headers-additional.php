@@ -11,7 +11,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js" integrity="sha512-DAVSi/Ovew9ZRpBgHs6hJ+EMdj1fVKE+csL7mdf9v7tMbzM1i4c/jAvHE8AhcKYazlFl7M8guWuO3lDNzIA48A==" crossorigin="anonymous"></script>
 <?php endif; ?>
 
-<script src="tmitg.js" type="text/javascript"></script>
+<script src="tmitg.js" type="text/javascript" async></script>
 <?php include_once("fontawesome.inc.php"); ?>
 <link rel="stylesheet" type="text/css" href="tmitg.css">
 <?php include_once("googletracking.html"); ?>

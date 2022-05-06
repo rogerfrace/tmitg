@@ -49,7 +49,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-    <div><img src="albums/asphodel.jpg" alt="Asphodel album cover" class="albumimg" itemprop="image" /></div>
+    <div><img src="albums/asphodel.jpg" width="254" height="250" alt="Asphodel album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Asphodel</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">MPP986</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2002</span><br />full-length CD released <time datetime="2002-06" itemprop="datePublished">June 2002</time></p>

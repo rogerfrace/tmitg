@@ -49,7 +49,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/mists.jpg" alt="Out of the Mists album cover" class="albumimg" itemprop="image" /></div>
+	<div><img src="albums/mists.jpg" width="280" height="250" alt="Out of the Mists album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Out of the Mists</h1>
 	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">MPP994</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2000</span><br />full-length enhanced CD released <time datetime="2000-12" itemprop="datePublished">December 2000</time></p>

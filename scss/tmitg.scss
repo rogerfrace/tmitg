@@ -195,7 +195,7 @@ footer small {
 }
 
 .fade {
-    @include opacity(0.6);
+    @include opacity(0.75);
     @include single-transition(all, 250ms, linear, 0);
 }
 
@@ -945,9 +945,9 @@ iframe#sb-player {
     #accordion {
         width: auto;
         background: #f5f5f6;
-        background: -ms-linear-gradient(top, #f5f5f6 0%, #c9c9c9 100%);
-        @include background-image(linear-gradient(#f5f5f6, #c9c9c9));
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f6', endColorstr='#c9c9c9', GradientType=0);
+        background: -ms-linear-gradient(top, #f5f5f6 0%, #d6d6d6 100%);
+        @include background-image(linear-gradient(#f5f5f6, #d6d6d6));
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f6', endColorstr='#d6d6d6', GradientType=0);
 
         img {
             width: 80px;

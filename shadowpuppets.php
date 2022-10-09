@@ -38,7 +38,7 @@
 <?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
+<main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
 	<meta itemprop="albumReleaseType" content="album">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="11">
@@ -50,7 +50,7 @@
 <section id="discog_albuminfo" tabindex="-1">
     <div><img src="albums/sp.jpg" width="250" height="250" alt="Shadow Puppets album cover" class="albumimg" itemprop="image" /></div>
  	<h1 itemprop="name">Shadow Puppets</h1>
-	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
+	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">MPP975</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2005</span><br />full-length CD released <time datetime="2005-04" itemprop="datePublished">April 2005</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>
@@ -71,7 +71,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
+	<tbody itemscope itemtype="https://schema.org/MusicPlaylist">
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
 $lyricsfile and videoname do not include .html
@@ -93,28 +93,28 @@ $lyricsfile and videoname do not include .html
 </div> <!-- end tracklist div -->
 
 
-<section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+<section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="https://schema.org/AggregateOffer">
 	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="8.00">
 	<h2 class="wai">Buy links</h2>
 	
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="8.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/shadow-puppets" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="8.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/shadow-puppets" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
 
 	<div><a rel="noopener external" href="https://geo.music.apple.com/us/album/shadow-puppets/953109356?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=1112313600&h=36a28865aee60bd11770e756b44d1162" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
 		
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="https://amzn.to/3mCVIxV" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B000QZU67G&amp;camp=217153&amp;creative=399701" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="https://amzn.to/3mCVIxV" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B000QZU67G&amp;camp=217153&amp;creative=399701" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
 </section> <!-- end buy button div -->
 
 	<hr />
 
 <section aria-labelledby="reviews">	
 	<h2 id="reviews" tabindex="-1">Reviews of <i>Shadow Puppets</i>:</h2>
-	<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+	<div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
 		<meta itemprop="reviewCount" content="10">
 	</div>
 	<div class="revcontent">
 
-<blockquote cite="http://www.starvox.net/cdr/machine.htm" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.starvox.net/cdr/machine.htm" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>I've been aware of The Machine In The Garden in passing for a few years. Probably not since their first release in 1993 but I've downloaded a few MP3s and heard various compilation appearances in my time. I always meant to investigate further. But with one thing and another I never got around to it. So now, a mere 12 years after their creation, I get to enjoy the Machine in the Garden album experience in full.</p>
@@ -140,7 +140,7 @@ San Francisco-based The Shroud. There's a languid and romantic air, with a drum 
 
 <hr style="width:50%;" />
 
-<blockquote cite="http://www.virus-mag.com/index.php?a=1329" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.virus-mag.com/index.php?a=1329" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p><i>Shadow Puppets</i> is Austin, Texas band The Machine In The Garden's new CD. 
@@ -158,7 +158,7 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>The Machine in the Garden, consisting of the duo Roger Frac&eacute; and Summer Bowman are creating some of the most invigorating and fresh music to sport the "darkwave" label in a long time. After a brief hiatus, during which Bowman joined Dru Allen from This Ascension to form the neo-classical side-project Mirabilis, the band has returned stronger and more confident than I have ever heard them.</p>
@@ -175,7 +175,7 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 
 <hr style="width:50%;" />
 
-<blockquote cite="http://pingthings.com/TMITGshadow.htm" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://pingthings.com/TMITGshadow.htm" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>New material from the brilliant darkwave duo!</p>
@@ -212,7 +212,7 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 
 <hr style="width:50%;" />
 
-<blockquote cite="http://www.morbidoutlook.com/music/inrotation/2005_06_inrotation.html" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.morbidoutlook.com/music/inrotation/2005_06_inrotation.html" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>I'm keepin' this one! Eminently goth, very fine blend of old school and newer modes... but with their own definitive stylings, nobody's clone. Okay... so I am repeating "Suspend" for about the gazillionth time. This song rules so much! This is the sort of stuff that reminds me why I love music.</p>
@@ -223,7 +223,7 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 
 <hr style="width:50%;" />
 
-<blockquote cite="http://www.collectedsounds.com/cdreviews/shadowpuppets.html" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.collectedsounds.com/cdreviews/shadowpuppets.html" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>Summer Bowman and Roger Frac&eacute; make up the Machine in the Garden, a gothic duo of great talent. Since their last album <i>Asphodel</i> they have clearly developed. Bowman's singing has grown stronger and the songs enthrall.</p>
@@ -244,7 +244,7 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 
 <hr style="width:50%;" />
 
-<blockquote cite="http://www.regenmag.com/Review-425.html" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.regenmag.com/Review-425.html" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>It's apparent from the first glance at The Machine in the Garden's new CD that this is more than your average ethereal album. The ghoulishly grinning marionette on the front cover is a presage of something darker than the airy-fairy atmospheres you might expect if you're not familiar with the band. That's not to say this album isn't pretty, of course. It's incredibly pretty, in fact; lead singer Summer Bowman has a lovely soprano, and she shows it off to good effect on the piano-laced "Illusions In Rain," the gently floating "Winter Fell," and the majestic "Suspend," which just might be this year's darkwave anthem. Still, there's a darkness here that gives <i>Shadow Puppets</i> a certain weight that's lacking in most offerings from this genre. Programmer Roger Frac&eacute; adds a muted tension to the pulsing beats of "The Inside World," and the way Bowman's voice rapidly jumps and down the scales is somehow discomfiting. On "Mother," she whispers, wails, and whimpers over synthetic chimes and a bass effect that throbs back and forth across the stereo channels, while on "Spider's Bride" she sings a duet with Frac&eacute; that descends into paranoid depths before emerging as a percussion-based tribal chant. "If Ever" begins softly enough with strummed acoustic guitars, but dissonant noise and distortion creeps in, threatening to take over the gentle melodies before ebbing away with the end of the chorus. Seemingly aware of just how far they can push their audience, Bowman and Frac&eacute; end the album with the deliberately serene "Goodbye," a lushly bittersweet arrangement of achingly beautiful vocal layers and warm analog synthesizers. Delicate yet edgy, The Machine in the Garden manages to create heavenly atmospheres without slipping into sleepy self-indulgence or cloying sweetness. Perfect moody music for goths and shoegazers alike, <i>Shadow Puppets</i> should particularly appeal to fans of This Mortal Coil, Faith &amp; Disease, and Black Tape For a Blue Girl.</p>
@@ -254,7 +254,7 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 
 <hr style="width:50%;" />
 
-<blockquote cite="http://www.gothtronic.com/?page=23&amp;reviews=1550" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.gothtronic.com/?page=23&amp;reviews=1550" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>The American duo Summer Bowman and Roger Frac&eacute; have recently released their fourth studio album. With <i>Shadow Puppets</i>, The Machine in the Garden have without a doubt produced a very strong piece of music. The electronical darkwave of these two is on this cd very much in balance. Even so much in balance that I find it hard to think of something not right about it.</p>
@@ -269,7 +269,7 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 
 <hr style="width:50%;" />
 
-<blockquote cite="http://www.darklifezine.de/dlzineX2frame_cdreviewsoct06.html" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.darklifezine.de/dlzineX2frame_cdreviewsoct06.html" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>A darkwave dream trip conducted by a talented duo is a possible way to describe this last (their fifth) creation by The Machine in The Garden. Hailing from the US, Summer Bowman and Roger Frace have been joining creative forces since well over half a decade, creating startling works of electro ethereal fusion with grace and eye open on the classic side. Shadow Puppet is seductive from the outset, and that's not only due to the sensually ethereal quality of Summer's vocals. Her airy notes go down in peaceful symbiosis with trip-hop-ish electronics that are not afraid to host more conventional guitar, bass or synth lines where due. Seamlessly shifting from pure introspection and ethereal melancholy to bodied pieces lead by catchy lines, this an album that moves the concept of gothic and darkwave a few steps forward, despite the wide general recession of the genre. Featuring an outstanding production amongst other qualities, Shadow Puppet projects The Machine in The Garden straight into the international darkwave arena. Holding together the best traits of the goth-darkwave inheritance, and injecting a considerable dose of personal interpretation seems a winning move in this album, and good news for dreamy souls.</p>
@@ -280,7 +280,7 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 
 <hr style="width:50%;" />
 
-<blockquote cite="http://www.gothicparadise.com/tmitg.htm#rev2" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.gothicparadise.com/tmitg.htm#rev2" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>Once again we've been looking forward to the latest release from this band and once again fans will not be disappointed.  With each release it's great to just dive in and start listening to hear where the band is going to take us. With this album, like the many pieces before, they continue to lead the listener down a mysterious and eerie path through the thoughts and music from this duo.</p>
@@ -291,7 +291,7 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 
 <p>That just about wraps it up, with eleven solid tracks this band has pulled off another great album.  While they've always been excellent, this one really proves what this band can do.  If you're a fan of past works or just finding out about this band and enjoy other gothic-oriented or ethereal music you'll really want to pick this album up.</p>
 
-<div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+<div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
 	<meta itemprop="worstRating" content = "1">
 	Rating: <span itemprop="ratingValue">5</span>/<span itemprop="bestRating">5</span></div>
 </div>

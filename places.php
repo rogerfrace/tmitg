@@ -37,7 +37,7 @@
 <?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
+<main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
 	<meta itemprop="albumReleaseType" content="album">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="13">
@@ -50,11 +50,11 @@
 	<div><img src="albums/places.jpg" width="278" height="250" alt="Places in Between album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Places in Between</h1>
 
-	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
+	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-008-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2020</span><br />Digital Album released <time datetime="2020-07-10" itemprop="datePublished">10 July 2020</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
-	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
+	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p>(<span itemprop="catalogNumber">dxm-008-cd</span>) <span itemprop="about">Limited Edition CD</span> released <time datetime="2020-07-21" itemprop="datePublished">21 July 2020</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>
@@ -76,7 +76,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
+	<tbody itemscope itemtype="https://schema.org/MusicPlaylist">
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname,$notesname)
 $lyricsfile and videoname do not include .html
@@ -100,16 +100,16 @@ $lyricsfile and videoname do not include .html
 </div> <!-- end tracklist div -->
 
 
-<section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+<section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="https://schema.org/AggregateOffer">
 	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="12.00">
 	<h2 class="wai">Buy Now links</h2>
 	
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="12.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/places-in-between" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="12.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/places-in-between" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
 
 	<div><a rel="noopener external" href="https://geo.music.apple.com/us/album/places-in-between/1524569511?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=1594339200&h=c17228e92635bb8bc4766252b3c14867" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
 
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="https://www.amazon.com/Places-Between-Machine-Garden/dp/B08DDHDLBQ/ref=as_li_ss_tl?dchild=1&keywords=places+in+between+mp3&qid=1595529263&sr=8-2&linkCode=ll1&tag=themachininth-20&linkId=b77e3324dd1bcf1d2990e1164a7e9565&language=en_US" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B08DDHDLBQ&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="https://www.amazon.com/Places-Between-Machine-Garden/dp/B08DDHDLBQ/ref=as_li_ss_tl?dchild=1&keywords=places+in+between+mp3&qid=1595529263&sr=8-2&linkCode=ll1&tag=themachininth-20&linkId=b77e3324dd1bcf1d2990e1164a7e9565&language=en_US" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B08DDHDLBQ&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
 
 </section> <!-- end buy button div -->
 
@@ -117,13 +117,13 @@ $lyricsfile and videoname do not include .html
 
 <section aria-labelledby="reviews">	
 	<h2 id="reviews" tabindex="-1">Reviews of <i>Places in Between</i>:</h2>
-	<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+	<div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
 		<meta itemprop="ratingCount" content="0">
 		<meta itemprop="reviewCount" content="2">
 	</div>
 	<div class="revcontent">
 
-<blockquote cite="https://youtu.be/uh-K1Yiz7cg" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="https://youtu.be/uh-K1Yiz7cg" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>it's particularly exciting for me when a band from the past picks up the pieces from where they left off and continues to create something new. it's great.</p>
@@ -140,7 +140,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote cite="https://regenmag.com/reviews/review-the-machine-in-the-garden-places-in-between/" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="https://regenmag.com/reviews/review-the-machine-in-the-garden-places-in-between/" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>Nine years may seem like a considerably long absence for a band, but with <i>Places In Between</i> marking the Machine in the Garden’s ninth studio effort, it’s as if the band never left. As one of the entities that defined an entire generation of atmospheric darkwave and ethereal goth/rock, the duo of Roger Fracé and Summer Bowman certainly have nothing to prove; yet, listening to this new record, it’s certainly clear that a maximum effort was exerted to craft what many fans would consider the Machine in the Garden’s magnum opus.</p>

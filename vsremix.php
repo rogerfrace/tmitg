@@ -19,7 +19,7 @@
 <?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
+<main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
 	<meta itemprop="albumReleaseType" content="album">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="7">
@@ -51,7 +51,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
+	<tbody itemscope itemtype="https://schema.org/MusicPlaylist">
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html

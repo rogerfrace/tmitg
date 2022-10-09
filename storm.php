@@ -38,7 +38,7 @@
 <?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
+<main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
 	<meta itemprop="albumReleaseType" content="album">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="11">
@@ -51,11 +51,11 @@
 	<div><img src="albums/baats.jpg" width="250" height="250" alt="Before and After the Storm album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Before and After the Storm</h1>
 
-	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
+	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-005-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2011</span><br />Digital Album released <time datetime="2011-06-24" itemprop="datePublished">24 June 2011</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
-	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
+	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p>(<span itemprop="catalogNumber">dxm-005-cdse</span>) <span itemprop="about">Special Edition CD</span> released <time datetime="2011-07-13" itemprop="datePublished">13 July 2011</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>
@@ -77,7 +77,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
+	<tbody itemscope itemtype="https://schema.org/MusicPlaylist">
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname,$notesname)
 $lyricsfile and videoname do not include .html
@@ -99,16 +99,16 @@ $lyricsfile and videoname do not include .html
 </div> <!-- end tracklist div -->
 
 
-<section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+<section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="https://schema.org/AggregateOffer">
 	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="8.00">
 	<h2 class="wai">Buy Now links</h2>
 	
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="8.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/before-and-after-the-storm" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="8.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/before-and-after-the-storm" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
 
 	<div><a rel="noopener external" href="https://geo.music.apple.com/us/album/before-and-after-the-storm/1526953369?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=1310428800&h=34cf972b90657dff057c283116c1b309" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
 
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="https://www.amazon.com/Before-After-Storm-Machine-Garden/dp/B08FGGH5PC/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=themachininth-20&linkId=df0bd25a90dddda39fa395234880471e&language=en_US" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B0058ZE3H8&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="https://www.amazon.com/Before-After-Storm-Machine-Garden/dp/B08FGGH5PC/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=themachininth-20&linkId=df0bd25a90dddda39fa395234880471e&language=en_US" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B0058ZE3H8&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
 
 </section> <!-- end buy button div -->
 
@@ -126,13 +126,13 @@ $lyricsfile and videoname do not include .html
 
 <section aria-labelledby="reviews">	
 	<h2 id="reviews" tabindex="-1">Reviews of <i>Before and After the Storm</i>:</h2>
-	<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+	<div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
 		<meta itemprop="ratingCount" content="3">
 		<meta itemprop="reviewCount" content="7">
 	</div>
 	<div class="revcontent">
 
-<blockquote cite="http://graveconcernsezine.com/reviews/cd-reviews/ethereal/3070-the-machine-in-the-garden-before-and-after-the-storm.html#.Tg9lS5wKw8c.twitter" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://graveconcernsezine.com/reviews/cd-reviews/ethereal/3070-the-machine-in-the-garden-before-and-after-the-storm.html#.Tg9lS5wKw8c.twitter" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>Darkwave favorites Summer Bowman and Roger Frace return with their eighth studio album.  This has a limited CD pressing, and is mainly offered as a digital download with the above image.</p>
@@ -149,7 +149,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote cite="http://truecultheavymetal.com/index.php/dominion/2011/07/07/review-the-machine-in-the-garden-before-and-after-the-storm" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://truecultheavymetal.com/index.php/dominion/2011/07/07/review-the-machine-in-the-garden-before-and-after-the-storm" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>'Before and After The Storm', the eighth studio album from Texas duo The Machine in The Garden, continues the now familiar exploration of technological advancement and the progressive relationship between the mechanical, natural and spiritual worlds. Creating a distinctive blend of ethereal darkwave each song unfolds layers of sweeping electronic soundscapes, soaring guitars and Summer Bowman&rsquo;s ethereal melodies, all laced together with tribal-esque rhythms.</p>
@@ -165,7 +165,7 @@ $lyricsfile and videoname do not include .html
 <hr style="width:50%;" />
 
 <div class="goog-trans-section">
-<blockquote cite="http://www.soundsbehindthecorner.org/recensione.asp?id=254" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review" lang="it">
+<blockquote cite="http://www.soundsbehindthecorner.org/recensione.asp?id=254" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review" lang="it">
 <meta itemprop="inLanguage" content="it-IT">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
@@ -189,7 +189,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote cite="http://www.gothicparadise.com/tmitg.htm#rev3" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.gothicparadise.com/tmitg.htm#rev3" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>Though it's been a while since <i>Shadow Puppets</i>, the band has kept busy over the years with an album in 2007 (containing both remixes and some new original tracks) and a single in 2010.  This album is mainly only available as a digital-only release available on the various music download sites, but for the true fans, collectors and stereofiles there is a limited special edition physical version available for purchase from the band. On the album we have a nice collection of seven original new tracks as well as four alternate remixes.</p>
@@ -200,7 +200,7 @@ $lyricsfile and videoname do not include .html
 
 <p>I have one complaint about this album, only seven new tracks! I want more, their music is great and so diverse, it would be nice to have a few more original tracks and I'm sure other fans will agree, though we're happy to get the little bit that we can, I certainly understand how busy life can be when music isn't your full-time life and job. So regardless, it's still a great album and is highly recommended, so go pick it up (or download it at one of the many online shops).</p>
 
-<div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+<div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
 	<meta itemprop="worstRating" content = "1">
 	Rating: <span itemprop="ratingValue">4.5</span>/<span itemprop="bestRating">5</span></div>
 </div>
@@ -210,7 +210,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote cite="http://pingthings.blogspot.com/2011/08/before-and-after-storm-by-machine-in.html" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://pingthings.blogspot.com/2011/08/before-and-after-storm-by-machine-in.html" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>It's been a while since the Machine in the Garden has put out any new material, so I was particularly excited when I found out last December that they would be releasing a new album this year. And after waiting patiently for it's release these last six months, I'm quite pleased to let you know that "Before and After the Storm" is well worth the wait. Summer Bowman and Roger Frac&eacute; have put together a tight collection of tracks that fully embraces the band's past, while simultaneously laying a foundation for their musical future.</p>
@@ -224,13 +224,13 @@ $lyricsfile and videoname do not include .html
 <hr style="width:50%;" />
 
 <div class="goog-trans-section">
-<blockquote cite="http://www.darkroom-magazine.it/ita/103/Recensione.php?r=2188" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review" lang="it">
+<blockquote cite="http://www.darkroom-magazine.it/ita/103/Recensione.php?r=2188" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review" lang="it">
 <meta itemprop="inLanguage" content="it-IT">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>Anticipato sul finire dello scorso anno dal bel singolo in formato digitale "In The Vanir", esce finalmente il nuovo album del duo americano, dodicesima release complessiva di una carriera ormai quasi ventennale. Escludendo singoli o raccolte, l'ultima prova in studio sulla lunga distanza risale al 2005, segnatamente con l'ottimo album "Shadow Puppets", il quarto - ed ultimo - pubblicato attraverso la valida label Middle Pillar Presents: di qui la legittima e grande attesa per questo ritorno, inizialmente edito nel solo formato digitale, ed ora disponibile anche in CDr professionale con pregevole confezione eco-pack, per una limitatissima edizione di soli 50 esemplari numerati a mano ed autografati, rilasciati tramite l'etichetta della band stessa (Deus Ex Musica). Nelle otto nuove canzoni Summer Bowman (voce, anche attiva nello splendido duo al femminile Mirabilis) e Roger Frac&eacute; (musica) rielaborano tutto lo spettro delle sonorit&agrave; sviluppate nel lungo sodalizio artistico che li unisce dal 1997, senza rinunciare a spingere al livello successivo i limiti della propria ricerca sospesa fra radici goth/wave ed elettronica ad ampio raggio. "Cimmerian" apre marziale e sciamanica per elevarsi su toni solenni, e subito abbiamo un saggio della classe dei Nostri, abilissimi nel catturare le giuste atmosfere e nell'arrangiare sapientemente ogni frangente; pi&ugrave; spigolosa "Scathefire", intensa e pulsante col suo bel refrain ad ampio respiro, ma &egrave; "Metallic" a permettere a Summer di sedurre con le sue corde vocali, su di una struttura misteriosa e suadente. Bene anche il succitato singolo pre-album, ancora con un arioso refrain ed una sontuosa prova vocale, ma il primo vero gioiello del dischetto arriva con "The Piano", dove i soli tasti d'avorio (e qualche lieve arrangiamento d'archi) accompagnano la favolosa ugola della Bowman, per un momento davvero toccante. Il passato goth riemerge con forza grazie all'impetuosa, scura e trascinante "Power And Prophesy", marchiata da una chitarra graffiante e dall'ennesima grande performance vocale; l'altro picco dell'opera &egrave; senza dubbio "Mending The Sky", notturna e sognante nella sua quiete cosmica, eppure pulsante, con Summer semplicemente sublime nella sua dolcezza femminea. Il reprise di "Cimmerian" chiude il lotto degli inediti da studio fra toni tenui ed un piglio drammatico di grande effetto, con la singer americana fragile e meravigliosa, vera protagonista che sa conquistarsi i suoi spazi senza sottrarre importanza all'apporto strumentale. In chiusura troviamo tre remix, nello specifico ad opera di Frances Byrne (Wench), Falling You e Miles Fender, non fondamentali ma comunque potabili, in special modo la versione danceable di "Scathefire" ad opera della prima. Un ritorno degno della fama dei suoi inossidabili autori, che dopo quasi un ventennio e nella semi-indifferenza della 'facebook generation' puntano su s&eacute; stessi producendosi in proprio, continuando ad elargire musica di grande qualit&agrave; e spessore artistico a quei fortunati che ne sanno cogliere la bellezza. Se ambite alla copia fisica, non indugiate oltre.</p>
 
-<div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+<div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
 	<meta itemprop="worstRating" content="1">
 	Rating: <span itemprop="ratingValue">7.5</span><meta itemprop="bestRating" content="10"></div>
 </div>
@@ -242,7 +242,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote cite="http://www.headfullofnoise.com/2012/05/review-the-machine-in-the-garden-before-and-after-the-storm/" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.headfullofnoise.com/2012/05/review-the-machine-in-the-garden-before-and-after-the-storm/" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>The Machine in the Garden is a gothic/darkwave duo featuring Roger Frac&eacute; and Summer Bowman. Initially a solo endeavor by Roger Frac&eacute;, the band&rsquo;s debut, 1994&rsquo;s <i>Veils and Shadows EP</i>, blended the dark elements of goth with new wave and industrial tinges. Summer Bowman joined Frac&eacute; in 1997 for their first full-length album, <i>Underworld</i>.</p>
@@ -251,7 +251,7 @@ $lyricsfile and videoname do not include .html
 
 <p>I will say, <i>Before and After the Storm</i> is worth picking up for Summer&rsquo;s vocals alone. It&rsquo;s also, though, one of those albums where an excellent job is done mixing things up. Musically it keeps it interesting with tracks that stand on their own, but at the same time everything works together. If you&rsquo;re a fan of goth/darkwave, definitely check out The Machine In The Garden.</p>
 
-<div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+<div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
 	<meta itemprop="worstRating" content = "1">
 	Rating: <span itemprop="ratingValue">4</span>/<span itemprop="bestRating">5</span></div>
 </div>

@@ -38,7 +38,7 @@
 <?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
+<main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
 	<meta itemprop="albumReleaseType" content="album">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="16">
@@ -50,7 +50,7 @@
 <section id="discog_albuminfo" tabindex="-1">
 	<div><img src="albums/underworld.jpg" width="250" height="250" alt="Underworld album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Underworld</h1>
-	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
+	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-001-cd</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">1997</span><br />
 		full-length CD released <time datetime="1997-12-16" itemprop="datePublished">16 December 1997</time><br />
 		Out of print.<br />
@@ -76,7 +76,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
+	<tbody itemscope itemtype="https://schema.org/MusicPlaylist">
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
 $lyricsfile and videoname do not include .html
@@ -104,16 +104,16 @@ $lyricsfile and videoname do not include .html
 </div> <!-- end tracklist div -->
 
 
-<section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+<section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="https://schema.org/AggregateOffer">
 	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="8.00">
 	<h2 class="wai">Buy links</h2>
 	
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="8.00"><a rel="noopener" rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/underworld" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="8.00"><a rel="noopener" rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/underworld" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
 
 	<div><a rel="noopener external" href="https://geo.music.apple.com/us/album/underworld/79330423?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=911260800&h=2a228b31e257e98a6df450534b39a091" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
 	
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="https://amzn.to/3krCPfu" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B0014EU0V0&amp;camp=217153&amp;creative=399701" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="https://amzn.to/3krCPfu" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B0014EU0V0&amp;camp=217153&amp;creative=399701" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></div>
 	
 </section> <!-- end buy button div -->
 
@@ -122,12 +122,12 @@ $lyricsfile and videoname do not include .html
 	
 <section aria-labelledby="reviews">	
 	<h2 id="reviews" tabindex="-1">Reviews of <i>Underworld</i>:</h2>
-	<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+	<div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
 		<meta itemprop="reviewCount" content="9">
 	</div>
 	<div class="revcontent">
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>The Machine in the Garden (or 'Lawnmower' as a friend called them) are probably the most highly educated Goth band around. Between the two members there is a lot of expert knowledge on music and culture, which they put to great use on "underworld". Over 16 tracks, they run the gamut of music styles that make up the dark-side of music and do so with incredible skill. The first six tracks follow the same basic formula, ethereal music with synth music that washes over you and magnificent vocals that fill your head. "corpus christi (love will die)" has Roger Frace joining Summer Bowman for a light and shade harmony piece reminiscent of Dead Can Dance, while the DCD influence continues on the dark rhythm driven "shadowy depths". With "primevil" the ethereal elements disappear to be replaced with a driving electro-Goth sound, leading into the Sisters influenced "cut me" which features an incredibly imaginative mix of industrial beats and acoustic guitar. "dark splintered heart (mutation engine)" is pure industrial dance with a complete change in the vocals, as they're heavily distorted, leading into the even dancier "crygods (mind overdrive)" a dub piece that mixes some of the earlier ethereal sounds. The 'eerie glow' mix of "cut me" which replaces the original music with an atmospheric techno soundscape. "Altered Form" speeds up the ethereal sound of the original "Final Form" to create a brighter, dancier piece. And "cold" wraps it all up with a 100% Goth sound &mdash; droning vocals, medieval influenced music with a crystal clear arrangement. This CD really has it all, tying up the most of the disparate elements that make up today's dark-side music, referencing numerous bands along the way, but producing something fresh, often innovative and incredibly diverse. This CD will appeal to a wide variety of people and is a perfect overview of the current trends.</p>
@@ -137,7 +137,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>I've been hearing great things about the Colorado goth/industrial scene, and the Boulder based Machine in the Garden are meeting all my expectations.  The duo of Summer Bowman and Roger Frac&eacute; create a perfect electro/goth/ethereal blend of music with their first full length CD, <i>Underworld</i>.  There are sixteen tracks on this impressive and varied release, and I love them all!  <i>Underworld </i>opens with tracks that lean decidedly toward the gothic ethereal spectrum with the incredible vocals of Summer.  Towards the middle Roger adds in his deep voice and the songs take on a more electro industrial feel, until the final two tracks bring back the ethereal beauty of the opening pieces.  <i>Underworld</i> is gothic at its best and should not be missed!</p>
@@ -147,7 +147,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>The Machine in the Garden is a result of the collaboration of the efforts of Summer Bowman and Roger Frac&eacute;. This minimalistic band resembles black tape for a blue girl, with less of the ambient moments. Song after song will continue to amaze you, and each song explores a slightly different style.  Underworld can seem like EBM one minute, and later turn into ethereal beauty. Although the entire album is amazing, several tracks stick out. "falling into the sea" features the vocal talents of Summer over soft piano. Roger and Summer sing on "corpus christi (love will die)", which is in my opinion, the most incredible track on the CD. Roger's minimal, yet unique electronics bring this song together to perfection. "spiritus ex obitus sanctus" is an instrumental experimentation with noise, featuring metallic electronics over other synths in the background. This CD should appeal to any fan of any of the many sub-genres in the whole industrial/goth scene, for tMitG experiment with each, and tie the qualities of each genre together. I have a feeling this will be one of my favorite releases of all of 1998.</p>
@@ -157,7 +157,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>The latest offering, <i>Underworld</i>, from the Machine in the Garden proves to be a well thought out and musically intriguing recording. This CD seems to take the listener on a journey that starts out lulling each one of us into a dreamworld that is dark and melodic. Female vocalist, Summer Bowman, displays strong, fine-tuned vocals, which are immediately apparent on the opening track Final Form. The first five songs encumber you into this ethereal world of musical elements.  The CD then introduces you into the next part of the journey with a powerful ballad, &ldquo;Corpus Christi (Love Will Die)&rdquo;, featuring Summer Bowman joined by Roger Frac&eacute; (the other half of the band) on vocals. This second transition proves to be slightly louder and a bit more aggressive and energetic. The final part of the journey shows a more hostile approach, with the music taking on a more electronic-industrial feel and harsher vocals by Roger Fracé. The song &ldquo;Cut Me&rdquo; is one of the more impressive tracks on underworld.  It has a hard-edged sound, multiple uses of electronics, and unusual vocal styles. The only complaint is the intro is strikingly familiar to Rosetta Stone's "Nothing." The CD winds down with several other electronic tracks leading to the conclusion which brings us full circle, with a remix of &ldquo;Final Form&rdquo; in &ldquo;Altered Form.&rdquo; I found underworld to be a pleasant sounding CD with much attention given to composition and arrangement. This is a talented band and I look forward to seeing more from them.</p>
@@ -167,7 +167,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>The ability to create truly hypnotic music relies on the courage to take the simplest idea, even one chord or note, and let everything radiate from it, swim around it, like the ripples on the surface of dark water when a stone breaks its calm.  The Machine in the Garden aren't just brave enough, they embrace this approach, producing a mantra-like quality irrespective of the moods of the different tracks.  The occasional anemic offering (e.g. &ldquo;This Arising, That Arises,&rdquo; or &ldquo;Dreams of the Absent,&rdquo; which starts of disturbingly like Marilyn Manson's cover of &ldquo;Sweet Dreams&rdquo;) is easily compensated for by the epic, dream-like grandeur of &ldquo;Corpus Christi (Love Will Die)&rdquo; or &ldquo;Final Form&rdquo;'s Eastern melody tinges with swathes of expansive guitar, which sounds like it's billowing in blue clouds of stage smoke. Throughout, Summer Bowman's voice is a powerful addition, an often surprisingly intimate counter-balance to its shadowy, distant accompaniment. Even the remixes at the end of the CD are, for once, a welcome bonus &mdash; adding dance beats or heavy guitars to the already virtuoso range of this exceptional band.  It's goth without the merest grunt of Nephilim-fuelled plagiarism, industrial without ever resorting to compulsive use of swearwords in place of talent, and ambient without once causing me to use the word 'ethereal'.  A genuinely intelligent release without the pretention of experimentation for the sake of it.</p>
@@ -177,7 +177,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>Machine in the Garden are exactly that.  I can't think of another ensemble more aptly named.  Quaffing from the majestic epics on the preview cassette of their forthcoming Underworld CD, the usual critic's trick of describing bands via comparisons to other bands fails me.  Is this Black Tape for the Blue Girl on crystal meth, Dead Can Dance sniffing glue, or Atari Teenage Riot on opium? At different times, some, none, or all of the above.  tMitG morph effortlessly between moods and styles like few industrial-gothic bands can.  Electronic composer Roger Frace's voice sounds similar to Sam Rosenthal's (of Black Tape for a Blue Girl) in the higher register and like something out of Front 242 in the lower. However, most of the vocal duties are handled by Summer Bowman whose spring-water clear, well-trained tone is often multi-tracked, producing layers of compelling harmonies; when placed within the context of Frace's unrelenting, unrepentant electronic soundscapes, Bowman's voice ultimately seems more diabolical than heavenly (and that's a good thing). The piano intro to the second song runs a little too long, but that's the only blemish on this otherwise astonishing album.  Fans of Miranda Sex Garden and Chicago's long-departed and much-missed Alchemy should check this out.</p>
@@ -187,7 +187,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>underworld, the first full-length release from self-described gothic-industrial band the Machine in the Garden, is soon to be out after over three years since their first EP release, Veils and Shadows. as of this writing (November 24, 1997), underworld has not yet been released (it is due out in December, 1997), so this review may be of some use to anyone anticipating underworld's release in the forthcoming weeks.  first off, I must say I enjoyed this release very much. when Veils and Shadows was released in 1994, the Machine in the Garden was the solo effort of founder Roger Fracé. with the addition of vocalist Summer Bowman, new elements are added to the already broad range of Frac&eacute;'s solo musical abilities. with the added options of a female vocalist and Summer's additional creative abilities, underworld has proven to be the strongest debut album this reviewer has heard since John Frizzell's "VR.5" soundtrack. Like the score of "VR.5," underworld has an EXTREMELY wide variety of musical styles and types ranging from dark electro a la Die Form, to more classical pieces; from acoustic pieces, to techno dance. the most visible part of this album is the variety. no two songs are alike; one gets the feeling of listening to a compilation, as opposed to a single artist. the scope is quite large, resulting in many different sounds coming together to form a single cohesive unit. the first track, "Final Form," is usual industrigoth club fare; an electronic piece designed for accessability to the intended audience and dancibility in a goth club setting. by comparison, "Falling into the Sea," the second track is a minimalist piano piece that compliments Summer's voice quite well. track three, "Dreams of the Absent," has early moog-sounding synths resulting in a piece obviously inspired by sound of the Eurythmics' "Sweet Dreams." and so on... every track on this CD has it's own uniqueness and style completely it's own.  while still relatively obscure in most of the country, the Machine in the Garden is not yet a household name in their scene, but underworld is an extremely strong debut album, and will no doubt instigate attention from those who seek variety in the bands they listen to. the range and variety shown in underworld shows that the Machine in the Garden has great potential to be the next big thing in their genre, not because they have a style which is trendy or popular, but because they have variety and ablilty (great bands never stay the same and are always incorporating new elements) in their music, as well as the potential to grow (another thing great bands never stop doing). pay attention to the Machine in the Garden, as you will be hearing about them in the future.</p>
@@ -197,7 +197,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>for those of you ignorant people out there, the Machine in the Garden is a gothic-industrial band featuring Roger Fracé and Summer Bowman.  their first offering, released back in october of 1994 was but a taste of what was to come in the future, and now, 3 years later, they will release underworld, and the preview tape i have contains 3 all new songs:  <i>final form</i>, <i>cut me</i>, and <i>words in heaven lost</i>; and contains 2 previously unreleased tracks:  <i>cold</i> and <i>dark splintered heart</i>.  sure the names of the songs sound like something taken from a skinny puppy album, but don&rsquo;t let that fool you, they take this genre to a new level.  you&rsquo;ll be thinking to yourself, it&rsquo;s gothic, no, wait, it&rsquo;s industrial.  no it can&rsquo;t be, it&rsquo;s ambient.  well, it&rsquo;s not any of those, it&rsquo;s all three and more.  summer bowman&rsquo;s vocals will grip you and not let go throughout the entire album, with the ethereal beauty flooding your soul.  roger frac&eacute;&rsquo;s vocals and harsh guitars and electronicka cast an even darker mood over the album.  i must say that i am thoroughly impressed with this album and can&rsquo;t wait for the final version to be cut and released.</p>
@@ -207,7 +207,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>The debut full length release from the Machine in the Garden demonstrates perfectly their blending of technology with the natural world. The songs on this album develop as a movement as they range from sonorous ambient pieces to hard edge guitar driven songs. The music of tMitG has been categorised in many genres. If you like any Indie, Darkwave, Goth or Industrial you are guaranteed to love this release.</p>

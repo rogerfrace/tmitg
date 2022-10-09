@@ -38,7 +38,7 @@
 <?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
+<main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
 	<meta itemprop="albumReleaseType" content="album">
 	<meta itemprop="albumProductionType" content="CompilationAlbum">
 	<meta itemprop="numTracks" content="15">
@@ -50,7 +50,7 @@
 <section id="discog_albuminfo" tabindex="-1">
 	<div><img src="albums/xv.jpg" width="250" height="250" alt="XV album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">XV</h1>
-	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
+	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-015-cd</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2007</span><br />full-length CD released <time datetime="2007-12-13" itemprop="datePublished">13 December 2007</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>
@@ -71,7 +71,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
+	<tbody itemscope itemtype="https://schema.org/MusicPlaylist">
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html
@@ -97,16 +97,16 @@ $lyricsfile and videoname do not include .html
 </div> <!-- end tracklist div -->
 
 
-<section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+<section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="https://schema.org/AggregateOffer">
 	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="7.00">
 	<h2 class="wai">Buy links</h2>
 	
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="7.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/xv" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="7.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/xv" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
 
 	<div><a rel="noopener external" href="https://geo.music.apple.com/us/album/xv/271198571?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=1051488000&h=c00eb4ff5fad4f198fdb725cf0b2f187" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
 
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="http://www.amazon.com/gp/product/B001A37ZXG/ref=as_li_ss_tl?ie=UTF8&amp;tag=themachininth-20&amp;linkCode=as2&amp;camp=217153&amp;creative=399701&amp;creativeASIN=B001A37ZXG" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B001A37ZXG&amp;camp=217153&amp;creative=399701" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="http://www.amazon.com/gp/product/B001A37ZXG/ref=as_li_ss_tl?ie=UTF8&amp;tag=themachininth-20&amp;linkCode=as2&amp;camp=217153&amp;creative=399701&amp;creativeASIN=B001A37ZXG" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B001A37ZXG&amp;camp=217153&amp;creative=399701" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
 </section> <!-- end buy button div -->
 
 
@@ -114,12 +114,12 @@ $lyricsfile and videoname do not include .html
 
 <section aria-labelledby="reviews">	
 	<h2 id="reviews" tabindex="-1">Reviews of <i>XV</i>:</h2>
-	<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+	<div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
 		<meta itemprop="reviewCount" content="5">
 	</div>
 	<div class="revcontent">
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>It's tough being a band in the "dark" (goth, darkwave, ethereal, industrial, deathrock, etc) underground in the USA. Bands can have a career spanning decades without a hint of mainstream success, playing the same clubs and venues as the newcomers, and upstaged by bands who appropriate the look (and often the label) with hardly a nod to the legacy of musical sounds they (sometimes unwittingly) reference. Is it any wonder some American "dark underground" musicians have decided to relocate to places like Germany (or sign exclusively with European labels)? The point being that there are a lot of very talented bands and musicians out there being ignored by both the mainstream and the indie hipster taste-makers because of stupid stereotypes and preconceived ideas. Which brings me to The Machine in The Garden.</p>
@@ -138,7 +138,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>The duo Summer Bowman (also known from Mirabilis) and Roger Frac&eacute;, hailing from Austin Texas, make ethereal darkwave music under the moniker The Machine in the Garden since the early 90's. Tow years ago their latest studioalbum, Shadow Puppets, was released and this is an exceptionally beautiful album which includes my personal favourite TMITG song 'Suspend'. In celebration of their 15 year existence the band decided to release a compilation cd with special songs, demo recordings, remixes and two new songs ('Mental Wasteland' and 'Otherworld'). The songs cover a period from 1994 to 2007 and perfectly show how the band has developed their sound in these years. The older songs still have a unpolished raw postpunk influence, as is illustrated with 'Oblician' and the new songs stand out with their specific ethereal atmosphere with exotic influences. The nice thing of a compilation album is that old gems such as 'Six Days' and 'Nowhere' that somehow never got released, now get a new chance. Of the remixes especially the smoothly danceable 'Mad Hatter mix' of 'Wonderland' by Pete Murray and 'Mantra (Shades of Grey mix)' by Ego Likeness stand out. The last mentioned remix unites the best elements of the styles of both bands. 'On the Wire' of course is a Sisters of Mercy cover, originally released in 1997, yet reworked and rerecorded for this compilation. Finally 'Otherworld' is worth mentioning. A new song that in contrary to the loop focussed material on the latest Shadow Puppets album showcases a classical approach without guitar distortion. This makes curious to a new studio album from The Machine in the Garden. For now XV is a special collection of songs which are a pleasure to listen to.</p>
@@ -148,7 +148,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>A collection of rare tracks, remixes, and demos spanning the duo's 15-year existence, <i>XV</i> acts as proof that the world of darkwave music is a better place for having The Machine in the Garden.</p>
@@ -166,7 +166,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote cite="http://mickmercer.livejournal.com/795350.html" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://mickmercer.livejournal.com/795350.html" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>Now here's a pretty thing, to celebrate their fifteen years together, with a selection of material which isn't simply a chronological selection of already released material, as Roger Frac&eacute; and Summer Bowman select an interesting mixture, spice up with a remix here or there, demos and new material.</p>
@@ -184,7 +184,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote cite="http://www.side-line.com/reviews_comments.php?id=30484_0_17_0_C" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.side-line.com/reviews_comments.php?id=30484_0_17_0_C" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>The duo Roger Frac&eacute; and Summer Bowman celebrates the 15th anniversary of their band. 15 years of commitment and several releases to date have been the main inspiration for this album "XV" featuring 15 songs from all over the years. "XV" is a real cool release on which you can find back (or discover) the wave style of this band, which now and than reminds me of Cocteau Twins. The melancholia of the guitar in conjunction with the female vocals probably brings me to Cocteau Twins, but referring to this legendary 80s band is for sure positive! I enjoyed most of the songs, but especially the "Words In Heaven Lost - Get Out Of This Remix" which is a pure mix of old Dead Can Dance and Cocteau Twins-influences. Some other piece that caught my attention are "Wonderland – Mad Hatter Mix" (remixed by Pete Murray) for the electronic touch, "Six Days" for the typical wave mood from the old days, "On The Wire" (cover version of The Sisters Of Mercy) for the kind of wafting sadness and "Corpus Christi - In Prayer Mix" (remixed by Matrix) for the great vocal performance, which reminds me of Fading Colours. "XV" is a real great item for all wave collectors!</p>

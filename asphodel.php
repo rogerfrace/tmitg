@@ -38,7 +38,7 @@
 <?php include_once("includes/discogsubnav.inc.php"); ?>
 <!-- end album header nav -->
 
-<main id="main" class="mainbody" itemscope itemtype="http://schema.org/MusicAlbum">
+<main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
 	<meta itemprop="albumReleaseType" content="album">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="14">
@@ -50,11 +50,11 @@
 <section id="discog_albuminfo" tabindex="-1">
     <div><img src="albums/asphodel.jpg" width="254" height="250" alt="Asphodel album cover" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Asphodel</h1>
-	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
+	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">MPP986</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2002</span><br />full-length CD released <time datetime="2002-06" itemprop="datePublished">June 2002</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>	
-	<div itemscope itemtype="http://schema.org/MusicRelease" itemprop="albumRelease">
+	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-009-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span><br />Remastered Digital Album released <time datetime="2020-10-02" itemprop="datePublished">2 October 2020</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
@@ -75,7 +75,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody itemscope itemtype="http://schema.org/MusicPlaylist">
+	<tbody itemscope itemtype="https://schema.org/MusicPlaylist">
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
 $lyricsfile and videoname do not include .html
@@ -107,19 +107,19 @@ $lyricsfile and videoname do not include .html
 </div> <!-- end tracklist div -->
 
 
-<section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+<section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="https://schema.org/AggregateOffer">
 	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="8.00">
 	<h2 class="wai">Buy links</h2>
 	
 	<fieldset><legend>Remastered Edition</legend>
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="8.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/asphodel" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="8.00"><a rel="noopener external" itemprop="url" href="https://tmitg.bandcamp.com/album/asphodel" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
 	</fieldset>
 	<br>
 	<fieldset><legend>Original Version</legend>
 	<div><a rel="noopener external" href="https://geo.music.apple.com/us/album/asphodel/949296468?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=1022889600&h=f5fafea5474207bb0f2d25503be1a385" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
 		
-	<div class="buynow" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="https://amzn.to/2ZRnBIO" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B000QZU6H6&amp;camp=217153&amp;creative=399701" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener external" itemprop="url" href="https://amzn.to/2ZRnBIO" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B000QZU6H6&amp;camp=217153&amp;creative=399701" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
 	</fieldset>
 </section> <!-- end buy button div -->
 
@@ -128,12 +128,12 @@ $lyricsfile and videoname do not include .html
 
 <section aria-labelledby="reviews">	
 	<h2 id="reviews" tabindex="-1">Reviews of <i>Asphodel</i>:</h2>
-	<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+	<div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
 		<meta itemprop="reviewCount" content="2">
 	</div>
 	<div class="revcontent">
 
-<blockquote cite="http://www.gothicparadise.com/tmitg.htm#rev1" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.gothicparadise.com/tmitg.htm#rev1" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>This is another album that I've been looking forward to for some time from this great Gothic/Darkwave band.  And believe me, this is probably their best and most mature work to date.  They continue with their classic Gothic/Darkwave style, combining guitar, dark synths and female vocals, but add a very mature and full sound to it all.</p>
@@ -144,7 +144,7 @@ $lyricsfile and videoname do not include .html
 
 <p>It's hard to nail down a favorite track on this album, as they all vary slightly but are all comparably well performed and written.  "Wonderland" is probably the track that stands out the most in my mind with more of a beat and bass that really stand out and bring out that angst filled feeling.  But there are many others that are easily comparable and just as nice.  So while it lacks anything that jumps out and grabs you, the album as a whole is very nicely done.</p>
 </div>
-<div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+<div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
 	<meta itemprop="worstRating" content = "1">
 	Rating: <span itemprop="ratingValue">4</span>/<span itemprop="bestRating">5</span></div>
 <p>-<span itemprop="author"><a href="http://www.gothicparadise.com/tmitg.htm#rev1" target="_blank"><span itemprop="publication">Gothic Paradise</span></a></span></p>
@@ -152,7 +152,7 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<blockquote cite="http://www.starvox.net/crypt/3august2.htm" class="review" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+<blockquote cite="http://www.starvox.net/crypt/3august2.htm" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
 <div itemprop="reviewBody">
 <p>The name "The Machine in the Garden" refers to the progress of technology and its relationship with nature. Each release explores this relationship between the mechanical, natural, and spiritual worlds and further elucidates the philosophy behind the band.</p>

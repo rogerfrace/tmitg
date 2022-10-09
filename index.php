@@ -13,9 +13,9 @@ require_once("functions.php");
 	<meta property="og:site_name" content="the Machine in the Garden" />
 	<meta property="og:title" content="the Machine in the Garden" />
 	<meta property="og:type" content="musician" />
-	<meta property="og:url" content="http://www.tmitg.com/" />
+	<meta property="og:url" content="https://www.tmitg.com/" />
 	<meta property="og:description" content="the Machine in the Garden is one of the premiere ethereal-electronic-darkwave-neoclassical-goth band in the American music industry. With 9 official releases and numerous other appearances since their founding in 1992, tMitG is one of the most lasting and prolific dark underground bands of the new era." />
-	<meta property="og:image" content="http://www.tmitg.com/photos/xv1.jpg" />
+	<meta property="og:image" content="https://www.tmitg.com/photos/xv1.jpg" />
     <meta property="og:locale" content="en_US" />
     <meta property="fb:app_id" content="121619441387">
     <meta property="fb:admins" content="1120445561,713632115">
@@ -23,7 +23,8 @@ require_once("functions.php");
 	<meta name="twitter:site" content="@tmitg" />
 	<meta name="twitter:creator" content="@tmitg" />
 	<meta name="copyright" content="<?=date('Y',time());?>" />
-	<meta content="minimum-scale=1.0, initial-scale=1" name="viewport" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://www.tmitg.com/" />
 
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
@@ -54,7 +55,7 @@ require_once("functions.php");
 	<?php include_once("fontawesome.inc.php"); ?>
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 	<script src="tmitg.js" type="text/javascript"></script>
-	<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"MusicGroup","url":"http:\/\/www.tmitg.com\/","sameAs":["https:\/\/www.facebook.com\/tmitg","https:\/\/twitter.com\/tmitg","https:\/\/www.youtube.com\/tmitg"],"name":"the Machine in the Garden","foundingDate":"1992"}</script>
+	<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"MusicGroup","url":"https:\/\/www.tmitg.com\/","sameAs":["https:\/\/www.facebook.com\/tmitg","https:\/\/twitter.com\/tmitg","https:\/\/www.youtube.com\/tmitg"],"name":"the Machine in the Garden","foundingDate":"1992"}</script>
 	<?php include_once("googletracking.html"); ?>
 </head>
 

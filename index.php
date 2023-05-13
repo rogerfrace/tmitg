@@ -1,7 +1,7 @@
 <?php
 $top = !empty($_POST['top']) ? $_POST['top'] : '';
 if ($top=="merch.html") { header("Location:merch.php"); }
-require_once("functions.php");
+require_once "functions.php";
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">

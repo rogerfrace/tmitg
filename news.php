@@ -18,7 +18,7 @@ if (isset($_GET["item"])) {
 <!DOCTYPE html>
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<?php require_once("functions.php"); ?>
+<?php require_once "functions.php"; ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>the Machine in the Garden - news - <?=$mtitle;?></title>
@@ -44,7 +44,7 @@ if (isset($_GET["item"])) {
 	<meta name="twitter:site" content="@tmitg" />
 	<meta name="twitter:creator" content="@tmitg" />
 	<meta name="copyright" content="<?=date('Y',time());?>" />
-	<?php include_once("headers-additional.php"); ?>
+	<?php include_once "headers-additional.php"; ?>
 	<link rel="alternate" type="application/rss+xml" href="/news-rss.xml.php" title="the Machine in the Garden - news" />
 	<style>
 		article {

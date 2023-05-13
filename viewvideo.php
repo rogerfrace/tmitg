@@ -1,4 +1,4 @@
-<?php require_once("functions.php"); ?>
+<?php require_once "functions.php"; ?>
 <?php
 if (!empty($_GET['yt'])){
 	switch ($_GET['yt']) {
@@ -155,7 +155,7 @@ if (!empty($_GET['yt'])){
 	<meta name="description" content="<?=$sdesc;?>" />
 	<meta content="minimum-scale=1.0, initial-scale=1" name="viewport" />
 	<link rel="stylesheet" type="text/css" href="../tmitg.css" />
-	<?php include_once("googletracking.html"); ?>
+	<?php include_once "googletracking.html"; ?>
 </head>
 
 <body id="video">

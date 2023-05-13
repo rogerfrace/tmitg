@@ -1,13 +1,13 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<?php require_once("functions.php"); ?>
+<?php require_once "functions.php"; ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - 404</title>
 	<script src="/tmitg.js" type="text/javascript"></script>
-	<?php include_once("headers-additional.php"); ?>
+	<?php include_once "headers-additional.php"; ?>
 	<link rel="stylesheet" type="text/css" href="/tmitg.css"> 
-	<?php include_once("googletracking.html"); ?>
+	<?php include_once "googletracking.html"; ?>
 </head>
 
 <body>

@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<?php require_once("functions.php"); ?>
+<?php require_once "functions.php"; ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="<?=$fbog['og:description'];?>" />
@@ -20,7 +20,7 @@
 	<meta name="Copyright" content="<?=date('Y',time());?>" />
 	<?=BuildFBOG($fbog);?>
 	<title><?=$fbog['og:title'];?></title>
-	<?php include_once("headers-additional.php"); ?>
+	<?php include_once "headers-additional.php"; ?>
 </head>
 
 <body id="discog">
@@ -32,7 +32,7 @@
 
 
 <!-- this is the album header nav -->
-<?php include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once "includes/discogsubnav.inc.php"; ?>
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">

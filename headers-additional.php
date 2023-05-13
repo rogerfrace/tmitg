@@ -12,6 +12,6 @@
 <?php endif; ?>
 
 <script src="tmitg.js" type="text/javascript" async></script>
-<?php include_once("fontawesome.inc.php"); ?>
+<?php include_once "fontawesome.inc.php"; ?>
 <link rel="stylesheet" type="text/css" href="tmitg.css">
-<?php include_once("googletracking.html"); ?>
+<?php include_once "googletracking.html"; ?>

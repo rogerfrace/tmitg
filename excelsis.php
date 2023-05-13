@@ -1,11 +1,11 @@
-<?php require_once("functions.php"); ?>
+<?php require_once "functions.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - Excelsis Vol. 2: A Winter's Song</title>
 	<meta name="copyright" content="<?=date('Y',time());?>">
-	<?php include_once("headers-additional.php"); ?>
+	<?php include_once "headers-additional.php"; ?>
 </head>
 
 <body id="discog">
@@ -17,7 +17,7 @@
 
 
 <!-- this is the album header nav -->
-<?php include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once "includes/discogsubnav.inc.php"; ?>
 <!-- end album header nav -->
 
 <div class="mainbody clearleft" role="main" id="main">

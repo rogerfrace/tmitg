@@ -1,4 +1,4 @@
-<?php require_once("functions.php"); ?>
+<?php require_once "functions.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +6,9 @@
 	<title>the Machine in the Garden - contact</title>
 	<meta name="description" content="Contact form and information for the Machine in the Garden.">
 	<meta name="copyright" content="<?=date('Y',time());?>" />
-	<?php include_once("headers-additional.php"); ?>
+	<?php include_once "headers-additional.php"; ?>
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />
-	<?php include_once("googletracking.html"); ?>
+	<?php include_once "googletracking.html"; ?>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 

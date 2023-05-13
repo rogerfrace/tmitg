@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<?php require_once("functions.php"); ?>
+<?php require_once "functions.php"; ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - When Angels Peer Favorably Upon Us, Volume Two</title>
-	<?php include_once("headers-additional.php"); ?>
+	<?php include_once "headers-additional.php"; ?>
 </head>
 
 <body id="discog">
@@ -16,7 +16,7 @@
 
 
 <!-- this is the album header nav -->
-<?php include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once "includes/discogsubnav.inc.php"; ?>
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">

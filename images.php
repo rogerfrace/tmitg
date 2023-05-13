@@ -1,4 +1,4 @@
-<?php require_once("functions.php"); ?>
+<?php require_once "functions.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +7,7 @@
 	<meta name="description" content="the Machine in the Garden band photo gallery.">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
-	<?php include_once("headers-additional.php"); ?>
+	<?php include_once "headers-additional.php"; ?>
 	<script>
 		$(document).ready(function(){
 			// from https://stackoverflow.com/questions/16553075/colorbox-add-alt-text-to-gallery-images

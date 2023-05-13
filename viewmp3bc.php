@@ -1,4 +1,4 @@
-<?php require_once("functions.php"); ?>
+<?php require_once "functions.php"; ?>
 <?php
 if (!empty($_GET['bcsample'])){
 	switch ($_GET['bcsample']) {
@@ -278,7 +278,7 @@ if (!empty($_GET['bcsample'])){
 	<meta name="description" content="Audio sample for &quot;<?=$stitle;?>&quot; from &quot;<?=$salbum;?>&quot;." />
 	<meta content="minimum-scale=1.0, initial-scale=1" name="viewport" />
 	<link rel="stylesheet" type="text/css" href="../tmitg.css" />
-	<?php include_once("googletracking.html"); ?>
+	<?php include_once "googletracking.html"; ?>
 </head>
 
 <body id="video">

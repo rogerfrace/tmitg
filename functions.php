@@ -102,7 +102,7 @@ function check_mobile() {
 // page headers
 function get_header() {
 	global $int;
-	include_once("headers/header.php");
+	include_once "headers/header.php";
 }
 
 // output OG tags

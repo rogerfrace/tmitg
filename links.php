@@ -1,4 +1,4 @@
-<?php require_once("functions.php"); ?>
+<?php require_once "functions.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +6,7 @@
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<meta name="description" content="the Machine in the Garden's favorite and useful web links">
 	<title>the Machine in the Garden - links</title>
-	<?php include_once("headers-additional.php"); ?>
+	<?php include_once "headers-additional.php"; ?>
 </head>
 
 <body id="links">

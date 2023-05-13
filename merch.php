@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<?php require_once("functions.php"); ?>
+<?php require_once "functions.php"; ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>the Machine in the Garden - merchandise</title>
@@ -20,7 +20,7 @@
 	<meta name="twitter:site" content="@tmitg" />
 	<meta name="twitter:creator" content="@tmitg" />
 	<meta name="copyright" content="<?=date('Y',time());?>" />
-	<?php include_once("headers-additional.php"); ?>
+	<?php include_once "headers-additional.php"; ?>
 	<script>
 		$(document).ready(function(){
 			// from https://stackoverflow.com/questions/16553075/colorbox-add-alt-text-to-gallery-images

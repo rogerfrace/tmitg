@@ -1,4 +1,4 @@
-<?php require_once("functions.php"); ?>
+<?php require_once "functions.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +7,8 @@
 	<meta name="description" content="the Machine in the Garden discography of releases and compilations.">
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
-	<?php include_once("headers-additional.php"); ?>
-	<?php include_once("googletracking.html"); ?>
+	<?php include_once "headers-additional.php"; ?>
+	<?php include_once "googletracking.html"; ?>
 </head>
 
 <body id="discog">

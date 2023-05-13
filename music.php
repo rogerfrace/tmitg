@@ -1,4 +1,4 @@
-<?php require_once("functions.php"); ?>
+<?php require_once "functions.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +6,7 @@
 	<title>the Machine in the Garden - music</title>
 	<meta name="description" content="the Machine in the Garden music audio and video samples.">
 	<meta name="copyright" content="<?=date('Y',time());?>" />
-	<?php include_once("headers-additional.php"); ?>
+	<?php include_once "headers-additional.php"; ?>
 </head>
 
 <body id="music">

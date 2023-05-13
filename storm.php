@@ -12,7 +12,7 @@
 <!DOCTYPE html>
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<?php require_once("functions.php"); ?>
+<?php require_once "functions.php"; ?>
 <head>
 	<meta charset="utf-8" />
 	<meta name="description" content="<?=$fbog['og:description'];?>" />
@@ -21,7 +21,7 @@
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?=BuildFBOG($fbog);?>
 	<title><?=$fbog['og:title'];?></title>
-	<?php include_once("headers-additional.php"); ?>
+	<?php include_once "headers-additional.php"; ?>
 	<link rel="prev" href="/xv.php">
 	<link rel="next" href="/places.php">
 </head>
@@ -35,7 +35,7 @@
 
 
 <!-- this is the album header nav -->
-<?php include_once("includes/discogsubnav.inc.php"); ?>
+<?php include_once "includes/discogsubnav.inc.php"; ?>
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
@@ -263,7 +263,7 @@ $lyricsfile and videoname do not include .html
 </section>
 
 </main> <!-- /mainbody -->
-<?php include_once("includes/amazonfooter.inc.php"); ?>
+<?php include_once "includes/amazonfooter.inc.php"; ?>
 
 <!-- google translate widget -->
 <?php if (!stristr($_SERVER['HTTP_USER_AGENT'],"Googlebot")): ?>

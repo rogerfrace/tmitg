@@ -1,4 +1,4 @@
-<?php require_once("functions.php"); ?>
+<?php require_once "functions.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +7,7 @@
 	<meta name="description" content="the Machine in the Garden offical band biography and history.">
 	<meta name="keywords" content="machine in the garden, tmitg, music, CDs, roger frace, summer bowman, band bio">
 	<meta name="copyright" content="<?=date('Y',time());?>" />
-	<?php include_once("headers-additional.php"); ?>
+	<?php include_once "headers-additional.php"; ?>
 </head>
 <body id="bio">
 	<span id="skip-links">

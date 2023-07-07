@@ -449,7 +449,7 @@
   <th scope="row">July 2, 1995</th>
   <td>Albany, NY</td>
   <td>QE2</td>
-  <td>Spindle Shanks</td>
+  <td>You Shriek, Spindle Shanks</td>
   <td>Awake at the Wall, A Touch of Heaven, Existential Sonnet, .....</td>
   <td>&nbsp;</td>
  </tr>

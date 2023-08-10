@@ -58,6 +58,8 @@
 @media (max-width: 725px) {
   .mobile {
     display: block;
+  }
+  .mobile div {
     height: 100%;
     overflow-y: scroll;
   }

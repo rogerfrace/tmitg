@@ -84,7 +84,7 @@ $lyricsfile and videoname do not include .html
 <?php do_songtitle(5,"Suspend","suspend",NULL,"sp.jpg","suspend","Suspend"); ?>
 <?php do_songtitle(6,"More Unto Fire Dreamt","moreuntofiredreamt","moreuntofire-bc","sp.jpg",NULL); ?>
 <?php do_songtitle(7,"Mother","mother",NULL,"sp.jpg",NULL); ?>
-<?php do_songtitle(8,"Spider\'s Bride","spidersbride","spidersbride-bc","sp.jpg",NULL); ?>
+<?php do_songtitle(8,"Spider’s Bride","spidersbride","spidersbride-bc","sp.jpg",NULL); ?>
 <?php do_songtitle(9,"Illusions In Rain","illusionsinrain",NULL,"sp.jpg",NULL); ?>
 <?php do_songtitle(10,"If Ever","ifever",NULL,"sp.jpg",NULL); ?>
 <?php do_songtitle(11,"Goodbye","goodbye",NULL,"sp.jpg",NULL); ?>

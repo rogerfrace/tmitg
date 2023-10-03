@@ -89,7 +89,7 @@ $lyricsfile and videoname do not include .html
 <?php do_songtitle(10,"Everything Alone","everythingalone",NULL,NULL,NULL); ?>
 <?php do_songtitle(11,"Lullaby","lullaby",NULL,NULL,NULL); ?>
 <?php do_songtitle(12,"Midnight","midnight","midnight-bc","winters.jpg",NULL); ?>
-<?php do_songtitle(13,"Io's Departure",NULL,NULL,NULL,NULL); ?>
+<?php do_songtitle(13,"Io’s Departure",NULL,NULL,NULL,NULL); ?>
 	
 	</tbody>
 </table>

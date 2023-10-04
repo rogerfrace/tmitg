@@ -53,7 +53,6 @@
 <ul>
 <li><a rel="me noopener external" href="http://tmitg.bandcamp.com/" target="_blank">tMitG on Bandcamp</a></li>
 <li><a rel="me noopener external" href="https://www.amazon.com/The-Machine-in-the-Garden/e/B000APJSZI/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=themachininth-20&linkId=434b5d1887e4dda3df19fe0ab65e82ee&language=en_US" target="_blank">tMitG on Amazon MP3</a><img src="https://www.assoc-amazon.com/e/ir?t=themachininth-20&amp;l=as2&amp;o=1&amp;a=B000QK6ULW" width="1" height="1" alt="" style="border:none !important; margin:0px !important;"></li>
-<li><a rel="me noopener external" href="https://market.android.com/details?id=artist-Apac5rsyndbjkfsx6462bompp64" target="_blank">tMitG on Google Play</a></li>
 <li><a rel="me noopener external" href="https://music.apple.com/us/artist/the-machine-in-the-garden/5985533?itsct=music_box&itscg=30200&at=1000l35Bw&ls=1&app=music" target="_blank">tMitG on Apple Music</a></li>
 <li><a rel="me noopener external" href="http://www.last.fm/music/the+Machine+in+the+Garden" target="_blank">tMitG on last.fm</a></li>
 <li><a rel="me noopener external" href="https://soundcloud.com/the-machine-in-the-garden" target="_blank">tMitG on Soundcloud</a></li>
@@ -66,14 +65,9 @@
 <h2 id="labeld">bands...</h2>
 <a href="#top" class="btt">back to top&rarr;</a>
 <ul>
-<li><a rel="noopener external" href="http://www.christiandeath.com/" target="_blank">Christian Death</a></li>
-<li><a rel="noopener external" href="http://www.clairevoyant.com/" target="_blank">Claire Voyant</a></li>
-<li><a rel="noopener external" href="http://www.collide.net/" target="_blank">Collide</a></li>
-<li><a rel="noopener external" href="http://www.deadcandance.com/" target="_blank">Dead Can Dance</a></li>
-<li><a rel="noopener external" href="http://www.echobelly.com/" target="_blank">Echobelly</a></li>
-<li><a rel="noopener external" href="http://www.egolikeness.com/" target="_blank">Ego Likeness</a></li>
+<li><a rel="noopener external" href="https://www.collide.net/" target="_blank">Collide</a></li>
+<li><a rel="noopener external" href="https://egolikeness.bandcamp.com/" target="_blank">Ego Likeness</a></li>
 <li><a rel="noopener external" href="http://www.mercyground.com/" target="_blank">Faith and the Muse</a></li>
-<li><a rel="noopener external" href="http://www.gathering.nl/" target="_blank">The Gathering</a></li>
 <li><a rel="noopener external" href="http://www.iscintilla.com/" target="_blank">I:Scintilla</a></li>
 <li><a rel="noopener external" href="https://lycia.bandcamp.com/" target="_blank">Lycia</a></li>
 <li><a rel="noopener external" href="http://www.marastorment.com/" target="_blank">Mara's Torment</a></li>
@@ -82,10 +76,9 @@
 <li><a rel="noopener external" href="http://www.mirabilismusic.com/" target="_blank">Mirabilis</a> Summer's side project</li>
 <li><a rel="noopener external" href="http://mirabilis.bandcamp.com/" target="_blank">Mirabilis @ Bandcamp</a></li>
 <li><a rel="noopener external" href="http://www.mmtm.net/" target="_blank">More Machine Than Man</a></li>
-<li><a rel="noopener external" href="http://www.petermurphy.info/" target="_blank">Peter Murphy</a></li>
 <li><a rel="noopener external" href="http://www.theshroud.com/" target="_blank">The Shroud</a></li>
 <li><a rel="noopener external" href="http://www.thisascension.com/" target="_blank">This Ascension</a></li>
-<li><a rel="noopener external" href="http://www.ziaspace.com/ZIA/" target="_blank">ZIA</a></li>
+<li><a rel="noopener external" href="http://www.ziaspace.com/" target="_blank">ZIA</a></li>
 </ul>
 </section>
 
@@ -99,7 +92,6 @@
 <li><a rel="noopener external" href="http://www.headfullofnoise.com/" target="_blank">Head Full of Noise</a></li>
 <li><a rel="noopener external" href="http://www.morbidoutlook.com/" target="_blank">Morbid Outlook</a></li>
 <li><a rel="noopener external" href="http://www.side-line.com/" target="_blank">Side-Line</a></li>
-<li><a rel="noopener external" href="http://sortedmagazine.com/Sordid.php3" target="_blank">Sordid</a></li>
 </ul>
 </section>
 
@@ -109,7 +101,6 @@
 <a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a rel="noopener external" href="http://www.metropolis-records.com/" target="_blank">Metropolis</a></li>
-<li><a rel="noopener external" href="http://www.nettwerk.com/" target="_blank">Nettwerk</a></li>
 <li><a rel="noopener external" href="http://www.nilaihah.com/" target="_blank">Nilaihah Records</a></li>
 <li><a rel="noopener external" href="http://www.projekt.com/" target="_blank">Projekt</a></li>
 <li><a rel="noopener external" href="http://www.soleilmoon.com/" target="_blank">Soleilmoon Recordings</a></li>
@@ -125,11 +116,8 @@
 <li><a rel="noopener external" href="http://www.blackchannel.org" target="_blank">Black Channel Radio</a></li>
 <li><a rel="noopener external" href="http://www.slcsanctuary.com/" target="_blank">Club Sanctuary</a> (Salt Lake City)</li>
 <li><a rel="noopener external" href="http://www.darkhorizonsradio.com/" target="_blank">Dark Horizons</a></li>
-<li><a rel="noopener external" href="http://www.darkmothermedia.com/" target="_blank">Dark Mother Media</a></li>
-<li><a rel="noopener external" href="http://theskysgoneout.com/" target="_blank">A Darker Shade of Pagan</a></li>
+<li><a rel="noopener external" href="https://www.mixcloud.com/darkmotherradio/" target="_blank">Dark Mother Radio</a></li>
 <li><a rel="noopener external" href="http://www.angelfire.com/music/darkestserenade/" target="_blank">The Darkest Serenade</a> (Ohio)</li>
-<li><a rel="noopener external" href="http://fadeout.podomatic.com/" target="_blank">Fadeout</a> (DJ Cruel Britannia)</li>
-<li><a rel="noopener external" href="http://www.nightbreedradio.com/" target="_blank">Nightbreed Radio</a></li>
 </ul>
 </section>
 
@@ -140,13 +128,11 @@
 <ul>
 <li><a rel="noopener external" href="http://www.eriu.com/gothshop.html" target="_blank"><b>Goth Shopping</b></a> directory</li>
 <li><a rel="noopener external" href="http://www.blackrose.co.uk/" target="_blank">The Black Rose</a></li>
-<li><a rel="noopener external" href="http://www.bloomers4u.com/" target="_blank">Bloomers4U.com</a></li>
 <li><a rel="noopener external" href="http://www.darkelegancedesigns.co.uk/" target="_blank">Dark Elegance Designs</a></li>
 <li><a rel="noopener external" href="http://www.eyescreamjewelry.com/" target="_blank">Eyescream Jewelry</a></li>
 <li><a rel="noopener external" href="http://www.gothicangelclothing.co.uk/" target="_blank">Gothic Angel (UK)</a></li>
 <li><a rel="noopener external" href="http://www.heavyred.com/" target="_blank">Heavy Red</a></li>
 <li><a rel="noopener external" href="http://www.kambriel.com/" target="_blank">Kambriel</a> (formerly Atrocities)</li>
-<li><a rel="noopener external" href="http://www.raveneve.com/" target="_blank">Raven Eve Jewelry</a></li>
 <li><a rel="noopener external" href="http://www.retailslut.com/" target="_blank">Retail Slut</a></li>
 <li><a rel="noopener external" href="http://www.secret-oktober.com/" target="_blank">Secret Oktober</a></li>
 <li><a rel="noopener external" href="http://www.sinistercandy.com/" target="_blank">Sinister Candy</a></li>
@@ -159,7 +145,6 @@
 <h2 id="labeli">art and design...</h2>
 <a href="#top" class="btt">back to top&rarr;</a>
 <ul>
-<li><a rel="noopener external" href="http://www.corbijn.co.uk/" target="_blank">Anton Corbijn</a></li>
 <li><a rel="noopener external" href="http://www.monolithgraphics.com/" target="_blank">Monolith Graphics</a></li>
 <li><a rel="noopener external" href="http://www.georgeyepes.com/" target="_blank">George Yepes</a></li>
 </ul>
@@ -171,9 +156,7 @@
 <a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a rel="noopener external" href="http://www.darklinks.com" target="_blank"><b>Dark Side of the Net</b></a></li>
-<li><a rel="noopener external" href="http://www.waningmoon.com/" target="_blank">Encyclopedia Gothica</a></li>
-<li><a rel="noopener external" href="http://www.gothauctions.com" target="_blank">Goth Auctions</a></li>
-<li><a rel="noopener external" href="http://www.pocketfullofposiez.com/" target="_blank">Pocket Full of Posiez</a></li>
+<li><a rel="noopener external" href="https://www.etsy.com/shop/Posiez" target="_blank">Pocket Full of Posiez</a></li>
 </ul>
 </section>
 

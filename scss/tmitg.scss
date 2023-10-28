@@ -1474,44 +1474,44 @@ s::after {
 }
 
 mark::before {
-    content: " [highlight start] ";
+    content: " (highlight start) ";
 }
 
 mark::after {
-    content: " [highlight end] ";
+    content: " (highlight end) ";
 }
 
 del::before {
-    content: " [deletion start] ";
+    content: " (deletion start) ";
 }
 
 del::after {
-    content: " [deletion end] ";
+    content: " (deletion end) ";
 }
 
 ins::before {
-    content: " [insertion start] ";
+    content: " (insertion start) ";
 }
 
 ins::after {
-    content: " [insertion end] ";
+    content: " (insertion end) ";
 }
 
 s::before {
-    content: " [start of stricken text] ";
+    content: " (start of stricken text) ";
 }
 
 s::after {
-    content: " [end stricken text] ";
+    content: " (end stricken text) ";
 }
 
 /* Screen-reader styles in another language */
 *[lang=es] mark::before {
-    content: " [resaltar inicio] ";
+    content: " (resaltar inicio) ";
 }
 
 *[lang=es] mark::after {
-    content: " [resaltar final] ";
+    content: " (resaltar final) ";
 }
 
 /* Windows High Contrast Mode styles */

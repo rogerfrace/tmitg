@@ -24,7 +24,7 @@
 <section aria-labelledby="releases">
 <h2 id="releases">releases:</h2>
 
-<ul class="releases">
+<ul role="list" class="releases">
 
 <li><a href="places.php" title="Places in Between"><img src="albums/placesico.jpg" alt="Places in Between"></a></li>
 
@@ -60,7 +60,7 @@
 
 <section aria-labelledby="compilations">
 <h2 id="compilations">compilation appearances:</h2>
-<ul class="comps">
+<ul role="list" class="comps">
 <li><a href="unquietfinal.php" title="The Unquiet Grave: The Final Chapter"><img src="albums/unquietfinalico.jpg" alt="The Unquiet Grave: The Final Chapter"></a></li>
 
 <li><a href="unearthd.php" title="Unearth'd"><img src="albums/unearthdico.jpg" alt="Unearth'd"></a></li>

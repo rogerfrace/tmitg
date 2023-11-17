@@ -71,7 +71,7 @@ function do_photo($imgname,$gallery=NULL,$alt=NULL) {
 
 <section>
 <h2>2020</h2>
-<ul class="2020">
+<ul role="list" class="2020">
 <?php
 do_photo('PiB-IMG_3571','2020','Summer standing in a Victorian-inspired decorated room with a cat');
 do_photo('PiB-IMG_3646','2020','Roger standing in a Victorian-inspired decorated room');
@@ -89,7 +89,7 @@ do_photo('PiB-IMG_3865','2020','Summer sitting in a Victorian-inspired decorated
 
 <section>
 <h2>2015</h2>
-<ul class="2015">
+<ul role="list" class="2015">
 <?php
 do_photo('secretoktober','2015','Mirabilis live at Secret Oktober, Austin, TX 10-03-2015');
 ?>
@@ -98,7 +98,7 @@ do_photo('secretoktober','2015','Mirabilis live at Secret Oktober, Austin, TX 10
 
 <section>
 <h2>2013</h2>
-<ul class="2013">
+<ul role="list" class="2013">
 <?php
 do_photo('elysium2013b','2013','tMitG Live at Elysium Austin 11-30-2013 #1');
 do_photo('elysium2013c','2013','tMitG Live at Elysium Austin 11-30-2013 #2');
@@ -110,7 +110,7 @@ do_photo('elysium2013e','2013','tMitG Live at Elysium Austin 11-30-2013 #4');
 
 <section>
 <h2>2011</h2>
-<ul class="2011">
+<ul role="list" class="2011">
 <?php
 do_photo('baats-rs1','2011','tMitG Before and After the Storm photoshoot #1');
 do_photo('baats-s1','2011','tMitG Before and After the Storm photoshoot #2');
@@ -129,7 +129,7 @@ do_photo('baats-r4','2011','tMitG Before and After the Storm photoshoot #11');
 
 <section>
 <h2>2007</h2>
-<ul class="2007">
+<ul role="list" class="2007">
 <?php
 do_photo('xv1','2007','tMitG XV photoshoot #1');
 do_photo('xv3','2007','tMitG XV photoshoot #2');
@@ -146,7 +146,7 @@ do_photo('xv9','2007','tMitG XV photoshoot #9');
 
 <section>
 <h2>2006</h2>
-<ul class="2006">
+<ul role="list" class="2006">
 <?php
 do_photo('elysium06a','2006','tMitG live in Austin TX 2006 #1');
 do_photo('elysium06b','2006','tMitG live in Austin TX 2006 #2');
@@ -158,7 +158,7 @@ do_photo('elysium06d','2006','tMitG live in Austin TX 2006 #4');
 
 <section>
 <h2>2005</h2>
-<ul class="2005">
+<ul role="list" class="2005">
 <?php
 do_photo('cville1','2005','tMitG live in Charlottesville #1');
 do_photo('cville2','2005','tMitG live in Charlottesville #2');
@@ -169,7 +169,7 @@ do_photo('cville8','2005','tMitG live in Charlottesville #6');
 do_photo('cville9','2005','tMitG live in Charlottesville #7');
 ?>
 </ul>
-<ul class="2005">
+<ul role="list" class="2005">
 <?php
 do_photo('c111','2005','tMitG live at Convergence 11 #1');
 do_photo('c112','2005','tMitG live at Convergence 11 #2');
@@ -180,7 +180,7 @@ do_photo('c116','2005','tMitG live at Convergence 11 #6');
 do_photo('c117','2005','tMitG live at Convergence 11 #7');
 ?>
 </ul>
-<ul class="2005">
+<ul role="list" class="2005">
 <?php
 do_photo('summer1sp','2005','Summer photo session for Shadow Puppets #1');
 do_photo('summer2sp','2005','Summer photo session for Shadow Puppets #2');
@@ -189,7 +189,7 @@ do_photo('summer4sp','2005','Summer photo session for Shadow Puppets #4');
 do_photo('summer8sp','2005','Summer photo session for Shadow Puppets #5');
 ?>
 </ul>
-<ul class="2005">
+<ul role="list" class="2005">
 <?php
 do_photo('roger2sp','2005','Roger photo session for Shadow Puppets #1');
 do_photo('roger3sp','2005','Roger photo session for Shadow Puppets #2');
@@ -202,7 +202,7 @@ do_photo('roger10sp','2005','Roger photo session for Shadow Puppets #5');
 
 <section>
 <h2>2002</h2>
-<ul class="2002">
+<ul role="list" class="2002">
 <?php
 do_photo('summercala','2002');
 do_photo('summerlily','2002');
@@ -212,7 +212,7 @@ do_photo('rogermum','2002');
 do_photo('rogerpurple','2002');
 ?>
 </ul>
-<ul class="2002">
+<ul role="list" class="2002">
 <?php
 do_photo('gc05','2002');
 do_photo('gc06','2002');
@@ -224,7 +224,7 @@ do_photo('gc11','2002');
 
 <section>
 <h2>2001</h2>
-<ul class="2001">
+<ul role="list" class="2001">
 <?php
 do_photo('4march10','2001');
 do_photo('4march12','2001');
@@ -236,7 +236,7 @@ do_photo('4march2','2001');
 do_photo('4march29','2001');
 ?>
 </ul>
-<ul class="2001">
+<ul role="list" class="2001">
 <?php
 do_photo('tmitgla1','2001');
 do_photo('rogla1','2001');
@@ -251,7 +251,7 @@ do_photo('drusummerla3','2001');
 
 <section>
 <h2>2000</h2>
-<ul class="2000">
+<ul role="list" class="2000">
 <?php
 do_photo('summer2','2000');
 do_photo('summer3','2000');
@@ -263,7 +263,7 @@ do_photo('roger6','2000');
 do_photo('roger9','2000');
 ?>
 </ul>
-<ul class="2000">
+<ul role="list" class="2000">
 <?php
 do_photo('denton1','2000');
 do_photo('denton3','2000');
@@ -271,7 +271,7 @@ do_photo('denton4','2000');
 do_photo('denton5','2000');
 ?>
 </ul>
-<ul class="2000">
+<ul role="list" class="2000">
 <?php
 do_photo('video1','2000');
 do_photo('video2','2000');
@@ -284,7 +284,7 @@ do_photo('video5','2000');
 
 <section>
 <h2>1999</h2>
-<ul class="1999">
+<ul role="list" class="1999">
 <?php
 do_photo('dgtMitG3','1999');
 do_photo('dgtMitG1','1999');
@@ -296,7 +296,7 @@ do_photo('dgtMitG5','1999');
 
 <section>
 <h2>1997</h2>
-<ul class="1997">
+<ul role="list" class="1997">
 <?php
 do_photo('UWportrait','1997');
 do_photo('area39','1997');
@@ -307,7 +307,7 @@ do_photo('tMitGsf3a','1997');
 
 <section>
 <h2>1996</h2>
-<ul class="1996">
+<ul role="list" class="1996">
 <?php
 do_photo('anricat3','1996');
 do_photo('anricat1','1996');
@@ -317,7 +317,7 @@ do_photo('anricat1','1996');
 
 <section>
 <h2>1995</h2>
-<ul class="1995">
+<ul role="list" class="1995">
 <?php
 do_photo('thistle06','1995');
 do_photo('thistle31','1995');
@@ -328,7 +328,7 @@ do_photo('rog15','1995');
 
 <section>
 <h2>1994</h2>
-<ul class="1994">
+<ul role="list" class="1994">
 <?php
 do_photo('roglive1','1994');
 do_photo('roglive3','1994');
@@ -338,7 +338,7 @@ do_photo('roglive3','1994');
 
 <section>
 <h2>1993</h2>
-<ul class="1993">
+<ul role="list" class="1993">
 <?php
 do_photo('rog1','1993');
 do_photo('rog2','1993');
@@ -348,7 +348,7 @@ do_photo('rog2','1993');
 
 <section>
 <h2>1992</h2>
-<ul class="1992">
+<ul role="list" class="1992">
 <?php
 do_photo('tmitgpic2','1992');
 do_photo('tmitgpic3','1992');
@@ -358,7 +358,7 @@ do_photo('tmitgpic3','1992');
 
 <section>
 <h2>Photo credits:</h2>
-<ul class="credits">
+<ul role="list" class="credits">
 	<li>1992: <i>Veils and Shadows EP</i> promo photos - Roland Raquet</li>
 	<li>1993: <i>Veils and Shadows EP</i> promo photos - Cinimin</li>
 	<li>1994: live in Louisville, KY - Tig</li>

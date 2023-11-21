@@ -16,9 +16,6 @@ window.onload = externalLinks;
 
 
 jQuery(document).ready(function() {
-	// replace no-js on <html> with has-js
-	jQuery("html").removeClass('no-js').addClass('has-js');
-
 	// add current class to discography subnav
 	var pathname = window.location.pathname;
 	switch (pathname) {

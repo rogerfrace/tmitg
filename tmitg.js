@@ -20,40 +20,31 @@ jQuery(document).ready(function() {
 	var pathname = window.location.pathname;
 	switch (pathname) {
 		case '/vs.php':
-			jQuery("ul.subnav a[href='vs.php'] img").addClass('current');
-			jQuery("ul.subnav a[href='vs.php']").attr('aria-current','page');
+			jQuery("ul.subnav a[href='vs.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/underworld.php':
-			jQuery("ul.subnav a[href='underworld.php'] img").addClass('current');
-			jQuery("ul.subnav a[href='underworld.php']").attr('aria-current','page');
+			jQuery("ul.subnav a[href='underworld.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/winters.php':
-			jQuery("ul.subnav a[href='winters.php'] img").addClass('current');
-			jQuery("ul.subnav a[href='winters.php']").attr('aria-current','page');
+			jQuery("ul.subnav a[href='winters.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/mists.php':
-			jQuery("ul.subnav a[href='mists.php'] img").addClass('current');
-			jQuery("ul.subnav a[href='mists.php']").attr('aria-current','page');
+			jQuery("ul.subnav a[href='mists.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/asphodel.php':
-			jQuery("ul.subnav a[href='asphodel.php'] img").addClass('current');
-			jQuery("ul.subnav a[href='asphodel.php']").attr('aria-current','page');
+			jQuery("ul.subnav a[href='asphodel.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/shadowpuppets.php':
-			jQuery("ul.subnav a[href='shadowpuppets.php'] img").addClass('current');
-			jQuery("ul.subnav a[href='shadowpuppets.php']").attr('aria-current','page');
+			jQuery("ul.subnav a[href='shadowpuppets.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/xv.php':
-			jQuery("ul.subnav a[href='xv.php'] img").addClass('current');
-			jQuery("ul.subnav a[href='xv.php']").attr('aria-current','page');
+			jQuery("ul.subnav a[href='xv.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/storm.php':
-			jQuery("ul.subnav a[href='storm.php'] img").addClass('current');
-			jQuery("ul.subnav a[href='storm.php']").attr('aria-current','page');
+			jQuery("ul.subnav a[href='storm.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/places.php':
-			jQuery("ul.subnav a[href='places.php'] img").addClass('current');
-			jQuery("ul.subnav a[href='places.php']").attr('aria-current','page');
+			jQuery("ul.subnav a[href='places.php']").attr('aria-current','page').addClass('current');
 		break;
 	// and main nav
 		case '/':

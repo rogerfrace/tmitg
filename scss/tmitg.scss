@@ -842,7 +842,7 @@ a.atcss:hover {
         border: 2px solid $altclr;
     }
 
-    a img.current,
+    a.current img,
     a:hover img.current {
         border: 2px solid $ltgray;
     }

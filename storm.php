@@ -164,7 +164,6 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<div class="goog-trans-section">
 <blockquote cite="http://www.soundsbehindthecorner.org/recensione.asp?id=254" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review" lang="it">
 <meta itemprop="inLanguage" content="it-IT">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
@@ -184,7 +183,6 @@ $lyricsfile and videoname do not include .html
 <p>-<span itemprop="author">Phaeton</span>, <a href="http://www.soundsbehindthecorner.org/recensione.asp?id=254" target="_blank"><span itemprop="publication">Sounds Behind The Corner</span></a></p>
 <meta itemprop="datePublished" content="2011-07-29">
 </blockquote>
-</div>
 
 <hr style="width:50%;" />
 
@@ -222,7 +220,6 @@ $lyricsfile and videoname do not include .html
 
 <hr style="width:50%;" />
 
-<div class="goog-trans-section">
 <blockquote cite="http://www.darkroom-magazine.it/ita/103/Recensione.php?r=2188" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review" lang="it">
 <meta itemprop="inLanguage" content="it-IT">
 <meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
@@ -233,10 +230,9 @@ $lyricsfile and videoname do not include .html
 	<meta itemprop="worstRating" content="1">
 	Rating: <span itemprop="ratingValue">7.5</span><meta itemprop="bestRating" content="10"></div>
 </div>
-<p>-<span itemprop="author">Roberto Alessandro Filippozzi</span>, <a href="http://www.darkroom-magazine.it/ita/103/Recensione.php?r=2188" target="_blank"><span itemprop="publication">Darkroom Magazine</span></a></p>
+<p>-<span itemprop="author">Roberto Alessandro Filippozzi</span>, <a href="http://www.darkroom-magazine.it/ita/103/Recensione.php?r=2188" hreflang="it-IT" target="_blank"><span itemprop="publication">Darkroom Magazine</span></a></p>
 <meta itemprop="datePublished" content="2011-09-28">
 </blockquote>
-</div>
 
 <hr style="width:50%;" />
 

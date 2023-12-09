@@ -184,7 +184,6 @@ $lyricsfile and videoname do not include .html
 <p>-<span itemprop="author">Phaeton</span>, <a href="http://www.soundsbehindthecorner.org/recensione.asp?id=254" target="_blank"><span itemprop="publication">Sounds Behind The Corner</span></a></p>
 <meta itemprop="datePublished" content="2011-07-29">
 </blockquote>
-	<div class="goog-trans-control"></div>
 </div>
 
 <hr style="width:50%;" />
@@ -237,7 +236,6 @@ $lyricsfile and videoname do not include .html
 <p>-<span itemprop="author">Roberto Alessandro Filippozzi</span>, <a href="http://www.darkroom-magazine.it/ita/103/Recensione.php?r=2188" target="_blank"><span itemprop="publication">Darkroom Magazine</span></a></p>
 <meta itemprop="datePublished" content="2011-09-28">
 </blockquote>
-	<div class="goog-trans-control"></div>
 </div>
 
 <hr style="width:50%;" />
@@ -264,21 +262,6 @@ $lyricsfile and videoname do not include .html
 
 </main> <!-- /mainbody -->
 <?php include_once "includes/amazonfooter.inc.php"; ?>
-
-<!-- google translate widget -->
-<?php if (!stristr($_SERVER['HTTP_USER_AGENT'],"Googlebot")): ?>
-<script type="text/javascript">
-function googleSectionalElementInit() {
-  new google.translate.SectionalElement({
-    sectionalNodeClassName: 'goog-trans-section',
-    controlNodeClassName: 'goog-trans-control',
-    background: '#ffffff'
-  }, 'google_sectional_element');
-}
-</script>
-<script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleSectionalElementInit&amp;ug=section&amp;hl=en"></script>
-<?php endif; ?>
-<!-- /google translate -->
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

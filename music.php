@@ -302,6 +302,7 @@
 				<p><?php do_video("control-vid","Control"); ?></p>
 				<p><?php do_video("miserere-fan","Miserere Mei (Fan Video)"); ?></p>
 				<p><?php do_video("miserere-fan2","Miserere Mei (Fan Video)"); ?></p>
+				<p><?php do_video("miserere-fan3","Miserere Mei (Fan Video)"); ?></p>
 				<p><?php do_video("sleepofangels","The Sleep of Angels (live)"); ?></p>
 				<p><?php do_video("sleepofangels-fan","The Sleep of Angels (Fan Video)"); ?></p>
 			</div>	

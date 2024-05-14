@@ -40,6 +40,11 @@ if (!empty($_GET['yt'])){
 			$sdesc="An alternate &quot;Miserere Mei&quot; from the tragic anime, Elfen Lied. The song is from their album &quot;One Winter&#039;s Night&hellip;&quot; and also the &quot;Sex, Death, &amp; Eyeliner&quot; original soundtrack.";
 			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/ZPQx9-y0tsc?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
+		case "miserere-fan3":
+			$stitle="&ldquo;Miserere Mei&rdquo; (Fan Video)";
+			$sdesc="An alternate &quot;Miserere Mei&quot; from the anime, Black Cat. The song is from their album &quot;One Winter&#039;s Night&hellip;&quot;.";
+			$siframe='<iframe width="480" height="360" src="https://www.youtube.com/embed/VN2kJj5T7js?si=71EzQBiMXIXnRS_r" frameborder="0" allowfullscreen></iframe>';
+			break;
 		case "sleepofangels":
 			$stitle="&ldquo;The Sleep of Angels&rdquo; (Live 2004)";
 			$sdesc="Filmed at Elysium in Austin, TX on August 30, 2004.";

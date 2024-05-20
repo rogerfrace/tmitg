@@ -7,13 +7,7 @@
 	<meta name="description" content="the Machine in the Garden upcoming live shows and list of past shows.">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-table-headers/0.1.24/js/jquery.stickytableheaders.min.js" integrity="sha512-Y4nnCsylqqK1jfmGLzXdbp1f8bp/FRHUUw1DH5nQU4FZjqkZcm0jshuOjDmmcU2iE0+uhm7bTXAHGeTi1yxfeQ==" crossorigin="anonymous"></script>  <script>
-	jQuery(document).ready(function() {
-		$('table#liveTable').stickyTableHeaders();
-	});
-	</script>
-
-	<link rel="stylesheet" type="text/css" href="tmitg.css">
+    <link rel="stylesheet" type="text/css" href="tmitg.css">
 	<?php include_once "googletracking.html"; ?>
 </head>
 
@@ -48,21 +42,18 @@
 <section>
 <h1>Past Live Performances:</h1>
 
-<!-- google map stuff -->
-<!--<div id="map_canvas" style="width: 100%; height: 300px" role="presentation" aria-hidden="true"></div>-->
-<!-- end google map -->
-
-<div class="tblwrap">
+<div id="tblwrap">
 <!-- paste below here -->
 <table id="liveTable">
   <caption class="wai">tMitG Shows List:</caption>
+<colgroup>
   <col class="col1">
   <col class="col2">
   <col class="col3">
   <col class="col4">
   <col class="col5">
   <col class="col6">
-
+</colgroup>
 <thead>
  <tr>
   <th class="header" scope="col">date</th>
@@ -76,7 +67,7 @@
 
 <tbody>
   <tr>
-  <th scope="row">November 30, 2013</th>
+  <th scope="row"><time datetime="2013-11-30">November 30, 2013</time></th>
   <td>Austin, TX</td>
   <td>Elysium</td>
   <td>Ego Likeness, Servitor, XBRMNT</td>
@@ -85,7 +76,7 @@
  </tr>
 
   <tr>
-  <th scope="row">March 1, 2008</th>
+  <th scope="row"><time datetime="2008-03-01">March 1, 2008</time></th>
   <td>Austin, TX</td>
   <td>Secret Oktober</td>
   <td>Mirabilis</td>
@@ -94,7 +85,7 @@
  </tr>
 
   <tr>
-  <th scope="row">August 19, 2007</th>
+  <th scope="row"><time datetime="2007-08-19">August 19, 2007</time></th>
   <td>Austin, TX</td>
   <td>Red Eyed Fly</td>
   <td>Sunshine Helicopters, Esther LaVonne Band, Gobi</td>
@@ -103,7 +94,7 @@
  </tr>
 
   <tr>
-  <th scope="row">February 9, 2007</th>
+  <th scope="row"><time datetime="2007-02-09">February 9, 2007</time></th>
   <td>Austin, TX</td>
   <td>Elysium</td>
   <td>&nbsp;</td>
@@ -112,7 +103,7 @@
  </tr>
 
  <tr>
-  <th scope="row">November 24, 2006</th>
+  <th scope="row"><time datetime="2006-11-24">November 24, 2006</time></th>
   <td>Austin, TX</td>
   <td>Elysium</td>
   <td>Attrition, High Blue Star, subNatural</td>
@@ -121,7 +112,7 @@
  </tr>
 
  <tr>
-  <th scope="row">June 30, 2006</th>
+  <th scope="row"><time datetime="2006-06-30">June 30, 2006</time></th>
   <td>Austin, TX</td>
   <td>Elysium</td>
   <td>Voltaire, The Brobdingnagian Bards</td>
@@ -129,7 +120,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">March 18, 2006</th>
+  <th scope="row"><time datetime="2006-03-18">March 18, 2006</time></th>
   <td>Houston, TX</td>
   <td>HaVoK @ Club Middle Earth</td>
   <td>The Birthday Massacre, Since the Ashes</td>
@@ -137,7 +128,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">September 17, 2005</th>
+  <th scope="row"><time datetime="2005-09-17">September 17, 2005</time></th>
   <td>Charlottesville, VA</td>
   <td>The Dawning @ The Outback Lodge</td>
   <td>Heaven Falls Hard</td>
@@ -145,7 +136,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">September 16, 2005</th>
+  <th scope="row"><time datetime="2005-09-16">September 16, 2005</time></th>
   <td>Louisville, KY</td>
   <td>Main Street Lounge</td>
   <td>&nbsp;</td>
@@ -153,7 +144,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">September 15, 2005</th>
+  <th scope="row"><time datetime="2005-09-15">September 15, 2005</time></th>
   <td>Nashville, TN</td>
   <td>Hair of the Dog</td>
   <td>The Last Dance, Simple Shelter</td>
@@ -161,7 +152,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">September 13, 2005</th>
+  <th scope="row"><time datetime="2005-09-13">September 13, 2005</time></th>
   <td>Champaign, IL</td>
   <td>Subversion @ The Highdive</td>
   <td>&nbsp;</td>
@@ -169,7 +160,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">August 20, 2005</th>
+  <th scope="row"><time datetime="2005-08-20">August 20, 2005</time></th>
   <td>Austin, TX</td>
   <td>End of an Ear</td>
   <td>&nbsp;</td>
@@ -177,7 +168,7 @@
   <td>a semi-acoustic in-store performance</td>
  </tr>
  <tr>
-  <th scope="row">June 12, 2005</th>
+  <th scope="row"><time datetime="2005-06-12">June 12, 2005</time></th>
   <td>Houston, TX</td>
   <td>HaVoK</td>
   <td>Asmodeus X</td>
@@ -185,7 +176,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">May 20, 2005</th>
+  <th scope="row"><time datetime="2005-05-20">May 20, 2005</time></th>
   <td>Dallas, TX</td>
   <td>The Cavern</td>
   <td>Bloodwire, Hungry Lucy</td>
@@ -193,7 +184,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">May 6, 2005</th>
+  <th scope="row"><time datetime="2005-05-06">May 6, 2005</time></th>
   <td>Austin, TX</td>
   <td>Elysium</td>
   <td>Hollow, Jasmine Reign</td>
@@ -201,7 +192,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">April 23, 2005</th>
+  <th scope="row"><time datetime="2005-04-23">April 23, 2005</time></th>
   <td>San Diego, CA</td>
   <td>Convergence 11 @ 4th &amp; B</td>
   <td>&nbsp;</td>
@@ -209,7 +200,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">August 30, 2004</th>
+  <th scope="row"><time datetime="2004-08-30">August 30, 2004</time></th>
   <td>Austin, TX</td>
   <td>Elysium</td>
   <td>Faith and the Muse, Hollow</td>
@@ -217,7 +208,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">May 6, 2004</th>
+  <th scope="row"><time datetime="2004-05-06">May 6, 2004</time></th>
   <td>Austin, TX</td>
   <td>Elysium</td>
   <td>&nbsp;</td>
@@ -225,7 +216,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">October 25, 2002</th>
+  <th scope="row"><time datetime="2002-10-25">October 25, 2002</time></th>
   <td>Austin, TX</td>
   <td>Elysium</td>
   <td>Lucid Dementia, CTRL</td>
@@ -233,7 +224,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">March 29, 2002</th>
+  <th scope="row"><time datetime="2002-03-29">March 29, 2002</time></th>
   <td>New Orleans, LA</td>
   <td>GothCon</td>
   <td>&nbsp;</td>
@@ -241,7 +232,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">November 10, 2001</th>
+  <th scope="row"><time datetime="2001-11-10">November 10, 2001</time></th>
   <td>Los Angeles, CA</td>
   <td>Bar Sinister</td>
   <td>&nbsp;</td>
@@ -249,7 +240,7 @@
   <td>Dru (Mirabilis, This Ascension, Falling You) performed the Mirabilis song "Tears" and sang back-up on "The Sleep of Angels."</td>
  </tr>
  <tr>
-  <th scope="row">October 13, 2001</th>
+  <th scope="row"><time datetime="2001-10-13">October 13, 2001</time></th>
   <td>New York, NY</td>
   <td>CMJ @ Downtime</td>
   <td>&nbsp;</td>
@@ -257,7 +248,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">April 14, 2001</th>
+  <th scope="row"><time datetime="2001-04-14">April 14, 2001</time></th>
   <td>San Francisco, CA</td>
   <td>Shrine of Lillith</td>
   <td>&nbsp;</td>
@@ -266,7 +257,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">April 13, 2001</th>
+  <th scope="row"><time datetime="2001-04-13">April 13, 2001</time></th>
   <td>Los Angeles, CA</td>
   <td>Antiquity@ The Gig</td>
   <td>&nbsp;</td>
@@ -274,7 +265,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">December 2, 2000</th>
+  <th scope="row"><time datetime="2000-12-02">December 2, 2000</time></th>
   <td>New York, NY</td>
   <td>Batcave @ Downtime</td>
   <td>&nbsp;</td>
@@ -282,7 +273,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">July 29, 2000</th>
+  <th scope="row"><time datetime="2000-07-29">July 29, 2000</time></th>
   <td>Denton, TX</td>
   <td>Rick's Place</td>
   <td>Faith and the Muse, Hollow Girl</td>
@@ -290,7 +281,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">July 18, 1999</th>
+  <th scope="row"><time datetime="1999-07-18">July 18, 1999</time></th>
   <td>New York, NY</td>
   <td>Mother</td>
   <td>Mors Syphilitica</td>
@@ -299,7 +290,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">July 17, 1999</th>
+  <th scope="row"><time datetime="1999-07-17">July 17, 1999</time></th>
   <td>Newark, NJ</td>
   <td>QXT</td>
   <td>&nbsp;</td>
@@ -308,7 +299,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">July 3, 1999</th>
+  <th scope="row"><time datetime="1999-07-03">July 3, 1999</time></th>
   <td>San Antonio, TX</td>
   <td>The Wild Club</td>
   <td>Nocturne, Paris By Night, Margot Day</td>
@@ -316,7 +307,7 @@
   <td>Midsummer Nyte Scream Tour</td>
  </tr>
  <tr>
-  <th scope="row">July 2, 1999</th>
+  <th scope="row"><time datetime="1999-07-02">July 2, 1999</time></th>
   <td>Austin, TX</td>
   <td>Atomic Caf&eacute;</td>
   <td>Nocturne, Paris By Night, Margot Day</td>
@@ -324,7 +315,7 @@
   <td>Midsummer Nyte Scream Tour</td>
  </tr>
  <tr>
-  <th scope="row">June 30, 1999</th>
+  <th scope="row"><time datetime="1999-06-30">June 30, 1999</time></th>
   <td>Dallas, TX</td>
   <td>Curtain Club</td>
   <td>Nocturne, Paris By Night, Margot Day</td>
@@ -332,7 +323,7 @@
   <td>Midsummer Nyte Scream Tour</td>
  </tr>
  <tr>
-  <th scope="row">June 27, 1999</th>
+  <th scope="row"><time datetime="1999-06-27">June 27, 1999</time></th>
   <td>Boulder, CO</td>
   <td>Millenium</td>
   <td>Nocturne, Paris By Night, Margot Day</td>
@@ -340,7 +331,7 @@
   <td>Midsummer Nyte Scream Tour</td>
  </tr>
  <tr>
-  <th scope="row">November 6, 1998</th>
+  <th scope="row"><time datetime="1998-11-06">November 6, 1998</time></th>
   <td>San Antonio, TX</td>
   <td>The Wild Club</td>
   <td>&nbsp;</td>
@@ -348,7 +339,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">May 12, 1998</th>
+  <th scope="row"><time datetime="1998-05-12">May 12, 1998</time></th>
   <td>Denver, CO</td>
   <td>7 South</td>
   <td>Babylonian Tiles</td>
@@ -356,7 +347,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">April 25, 1998</th>
+  <th scope="row"><time datetime="1998-04-25">April 25, 1998</time></th>
   <td>Denver, CO</td>
   <td>The Snakepit</td>
   <td>The Electric Hellfire Club</td>
@@ -364,7 +355,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">February 27, 1998</th>
+  <th scope="row"><time datetime="1998-02-27">February 27, 1998</time></th>
   <td>Englewood, CO</td>
   <td>Borders Books and Music</td>
   <td>&nbsp;</td>
@@ -373,7 +364,7 @@
   the exact date</td>
  </tr>
  <tr>
-  <th scope="row">October 14, 1997</th>
+  <th scope="row"><time datetime="1997-10-14">October 14, 1997</time></th>
   <td>Denver, CO</td>
   <td>Area 39</td>
   <td>Lycia</td>
@@ -381,7 +372,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">August 21, 1997</th>
+  <th scope="row"><time datetime="1997-08-21">August 21, 1997</time></th>
   <td>Boulder, CO</td>
   <td>Millenium</td>
   <td>Filmstrip, Generation Excuse, Skull Flux</td>
@@ -389,7 +380,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">August 15, 1997</th>
+  <th scope="row"><time datetime="1997-08-15">August 15, 1997</time></th>
   <td>Denver, CO</td>
   <td>7 South</td>
   <td>Autumn, Filmstrip</td>
@@ -398,7 +389,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">March 29, 1997</th>
+  <th scope="row"><time datetime="1997-03-29">March 29, 1997</time></th>
   <td>San Francisco, CA</td>
   <td>Sanctuary</td>
   <td>Healthy Morbidity</td>
@@ -406,7 +397,7 @@
   <td>Summer's first show with tMitG</td>
  </tr>
  <tr>
-  <th scope="row">June 2, 1996</th>
+  <th scope="row"><time datetime="1996-06-02">June 2, 1996</time></th>
   <td>Toronto, ON</td>
   <td>Savage Garden</td>
   <td>State of Grace</td>
@@ -414,7 +405,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">March 31, 1996</th>
+  <th scope="row"><time datetime="1996-03-31">March 31, 1996</time></th>
   <td>Albany, NY</td>
   <td>QE2</td>
   <td>&nbsp;</td>
@@ -422,7 +413,7 @@
   <td>post-thesis performance</td>
  </tr>
  <tr>
-  <th scope="row">November 19, 1995</th>
+  <th scope="row"><time datetime="1995-11-19">November 19, 1995</time></th>
   <td>Pittsburgh, PA</td>
   <td>WRCT Radio</td>
   <td>&nbsp;</td>
@@ -430,7 +421,7 @@
   <td>Live-in-Studio recording for a radio show</td>
  </tr>
  <tr>
-  <th scope="row">November 18, 1995</th>
+  <th scope="row"><time datetime="1995-11-18">November 18, 1995</time></th>
   <td>Pittsburgh, PA</td>
   <td>Bloomfield Bridge Tavern</td>
   <td>Apocalypse Theatre, Vampire Nation</td>
@@ -438,7 +429,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">October 28, 1995</th>
+  <th scope="row"><time datetime="1995-10-28">October 28, 1995</time></th>
   <td>Troy, NY</td>
   <td>Mother's Wine Emporium, RPI</td>
   <td>&nbsp;</td>
@@ -446,7 +437,7 @@
   <td>acoustic set</td>
  </tr>
  <tr>
-  <th scope="row">July 2, 1995</th>
+  <th scope="row"><time datetime="1995-07-02">July 2, 1995</time></th>
   <td>Albany, NY</td>
   <td>QE2</td>
   <td>You Shriek, Spindle Shanks</td>
@@ -454,7 +445,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">June 23, 1995</th>
+  <th scope="row"><time datetime="1995-06-23">June 23, 1995</time></th>
   <td>Chicago, IL</td>
   <td>Convergence 1</td>
   <td>&nbsp;</td>
@@ -462,7 +453,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">September 8, 1994</th>
+  <th scope="row"><time datetime="1994-09-08">September 8, 1994</time></th>
   <td>Albany, NY</td>
   <td>QE2</td>
   <td>Clay People, Virus 23, Psycho Babes</td>
@@ -470,7 +461,7 @@
   <td>Dan Neet (of The Clay People) sang Pain and Dark Splintered Heart</td>
  </tr>
  <tr>
-  <th scope="row">August 9, 1994</th>
+  <th scope="row"><time datetime="1994-08-09">August 9, 1994</time></th>
   <td>Louisville, KY</td>
   <td>Louisville Gardens</td>
   <td>Liers in Wait, Electric Hellfire Club, Christian Death</td>
@@ -478,7 +469,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">February 25, 1994</th>
+  <th scope="row"><time datetime="1994-02-25">February 25, 1994</time></th>
   <td>Troy, NY</td>
   <td>RPI</td>
   <td>&nbsp;</td>
@@ -486,7 +477,7 @@
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <th scope="row">October 30, 1993</th>
+  <th scope="row"><time datetime="1993-10-30">October 30, 1993</time></th>
   <td>Bennington, VT</td>
   <td>&nbsp;</td>
   <td>&nbsp;</td>

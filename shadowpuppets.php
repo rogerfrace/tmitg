@@ -309,7 +309,7 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 		#reviews::before {content: "+ ";}
 		#reviews {background-color:#cccccc; padding:0.25em;}
 	</style>
-	<script type="text/javascript">
+	<script>
 	jQuery(".revcontent").hide();
 	jQuery("#reviews").click(function() {
 		jQuery(".revcontent").toggle("fast");

@@ -173,7 +173,7 @@
 </main> <!-- /mainbody -->
 
 <!-- append tracking -->
-<script type="text/javascript">
+<script>
 jQuery(document).ready(function() {
 	$("a[href^='http']").click(function(){
 		gtag('event','click',{'event_category':'outbound','event_label':this.href});

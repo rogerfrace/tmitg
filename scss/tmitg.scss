@@ -1292,6 +1292,7 @@ iframe#sb-player {
     #liveTable {
     	position: relative;
     	z-index: 1;
+    	border-collapse: separate;
         background-color: $white;
         width: 100%;
         border: 1px solid $black;

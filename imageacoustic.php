@@ -113,7 +113,7 @@ $lyricsfile and videoname do not include .html
 		#reviews::before {content: "+ ";}
 		#reviews {background-color:#cccccc; padding:0.25em;}
 	</style>
-	<script type="text/javascript">
+	<script>
 	jQuery(".revcontent").hide();
 	jQuery("#reviews").click(function() {
 		jQuery(".revcontent").toggle("fast");

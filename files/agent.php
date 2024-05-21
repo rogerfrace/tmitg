@@ -8,7 +8,7 @@
 <body>
 
 <p><b>javascript:</b><br>
-<script type="text/javascript" language="javascript" charset="utf-8">
+<script>
 	document.write("platform: "+navigator.platform+"<br>");
 	document.write("appname: "+navigator.appName+"<br>");
 	document.write("version: "+navigator.appVersion+"<br>");

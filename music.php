@@ -354,7 +354,7 @@
 </main>
 
 <!-- accordion/tabs javascript -->
-<script type="text/javascript">
+<script>
 $(document).ready(function() {
 	/* allow arrow usage in accordion */
 	$("#accordion").keydown(function(f) {

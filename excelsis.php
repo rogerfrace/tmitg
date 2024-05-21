@@ -71,7 +71,7 @@
 		
 <div id="discog_buynow" tabindex="-1">
 	<h2 class="wai">Buy links</h2>
-	<div><SCRIPT charset="utf-8" type="text/javascript" src="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822/US/themachininth-20/8001/3ee3ac6b-9900-4594-99b5-7f6e4102c0a8"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fthemachininth-20%2F8001%2F3ee3ac6b-9900-4594-99b5-7f6e4102c0a8&amp;Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT></div>
+	<div><SCRIPT charset="utf-8" src="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822/US/themachininth-20/8001/3ee3ac6b-9900-4594-99b5-7f6e4102c0a8"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fthemachininth-20%2F8001%2F3ee3ac6b-9900-4594-99b5-7f6e4102c0a8&amp;Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT></div>
 </div>
 
 </div>

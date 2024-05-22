@@ -1274,7 +1274,7 @@ iframe#sb-player {
 
 /* live page */
 #live {
-	#tblwrap {
+	.tblwrap {
 		width: 100%;
 		overflow-x: scroll;
 		
@@ -1290,9 +1290,6 @@ iframe#sb-player {
 		}
 	}
     #liveTable {
-    	position: relative;
-    	z-index: 1;
-    	border-collapse: separate;
         background-color: $white;
         width: 100%;
         border: 1px solid $black;
@@ -1326,15 +1323,10 @@ iframe#sb-player {
             text-align: left;
             background-color: $black;
             color: white;
-            th.header {
-            	position: sticky;
-				top: 0;
-				background-color: $black;
-				color: white;
-            }
         }
 
         tbody {
+
             th,
             td {
                 text-align: left;

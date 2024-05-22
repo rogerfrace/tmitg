@@ -7,7 +7,13 @@
 	<meta name="description" content="the Machine in the Garden upcoming live shows and list of past shows.">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
-    <link rel="stylesheet" type="text/css" href="tmitg.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-table-headers/0.1.24/js/jquery.stickytableheaders.min.js" integrity="sha512-Y4nnCsylqqK1jfmGLzXdbp1f8bp/FRHUUw1DH5nQU4FZjqkZcm0jshuOjDmmcU2iE0+uhm7bTXAHGeTi1yxfeQ==" crossorigin="anonymous"></script>  <script>
+	jQuery(document).ready(function() {
+		$('table#liveTable').stickyTableHeaders();
+	});
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="tmitg.css">
 	<?php include_once "googletracking.html"; ?>
 </head>
 
@@ -42,18 +48,21 @@
 <section>
 <h1>Past Live Performances:</h1>
 
-<div id="tblwrap">
+<!-- google map stuff -->
+<!--<div id="map_canvas" style="width: 100%; height: 300px" role="presentation" aria-hidden="true"></div>-->
+<!-- end google map -->
+
+<div class="tblwrap">
 <!-- paste below here -->
 <table id="liveTable">
   <caption class="wai">tMitG Shows List:</caption>
-<colgroup>
   <col class="col1">
   <col class="col2">
   <col class="col3">
   <col class="col4">
   <col class="col5">
   <col class="col6">
-</colgroup>
+
 <thead>
  <tr>
   <th class="header" scope="col">date</th>

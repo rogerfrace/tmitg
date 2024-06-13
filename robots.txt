@@ -1,5 +1,5 @@
 User-Agent: *
-Sitemap: http://www.tmitg.com/sitemap.xml
+Sitemap: https://www.tmitg.com/sitemap.xml
 Disallow: /cgi-bin/
 Disallow: /roger/
 Disallow: /files/

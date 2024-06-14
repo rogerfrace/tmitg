@@ -50,7 +50,7 @@
 
 <h1 class="wai">the Machine in the Garden merchandise</h1>
 
-<section>
+<section aria-label="Where to Buy">
 <p>Physical products are sold through <a rel="noopener external" href="https://tmitg.bandcamp.com/merch">Bandcamp</a>.</p>
 
 <p><a rel="noopener external" href="https://music.apple.com/us/artist/the-machine-in-the-garden/5985533?itsct=music_box&itscg=30200&at=1000l35Bw&ls=1&app=music">Listen on Apple Music</a></p>
@@ -160,6 +160,16 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="634479658679" />
+		<div property="hasMerchantReturnPolicy" typeof="MerchantReturnPolicy">
+			<meta property="merchantReturnLink" content="https://www.tmitg.com/policy.php" />
+		</div>
+		<div property="shippingDetails" typeof="OfferShippingDetails">
+			<meta property="shippingSettingsLink" content="https://www.tmitg.com/policy.php" />
+			<div property="shippingOrigin" typeof="DefinedRegion">
+				<meta property="addressCountry" content="USA" />
+				<meta property="addressRegion" content="Texas" />
+			</div>
+		</div>
 		<a class="atcss" href="https://tmitg.bandcamp.com/album/xv" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: XV</span></a>
 	</div>
 </div>
@@ -182,6 +192,16 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="685879997523" />
+		<div property="hasMerchantReturnPolicy" typeof="MerchantReturnPolicy">
+			<meta property="merchantReturnLink" content="https://www.tmitg.com/policy.php" />
+		</div>
+		<div property="shippingDetails" typeof="OfferShippingDetails">
+			<meta property="shippingSettingsLink" content="https://www.tmitg.com/policy.php" />
+			<div property="shippingOrigin" typeof="DefinedRegion">
+				<meta property="addressCountry" content="USA" />
+				<meta property="addressRegion" content="Texas" />
+			</div>
+		</div>
 		<a class="atcss" href="https://tmitg.bandcamp.com/album/shadow-puppets" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: Shadow Puppets</span></a>
 	</div>
 </div>
@@ -206,6 +226,16 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="685879998629" />
+		<div property="hasMerchantReturnPolicy" typeof="MerchantReturnPolicy">
+			<meta property="merchantReturnLink" content="https://www.tmitg.com/policy.php" />
+		</div>
+		<div property="shippingDetails" typeof="OfferShippingDetails">
+			<meta property="shippingSettingsLink" content="https://www.tmitg.com/policy.php" />
+			<div property="shippingOrigin" typeof="DefinedRegion">
+				<meta property="addressCountry" content="USA" />
+				<meta property="addressRegion" content="Texas" />
+			</div>
+		</div>
 		<a class="atcss" href="https://tmitg.bandcamp.com/album/asphodel" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: Asphodel</span></a>
 	</div>
 </div>
@@ -228,6 +258,16 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="685879999428" />
+		<div property="hasMerchantReturnPolicy" typeof="MerchantReturnPolicy">
+			<meta property="merchantReturnLink" content="https://www.tmitg.com/policy.php" />
+		</div>
+		<div property="shippingDetails" typeof="OfferShippingDetails">
+			<meta property="shippingSettingsLink" content="https://www.tmitg.com/policy.php" />
+			<div property="shippingOrigin" typeof="DefinedRegion">
+				<meta property="addressCountry" content="USA" />
+				<meta property="addressRegion" content="Texas" />
+			</div>
+		</div>
 		<a class="atcss" href="https://tmitg.bandcamp.com/album/out-of-the-mists" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: Out of the Mists</span></a>
 	</div>
 </div>
@@ -252,6 +292,16 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="685879999923" />
+		<div property="hasMerchantReturnPolicy" typeof="MerchantReturnPolicy">
+			<meta property="merchantReturnLink" content="https://www.tmitg.com/policy.php" />
+		</div>
+		<div property="shippingDetails" typeof="OfferShippingDetails">
+			<meta property="shippingSettingsLink" content="https://www.tmitg.com/policy.php" />
+			<div property="shippingOrigin" typeof="DefinedRegion">
+				<meta property="addressCountry" content="USA" />
+				<meta property="addressRegion" content="Texas" />
+			</div>
+		</div>
 		<a class="atcss" href="https://tmitg.bandcamp.com/album/one-winters-night" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: One Winter's Night&hellip;</span></a>
 	</div>
 </div>
@@ -299,6 +349,16 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="780444900226" />
+		<div property="hasMerchantReturnPolicy" typeof="MerchantReturnPolicy">
+			<meta property="merchantReturnLink" content="https://www.tmitg.com/policy.php" />
+		</div>
+		<div property="shippingDetails" typeof="OfferShippingDetails">
+			<meta property="shippingSettingsLink" content="https://www.tmitg.com/policy.php" />
+			<div property="shippingOrigin" typeof="DefinedRegion">
+				<meta property="addressCountry" content="USA" />
+				<meta property="addressRegion" content="Texas" />
+			</div>
+		</div>
 		<a class="atcss" href="https://tmitg.bandcamp.com/album/veils-and-shadows-ep" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: Veils and Shadows EP</span></a>
 	</div>
 </div>
@@ -328,6 +388,16 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
+		<div property="hasMerchantReturnPolicy" typeof="MerchantReturnPolicy">
+			<meta property="merchantReturnLink" content="https://www.tmitg.com/policy.php" />
+		</div>
+		<div property="shippingDetails" typeof="OfferShippingDetails">
+			<meta property="shippingSettingsLink" content="https://www.tmitg.com/policy.php" />
+			<div property="shippingOrigin" typeof="DefinedRegion">
+				<meta property="addressCountry" content="USA" />
+				<meta property="addressRegion" content="Texas" />
+			</div>
+		</div>
 		<a class="atcss" href="https://projektrecords.bandcamp.com/album/here-and-the-hereafter" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: Here and the Hereafter</span></a>
 	</div>
 </div>
@@ -351,6 +421,16 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="617026020723" />
+		<div property="hasMerchantReturnPolicy" typeof="MerchantReturnPolicy">
+			<meta property="merchantReturnLink" content="https://www.tmitg.com/policy.php" />
+		</div>
+		<div property="shippingDetails" typeof="OfferShippingDetails">
+			<meta property="shippingSettingsLink" content="https://www.tmitg.com/policy.php" />
+			<div property="shippingOrigin" typeof="DefinedRegion">
+				<meta property="addressCountry" content="USA" />
+				<meta property="addressRegion" content="Texas" />
+			</div>
+		</div>
 		<a class="atcss" href="https://mirabilis.bandcamp.com/album/sub-rosa" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: Sub Rosa</span></a>
 	</div>
 </div>
@@ -376,6 +456,16 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="617026020624" />
+		<div property="hasMerchantReturnPolicy" typeof="MerchantReturnPolicy">
+			<meta property="merchantReturnLink" content="https://www.tmitg.com/policy.php" />
+		</div>
+		<div property="shippingDetails" typeof="OfferShippingDetails">
+			<meta property="shippingSettingsLink" content="https://www.tmitg.com/policy.php" />
+			<div property="shippingOrigin" typeof="DefinedRegion">
+				<meta property="addressCountry" content="USA" />
+				<meta property="addressRegion" content="Texas" />
+			</div>
+		</div>
 		<a class="atcss" href="https://mirabilis.bandcamp.com/album/pleiades" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: Pleiades</span></a>
 	</div>
 </div>

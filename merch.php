@@ -103,6 +103,9 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="gtin12" content="195269018252" />
+		<div property="hasMerchantReturnPolicy" typeof="MerchantReturnPolicy">
+			<meta property="merchantReturnLink" content="https://www.tmitg.com/policy.php" />
+		</div>
 		<a class="atcss" href="https://tmitg.bandcamp.com/album/places-in-between" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: Places in Between</span></a>
 	</div>
 </div>

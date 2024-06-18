@@ -10,9 +10,11 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Lost in Side</h1> 
 
-<p><i>words by John McDonagh</i></p>
+<p><em>words by John McDonagh</em></p>
 
 <p>dreams of self in the darkening light<br>
 a lingering scent of eternal night<br>
@@ -34,5 +36,6 @@ there's nothing left of my emotion<br>
 a lost embrace within my mind<br>
 thoughts so bright my eyes go blind</p>
       
+</main>
 </body>
 </html>

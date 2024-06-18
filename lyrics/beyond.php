@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Beyond</h1>
 
 <p>Come in, we've been waiting</p>
@@ -50,5 +52,6 @@ I swim out beyond</p>
 
 Beyond&hellip;</p>
       
+</main>
 </body>
 </html>

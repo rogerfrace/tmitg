@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Image</h1>
 
 <p>it's time to step away<br>
@@ -27,5 +29,6 @@ this is what I choose to be</p>
 <p>a phantom exposed within<br>
 peels away the opposing power</p>
       
+</main>
 </body>
 </html>

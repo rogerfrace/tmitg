@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Scathefire</h1>
 
 <p>kindled within the waters<br>
@@ -42,5 +44,6 @@ in the thunder of heaven</p>
 <p><em>charioteer, sacrifice<br>
 two origins, two births</em></p>
 
+</main>
 </body>
 </html>

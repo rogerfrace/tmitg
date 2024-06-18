@@ -10,8 +10,10 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Twenty Shadows</h1>
-<p>words from <i>Richard II</i> by Shakespeare. adapted by Summer Bowman</p>
+<p><em>words from <u>Richard II</u> by Shakespeare. adapted by Summer Bowman</em></p>
 
 <p>each substance of grief, hath twenty shadows<br>
 which shows like grief itself, but is not so<br>
@@ -24,5 +26,6 @@ which for things true weeps though things imaginary<br>
 for sorrows' eye, glazed with blinding tears<br>
 divides one thing entire to many objects</p>
       
+</main>
 </body>
 </html>

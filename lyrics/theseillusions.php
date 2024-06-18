@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>These Illusions</h1>
 
 <p>in the shadows of the night<br>
@@ -51,5 +53,6 @@ far out of site<br>
 can't leave it now<br>
 the oceans flow inside</p>
       
+</main>
 </body>
 </html>

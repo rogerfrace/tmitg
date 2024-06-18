@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Control</h1>
 
 <p>walk through the door<br>
@@ -34,5 +36,6 @@ she will smother and encompass you<br>
 don't run away<br>
 you cannot hide</p>
       
+</main>
 </body>
 </html>

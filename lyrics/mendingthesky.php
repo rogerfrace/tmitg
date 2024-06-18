@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Mending the Sky</h1>
 
 <p>nvwa, nvwa<br>
@@ -37,5 +39,6 @@ blocking the flood<br>
 conquer our fear<br>
 as we live in peace</p>
 
+</main>
 </body>
 </html>

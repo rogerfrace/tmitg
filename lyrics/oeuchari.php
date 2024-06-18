@@ -10,9 +10,11 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1 lang="la">O Euchari</h1>
 
-<p><i>Words by Hildegard von Bingen</i></p>
+<p><em>Words by Hildegard von Bingen</em></p>
 
 <p lang="la">O Euchari,<br>
 in leta via ambulasti<br>
@@ -38,5 +40,6 @@ cum Verbum Dei te in igne columbe imbuit,<br>
 ubi tu quasi aurora illuminatus es,<br>
 et sic fundamentum ecclesie edificasti.</p>
       
+</main>
 </body>
 </html>

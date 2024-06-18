@@ -10,9 +10,11 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Dark Splintered Heart</h1><br>
 
-<p><i>inspired by the journal of Abbey Greenbaum</i></p>
+<p><em>inspired by the journal of Abbey Greenbaum</em></p>
 
 <p>my mouth opened by a scream<br>
 my body bound in chains<br>
@@ -58,5 +60,6 @@ of your deep dark splintered heart<br>
 i do what i know, i do what i should<br>
 dear god don't tear me apart</p> 
 
+</main>
 </body>
 </html>

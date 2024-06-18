@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Coventry Carol</h1>
 
 <p>Lully, Lullay, Thou little tiny Child,<br>
@@ -34,5 +36,6 @@ By, by, lully, lullay.</p>
 
 <p>By, by, lully, lullay.</p>
       
+</main>
 </body>
 </html>

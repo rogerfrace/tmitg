@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Nowhere</h1>
 
 <p>To come from nowhere<br>
@@ -17,5 +19,6 @@ A dream like the past<br>
 To know the difference<br>
 Now I find the time</p>
       
+</main>
 </body>
 </html>

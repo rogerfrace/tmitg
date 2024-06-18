@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Her Face</h1>
 
 <p>her will she drove them<br>
@@ -29,5 +31,6 @@ a thousand and more there<br>
 the blood and the glory<br>
 all for the sake of her beauty</p>
       
+</main>
 </body>
 </html>

@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1 lang="la">Miserere Mei</h1>
 
 <p lang="la">Miserere, miserere mei Deus<br>
@@ -19,5 +21,6 @@ Et secundum multitudinem<br>
 Miserationum tuarum<br>
 Dele iniquitatem meam</p>
       
+</main>
 </body>
 </html>

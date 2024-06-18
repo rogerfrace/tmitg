@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Time</h1> 
 
 <p>something that never happened<br>
@@ -23,5 +25,6 @@ never knowing their names<br>
 and inside my mind<br>
 the passing of time</p>
       
+</main>
 </body>
 </html>

@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Falling Into the Sea</h1>
 
 <p>that in realization<br>
@@ -30,5 +32,6 @@ in encompassing<br>
 love falling<br>
 into the sea</p>
       
+</main>
 </body>
 </html>

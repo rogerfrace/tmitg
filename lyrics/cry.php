@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Cry</h1>
 
 <p>I cry for the things you know<br>
@@ -25,5 +27,6 @@ places we will never go<br>
 feelings we won't encounter<br>
 lives we don't want to live</p>
       
+</main>
 </body>
 </html>

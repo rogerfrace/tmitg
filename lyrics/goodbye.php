@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Goodbye</h1>
 
 <p>Fly away<br>
@@ -32,5 +34,6 @@ And my body falls beneath the waves</p>
 To find another place<br>
 So goodbye&hellip;</p>
       
+</main>
 </body>
 </html>

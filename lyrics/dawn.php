@@ -10,9 +10,11 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Dawn</h1>
 
-<p><i>words by John Ford (1586-1639)</i></p>
+<p><em>words by John Ford (1586&endash;1639)</em></p>
 
 <p>fly hence, shadows, that do not keep<br>
 watchful sorrows charm'd in sleep!<br>
@@ -25,5 +27,6 @@ as they rather sigh than rest.<br>
 fly hence, shadows, that do not keep<br>
 watchful sorrow charm'd in sleep!</p>
       
+</main>
 </body>
 </html>

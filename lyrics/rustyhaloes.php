@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Rusty Haloes</h1>
 
 <p>cherubs with broken wings<br>
@@ -36,5 +38,6 @@ the silence fades away<br>
 their screams begin to ring<br>
 deafening the ashes</p>
       
+</main>
 </body>
 </html>

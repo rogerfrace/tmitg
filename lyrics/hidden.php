@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Hidden</h1>
 
 <p>can you hear them?<br>
@@ -21,6 +23,7 @@ they will know you</p>
 
 <p>can you hear them?</p>
       
+</main>
 </body>
 </html>
 

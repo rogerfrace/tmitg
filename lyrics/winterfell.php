@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Winter Fell</h1>
 
 <p>Waiting for my own fault<br>
@@ -37,5 +39,6 @@ A long continent to go<br>
 A vision of forests<br>
 I speak the words&hellip;of wisdom</p>
       
+</main>
 </body>
 </html>

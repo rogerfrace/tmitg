@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Open</h1>
 
 <p>I am a million hues of shade<br>
@@ -27,5 +29,6 @@ suspending time<br>
 these things within the weary <br>
 to drown within me</p>
       
+</main>
 </body>
 </html>

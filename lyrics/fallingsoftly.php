@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Falling Softly</h1>
 
 <p>Softly&hellip;<br>
@@ -36,5 +38,6 @@ Of days dressed in white</p>
 
 <p>Softly&hellip;</p>
       
+</main>
 </body>
 </html>

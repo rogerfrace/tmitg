@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Christianne is Dead</h1>
 
 <p>the end comes close and the falling rain<br>
@@ -37,5 +39,6 @@ like tears driving hard on her skin<br>
 water burns like fire, crying she came<br>
 there is no future only pain</p>
       
+</main>
 </body>
 </html>

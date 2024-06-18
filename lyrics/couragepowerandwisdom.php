@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Courage, Power, and Wisdom</h1>
 
 <p>Hey, listen!</p>
@@ -61,5 +63,6 @@ To aid me, to unlock my destiny<br>
 And call forth<br>
 The hero within me</p>
       
+</main>
 </body>
 </html>

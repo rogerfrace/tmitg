@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>A Thousand Years of War</h1>
 
 <p>(Churning the sea of milk…)</p>
@@ -30,5 +32,6 @@ Even now<br>
 Even now<br>
 (Don't fall away)</p>
       
+</main>
 </body>
 </html>

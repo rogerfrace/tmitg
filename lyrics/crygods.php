@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>CryGods</h1>
 
 <p>the gods are crying and the clouds are blowing overhead<br>
@@ -22,5 +24,6 @@ the woman underneath her heart as black as sin<br>
 no way to understand the feelings she has found<br>
 no way to break the feelings to which she is bound</p>
       
+</main>
 </body>
 </html>

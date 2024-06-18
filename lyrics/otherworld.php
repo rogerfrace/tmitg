@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Otherworld</h1>
 
 <p>in the sunlight<br>
@@ -50,5 +52,6 @@ on the other side of time</p>
 safely beyond the horizon<br>
 on the other side of life</p>
       
+</main>
 </body>
 </html>

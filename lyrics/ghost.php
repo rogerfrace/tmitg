@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Ghost</h1>
 
 <p>do you see the brightness of the earth?<br>
@@ -38,5 +40,6 @@ taking me close to the end of space<br>
 can you feel me?<br>
 feel me</p>
       
+</main>
 </body>
 </html>

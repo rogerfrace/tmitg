@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>If Ever</h1>
 
 <p>If ever we could bind it up<br>
@@ -37,5 +39,6 @@ And grasp the lies within<br>
 Wouldn't make it all right<br>
 To deny all the things we have done</p>
       
+</main>
 </body>
 </html>

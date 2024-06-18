@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1 lang="la">Ad Astra Per Aspera</h1>
 
 <p>We're so lost<br>
@@ -43,5 +45,6 @@ And dust we are</p>
 <p lang="la">Ad astra per aspera, <span lang="en">I will find you</span><br>
 Mors ultima linea rerum est</p>
       
+</main>
 </body>
 </html>

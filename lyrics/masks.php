@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Masks</h1>
 
 <p>we are lost into the fire<br>
@@ -41,5 +43,6 @@ find existence outside time</p>
 they won't love you<br>
 fading away</p>
       
+</main>
 </body>
 </html>

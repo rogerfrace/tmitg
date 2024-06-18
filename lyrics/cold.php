@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Cold</h1>
 
 <p>the beautiful have come<br>
@@ -35,5 +37,6 @@ the people gone home<br>
 I'm left cold in the darkness<br>
 left cold and all alone</p>
       
+</main>
 </body>
 </html>

@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Final Form</h1>
 
 <p>where sky greets fire<br>
@@ -38,5 +40,6 @@ into final form</p>
 thoughts stutter and slur<br>
 mind rambles on aimlessly</p>
       
+</main>
 </body>
 </html>

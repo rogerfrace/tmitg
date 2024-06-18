@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>One</h1>
 
 <p>Go wherever you are from<br>
@@ -32,5 +34,6 @@ Things are around you<br>
 Don't let that slip away<br>
 Why not hold on?</p>
       
+</main>
 </body>
 </html>

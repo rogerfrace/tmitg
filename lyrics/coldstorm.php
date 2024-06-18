@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Cold Storm</h1>
 
 <p>Water vapor rises around me<br>
@@ -52,5 +54,6 @@ I see their figures in the mist<br>
 A shadow in bands of light<br>
 And then their eyes close</p>
       
+</main>
 </body>
 </html>

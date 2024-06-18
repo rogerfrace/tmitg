@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Metallic</h1>
 
 <p>resonant and high<br>
@@ -40,5 +42,6 @@ future crash</em></p>
 approaching abstracted time<br>
 prospect of destiny hereafter</p>
 
+</main>
 </body>
 </html>

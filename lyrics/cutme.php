@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Cut Me</h1>
 
 <p>ocean waves glow<br>
@@ -39,5 +41,6 @@ glorious and white as stone (and alone)</p>
 <p>like falling stars<br>
 there's nothing that can hurt me</p>
       
+</main>
 </body>
 </html>

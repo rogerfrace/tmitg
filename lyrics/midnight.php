@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Midnight</h1>
 
 <p>glistening in the snow<br>
@@ -42,5 +44,6 @@ now has come<br>
 to put the world in motion<br>
 tonight it must be done</p>
       
+</main>
 </body>
 </html>

@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Prophetic Bird</h1>
 
 <p>Let me tell you of a time in the distant past<br>
@@ -51,5 +53,6 @@ Wings and feathers, in the ground, crushed</p>
 <p>Gamayun, won't you sing your tune?<br>
 Beautiful, prophetic bird</p>
       
+</main>
 </body>
 </html>

@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Resist</h1>
 
 <p>There are no signs in the sky tonight<br>
@@ -47,5 +49,6 @@ A time to fight back<br>
 Their roots are deep<br>
 Nevertheless, we will persist</p>
       
+</main>
 </body>
 </html>

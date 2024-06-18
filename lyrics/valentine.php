@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Valentine</h1>
 
 <p>softly music plays in mine ear<br>
@@ -32,5 +34,6 @@ if you love me not, ere i'll go<br>
 but place a kiss on my gentle hand<br>
 and with you always i will stand</p>
       
+</main>
 </body>
 </html>

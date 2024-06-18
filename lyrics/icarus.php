@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Icarus</h1>
 
 <p>it's out of my control<br>
@@ -27,5 +29,6 @@ fly above<br>
 take me away<br>
 far from here</p>
       
+</main>
 </body>
 </html>

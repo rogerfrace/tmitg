@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Primevil</h1>
 
 <p>reaching toward empyrean<br>
@@ -42,5 +44,6 @@ elusive faces turning white<br>
 descend from flurries in the clouds<br>
 the captives in the ground</p>
       
+</main>
 </body>
 </html>

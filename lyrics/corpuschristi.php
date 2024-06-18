@@ -10,9 +10,11 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Corpus Christi</h1> 
 
-<p><i>words by John McDonagh</i></p>
+<p><em>words by John McDonagh</em></p>
 
 <p>the night dragged by on the altar of repose<br>
 with something funereal about the white rose<br>
@@ -42,5 +44,6 @@ them from the memory of that rainy day</p>
 <p>if there's pain inside &mdash; love will die<br>
 if there's hate inside &mdash; love will die</p>
       
+</main>
 </body>
 </html>

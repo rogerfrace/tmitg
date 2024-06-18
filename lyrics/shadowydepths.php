@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Shadowy Depths</h1>
 
 <p>moonlight filters inward<br>
@@ -28,5 +30,6 @@ pushing you into darkness</p>
 <p>shadowy depths in dreams<br>
 shoving walls aside</p>
       
+</main>
 </body>
 </html>

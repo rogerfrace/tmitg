@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>This Silence</h1>
 
 <p>Deep in the nothing of my doubts<br>
@@ -37,5 +39,6 @@ For their travels in the dreams<br>
 The clocks are ticking down<br>
 Storm's travels taken all away</p>
       
+</main>
 </body>
 </html>

@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Mantra</h1>
 
 <p>No tongues speak the same<br>
@@ -27,5 +29,6 @@ My sounds don't correct your days<br>
 Our ears hear no thoughts<br>
 I hear no evil</p>
       
+</main>
 </body>
 </html>

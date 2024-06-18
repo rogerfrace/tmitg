@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Six Days</h1>
 
 <p>how can you find her there<br>
@@ -35,5 +37,6 @@ as the illusions fade away<br>
 and as the darkness falls<br>
 open her up and feel her pain</p>
       
+</main>
 </body>
 </html>

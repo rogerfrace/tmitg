@@ -10,9 +10,11 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Heavenly Air</h1> 
 
-<p><i>words by Aeschylus. adapted by Roger Frac&eacute;</i></p>
+<p><em>words by Aeschylus. adapted by Roger Frac&eacute;</em></p>
 
 <p>she broke away in the middle of her speech<br>
 and she flees from the light<br>
@@ -29,5 +31,6 @@ she embraces her offspring<br>
 and three times she erected herself<br>
 and three times she fell</p>
       
+</main>
 </body>
 </html>

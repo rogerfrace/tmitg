@@ -10,9 +10,11 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1 lang="la">Ex Oblivione</h1> 
 
-<p><i>inspired by the short story of the same name by H.P. Lovecraft</i></p>
+<p><em>inspired by the short story of the same name by H.P. Lovecraft</em></p>
 
 <p>these are my last days<br>
 my last dreams<br>
@@ -49,5 +51,6 @@ being with no one<br>
 these are my last days<br>
 my last dreams</p>
       
+</main>
 </body>
 </html>

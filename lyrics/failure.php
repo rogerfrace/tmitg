@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Failure</h1>
 
 <p>inventions are the figures of the mind<br>
@@ -41,5 +43,6 @@ a lot of nothing<br>
 in my brain<br>
 i think i am a failure</p>
       
+</main>
 </body>
 </html>

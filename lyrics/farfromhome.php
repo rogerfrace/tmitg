@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Far From Home</h1>
 
 <p>When she fair and lonely<br>
@@ -37,5 +39,6 @@ Raising her arms up high<br>
 Tears gleamed within her eyes<br>
 The rose into the sky</p>
       
+</main>
 </body>
 </html>

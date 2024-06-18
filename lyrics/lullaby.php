@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Lullaby</h1>
 
 <p>in quiet and rest<br>
@@ -28,5 +30,6 @@ gentle dreams<br>
 will brush against your thoughts<br>
 and love will soothe your soul</p>
       
+</main>
 </body>
 </html>

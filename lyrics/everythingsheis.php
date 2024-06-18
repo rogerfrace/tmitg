@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Every Thing She Is</h1>
 
 <p>night wonders are wilder<br>
@@ -50,5 +52,6 @@ she hurts<br>
 she cannot remember<br>
 she is never the same</p>
       
+</main>
 </body>
 </html>

@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>The Unaware</h1>
 
 <p>the other sun is burning<br>
@@ -27,5 +29,6 @@ this place and energy<br>
 the smooth motion<br>
 of the trees</p>
       
+</main>
 </body>
 </html>

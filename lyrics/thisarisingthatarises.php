@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>This Arising, That Arises</h1>
 
 <p><em>-part 1, vocal A-</em><br>
@@ -42,5 +44,6 @@ this arising, that arises<br>
 perpetuation of existence<br>
 arising only to cease</p>
       
+</main>
 </body>
 </html>

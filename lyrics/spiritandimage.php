@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Spirit and Image</h1>
 
 <p>Spending time flying standby<br>
@@ -45,5 +47,6 @@ This is what I choose to be<br>
 A phantom exposed within<br>
 Peels away opposing power</p>
       
+</main>
 </body>
 </html>

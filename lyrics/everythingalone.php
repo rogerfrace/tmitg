@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Everything Alone</h1>
 
 <p>she said that I could not have<br>
@@ -33,5 +35,6 @@ what things we take with us<br>
 to be alone with everything<br>
 is to be alone&hellip;</p>
       
+</main>
 </body>
 </html>

@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Echo</h1>
 
 <p>it seems strange<br>
@@ -34,5 +36,6 @@ I did this to myself<br>
 all around me<br>
 echo, it just echoes</p>
       
+</main>
 </body>
 </html>

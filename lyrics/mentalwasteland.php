@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Mental Wasteland</h1>
 
 <p>she's falling through the cracks<br>
@@ -41,5 +43,6 @@ actions are confounded<br>
 beaten, clawed and damaged<br>
 where do we go next?</p>
       
+</main>
 </body>
 </html>

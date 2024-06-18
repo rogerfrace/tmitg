@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Radiant</h1>
 
 <p>in my dreams<br>
@@ -37,5 +39,6 @@ that i peer into<br>
 cleanses my soul<br>
 and purifies me through</p>
       
+</main>
 </body>
 </html>

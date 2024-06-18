@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Illusions In Rain</h1>
 
 <p>Push the tender nights aside<br>
@@ -27,5 +29,6 @@ No explanation for me<br>
 How can we see<br>
 The illusions dance away</p>
       
+</main>
 </body>
 </html>

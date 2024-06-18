@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>The Sleep of Angels</h1>
 
 <p>the sleep of angels in your arms<br>
@@ -27,5 +29,6 @@ a view cascaded with its leaves<br>
 the dearest rose the prince of peace<br>
 petals floating in the evening breeze</p>
       
+</main>
 </body>
 </html>

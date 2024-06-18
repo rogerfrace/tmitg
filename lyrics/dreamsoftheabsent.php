@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Dreams of the Absent</h1>
 
 <p>ignorant human's grave in the domain of dreams<br>
@@ -36,5 +38,6 @@ when life clings to the weary frame<br>
 when binding disbelief takes hold<br>
 when i dissolve into the rain</p>
       
+</main>
 </body>
 </html>

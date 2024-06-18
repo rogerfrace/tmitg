@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>The Piano</h1>
 
 <p>on the darkened stage<br>
@@ -42,5 +44,6 @@ something more than truth<br>
 across the boards<br>
 where memories lie</p>
 
+</main>
 </body>
 </html>

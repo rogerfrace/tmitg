@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Windows of Their Eyes</h1>
 
 <p>see the petals<br>
@@ -32,5 +34,6 @@ stars fade<br>
 clouds covering<br>
 my sky</p>
       
+</main>
 </body>
 </html>

@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Wonderland</h1>
 
 <p>feel the water that falls down<br>
@@ -42,5 +44,6 @@ with no reason<br>
 how low we are again<br>
 gone with the seasons</p>
       
+</main>
 </body>
 </html>

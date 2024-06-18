@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Outside</h1>
 
 <p>will I ever be there?<br>
@@ -44,5 +46,6 @@ through to my senses</p>
 I'm on the outside<br>
 I feel so far away</p>
       
+</main>
 </body>
 </html>

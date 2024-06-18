@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>a Touch of Heaven</h1>
 
 <p>understand, can't you see<br>
@@ -31,5 +33,6 @@ can't you tell, all i need is a touch of heaven</p>
 want to touch the sky<br>
 need a touch of heaven right now</em></p>
 
+</main>
 </body>
 </html>

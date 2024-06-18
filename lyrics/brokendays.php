@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Broken Days</h1>
 
 <p>The days are broken<br>
@@ -27,5 +29,6 @@ Nights all the same<br>
 I’m afraid the past has spoken<br>
 You can’t turn away</p>
       
+</main>
 </body>
 </html>

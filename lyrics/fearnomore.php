@@ -10,9 +10,11 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Fear No More</h1> 
 
-<p><i>Words from <i>Cymbeline</i> by Shakespeare, adapted by Summer Bowman</i></p>
+<p><em>Words from <u>Cymbeline</u> by Shakespeare, adapted by Summer Bowman</em></p>
 
 <p>fear no more the heat 'o the sun<br>
 nor the furious winters rages<br>
@@ -37,5 +39,6 @@ nothing ill come near thee!</p>
 and renowned be thy grave!<br>
 thy grave&hellip;</p>
       
+</main>
 </body>
 </html>

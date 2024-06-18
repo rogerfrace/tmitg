@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Cimmerian</h1>
 
 <p>down<br>
@@ -59,5 +61,6 @@ pensive, musing and wise<br>
 distracted by the air and wind<br>
 the beauty of the light</p>
 
+</main>
 </body>
 </html>

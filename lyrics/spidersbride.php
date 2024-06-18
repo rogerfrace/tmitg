@@ -10,9 +10,11 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Spider's Bride</h1>
 
-<p><i>Words by Dan Neet and Roger Frac&eacute;</i></p>
+<p><em>Words by Dan Neet and Roger Frac&eacute;</em></p>
 
 <p>we are watching while you sleep<br>
 we are the nightmares in your dreams<br>
@@ -45,5 +47,6 @@ why'd you lie<br>
 don't deny it to yourself<br>
 this time</p>
       
+</main>
 </body>
 </html>

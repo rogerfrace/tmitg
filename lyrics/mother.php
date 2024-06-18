@@ -10,9 +10,11 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Mother</h1>
 
-<p><i>Words by Elaine Walker, &copy;1999 ZIA. Used with permission.</i></p>
+<p><em>Words by Elaine Walker, &copy;1999 ZIA. Used with permission.</em></p>
 
 <p>She's sick, in need<br>
 Life support, system failure<br>
@@ -30,5 +32,6 @@ Suffocation process must take effect</p>
 <p>No alternative, cannot abandon ship<br>
 We'll die with her, Mother</p>
       
+</main>
 </body>
 </html>

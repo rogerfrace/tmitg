@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Walls</h1>
 
 <p>walls towering overhead<br>
@@ -34,5 +36,6 @@ blackened walls cracked and condemned<br>
 pleading falling stars at night<br>
 dark stains on my heart tonight</p>
       
+</main>
 </body>
 </html>

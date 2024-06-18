@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Oh Dear</h1>
 
 <p>when the dreams have found you<br>
@@ -30,5 +32,6 @@ don't you worry so<br>
 i will guide you there<br>
 oh dear</p>
       
+</main>
 </body>
 </html>

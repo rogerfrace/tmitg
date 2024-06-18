@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>In the Vanir</h1>
 
 <p>wind and sea<br>
@@ -51,5 +53,6 @@ and the energy of past<br>
 I'm a warrior<br>
 reaching towards light</em></p>
 
+</main>
 </body>
 </html>

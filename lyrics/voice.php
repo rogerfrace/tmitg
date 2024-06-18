@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Voice</h1>
 
 <p>the voice of 30 unite in chords<br>
@@ -34,5 +36,6 @@ I am jealousy<br>
 I prey upon the lightness<br>
 I am misery</p>
       
+</main>
 </body>
 </html>

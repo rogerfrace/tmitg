@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Fade</h1>
 
 <p><span lang="la">be&aacute;tam me d&iacute;cent &oacute;mnes</span> (all shall call me blessed)</p>
@@ -24,5 +26,6 @@ and taste the warmth of a summer rain<br>
 in this swirl where memory exists<br>
 the stream flows away out of the mists</p>
       
+</main>
 </body>
 </html>

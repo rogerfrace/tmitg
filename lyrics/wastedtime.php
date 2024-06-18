@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Wasted Time</h1>
 
 <p>lost or stolen<br>
@@ -45,5 +47,6 @@ nothing, nothing no one, nothing<br>
 will take away the wasted time<br>
 we wasted time</p>
       
+</main>
 </body>
 </html>

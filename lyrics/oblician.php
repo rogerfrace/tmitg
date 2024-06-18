@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Oblician</h1>
 
 <p>moving into love and lies<br>
@@ -28,5 +30,6 @@ how do you feel?<br>
 how do you feel?<br>
 oblician</p>
       
+</main>
 </body>
 </html>

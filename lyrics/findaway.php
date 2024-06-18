@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Find a Way</h1>
 
 <p>Every deed is on us<br>
@@ -40,5 +42,6 @@ Find a way</p>
 <p>Float away<br>
 We'll find our way</p>
       
+</main>
 </body>
 </html>

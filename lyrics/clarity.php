@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Clarity</h1>
 
 <p>it's difficult to see where you're going<br>
@@ -27,5 +29,6 @@ it won't stop if you ask it to<br>
 you can't think it away<br>
 cleansed or confused</p>
       
+</main>
 </body>
 </html>

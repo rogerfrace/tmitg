@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>More Unto Fire Dreamt</h1>
 
 <p>Fly into the arms of the wind<br>
@@ -32,5 +34,6 @@ Coursed by a stream of light shining<br>
 Drawn by the sights of clouds<br>
 Night sky breathes into me</p>
       
+</main>
 </body>
 </html>

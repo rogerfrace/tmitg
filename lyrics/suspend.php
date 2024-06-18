@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Suspend</h1>
 
 <p>Trapped in time<br>
@@ -45,5 +47,6 @@ And I am real<br>
 And my heart longs<br>
 And I am</p>
       
+</main>
 </body>
 </html>

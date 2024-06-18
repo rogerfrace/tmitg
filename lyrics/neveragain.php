@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Never Again</h1>
 
 <p>as the daylight dims<br>
@@ -32,5 +34,6 @@ the truth finds me<br>
 moving against the darkness<br>
 never again</p>
       
+</main>
 </body>
 </html>

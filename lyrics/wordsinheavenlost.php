@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Words in Heaven Lost</h1>
 
 <p>sincerity in patience<br>
@@ -30,5 +32,6 @@ i'm solidifying nothing</p>
 <p>get out of this<br>
 thinking into fits</p>
       
+</main>
 </body>
 </html>

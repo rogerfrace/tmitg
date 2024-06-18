@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Seek</h1>
 
 <p>being within the outside<br>
@@ -33,5 +35,6 @@ do they think I can't<br>
 hear them whispering?<br>
 they stare at me</p>
       
+</main>
 </body>
 </html>

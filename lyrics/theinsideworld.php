@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>The Inside World</h1>
 
 <p>I have lost today<br>
@@ -57,5 +59,6 @@ They can't know my name<br>
 To see the power<br>
 I've already gained</p>
       
+</main>
 </body>
 </html>

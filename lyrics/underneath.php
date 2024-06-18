@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Underneath</h1>
 
 <p>We reach through history<br>
@@ -28,5 +30,6 @@ Than the one that I have come to know<br>
 There is some other way<br>
 Something else to show</p>
       
+</main>
 </body>
 </html>

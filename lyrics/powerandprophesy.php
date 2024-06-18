@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Power and Prophesy</h1>
 
 <p>glimmer of the metal below<br>
@@ -25,5 +27,6 @@ ownership of feelings lost<br>
 those we strike, hit harder<br>
 until we have no control</p>
 
+</main>
 </body>
 </html>

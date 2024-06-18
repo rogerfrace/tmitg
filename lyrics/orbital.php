@@ -10,6 +10,8 @@
 </head>
 <body id="lyrics">
 
+<main>
+
 <h1>Orbital</h1>
 
 <p>Look above<br>
@@ -37,5 +39,6 @@ We'll know<br>
 We alone<br>
 The cosmos far</p>
       
+</main>
 </body>
 </html>

@@ -14,7 +14,7 @@
 
 <h1>Dawn</h1>
 
-<p><em>words by John Ford (1586&endash;1639)</em></p>
+<p><em>words by John Ford (1586–1639)</em></p>
 
 <p>fly hence, shadows, that do not keep<br>
 watchful sorrows charm'd in sleep!<br>

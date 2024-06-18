@@ -10,14 +10,7 @@
 </head>
 <body id="lyrics">
 
-<main itemscope itemtype="https://schema.org/MusicComposition">
-
-<h1 itemprop="name">Words in Heaven Lost</h1>
-
-<section itemprop="lyrics">
-<div itemscope itemtype="https://schema.org/CreativeWork">
-<meta itemprop="inLanguage" content="en">
-<div itemprop="text">
+<h1>Words in Heaven Lost</h1>
 
 <p>sincerity in patience<br>
 words in heaven lost</p>
@@ -36,10 +29,6 @@ i'm solidifying nothing</p>
 
 <p>get out of this<br>
 thinking into fits</p>
-
-</div></div>
-</section>
-</main>
-   
+      
 </body>
 </html>

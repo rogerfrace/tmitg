@@ -26,8 +26,11 @@ if (isset($_GET["item"])) {
 	<meta name="description" content="<?=$mdescription;?>" />
 	<meta name="medium" content="news" />
 	<?php if (isset($titlenum)): ?>
-		<link rel="canonical" href="http://www.tmitg.com/news.php?item=<?=$titlenum;?>" />
-		<meta property="og:url" content="http://www.tmitg.com/news.php?item=<?=$titlenum;?>" />
+		<link rel="canonical" href="https://www.tmitg.com/news.php?item=<?=$titlenum;?>" />
+		<meta property="og:url" content="https://www.tmitg.com/news.php?item=<?=$titlenum;?>" />
+	<?php else: ?>
+		<link rel="canonical" href="https://www.tmitg.com/news.php" />
+		<meta property="og:url" content="https://www.tmitg.com/news.php" />
 	<?php endif; ?>
 	<meta property="og:type" content="<?=$mtype;?>" />
 	<meta property="og:title" content="<?=$mtitle;?>" />
@@ -37,8 +40,8 @@ if (isset($_GET["item"])) {
 	<meta property="fb:admins" content="1120445561,713632115" />
 	<?php // happy image thumbnail for FB
 		if ((isset($_GET["item"])) && (!stristr($description,"<img "))) {
-		print '<link rel="image_src" href="http://tmitg.com/photos/PiB-IMG_3840.jpg" />
-			   <meta property="og:image" content="http://tmitg.com/photos/PiB-IMG_3840.jpg" />';
+		print '<link rel="image_src" href="https://tmitg.com/photos/PiB-IMG_3840.jpg" />
+			   <meta property="og:image" content="https://tmitg.com/photos/PiB-IMG_3840.jpg" />';
 	} ?>
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@tmitg" />

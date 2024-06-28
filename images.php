@@ -298,9 +298,10 @@ do_photo('dgtMitG5','1999');
 <h2>1997</h2>
 <ul role="list" class="1997">
 <?php
-do_photo('UWportrait','1997');
-do_photo('area39','1997');
-do_photo('tMitGsf3a','1997');
+do_photo('UWportrait','1997 promo photo in Boulder Colorado');
+do_photo('area39','live in Denver 1997');
+do_photo('tMitGsf2','1997 promo photo in San Francisco California');
+do_photo('tMitGsf3a','live in San Francisco 1997');
 ?>
 </ul>
 </section>
@@ -364,7 +365,7 @@ do_photo('tmitgpic3','1992');
 	<li>1994: live in Louisville, KY - Tig</li>
 	<li>1995: live at Convergence I, Chicago, IL - E. Katie Holm; promo photo - William Scalia</li>
 	<li>1996: promo photos - Denise Rogers</li>
-	<li>1997: <i>Underworld</i> promo photo - Celine Donnelly; live in Denver, CO - Celine Donnelly; live in San Francisco, CA - Jessie Therriault</li>
+	<li>1997: <i>Underworld</i> promo photo - Celine Donnelly; live in Denver, CO - Celine Donnelly; promo photo and live in San Francisco, CA - Jessie Therriault</li>
 	<li>1999: promo photos - Donna Clancy-Goertz</li>
 	<li>2000: "The Unaware" video shoot behind the scenes - Donna Clancy-Goertz; live in Dallas, TX - Clancy-Goertz; <i>Out of the Mists</i> promo photos - Donna Clancy-Goertz</li>
 	<li>2001: live in Los Angeles, CA - Dru and Wayne; promo photos - Donna Clancy-Goertz</li>

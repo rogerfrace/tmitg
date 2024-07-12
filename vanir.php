@@ -100,6 +100,7 @@ $lyricsfile and videoname do not include .html
 <p>Admittedly it's just a two track digital sampler, but it's been a number of years since their last album so this teaser for the upcoming 2011 release from The Machine in the Garden has me quite excited. Tight electronic tones and slick production are readily evident on this track, and as always Summer Bowman's voice is in stunning form. If this track is any indication of what's to come then their new release can't get here soon enough for me.</p>
 </div>
 <p>-<span itemprop="author">Rik</span>, <a href="http://pingthings.blogspot.com/2011/01/top-ten-for-2010.html" target="_blank"><span itemprop="publication">Ping Things</span></a></p>
+<meta itemprop="datePublished" content="2011-01-01">
 </blockquote>
 
 	</div> <!-- /revcontent -->

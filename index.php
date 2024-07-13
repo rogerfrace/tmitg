@@ -55,7 +55,7 @@ require_once "functions.php";
 	<?php include_once "fontawesome.inc.php"; ?>
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 	<script src="tmitg.js"></script>
-	<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"MusicGroup","url":"https:\/\/www.tmitg.com\/","sameAs":["https:\/\/www.facebook.com\/tmitg","https:\/\/twitter.com\/tmitg","https:\/\/www.youtube.com\/tmitg"],"name":"the Machine in the Garden","foundingDate":"1992"}</script>
+	<script type="application/ld+json">{"@context": "https://schema.org","@type": "MusicGroup","@id": "https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0","name": "the Machine in the Garden","sameAs": ["https://www.tmitg.com", "https://tmitg.bandcamp.com", "https://www.facebook.com/tmitg", "https://x.com/tmitg", "https://www.youtube.com/tmitg"],"foundingDate": "1992","genre": ["Gothic", "Dark Wave"],"member": [{"@type": "OrganizationRole","member": {"@type": "Person","name": "Roger Fracé"},"startDate": "1992","roleName": ["synthesizer","guitar","bass guitar","vocals"]},{"@type": "OrganizationRole","member": {"@type": "Person","name": "Summer Bowman"},"startDate": "1997","roleName": ["lead vocals","synthesizer","dulcimer","flute"]}]}</script>
 	<?php include_once "googletracking.html"; ?>
 </head>
 

@@ -36,7 +36,7 @@
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
-	<meta itemprop="albumReleaseType" content="single">
+	<meta itemprop="albumReleaseType" content="SingleRelease">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="2">
 	<meta itemprop="byArtist" content="the Machine in the Garden" />

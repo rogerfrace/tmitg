@@ -471,6 +471,14 @@
   <td>Dan Neet (of The Clay People) sang Pain and Dark Splintered Heart</td>
  </tr>
  <tr>
+  <th scope="row"><time datetime="1994-08-30">August 30, 1994</time></th>
+  <td>Albany, NY</td>
+  <td>QE2</td>
+  <td>Course of Empire, Sister Machine Gun, Engines of Aggression</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
   <th scope="row"><time datetime="1994-08-09">August 9, 1994</time></th>
   <td>Louisville, KY</td>
   <td>Louisville Gardens</td>

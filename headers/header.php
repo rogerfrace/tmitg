@@ -11,9 +11,9 @@
 			<li><a href="/contact.php">Contact</a></li>
 			<li><a href="/links.php">Links</a></li>
 			<li><a href="/live.php">Live</a></li>
-			<li><span class="iblock"><a href="https://www.facebook.com/tmitg" title="tMitG on Facebook"><i class="fab fa-facebook"></i></a>
-			    <a href="https://twitter.com/tmitg" title="tMitG on Twitter"><i class="fab fa-twitter"></i></a>
-			    <a href="https://tmitg.bandcamp.com" title="tMitG on Bandcamp"><i class="fab fa-bandcamp"></i></a></span></li>
+			<li><span class="iblock"><a href="https://www.facebook.com/tmitg" title="tMitG on Facebook"><i class="fa-brands fa-facebook"></i></a>
+			    <a href="https://bsky.app/profile/tmitg.bsky.social" title="tMitG on Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+			    <a href="https://tmitg.bandcamp.com" title="tMitG on Bandcamp"><i class="fa-brands fa-bandcamp"></i></a></span></li>
 		</ul>
 	</nav>
 	<nav class="mobile" aria-label="Primary">
@@ -29,9 +29,9 @@
 			<a href="/contact.php">Contact</a>
 			<a href="/links.php">Links</a>
 			<a href="/live.php">Live Shows</a>
-			<a href="https://www.facebook.com/tmitg" title="tMitG on Facebook"><i class="fab fa-facebook"></i> Facebook</a>
-			<a href="https://twitter.com/tmitg" title="tMitG on Twitter"><i class="fab fa-twitter"></i> Twitter</a>
-			<a href="https://tmitg.bandcamp.com" title="tMitG on Bandcamp"><i class="fab fa-bandcamp"></i> Bandcamp</a>
+			<a href="https://www.facebook.com/tmitg" title="tMitG on Facebook"><i class="fa-brands fa-facebook"></i> Facebook</a>
+			<a href="https://bsky.app/profile/tmitg.bsky.social" title="tMitG on Bluesky"><i class="fa-brands fa-bluesky"></i> Bluesky</a>
+			<a href="https://tmitg.bandcamp.com" title="tMitG on Bandcamp"><i class="fa-brands fa-bandcamp"></i> Bandcamp</a>
 	  </div>
 	</nav>
 </div>

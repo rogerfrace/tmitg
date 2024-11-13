@@ -29,7 +29,7 @@
 <h2>Privacy Policy</h2>
 
 <h3>Cookies</h3>
-<p>Session cookies may be used on the site to accommodate site functionality. Third-party widgets and iframes may introduce their own cookies as well, including but not limited to Facebook, Twitter, and YouTube.</p>
+<p>Session cookies may be used on the site to accommodate site functionality. Third-party widgets and iframes may introduce their own cookies as well, including but not limited to Facebook, X/Twitter, Bluesky, and YouTube.</p>
 
 <h3>Tracking</h3>
 Tracking cookies, including but not limited to Google Analytics, are used for traffic analytics purposes. Google Analytics is disabled if your browser&apos;s <q>Do Not Track</q> setting is on.

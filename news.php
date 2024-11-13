@@ -43,9 +43,6 @@ if (isset($_GET["item"])) {
 		print '<link rel="image_src" href="https://tmitg.com/photos/PiB-IMG_3840.jpg" />
 			   <meta property="og:image" content="https://tmitg.com/photos/PiB-IMG_3840.jpg" />';
 	} ?>
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@tmitg" />
-	<meta name="twitter:creator" content="@tmitg" />
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once "headers-additional.php"; ?>
 	<link rel="alternate" type="application/rss+xml" href="/news-rss.xml.php" title="the Machine in the Garden - news" />
@@ -64,9 +61,6 @@ if (isset($_GET["item"])) {
 	<div id="fb-root"></div>
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=207159742735690&autoLogAppEvents=1" nonce="YigLuG1p"></script>
 	<!-- /fb share button -->
-	<!-- twitter widget -->
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	<!-- /twitter widget -->
 <?php endif; ?>
 
 	<span id="skip-links">
@@ -101,12 +95,10 @@ if (isset($_GET["item"])) {
 				echo "<div class=\"sharelinks\">";
 					//permalink
 					echo "<div class=\"shareitem\">
-						<a href=\"/news.php?item=".$newsnum."\" rel=\"bookmark\" itemprop=\"url\" title=\"Permalink\" name=\"Permalink\" aria-labelledby=\"permalabel ".$newsnum."time ".$newsnum."h1\"><i class=\"fa fa-link\" aria-hidden=\"true\"></i></a>
+						<a href=\"/news.php?item=".$newsnum."\" rel=\"bookmark\" itemprop=\"url\" title=\"Permalink\" name=\"Permalink\" aria-labelledby=\"permalabel ".$newsnum."time ".$newsnum."h1\"><i class=\"fa-solid fa-link\" aria-hidden=\"true\"></i></a>
 						</div>\n";
 					//facebook share
 					echo "<div class=\"shareitem\" role=\"group\" aria-label=\"share item on facebook\"><div class=\"fb-share-button\" data-href=\"http://www.tmitg.com/news.php?item=".$newsnum."\" data-layout=\"button_count\" data-size=\"small\"><a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.tmitg.com%2Fnews.php%3Fitem%3D".$newsnum."&amp;src=sdkpreparse\" class=\"fb-xfbml-parse-ignore\" aria-label=\"Share on Facebook\">Share</a></div></div>";
-					//twitter
-					echo "<div class=\"shareitem\" role=\"group\" aria-label=\"share item on twitter\"><a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://www.tmitg.com/news.php?item=".$newsnum."\" data-via=\"tmitg\" data-show-count=\"false\">Tweet</a><script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></div>";
 				echo "</div> <!--/sharelinks-->";
 			}
 		echo "</fieldset>
@@ -155,10 +147,17 @@ if (isset($_GET["item"])) {
 		<?php endif; ?>
 		</section>
   
-		<section class="twitterblock" aria-label="tMitG Twitter feed">
+		<section class="blueskyblock" aria-label="tMitG Bluesky feed">
 		<?php if (check_mobile()==false): ?>
-			<a class="twitter-timeline" data-width="300" data-height="750" href="https://twitter.com/tmitg?ref_src=twsrc%5Etfw">Tweets by tmitg</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-		<?php endif; ?>
+			<!-- from https://github.com/Vincenius/bsky-embed -->
+			<script src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+			<bsky-embed
+				username="tmitg.bsky.social"
+				mode="dark"
+				limit="5"
+				>
+			</bsky-embed>
+  		<?php endif; ?>
 		</section>
   
 	</aside> <!-- /rightcolumn -->

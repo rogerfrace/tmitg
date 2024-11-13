@@ -47,7 +47,6 @@
 	<p>Due to excessive amounts of spam, we have removed our contact form. Please find us instead on social media.</p>
 	
 	<p><a href="https://www.facebook.com/tmitg" title="tMitG on Facebook"><img src="images/facebook.png" alt=""></a>
-	<a href="https://twitter.com/tmitg" title="tMitG on Twitter"><img src="images/twitter.png" alt=""></a>
 	<a href="https://bsky.app/profile/tmitg.bsky.social" title="tMitG on Bluesky"><img src="images/bluesky-round.png" alt=""></a>
 	<a href="https://www.youtube.com/tmitg" title="tMitG on YouTube"><img src="images/youtube.png" alt=""></a>
 	<a href="https://tmitg.bandcamp.com/" title="tMitG on Bandcamp"><img src="images/bandcamp-round.png" alt=""></a></p>

@@ -19,9 +19,6 @@ require_once "functions.php";
     <meta property="og:locale" content="en_US" />
     <meta property="fb:app_id" content="121619441387">
     <meta property="fb:admins" content="1120445561,713632115">
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@tmitg" />
-	<meta name="twitter:creator" content="@tmitg" />
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="canonical" href="https://www.tmitg.com/" />
@@ -55,7 +52,7 @@ require_once "functions.php";
 	<?php include_once "fontawesome.inc.php"; ?>
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 	<script src="tmitg.js"></script>
-	<script type="application/ld+json">{"@context": "https://schema.org","@type": "MusicGroup","@id": "https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0","name": "the Machine in the Garden","sameAs": ["https://www.tmitg.com", "https://tmitg.bandcamp.com", "https://www.facebook.com/tmitg", "https://x.com/tmitg", "https://www.youtube.com/tmitg"],"foundingDate": "1992","genre": ["Gothic", "Dark Wave"],"member": [{"@type": "OrganizationRole","member": {"@type": "Person","name": "Roger Fracé"},"startDate": "1992","roleName": ["synthesizer","guitar","bass guitar","vocals"]},{"@type": "OrganizationRole","member": {"@type": "Person","name": "Summer Bowman"},"startDate": "1997","roleName": ["lead vocals","synthesizer","dulcimer","flute"]}]}</script>
+	<script type="application/ld+json">{"@context": "https://schema.org","@type": "MusicGroup","@id": "https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0","name": "the Machine in the Garden","sameAs": ["https://www.tmitg.com", "https://tmitg.bandcamp.com", "https://www.facebook.com/tmitg", "https://bsky.app/profile/tmitg.bsky.social", "https://www.youtube.com/tmitg"],"foundingDate": "1992","genre": ["Gothic", "Dark Wave"],"member": [{"@type": "OrganizationRole","member": {"@type": "Person","name": "Roger Fracé"},"startDate": "1992","roleName": ["synthesizer","guitar","bass guitar","vocals"]},{"@type": "OrganizationRole","member": {"@type": "Person","name": "Summer Bowman"},"startDate": "1997","roleName": ["lead vocals","synthesizer","dulcimer","flute"]}]}</script>
 	<?php include_once "googletracking.html"; ?>
 </head>
 
@@ -82,9 +79,9 @@ require_once "functions.php";
 		<li><a href="contact.php">contact</a></li>
 		<li><a href="links.php">links</a></li>
 		<li><a href="live.php">live shows</a></li>
-		<li><span class="iblock"><a href="https://www.facebook.com/tmitg" title="tMitG on Facebook"><i class="fab fa-facebook"></i></a>
-			<a href="https://twitter.com/tmitg" title="tMitG on Twitter"><i class="fab fa-twitter"></i></a>
-			<a href="https://tmitg.bandcamp.com" title="tMitG on Bandcamp"><i class="fab fa-bandcamp"></i></a></span></li>
+		<li><span class="iblock"><a href="https://www.facebook.com/tmitg" title="tMitG on Facebook"><i class="fa-brands fa-facebook"></i></a>
+			<a href="https://bsky.app/profile/tmitg.bsky.social" title="tMitG on Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+			<a href="https://tmitg.bandcamp.com" title="tMitG on Bandcamp"><i class="fa-brands fa-bandcamp"></i></a></span></li>
 	</ul>
 </nav>
 <nav class="mobile" aria-label="Primary">
@@ -100,9 +97,9 @@ require_once "functions.php";
 		<a href="/contact.php">Contact</a>
 		<a href="/links.php">Links</a>
 		<a href="/live.php">Live Shows</a>
-		<a href="https://www.facebook.com/tmitg" title="tMitG on Facebook"><i class="fab fa-facebook"></i> Facebook</a>
-		<a href="https://twitter.com/tmitg" title="tMitG on Twitter"><i class="fab fa-twitter"></i> Twitter</a>
-		<a href="https://tmitg.bandcamp.com" title="tMitG on Bandcamp"><i class="fab fa-bandcamp"></i> Bandcamp</a>
+		<a href="https://www.facebook.com/tmitg" title="tMitG on Facebook"><i class="fa-brands fa-facebook"></i> Facebook</a>
+		<a href="https://bsky.app/profile/tmitg.bsky.social" title="tMitG on Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+		<a href="https://tmitg.bandcamp.com" title="tMitG on Bandcamp"><i class="fa-brands fa-bandcamp"></i> Bandcamp</a>
   </div>
 </nav>
 

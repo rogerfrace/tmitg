@@ -122,9 +122,6 @@ function BuildFBOG($fields) {
 	echo '<meta property="article:publisher" content="https://www.facebook.com/tmitg" />';
 	echo '<meta property="fb:app_id" content="145634995501895">';
 	echo '<meta property="fb:admins" content="1120445561,713632115">';
-	echo '<meta name="twitter:card" content="summary"/>';
-	echo '<meta name="twitter:site" content="@tmitg"/>';
-	echo '<meta name="twitter:creator" content="@tmitg"/>';
 }
 
 

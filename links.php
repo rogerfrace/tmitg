@@ -39,7 +39,7 @@
 <a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a rel="me noopener external" href="http://www.facebook.com/tmitg" target="_blank">tMitG on Facebook</a></li>
-<li><a rel="me noopener external" href="http://twitter.com/tmitg" target="_blank">tMitG on Twitter</a></li>
+<li><a rel="me noopener external" href="https://bsky.app/profile/tmitg.bsky.social" target="_blank">tMitG on Bluesky</a></li>
 <li><a rel="me noopener external" href="http://www.youtube.com/tmitg" target="_blank">tMitG on YouTube</a></li>
 <li><a rel="me noopener external" href="http://en.wikipedia.org/wiki/The_Machine_in_the_Garden_%28band%29" target="_blank">tMitG entry on Wikipedia</a></li>
 <li><a rel="me noopener external" href="http://www.discogs.com/artist/120399-Machine-In-The-Garden-The" target="_blank">tMitG discography at discogs.com</a></li>

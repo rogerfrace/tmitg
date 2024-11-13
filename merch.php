@@ -16,9 +16,6 @@
     <meta property="og:locale" content="en_US" />
     <meta property="fb:app_id" content="145634995501895">
     <meta property="fb:admins" content="1120445561,713632115">
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@tmitg" />
-	<meta name="twitter:creator" content="@tmitg" />
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once "headers-additional.php"; ?>
 	<script>
@@ -72,7 +69,7 @@
 <?php else: ?>
 
 <div style="padding:0.5em; border:2px solid #990000;">
-For band news and special offers, be sure to follow us on <a href="http://www.facebook.com/tmitg" rel="noopener external">Facebook</a> or <a href="http://twitter.com/tmitg" rel="noopener external">Twitter</a>.
+For band news and special offers, be sure to follow us on <a href="http://www.facebook.com/tmitg" rel="noopener external">Facebook</a> or <a href="https://bsky.app/profile/tmitg.bsky.social" rel="noopener external">Bluesky</a>.
 </div>
 
 <?php endif; ?>

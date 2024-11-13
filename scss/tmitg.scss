@@ -692,7 +692,7 @@ a.atcss:hover {
     }
 
     .rightcolumn {
-        width: 350px;
+        width: 320px;
     }
 
     .sharelinks {
@@ -710,7 +710,11 @@ a.atcss:hover {
         }
     }
 
-    .blueskyblock {}
+    .blueskyblock {
+    	margin-top: 18px;
+    	background-color: $black;
+    	overflow: hidden;
+    }
 
     .fbblock {
         margin-top: 18px;

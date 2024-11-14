@@ -153,8 +153,11 @@ if (isset($_GET["item"])) {
 			<script src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
 			<bsky-embed
 				username="tmitg.bsky.social"
-				mode="dark"
+				mode="light"
 				limit="5"
+				link-target="_blank"
+				link-image="true"
+				custom-styles=".flex { display: block; } .whitespace-nowrap { white-space: normal; }"
 				>
 			</bsky-embed>
   		<?php endif; ?>

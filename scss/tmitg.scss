@@ -332,6 +332,13 @@ a.atcss:hover {
 
         li {
             display: inline-block;
+	        min-height: 48px;
+	        
+			.iblock {
+				.fa-facebook {min-width:34px;}
+				.fa-bluesky {min-width:38px;}
+				.fa-bandcamp {min-width:34px;}
+			}
         }
     }
 

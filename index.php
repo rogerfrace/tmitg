@@ -47,6 +47,8 @@ require_once "functions.php";
 <?php else: ?>
 	<link rel="preload" as="image" href="headers/images/home-portrait-379.jpg">
 <?php endif; ?>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preload" as="style" href="tmitg-mobile.css">
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />
 	<?php include_once "fontawesome.inc.php"; ?>

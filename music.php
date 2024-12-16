@@ -356,113 +356,32 @@
 <!-- accordion/tabs javascript -->
 <script>
 $(document).ready(function() {
-	/* allow arrow usage in accordion */
-	$("#accordion").keydown(function(f) {
-		if (f.keyCode == 39) { /* right */
-			$(".item:focus").next().focus();
-		}
-		if (f.keyCode == 37) { /* left */
-			$(".item:focus").prev().focus();
-		}
-	});
-	
-	/* set initial song display */
-	$("#songlist div.songs:visible").hide();
-	$("#songlist div.songs.places").show();
-	$("#accordion .item").addClass('fade');
-	$("#accordion .item img").attr("aria-hidden","true");
-	$("#accordion .places").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
+    // Allow arrow usage in accordion
+    $("#accordion").keydown(function(f) {
+        if (f.keyCode == 39) { // right arrow
+            $(".item:focus").next().focus();
+        } else if (f.keyCode == 37) { // left arrow
+            $(".item:focus").prev().focus();
+        }
+    });
+    
+    // Set initial song display
+    $("#songlist div.songs:visible").hide();
+    $("#songlist div.songs.places").show();
+    $("#accordion .item").addClass('fade').attr("tabindex", "-1");
+    $("#accordion .places").removeClass('fade').attr("aria-selected", "true").attr("tabindex", "0");
 
-	/* all of the click activations */
-	$("#accordion .item.places").on("click keydown",function(e) {
-		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
-			$("#accordion .places").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
-			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.places").show();
-		}
-	});
-	$("#accordion .item.image").on("click keydown",function(e) {
-		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
-			$("#accordion .image").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
-			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.image").show();
-		}
-	});
-	$("#accordion .item.baats").on("click keydown",function(e) {
-		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
-			$("#accordion .baats").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
-			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.baats").show();
-		}
-	});
-	$("#accordion .item.vanir").on("click keydown",function(e) {
-		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
-			$("#accordion .vanir").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
-			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.vanir").show();
-		}
-	});
-	$("#accordion .item.xv").on("click keydown",function(e) {
-		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
-			$("#accordion .xv").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
-			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.xv").show();
-		}
-	});
-	$("#accordion .item.sp").on("click keydown",function(e) {
-		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
-			$("#accordion .sp").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
-			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.sp").show();
-		}
-	});
-	$("#accordion .item.asp").on("click keydown",function(e) {
-		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
-			$("#accordion .asp").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
-			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.asp").show();
-		}
-	});
-	$("#accordion .item.ootm").on("click keydown",function(e) {
-		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
-			$("#accordion .ootm").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
-			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.ootm").show();
-		}
-	});
-	$("#accordion .item.own").on("click keydown",function(e) {
-		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
-			$("#accordion .own").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
-			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.own").show();
-		}
-	});
-	$("#accordion .item.uw").on("click keydown",function(e) {
-		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
-			$("#accordion .uw").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
-			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.uw").show();
-		}
-	});
-	$("#accordion .item.vs").on("click keydown",function(e) {
-		if((e.keyCode !== 9)&&(e.keyCode !== 39)&&(e.keyCode !== 37)){
-			$("#accordion .item").addClass('fade').attr("aria-selected","false").attr("tabindex","-1");
-			$("#accordion .vs").removeClass('fade').attr("aria-selected","true").attr("tabindex","0");
-			$("#songlist div.songs:visible").hide();
-			$("#songlist div.songs.vs").show();
-		}
-	});
-
+    // Event handler for accordion items
+    $("#accordion .item").on("click keydown", function(e) {
+        if (e.keyCode !== 9 && e.keyCode !== 39 && e.keyCode !== 37) {
+        	// Get the class name (e.g. 'places', 'image', etc.)
+            const selectedClass = $(this).attr('class').split(' ')[1];
+            $("#accordion .item").addClass('fade').attr("aria-selected", "false").attr("tabindex", "-1");
+            $("#accordion ." + selectedClass).removeClass('fade').attr("aria-selected", "true").attr("tabindex", "0");
+            $("#songlist div.songs:visible").hide();
+            $("#songlist div.songs." + selectedClass).show();
+        }
+    });
 });
 </script>
 

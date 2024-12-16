@@ -5,8 +5,6 @@
 $altclr: #1579BC;
 /* this is the main blue-gray highlight color */
 $dkaltclr: #486178;
-/* this is a dark version used in IE filters */
-$dkred: #60323D;
 
 /* all the shades of black and gray...*/
 $white: #ffffff;
@@ -934,31 +932,33 @@ iframe#sb-player {
 
 /* music page */
 #music {
-    #songlist button {
-    	all: initial;
-        /*reset*/
-        display: inline-block;
-        border: 1px solid transparent;
-        margin: 0;
-        text-decoration: underline;
-        font-family: Cormorant, serif;
-        font-size: 100%;
-        background: none;
-        color: $teal;
-        line-height: 1;
-        cursor: pointer;
-        text-align: left;
-        transition: background 250ms ease-in-out, transform 150ms ease;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-    }
-
+	#songlist button {
+		all: initial;
+		/*reset*/
+		display: inline-block;
+		border: 1px solid transparent;
+		margin: 0;
+		text-decoration: underline;
+		font-family: Cormorant, serif;
+		font-size: 100%;
+		background: none;
+		color: $teal;
+		line-height: 1;
+		cursor: pointer;
+		text-align: left;
+		transition: background 250ms ease-in-out, transform 150ms ease;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+	}
+	#songlist button:focus {
+		outline: 2px solid $teal;
+	}
+	
     #accordion {
         width: auto;
         background: #f5f5f6;
         background: -ms-linear-gradient(top, #f5f5f6 0%, #d6d6d6 100%);
         @include background-image(linear-gradient(#f5f5f6, #d6d6d6));
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f6', endColorstr='#d6d6d6', GradientType=0);
 
         img {
             width: 80px;

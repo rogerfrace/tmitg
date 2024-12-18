@@ -1,9 +1,9 @@
 <?php $fbog = array(
 	'og:title'=>'the Machine in the Garden - Image (acoustic)',
 	'og:type'=>'music.album',
-	'og:url'=>'http://www.tmitg.com/imageacoustic.php',
+	'og:url'=>'https://www.tmitg.com/imageacoustic.php',
 	'og:description'=>'the Machine in the Garden &ldquo;Image (acoustic)&rdquo; is the band&rsquo;s second digital single.',
-	'og:image'=>'http://www.tmitg.com/albums/imageacoustic.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/imageacoustic.jpg',
 	'og:image:type'=>'image/jpeg',
 	'og:image:width'=>'250',
 	'og:image:height'=>'250',

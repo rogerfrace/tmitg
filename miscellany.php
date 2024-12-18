@@ -1,9 +1,9 @@
 <?php $fbog = array(
 	'og:title'=>'the Machine in the Garden - Miscellany',
 	'og:type'=>'music.album',
-	'og:url'=>'http://www.tmitg.com/miscellany.php',
+	'og:url'=>'https://www.tmitg.com/miscellany.php',
 	'og:description'=>'the Machine in the Garden &ldquo;Miscellany&rdquo; is a collection of rarities, ranging from compilation tracks to alternate versions to covers.',
-	'og:image'=>'http://www.tmitg.com/albums/miscellany.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/miscellany.jpg',
 	'og:image:type'=>'image/jpeg',
 	'og:image:width'=>'250',
 	'og:image:height'=>'250',

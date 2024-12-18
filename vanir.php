@@ -1,9 +1,9 @@
 <?php $fbog = array(
 	'og:title'=>'the Machine in the Garden - In the Vanir',
 	'og:type'=>'music.album',
-	'og:url'=>'http://www.tmitg.com/vanir.php',
+	'og:url'=>'https://www.tmitg.com/vanir.php',
 	'og:description'=>'the Machine in the Garden &ldquo;In the Vanir&rdquo; is the band&rsquo;s first digital single and preview for &ldquo;Before and After the Storm&rdquo;.',
-	'og:image'=>'http://www.tmitg.com/albums/vanir.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/vanir.jpg',
 	'og:image:type'=>'image/jpeg',
 	'og:image:width'=>'250',
 	'og:image:height'=>'250',

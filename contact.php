@@ -9,7 +9,6 @@
 	<?php include_once "headers-additional.php"; ?>
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />
 	<?php include_once "googletracking.html"; ?>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body id="contact">

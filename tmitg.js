@@ -1,20 +1,3 @@
-/* code that allows rel="external" to open links in a new window */
-/* rel="external" is the new target="_blank" */
-function externalLinks() {
-	if (!document.getElementsByTagName) {return;}
-	var anchors = document.getElementsByTagName("a");
-	for (var i=0; i<anchors.length; i++) {
-		var anchor = anchors[i];
-		if (anchor.getAttribute("href")) {
-			if (anchor.getAttribute("rel") == "external" || anchor.getAttribute("rel") == "noopener" || anchor.getAttribute("rel") == "noopener external") {
-				anchor.target = "_blank";
-			}
-		}
-	}
-}
-window.onload = externalLinks;
-
-
 jQuery(document).ready(function() {
 	// add current class to discography subnav
 	var pathname = window.location.pathname;
@@ -48,6 +31,9 @@ jQuery(document).ready(function() {
 		break;
 	// and main nav
 		case '/':
+			jQuery("nav a[href='/index.php']").attr('aria-current','page').addClass('current');
+		break;
+		case '/index.php':
 			jQuery("nav a[href='/index.php']").attr('aria-current','page').addClass('current');
 		break;
 		case '/news.php':
@@ -84,9 +70,11 @@ jQuery(document).ready(function() {
 	jQuery("#stm").click(function() {
 		jQuery("#main").focus();
 	});
+
 	// convert aria classes to roles and states
 	jQuery(".ariahidden").attr("aria-hidden","true");
 
+	// colorbox configs
 	if (typeof jQuery.colorbox !== 'undefined') {
 		// http://www.jacklmoore.com/colorbox/
 		// colorbox activation (non-photos), only if loaded (non-mobile)
@@ -94,23 +82,26 @@ jQuery(document).ready(function() {
 		jQuery(".noteslink").colorbox({iframe:'true', current:'{current} of {total}', close:'close dialog', returnFocus:'true', rel:'notes', transition:"fade", width:"80%", height:"80%"});
 		jQuery(".musiclink").colorbox({iframe:'true', current:'{current} of {total}', close:'close dialog', returnFocus:'true', rel:'music', transition:"fade", width:"380px", height:"520px"});
 		jQuery(".videolink").colorbox({iframe:'true', current:'{current} of {total}', close:'close dialog', returnFocus:'true', rel:'videos', transition:"fade", width:"550px", height:"450px"});
+		
+		// make some tweaks to colorbox
+		jQuery(document).bind('cbox_complete', function(){
+			jQuery("[role='dialog']").attr("aria-modal","true");
+			jQuery("#cboxContent").attr("aria-label","dialog").attr("tabindex","-1").focus();
+			jQuery(".cboxIframe").attr("title","dialog content");
+			jQuery(".lyriclink,.noteslink,.musiclink,.videolink,#cboxPrevious,#cboxNext").removeAttr("aria-expanded");
+		});
 	}
-	
-	// make some tweaks to colorbox
-	jQuery(document).bind('cbox_complete', function(){
-		jQuery("[role='dialog']").attr("aria-modal","true");
-		jQuery("#cboxContent").attr("aria-label","dialog").attr("tabindex","-1").focus();
-		jQuery(".cboxIframe").attr("title","dialog content");
-		jQuery(".lyriclink,.noteslink,.musiclink,.videolink,#cboxPrevious,#cboxNext").removeAttr("aria-expanded");
-	});
 
 	// homepage mobile nav
-	$('button').click(function() {
-  	  $(this).toggleClass('expanded').siblings('div').slideToggle();
-  	  if ($(this).hasClass("expanded")){
-  	  	$(this).attr("aria-expanded","true");
+	jQuery('button').click(function() {
+  	  jQuery(this).toggleClass('expanded').siblings('div').slideToggle();
+  	  if (jQuery(this).hasClass("expanded")){
+		jQuery(this).attr("aria-expanded","true");
   	  } else {
-  	  	$(this).attr("aria-expanded","false");
+		jQuery(this).attr("aria-expanded","false");
   	  }
     });
+
+	// code that allows rel="external" to open links in a new window
+	jQuery('a[rel="external"], a[rel="noopener"], a[rel="noopener external"]').attr('target', '_blank');
 });

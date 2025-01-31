@@ -102,6 +102,13 @@ jQuery(document).ready(function() {
   	  }
     });
 
+	// code that has a role=button responds to spacebar
+	jQuery('a[role="button"]').keypress(function(e) {
+		if (e.which == 32) {
+			jQuery(this).click();
+		}
+	});
+	
 	// code that allows rel="external" to open links in a new window
 	jQuery('a[rel="external"], a[rel="noopener"], a[rel="noopener external"]').attr('target', '_blank');
 });

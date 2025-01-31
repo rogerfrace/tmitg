@@ -9,9 +9,9 @@ function do_lyrics($filename,$songname=NULL) {
 	$lyrpath="lyrics";
 
 	if (check_mobile()==true) {
-		echo "<button role=\"link\" onclick=\"location.href='$lyrpath/$filename.php';\" aria-label=\"view $songname lyrics\"><span class=\"fas fa-file-alt\"></span></button>\n";
+		echo "<a href=\"$lyrpath/$filename.php\" aria-label=\"view $songname lyrics\"><span class=\"fas fa-file-alt\"></span></a>\n";
 	} else {
-		echo "<button href=\"$lyrpath/$filename.php\" class=\"lyriclink\" aria-haspopup=\"dialog\" title=\"$songname lyrics\" aria-label=\"view $songname lyrics\"><span class=\"fas fa-file-alt\"></span></button>\n";
+		echo "<a role=\"button\" href=\"$lyrpath/$filename.php\" class=\"lyriclink\" aria-haspopup=\"dialog\" title=\"$songname lyrics\" aria-label=\"view $songname lyrics\"><span class=\"fas fa-file-alt\"></span></a>\n";
 	}
 }
 
@@ -20,9 +20,9 @@ function do_notes($filename,$songname=NULL) {
 	$npath="notes";
 
 	if (check_mobile()==true) {
-		echo "<button role=\"link\" onclick=\"location.href='$npath/$filename.php';\" aria-label=\"view $songname notes\"><span class=\"fas fa-pen-fancy\"></span></button>\n";
+		echo "<a href=\"$npath/$filename.php\" aria-label=\"view $songname notes\"><span class=\"fas fa-pen-fancy\"></span></a>\n";
 	} else {
-		echo "<button href=\"$npath/$filename.php\" class=\"noteslink\" aria-haspopup=\"dialog\" title=\"$songname notes\" aria-label=\"view $songname notes\"><span class=\"fas fa-pen-fancy\"></span></button>\n";
+		echo "<a role=\"button\" href=\"$npath/$filename.php\" class=\"noteslink\" aria-haspopup=\"dialog\" title=\"$songname notes\" aria-label=\"view $songname notes\"><span class=\"fas fa-pen-fancy\"></span></a>\n";
 	}
 }
 
@@ -34,9 +34,9 @@ function do_video($videoname,$songtitle=NULL,$ico=NULL) {
 	$songname = stripslashes($songtitle);
 
 	if ( (check_mobile()==true) ) {
-		echo "<button role=\"link\" onclick=\"location.href='viewvideo.php?yt=".$videoname."';\" aria-label=\"watch $songname video\"><span class=\"fas fa-video\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></button>\n";
+		echo "<a href=\"viewvideo.php?yt=".$videoname."\" aria-label=\"watch $songname video\"><span class=\"fas fa-video\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></a>\n";
 	} else {
-		echo "<button href=\"viewvideo.php?yt=".$videoname."\" class=\"videolink\" aria-haspopup=\"dialog\" title=\"$songname video\" aria-label=\"watch $songname video\"><span class=\"fas fa-video\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></button>\n";
+		echo "<a role=\"button\" href=\"viewvideo.php?yt=".$videoname."\" class=\"videolink\" aria-haspopup=\"dialog\" title=\"$songname video\" aria-label=\"watch $songname video\"><span class=\"fas fa-video\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></a>\n";
 	}
 }
 
@@ -45,9 +45,9 @@ function do_mp3bc2($samplename,$songtitle=NULL,$ico=NULL) {
 	$songname = stripslashes($songtitle);
 
 	if ( (check_mobile()==true) ) {
-		echo "<button role=\"link\" onclick=\"location.href='viewmp3bc.php?bcsample=".$samplename."';\" aria-label=\"listen to $songname music sample\"><span class=\"fas fa-music\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></button>\n";
+		echo "<a href=\"viewmp3bc.php?bcsample=".$samplename."\" aria-label=\"listen to $songname music sample\"><span class=\"fas fa-music\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></a>\n";
 	} else {
-		echo "<button href=\"viewmp3bc.php?bcsample=".$samplename."\" class=\"musiclink\" aria-haspopup=\"dialog\" title=\"$songname music sample\" aria-label=\"listen to $songname music sample\"><span class=\"fas fa-music\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></button>\n";
+		echo "<a role=\"button\" href=\"viewmp3bc.php?bcsample=".$samplename."\" class=\"musiclink\" aria-haspopup=\"dialog\" title=\"$songname music sample\" aria-label=\"listen to $songname music sample\"><span class=\"fas fa-music\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></a>\n";
 	}
 }
 

@@ -102,9 +102,10 @@ jQuery(document).ready(function() {
   	  }
     });
 
-	// code that has a role=button responds to spacebar
+	// code that has <a role=button> responds to spacebar
 	jQuery('a[role="button"]').keypress(function(e) {
 		if (e.which == 32) {
+			e.preventDefault(); // prevent screen scroll
 			jQuery(this).click();
 		}
 	});

@@ -691,7 +691,7 @@ a.atcss:hover {
             img {
                 float: left;
                 max-width: 50%;
-                max-height: fit-content;
+                object-fit: contain;
                 margin: 0 6px 4px 0;
             }
         }

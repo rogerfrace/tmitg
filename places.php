@@ -153,6 +153,59 @@ $lyricsfile and videoname do not include .html
 <meta itemprop="datePublished" content="2021-01-03">
 </blockquote>
 
+<hr style="width:50%;" />
+
+<blockquote cite="https://www.untidydownloads.com/places-in-between-by-the-machine-in-the-garden-featurefriday/" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
+<meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
+<div itemprop="reviewBody">
+<p>There are things that I love in music: a variety in styles, expressive vocals, warm and dark tonalities, an emotional romantic mood and surprising subtleties in the instrumentation. “Places in Between” by The Machine In The Garden has all of these things in abundance.</p>
+
+<p>The album has this fascinating industrial and gothic quality that feels sweaty and driving, sensual even. Synths and guitars are used to either accentuate or completely carry a melody, just as the mood of a track requires it.</p>
+
+<p>The lyrics show a sense of longing, desire and world-weary sadness, that only get reinforced by the abilities of singer Summer Bowman. Her “neutral” voice is warm and soft, but at a moments notice she is able to produce a high modified operatic sound or put a hard edge in her sound that feels cold, impatient and distant.</p>
+
+<p>Something that I really appreciated were the moments when Summer went in a very theatrical direction, vocalizing less like in conventional singing and more like she is acting in a play.</p>
+
+<p>Another element that I really enjoyed is the order of the tracks. Up to the half-way mark, the songs general mood is the aforementioned longing, only for the aptly titled “Courage, Power, and Wisdom” to kick the listener in the gut and deliver an uplifting, soaring mood at the perfect moment in this hour-long journey. Overall, this is an album I can highly recommend people to get into. While it feels big and epic, the entire runtime is full of relatable and honest emotion, presented with truly excellent songwriting and musicianship. It’s great music for hot, sleepless nights and I love it for that!</p>
+</div>
+<p>-<a href="https://bsky.app/profile/florgoth.bsky.social" target="_blank"><span itemprop="author">Florgoth</span></a>, <a href="https://www.untidydownloads.com/places-in-between-by-the-machine-in-the-garden-featurefriday/" target="_blank"><span itemprop="publication">Confessions of an Untidy Mind</span></a></p>
+<meta itemprop="datePublished" content="2025-08-15">
+</blockquote>
+
+<hr style="width:50%;" />
+
+<blockquote cite="https://www.untidydownloads.com/places-in-between-by-the-machine-in-the-garden-featurefriday/" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
+<meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
+<div itemprop="reviewBody">
+<p>This was a hard one for me, I didn’t hate it. Didn’t dislike it. Neither was I dismissive nor indifferent. I found some parts of it really excellent, and other parts felt like they almost drift off into musical theater, which is a no-go area for me. (I could be waaay off the mark with that, opinions are like arseholes).</p>
+
+<p>I’m going to concentrate on what I dug and the songs that really stood out. I love the guitars, they aren’t so distorted that all you can hear is harmonics, but just overdrive enough to break up when they need to sonically, they have this Morricone/Pirroni* vibe that really jumps out at me. There’s also a very Hans Zimmer vibe going on with the vocal styling and the percussive/drum composition. Bass guitar has that strong post-punk/Leeds/Manchester metallic warehouse sound that just pins down the core and allows everything else to flow.</p>
+
+<p>When this works for me, it works really well, when it doesn’t, I applaud their vision and musicality. Because that’s what is to be admired here, it isn’t written for me, yet there’s something here for me.</p>
+
+<p>The songs “Underneath”, “Broken Days” and “Courage, Power and Wisdom” all hit different for me. They seem to serve the vocalist more. They feel more realised. Cohesive.</p>
+
+<p>“Broken Days” really struck me. It has a tone that really tickles my fancy, but what really crossed my mind is that it could easily fit on Eoin Mac Ionmhain‘s “I Am Legend” soundtrack.</p>
+
+<p>I do love the trip hop/goth cross-pollination. This album seems to get stronger towards the end. More folk/horror elements? A reallyy mixed bag and impressive. Vocals really do shine on this. If this is your wheelhouse, you will be very happy.</p>
+
+<p><em>*Ennio Morricone spaghetti western composer/ Marco Pirronione one time Siouxsie Sioux cohort and Adam Ant guitarist and collaborator.</em></p>
+</div>
+<p>-<span itemprop="author">untidyadmin</span>, <a href="https://www.untidydownloads.com/places-in-between-by-the-machine-in-the-garden-featurefriday/" target="_blank"><span itemprop="publication">Confessions of an Untidy Mind</span></a></p>
+<meta itemprop="datePublished" content="2025-08-15">
+</blockquote>
+
+<hr style="width:50%;" />
+
+<blockquote cite="https://www.untidydownloads.com/places-in-between-by-the-machine-in-the-garden-featurefriday/" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
+<meta itemprop="itemReviewed" content="<?=$fbog['og:title'];?>">
+<div itemprop="reviewBody">
+<p>This week’s album is “Places in Between,” by the Machine in the Garden. This is an album that feels like a long cinematic experience rather than just a collection of songs. It’s full of thick layers of carefully arranged instrumentation surrounding beautiful vocals.</p>
+</div>
+<p>-<a href="https://bsky.app/profile/aaronsmith377.bsky.social" target="_blank>"<span itemprop="author">Aaron Smith</span></a>, <a href="https://www.untidydownloads.com/places-in-between-by-the-machine-in-the-garden-featurefriday/" target="_blank"><span itemprop="publication">Confessions of an Untidy Mind</span></a></p>
+<meta itemprop="datePublished" content="2025-08-15">
+</blockquote>
+
 	</div> <!-- /revcontent -->
 </section>
 

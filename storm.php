@@ -1,5 +1,5 @@
 <?php $fbog = array(
-	'og:title'=>'the Machine in the Garden - Before and After the Storm',
+	'og:title'=>'the Machine in the Garden - Before and After the Storm (2011)',
 	'og:type'=>'music.album',
 	'og:upc'=>'885767743120',
 	'og:url'=>'https://www.tmitg.com/storm.php',
@@ -39,7 +39,7 @@
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
-	<meta itemprop="albumReleaseType" content="album">
+	<meta itemprop="albumReleaseType" content="http://schema.org/AlbumRelease">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="11">
 	<meta itemprop="byArtist" content="the Machine in the Garden" />
@@ -48,7 +48,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/baats.jpg" width="250" height="250" alt="Before and After the Storm album cover" class="albumimg" itemprop="image" /></div>
+	<div><img src="albums/baats.jpg" width="250" height="250" alt="Before and After the Storm (2011) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Before and After the Storm</h1>
 
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
@@ -77,7 +77,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody itemscope itemtype="https://schema.org/MusicPlaylist">
+	<tbody>
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname,$notesname)
 $lyricsfile and videoname do not include .html

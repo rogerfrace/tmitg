@@ -1,5 +1,5 @@
 <?php $fbog = array(
-	'og:title'=>'the Machine in the Garden - Veils and Shadows EP',
+	'og:title'=>'the Machine in the Garden - Veils and Shadows EP (1994)',
 	'og:type'=>'music.album',
 	'og:upc'=>'780444900226',
 	'og:url'=>'https://www.tmitg.com/vs.php',
@@ -38,7 +38,7 @@
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
-	<meta itemprop="albumReleaseType" content="EP">
+	<meta itemprop="albumReleaseType" content="http://schema.org/EPRelease">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="4">
 	<meta itemprop="byArtist" content="the Machine in the Garden" />
@@ -47,7 +47,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-    <div><img src="albums/vs.jpg" width="250" height="250" alt="Veils and Shadows album cover" class="albumimg" itemprop="image" /></div>
+    <div><img src="albums/vs.jpg" width="250" height="250" alt="Veils and Shadows (1994) EP cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Veils and Shadows EP</h1>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">ISOL8-002-2</span>) <span itemprop="recordLabel">Industrial Isolation Music</span> &copy;<span itemprop="copyrightYear">1993</span><br />CDEP released <time datetime="1993-09-12" itemprop="datePublished">12 September 1994</time></p>
@@ -70,7 +70,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody itemscope itemtype="https://schema.org/MusicPlaylist">
+	<tbody>
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html

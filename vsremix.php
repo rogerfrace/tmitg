@@ -3,7 +3,7 @@
 <?php require_once "functions.php"; ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<title>the Machine in the Garden - Veils and Shadows Remixes</title>
+	<title>the Machine in the Garden - Veils and Shadows Remixes (1995)</title>
 	<?php include_once "headers-additional.php"; ?>
 </head>
 
@@ -20,7 +20,7 @@
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
-	<meta itemprop="albumReleaseType" content="album">
+	<meta itemprop="albumReleaseType" content="http://schema.org/AlbumRelease">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="7">
 	<meta itemprop="byArtist" content="the Machine in the Garden" />
@@ -29,7 +29,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/vsremix.jpg" alt="Veils and Shadows Remixes album cover" class="albumimg" itemprop="image" /></div>
+	<div><img src="albums/vsremix.jpg" alt="Veils and Shadows Remixes (1995) remix album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Veils and Shadows Remixes</h1>
 	<p class="notopmargin">&copy;<span itemprop="copyrightYear">1995</span><br>
 	<i>Veils and Shadows Remixes</i> was never released. tMitG's contract for the <i>Veils and Shadows EP</i> was for both a CD and a 12" vinyl version. The vinyl version was delayed, and Roger thought it was a good idea not to release a 12" of the same material (minus one song nonetheless), but to make it more enticing by releasing a longer, remix record. With very slow sales of the CD, the contract with the record label expired before the 12" ever came to be.</p>
@@ -51,7 +51,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody itemscope itemtype="https://schema.org/MusicPlaylist">
+	<tbody>
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html

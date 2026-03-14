@@ -1,5 +1,5 @@
 <?php $fbog = array(
-	'og:title'=>'the Machine in the Garden - XV',
+	'og:title'=>'the Machine in the Garden - XV (2007)',
 	'og:type'=>'music.album',
 	'og:upc'=>'634479658679',
 	'og:url'=>'https://www.tmitg.com/xv.php',
@@ -39,7 +39,7 @@
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
-	<meta itemprop="albumReleaseType" content="album">
+	<meta itemprop="albumReleaseType" content="http://schema.org/AlbumRelease">
 	<meta itemprop="albumProductionType" content="CompilationAlbum">
 	<meta itemprop="numTracks" content="15">
 	<meta itemprop="byArtist" content="the Machine in the Garden" />
@@ -48,7 +48,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/xv.jpg" width="250" height="250" alt="XV album cover" class="albumimg" itemprop="image" /></div>
+	<div><img src="albums/xv.jpg" width="250" height="250" alt="XV (2007) compilation album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">XV</h1>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-015-cd</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2007</span><br />full-length CD released <time datetime="2007-12-13" itemprop="datePublished">13 December 2007</time></p>
@@ -71,7 +71,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody itemscope itemtype="https://schema.org/MusicPlaylist">
+	<tbody>
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html

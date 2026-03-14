@@ -1,5 +1,5 @@
 <?php $fbog = array(
-	'og:title'=>'the Machine in the Garden - In the Vanir',
+	'og:title'=>'the Machine in the Garden - In the Vanir (2010)',
 	'og:type'=>'music.album',
 	'og:url'=>'https://www.tmitg.com/vanir.php',
 	'og:description'=>'the Machine in the Garden &ldquo;In the Vanir&rdquo; is the band&rsquo;s first digital single and preview for &ldquo;Before and After the Storm&rdquo;.',
@@ -36,7 +36,7 @@
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
-	<meta itemprop="albumReleaseType" content="SingleRelease">
+	<meta itemprop="albumReleaseType" content="http://schema.org/SingleRelease">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="2">
 	<meta itemprop="byArtist" content="the Machine in the Garden" />
@@ -45,7 +45,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/vanir.jpg" alt="In the Vanir album cover" class="albumimg" itemprop="image" /></div>
+	<div><img src="albums/vanir.jpg" alt="In the Vanir (2010) single cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">In the Vanir</h1>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-004-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2010</span><br />Digital Single released <time datetime="2010-12-10" itemprop="datePublished">10 December 2010</time></p>
@@ -67,7 +67,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody itemscope itemtype="https://schema.org/MusicPlaylist">
+	<tbody>
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html

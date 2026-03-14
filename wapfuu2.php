@@ -3,7 +3,7 @@
 <?php require_once "functions.php"; ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<title>the Machine in the Garden - When Angels Peer Favorably Upon Us, Volume Two</title>
+	<title>the Machine in the Garden - When Angels Peer Favorably Upon Us, Volume Two (2001)</title>
 	<?php include_once "headers-additional.php"; ?>
 </head>
 
@@ -20,7 +20,7 @@
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
-	<meta itemprop="albumReleaseType" content="album">
+	<meta itemprop="albumReleaseType" content="http://schema.org/AlbumRelease">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="12">
 	<meta itemprop="byArtist" content="the Machine in the Garden" />
@@ -29,7 +29,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/wapfuu2.jpg" alt="When Angels Peer Favorably Upon Us, Volume Two album cover" class="albumimg" itemprop="image" /></div>
+	<div><img src="albums/wapfuu2.jpg" alt="When Angels Peer Favorably Upon Us, Volume Two (2001) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">When Angels Peer Favorably Upon Us, Volume Two</h1>
 	<p class="notopmargin">&copy;<span itemprop="copyrightYear">2001</span><br>
 	mp3.com CD released 2001</p>
@@ -50,7 +50,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody itemscope itemtype="https://schema.org/MusicPlaylist">
+	<tbody>
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html

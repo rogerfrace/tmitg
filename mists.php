@@ -1,5 +1,5 @@
 <?php $fbog = array(
-	'og:title'=>'the Machine in the Garden - Out of the Mists',
+	'og:title'=>'the Machine in the Garden - Out of the Mists (2000)',
 	'og:type'=>'music.album',
 	'og:upc'=>'685879999428',
 	'og:url'=>'https://www.tmitg.com/mists.php',
@@ -39,7 +39,7 @@
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
-	<meta itemprop="albumReleaseType" content="album">
+	<meta itemprop="albumReleaseType" content="http://schema.org/AlbumRelease">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="13">
 	<meta itemprop="byArtist" content="the Machine in the Garden" />
@@ -48,7 +48,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/mists.jpg" width="280" height="250" alt="Out of the Mists album cover" class="albumimg" itemprop="image" /></div>
+	<div><img src="albums/mists.jpg" width="280" height="250" alt="Out of the Mists (2000) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Out of the Mists</h1>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">MPP994</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2000</span><br />full-length enhanced CD released <time datetime="2000-12" itemprop="datePublished">December 2000</time></p>
@@ -71,7 +71,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody itemscope itemtype="https://schema.org/MusicPlaylist">
+	<tbody>
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
 $lyricsfile and videoname do not include .html

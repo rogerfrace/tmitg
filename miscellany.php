@@ -1,5 +1,5 @@
 <?php $fbog = array(
-	'og:title'=>'the Machine in the Garden - Miscellany',
+	'og:title'=>'the Machine in the Garden - Miscellany (2014)',
 	'og:type'=>'music.album',
 	'og:url'=>'https://www.tmitg.com/miscellany.php',
 	'og:description'=>'the Machine in the Garden &ldquo;Miscellany&rdquo; is a collection of rarities, ranging from compilation tracks to alternate versions to covers.',
@@ -36,7 +36,7 @@
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
-	<meta itemprop="albumReleaseType" content="album">
+	<meta itemprop="albumReleaseType" content="http://schema.org/AlbumRelease">
 	<meta itemprop="albumProductionType" content="CompilationAlbum">
 	<meta itemprop="numTracks" content="14">
 	<meta itemprop="byArtist" content="the Machine in the Garden" />
@@ -45,7 +45,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/miscellany.jpg" alt="Miscellany album cover" class="albumimg" itemprop="image" /></div>
+	<div><img src="albums/miscellany.jpg" alt="Miscellany (2014) compilation album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Miscellany</h1>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-006-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2014</span><br />rarities collection released <time datetime="2014-10-31" itemprop="datePublished">31 October 2014</time></p>
@@ -67,7 +67,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody itemscope itemtype="https://schema.org/MusicPlaylist">
+	<tbody>
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html

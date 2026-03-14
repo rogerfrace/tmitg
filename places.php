@@ -1,5 +1,5 @@
 <?php $fbog = array(
-	'og:title'=>'the Machine in the Garden - Places in Between',
+	'og:title'=>'the Machine in the Garden - Places in Between (2020)',
 	'og:type'=>'music.album',
 	'og:upc'=>'195269018252',
 	'og:url'=>'https://www.tmitg.com/places.php',
@@ -38,7 +38,7 @@
 <!-- end album header nav -->
 
 <main id="main" class="mainbody" itemscope itemtype="https://schema.org/MusicAlbum">
-	<meta itemprop="albumReleaseType" content="album">
+	<meta itemprop="albumReleaseType" content="http://schema.org/AlbumRelease">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="13">
 	<meta itemprop="byArtist" content="the Machine in the Garden" />
@@ -47,7 +47,7 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/places.jpg" width="278" height="250" alt="Places in Between album cover" class="albumimg" itemprop="image" /></div>
+	<div><img src="albums/places.jpg" width="278" height="250" alt="Places in Between (2020) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Places in Between</h1>
 
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
@@ -76,7 +76,7 @@
 			<th scope="col" class="wai">Video</th>
 		</tr>
 	</thead>
-	<tbody itemscope itemtype="https://schema.org/MusicPlaylist">
+	<tbody>
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname,$notesname)
 $lyricsfile and videoname do not include .html
@@ -202,7 +202,7 @@ $lyricsfile and videoname do not include .html
 <div itemprop="reviewBody">
 <p>This week’s album is “Places in Between,” by the Machine in the Garden. This is an album that feels like a long cinematic experience rather than just a collection of songs. It’s full of thick layers of carefully arranged instrumentation surrounding beautiful vocals.</p>
 </div>
-<p>-<a href="https://bsky.app/profile/aaronsmith377.bsky.social" target="_blank>"<span itemprop="author">Aaron Smith</span></a>, <a href="https://www.untidydownloads.com/places-in-between-by-the-machine-in-the-garden-featurefriday/" target="_blank"><span itemprop="publication">Confessions of an Untidy Mind</span></a></p>
+<p>-<a href="https://bsky.app/profile/aaronsmith377.bsky.social" target="_blank"><span itemprop="author">Aaron Smith</span></a>, <a href="https://www.untidydownloads.com/places-in-between-by-the-machine-in-the-garden-featurefriday/" target="_blank"><span itemprop="publication">Confessions of an Untidy Mind</span></a></p>
 <meta itemprop="datePublished" content="2025-08-15">
 </blockquote>
 

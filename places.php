@@ -41,7 +41,11 @@
 	<meta itemprop="albumReleaseType" content="http://schema.org/AlbumRelease">
 	<meta itemprop="albumProductionType" content="StudioAlbum">
 	<meta itemprop="numTracks" content="13">
-	<meta itemprop="byArtist" content="the Machine in the Garden" />
+	<span itemprop="byArtist" itemscope itemtype="https://schema.org/MusicGroup">
+		<meta itemprop="name" content="the Machine in the Garden" />
+		<meta itemprop="url" content="https://www.tmitg.com/" />
+		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
+	</span>
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 

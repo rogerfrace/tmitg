@@ -8,14 +8,14 @@ require_once "functions.php";
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<!-- hostinger -->
-	<meta name="description" content="the Machine in the Garden is one of the premiere ethereal-electronic-darkwave-neoclassical-goth band in the American music industry. With 9 official releases and numerous other appearances since their founding in 1992, tMitG is one of the most lasting and prolific dark underground bands of the new era." />
+	<meta name="description" content="the Machine in the Garden is one of the premiere ethereal-electronic-darkwave-neoclassical-goth bands in the American music industry. With 9 official releases and numerous other appearances since their founding in 1992, tMitG is one of the most lasting and prolific dark underground bands of the new era." />
 	<meta name="keywords" content="machine in the garden, tmitg, ethereal, electronic, darkwave, goth, gothic, old school goth, neoclassical, band, music, CDs, roger frace, summer bowman" />
 	<meta property="og:site_name" content="the Machine in the Garden" />
 	<meta property="og:title" content="the Machine in the Garden" />
 	<meta property="og:type" content="musician" />
 	<meta property="og:url" content="https://www.tmitg.com/" />
 	<meta property="og:description" content="the Machine in the Garden is one of the premiere ethereal-electronic-darkwave-neoclassical-goth band in the American music industry. With 9 official releases and numerous other appearances since their founding in 1992, tMitG is one of the most lasting and prolific dark underground bands of the new era." />
-	<meta property="og:image" content="https://www.tmitg.com/photos/xv1.jpg" />
+	<meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />
     <meta property="og:locale" content="en_US" />
     <meta property="fb:app_id" content="121619441387">
     <meta property="fb:admins" content="1120445561,713632115">
@@ -54,7 +54,44 @@ require_once "functions.php";
 	<?php include_once "fontawesome.inc.php"; ?>
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 	<script src="tmitg.js"></script>
-	<script type="application/ld+json">{"@context": "https://schema.org","@type": "MusicGroup","@id": "https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0","name": "the Machine in the Garden","sameAs": ["https://www.tmitg.com", "https://tmitg.bandcamp.com", "https://www.facebook.com/tmitg", "https://bsky.app/profile/tmitg.bsky.social", "https://www.youtube.com/tmitg"],"foundingDate": "1992","genre": ["Gothic", "Etherealwave", "Darkwave"],"member": [{"@type": "OrganizationRole","member": {"@type": "Person","name": "Roger Fracé"},"startDate": "1992","roleName": ["synthesizer","guitar","bass guitar","vocals"]},{"@type": "OrganizationRole","member": {"@type": "Person","name": "Summer Bowman"},"startDate": "1997","roleName": ["lead vocals","synthesizer","dulcimer","flute"]}]}</script>
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "MusicGroup",
+		"@id": "https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0",
+		"name": "the Machine in the Garden",
+		"sameAs": [
+			"https://www.tmitg.com",
+			"https://tmitg.bandcamp.com",
+			"https://www.facebook.com/tmitg",
+			"https://bsky.app/profile/tmitg.bsky.social",
+			"https://www.youtube.com/tmitg"
+		],
+		"foundingDate": "1992",
+		"genre": ["Gothic", "Etherealwave", "Darkwave"],
+		"image": "https://www.tmitg.com/photos/PiB-IMG_3840.jpg",
+		"album": [
+			{ "@type": "MusicAlbum", "name": "Places in Between", "url": "https://www.tmitg.com/places.php", "datePublished": "2020" },
+			{ "@type": "MusicAlbum", "name": "Before and After the Storm", "url": "https://www.tmitg.com/storm.php", "datePublished": "2011" }
+			{ "@type": "MusicAlbum", "name": "Shadow Puppets", "url": "https://www.tmitg.com/shadowpuppets.php", "datePublished": "2005" }
+			{ "@type": "MusicAlbum", "name": "Underworld", "url": "https://www.tmitg.com/underworld.php", "datePublished": "1997" }
+		],
+		"member": [
+			{
+				"@type": "OrganizationRole",
+				"member": { "@type": "Person", "name": "Roger Fracé" },
+				"startDate": "1992",
+				"roleName": ["synthesizer", "guitar", "bass guitar", "vocals"]
+			},
+			{
+				"@type": "OrganizationRole",
+				"member": { "@type": "Person", "name": "Summer Bowman" },
+				"startDate": "1997",
+				"roleName": ["lead vocals", "synthesizer", "dulcimer", "flute"]
+			}
+		]
+	}
+	</script>
 	<?php include_once "googletracking.html"; ?>
 </head>
 

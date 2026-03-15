@@ -46,6 +46,7 @@
 		<meta itemprop="name" content="the Machine in the Garden" />
 		<meta itemprop="url" content="https://www.tmitg.com/" />
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
+		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/out-of-the-mists" />
 	<meta itemprop="sameAs" content="https://music.apple.com/us/album/out-of-the-mists/949293646" />
@@ -57,6 +58,8 @@
 <section id="discog_albuminfo" tabindex="-1">
 	<div><img src="albums/mists.jpg" width="280" height="250" alt="Out of the Mists (2000) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Out of the Mists</h1>
+	<p itemprop="abstract"><em>A journey through the many facets of the band, exploring classical, electronic, goth, and ethereal genres. Out of the Mists is both visually and musically rich, a stunning tour de force encompassing the band's emotional edge.</em></p>
+
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">MPP994</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2000</span><br />full-length enhanced CD released <time datetime="2000-12" itemprop="datePublished">December 2000</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />

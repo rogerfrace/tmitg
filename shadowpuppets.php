@@ -46,6 +46,7 @@
 		<meta itemprop="name" content="the Machine in the Garden" />
 		<meta itemprop="url" content="https://www.tmitg.com/" />
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
+		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/shadow-puppets" />
 	<meta itemprop="sameAs" content="https://music.apple.com/us/album/shadow-puppets/953109356" />
@@ -57,6 +58,8 @@
 <section id="discog_albuminfo" tabindex="-1">
     <div><img src="albums/sp.jpg" width="250" height="250" alt="Shadow Puppets (2005) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
  	<h1 itemprop="name">Shadow Puppets</h1>
+	<p itemprop="abstract"><em>Shadow Puppets is easily the band’s defining moment—a seamless amalgam of electronics, ethereal melodies and sensuous rhythms. The album is often very dynamic and anthemic, yet equally convincing when quiet and introspective. As always, Summer Bowman’s startlingly beautiful vocal performances flutter effortlessly with power and humble emotional softness, perfectly balancing the strength of the guitars, complex beats and synths. Together with Roger Fracé, the duo has composed a passionate album that transcends the darkwave genre.</em></p>
+
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">MPP975</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2005</span><br />full-length CD released <time datetime="2005-04" itemprop="datePublished">April 2005</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />

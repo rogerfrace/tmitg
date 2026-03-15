@@ -45,6 +45,7 @@
 		<meta itemprop="name" content="the Machine in the Garden" />
 		<meta itemprop="url" content="https://www.tmitg.com/" />
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
+		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/veils-and-shadows-ep" />
 	<meta itemprop="sameAs" content="https://music.apple.com/us/album/veils-and-shadows-ep/79330354" />

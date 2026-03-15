@@ -46,6 +46,7 @@
 		<meta itemprop="name" content="the Machine in the Garden" />
 		<meta itemprop="url" content="https://www.tmitg.com/" />
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
+		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/asphodel" />
 	<meta itemprop="sameAs" content="https://music.apple.com/us/album/asphodel/949296468" />
@@ -57,6 +58,8 @@
 <section id="discog_albuminfo" tabindex="-1">
     <div><img src="albums/asphodel.jpg" width="254" height="250" alt="Asphodel (2002) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Asphodel</h1>
+	<p itemprop="abstract"><em>the Machine in the Garden explore songs of love and desire, sorrow and despair, always searching for the quiet beauty underneath the darkness. Harmonious female vocals sit atop resonant guitar riffs and layered electronics.</em></p>
+
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">MPP986</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">2002</span><br />full-length CD released <time datetime="2002-06" itemprop="datePublished">June 2002</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />

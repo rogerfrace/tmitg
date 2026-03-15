@@ -45,6 +45,7 @@
 		<meta itemprop="name" content="the Machine in the Garden" />
 		<meta itemprop="url" content="https://www.tmitg.com/" />
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
+		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/places-in-between" />
 	<meta itemprop="sameAs" content="https://music.apple.com/us/album/places-in-between/1524569511" />
@@ -56,6 +57,7 @@
 <section id="discog_albuminfo" tabindex="-1">
 	<div><img src="albums/places.jpg" width="278" height="250" alt="Places in Between (2020) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Places in Between</h1>
+	<p itemprop="abstract"><em>Thirteen new songs exploring the variety of styles&mdash;from goth rock to electronic ethereal&mdash;the band is known for. Coming in at over an hour in length, &quot;Places in Between&quot; is chock full of epic electronics, sweeping guitars and shining vocals. The album has everything fans have come to appreciate about the Machine in the Garden in their nearly 30 year history, while still sounding elevated and modern.</em></p>
 
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-008-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2020</span><br />Digital Album released <time datetime="2020-07-10" itemprop="datePublished">10 July 2020</time></p>

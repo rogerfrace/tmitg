@@ -46,6 +46,7 @@
 		<meta itemprop="name" content="the Machine in the Garden" />
 		<meta itemprop="url" content="https://www.tmitg.com/" />
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
+		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/one-winters-night" />
 	<meta itemprop="sameAs" content="https://music.apple.com/us/album/one-winters-night/949294972" />
@@ -57,6 +58,8 @@
 <section id="discog_albuminfo" tabindex="-1">
     <div><img src="albums/winters.jpg" width="281" height="250" alt="One Winter's Night (1999) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">One Winter's Night&hellip;</h1>
+	<p itemprop="abstract"><em>This album hones the band’s sound in a more ethereal direction, merging intricate musical structures with emotional lyrics.</em></p>
+
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">MPP999</span>) <span itemprop="recordLabel">Middle Pillar Presents</span> &copy;<span itemprop="copyrightYear">1999</span><br />full-length CD released <time datetime="1999-05" itemprop="datePublished">May 1999</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />

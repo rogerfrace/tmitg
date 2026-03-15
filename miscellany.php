@@ -43,6 +43,7 @@
 		<meta itemprop="name" content="the Machine in the Garden" />
 		<meta itemprop="url" content="https://www.tmitg.com/" />
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
+		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/miscellany" />
 	<meta itemprop="genre" content="gothic" />
@@ -52,6 +53,8 @@
 <section id="discog_albuminfo" tabindex="-1">
 	<div><img src="albums/miscellany.jpg" alt="Miscellany (2014) compilation album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Miscellany</h1>
+	<p itemprop="abstract"><em>A collection of rare tracks including compilation appearances and other scarce material.</em></p>
+
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-006-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2014</span><br />rarities collection released <time datetime="2014-10-31" itemprop="datePublished">31 October 2014</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />

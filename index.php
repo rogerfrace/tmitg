@@ -54,7 +54,7 @@ require_once "functions.php";
 	<?php include_once "fontawesome.inc.php"; ?>
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 	<script src="tmitg.js"></script>
-	<script type="application/ld+json">{"@context": "https://schema.org","@type": "MusicGroup","@id": "https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0","name": "the Machine in the Garden","sameAs": ["https://www.tmitg.com", "https://tmitg.bandcamp.com", "https://www.facebook.com/tmitg", "https://bsky.app/profile/tmitg.bsky.social", "https://www.youtube.com/tmitg"],"foundingDate": "1992","genre": ["Gothic", "Dark Wave"],"member": [{"@type": "OrganizationRole","member": {"@type": "Person","name": "Roger Fracé"},"startDate": "1992","roleName": ["synthesizer","guitar","bass guitar","vocals"]},{"@type": "OrganizationRole","member": {"@type": "Person","name": "Summer Bowman"},"startDate": "1997","roleName": ["lead vocals","synthesizer","dulcimer","flute"]}]}</script>
+	<script type="application/ld+json">{"@context": "https://schema.org","@type": "MusicGroup","@id": "https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0","name": "the Machine in the Garden","sameAs": ["https://www.tmitg.com", "https://tmitg.bandcamp.com", "https://www.facebook.com/tmitg", "https://bsky.app/profile/tmitg.bsky.social", "https://www.youtube.com/tmitg"],"foundingDate": "1992","genre": ["Gothic", "Etherealwave", "Darkwave"],"member": [{"@type": "OrganizationRole","member": {"@type": "Person","name": "Roger Fracé"},"startDate": "1992","roleName": ["synthesizer","guitar","bass guitar","vocals"]},{"@type": "OrganizationRole","member": {"@type": "Person","name": "Summer Bowman"},"startDate": "1997","roleName": ["lead vocals","synthesizer","dulcimer","flute"]}]}</script>
 	<?php include_once "googletracking.html"; ?>
 </head>
 
@@ -118,7 +118,7 @@ require_once "functions.php";
 <main id="main">
 	<section aria-label="About tMitG">
 		<h2>About</h2>
-		<p class="notopmargin">The Machine in the Garden is an independent gothic/darkwave duo featuring Roger Frac&eacute; and Summer Bowman. Since their formation in the early 1990s, Roger and Summer have developed and advanced their unique style through years of collaborating and intertwining their musical tastes. The band has developed their own unique style and released eight full-length albums and one EP.</p>
+		<p class="notopmargin">The Machine in the Garden is an independent gothic/etherealwave duo featuring Roger Frac&eacute; and Summer Bowman. Since their formation in the early 1990s, Roger and Summer have developed and advanced their unique style through years of collaborating and intertwining their musical tastes. The band has developed their own unique style and released eight full-length albums and one EP.</p>
 	</section>
 
 	<section id="recentnews" aria-label="tMitG Recent News">

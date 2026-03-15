@@ -40,7 +40,7 @@
 
 <li><a href="shadowpuppets.php" title="Shadow Puppets (2005)"><img src="albums/spico.jpg" width="125" height="125" alt="Shadow Puppets (2005)"></a></li>
 
-<li><a href="asphodel.php" title="Asphodel (2003)"><img src="albums/asphodelico.jpg" width="125" height="127" alt="Asphodel (2003)"></a></li>
+<li><a href="asphodel.php" title="Asphodel (2002)"><img src="albums/asphodelico.jpg" width="125" height="127" alt="Asphodel (2002)"></a></li>
 
 <li><a href="wapfuu2.php" title="When Angels Peer Favorably Upon Us, Vol. 2 (2001)"><img src="albums/wapfuu2ico.jpg" width="125" height="125" alt="When Angels Peer Favorably Upon Us, Vol. 2 (2001)"></a></li>
 

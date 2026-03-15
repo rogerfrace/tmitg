@@ -58,7 +58,7 @@
 <section id="discog_albuminfo" tabindex="-1">
 	<div><img src="albums/baats.jpg" width="250" height="250" alt="Before and After the Storm (2011) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
 	<h1 itemprop="name">Before and After the Storm</h1>
-	<details itemprop="abstract" style="margin-bottom:1em;">
+	<details itemprop="abstract" style="margin:1em 0;">
 		<summary><em>The band's eighth studio album with eight new songs encompass the variety of styles&mdash;from goth rock to electronic ethereal&mdash;the band is known for.</em></summary>
 		<p><em>The name “Before and After the Storm” has several different meanings for the band, but ultimately it has to do with the interweaving of music and events from different times in life and how much even a single event can change that life. This is evident from the selection of songs, some of which have their roots in music begun many years ago combined with more recent creations.</em></p>
 		<p><em>This time differential is also evident in the influences for the songs, says Roger, “I wanted to draw heavily from old-school/classic groups in the genre&mdash;get back to some 'goth' roots&mdash;Swans, The Sisters of Mercy and Joy Division for example, but at the same time evolve those sounds into something current. But also newer artists such as Sarah Fimm and Emmalee Crane also played influential roles on other songs. Ultimately it came out sounding like tMitG, which is the point, really.”</em></p>

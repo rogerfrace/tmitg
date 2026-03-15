@@ -47,6 +47,9 @@
 		<meta itemprop="url" content="https://www.tmitg.com/" />
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
 	</span>
+	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/asphodel" />
+	<meta itemprop="sameAs" content="https://music.apple.com/us/album/asphodel/949296468" />
+	<meta itemprop="sameAs" content="https://www.amazon.com/Asphodel-Machine-Garden/dp/B00QPS0QPU/" />
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 

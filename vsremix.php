@@ -28,6 +28,7 @@
 		<meta itemprop="url" content="https://www.tmitg.com/" />
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
 	</span>
+	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/veils-and-shadows-remixes" />
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 

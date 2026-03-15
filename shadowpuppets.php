@@ -47,6 +47,9 @@
 		<meta itemprop="url" content="https://www.tmitg.com/" />
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
 	</span>
+	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/shadow-puppets" />
+	<meta itemprop="sameAs" content="https://music.apple.com/us/album/shadow-puppets/953109356" />
+	<meta itemprop="sameAs" content="https://www.amazon.com/Shadow-Puppets-Machine-Garden/dp/B00R7VKR2Q/" />
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 

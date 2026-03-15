@@ -47,6 +47,9 @@
 		<meta itemprop="url" content="https://www.tmitg.com/" />
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
 	</span>
+	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/xv" />
+	<meta itemprop="sameAs" content="https://music.apple.com/us/album/xv/271198571" />
+	<meta itemprop="sameAs" content="https://www.amazon.com/gp/product/B001A37ZXG/" />
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 

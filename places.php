@@ -46,6 +46,9 @@
 		<meta itemprop="url" content="https://www.tmitg.com/" />
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
 	</span>
+	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/places-in-between" />
+	<meta itemprop="sameAs" content="https://music.apple.com/us/album/places-in-between/1524569511" />
+	<meta itemprop="sameAs" content="https://www.amazon.com/Places-Between-Machine-Garden/dp/B08DDHDLBQ/" />
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 

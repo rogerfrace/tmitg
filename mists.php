@@ -47,6 +47,9 @@
 		<meta itemprop="url" content="https://www.tmitg.com/" />
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
 	</span>
+	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/out-of-the-mists" />
+	<meta itemprop="sameAs" content="https://music.apple.com/us/album/out-of-the-mists/949293646" />
+	<meta itemprop="sameAs" content="https://www.amazon.com/Out-Mists-Machine-Garden/dp/B00QPS2RRU/" />
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 

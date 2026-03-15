@@ -47,6 +47,9 @@
 		<meta itemprop="url" content="https://www.tmitg.com/" />
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
 	</span>
+	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/underworld" />
+	<meta itemprop="sameAs" content="https://music.apple.com/us/album/underworld/79330423" />
+	<meta itemprop="sameAs" content="https://www.amazon.com/Underworld-MacHine-Garden/dp/B0014EU0V0/" />
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 

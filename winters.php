@@ -47,6 +47,9 @@
 		<meta itemprop="url" content="https://www.tmitg.com/" />
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
 	</span>
+	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/one-winters-night" />
+	<meta itemprop="sameAs" content="https://music.apple.com/us/album/one-winters-night/949294972" />
+	<meta itemprop="sameAs" content="https://www.amazon.com/One-Winters-Night-Machine-Garden/dp/B00QPS002Y/" />
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 

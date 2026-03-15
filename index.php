@@ -69,11 +69,12 @@ require_once "functions.php";
 		],
 		"foundingDate": "1992",
 		"genre": ["Gothic", "Etherealwave", "Darkwave"],
+		"description": "The Machine in the Garden is an independent gothic/etherealwave duo formed in 1992, featuring Roger Fracé and Summer Bowman. Known for atmospheric darkwave and ethereal gothic rock, the band has released eight full-length albums and one EP.",
 		"image": "https://www.tmitg.com/photos/PiB-IMG_3840.jpg",
 		"album": [
 			{ "@type": "MusicAlbum", "name": "Places in Between", "url": "https://www.tmitg.com/places.php", "datePublished": "2020" },
-			{ "@type": "MusicAlbum", "name": "Before and After the Storm", "url": "https://www.tmitg.com/storm.php", "datePublished": "2011" }
-			{ "@type": "MusicAlbum", "name": "Shadow Puppets", "url": "https://www.tmitg.com/shadowpuppets.php", "datePublished": "2005" }
+			{ "@type": "MusicAlbum", "name": "Before and After the Storm", "url": "https://www.tmitg.com/storm.php", "datePublished": "2011" },
+			{ "@type": "MusicAlbum", "name": "Shadow Puppets", "url": "https://www.tmitg.com/shadowpuppets.php", "datePublished": "2005" },
 			{ "@type": "MusicAlbum", "name": "Underworld", "url": "https://www.tmitg.com/underworld.php", "datePublished": "1997" }
 		],
 		"member": [

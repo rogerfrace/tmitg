@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Cold Storm</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/places.php" />
 
+<h1 itemprop="name">Cold Storm</h1>
+
+<div itemprop="text">
 <p>Water vapor rises around me<br>
 Tendrils like fingers in my hair<br>
 Coiled around my head<br>
@@ -53,7 +61,7 @@ A cold storm burned</p>
 I see their figures in the mist<br>
 A shadow in bands of light<br>
 And then their eyes close</p>
-      
+</div>
 </main>
 </body>
 </html>

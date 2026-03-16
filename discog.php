@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - discography</title>
-	<meta name="description" content="the Machine in the Garden discography of releases and compilations.">
+	<meta name="description" content="Complete discography of the Machine in the Garden, including eight studio albums, one EP, and compilation appearances from 1994 to present.">
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
 	<?php include_once "headers-additional.php"; ?>

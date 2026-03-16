@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<title>the Machine in the Garden - mind/body 3</title>
+	<title>the Machine in the Garden - mind/body³</title>
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>
@@ -25,7 +25,7 @@
 <!-- this is the display table for the CD and info -->
 <div id="discog_albuminfo" tabindex="-1">
 	<img src="albums/mindbody.jpg" alt="Mind Body" width="250" height="250">
-	<h1>mind/body<sup>3</sup></h1>
+	<h1>mind/body&sup3;</h1>
 	<p class="notopmargin">(DIY 2-3) &copy;1995<br>
 	out-of-print</p>
 </div> <!-- end album info div -->

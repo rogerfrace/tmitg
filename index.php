@@ -65,7 +65,10 @@ require_once "functions.php";
 			"https://tmitg.bandcamp.com",
 			"https://www.facebook.com/tmitg",
 			"https://bsky.app/profile/tmitg.bsky.social",
-			"https://www.youtube.com/tmitg"
+			"https://www.youtube.com/tmitg",
+			"https://music.apple.com/us/artist/the-machine-in-the-garden/5985533",
+			"https://www.amazon.com/music/player/artists/B000QK6ULW/the-machine-in-the-garden",
+			"https://www.discogs.com/artist/120399-The-Machine-In-The-Garden"
 		],
 		"foundingDate": "1992",
 		"genre": ["Gothic", "Etherealwave", "Darkwave"],

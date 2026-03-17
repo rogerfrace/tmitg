@@ -16,20 +16,20 @@
 
 <h1>Policies</h1>
 
-<small>Last updated <time>2023-04-06</time></small>
+<small>Last updated <time>2026-03-17</time></small>
 
 <h2>Return Policy</h2>
 <p>Unopened CDs may be returned within 30 days for a full refund less shipping. Shipping charges are not refundable. Opened CDs may only be returned in the event of a defective CD. If your CD is defective, we will pay return shipping and we will pay to ship a new CD to you.</p>
 
 <h2>Shipping Policy</h2>
 <p>We generally ship orders within 5 business days.</p>
-<p>Shipping prices for a single CD in the United States (As of January 2023):
-<br>First Class Mail - $5.60</p>
+<p>Shipping prices for a single CD in the United States (As of January 2026):
+<br>First Class Mail - $8.75</p>
 
 <h2>Privacy Policy</h2>
 
 <h3>Cookies</h3>
-<p>Session cookies may be used on the site to accommodate site functionality. Third-party widgets and iframes may introduce their own cookies as well, including but not limited to Facebook, X/Twitter, Bluesky, and YouTube.</p>
+<p>Session cookies may be used on the site to accommodate site functionality. Third-party widgets and iframes may introduce their own cookies as well, including but not limited to Facebook, Bluesky, and YouTube.</p>
 
 <h3>Tracking</h3>
 Tracking cookies, including but not limited to Google Analytics, are used for traffic analytics purposes. Google Analytics is disabled if your browser&apos;s <q>Do Not Track</q> setting is on.

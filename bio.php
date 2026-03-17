@@ -36,7 +36,7 @@
 
 <hr>
 
-<small>the Machine in the Garden&reg; is a registered trademark of Summer and Roger Frace.</small>
+<small>the Machine in the Garden&reg; is a registered trademark.</small>
 
 </div> <!-- /twocols -->
 

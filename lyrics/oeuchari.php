@@ -10,12 +10,20 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1 lang="la">O Euchari</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Hildegard von Bingen" />
+  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/Hildegard_of_Bingen" />
+</span>
+<meta itemprop="inLanguage" content="la" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/places.php" />
+
+<h1 itemprop="name" lang="la">O Euchari</h1>
 
 <p><em>Words by Hildegard von Bingen</em></p>
 
+<div itemprop="text">
 <p lang="la">O Euchari,<br>
 in leta via ambulasti<br>
 ubi cum Filio Dei mansisti,<br>
@@ -39,7 +47,7 @@ valde beatus fuisti<br>
 cum Verbum Dei te in igne columbe imbuit,<br>
 ubi tu quasi aurora illuminatus es,<br>
 et sic fundamentum ecclesie edificasti.</p>
-      
+</div>
 </main>
 </body>
 </html>

@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Resist</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/places.php" />
 
+<h1 itemprop="name">Resist</h1>
+
+<div itemprop="text">
 <p>There are no signs in the sky tonight<br>
 Nothing in the air to suggest the time<br>
 Is close at hand for a change<br>
@@ -48,7 +56,7 @@ Will all hope be lost?</p>
 A time to fight back<br>
 Their roots are deep<br>
 Nevertheless, we will persist</p>
-      
+</div>
 </main>
 </body>
 </html>

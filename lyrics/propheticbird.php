@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Prophetic Bird</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/places.php" />
 
+<h1 itemprop="name">Prophetic Bird</h1>
+
+<div itemprop="text">
 <p>Let me tell you of a time in the distant past<br>
 Of a girl and a bird with knowledge vast<br>
 She who knows all of beast and man<br>
@@ -52,7 +60,7 @@ Wings and feathers, in the ground, crushed</p>
 
 <p>Gamayun, won't you sing your tune?<br>
 Beautiful, prophetic bird</p>
-      
+</div>
 </main>
 </body>
 </html>

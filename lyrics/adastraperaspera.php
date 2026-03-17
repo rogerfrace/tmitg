@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1 lang="la">Ad Astra Per Aspera</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/places.php" />
 
+<h1 itemprop="name" lang="la">Ad Astra Per Aspera</h1>
+
+<div itemprop="text">
 <p>We're so lost<br>
 And never found<br>
 We live in wait<br>
@@ -44,7 +52,7 @@ And dust we are</p>
 
 <p lang="la">Ad astra per aspera, <span lang="en">I will find you</span><br>
 Mors ultima linea rerum est</p>
-      
+</div>
 </main>
 </body>
 </html>

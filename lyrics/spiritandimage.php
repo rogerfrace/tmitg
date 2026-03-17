@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Spirit and Image</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/places.php" />
 
+<h1 itemprop="name">Spirit and Image</h1>
+
+<div itemprop="text">
 <p>Spending time flying standby<br>
 Through places where life and time are still<br>
 There's a light I find<br>
@@ -46,7 +54,7 @@ It doesn't matter what they claim<br>
 This is what I choose to be<br>
 A phantom exposed within<br>
 Peels away opposing power</p>
-      
+</div>
 </main>
 </body>
 </html>

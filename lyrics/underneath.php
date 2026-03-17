@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Underneath</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/places.php" />
 
+<h1 itemprop="name">Underneath</h1>
+
+<div itemprop="text">
 <p>We reach through history<br>
 Only to believe what we are told<br>
 There must be some mystery<br>
@@ -29,7 +37,7 @@ Beyond what we know</p>
 Than the one that I have come to know<br>
 There is some other way<br>
 Something else to show</p>
-      
+</div>
 </main>
 </body>
 </html>

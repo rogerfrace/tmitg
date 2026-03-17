@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Find a Way</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/places.php" />
 
+<h1 itemprop="name">Find a Way</h1>
+
+<div itemprop="text">
 <p>Every deed is on us<br>
 Carry on with every thought<br>
 Somehow we find the strength<br>
@@ -41,7 +49,7 @@ Find a way</p>
 
 <p>Float away<br>
 We'll find our way</p>
-      
+</div>
 </main>
 </body>
 </html>

@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Beyond</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/places.php" />
 
+<h1 itemprop="name">Beyond</h1>
+
+<div itemprop="text">
 <p>Come in, we've been waiting</p>
 
 <p>A circle of life and love and death<br>
@@ -51,7 +59,7 @@ Secure within the space<br>
 I swim out beyond</p>
 
 Beyond&hellip;</p>
-      
+</div>
 </main>
 </body>
 </html>

@@ -49,6 +49,7 @@
 		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/shadow-puppets" />
+	<meta itemprop="sameAs" content="https://www.discogs.com/release/952655-The-Machine-In-The-Garden-Shadow-Puppets" />
 	<meta itemprop="sameAs" content="https://music.apple.com/us/album/shadow-puppets/953109356" />
 	<meta itemprop="sameAs" content="https://www.amazon.com/Shadow-Puppets-Machine-Garden/dp/B00R7VKR2Q/" />
 	<meta itemprop="genre" content="gothic" />

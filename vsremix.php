@@ -29,6 +29,7 @@
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/veils-and-shadows-remixes" />
+	<meta itemprop="sameAs" content="https://www.discogs.com/release/6790683-The-Machine-In-The-Garden-Veils-And-Shadows-Remixes" />
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 

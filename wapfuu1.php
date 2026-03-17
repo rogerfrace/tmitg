@@ -28,6 +28,7 @@
 		<meta itemprop="url" content="https://www.tmitg.com/" />
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
 	</span>
+	<meta itemprop="sameAs" content="https://www.discogs.com/release/1471900-The-Machine-In-The-Garden-When-Angels-Peer-Favorably-Upon-Us-A-Retrospective-Collection-Volume-One" />
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 

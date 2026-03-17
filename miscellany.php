@@ -46,6 +46,7 @@
 		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/miscellany" />
+	<meta itemprop="sameAs" content="https://www.discogs.com/release/6611468-The-Machine-In-The-Garden-Miscellany" />
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 

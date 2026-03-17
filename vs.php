@@ -48,6 +48,7 @@
 		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/veils-and-shadows-ep" />
+	<meta itemprop="sameAs" content="https://www.discogs.com/master/51250-The-Machine-In-The-Garden-Veils-And-Shadows-EP" />
 	<meta itemprop="sameAs" content="https://music.apple.com/us/album/veils-and-shadows-ep/79330354" />
 	<meta itemprop="sameAs" content="https://www.amazon.com/gp/product/B0014HUIV4/" />
 	<meta itemprop="genre" content="gothic" />

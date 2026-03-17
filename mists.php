@@ -49,6 +49,7 @@
 		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/out-of-the-mists" />
+	<meta itemprop="sameAs" content="https://www.discogs.com/release/952644-The-Machine-In-The-Garden-Out-Of-The-Mists" />
 	<meta itemprop="sameAs" content="https://music.apple.com/us/album/out-of-the-mists/949293646" />
 	<meta itemprop="sameAs" content="https://www.amazon.com/Out-Mists-Machine-Garden/dp/B00QPS2RRU/" />
 	<meta itemprop="genre" content="gothic" />

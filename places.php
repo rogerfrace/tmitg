@@ -48,6 +48,7 @@
 		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/places-in-between" />
+	<meta itemprop="sameAs" content="https://www.discogs.com/master/1776278-The-Machine-In-The-Garden-Places-In-Between" />
 	<meta itemprop="sameAs" content="https://music.apple.com/us/album/places-in-between/1524569511" />
 	<meta itemprop="sameAs" content="https://www.amazon.com/Places-Between-Machine-Garden/dp/B08DDHDLBQ/" />
 	<meta itemprop="genre" content="gothic" />

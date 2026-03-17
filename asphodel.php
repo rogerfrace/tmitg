@@ -49,6 +49,7 @@
 		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/asphodel" />
+	<meta itemprop="sameAs" content="https://www.discogs.com/master/1834288-The-Machine-In-The-Garden-Asphodel" />
 	<meta itemprop="sameAs" content="https://music.apple.com/us/album/asphodel/949296468" />
 	<meta itemprop="sameAs" content="https://www.amazon.com/Asphodel-Machine-Garden/dp/B00QPS0QPU/" />
 	<meta itemprop="genre" content="gothic" />

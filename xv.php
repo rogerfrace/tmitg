@@ -49,6 +49,7 @@
 		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/xv" />
+	<meta itemprop="sameAs" content="https://www.discogs.com/release/1138709-The-Machine-In-The-Garden-XV" />
 	<meta itemprop="sameAs" content="https://music.apple.com/us/album/xv/271198571" />
 	<meta itemprop="sameAs" content="https://www.amazon.com/gp/product/B001A37ZXG/" />
 	<meta itemprop="genre" content="gothic" />

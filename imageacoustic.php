@@ -45,6 +45,7 @@
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/track/image-acoustic" />
+	<meta itemprop="sameAs" content="https://www.discogs.com/release/16164158-The-Machine-In-The-Garden-Image-Acoustic" />
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 

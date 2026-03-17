@@ -46,6 +46,7 @@
 		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/in-the-vanir" />
+	<meta itemprop="sameAs" content="https://www.discogs.com/release/2590664-The-Machine-In-The-Garden-In-The-Vanir" />
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 

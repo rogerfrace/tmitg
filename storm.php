@@ -49,6 +49,7 @@
 		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/before-and-after-the-storm" />
+	<meta itemprop="sameAs" content="https://www.discogs.com/master/353821-The-Machine-In-The-Garden-Before-And-After-The-Storm" />
 	<meta itemprop="sameAs" content="https://music.apple.com/us/album/before-and-after-the-storm/1526953369" />
 	<meta itemprop="sameAs" content="https://www.amazon.com/Before-After-Storm-Machine-Garden/dp/B08FGGH5PC/" />
 	<meta itemprop="genre" content="gothic" />

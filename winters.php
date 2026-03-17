@@ -49,6 +49,7 @@
 		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/one-winters-night" />
+	<meta itemprop="sameAs" content="https://www.discogs.com/release/199948-The-Machine-In-The-Garden-One-Winters-Night" />
 	<meta itemprop="sameAs" content="https://music.apple.com/us/album/one-winters-night/949294972" />
 	<meta itemprop="sameAs" content="https://www.amazon.com/One-Winters-Night-Machine-Garden/dp/B00QPS002Y/" />
 	<meta itemprop="genre" content="gothic" />

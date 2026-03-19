@@ -19,9 +19,14 @@
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once "headers-additional.php"; ?>
 	<script>
-		$(document).ready(function(){
+		jQuery(document).ready(function(){
+		jQuery(document).ready(function(){
+			if (typeof jQuery.colorbox === 'undefined') {
+				console.error('Colorbox not loaded');
+				return; // or handle gracefully
+			}
 			// from https://stackoverflow.com/questions/16553075/colorbox-add-alt-text-to-gallery-images
-			$.colorbox.settings.createImg = function(){
+			jQuery.colorbox.settings.createImg = function(){
 				var img = new Image();
 				var alt = $(this).attr('data-alt');
 				var title = $(this).attr('data-title');
@@ -34,7 +39,7 @@
 				}
 				return img;
 			};
-			$(".imglink").colorbox({rel:'gallery', transition:"fade", width:"75%", height:"75%"});
+			jQuery(".imglink").colorbox({rel:'gallery', transition:"fade", width:"75%", height:"75%"});
 		});
 	</script>
 </head>

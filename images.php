@@ -10,6 +10,10 @@
 	<?php include_once "headers-additional.php"; ?>
 	<script>
 		jQuery(document).ready(function(){
+			if (typeof jQuery.colorbox === 'undefined') {
+				console.error('Colorbox not loaded');
+				return; // or handle gracefully
+			}
 			// from https://stackoverflow.com/questions/16553075/colorbox-add-alt-text-to-gallery-images
 			jQuery.colorbox.settings.createImg = function(){
 				var img = new Image();

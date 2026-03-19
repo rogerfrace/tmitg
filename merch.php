@@ -20,7 +20,6 @@
 	<?php include_once "headers-additional.php"; ?>
 	<script>
 		jQuery(document).ready(function(){
-		jQuery(document).ready(function(){
 			if (typeof jQuery.colorbox === 'undefined') {
 				console.error('Colorbox not loaded');
 				return; // or handle gracefully

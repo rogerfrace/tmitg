@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Time</h1> 
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/asphodel.php" />
 
+<h1 itemprop="name">Time</h1> 
+
+<div itemprop="text">
 <p>something that never happened<br>
 if it hadn't begun<br>
 this terrible feeling<br>
@@ -24,7 +32,7 @@ the future's lost in the distance<br>
 never knowing their names<br>
 and inside my mind<br>
 the passing of time</p>
-      
+</div>
 </main>
 </body>
 </html>

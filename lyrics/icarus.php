@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Icarus</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/asphodel.php" />
 
+<h1 itemprop="name">Icarus</h1>
+
+<div itemprop="text">
 <p>it's out of my control<br>
 what you find follows<br>
 something set in motion<br>
@@ -28,7 +36,7 @@ you can't ever correct</p>
 fly above<br>
 take me away<br>
 far from here</p>
-      
+</div>
 </main>
 </body>
 </html>

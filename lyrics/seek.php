@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Seek</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/asphodel.php" />
 
+<h1 itemprop="name">Seek</h1>
+
+<div itemprop="text">
 <p>being within the outside<br>
 in a voice of my own<br>
 to truly have a place<br>
@@ -34,7 +42,7 @@ I seek you</p>
 do they think I can't<br>
 hear them whispering?<br>
 they stare at me</p>
-      
+</div>
 </main>
 </body>
 </html>

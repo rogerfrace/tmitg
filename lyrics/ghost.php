@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Ghost</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/asphodel.php" />
 
+<h1 itemprop="name">Ghost</h1>
+
+<div itemprop="text">
 <p>do you see the brightness of the earth?<br>
 and do you see the way I'm fading?<br>
 I am the bird and she is within me<br>
@@ -39,7 +47,7 @@ taking me far from my place<br>
 taking me close to the end of space<br>
 can you feel me?<br>
 feel me</p>
-      
+</div>
 </main>
 </body>
 </html>

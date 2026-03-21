@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Open</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/asphodel.php" />
 
+<h1 itemprop="name">Open</h1>
+
+<div itemprop="text">
 <p>I am a million hues of shade<br>
 a tide within me<br>
 a life will change meaning<br>
@@ -28,7 +36,7 @@ I see</p>
 suspending time<br>
 these things within the weary <br>
 to drown within me</p>
-      
+</div>
 </main>
 </body>
 </html>

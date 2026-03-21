@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Clarity</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/asphodel.php" />
 
+<h1 itemprop="name">Clarity</h1>
+
+<div itemprop="text">
 <p>it's difficult to see where you're going<br>
 when the rains come with no warning<br>
 my eyes are all blurry<br>
@@ -28,7 +36,7 @@ release me</p>
 it won't stop if you ask it to<br>
 you can't think it away<br>
 cleansed or confused</p>
-      
+</div>
 </main>
 </body>
 </html>

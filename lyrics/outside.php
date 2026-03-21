@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Outside</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/asphodel.php" />
 
+<h1 itemprop="name">Outside</h1>
+
+<div itemprop="text">
 <p>will I ever be there?<br>
 will they ever care?</p>
 
@@ -45,7 +53,7 @@ through to my senses</p>
 <p>these games they play<br>
 I'm on the outside<br>
 I feel so far away</p>
-      
+</div>
 </main>
 </body>
 </html>

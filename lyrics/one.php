@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>One</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/asphodel.php" />
 
+<h1 itemprop="name">One</h1>
+
+<div itemprop="text">
 <p>Go wherever you are from<br>
 Beneath the skin of the waves<br>
 You have come from the waters<br>
@@ -33,7 +41,7 @@ Hide your face</p>
 Things are around you<br>
 Don't let that slip away<br>
 Why not hold on?</p>
-      
+</div>
 </main>
 </body>
 </html>

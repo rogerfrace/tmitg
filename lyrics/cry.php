@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Cry</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/asphodel.php" />
 
+<h1 itemprop="name">Cry</h1>
+
+<div itemprop="text">
 <p>I cry for the things you know<br>
 the things that you must say</p>
 
@@ -26,7 +34,7 @@ and all I can do is cry</p>
 places we will never go<br>
 feelings we won't encounter<br>
 lives we don't want to live</p>
-      
+</div>
 </main>
 </body>
 </html>

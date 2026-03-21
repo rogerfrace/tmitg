@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Cimmerian</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/storm.php" />
 
+<h1 itemprop="name">Cimmerian</h1>
+
+<div itemprop="text">
 <p>down<br>
 a dance <br>
 a dream<br>
@@ -60,7 +68,7 @@ and sunlit days of reverie</p>
 pensive, musing and wise<br>
 distracted by the air and wind<br>
 the beauty of the light</p>
-
+</div>
 </main>
 </body>
 </html>

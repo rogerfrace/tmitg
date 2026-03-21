@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>The Piano</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/storm.php" />
 
+<h1 itemprop="name">The Piano</h1>
+
+<div itemprop="text">
 <p>on the darkened stage<br>
 he takes his place<br>
 black and white<br>
@@ -43,7 +51,7 @@ and takes his leave</p>
 something more than truth<br>
 across the boards<br>
 where memories lie</p>
-
+</div>
 </main>
 </body>
 </html>

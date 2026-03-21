@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Mending the Sky</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/storm.php" />
 
+<h1 itemprop="name">Mending the Sky</h1>
+
+<div itemprop="text">
 <p>nvwa, nvwa<br>
 ancestor of mine<br>
 mending the sky<br>
@@ -38,7 +46,7 @@ the burnt reeds turn to ash<br>
 blocking the flood<br>
 conquer our fear<br>
 as we live in peace</p>
-
+</div>
 </main>
 </body>
 </html>

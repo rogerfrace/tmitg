@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Power and Prophesy</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/storm.php" />
 
+<h1 itemprop="name">Power and Prophesy</h1>
+
+<div itemprop="text">
 <p>glimmer of the metal below<br>
 flesh in virtue forgotten<br>
 what once was joy now<br>
@@ -26,7 +34,7 @@ the art of power and prophesy</p>
 ownership of feelings lost<br>
 those we strike, hit harder<br>
 until we have no control</p>
-
+</div>
 </main>
 </body>
 </html>

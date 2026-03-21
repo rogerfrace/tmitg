@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Scathefire</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/storm.php" />
 
+<h1 itemprop="name">Scathefire</h1>
+
+<div itemprop="text">
 <p>kindled within the waters<br>
 beneath the highest heaven<br>
 mighty and wise<br>
@@ -43,7 +51,7 @@ in the thunder of heaven</p>
 
 <p><em>charioteer, sacrifice<br>
 two origins, two births</em></p>
-
+</div>
 </main>
 </body>
 </html>

@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Metallic</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/storm.php" />
 
+<h1 itemprop="name">Metallic</h1>
+
+<div itemprop="text">
 <p>resonant and high<br>
 sounds of the leaden<br>
 deep within the core<br>
@@ -41,7 +49,7 @@ future crash</em></p>
 <p>spiraling mass of beautiful momentum<br>
 approaching abstracted time<br>
 prospect of destiny hereafter</p>
-
+</div>
 </main>
 </body>
 </html>

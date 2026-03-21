@@ -141,12 +141,6 @@ $lyricsfile and videoname do not include .html
 
 <section aria-labelledby="reviews">	
 	<h2 id="reviews" tabindex="-1">Reviews of <i>Before and After the Storm</i>:</h2>
-	<div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-		<meta itemprop="ratingValue" content="4.08" />
-		<meta itemprop="bestRating" content="5" />
-		<meta itemprop="ratingCount" content="3">
-		<meta itemprop="reviewCount" content="7">
-	</div>
 	<div class="revcontent">
 
 <blockquote cite="http://graveconcernsezine.com/reviews/cd-reviews/ethereal/3070-the-machine-in-the-garden-before-and-after-the-storm.html#.Tg9lS5wKw8c.twitter" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">

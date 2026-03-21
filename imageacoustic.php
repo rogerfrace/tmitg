@@ -105,7 +105,7 @@ $lyricsfile and videoname do not include .html
 <div itemprop="reviewBody">
 <p>Lorem ipsum</p>
 </div>
-<p>-<span itemprop="author">Rik</span>, <a href="http://pingthings.blogspot.com/2011/01/top-ten-for-2010.html" target="_blank"><span itemprop="publication">Ping Things</span></a></p>
+<p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Rik</span></span>, <a href="http://pingthings.blogspot.com/2011/01/top-ten-for-2010.html" target="_blank"><span itemprop="publisher">Ping Things</span></a></p>
 </blockquote>
 
 	</div> <!-- /revcontent -->

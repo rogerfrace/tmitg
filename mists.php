@@ -123,9 +123,6 @@ $lyricsfile and videoname do not include .html
 
 <section aria-labelledby="reviews">	
 	<h2 id="reviews" tabindex="-1">Reviews of <i>Out of the Mists</i>:</h2>
-	<div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-		<meta itemprop="reviewCount" content="1">
-	</div>
 	<div class="revcontent">
 
 <blockquote cite="http://music.gothic.ru/review/07-03-01_e.htm" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
@@ -136,7 +133,7 @@ $lyricsfile and videoname do not include .html
 <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
 	<meta itemprop="worstRating" content = "1">
 	Rating: <span itemprop="ratingValue">5</span><meta itemprop="bestRating" content="5" /></div>
-<p>-<span itemprop="author">coroner</span>, <a href="http://music.gothic.ru/review/07-03-01_e.htm" target="_blank"><span itemprop="publication">Russian Gothic Page</a></p>
+<p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">coroner</span></span>, <a href="http://music.gothic.ru/review/07-03-01_e.htm" target="_blank"><span itemprop="publisher">Russian Gothic Page</a></p>
 </blockquote>
 
 	</div> <!-- /revcontent -->

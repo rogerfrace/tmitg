@@ -124,9 +124,6 @@ $lyricsfile and videoname do not include .html
 	
 <section aria-labelledby="reviews">	
 	<h2 id="reviews" tabindex="-1">Reviews of <i>One Winter's Night&hellip;</i>:</h2>
-	<div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-		<meta itemprop="reviewCount" content="1">
-	</div>
 	<div class="revcontent">
 
 <blockquote cite="http://www.sortedmagazine.com/archive/magazine/sordid/aug99.htm#winters" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
@@ -136,7 +133,7 @@ $lyricsfile and videoname do not include .html
 <p>'Lost In Side' is more Gothic &mdash; slow, intense and moody, before they mix the classical Latin choral singing of 'Misere Mei' with a big bass drumbeat. The classical influence carries into the piano-based 'Fear No More' with lyrics based on some of Shakespeare's work. 'Ex Oblivione' flirts with tackiness &mdash; theelectro sound could easily be the soundtrack to a tacky slasher flick and the words are inspired by H.P. Lovecraft story, but the richness of the vocals prevents it from actually sounding tacky. 'The Sleep of Angels' is the first song to feature Roger's vocals as lead, and the harmonic effect of his drone with Summer's up-lifting singing works perfectly with the powerful militaristic percussion. The next three tracks are fairly straightforward classically-influenced atmospheric music with mellow ethereal vocals, before the Gothic 'Midnight' throws a discordant curve into the proceedings.</p>
 <p>Finally, the Machine in the Garden go deliciously pretentious, creating a neo-classical composition of Aeschylus' 'Io's Departure' that climaxes in a thunderous explosion of rhythm. tMitG are, without doubt, one of the most important bands in the atmospheric scene, because they refuse to stay there. Instead they load their music with innumerable stylistic reference points and influences. This more focussed release will only serve to cement their position as one of Goth's most experimental and challenging bands.</p>
 </div>
-<p>-<span itemprop="author"><a href="http://www.sortedmagazine.com/archive/magazine/sordid/aug99.htm#winters" target="_blank"><span itemprop="publication">Sorted Magazine</span></a></span></p>
+<p>-<span itemprop="author"><a href="http://www.sortedmagazine.com/archive/magazine/sordid/aug99.htm#winters" target="_blank"><span itemprop="publisher">Sorted Magazine</span></a></span></p>
 </blockquote>
 
 	</div> <!-- /revcontent -->

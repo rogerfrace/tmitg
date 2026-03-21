@@ -139,9 +139,6 @@ $lyricsfile and videoname do not include .html
 
 <section aria-labelledby="reviews">	
 	<h2 id="reviews" tabindex="-1">Reviews of <i>Asphodel</i>:</h2>
-	<div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-		<meta itemprop="reviewCount" content="2">
-	</div>
 	<div class="revcontent">
 
 <blockquote cite="http://www.gothicparadise.com/tmitg.htm#rev1" class="review" itemprop="reviews" itemscope itemtype="https://schema.org/Review">
@@ -158,7 +155,7 @@ $lyricsfile and videoname do not include .html
 <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
 	<meta itemprop="worstRating" content = "1">
 	Rating: <span itemprop="ratingValue">4</span>/<span itemprop="bestRating">5</span></div>
-<p>-<span itemprop="author"><a href="http://www.gothicparadise.com/tmitg.htm#rev1" target="_blank"><span itemprop="publication">Gothic Paradise</span></a></span></p>
+<p>-<span itemprop="author"><a href="http://www.gothicparadise.com/tmitg.htm#rev1" target="_blank"><span itemprop="publisher">Gothic Paradise</span></a></span></p>
 </blockquote>
 
 <hr style="width:50%;" />
@@ -190,7 +187,7 @@ $lyricsfile and videoname do not include .html
 
 <p>Despite&rsquo;s its occasional lulls <i>Asphodel</i> is a standout album. There are a lot of songs here, the variation between them being dangerously delicate and subtle. You really have to listen to the album as a whole to truly appreciate it. Though there are fourteen tracks, things move along quickly, as most songs rarely pass the comfortable &lsquo;radio friendly&rsquo; (ha!) three-minute mark. The Machine In The Garden utilize synthetics and electronics in a way that is more thought-provoking and emotionally striking &mdash; they are true Darkwave at it&rsquo;s finest, and if you are a devotee of the danceable gloom spun from the black hearts of acts like Malign, Wench, Attrition, and SubVersion, this will definitely tickle your neglected fancy, as well as put a fresh spin on a familiar and time-tested formula.</p>
 </div>
-<p>-<span itemprop="author">Matthew Heilman</span>, <a href="http://www.starvox.net/crypt/3august2.htm" target="_blank"><span itemprop="publication">Starvox</span></a></p>
+<p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Matthew Heilman</span></span>, <a href="http://www.starvox.net/crypt/3august2.htm" target="_blank"><span itemprop="publisher">Starvox</span></a></p>
 </blockquote>
 
 	</div> <!-- /revcontent -->

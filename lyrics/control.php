@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Control</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/winters.php" />
 
+<h1 itemprop="name">Control</h1>
+
+<div itemprop="text">
 <p>walk through the door<br>
 into her night time orb<br>
 leading light away from you<br>
@@ -35,7 +43,7 @@ unfeeling of emotion<br>
 she will smother and encompass you<br>
 don't run away<br>
 you cannot hide</p>
-      
+</div>
 </main>
 </body>
 </html>

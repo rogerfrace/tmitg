@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>The Sleep of Angels</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Roger Fracé" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/177536-Roger-Frac%C3%A9" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/winters.php" />
 
+<h1 itemprop="name">The Sleep of Angels</h1>
+
+<div itemprop="text">
 <p>the sleep of angels in your arms<br>
 views from the gardens do no wrong<br>
 in each others eyes never come to harm<br>
@@ -28,7 +36,7 @@ evening peace as evening falls</p>
 a view cascaded with its leaves<br>
 the dearest rose the prince of peace<br>
 petals floating in the evening breeze</p>
-      
+</div>
 </main>
 </body>
 </html>

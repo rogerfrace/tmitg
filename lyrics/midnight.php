@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Midnight</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/winters.php" />
 
+<h1 itemprop="name">Midnight</h1>
+
+<div itemprop="text">
 <p>glistening in the snow<br>
 the world carries on<br>
 now I find the time has come<br>
@@ -43,7 +51,7 @@ you know they are the last</p>
 now has come<br>
 to put the world in motion<br>
 tonight it must be done</p>
-      
+</div>
 </main>
 </body>
 </html>

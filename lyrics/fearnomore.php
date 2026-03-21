@@ -10,12 +10,21 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Fear No More</h1> 
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="William Shakespeare" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/348179-William-Shakespeare" />
+  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/William_Shakespeare" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/winters.php" />
+
+<h1 itemprop="name">Fear No More</h1> 
 
 <p><em>Words from <u>Cymbeline</u> by Shakespeare, adapted by Summer Bowman</em></p>
 
+<div itemprop="text">
 <p>fear no more the heat 'o the sun<br>
 nor the furious winters rages<br>
 thou thy worldly task hast done<br>
@@ -38,7 +47,7 @@ nothing ill come near thee!</p>
 <p>quiet consummation have<br>
 and renowned be thy grave!<br>
 thy grave&hellip;</p>
-      
+</div>
 </main>
 </body>
 </html>

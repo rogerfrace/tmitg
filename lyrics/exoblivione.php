@@ -10,12 +10,20 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1 lang="la">Ex Oblivione</h1> 
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/winters.php" />
+
+<h1 itemprop="name" lang="la">Ex Oblivione</h1> 
 
 <p><em>inspired by the short story of the same name by H.P. Lovecraft</em></p>
 
+<div itemprop="text">
 <p>these are my last days<br>
 my last dreams<br>
 unfamiliar stars shine<br>
@@ -50,7 +58,7 @@ I pass into the space</p>
 being with no one<br>
 these are my last days<br>
 my last dreams</p>
-      
+</div>
 </main>
 </body>
 </html>

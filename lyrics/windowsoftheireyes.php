@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Windows of Their Eyes</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/winters.php" />
 
+<h1 itemprop="name">Windows of Their Eyes</h1>
+
+<div itemprop="text">
 <p>see the petals<br>
 in the windows<br>
 of their eyes<br>
@@ -33,7 +41,7 @@ I see nothing but the stars</p>
 stars fade<br>
 clouds covering<br>
 my sky</p>
-      
+</div>
 </main>
 </body>
 </html>

@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>These Illusions</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/winters.php" />
 
+<h1 itemprop="name">These Illusions</h1>
+
+<div itemprop="text">
 <p>in the shadows of the night<br>
 illusions show<br>
 the reflection of a voice<br>
@@ -52,7 +60,7 @@ all the time</p>
 far out of site<br>
 can't leave it now<br>
 the oceans flow inside</p>
-      
+</div>
 </main>
 </body>
 </html>

@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Lullaby</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/winters.php" />
 
+<h1 itemprop="name">Lullaby</h1>
+
+<div itemprop="text">
 <p>in quiet and rest<br>
 calm and content<br>
 let the night circle and fall<br>
@@ -29,7 +37,7 @@ and in your mind<br>
 gentle dreams<br>
 will brush against your thoughts<br>
 and love will soothe your soul</p>
-      
+</div>
 </main>
 </body>
 </html>

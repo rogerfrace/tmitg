@@ -10,12 +10,20 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Lost in Side</h1> 
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="John McDonagh" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/843532-John-McDonagh" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/winters.php" />
+
+<h1 itemprop="name">Lost in Side</h1> 
 
 <p><em>words by John McDonagh</em></p>
 
+<div itemprop="text">
 <p>dreams of self in the darkening light<br>
 a lingering scent of eternal night<br>
 wolves howl long and the people scream<br>
@@ -35,7 +43,7 @@ images of love keep me away</p>
 there's nothing left of my emotion<br>
 a lost embrace within my mind<br>
 thoughts so bright my eyes go blind</p>
-      
+</div>
 </main>
 </body>
 </html>

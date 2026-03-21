@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Everything Alone</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/winters.php" />
 
+<h1 itemprop="name">Everything Alone</h1>
+
+<div itemprop="text">
 <p>she said that I could not have<br>
 all the things I wanted<br>
 and in the end I found<br>
@@ -34,7 +42,7 @@ does it really matter<br>
 what things we take with us<br>
 to be alone with everything<br>
 is to be alone&hellip;</p>
-      
+</div>
 </main>
 </body>
 </html>

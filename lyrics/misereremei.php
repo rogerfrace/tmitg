@@ -10,17 +10,26 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1 lang="la">Miserere Mei</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Antonio Lotti" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/840465-Antonio-Lotti" />
+  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/Antonio_Lotti" />
+</span>
+<meta itemprop="inLanguage" content="la" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/winters.php" />
 
+<h1 itemprop="name" lang="la">Miserere Mei</h1>
+
+<div itemprop="text">
 <p lang="la">Miserere, miserere mei Deus<br>
 Secundum magnam, misericordiam<br>
 Misericordiam tuam<br>
 Et secundum multitudinem<br>
 Miserationum tuarum<br>
 Dele iniquitatem meam</p>
-      
+</div>
 </main>
 </body>
 </html>

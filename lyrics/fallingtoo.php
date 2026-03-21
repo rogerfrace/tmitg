@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Falling, Too</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/winters.php" />
 
+<h1 itemprop="name">Falling, Too</h1>
+
+<div itemprop="text">
 <p>transformed in oblivion<br>
 a bright flutter<br>
 falling all around<br>
@@ -45,7 +53,7 @@ and deafened their minds<br>
 it deafened their minds</p>
 
 <p>come see our winters</p>
-      
+</div>
 </main>
 </body>
 </html>

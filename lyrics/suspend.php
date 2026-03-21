@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Suspend</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/shadowpuppets.php" />
 
+<h1 itemprop="name">Suspend</h1>
+
+<div itemprop="text">
 <p>Trapped in time<br>
 At the edge of reality<br>
 If I could stand<br>
@@ -46,7 +54,7 @@ And I fall</p>
 And I am real<br>
 And my heart longs<br>
 And I am</p>
-      
+</div>
 </main>
 </body>
 </html>

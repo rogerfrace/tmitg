@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>If Ever</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/shadowpuppets.php" />
 
+<h1 itemprop="name">If Ever</h1>
+
+<div itemprop="text">
 <p>If ever we could bind it up<br>
 Integrate it in our souls<br>
 Find the time we saw blind<br>
@@ -38,7 +46,7 @@ Smooth all the insanity over</p>
 And grasp the lies within<br>
 Wouldn't make it all right<br>
 To deny all the things we have done</p>
-      
+</div>
 </main>
 </body>
 </html>

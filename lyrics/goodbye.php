@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Goodbye</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/shadowpuppets.php" />
 
+<h1 itemprop="name">Goodbye</h1>
+
+<div itemprop="text">
 <p>Fly away<br>
 All alone today<br>
 Like the birds<br>
@@ -33,7 +41,7 @@ And my body falls beneath the waves</p>
 <p>It ends this way<br>
 To find another place<br>
 So goodbye&hellip;</p>
-      
+</div>
 </main>
 </body>
 </html>

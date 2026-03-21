@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Illusions In Rain</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/shadowpuppets.php" />
 
+<h1 itemprop="name">Illusions In Rain</h1>
+
+<div itemprop="text">
 <p>Push the tender nights aside<br>
 As emotions drift by<br>
 Many thoughts collide<br>
@@ -28,7 +36,7 @@ Never a sorrow</p>
 No explanation for me<br>
 How can we see<br>
 The illusions dance away</p>
-      
+</div>
 </main>
 </body>
 </html>

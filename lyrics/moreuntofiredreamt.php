@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>More Unto Fire Dreamt</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/shadowpuppets.php" />
 
+<h1 itemprop="name">More Unto Fire Dreamt</h1>
+
+<div itemprop="text">
 <p>Fly into the arms of the wind<br>
 Into the path of eternity waiting<br>
 Union worn away by time<br>
@@ -33,7 +41,7 @@ Left without a glance behind</p>
 Coursed by a stream of light shining<br>
 Drawn by the sights of clouds<br>
 Night sky breathes into me</p>
-      
+</div>
 </main>
 </body>
 </html>

@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>This Silence</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/shadowpuppets.php" />
 
+<h1 itemprop="name">This Silence</h1>
+
+<div itemprop="text">
 <p>Deep in the nothing of my doubts<br>
 It draws them further on the stream<br>
 I own the way down through<br>
@@ -38,7 +46,7 @@ Hidden with secrecy, stolen away</p>
 For their travels in the dreams<br>
 The clocks are ticking down<br>
 Storm's travels taken all away</p>
-      
+</div>
 </main>
 </body>
 </html>

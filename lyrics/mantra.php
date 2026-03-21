@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Mantra</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/shadowpuppets.php" />
 
+<h1 itemprop="name">Mantra</h1>
+
+<div itemprop="text">
 <p>No tongues speak the same<br>
 My words don't find them<br>
 Your lips move for different thoughts<br>
@@ -28,7 +36,7 @@ I see no evil</p>
 My sounds don't correct your days<br>
 Our ears hear no thoughts<br>
 I hear no evil</p>
-      
+</div>
 </main>
 </body>
 </html>

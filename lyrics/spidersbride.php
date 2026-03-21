@@ -10,12 +10,24 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Spider's Bride</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Dan Neet" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/263231-Daniel-Neet" />
+</span>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Roger Fracé" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/177536-Roger-Frac%C3%A9" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/shadowpuppets.php" />
+
+<h1 itemprop="name">Spider's Bride</h1>
 
 <p><em>Words by Dan Neet and Roger Frac&eacute;</em></p>
 
+<div itemprop="text">
 <p>we are watching while you sleep<br>
 we are the nightmares in your dreams<br>
 we are everywhere <br>
@@ -46,7 +58,7 @@ body snatching technique very quick</p>
 why'd you lie<br>
 don't deny it to yourself<br>
 this time</p>
-      
+</div>
 </main>
 </body>
 </html>

@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Image</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/imageacoustic.php" />
 
+<h1 itemprop="name">Image</h1>
+
+<div itemprop="text">
 <p>it's time to step away<br>
 to spend less time fighting me</p>
 
@@ -28,7 +36,7 @@ this is what I choose to be</p>
 
 <p>a phantom exposed within<br>
 peels away the opposing power</p>
-      
+</div>
 </main>
 </body>
 </html>

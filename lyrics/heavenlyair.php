@@ -10,12 +10,21 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Heavenly Air</h1> 
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Aeschylus" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/1340893-Aeschylus-2" />
+  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/Aeschylus" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/vs.php" />
+
+<h1 itemprop="name">Heavenly Air</h1> 
 
 <p><em>words by Aeschylus. adapted by Roger Frac&eacute;</em></p>
 
+<div itemprop="text">
 <p>she broke away in the middle of her speech<br>
 and she flees from the light<br>
 she turned away from the sight of man<br>
@@ -30,7 +39,7 @@ so much with its top towards heavenly air</p>
 she embraces her offspring<br>
 and three times she erected herself<br>
 and three times she fell</p>
-      
+</div>
 </main>
 </body>
 </html>

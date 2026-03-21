@@ -10,10 +10,19 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Falling Softly</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/eternal.php" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/miscellany.php" />
 
+<h1 itemprop="name">Falling Softly</h1>
+
+<div itemprop="text">
 <p>Softly&hellip;<br>
 Her tears rang loud as lightning<br>
 And colder than snow</p>
@@ -37,7 +46,7 @@ I need&hellip;</p>
 Of days dressed in white</p>
 
 <p>Softly&hellip;</p>
-      
+</div>
 </main>
 </body>
 </html>

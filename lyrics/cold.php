@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Cold</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Roger Fracé" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/177536-Roger-Frac%C3%A9" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/underworld.php" />
 
+<h1 itemprop="name">Cold</h1>
+
+<div itemprop="text">
 <p>the beautiful have come<br>
 to take me away<br>
 a deep dark grave<br>
@@ -36,7 +44,7 @@ the flowers have died<br>
 the people gone home<br>
 I'm left cold in the darkness<br>
 left cold and all alone</p>
-      
+</div>
 </main>
 </body>
 </html>

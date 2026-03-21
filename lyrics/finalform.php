@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Final Form</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/underworld.php" />
 
+<h1 itemprop="name">Final Form</h1>
+
+<div itemprop="text">
 <p>where sky greets fire<br>
 and time clings to the mind<br>
 self illusions flickering images<br>
@@ -39,7 +47,7 @@ into final form</p>
 <p>dreams speak gibberish<br>
 thoughts stutter and slur<br>
 mind rambles on aimlessly</p>
-      
+</div>
 </main>
 </body>
 </html>

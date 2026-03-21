@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Christianne is Dead</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Roger Fracé" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/177536-Roger-Frac%C3%A9" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/wapfuu2.php" />
 
+<h1 itemprop="name">Christianne is Dead</h1>
+
+<div itemprop="text">
 <p>the end comes close and the falling rain<br>
 like tears driving hard on her skin<br>
 the coldness of the iron grips her throat<br>
@@ -38,7 +46,7 @@ she falls from grace like falling rain<br>
 like tears driving hard on her skin<br>
 water burns like fire, crying she came<br>
 there is no future only pain</p>
-      
+</div>
 </main>
 </body>
 </html>

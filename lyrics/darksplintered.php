@@ -10,12 +10,20 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Dark Splintered Heart</h1><br>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Roger Fracé" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/177536-Roger-Frac%C3%A9" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/vs.php" />
+
+<h1 itemprop="name">Dark Splintered Heart</h1><br>
 
 <p><em>inspired by the journal of Abbey Greenbaum</em></p>
 
+<div itemprop="text">
 <p>my mouth opened by a scream<br>
 my body bound in chains<br>
 my soul corrupted by darkness<br>
@@ -59,7 +67,7 @@ don't know the reasons why</p>
 of your deep dark splintered heart<br>
 i do what i know, i do what i should<br>
 dear god don't tear me apart</p> 
-
+</div>
 </main>
 </body>
 </html>

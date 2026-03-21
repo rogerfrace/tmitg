@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Cut Me</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Roger Fracé" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/177536-Roger-Frac%C3%A9" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/underworld.php" />
 
+<h1 itemprop="name">Cut Me</h1>
+
+<div itemprop="text">
 <p>ocean waves glow<br>
 in the moon light<br>
 sensory deprivation<br>
@@ -40,7 +48,7 @@ glorious and white as stone (and alone)</p>
 
 <p>like falling stars<br>
 there's nothing that can hurt me</p>
-      
+</div>
 </main>
 </body>
 </html>

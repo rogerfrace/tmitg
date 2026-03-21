@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>a Touch of Heaven</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Roger Fracé" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/177536-Roger-Frac%C3%A9" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/vs.php" />
 
+<h1 itemprop="name">a Touch of Heaven</h1>
+
+<div itemprop="text">
 <p>understand, can't you see<br>
 don't you know the fire in me<br>
 burning flesh, boiling blood<br>
@@ -32,7 +40,7 @@ can't you tell, all i need is a touch of heaven</p>
 <p><em>touch the earth<br>
 want to touch the sky<br>
 need a touch of heaven right now</em></p>
-
+</div>
 </main>
 </body>
 </html>

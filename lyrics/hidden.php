@@ -10,10 +10,19 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Hidden</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/wapfuu2.php" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/miscellany.php" />
 
+<h1 itemprop="name">Hidden</h1>
+
+<div itemprop="text">
 <p>can you hear them?<br>
 can you know them?<br>
 can you find them?</p>
@@ -22,7 +31,7 @@ can you find them?</p>
 they will know you</p>
 
 <p>can you hear them?</p>
-      
+</div>
 </main>
 </body>
 </html>

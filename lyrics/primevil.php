@@ -10,10 +10,22 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Primevil</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Roger Fracé" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/177536-Roger-Frac%C3%A9" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/underworld.php" />
 
+<h1 itemprop="name">Primevil</h1>
+
+<div itemprop="text">
 <p>reaching toward empyrean<br>
 abode of paradise above<br>
 ignorant in life, innocent in death<br>
@@ -43,7 +55,7 @@ and how far can they see<br>
 elusive faces turning white<br>
 descend from flurries in the clouds<br>
 the captives in the ground</p>
-      
+</div>
 </main>
 </body>
 </html>

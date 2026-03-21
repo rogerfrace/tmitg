@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>This Arising, That Arises</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/underworld.php" />
 
+<h1 itemprop="name">This Arising, That Arises</h1>
+
+<div itemprop="text">
 <p><em>-part 1, vocal A-</em><br>
 existential anxiety<br>
 vicious circling<br>
@@ -43,7 +51,7 @@ a longing that now bleeds</p>
 this arising, that arises<br>
 perpetuation of existence<br>
 arising only to cease</p>
-      
+</div>
 </main>
 </body>
 </html>

@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Shadowy Depths</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/underworld.php" />
 
+<h1 itemprop="name">Shadowy Depths</h1>
+
+<div itemprop="text">
 <p>moonlight filters inward<br>
 caressing blackness looks on<br>
 i reach for you, bring me near<br>
@@ -29,7 +37,7 @@ pushing you into darkness</p>
 
 <p>shadowy depths in dreams<br>
 shoving walls aside</p>
-      
+</div>
 </main>
 </body>
 </html>

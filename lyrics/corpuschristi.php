@@ -10,12 +10,20 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Corpus Christi</h1> 
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="John McDonagh" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/843532-John-McDonagh" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/underworld.php" />
+
+<h1 itemprop="name">Corpus Christi</h1> 
 
 <p><em>words by John McDonagh</em></p>
 
+<div itemprop="text">
 <p>the night dragged by on the altar of repose<br>
 with something funereal about the white rose<br>
 the deep rumbling of the organ screamed revenge<br>
@@ -43,7 +51,7 @@ them from the memory of that rainy day</p>
 
 <p>if there's pain inside &mdash; love will die<br>
 if there's hate inside &mdash; love will die</p>
-      
+</div>
 </main>
 </body>
 </html>

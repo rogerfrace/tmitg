@@ -10,11 +10,20 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Twenty Shadows</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="William Shakespeare" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/348179-William-Shakespeare" />
+  <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/William_Shakespeare" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/underworld.php" />
+
+<h1 itemprop="name">Twenty Shadows</h1>
 <p><em>words from <u>Richard II</u> by Shakespeare. adapted by Summer Bowman</em></p>
 
+<div itemprop="text">
 <p>each substance of grief, hath twenty shadows<br>
 which shows like grief itself, but is not so<br>
 for sorrows' eye, glazed with blinding tears<br>
@@ -25,7 +34,7 @@ to wail<br>
 which for things true weeps though things imaginary<br>
 for sorrows' eye, glazed with blinding tears<br>
 divides one thing entire to many objects</p>
-      
+</div>
 </main>
 </body>
 </html>

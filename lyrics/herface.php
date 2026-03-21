@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Her Face</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/mists.php" />
 
+<h1 itemprop="name">Her Face</h1>
+
+<div itemprop="text">
 <p>her will she drove them<br>
 she needed them to<br>
 they never saw her<br>
@@ -30,7 +38,7 @@ a dream years past</p>
 a thousand and more there<br>
 the blood and the glory<br>
 all for the sake of her beauty</p>
-      
+</div>
 </main>
 </body>
 </html>

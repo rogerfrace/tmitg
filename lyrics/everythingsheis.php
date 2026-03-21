@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Every Thing She Is</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/mists.php" />
 
+<h1 itemprop="name">Every Thing She Is</h1>
+
+<div itemprop="text">
 <p>night wonders are wilder<br>
 holding higher up so low<br>
 stars glisten my tears away<br>
@@ -51,7 +59,7 @@ she stumbles<br>
 she hurts<br>
 she cannot remember<br>
 she is never the same</p>
-      
+</div>
 </main>
 </body>
 </html>

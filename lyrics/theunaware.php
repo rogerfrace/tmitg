@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>The Unaware</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/mists.php" />
 
+<h1 itemprop="name">The Unaware</h1>
+
+<div itemprop="text">
 <p>the other sun is burning<br>
 as they bite inside<br>
 they will find you there<br>
@@ -28,7 +36,7 @@ the always unaware</p>
 this place and energy<br>
 the smooth motion<br>
 of the trees</p>
-      
+</div>
 </main>
 </body>
 </html>

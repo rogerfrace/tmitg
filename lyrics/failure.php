@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Failure</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Roger Fracé" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/177536-Roger-Frac%C3%A9" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/mists.php" />
 
+<h1 itemprop="name">Failure</h1>
+
+<div itemprop="text">
 <p>inventions are the figures of the mind<br>
 no way to cope with failure<br>
 not nearly ideal time<br>
@@ -42,7 +50,7 @@ why should i even bother</p>
 a lot of nothing<br>
 in my brain<br>
 i think i am a failure</p>
-      
+</div>
 </main>
 </body>
 </html>

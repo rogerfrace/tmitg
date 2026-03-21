@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Radiant</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/mists.php" />
 
+<h1 itemprop="name">Radiant</h1>
+
+<div itemprop="text">
 <p>in my dreams<br>
 while light blinds me<br>
 the radiant sun<br>
@@ -38,7 +46,7 @@ that is everywhere</p>
 that i peer into<br>
 cleanses my soul<br>
 and purifies me through</p>
-      
+</div>
 </main>
 </body>
 </html>

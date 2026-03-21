@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Wasted Time</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/mists.php" />
 
+<h1 itemprop="name">Wasted Time</h1>
+
+<div itemprop="text">
 <p>lost or stolen<br>
 truth in time<br>
 sits upon the hill<br>
@@ -46,7 +54,7 @@ waited there but<br>
 nothing, nothing no one, nothing<br>
 will take away the wasted time<br>
 we wasted time</p>
-      
+</div>
 </main>
 </body>
 </html>

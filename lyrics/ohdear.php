@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Oh Dear</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/mists.php" />
 
+<h1 itemprop="name">Oh Dear</h1>
+
+<div itemprop="text">
 <p>when the dreams have found you<br>
 nowhere<br>
 i will guide you<br>
@@ -31,7 +39,7 @@ i will guide you there<br>
 don't you worry so<br>
 i will guide you there<br>
 oh dear</p>
-      
+</div>
 </main>
 </body>
 </html>

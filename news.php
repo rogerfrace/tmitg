@@ -3,6 +3,9 @@
 if (isset($_GET["item"])) {
 	$titlenum = $_GET["item"];
 	if(strlen($titlenum)!=3) {header('HTTP/1.0 404 not found');die();}
+	$pubdate = '';
+	$title = '';
+	$description = '';
 	include_once("newsitems/".$titlenum.".php");
 	$mtitle = htmlentities(trim(strip_tags($title)));
 	$cleandesc = explode(".",strip_tags($description));
@@ -115,6 +118,7 @@ if (isset($_GET["item"])) {
 	} else {
 	// multi-display
 		$newsdir = "newsitems";
+		$dirArray = [];
 		$myDirectory = opendir($newsdir);
 		while($entryName = readdir($myDirectory)) {
 			$dirArray[] = $entryName;

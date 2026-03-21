@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Six Days</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/xv.php" />
 
+<h1 itemprop="name">Six Days</h1>
+
+<div itemprop="text">
 <p>how can you find her there<br>
 when she can't even find herself<br>
 why weren't you with her there<br>
@@ -36,7 +44,7 @@ are you a dream in her eyes</p>
 as the illusions fade away<br>
 and as the darkness falls<br>
 open her up and feel her pain</p>
-      
+</div>
 </main>
 </body>
 </html>

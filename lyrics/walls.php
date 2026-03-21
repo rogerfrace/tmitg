@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Walls</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Roger Fracé" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/177536-Roger-Frac%C3%A9" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/xv.php" />
 
+<h1 itemprop="name">Walls</h1>
+
+<div itemprop="text">
 <p>walls towering overhead<br>
 cracks so elegant and split<br>
 pure white monolith<br>
@@ -35,7 +43,7 @@ crooked lines broken dead</p>
 blackened walls cracked and condemned<br>
 pleading falling stars at night<br>
 dark stains on my heart tonight</p>
-      
+</div>
 </main>
 </body>
 </html>

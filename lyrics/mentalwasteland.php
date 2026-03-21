@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Mental Wasteland</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/xv.php" />
 
+<h1 itemprop="name">Mental Wasteland</h1>
+
+<div itemprop="text">
 <p>she's falling through the cracks<br>
 stumbling down the stairs<br>
 ripped to tiny pieces<br>
@@ -42,7 +50,7 @@ taking her away again</p>
 actions are confounded<br>
 beaten, clawed and damaged<br>
 where do we go next?</p>
-      
+</div>
 </main>
 </body>
 </html>

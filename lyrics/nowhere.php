@@ -10,15 +10,23 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Nowhere</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Summer Bowman" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/604761-Summer-Bowman" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/xv.php" />
 
+<h1 itemprop="name">Nowhere</h1>
+
+<div itemprop="text">
 <p>To come from nowhere<br>
 A dream like the past<br>
 To know the difference<br>
 Now I find the time</p>
-      
+</div>
 </main>
 </body>
 </html>

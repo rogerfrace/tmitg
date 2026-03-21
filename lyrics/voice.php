@@ -10,10 +10,18 @@
 </head>
 <body id="lyrics">
 
-<main>
+<main itemscope itemtype="https://schema.org/CreativeWork">
 
-<h1>Voice</h1>
+<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Roger Fracé" />
+  <meta itemprop="sameAs" content="https://www.discogs.com/artist/177536-Roger-Frac%C3%A9" />
+</span>
+<meta itemprop="inLanguage" content="en" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/xv.php" />
 
+<h1 itemprop="name">Voice</h1>
+
+<div itemprop="text">
 <p>the voice of 30 unite in chords<br>
 the mirror makes it more<br>
 in fear of reflection<br>
@@ -35,7 +43,7 @@ that around you bind</p>
 I am jealousy<br>
 I prey upon the lightness<br>
 I am misery</p>
-      
+</div>
 </main>
 </body>
 </html>

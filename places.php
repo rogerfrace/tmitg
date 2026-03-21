@@ -161,7 +161,7 @@ $lyricsfile and videoname do not include .html
 
 <p>After nine years, there’s a certain relief that comes from an album like <i>Places In Between</i>, proving that the Machine in the Garden has lost none of its creative energy, presenting music that holds true to the established sound with just enough sonic vibrancy for a new audience to be found. From Fracé’s sophisticated instrumentation and refined production to Bowman’s masterful command of lyrical and vocal harmony, the music on <i>Places In Between</i> is sure to please longtime fans of the genre and the band, with just enough aural delight to appease newcomers and nonbelievers alike. Welcome back!</p>
 </div>
-<p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="author">Ilker Yücel (Ilker81x)</span></span>, <a href="https://regenmag.com/reviews/review-the-machine-in-the-garden-places-in-between/" target="_blank"><span itemprop="publisher">ReGen Magazine</span></a></p>
+<p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Ilker Yücel (Ilker81x)</span></span>, <a href="https://regenmag.com/reviews/review-the-machine-in-the-garden-places-in-between/" target="_blank"><span itemprop="publisher">ReGen Magazine</span></a></p>
 <meta itemprop="datePublished" content="2021-01-03">
 </blockquote>
 
@@ -180,7 +180,7 @@ $lyricsfile and videoname do not include .html
 
 <p>Another element that I really enjoyed is the order of the tracks. Up to the half-way mark, the songs general mood is the aforementioned longing, only for the aptly titled “Courage, Power, and Wisdom” to kick the listener in the gut and deliver an uplifting, soaring mood at the perfect moment in this hour-long journey. Overall, this is an album I can highly recommend people to get into. While it feels big and epic, the entire runtime is full of relatable and honest emotion, presented with truly excellent songwriting and musicianship. It’s great music for hot, sleepless nights and I love it for that!</p>
 </div>
-<p>-<a href="https://bsky.app/profile/florgoth.bsky.social" target="_blank"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="author">Florgoth</span></span></a>, <a href="https://www.untidydownloads.com/places-in-between-by-the-machine-in-the-garden-featurefriday/" target="_blank"><span itemprop="publisher">Confessions of an Untidy Mind</span></a></p>
+<p>-<a href="https://bsky.app/profile/florgoth.bsky.social" target="_blank"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Florgoth</span></span></a>, <a href="https://www.untidydownloads.com/places-in-between-by-the-machine-in-the-garden-featurefriday/" target="_blank"><span itemprop="publisher">Confessions of an Untidy Mind</span></a></p>
 <meta itemprop="datePublished" content="2025-08-15">
 </blockquote>
 
@@ -203,7 +203,7 @@ $lyricsfile and videoname do not include .html
 
 <p><em>*Ennio Morricone spaghetti western composer/ Marco Pirronione one time Siouxsie Sioux cohort and Adam Ant guitarist and collaborator.</em></p>
 </div>
-<p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="author">untidyadmin</span></span>, <a href="https://www.untidydownloads.com/places-in-between-by-the-machine-in-the-garden-featurefriday/" target="_blank"><span itemprop="publisher">Confessions of an Untidy Mind</span></a></p>
+<p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">untidyadmin</span></span>, <a href="https://www.untidydownloads.com/places-in-between-by-the-machine-in-the-garden-featurefriday/" target="_blank"><span itemprop="publisher">Confessions of an Untidy Mind</span></a></p>
 <meta itemprop="datePublished" content="2025-08-15">
 </blockquote>
 
@@ -214,7 +214,7 @@ $lyricsfile and videoname do not include .html
 <div itemprop="reviewBody">
 <p>This week’s album is “Places in Between,” by the Machine in the Garden. This is an album that feels like a long cinematic experience rather than just a collection of songs. It’s full of thick layers of carefully arranged instrumentation surrounding beautiful vocals.</p>
 </div>
-<p>-<a href="https://bsky.app/profile/aaronsmith377.bsky.social" target="_blank"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="author">Aaron Smith</span></span></a>, <a href="https://www.untidydownloads.com/places-in-between-by-the-machine-in-the-garden-featurefriday/" target="_blank"><span itemprop="publisher">Confessions of an Untidy Mind</span></a></p>
+<p>-<a href="https://bsky.app/profile/aaronsmith377.bsky.social" target="_blank"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Aaron Smith</span></span></a>, <a href="https://www.untidydownloads.com/places-in-between-by-the-machine-in-the-garden-featurefriday/" target="_blank"><span itemprop="publisher">Confessions of an Untidy Mind</span></a></p>
 <meta itemprop="datePublished" content="2025-08-15">
 </blockquote>
 

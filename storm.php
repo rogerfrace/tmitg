@@ -158,7 +158,7 @@ $lyricsfile and videoname do not include .html
 
 <p>"Before and After the Storm" takes tMitG into new waters.  Ethereal and darkwave can blend as well as peanut butter and chocolate.  Please, you <em>know</em> that's an awesome combination.</p>
 </div>
-<p>-<span itemprop="author">Scott Sweet</span>, <a href="http://graveconcernsezine.com/reviews/cd-reviews/ethereal/3070-the-machine-in-the-garden-before-and-after-the-storm.html#.Tg9lS5wKw8c.twitter" target="_blank"><span itemprop="publication">Grave Concerns</span></a></p>
+<p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Scott Sweet</span></span>, <a href="http://graveconcernsezine.com/reviews/cd-reviews/ethereal/3070-the-machine-in-the-garden-before-and-after-the-storm.html#.Tg9lS5wKw8c.twitter" target="_blank"><span itemprop="publisher">Grave Concerns</span></a></p>
 <meta itemprop="datePublished" content="2011-06-02">
 </blockquote>
 
@@ -173,7 +173,7 @@ $lyricsfile and videoname do not include .html
 
 <p>The passion and diversity in the band&rsquo;s writing is clear, and as concise as the influences that have shaped and moulded the music throughout the previous releases and yet, it further pushes the boundaries of ethereal darkwave, evolving and exploring all aspects of electronic music.</p>
 </div>
-<p>-<span itemprop="author">DJArmand</span>, <a href="http://truecultheavymetal.com/index.php/dominion/2011/07/07/review-the-machine-in-the-garden-before-and-after-the-storm" target="_blank"><span itemprop="publication">Dominion Magazine</span></a></p>
+<p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">DJArmand</span></span>, <a href="http://truecultheavymetal.com/index.php/dominion/2011/07/07/review-the-machine-in-the-garden-before-and-after-the-storm" target="_blank"><span itemprop="publisher">Dominion Magazine</span></a></p>
 <meta itemprop="datePublished" content="2011-07-07">
 </blockquote>
 
@@ -195,7 +195,7 @@ $lyricsfile and videoname do not include .html
 
 <p>L&rsquo;&lsquo;incanto viene interrotto con l&rsquo;&lsquo;energia di &ldquo;Power And Prophesy&rdquo;, particolarmente marcato da chitarre acuminate tipicamente gothic rock su una base electro-atmosferica. Segue &ldquo;Mending The Sky&rdquo; astratta, aliena, quasi ambientale, in cui si fa strada timidamente la voce lieve tra i riverberi. L&rsquo;&lsquo;album si chiude con alcune versioni rivisitate dei brani, ed ecco la ripresa ambientale di &ldquo;Cimmerian&rdquo;, vero epilogo del disco, poi &ldquo;Scathefire&rdquo;(Fire Mix) qui molto pi&ugrave; ballabile, in una veste pi&ugrave; dura remixata da Frances Byrne (Wench), &ldquo;Power And Prophesy&rdquo; (Metal Below Mix) che qui presenta campiture atmosferiche e meno chitarre filtrate, remixata dai Falling You, fino a &ldquo;Mending The Sky&rdquo; (Self Mix), remixata da Miles Fender (Earth Calling Angela, Charlottesville), che chiude il disco in una nebbia d&rsquo;&lsquo;incanti contemporaneamente antichi e originari quanto attualissimi e visionari.</p>
 </div>
-<p>-<span itemprop="author">Phaeton</span>, <a href="http://www.soundsbehindthecorner.org/recensione.asp?id=254" target="_blank"><span itemprop="publication">Sounds Behind The Corner</span></a></p>
+<p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Phaeton</span></span>, <a href="http://www.soundsbehindthecorner.org/recensione.asp?id=254" target="_blank"><span itemprop="publisher">Sounds Behind The Corner</span></a></p>
 <meta itemprop="datePublished" content="2011-07-29">
 </blockquote>
 
@@ -216,7 +216,7 @@ $lyricsfile and videoname do not include .html
 	<meta itemprop="worstRating" content = "1">
 	Rating: <span itemprop="ratingValue">4.5</span>/<span itemprop="bestRating">5</span></div>
 </div>
-<p>-<a href="http://www.gothicparadise.com/tmitg.htm#rev3" target="_blank"><span itemprop="publication">Gothic Paradise</span></a></p>
+<p>-<a href="http://www.gothicparadise.com/tmitg.htm#rev3" target="_blank"><span itemprop="publisher">Gothic Paradise</span></a></p>
 <meta itemprop="datePublished" content="2011-07-30">
 </blockquote>
 
@@ -229,7 +229,7 @@ $lyricsfile and videoname do not include .html
 
 <p>As with all of their previous releases, "Before and After the Storm" showcases both Summer's vocals and Roger's instrumental work admirably, both of them having more than a few opportunities to stretch out and put their very impressive talents on display. Vocals soar, guitars rock, and the production is just as crisp and tight as I've come to expect from the two of them. Tracks like "Cimmerian", "The Piano" and "Power and Prophecy" stand among some of the best work in the duo's catalog, and the decision to include a trio of remixes fills out the album very nicely by offering some different interpretations of the tracks which succeed in emphasizing the quality of the songwriting. Where most other bands might not be as comfortable after such a long gap between albums, on "Before and After the Storm" Summer and Roger have returned with the confidence, sophistication and surety that they've always displayed, along with a maturity and elegance that makes me very excited about tMitG's future. In a 2008 review of the compilation album XV I commented on the fact that album closer "Otherworld" seemed like a fitting end to the first fifteen years of the band's career. On the other side of time in 2011, "Before and After the Storm" has proven itself as an excellent start to the band's future.</p>
 </div>
-<p>-<span itemprop="author">rik</span>, <a href="http://pingthings.blogspot.com/2011/08/before-and-after-storm-by-machine-in.html" target="_blank"><span itemprop="publication">ping things</span></a></p>
+<p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">rik</span></span>, <a href="http://pingthings.blogspot.com/2011/08/before-and-after-storm-by-machine-in.html" target="_blank"><span itemprop="publisher">ping things</span></a></p>
 <meta itemprop="datePublished" content="2011-08-21">
 </blockquote>
 
@@ -245,7 +245,7 @@ $lyricsfile and videoname do not include .html
 	<meta itemprop="worstRating" content="1">
 	Rating: <span itemprop="ratingValue">7.5</span><meta itemprop="bestRating" content="10"></div>
 </div>
-<p>-<span itemprop="author">Roberto Alessandro Filippozzi</span>, <a href="http://www.darkroom-magazine.it/ita/103/Recensione.php?r=2188" hreflang="it-IT" target="_blank"><span itemprop="publication">Darkroom Magazine</span></a></p>
+<p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Roberto Alessandro Filippozzi</span></span>, <a href="http://www.darkroom-magazine.it/ita/103/Recensione.php?r=2188" hreflang="it-IT" target="_blank"><span itemprop="publisher">Darkroom Magazine</span></a></p>
 <meta itemprop="datePublished" content="2011-09-28">
 </blockquote>
 
@@ -264,7 +264,7 @@ $lyricsfile and videoname do not include .html
 	<meta itemprop="worstRating" content = "1">
 	Rating: <span itemprop="ratingValue">4</span>/<span itemprop="bestRating">5</span></div>
 </div>
-<p>-<span itemprop="author">ZombieGoats</span>, <a href="http://www.headfullofnoise.com/2012/05/review-the-machine-in-the-garden-before-and-after-the-storm/" target="_blank"><span itemprop="publication">Head Full Of Noise</span></a></p>
+<p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">ZombieGoats</span></span>, <a href="http://www.headfullofnoise.com/2012/05/review-the-machine-in-the-garden-before-and-after-the-storm/" target="_blank"><span itemprop="publisher">Head Full Of Noise</span></a></p>
 <meta itemprop="datePublished" content="2012-05-01">
 </blockquote>
 

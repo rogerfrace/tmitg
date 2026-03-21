@@ -7,7 +7,6 @@ require_once "functions.php";
 <html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<!-- hostinger -->
 	<meta name="description" content="the Machine in the Garden is one of the premiere ethereal-electronic-darkwave-neoclassical-goth bands in the American music industry. With 9 official releases and numerous other appearances since their founding in 1992, tMitG is one of the most lasting and prolific dark underground bands of the new era." />
 	<meta name="keywords" content="machine in the garden, tmitg, ethereal, electronic, darkwave, goth, gothic, old school goth, neoclassical, band, music, CDs, roger frace, summer bowman" />
 	<meta property="og:site_name" content="the Machine in the Garden" />
@@ -83,13 +82,19 @@ require_once "functions.php";
 		"member": [
 			{
 				"@type": "OrganizationRole",
-				"member": { "@type": "Person", "name": "Roger Fracé" },
+				"member": { "@type": "Person",
+							"name": "Roger Fracé",
+							"sameAs": "https://www.discogs.com/artist/177536-Roger-Frac%C3%A9"
+						  },
 				"startDate": "1992",
 				"roleName": ["synthesizer", "guitar", "bass guitar", "vocals"]
 			},
 			{
 				"@type": "OrganizationRole",
-				"member": { "@type": "Person", "name": "Summer Bowman" },
+				"member": { "@type": "Person",
+							"name": "Summer Bowman",
+							"sameAs": "https://www.discogs.com/artist/604761-Summer-Bowman"
+						  },
 				"startDate": "1997",
 				"roleName": ["lead vocals", "synthesizer", "dulcimer", "flute"]
 			}

@@ -62,8 +62,10 @@
 </div> <!-- end tracklist div -->
 
 <div id="discog_buynow" tabindex="-1">
-		<h2 class="wai">Buy links</h2>
-		<div><a rel="noopener external" href="https://geo.music.apple.com/us/album/wrapped-in-guise-my-friend-attrition-covered-remastered/615031878?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=1230854400&h=0330b9cf8a32e71a3b2a5b3922f237f1" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
+	<h2 class="wai">Buy links</h2>
+	<div itemprop="potentialAction" itemscope itemtype="https://schema.org/ListenAction"><a itemprop="target" rel="noopener external" href="https://open.spotify.com/album/7DRbXmTINhx3USs60ckcwb?si=MrYmG-E2RfSITe6d3t1_Wg" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Spotify'});"><img src="images/listen-on-spotify.png" width="200" height="73" class="spotify" alt="Listen on Spotify" /></a></div>
+
+	<div><a rel="noopener external" href="https://geo.music.apple.com/us/album/wrapped-in-guise-my-friend-attrition-covered-remastered/615031878?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=1230854400&h=0330b9cf8a32e71a3b2a5b3922f237f1" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
 </div> <!-- end buy button div -->
 
 

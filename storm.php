@@ -142,6 +142,8 @@ $lyricsfile and videoname do not include .html
 <section aria-labelledby="reviews">	
 	<h2 id="reviews" tabindex="-1">Reviews of <i>Before and After the Storm</i>:</h2>
 	<div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+		<meta itemprop="ratingValue" content="4.08" />
+		<meta itemprop="bestRating" content="5" />
 		<meta itemprop="ratingCount" content="3">
 		<meta itemprop="reviewCount" content="7">
 	</div>

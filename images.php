@@ -208,20 +208,20 @@ do_photo('roger10sp','2005','Roger photo session for Shadow Puppets #5');
 <h2>2002</h2>
 <ul role="list" class="2002">
 <?php
-do_photo('summercala','2002');
-do_photo('summerlily','2002');
-do_photo('summertulips','2002');
-do_photo('rogerlily','2002');
-do_photo('rogermum','2002');
-do_photo('rogerpurple','2002');
+do_photo('summercala','2002','Promo photo for Asphodel of Summer with a Cala Lily flower');
+do_photo('summerlily','2002','Promo photo for Asphodel of Summer with Lily flowers');
+do_photo('summertulips','2002','Promo photo for Asphodel of Summer with Tulip flowers');
+do_photo('rogerlily','2002','Promo photo for Asphodel of Roger with Tulip flowers');
+do_photo('rogermum','2002','Promo photo for Asphodel of Roger with a Mum flower');
+do_photo('rogerpurple','2002','Promo photo for Asphodel of Roger with a purple flower');
 ?>
 </ul>
 <ul role="list" class="2002">
 <?php
-do_photo('gc05','2002');
-do_photo('gc06','2002');
-do_photo('gc08','2002');
-do_photo('gc11','2002');
+do_photo('gc05','2002','Live at GothCon in New Orleans #1');
+do_photo('gc06','2002','Live at GothCon in New Orleans #2');
+do_photo('gc08','2002','Live at GothCon in New Orleans #3');
+do_photo('gc11','2002','Live at GothCon in New Orleans #4');
 ?>
 </ul>
 </section>
@@ -230,25 +230,25 @@ do_photo('gc11','2002');
 <h2>2001</h2>
 <ul role="list" class="2001">
 <?php
-do_photo('4march10','2001');
-do_photo('4march12','2001');
-do_photo('4march15','2001');
-do_photo('4march17','2001');
-do_photo('4march21','2001');
-do_photo('4march24','2001');
-do_photo('4march2','2001');
-do_photo('4march29','2001');
+do_photo('4march10','2001','post Out of the Mists Promo photos, trying to look more goth #1');
+do_photo('4march12','2001','post Out of the Mists Promo photos, trying to look more goth #2');
+do_photo('4march15','2001','post Out of the Mists Promo photos, trying to look more goth #3');
+do_photo('4march17','2001','post Out of the Mists Promo photos, trying to look more goth #4');
+do_photo('4march21','2001','post Out of the Mists Promo photos, trying to look more goth #5');
+do_photo('4march24','2001','post Out of the Mists Promo photos, trying to look more goth #6');
+do_photo('4march2','2001','post Out of the Mists Promo photos, trying to look more goth #7');
+do_photo('4march29','2001','post Out of the Mists Promo photos, trying to look more goth #8');
 ?>
 </ul>
 <ul role="list" class="2001">
 <?php
-do_photo('tmitgla1','2001');
-do_photo('rogla1','2001');
-do_photo('summerla1','2001');
-do_photo('summerla2','2001');
-do_photo('drusummerla1','2001');
-do_photo('drusummerla2','2001');
-do_photo('drusummerla3','2001');
+do_photo('tmitgla1','2001','Live in Los Angeles #1');
+do_photo('rogla1','2001','Live in Los Angeles #2');
+do_photo('summerla1','2001','Live in Los Angeles #3');
+do_photo('summerla2','2001','Live in Los Angeles #4');
+do_photo('drusummerla1','2001','Dru and Summer perform a Mirabilis song in Los Angeles #1');
+do_photo('drusummerla2','2001','Dru and Summer perform a Mirabilis song in Los Angeles #2');
+do_photo('drusummerla3','2001','Dru and Summer perform a Mirabilis song in Los Angeles #3');
 ?>
 </ul>
 </section>
@@ -257,31 +257,31 @@ do_photo('drusummerla3','2001');
 <h2>2000</h2>
 <ul role="list" class="2000">
 <?php
-do_photo('summer2','2000');
-do_photo('summer3','2000');
-do_photo('summer7','2000');
-do_photo('summer8','2000');
-do_photo('roger2','2000');
-do_photo('roger4','2000');
-do_photo('roger6','2000');
-do_photo('roger9','2000');
+do_photo('summer2','2000','Promo photo of Summer #1');
+do_photo('summer3','2000','Promo photo of Summer #2');
+do_photo('summer7','2000','Promo photo of Summer #3');
+do_photo('summer8','2000','Promo photo of Summer #4');
+do_photo('roger2','2000','Promo photo of Roger #1');
+do_photo('roger4','2000','Promo photo of Roger #2');
+do_photo('roger6','2000','Promo photo of Roger #3');
+do_photo('roger9','2000','Promo photo of Roger #4');
 ?>
 </ul>
 <ul role="list" class="2000">
 <?php
-do_photo('denton1','2000');
-do_photo('denton3','2000');
-do_photo('denton4','2000');
-do_photo('denton5','2000');
+do_photo('denton1','2000','Live in Denton, TX #1');
+do_photo('denton3','2000','Live in Denton, TX #2');
+do_photo('denton4','2000','Live in Denton, TX #3');
+do_photo('denton5','2000','Live in Denton, TX #4');
 ?>
 </ul>
 <ul role="list" class="2000">
 <?php
-do_photo('video1','2000');
-do_photo('video2','2000');
-do_photo('video3','2000');
-do_photo('video4','2000');
-do_photo('video5','2000');
+do_photo('video1','2000','Video shoot for The Unaware #1');
+do_photo('video2','2000','Video shoot for The Unaware #2');
+do_photo('video3','2000','Video shoot for The Unaware #3');
+do_photo('video4','2000','Video shoot for The Unaware #4');
+do_photo('video5','2000','Video shoot for The Unaware #5');
 ?>
 </ul>
 </section>
@@ -290,10 +290,10 @@ do_photo('video5','2000');
 <h2>1999</h2>
 <ul role="list" class="1999">
 <?php
-do_photo('dgtMitG3','1999');
-do_photo('dgtMitG1','1999');
-do_photo('dgtMitG4','1999');
-do_photo('dgtMitG5','1999');
+do_photo('dgtMitG3','1999','Promo photo taken at the Driskill Hotel in Austin, TX 1999 #1');
+do_photo('dgtMitG1','1999','Promo photo taken at the Driskill Hotel in Austin, TX 1999 #2');
+do_photo('dgtMitG4','1999','Promo photo taken at the Driskill Hotel in Austin, TX 1999 #3');
+do_photo('dgtMitG5','1999','Promo photo taken at the Driskill Hotel in Austin, TX 1999 #4');
 ?>
 </ul>
 </section>
@@ -302,10 +302,10 @@ do_photo('dgtMitG5','1999');
 <h2>1997</h2>
 <ul role="list" class="1997">
 <?php
-do_photo('UWportrait','1997 promo photo in Boulder Colorado');
-do_photo('area39','live in Denver 1997');
-do_photo('tMitGsf2','1997 promo photo in San Francisco California');
-do_photo('tMitGsf3a','live in San Francisco 1997');
+do_photo('UWportrait','1997','1997 promo photo in Boulder Colorado');
+do_photo('tMitGsf2','1997','1997 promo photo in San Francisco California');
+do_photo('tMitGsf3a','1997','live in San Francisco 1997');
+do_photo('area39','1997','live in Denver 1997');
 ?>
 </ul>
 </section>
@@ -314,8 +314,8 @@ do_photo('tMitGsf3a','live in San Francisco 1997');
 <h2>1996</h2>
 <ul role="list" class="1996">
 <?php
-do_photo('anricat3','1996');
-do_photo('anricat1','1996');
+do_photo('anricat3','1996','Early promo photo of Summer, face close-up');
+do_photo('anricat1','1996','Early promo photo of Summer');
 ?>
 </ul>
 </section>
@@ -324,9 +324,9 @@ do_photo('anricat1','1996');
 <h2>1995</h2>
 <ul role="list" class="1995">
 <?php
-do_photo('thistle06','1995');
-do_photo('thistle31','1995');
-do_photo('rog15','1995');
+do_photo('thistle06','1995','Live at Convergence I, Chicago, IL 1995 #1');
+do_photo('thistle31','1995','Live at Convergence I, Chicago, IL 1995 #2');
+do_photo('rog15','1995','Promo photo of Roger, close-up with guitar');
 ?>
 </ul>
 </section>
@@ -335,8 +335,8 @@ do_photo('rog15','1995');
 <h2>1994</h2>
 <ul role="list" class="1994">
 <?php
-do_photo('roglive1','1994');
-do_photo('roglive3','1994');
+do_photo('roglive1','1994','Live in Louisville, KY 1994 #1');
+do_photo('roglive3','1994','Live in Louisville, KY 1994 #2');
 ?>
 </ul>
 </section>
@@ -345,8 +345,8 @@ do_photo('roglive3','1994');
 <h2>1993</h2>
 <ul role="list" class="1993">
 <?php
-do_photo('rog1','1993');
-do_photo('rog2','1993');
+do_photo('rog1','1993','Promo picture of Roger that was used in the Veils and Shadows EP booklet #1');
+do_photo('rog2','1993','Promo picture of Roger that was used in the Veils and Shadows EP booklet #2');
 ?>
 </ul>
 </section>
@@ -355,8 +355,8 @@ do_photo('rog2','1993');
 <h2>1992</h2>
 <ul role="list" class="1992">
 <?php
-do_photo('tmitgpic2','1992');
-do_photo('tmitgpic3','1992');
+do_photo('tmitgpic2','1992','Promo picture that was used as an early band logo');
+do_photo('tmitgpic3','1992','Promo picture later used for the cover of Veils and Shadows EP');
 ?>
 </ul>
 </section>

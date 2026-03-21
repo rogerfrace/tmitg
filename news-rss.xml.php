@@ -65,7 +65,7 @@ for($index=0; $index < $indexCount; $index++) {
 		print '<guid>http://www.tmitg.com/item'.$idnum.'</guid>';
 		print '<pubDate>'.$pubdate.'</pubDate>';
 		print '<title>'.strip_tags(htmlentities($title)).'</title>';
-		print '<link>http://www.tmitg.com/news.php?item='.$idnum.'</link>';
+		print '<link>https://www.tmitg.com/news.php?item='.$idnum.'</link>';
 		print '<description>'.htmlentities($description).'</description>';
 		print '</item>';
 	}

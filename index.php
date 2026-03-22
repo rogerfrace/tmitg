@@ -59,8 +59,8 @@ require_once "functions.php";
 		"@type": "MusicGroup",
 		"@id": "https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0",
 		"name": "the Machine in the Garden",
+		"url": "https://www.tmitg.com/",
 		"sameAs": [
-			"https://www.tmitg.com",
 			"https://tmitg.bandcamp.com",
 			"https://www.facebook.com/tmitg",
 			"https://bsky.app/profile/tmitg.bsky.social",

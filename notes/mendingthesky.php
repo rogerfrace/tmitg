@@ -10,8 +10,25 @@
 </head>
 <body id="notes">
 
-<h1>Before and After the Storm: "Mending the Sky" (track 7)</h1>
+<main itemscope itemtype="https://schema.org/Article">
+	<span itemprop="author" itemscope itemtype="https://schema.org/MusicGroup">
+		<meta itemprop="name" content="the Machine in the Garden" />
+		<meta itemprop="url" content="https://www.tmitg.com" />
+		<meta itemprop="sameAs" content="https://www.discogs.com/artist/120399-The-Machine-In-The-Garden" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicAlbum">
+		<meta itemprop="name" content="Mending the Sky" />
+		<link itemprop="url" href="https://www.tmitg.com/storm.php" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicRecording">
+		<meta itemprop="name" content="Mending the Sky" />
+		<link itemprop="url" href="https://www.tmitg.com/lyrics/mendingthesky.php" />
+	</span>
+	<meta itemprop="headline" content="Before and After the Storm: “Mending the Sky” (track 7)" />
 
+<h1 itemprop="name">Before and After the Storm: “Mending the Sky” (track 7)</h1>
+
+<div itemprop="text">
 <p>Here are some of the influences, decisions and processes that went into creating some of the music and lyrics for <i>Before and After the Storm</i>.</p>
 
 <hr>
@@ -35,6 +52,7 @@
 <p>Nvwa mended the sky and cut the feet from a huge turtle to make pillars for the universe. She stopped the floods and fires and slew the beasts. She is also said to have married her brother and their children are the population of the world. So she's sort of a more powerful Eve-type figure. In later generations she was regarded as a goddess of marriage and reproduction.</p>
 
 <p>What really drew me into the story was the idea of taking chaos and creating peace. And I loved the visual imagery of someone mending the sky.</p>
-
+</div>
+</main>
 </body>
 </html>

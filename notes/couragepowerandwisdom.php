@@ -10,8 +10,25 @@
 </head>
 <body id="notes">
 
-<h1>Places in Between: “Courage, Power, and Wisdom” (track 8)</h1>
+<main itemscope itemtype="https://schema.org/Article">
+	<span itemprop="author" itemscope itemtype="https://schema.org/MusicGroup">
+		<meta itemprop="name" content="the Machine in the Garden" />
+		<meta itemprop="url" content="https://www.tmitg.com" />
+		<meta itemprop="sameAs" content="https://www.discogs.com/artist/120399-The-Machine-In-The-Garden" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicAlbum">
+		<meta itemprop="name" content="Courage, Power, and Wisdom" />
+		<link itemprop="url" href="https://www.tmitg.com/places.php" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicRecording">
+		<meta itemprop="name" content="Courage, Power, and Wisdom" />
+		<link itemprop="url" href="https://www.tmitg.com/lyrics/couragepowerandwisdom.php" />
+	</span>
+	<meta itemprop="headline" content="Places in Between: “Courage, Power, and Wisdom” (track 8)" />
 
+<h1 itemprop="name">Places in Between: “Courage, Power, and Wisdom” (track 8)</h1>
+
+<div itemprop="text">
 <p>Here are some of the influences, decisions and processes that went into creating some of the music and lyrics for <i>Places in Between</i>.</p>
 
 <hr>
@@ -32,6 +49,7 @@
 <h2>The Lyrics (by Summer)</h2>
 
 <p>I am a longtime fan of the video game series, <i>The Legend of Zelda</i>, and when the most recent installment came out (“Breath of the Wild”) I was really inspired to see if I could find a way to write some lyrics around those ideas. At the end of the day, I had a TON of lyrics—more than I ended up using for the song. This song was really challenging for me from a melody point of view. I had the rhythms worked out—how the words would fit, but I couldn’t figure out how to make a cohesive melody out of the song the way it was originally structured. It was really confusing to me and I went back and forth with Roger about how to make the song a little more user-friendly from a vocal melody perspective. I think at the end of the day, the song turned out much stronger for some of the back and forth work we did, but it felt really fraught at the time, not because we were arguing or anything (we weren’t) but because it just felt like the song was giving me so much grief when it shouldn’t have been that tough!</p>
-
+</div>
+</main>
 </body>
 </html>

@@ -10,8 +10,25 @@
 </head>
 <body id="notes">
 
-<h1>Places in Between: “A Thousand Years of War” (track 2)</h1>
+<main itemscope itemtype="https://schema.org/Article">
+	<span itemprop="author" itemscope itemtype="https://schema.org/MusicGroup">
+		<meta itemprop="name" content="the Machine in the Garden" />
+		<meta itemprop="url" content="https://www.tmitg.com" />
+		<meta itemprop="sameAs" content="https://www.discogs.com/artist/120399-The-Machine-In-The-Garden" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicAlbum">
+		<meta itemprop="name" content="A Thousand Years of War" />
+		<link itemprop="url" href="https://www.tmitg.com/places.php" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicRecording">
+		<meta itemprop="name" content="A Thousand Years of War" />
+		<link itemprop="url" href="https://www.tmitg.com/lyrics/athousandyearsofwar.php" />
+	</span>
+	<meta itemprop="headline" content="Places in Between: “A Thousand Years of War” (track 2)" />
 
+<h1 itemprop="name">Places in Between: “A Thousand Years of War” (track 2)</h1>
+
+<div itemprop="text">
 <p>Here are some of the influences, decisions and processes that went into creating some of the music and lyrics for <i>Places in Between</i>.</p>
 
 <hr>
@@ -25,6 +42,7 @@
 <h2>The Lyrics (by Summer)</h2>
 
 <p>Again, I was inspired by mythology. I was actually familiar with this mythology from Hindu scriptures from a song by Vas called “<a rel="noopener external" href="https://apple.co/3dTM0oG" target="_blank">Amrita (Churning the Sea of Milk)</a>.” I had been curious about what that meant so I looked it up and was really interested in it. But this was years ago and I had forgotten about it (that album came out in 2004). Our daughter had recently gotten a book about mythology geared towards kids and this myth was in there so I was reintroduced to it. I was immediately inspired and started writing words and when the music to this song came back to me, I knew it was the right fit.</p>
-
+</div>
+</main>
 </body>
 </html>

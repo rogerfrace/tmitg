@@ -10,8 +10,25 @@
 </head>
 <body id="notes">
 
-<h1>Places in Between: “Prophetic Bird” (track 5)</h1>
+<main itemscope itemtype="https://schema.org/Article">
+	<span itemprop="author" itemscope itemtype="https://schema.org/MusicGroup">
+		<meta itemprop="name" content="the Machine in the Garden" />
+		<meta itemprop="url" content="https://www.tmitg.com" />
+		<meta itemprop="sameAs" content="https://www.discogs.com/artist/120399-The-Machine-In-The-Garden" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicAlbum">
+		<meta itemprop="name" content="Prophetic Bird" />
+		<link itemprop="url" href="https://www.tmitg.com/places.php" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicRecording">
+		<meta itemprop="name" content="Prophetic Bird" />
+		<link itemprop="url" href="https://www.tmitg.com/lyrics/propheticbird.php" />
+	</span>
+	<meta itemprop="headline" content="Places in Between: “Prophetic Bird” (track 5)" />
 
+<h1 itemprop="name">Places in Between: “Prophetic Bird” (track 5)</h1>
+
+<div itemprop="text">
 <p>Here are some of the influences, decisions and processes that went into creating some of the music and lyrics for <i>Places in Between</i>.</p>
 
 <hr>
@@ -25,6 +42,7 @@
 <h2>The Lyrics (by Summer)</h2>
 
 <p>I had played around a lot of various mythologies of the world in my lyric writing on <i>Before and After the Storm</i> almost to the point of it becoming a bit of a concept album in that regard. I really enjoyed that a lot and so I turned to other cultures for further inspiration. When I was investigating Slavic folklore, I found the myth of Gamayun who is, well, a prophetic bird! At the end of the writing process I had a LOT of words somehow and when I started fitting them to music, it appeared that the pacing of the vocals were going to be really fast with some more complex rhythms. I think it’s really different for me and I’m really happy with how it turned out. In fact, the first time Dru heard it she commented that it was a lot of words!</p>
-
+</div>
+</main>
 </body>
 </html>

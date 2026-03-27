@@ -10,8 +10,25 @@
 </head>
 <body id="notes">
 
-<h1>Places in Between: “Spirit and Image” (track 9)</h1>
+<main itemscope itemtype="https://schema.org/Article">
+	<span itemprop="author" itemscope itemtype="https://schema.org/MusicGroup">
+		<meta itemprop="name" content="the Machine in the Garden" />
+		<meta itemprop="url" content="https://www.tmitg.com" />
+		<meta itemprop="sameAs" content="https://www.discogs.com/artist/120399-The-Machine-In-The-Garden" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicAlbum">
+		<meta itemprop="name" content="Spirit and Image" />
+		<link itemprop="url" href="https://www.tmitg.com/places.php" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicRecording">
+		<meta itemprop="name" content="Spirit and Image" />
+		<link itemprop="url" href="https://www.tmitg.com/lyrics/spiritandimage.php" />
+	</span>
+	<meta itemprop="headline" content="Places in Between: “Spirit and Image” (track 9)" />
 
+<h1 itemprop="name">Places in Between: “Spirit and Image” (track 9)</h1>
+
+<div itemprop="text">
 <p>Here are some of the influences, decisions and processes that went into creating some of the music and lyrics for <i>Places in Between</i>.</p>
 
 <hr>
@@ -34,6 +51,7 @@
 <h2>The Lyrics (by Summer)</h2>
 
 <p>The lyrics for this song were written some time ago and yet somehow feel really relevant today! Sometimes I write songs from my own experience and my own emotions and feelings and sometimes I write from the perspective of some other person/character. In this instance, it’s a little of both. I think this perspective is of a person I used to be—looking back at who I was and some of the struggles and challenges I faced as I tried to find my place in the world in my mid 20’s to early 30’s. There’s that person that you are inside and the person that you show to the outside world (and how they see you) and the dichotomy between those two.</p>
-
+</div>
+</main>
 </body>
 </html>

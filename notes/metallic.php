@@ -10,8 +10,25 @@
 </head>
 <body id="notes">
 
-<h1>Before and After the Storm: "Metallic" (track 3)</h1>
+<main itemscope itemtype="https://schema.org/Article">
+	<span itemprop="author" itemscope itemtype="https://schema.org/MusicGroup">
+		<meta itemprop="name" content="the Machine in the Garden" />
+		<meta itemprop="url" content="https://www.tmitg.com" />
+		<meta itemprop="sameAs" content="https://www.discogs.com/artist/120399-The-Machine-In-The-Garden" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicAlbum">
+		<meta itemprop="name" content="Metallic" />
+		<link itemprop="url" href="https://www.tmitg.com/storm.php" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicRecording">
+		<meta itemprop="name" content="Metallic" />
+		<link itemprop="url" href="https://www.tmitg.com/lyrics/metallic.php" />
+	</span>
+	<meta itemprop="headline" content="Before and After the Storm: “Metallic” (track 3)" />
 
+<h1 itemprop="name">Before and After the Storm: “Metallic” (track 3)</h1>
+
+<div itemprop="text">
 <p>Here are some of the influences, decisions and processes that went into creating some of the music and lyrics for <i>Before and After the Storm</i>.</p>
 
 <hr>
@@ -27,6 +44,7 @@
 <h2>The Vocals (by Summer)</h2>
 
 <p>When I first heard the song, it immediately became one of my favorites of the album. I threw myself into it immediately. This wasn't necessarily the case with all the songs. Some songs I had to struggle with and really work hard. I was super excited about this one and I really wanted something different vocally. I wanted to tap into different sides of my voice and range that I hadn't really used before. The lyrical theme came to me right away. I heard the scraping noise that runs throughout and thought it sounded like metal. But I wanted to think about all different sights and sounds of metal and interplay them together. The words flowed with the vocal melody almost simultaneously. It was really a great outpouring of creativity for me.</p>
-
+</div>
+</main>
 </body>
 </html>

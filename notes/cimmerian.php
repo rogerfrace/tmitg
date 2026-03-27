@@ -10,8 +10,25 @@
 </head>
 <body id="notes">
 
-<h1>Before and After the Storm: "Cimmerian" (track 1)</h1>
+<main itemscope itemtype="https://schema.org/Article">
+	<span itemprop="author" itemscope itemtype="https://schema.org/MusicGroup">
+		<meta itemprop="name" content="the Machine in the Garden" />
+		<meta itemprop="url" content="https://www.tmitg.com" />
+		<meta itemprop="sameAs" content="https://www.discogs.com/artist/120399-The-Machine-In-The-Garden" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicAlbum">
+		<meta itemprop="name" content="Cimmerian" />
+		<link itemprop="url" href="https://www.tmitg.com/storm.php" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicRecording">
+		<meta itemprop="name" content="Cimmerian" />
+		<link itemprop="url" href="https://www.tmitg.com/lyrics/cimmerian.php" />
+	</span>
+	<meta itemprop="headline" content="Before and After the Storm: “Cimmerian” (track 1)" />
 
+<h1 itemprop="name">Before and After the Storm: “Cimmerian” (track 1)</h1>
+
+<div itemprop="text">
 <p>Here are some of the influences, decisions and processes that went into creating some of the music and lyrics for <i>Before and After the Storm</i>.</p>
 
 <hr>
@@ -39,6 +56,7 @@
 <p>I sort of combined the ideas of both the historical and mythological in the lyric writing for Cimmerian and thought about dark vs. light. I really like the way the song has different elements of darkness and lightness and I wanted to capture that with the lyrics.</p>
 
 <p>In terms of the vocal melody and some of the vocal styling I employ, I really wanted to have a large contrast between the dark and light sections with the dark sections featuring a harsh whisper with a strong chest voice and the lighter elements using softer head voice and a higher register. For the end where all the elements came together, I use a combination of the two styles.</p>
-
+</div>
+</main>
 </body>
 </html>

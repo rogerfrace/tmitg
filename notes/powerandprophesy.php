@@ -10,8 +10,25 @@
 </head>
 <body id="notes">
 
-<h1>Before and After the Storm: "Power and Prophesy" (track 6)</h1>
+<main itemscope itemtype="https://schema.org/Article">
+	<span itemprop="author" itemscope itemtype="https://schema.org/MusicGroup">
+		<meta itemprop="name" content="the Machine in the Garden" />
+		<meta itemprop="url" content="https://www.tmitg.com" />
+		<meta itemprop="sameAs" content="https://www.discogs.com/artist/120399-The-Machine-In-The-Garden" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicAlbum">
+		<meta itemprop="name" content="Power and Prophesy" />
+		<link itemprop="url" href="https://www.tmitg.com/storm.php" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicRecording">
+		<meta itemprop="name" content="Power and Prophesy" />
+		<link itemprop="url" href="https://www.tmitg.com/lyrics/powerandprophesy.php" />
+	</span>
+	<meta itemprop="headline" content="Before and After the Storm: “Power and Prophesy” (track 6)" />
 
+<h1 itemprop="name">Before and After the Storm: “Power and Prophesy” (track 6)</h1>
+
+<div itemprop="text">
 <p>Here are some of the influences, decisions and processes that went into creating some of the music and lyrics for <i>Before and After the Storm</i>.</p>
 
 <hr>
@@ -29,6 +46,7 @@
 <p>I've talked about the mythology inspirations for many of the lyrics on the album. This is not one of those songs. People often ask how I write words. Do I hear the music and write words from it or do I write words and later fit them to music. I actually do both of those things. The vast majority of the album was written in the former way. This song is an exception. I had the words simmering around in a file on my computer. They were just waiting for the right song. They were a little cheesier — a little gothier at first and that mostly worked given how goth rock the song sounds. But I didn't want them to be too cliche so I changed them up a bit.</p>
 
 <p>The delivery is really pretty straight forward. I didn't want to be too crazy with them. I felt like there was a lot of open space at the beginning and end so I added the "oh's" and I think it adds a dimension to the song that's a little different for me and my usual vocal style.</p>
-
+</div>
+</main>
 </body>
 </html>

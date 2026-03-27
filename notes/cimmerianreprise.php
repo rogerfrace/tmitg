@@ -10,8 +10,25 @@
 </head>
 <body id="notes">
 
-<h1>Before and After the Storm: "Cimmerian (Reprise)" (track 8)</h1>
+<main itemscope itemtype="https://schema.org/Article">
+	<span itemprop="author" itemscope itemtype="https://schema.org/MusicGroup">
+		<meta itemprop="name" content="the Machine in the Garden" />
+		<meta itemprop="url" content="https://www.tmitg.com" />
+		<meta itemprop="sameAs" content="https://www.discogs.com/artist/120399-The-Machine-In-The-Garden" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicAlbum">
+		<meta itemprop="name" content="Cimmerian (Reprise)" />
+		<link itemprop="url" href="https://www.tmitg.com/storm.php" />
+	</span>
+	<span itemprop="about" itemscope itemtype="https://schema.org/MusicRecording">
+		<meta itemprop="name" content="Cimmerian (Reprise)" />
+		<link itemprop="url" href="https://www.tmitg.com/lyrics/cimmerian.php" />
+	</span>
+	<meta itemprop="headline" content="Before and After the Storm: “Cimmerian (Reprise)” (track 8)" />
 
+<h1 itemprop="name">Before and After the Storm: “Cimmerian (Reprise)” (track 8)</h1>
+
+<div itemprop="text">
 <p>Here are some of the influences, decisions and processes that went into creating some of the music and lyrics for <i>Before and After the Storm</i>.</p>
 
 <hr>
@@ -27,6 +44,7 @@
 <p>The only thing that was done on new tracks were the vocals which Summer wanted to add (I wasn't originally planning for any). They are a new performance with different effects than the original version of the song, but they needed to be softer and more ethereal to match the rest of the mix. Going back to <i>Underworld</i>, again, she did something similar on "<a rel="noopener external" href="https://tmitg.bandcamp.com/track/altered-form" target="_blank">Altered Form</a>."</p>
 
 My original plan for the song order was to have "Cimmerian (Reprise)" as track 2, a similar strategy/flow as Christian Death's <a rel="noopener external" href="https://apple.co/332hzGR" target="_blank"><i>Ashes</i></a>, but ultimately we decided to make it the last track providing a nice wrapper for the complete album.
-
+</div>
+</main>
 </body>
 </html>

@@ -38,7 +38,7 @@
 <p>This was the first song written for the new album, way back in 2013, though it ended up the second-to-last to be finished. Structurally it doesn’t follow a typical verse-chorus structure but instead follows a simple chord progression originally based on the 1-4-1-5-1 pattern, but ended up a bit different:</p>
 
 <figure>
-<img src="cpw.png" alt="">
+<img itemprop="image" src="cpw.png" alt="">
 <figcaption>"Courage, Power, and Wisdom"’s chords, abbreviated<figcaption>
 </figure>
 

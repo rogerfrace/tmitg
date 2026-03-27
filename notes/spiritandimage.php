@@ -40,7 +40,7 @@
 <p>“Image” is all based around a single guitar riff:</p>
 
 <figure>
-<img src="si.png" alt="">
+<img itemprop="image" src="si.png" alt="">
 <figcaption>The “Image” riff as played by piano in the middle transition of the song</figcaption>
 </figure>
 

@@ -48,7 +48,7 @@
 <p>“Underneath” was originally just guitar-bass-vocal, so the drums and piano layers in the final version are new, as are Summer’s vocal harmonies.</p>
 
 <figure>
-<img src="underneath.png" alt="">
+<img itemprop="image" src="underneath.png" alt="">
 <figcaption>The main part for "Underneath"</figcaption>
 </figure>
 

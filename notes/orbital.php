@@ -38,7 +38,7 @@
 <p>This wasn’t originally supposed to be a round, but that’s what it grew into. Originally just a guitar fragment (which I worried was too derivative of “Image”) the original idea was more about layering the same part on multiple instruments: 6-string guitar, 12-string guitar, and bass guitar. After looping those fragments I decided to offset them and liked the way it built up the song and layered with each other, so voilà, a round!</p>
 
 <figure>
-<img src="orbital.png" alt="">
+<img itemprop="image" src="orbital.png" alt="">
 <figcaption>"Orbital" guitars</figcaption>
 </figure>
 

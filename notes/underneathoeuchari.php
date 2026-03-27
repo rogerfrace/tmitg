@@ -17,16 +17,12 @@
 		<meta itemprop="sameAs" content="https://www.discogs.com/artist/120399-The-Machine-In-The-Garden" />
 	</span>
 	<span itemprop="about" itemscope itemtype="https://schema.org/MusicAlbum">
-		<meta itemprop="name" content="Underneath" />
+		<meta itemprop="name" content="Places in Between" />
 		<link itemprop="url" href="https://www.tmitg.com/places.php" />
 	</span>
 	<span itemprop="about" itemscope itemtype="https://schema.org/MusicRecording">
 		<meta itemprop="name" content="Underneath" />
 		<link itemprop="url" href="https://www.tmitg.com/lyrics/underneath.php" />
-	</span>
-	<span itemprop="about" itemscope itemtype="https://schema.org/MusicAlbum">
-		<meta itemprop="name" content="O Euchari" />
-		<link itemprop="url" href="https://www.tmitg.com/places.php" />
 	</span>
 	<span itemprop="about" itemscope itemtype="https://schema.org/MusicRecording">
 		<meta itemprop="name" content="O Euchari" />

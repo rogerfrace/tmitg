@@ -17,7 +17,7 @@
 		<meta itemprop="sameAs" content="https://www.discogs.com/artist/120399-The-Machine-In-The-Garden" />
 	</span>
 	<span itemprop="about" itemscope itemtype="https://schema.org/MusicAlbum">
-		<meta itemprop="name" content="Mending the Sky" />
+		<meta itemprop="name" content="Before and After the Storm" />
 		<link itemprop="url" href="https://www.tmitg.com/storm.php" />
 	</span>
 	<span itemprop="about" itemscope itemtype="https://schema.org/MusicRecording">

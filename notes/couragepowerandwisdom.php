@@ -17,7 +17,7 @@
 		<meta itemprop="sameAs" content="https://www.discogs.com/artist/120399-The-Machine-In-The-Garden" />
 	</span>
 	<span itemprop="about" itemscope itemtype="https://schema.org/MusicAlbum">
-		<meta itemprop="name" content="Courage, Power, and Wisdom" />
+		<meta itemprop="name" content="Places in Between" />
 		<link itemprop="url" href="https://www.tmitg.com/places.php" />
 	</span>
 	<span itemprop="about" itemscope itemtype="https://schema.org/MusicRecording">

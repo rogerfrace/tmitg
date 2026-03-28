@@ -57,37 +57,47 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.tmitg.com/news.php?item=088</loc>
+  <loc>https://www.tmitg.com/news.php?item=101</loc>
   <changefreq>yearly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.tmitg.com/news.php?item=087</loc>
+  <loc>https://www.tmitg.com/news.php?item=100</loc>
   <changefreq>yearly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.tmitg.com/news.php?item=086</loc>
+  <loc>https://www.tmitg.com/news.php?item=099</loc>
   <changefreq>yearly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.tmitg.com/news.php?item=085</loc>
+  <loc>https://www.tmitg.com/news.php?item=098</loc>
   <changefreq>yearly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.tmitg.com/news.php?item=084</loc>
+  <loc>https://www.tmitg.com/news.php?item=097</loc>
   <changefreq>yearly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.tmitg.com/news.php?item=083</loc>
+  <loc>https://www.tmitg.com/news.php?item=096</loc>
   <changefreq>yearly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.tmitg.com/news.php?item=082</loc>
+  <loc>https://www.tmitg.com/news.php?item=095</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/news.php?item=094</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/news.php?item=093</loc>
   <changefreq>yearly</changefreq>
   <priority>0.64</priority>
 </url>

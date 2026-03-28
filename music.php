@@ -327,7 +327,6 @@
 				<h2>video clips</h2>
 				<p><?php do_video("finalform","Final Form (live '97)"); ?></p>
 				<p><?php do_video("finalform2","Final Form (live '00)"); ?></p>
-				<p><?php do_video("finalform-fan","Final Form (Fan Video)"); ?></p>
 			</div>	
 		</div>
 	</div>

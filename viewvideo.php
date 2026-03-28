@@ -14,11 +14,6 @@ if (!empty($_GET['yt'])){
 			$sdesc="Filmed at Downtime in New York City on December 2, 2000 by Chris Flam.";
 			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/igRzCKHJfAc?rel=0" frameborder="0" allowfullscreen></iframe>';
 			break;
-		case "finalform-fan":
-			$stitle="&ldquo;Final Form&rdquo; (Fan Video)";
-			$sdesc="Fan-made video of the Machine in the Garden &quot;Final Form&quot; from the 1997 album &quot;Underworld&quot; and the compilation &quot;The Unquiet Grave Volume 1&quot;.";
-			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/JVhdZ8rFUok?rel=0" frameborder="0" allowfullscreen></iframe>';
-			break;
 #winters
 		case "control":
 			$stitle="&ldquo;Control&rdquo; (Live 2002)";

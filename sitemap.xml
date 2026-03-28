@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
             https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
@@ -637,11 +637,6 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.tmitg.com/viewvideo.php?yt=finalform-fan</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://www.tmitg.com/viewmp3bc.php?bcsample=atouchofheaven</loc>
   <changefreq>yearly</changefreq>
   <priority>0.64</priority>
@@ -650,6 +645,71 @@
   <loc>https://www.tmitg.com/viewmp3bc.php?bcsample=darksplinteredheart</loc>
   <changefreq>yearly</changefreq>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/lyrics/athousandyearsofwar.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/lyrics/coldstorm.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/lyrics/beyond.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/lyrics/underneath.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/lyrics/propheticbird.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/lyrics/brokendays.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/lyrics/adastraperaspera.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/lyrics/couragepowerandwisdom.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/lyrics/spiritandimage.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/lyrics/orbital.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/lyrics/oeuchari.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/lyrics/findaway.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/lyrics/resist.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.tmitg.com/lyrics/cimmerian.php</loc>
@@ -1087,7 +1147,62 @@
   <priority>0.51</priority>
 </url>
 <url>
+  <loc>https://www.tmitg.com/notes/athousandyearsofwar.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
   <loc>https://www.tmitg.com/notes/cimmerian.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/notes/cimmerianreprise.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/notes/couragepowerandwisdom.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/notes/findaway.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/notes/mendingthesky.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/notes/metallic.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/notes/orbital.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/notes/powerandprophesy.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/notes/propheticbird.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/notes/spiritandimage.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.tmitg.com/notes/underneathoeuchari.php</loc>
   <changefreq>yearly</changefreq>
   <priority>0.51</priority>
 </url>

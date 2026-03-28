@@ -11,7 +11,7 @@ function do_lyrics($filename,$songname=NULL) {
 	if (check_mobile()==true) {
 		echo "<a href=\"$lyrpath/$filename.php\" aria-label=\"view $songname lyrics\"><span class=\"fas fa-file-alt\"></span></a>\n";
 	} else {
-		echo "<a role=\"button\" href=\"$lyrpath/$filename.php\" class=\"lyriclink\" aria-haspopup=\"dialog\" title=\"$songname lyrics\" aria-label=\"view $songname lyrics\"><span class=\"fas fa-file-alt\"></span></a>\n";
+		echo "<a role=\"button\" href=\"$lyrpath/$filename.php?embed=1\" class=\"lyriclink\" aria-haspopup=\"dialog\" title=\"$songname lyrics\" aria-label=\"view $songname lyrics\"><span class=\"fas fa-file-alt\"></span></a>\n";
 	}
 }
 
@@ -22,7 +22,7 @@ function do_notes($filename,$songname=NULL) {
 	if (check_mobile()==true) {
 		echo "<a href=\"$npath/$filename.php\" aria-label=\"view $songname notes\"><span class=\"fas fa-pen-fancy\"></span></a>\n";
 	} else {
-		echo "<a role=\"button\" href=\"$npath/$filename.php\" class=\"noteslink\" aria-haspopup=\"dialog\" title=\"$songname notes\" aria-label=\"view $songname notes\"><span class=\"fas fa-pen-fancy\"></span></a>\n";
+		echo "<a role=\"button\" href=\"$npath/$filename.php?embed=1\" class=\"noteslink\" aria-haspopup=\"dialog\" title=\"$songname notes\" aria-label=\"view $songname notes\"><span class=\"fas fa-pen-fancy\"></span></a>\n";
 	}
 }
 

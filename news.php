@@ -2,7 +2,9 @@
 //need to send different headers if this is a single-item view
 if (isset($_GET["item"])) {
 	$titlenum = $_GET["item"];
-	if(strlen($titlenum)!=3) {header('HTTP/1.0 404 not found');die();}
+	if( (!preg_match('/^[0-9]{3}$/', $titlenum)) || (!file_exists("newsitems/".$titlenum.".php")) ) {
+		header('HTTP/1.0 404 not found');die();
+	}
 	$pubdate = '';
 	$title = '';
 	$description = '';
@@ -29,8 +31,8 @@ if (isset($_GET["item"])) {
 	<meta name="description" content="<?=$mdescription;?>" />
 	<meta name="medium" content="news" />
 	<?php if (isset($titlenum)): ?>
-		<link rel="canonical" href="https://www.tmitg.com/news.php?item=<?=$titlenum;?>" />
-		<meta property="og:url" content="https://www.tmitg.com/news.php?item=<?=$titlenum;?>" />
+		<link rel="canonical" href="https://www.tmitg.com/news.php?item=<?=htmlspecialchars($titlenum, ENT_QUOTES, 'UTF-8');?>" />
+		<meta property="og:url" content="https://www.tmitg.com/news.php?item=<?=htmlspecialchars($titlenum, ENT_QUOTES, 'UTF-8');?>" />
 	<?php else: ?>
 		<link rel="canonical" href="https://www.tmitg.com/news.php" />
 		<meta property="og:url" content="https://www.tmitg.com/news.php" />

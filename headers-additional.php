@@ -5,7 +5,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <?php 
 	if ($_SERVER['PHP_SELF'] != "/news.php") {
-		echo '<link rel="canonical" href="https://www.tmitg.com'.$_SERVER['PHP_SELF'].'">';
+		echo '<link rel="canonical" href="https://www.tmitg.com'.htmlspecialchars($_SERVER['PHP_SELF'], ENT_QUOTES, 'UTF-8').'">';
 	}
 ?>
 

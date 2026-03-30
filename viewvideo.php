@@ -154,7 +154,7 @@ if (!empty($_GET['yt'])){
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<meta name="description" content="<?=$sdesc;?>" />
 	<meta content="minimum-scale=1.0, initial-scale=1" name="viewport" />
-	<?php echo '<link rel="canonical" href="https://www.tmitg.com'.$_SERVER['PHP_SELF'].'?yt='.$_GET['yt'].'">
+	<?php echo '<link rel="canonical" href="https://www.tmitg.com'.$_SERVER['PHP_SELF'].'?yt='.htmlspecialchars($_GET['yt'], ENT_QUOTES, 'UTF-8').'">
 '; ?>
 	<link rel="stylesheet" type="text/css" href="../tmitg.css" />
 	<?php include_once "googletracking.html"; ?>

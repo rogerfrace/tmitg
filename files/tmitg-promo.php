@@ -1,5 +1,5 @@
 <?php
-$promoer = $_GET['receipt'];
+$promoer = filter_var($_GET['receipt'], FILTER_SANITIZE_STRING);
 if (!$promoer) { die("Unauthorized"); }
 if ($promoer) { die("Promotional downloads have ended."); }
 

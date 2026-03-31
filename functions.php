@@ -2,7 +2,24 @@
 // for the news - PHP5 only
 date_default_timezone_set('America/Chicago');
 
-// name of lyrics folder here
+function get_current_url($incluri=NULL) {
+    // Determine the protocol
+    $protocol = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' || $_SERVER['SERVER_PORT'] == 443) ? 'https' : 'http';
+
+    // Get the host name (with port if non-standard)
+    $host = $_SERVER['HTTP_HOST'];
+
+    // Get the request URI (path and query string)
+    $request_uri = $_SERVER['REQUEST_URI'];
+
+    // Assemble the full URL
+    if ($incluri==true) {
+    	$url = $protocol . '://' . $host . $request_uri;
+    } else {
+    	$url = $protocol . '://' . $host;
+    }
+    return $url;
+}
 
 // define lyrics function here
 function do_lyrics($filename,$songname=NULL) {

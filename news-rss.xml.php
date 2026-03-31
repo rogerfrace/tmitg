@@ -62,7 +62,7 @@ for($index=0; $index < $indexCount; $index++) {
 		$idnum = str_replace(".php","",$dirArray[$index]);
 		// output <item>
 		print '<item>';
-		print '<guid>http://www.tmitg.com/item'.$idnum.'</guid>';
+		print '<guid>https://www.tmitg.com/item'.$idnum.'</guid>';
 		print '<pubDate>'.$pubdate.'</pubDate>';
 		print '<title>'.strip_tags(htmlentities($title)).'</title>';
 		print '<link>https://www.tmitg.com/news.php?item='.$idnum.'</link>';

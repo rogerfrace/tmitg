@@ -78,7 +78,7 @@ if (isset($_GET["item"])) {
 
 <section class="rssicons">
 	<!-- generic XML image -->
-	<a aria-label="XML format for RSS feed" type="application/rss+xml" href="http://www.tmitg.com/news-rss.xml.php"><img src="images/xml_logo.gif" alt="XML Logo" width="36" height="14" /></a>
+	<a aria-label="XML format for RSS feed" type="application/rss+xml" href="https://www.tmitg.com/news-rss.xml.php"><img src="images/xml_logo.gif" alt="XML Logo" width="36" height="14" /></a>
 </section>
 
 <br style="clear:both;" />
@@ -103,7 +103,7 @@ if (isset($_GET["item"])) {
 						<a href=\"/news.php?item=".$newsnum."\" rel=\"bookmark\" itemprop=\"url\" title=\"Permalink\" name=\"Permalink\" aria-labelledby=\"permalabel ".$newsnum."time ".$newsnum."h1\"><i class=\"fa-solid fa-link\" aria-hidden=\"true\"></i></a>
 						</div>\n";
 					//facebook share
-					echo "<div class=\"shareitem\" role=\"group\" aria-label=\"share item on facebook\"><div class=\"fb-share-button\" data-href=\"http://www.tmitg.com/news.php?item=".$newsnum."\" data-layout=\"button_count\" data-size=\"small\"><a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.tmitg.com%2Fnews.php%3Fitem%3D".$newsnum."&amp;src=sdkpreparse\" class=\"fb-xfbml-parse-ignore\" aria-label=\"Share on Facebook\">Share</a></div></div>";
+					echo "<div class=\"shareitem\" role=\"group\" aria-label=\"share item on facebook\"><div class=\"fb-share-button\" data-href=\"https://www.tmitg.com/news.php?item=".$newsnum."\" data-layout=\"button_count\" data-size=\"small\"><a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.tmitg.com%2Fnews.php%3Fitem%3D".$newsnum."&amp;src=sdkpreparse\" class=\"fb-xfbml-parse-ignore\" aria-label=\"Share on Facebook\">Share</a></div></div>";
 				echo "</div> <!--/sharelinks-->";
 			}
 		echo "</fieldset>

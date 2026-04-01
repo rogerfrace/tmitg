@@ -6,6 +6,6 @@ $description = "<p>the Machine in the Garden are proud to announce the availabil
 
 <p>\"In the Vanir\" is a preview of the Machine in the Garden's forthcoming mini-album \"Before and After the Storm\" to be released in early 2011.</p>
 
-<p>More information <a href=\"http://www.tmitg.com/vanir.php\">here</a>.</p>";
+<p>More information <a href=\"https://www.tmitg.com/vanir.php\">here</a>.</p>";
 
 ?>

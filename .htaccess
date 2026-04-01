@@ -72,125 +72,125 @@ ErrorDocument 500 '<a href="http://www.flickr.com/photos/girliemac/6509400855/" 
   RewriteEngine on
 
   # my rules
-  RewriteRule ^dexm(.*)$ http://www.tmitg.com/merch.php [R=301]
-  RewriteRule ^news-rss.xml$ http://www.tmitg.com/news-rss.xml.php [R=301]  
-  RewriteRule ^item([0-9][0-9][0-9])$ http://www.tmitg.com/news.php?item=$1 [NE,R]
-  RewriteRule ^([0-9][0-9][0-9])$ http://www.tmitg.com/news.php?item=$1 [NE,R]
-  RewriteRule ^index.html$ http://www.tmitg.com/index.php [R=301]
-  RewriteRule ^links.html$ http://www.tmitg.com/links.php [R=301]
-  RewriteRule ^images.html$ http://www.tmitg.com/images.php [R=301]
-  RewriteRule ^merch.html$ http://www.tmitg.com/merch.php [R=301]
-  RewriteRule ^news.html$ http://www.tmitg.com/news.php [R=301]
-  RewriteRule ^frontnews.html$ http://www.tmitg.com/news.php [R=301]
-  RewriteRule ^forum(.*)$ http://www.tmitg.com/news.php [R=303]
-  RewriteRule ^iphone(.*)$ http://www.tmitg.com/ [R=301]
-  RewriteRule ^bio.html$ http://www.tmitg.com/bio.php [R=301]
-  RewriteRule ^checkorder.html$ http://www.tmitg.com/merch.php [R=301]
-  RewriteRule ^lyrics/(.*).html$ http://www.tmitg.com/lyrics/$1.php [R=301]
-  RewriteRule ^qr2011$ http://www.tmitg.com/files/tmitg-silly.jpg [R=302]
+  RewriteRule ^dexm(.*)$ https://www.tmitg.com/merch.php [R=301]
+  RewriteRule ^news-rss.xml$ https://www.tmitg.com/news-rss.xml.php [R=301]  
+  RewriteRule ^item([0-9][0-9][0-9])$ https://www.tmitg.com/news.php?item=$1 [NE,R]
+  RewriteRule ^([0-9][0-9][0-9])$ https://www.tmitg.com/news.php?item=$1 [NE,R]
+  RewriteRule ^index.html$ https://www.tmitg.com/index.php [R=301]
+  RewriteRule ^links.html$ https://www.tmitg.com/links.php [R=301]
+  RewriteRule ^images.html$ https://www.tmitg.com/images.php [R=301]
+  RewriteRule ^merch.html$ https://www.tmitg.com/merch.php [R=301]
+  RewriteRule ^news.html$ https://www.tmitg.com/news.php [R=301]
+  RewriteRule ^frontnews.html$ https://www.tmitg.com/news.php [R=301]
+  RewriteRule ^forum(.*)$ https://www.tmitg.com/news.php [R=303]
+  RewriteRule ^iphone(.*)$ https://www.tmitg.com/ [R=301]
+  RewriteRule ^bio.html$ https://www.tmitg.com/bio.php [R=301]
+  RewriteRule ^checkorder.html$ https://www.tmitg.com/merch.php [R=301]
+  RewriteRule ^lyrics/(.*).html$ https://www.tmitg.com/lyrics/$1.php [R=301]
+  RewriteRule ^qr2011$ https://www.tmitg.com/files/tmitg-silly.jpg [R=302]
 
   # 2020 promo code downloads
-  # RewriteRule ^code/abcdefgh$ http://www.tmitg.com/files/tmitg-promo.php?receipt=Name [R=301,L]
+  # RewriteRule ^code/abcdefgh$ https://www.tmitg.com/files/tmitg-promo.php?receipt=Name [R=301,L]
  
 
   # mp3 redirects
-  RewriteRule ^media/cimmerian-audio.php$ http://www.tmitg.com/viewmp3bc.php?bcsample=cimmerian [R=301,L]
-  RewriteRule ^media/finalform-audio.php$ http://www.tmitg.com/viewmp3bc.php?bcsample=finalform [R=301,L]
-  RewriteRule ^media/firemix-audio.php$ http://www.tmitg.com/viewmp3bc.php?bcsample=firemix [R=301,L]
-  RewriteRule ^media/inthevanir-audio.php$ http://www.tmitg.com/viewmp3bc.php?bcsample=vanirsingle [R=301,L]
-  RewriteRule ^media/mutationengine-audio.php$ http://www.tmitg.com/viewmp3bc.php?bcsample=mutationengine [R=301,L]
-  RewriteRule ^mp3-cimmerian(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=cimmerian [R=301,L]
-  RewriteRule ^mp3-cold(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=cold [R=301,L]
-  RewriteRule ^mp3-darksplinteredheart(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=darksplinteredheart [R=301,L]
-  RewriteRule ^mp3-dawn(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=dawn [R=301,L]
-  RewriteRule ^mp3-dawnremix(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=dawnremix [R=301,L]
-  RewriteRule ^mp3-fade(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=fade [R=301,L]
-  RewriteRule ^mp3-fear(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=fearnomore [R=301,L]
-  RewriteRule ^mp3-firemix(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=firemix [R=301,L]
-  RewriteRule ^mp3-herface(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=herface [R=301,L]
-  RewriteRule ^mp3-inthevanir(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=vanirsingle [R=301,L]
-  RewriteRule ^mp3-intrigue(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=intrigue [R=301,L]
-  RewriteRule ^mp3-mantraremix(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=mantraremix [R=301,L]
-  RewriteRule ^mp3-mentalwasteland(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=mentalwasteland [R=301,L]
-  RewriteRule ^mp3-metallic(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=metallic [R=301,L]
-  RewriteRule ^mp3-midnight(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=midnight [R=301,L]
-  RewriteRule ^mp3-moreuntofire(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=moreuntofire [R=301,L]
-  RewriteRule ^mp3-outside(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=outside [R=301,L]
-  RewriteRule ^mp3-powerandprophesy(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=powerandprophesy [R=301,L]
-  RewriteRule ^mp3-seek(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=seek [R=301,L]
-  RewriteRule ^mp3-shadowydepths(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=shadowydepths [R=301,L]
-  RewriteRule ^mp3-sixdays(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=sixdays [R=301,L]
-  RewriteRule ^mp3-smoothmotion(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=smoothmotionmix [R=301,L]
-  RewriteRule ^mp3-spidersbride(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=spidersbride [R=301,L]
-  RewriteRule ^mp3-theinsideworld(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=theinsideworld [R=301,L]
-  RewriteRule ^mp3-theseillusions(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=theseillusions [R=301,L]
-  RewriteRule ^mp3-thesleepofangels(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=thesleepofangels [R=301,L]
-  RewriteRule ^mp3-touch(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=atouchofheaven [R=301,L]
-  RewriteRule ^mp3-wonderland(|&mode=flash)$ http://www.tmitg.com/viewmp3bc.php?bcsample=wonderland [R=301,L]
+  RewriteRule ^media/cimmerian-audio.php$ https://www.tmitg.com/viewmp3bc.php?bcsample=cimmerian [R=301,L]
+  RewriteRule ^media/finalform-audio.php$ https://www.tmitg.com/viewmp3bc.php?bcsample=finalform [R=301,L]
+  RewriteRule ^media/firemix-audio.php$ https://www.tmitg.com/viewmp3bc.php?bcsample=firemix [R=301,L]
+  RewriteRule ^media/inthevanir-audio.php$ https://www.tmitg.com/viewmp3bc.php?bcsample=vanirsingle [R=301,L]
+  RewriteRule ^media/mutationengine-audio.php$ https://www.tmitg.com/viewmp3bc.php?bcsample=mutationengine [R=301,L]
+  RewriteRule ^mp3-cimmerian(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=cimmerian [R=301,L]
+  RewriteRule ^mp3-cold(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=cold [R=301,L]
+  RewriteRule ^mp3-darksplinteredheart(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=darksplinteredheart [R=301,L]
+  RewriteRule ^mp3-dawn(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=dawn [R=301,L]
+  RewriteRule ^mp3-dawnremix(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=dawnremix [R=301,L]
+  RewriteRule ^mp3-fade(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=fade [R=301,L]
+  RewriteRule ^mp3-fear(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=fearnomore [R=301,L]
+  RewriteRule ^mp3-firemix(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=firemix [R=301,L]
+  RewriteRule ^mp3-herface(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=herface [R=301,L]
+  RewriteRule ^mp3-inthevanir(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=vanirsingle [R=301,L]
+  RewriteRule ^mp3-intrigue(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=intrigue [R=301,L]
+  RewriteRule ^mp3-mantraremix(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=mantraremix [R=301,L]
+  RewriteRule ^mp3-mentalwasteland(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=mentalwasteland [R=301,L]
+  RewriteRule ^mp3-metallic(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=metallic [R=301,L]
+  RewriteRule ^mp3-midnight(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=midnight [R=301,L]
+  RewriteRule ^mp3-moreuntofire(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=moreuntofire [R=301,L]
+  RewriteRule ^mp3-outside(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=outside [R=301,L]
+  RewriteRule ^mp3-powerandprophesy(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=powerandprophesy [R=301,L]
+  RewriteRule ^mp3-seek(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=seek [R=301,L]
+  RewriteRule ^mp3-shadowydepths(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=shadowydepths [R=301,L]
+  RewriteRule ^mp3-sixdays(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=sixdays [R=301,L]
+  RewriteRule ^mp3-smoothmotion(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=smoothmotionmix [R=301,L]
+  RewriteRule ^mp3-spidersbride(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=spidersbride [R=301,L]
+  RewriteRule ^mp3-theinsideworld(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=theinsideworld [R=301,L]
+  RewriteRule ^mp3-theseillusions(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=theseillusions [R=301,L]
+  RewriteRule ^mp3-thesleepofangels(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=thesleepofangels [R=301,L]
+  RewriteRule ^mp3-touch(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=atouchofheaven [R=301,L]
+  RewriteRule ^mp3-wonderland(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=wonderland [R=301,L]
   
   RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
   RewriteCond %{QUERY_STRING} ^source=media(.+)theinsideworld(.+)$
-  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=theinsideworld [R=301,L]
+  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=theinsideworld [R=301,L]
 
   RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
   RewriteCond %{QUERY_STRING} ^source=media(.+)valentine(.+)$
-  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=valentine [R=301,L]
+  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=valentine [R=301,L]
 
   RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
   RewriteCond %{QUERY_STRING} ^source=media(.+)shadowydepths(.+)$
-  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=shadowydepths [R=301,L]
+  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=shadowydepths [R=301,L]
 
   RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
   RewriteCond %{QUERY_STRING} ^source=media(.+)spidersbride(.+)$
-  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=spidersbride [R=301,L]
+  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=spidersbride [R=301,L]
 
   RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
   RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)dawnremix(.+)$
-  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=dawnremix [R=301,L]
+  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=dawnremix [R=301,L]
 
   RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
   RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)dawn(.+)$
-  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=dawn [R=301,L]
+  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=dawn [R=301,L]
 
   RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
   RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)moreuntofire(.+)$
-  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=moreuntofire [R=301,L]
+  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=moreuntofire [R=301,L]
 
   RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
   RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)finalform(.+)$
-  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=finalform [R=301,L]
+  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=finalform [R=301,L]
 
   RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
   RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)coventrycarol(.+)$
-  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=coventrycarol [R=301,L]
+  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=coventrycarol [R=301,L]
 
   RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
   RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)wonderland(.+)$
-  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=wonderland [R=301,L]
+  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=wonderland [R=301,L]
 
   RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
   RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)outside(.+)$
-  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=outside [R=301,L]
+  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=outside [R=301,L]
   
   RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
   RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)sixdays(.+)$
-  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=sixdays [R=301,L]
+  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=sixdays [R=301,L]
 
   RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
   RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)intrigue(.+)$
-  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=intrigue [R=301,L]
+  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=intrigue [R=301,L]
 
   RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
   RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)fade(.+)$
-  RewriteRule ^(.*)$ http://www.tmitg.com/viewmp3bc.php?bcsample=fade [R=301,L]
+  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=fade [R=301,L]
 
   # video redirects
-  RewriteRule ^media/cimmerian-youtube-vid.php$ http://www.tmitg.com/viewvideo.php?yt=cimmerian [R=301,L]
-  RewriteRule ^media/everythingsheis-vid.php$ http://www.tmitg.com/viewvideo.php?yt=everythingsheis [R=301,L]
-  RewriteRule ^media/masks-vid.php$ http://www.tmitg.com/viewvideo.php?yt=masks [R=301,L]
-  RewriteRule ^media/outside-vid.php$ http://www.tmitg.com/viewvideo.php?yt=outside [R=301,L]
-  RewriteRule ^media/theinsideworld-vid.php$ http://www.tmitg.com/viewvideo.php?yt=theinsideworld [R=301,L]
-  RewriteRule ^media/sleepofangels-youtube-vid.php$ http://www.tmitg.com/viewvideo.php?yt=sleepofangels-fan [R=301,L]
+  RewriteRule ^media/cimmerian-youtube-vid.php$ https://www.tmitg.com/viewvideo.php?yt=cimmerian [R=301,L]
+  RewriteRule ^media/everythingsheis-vid.php$ https://www.tmitg.com/viewvideo.php?yt=everythingsheis [R=301,L]
+  RewriteRule ^media/masks-vid.php$ https://www.tmitg.com/viewvideo.php?yt=masks [R=301,L]
+  RewriteRule ^media/outside-vid.php$ https://www.tmitg.com/viewvideo.php?yt=outside [R=301,L]
+  RewriteRule ^media/theinsideworld-vid.php$ https://www.tmitg.com/viewvideo.php?yt=theinsideworld [R=301,L]
+  RewriteRule ^media/sleepofangels-youtube-vid.php$ https://www.tmitg.com/viewvideo.php?yt=sleepofangels-fan [R=301,L]
 
   # plain rewrites
   RewriteRule ^albums/wintersico.gif$ albums/wintersico.jpg

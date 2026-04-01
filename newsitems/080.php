@@ -14,6 +14,6 @@ $description = "<p>the Machine in the Garden and Deus ex Musica are proud to pre
 
 <p><i>Before and After the Storm</i> will initially be a digital-only release on the Machine in the Garden&rsquo;s Bandcamp page <a href=\"http://tmitg.bandcamp.com/\" target=\"_blank\">tmitg.bandcamp.com</a> on Friday, 24 June 2011, followed soon after by digital release on the iTunes Music Store, Amazon mp3 and others (via CDBaby). <i>Before and After the Storm</i> will also be released in the near future as a very limited, special-edition CD available directly from the band.</p>
 
-<p>Additional information is available on <a href=\"http://www.tmitg.com/storm.php\">the album's discography page</a>.";
+<p>Additional information is available on <a href=\"https://www.tmitg.com/storm.php\">the album's discography page</a>.";
 
 ?>

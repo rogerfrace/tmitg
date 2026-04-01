@@ -2,7 +2,7 @@
 
 $pubdate = "Fri, 24 Jun 2011 00:00:01 CDT";
 $title = "Now Available &mdash; Before and After the Storm";
-$description = "<div style=\"float:right; margin: 12px 0 4px 8px;\"><img src=\"http://www.tmitg.com/albums/baats.jpg\"></div>
+$description = "<div style=\"float:right; margin: 12px 0 4px 8px;\"><img src=\"https://www.tmitg.com/albums/baats.jpg\"></div>
 
 <p><strong>Digital Version</strong></p>
 
@@ -14,8 +14,8 @@ $description = "<div style=\"float:right; margin: 12px 0 4px 8px;\"><img src=\"h
 
 <p>For those who would something a little more special, we're doing a very small run of a Special Edition version of the album. It's a professionally duplicated and printed CD-R in an eco-pack sleeve, limited-edition of 50, hand-numbered, hand-embellished and autographed. It will be available in approximately 3 weeks but available immediately for pre-order. To hold you until then we'll email you a download code for Bandcamp so you can enjoy the music immediately. The price is $20.</p>
 
-<p><a href=\"http://www.ccnow.com/cgi-local/cart.cgi?deusex_DXM005CDSE_http://www.tmitg.com/merch.php\">Buy the Special Edition*</a><br /><small><em>*Please allow up to 24 hours to receive your Bandcamp download code</em></small></p>
+<p><a href=\"http://www.ccnow.com/cgi-local/cart.cgi?deusex_DXM005CDSE_https://www.tmitg.com/merch.php\">Buy the Special Edition*</a><br /><small><em>*Please allow up to 24 hours to receive your Bandcamp download code</em></small></p>
 
-<p>Additional information is available on <a href=\"http://www.tmitg.com/storm.php\">the album's discography page</a>.";
+<p>Additional information is available on <a href=\"https://www.tmitg.com/storm.php\">the album's discography page</a>.";
 
 ?>

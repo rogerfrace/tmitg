@@ -1,7 +1,7 @@
+<?php require_once "functions.php"; ?>
 <!DOCTYPE html>
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<?php require_once "functions.php"; ?>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>the Machine in the Garden - merchandise</title>
@@ -11,7 +11,7 @@
 	<meta property="og:site_name" content="the Machine in the Garden" />
 	<meta property="og:title" content="the Machine in the Garden - merchandise" />
 	<meta property="og:url" content="https://www.tmitg.com/merch.php" />
-	<meta property="og:image" content="https://www.tmitg.com/albums/baats.jpg" />
+	<meta property="og:image" content="https://www.tmitg.com/albums/places.jpg" />
 	<meta property="og:description" content="CDs and t-shirts of the Machine in the Garden and Mirabilis" />
     <meta property="og:locale" content="en_US" />
     <meta property="fb:app_id" content="145634995501895">
@@ -75,7 +75,7 @@
 <?php else: ?>
 
 <div style="padding:0.5em; border:2px solid #990000;">
-For band news and special offers, be sure to follow us on <a href="http://www.facebook.com/tmitg" rel="noopener external">Facebook</a> or <a href="https://bsky.app/profile/tmitg.bsky.social" rel="noopener external">Bluesky</a>.
+For band news and special offers, be sure to follow us on <a href="https://www.facebook.com/tmitg" rel="noopener external">Facebook</a> or <a href="https://bsky.app/profile/tmitg.bsky.social" rel="noopener external">Bluesky</a>.
 </div>
 
 <?php endif; ?>
@@ -91,7 +91,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo(get_current_url()); ?>/albums/placesico.jpg" alt="places in between CD" property="image" />
+	<img src="/albums/placesico.jpg" alt="places in between CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -100,7 +100,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	<span property="mpn">dxm-008-cd</span> &copy;<span property="releaseDate">2020</span><br />
 	(<span property="description">full-length CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
-		<a property="url" href="<?php echo "https://".$_SERVER['HTTP_HOST']."/"; ?>places.php">more information <span class="wai">about Places in Between</span></a><br />
+		<a property="url" href="/places.php">more information <span class="wai">about Places in Between</span></a><br />
 		<strong class="price" property="price" content="10.00">$10</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
@@ -123,7 +123,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo(get_current_url()); ?>/albums/baatsico.jpg" alt="before and after the storm CD" property="image" />
+	<img src="/albums/baatsico.jpg" alt="before and after the storm CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -132,7 +132,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	<span property="mpn">dxm-005-cdse</span> &copy;<span property="releaseDate">2011</span><br />
 	(<span property="description">Special Edition CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
-		<a property="url" href="<?php echo "https://".$_SERVER['HTTP_HOST']."/"; ?>storm.php">more information <span class="wai">about Before and After the Storm</span></a><br />
+		<a property="url" href="/storm.php">more information <span class="wai">about Before and After the Storm</span></a><br />
 		<strong class="price" style="color:#E00;">Out of Print</strong>
 		<meta property="availability" content="https://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
@@ -148,7 +148,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo(get_current_url()); ?>/albums/xvico.jpg" alt="XV CD" property="image" />
+	<img src="/albums/xvico.jpg" alt="XV CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -157,7 +157,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	<span property="mpn">dxm-015-cd</span> &copy;<span property="releaseDate">2007</span><br />
 	(<span property="description">full-length CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
-		<a property="url" href="<?php echo "https://".$_SERVER['HTTP_HOST']."/"; ?>xv.php">more information <span class="wai">about XV</span></a><br />
+		<a property="url" href="/xv.php">more information <span class="wai">about XV</span></a><br />
 		<strong class="price" property="price" content="7.00">$7</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
@@ -180,7 +180,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo(get_current_url()); ?>/albums/spico.jpg" alt="shadow puppets CD" property="image" />
+	<img src="/albums/spico.jpg" alt="shadow puppets CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -189,7 +189,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	<span property="mpn">MPP975</span> &copy;<span property="releaseDate">2005</span><br />
 	(<span property="description">full-length CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
-		<a property="url" href="<?php echo "https://".$_SERVER['HTTP_HOST']."/"; ?>shadowpuppets.php">more information <span class="wai">about Shadow Puppets</span></a><br />
+		<a property="url" href="/shadowpuppets.php">more information <span class="wai">about Shadow Puppets</span></a><br />
 		<strong class="price" property="price" content="8.00">$8</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
@@ -214,7 +214,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo(get_current_url()); ?>/albums/asphodelico.jpg" alt="asphodel CD" property="image" />
+	<img src="/albums/asphodelico.jpg" alt="asphodel CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -223,7 +223,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	<span property="mpn">MPP986</span> &copy;<span property="releaseDate">2002</span><br />
 	(<span property="description">full-length CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
-		<a property="url" href="<?php echo "https://".$_SERVER['HTTP_HOST']."/"; ?>asphodel.php">more information <span class="wai">about Asphodel</span></a><br />
+		<a property="url" href="/asphodel.php">more information <span class="wai">about Asphodel</span></a><br />
 		<strong class="price" property="price" content="8.00">$8</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
@@ -246,7 +246,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo(get_current_url()); ?>/albums/mistsico.jpg" alt="out of the mists CD" property="image" />
+	<img src="/albums/mistsico.jpg" alt="out of the mists CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -255,7 +255,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	<span property="mpn">MPP994</span> &copy;<span property="releaseDate">2000</span><br />
 	(<span property="description">full-length enhanced digipack CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
-		<a property="url" href="<?php echo "https://".$_SERVER['HTTP_HOST']."/"; ?>mists.php">more information <span class="wai">about Out of the Mists</span></a><br />
+		<a property="url" href="/mists.php">more information <span class="wai">about Out of the Mists</span></a><br />
 		<strong class="price" property="price" content="8.00">$8</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
@@ -280,7 +280,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo(get_current_url()); ?>/albums/wintersico.jpg" alt="one winters night CD" property="image" />
+	<img src="/albums/wintersico.jpg" alt="one winters night CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -289,7 +289,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	<span property="mpn">MPP999</span> &copy;<span property="releaseDate">1999</span><br />
 	(<span property="description">full-length digipack CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
-		<a property="url" href="<?php echo "https://".$_SERVER['HTTP_HOST']."/"; ?>winters.php">more information <span class="wai">about One Winter's Night&hellip;</span></a><br />
+		<a property="url" href="/winters.php">more information <span class="wai">about One Winter's Night&hellip;</span></a><br />
 		<strong class="price" property="price" content="8.00">$8</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
@@ -312,7 +312,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo(get_current_url()); ?>/albums/underworldico.jpg" alt="underworld CD" property="image" />
+	<img src="/albums/underworldico.jpg" alt="underworld CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -321,7 +321,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	<span property="mpn">dxm-001-cd</span> &copy;<span property="releaseDate">1997</span><br />
 	(<span property="description">full-length CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
-		<a property="url" href="<?php echo "https://".$_SERVER['HTTP_HOST']."/"; ?>underworld.php">more information <span class="wai">about Underworld</span></a><br />
+		<a property="url" href="/underworld.php">more information <span class="wai">about Underworld</span></a><br />
 		<strong class="price" style="color:#E00;">Out of Print</strong>
 		<meta property="availability" content="https://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
@@ -337,7 +337,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo(get_current_url()); ?>/albums/vsico.jpg" alt="veils and shadows EP CD" property="image" />
+	<img src="/albums/vsico.jpg" alt="veils and shadows EP CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
@@ -346,7 +346,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	<span property="mpn">ISOL8-002-2</span> &copy;<span property="productionDate">1993</span><meta property="releaseDate" content="1994" /><br />
 	(<span property="description">4 song CD EP</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
-		<a property="url" href="<?php echo "https://".$_SERVER['HTTP_HOST']."/"; ?>vs.php">more information <span class="wai">about Veils and Shadows EP</span></a><br />
+		<a property="url" href="/vs.php">more information <span class="wai">about Veils and Shadows EP</span></a><br />
 		<strong class="price" property="price" content="3.00">$3</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
@@ -376,7 +376,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo(get_current_url()); ?>/albums/hereaftersm.jpg" alt="mirabilis here and the hereafter CD" property="image" />
+	<img src="/albums/hereaftersm.jpg" alt="mirabilis here and the hereafter CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">Mirabilis</span></span><br />
@@ -408,7 +408,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo(get_current_url()); ?>/albums/subrosaico.jpg" alt="mirabilis sub rosa CD" property="image" />
+	<img src="/albums/subrosaico.jpg" alt="mirabilis sub rosa CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">Mirabilis</span></span><br />
@@ -443,7 +443,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo(get_current_url()); ?>/albums/pleiadescoversm.jpg" alt="mirabilis pleiades CD" property="image" />
+	<img src="/albums/pleiadescoversm.jpg" alt="mirabilis pleiades CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">Mirabilis</span></span><br />
@@ -476,7 +476,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="<?php echo(get_current_url()); ?>/albums/7inchsm.jpg" alt="mirabilis 7-inch" property="image" />
+	<img src="/albums/7inchsm.jpg" alt="mirabilis 7-inch" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">Mirabilis</span></span><br />
@@ -506,7 +506,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<a role="button" aria-haspopup="dialog" href="images/tealshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="vintage ornament design t-shirt" title="vintage ornament design t-shirt"><img src="<?php echo(get_current_url()); ?>/images/tealshirtico.jpg" alt="tmitg vintage ornament design t-shirt" /></a>
+	<a role="button" aria-haspopup="dialog" href="images/tealshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="vintage ornament design t-shirt" title="vintage ornament design t-shirt"><img src="/images/tealshirtico.jpg" alt="tmitg vintage ornament design t-shirt" /></a>
 	<meta property="image" content="https://www.tmitg.com/images/tealshirt.jpg" />
 </div>
 <div class="itemdesc">
@@ -525,7 +525,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<a role="button" aria-haspopup="dialog" href="images/redshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="red design t-shirt" title="red design t-shirt"><img src="<?php echo(get_current_url()); ?>/images/redshirtico.jpg" alt="tmitg red design t-shirt" /></a>
+	<a role="button" aria-haspopup="dialog" href="images/redshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="red design t-shirt" title="red design t-shirt"><img src="/images/redshirtico.jpg" alt="tmitg red design t-shirt" /></a>
 	<meta property="image" content="https://www.tmitg.com/images/redshirt.jpg" />
 </div>
 <div class="itemdesc">
@@ -547,7 +547,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
    
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<a role="button" aria-haspopup="dialog" href="images/redbandedtshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="red design baby-doll shirt" title="red design baby-doll shirt"><img src="<?php echo(get_current_url()); ?>/images/redbandedico.jpg" alt="tmitg red design baby-doll" /></a>
+	<a role="button" aria-haspopup="dialog" href="images/redbandedtshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="red design baby-doll shirt" title="red design baby-doll shirt"><img src="/images/redbandedico.jpg" alt="tmitg red design baby-doll" /></a>
 	<meta property="image" content="https://www.tmitg.com/images/redbandedtshirt.jpg" />
 </div>
 <div class="itemdesc">
@@ -567,7 +567,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<a role="button" aria-haspopup="dialog" href="images/redshirtraglan.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="red design ladies raglan shirt" title="red design ladies raglan shirt"><img src="<?php echo(get_current_url()); ?>/images/redshirtraglanico.jpg" alt="tmitg red design ladies raglan shirt" /></a>
+	<a role="button" aria-haspopup="dialog" href="images/redshirtraglan.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="red design ladies raglan shirt" title="red design ladies raglan shirt"><img src="/images/redshirtraglanico.jpg" alt="tmitg red design ladies raglan shirt" /></a>
 	<meta property="image" content="https://www.tmitg.com/images/redshirtraglan.jpg" />
 </div>
 <div class="itemdesc">
@@ -588,7 +588,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
  
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<a role="button" aria-haspopup="dialog" href="images/tulipshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="tulip t-shirt" title="tulip t-shirt"><img src="<?php echo(get_current_url()); ?>/images/tulipshirtico.jpg" alt="tmitg tulip t-shirt" /></a>
+	<a role="button" aria-haspopup="dialog" href="images/tulipshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="tulip t-shirt" title="tulip t-shirt"><img src="/images/tulipshirtico.jpg" alt="tmitg tulip t-shirt" /></a>
 	<meta property="image" content="https://www.tmitg.com/images/tulipshirt.jpg" />
 </div>
 <div class="itemdesc">

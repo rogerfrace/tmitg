@@ -2,7 +2,7 @@
 
 $pubdate = "Fri, 2 Oct 2020 02:30:00 CDT";
 $title = "Now Available: <i>Asphodel (Remastered)</i>";
-$description = "<a href=\"https://tmitg.bandcamp.com/album/asphodel\"><img itemprop=\"image\" src=\"http://tmitg.com/albums/asphodel.jpg\" alt=\"Asphodel remastered album on Bandcamp\" /></a>";
+$description = "<a href=\"https://tmitg.bandcamp.com/album/asphodel\"><img itemprop=\"image\" src=\"https://www.tmitg.com/albums/asphodel.jpg\" alt=\"Asphodel remastered album on Bandcamp\" /></a>";
 
 $description .= "<p><strong>the Machine in the Garden</strong> has remastered our 2002 album, <i>Asphodel</i>, which is now available for digital download on <a href=\"https://tmitg.bandcamp.com/album/asphodel\">our Bandcamp page</a>.";
 

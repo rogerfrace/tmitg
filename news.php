@@ -45,8 +45,8 @@ if (isset($_GET["item"])) {
 	<meta property="fb:admins" content="1120445561,713632115" />
 	<?php // happy image thumbnail for FB
 		if ((isset($_GET["item"])) && (!stristr($description,"<img "))) {
-		print '<link rel="image_src" href="https://tmitg.com/photos/PiB-IMG_3840.jpg" />
-			   <meta property="og:image" content="https://tmitg.com/photos/PiB-IMG_3840.jpg" />';
+		print '<link rel="image_src" href="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />
+			   <meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />';
 	} ?>
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once "headers-additional.php"; ?>

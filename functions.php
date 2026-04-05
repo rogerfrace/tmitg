@@ -1,5 +1,5 @@
 <?php
-// for the news - PHP5 only
+// for the news
 date_default_timezone_set('America/Chicago');
 
 function get_current_url() {
@@ -63,6 +63,26 @@ function do_mp3bc2($samplename,$songtitle=NULL,$ico=NULL) {
 		echo "<a href=\"viewmp3bc.php?bcsample=".$samplename."\" aria-label=\"listen to $songname music sample\"><span class=\"fas fa-music\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></a>\n";
 	} else {
 		echo "<a role=\"button\" href=\"viewmp3bc.php?bcsample=".$samplename."\" class=\"musiclink\" aria-haspopup=\"dialog\" title=\"$songname music sample\" aria-label=\"listen to $songname music sample\"><span class=\"fas fa-music\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></a>\n";
+	}
+}
+
+
+function do_photo($imgname,$gallery=NULL,$alt=NULL) {
+	// name of photos folder here
+	$phopath="photos"; 
+
+	if ($alt==NULL) { $alt=$imgname; }
+
+	list($width, $height) = getimagesize($phopath.'/'.$imgname.'.jpg');
+	$width=$width+20; $height=$height+24;
+	list($tnwidth, $tnheight) = getimagesize($phopath.'/'.$imgname.'-ico.jpg');
+
+	// combo colorbox/php code
+	if (check_mobile()==true) {
+		echo "<li><a href=\"$phopath/$imgname.jpg\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" loading=\"lazy\" width=\"$tnwidth\" height=\"$tnheight\"></a></li>\n";
+	} else {
+		echo "<li><a role=\"button\" href=\"$phopath/$imgname.jpg\" class=\"imglink\" data-title=\"$gallery\" data-alt=\"$alt\" aria-haspopup=\"dialog\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" loading=\"lazy\" width=\"$tnwidth\" height=\"$tnheight\"></a>
+		<noscript><a href=\"$phopath/$imgname.jpg\" title=\"$gallery\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" width=\"$tnwidth\" height=\"$tnheight\"></a></noscript></li>\n";
 	}
 }
 

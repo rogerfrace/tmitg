@@ -87,6 +87,27 @@ function do_photo($imgname,$gallery=NULL,$alt=NULL) {
 }
 
 
+function display_news($newsnum,$pubdate,$title,$description) {
+	echo "<article aria-labelledby=\"".$newsnum."time\">
+		<fieldset style=\"margin-bottom:14px;\" itemprop=\"NewsArticle\" itemscope itemtype=\"https://schema.org/NewsArticle\">
+		<legend><time id=\"".$newsnum."time\" itemprop=\"datePublished\" datetime=\"".date("Y-m-d",strtotime($pubdate))."\" content=\"".date("Ymd",strtotime($pubdate))."\" style=\"font-family:arial,sans-serif; font-size:1.25em;\">".date("F jS, Y",strtotime($pubdate))."</time></legend>
+		<h1 id=\"".$newsnum."h1\" itemprop=\"headline\">".$title."</h1>
+		<p itemprop=\"articleBody\">".$description."</p>";
+		if (check_mobile()==false) {
+			echo "<div class=\"sharelinks\">";
+				//permalink
+				echo "<div class=\"shareitem\">
+					<a href=\"/news.php?item=".$newsnum."\" rel=\"bookmark\" itemprop=\"url\" title=\"Permalink\" name=\"Permalink\" aria-labelledby=\"permalabel ".$newsnum."time ".$newsnum."h1\"><i class=\"fa-solid fa-link\" aria-hidden=\"true\"></i></a>
+					</div>\n";
+				//facebook share
+				echo "<div class=\"shareitem\" role=\"group\" aria-label=\"share item on facebook\"><div class=\"fb-share-button\" data-href=\"https://www.tmitg.com/news.php?item=".$newsnum."\" data-layout=\"button_count\" data-size=\"small\"><a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.tmitg.com%2Fnews.php%3Fitem%3D".$newsnum."&amp;src=sdkpreparse\" class=\"fb-xfbml-parse-ignore\" aria-label=\"Share on Facebook\">Share</a></div></div>";
+			echo "</div> <!--/sharelinks-->";
+		}
+	echo "</fieldset>
+	</article>";
+}
+
+
 // new table output structure for rows in discogs
 function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle=NULL,$notesfile=NULL) {
 	echo "<tr itemprop=\"track\" itemscope itemtype=\"https://schema.org/MusicRecording\">

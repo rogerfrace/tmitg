@@ -85,8 +85,7 @@ jQuery(document).ready(function() {
 		
 		// make some tweaks to colorbox
 		jQuery(document).bind('cbox_complete', function(){
-			jQuery("[role='dialog']").attr("aria-modal","true");
-			jQuery("#cboxContent").attr("aria-label","dialog").attr("tabindex","-1").focus();
+			jQuery("[role='dialog']").attr("aria-modal","true").attr("aria-label", jQuery("#cboxTitle").text()).attr("tabindex","-1").focus();
 			jQuery(".cboxIframe").attr("title","dialog content");
 			jQuery(".lyriclink,.noteslink,.musiclink,.videolink,#cboxPrevious,#cboxNext").removeAttr("aria-expanded");
 		});

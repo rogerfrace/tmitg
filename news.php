@@ -1,7 +1,7 @@
 <?php
 //need to send different headers if this is a single-item view
 if (isset($_GET["item"]) && is_numeric($_GET["item"])) {
-	$titlenum = $_GET["item"];
+	$titlenum = basename($_GET["item"]);
 	if( (!preg_match('/^[0-9]{3}$/', $titlenum)) || (!file_exists("newsitems/".$titlenum.".php")) ) {
 		header('HTTP/1.0 404 not found');die('404 not found');
 	}

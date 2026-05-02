@@ -29,6 +29,7 @@ $lightdark: #9E6189;
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=fallback');
 
 /* site-wide CSS */
+html {scroll-behavior:smooth;}
 body {
     font-family: Cormorant, serif;
     font-size: 120%;

@@ -25,11 +25,11 @@
 <a href="#digital">tMitG digital downloads and streams</a> |
 <a href="#bands">bands</a> |
 <a href="#zines">webzines and print zines with web pages</a> |
-<a href="#labels">record labels</a> <br>
+<a href="#labels">record labels</a> |
 <a href="#radio">radio shows, clubs, and DJs</a> |
 <a href="#fashion">gothic fashion</a> |
 <a href="#art">art and design</a> |
-<a href="#gothstuff">various gothy stuff</a><br>
+<a href="#gothstuff">various gothy stuff</a> |
 <a href="#misc">humor, culture, entertainment, and other miscellaneous things</a>
 </p>
 </nav>

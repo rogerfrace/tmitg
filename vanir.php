@@ -3,10 +3,10 @@
 	'og:type'=>'music.album',
 	'og:url'=>'https://www.tmitg.com/vanir.php',
 	'og:description'=>'the Machine in the Garden &ldquo;In the Vanir&rdquo; is the band&rsquo;s first digital single and preview for &ldquo;Before and After the Storm&rdquo;.',
-	'og:image'=>'https://www.tmitg.com/albums/vanir.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/vanirlg.jpg',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'250',
-	'og:image:height'=>'250',
+	'og:image:width'=>'600',
+	'og:image:height'=>'600',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 

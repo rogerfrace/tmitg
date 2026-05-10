@@ -4,10 +4,10 @@
 	'og:upc'=>'780444900226',
 	'og:url'=>'https://www.tmitg.com/vs.php',
 	'og:description'=>'the Machine in the Garden &ldquo;Veils and Shadows EP&rdquo; is the band&rsquo;s first studio album.',
-	'og:image'=>'https://www.tmitg.com/albums/vs.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/vs700.jpg',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'250',
-	'og:image:height'=>'250',
+	'og:image:width'=>'700',
+	'og:image:height'=>'700',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 

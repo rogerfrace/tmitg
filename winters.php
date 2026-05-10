@@ -4,10 +4,10 @@
 	'og:upc'=>'685879999923',
 	'og:url'=>'https://www.tmitg.com/winters.php',
 	'og:description'=>'the Machine in the Garden &ldquo;One Winter&rsquo;s Night&hellip;&rdquo; is the band&rsquo;s third studio album.',
-	'og:image'=>'https://www.tmitg.com/albums/winters.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/winters700.jpg',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'281',
-	'og:image:height'=>'250',
+	'og:image:width'=>'700',
+	'og:image:height'=>'700',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 

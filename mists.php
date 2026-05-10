@@ -4,10 +4,10 @@
 	'og:upc'=>'685879999428',
 	'og:url'=>'https://www.tmitg.com/mists.php',
 	'og:description'=>'the Machine in the Garden &ldquo;Out of the Mists&rdquo; is the band&rsquo;s fourth studio album.',
-	'og:image'=>'https://www.tmitg.com/albums/mists.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/mists700.jpg',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'280',
-	'og:image:height'=>'250',
+	'og:image:width'=>'700',
+	'og:image:height'=>'700',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 

@@ -4,10 +4,10 @@
 	'og:upc'=>'685879998629',
 	'og:url'=>'https://www.tmitg.com/asphodel.php',
 	'og:description'=>'the Machine in the Garden &ldquo;Asphodel&rdquo; is the band&rsquo;s fifth studio album.',
-	'og:image'=>'https://www.tmitg.com/albums/asphodel.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/asphodel700.jpg',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'251',
-	'og:image:height'=>'250',
+	'og:image:width'=>'700',
+	'og:image:height'=>'700',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 

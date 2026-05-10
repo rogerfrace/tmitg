@@ -16,15 +16,15 @@
 
 <h1>Policies</h1>
 
-<small>Last updated <time>2026-03-17</time></small>
+<small>Last updated <time>2026-05-02</time></small>
 
 <h2>Return Policy</h2>
 <p>Unopened CDs may be returned within 30 days for a full refund less shipping. Shipping charges are not refundable. Opened CDs may only be returned in the event of a defective CD. If your CD is defective, we will pay return shipping and we will pay to ship a new CD to you.</p>
 
 <h2>Shipping Policy</h2>
 <p>We generally ship orders within 5 business days.</p>
-<p>Shipping prices for a single CD in the United States (As of January 2026):
-<br>First Class Mail - $8.75</p>
+<p>Shipping prices for a single CD in the United States (As of April 26, 2026):
+<br>First Class Mail - $9.45</p>
 
 <h2>Privacy Policy</h2>
 

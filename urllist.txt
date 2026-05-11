@@ -84,6 +84,7 @@ https://www.tmitg.com/lyrics/scathefire.php
 https://www.tmitg.com/lyrics/seek.php
 https://www.tmitg.com/lyrics/shadowydepths.php
 https://www.tmitg.com/lyrics/sixdays.php
+https://www.tmitg.com/lyrics/spacetime.php
 https://www.tmitg.com/lyrics/spidersbride.php
 https://www.tmitg.com/lyrics/suspend.php
 https://www.tmitg.com/lyrics/theinsideworld.php
@@ -110,17 +111,6 @@ https://www.tmitg.com/misfit.php
 https://www.tmitg.com/mists.php
 https://www.tmitg.com/music.php
 https://www.tmitg.com/news.php
-https://www.tmitg.com/news.php?item=069
-https://www.tmitg.com/news.php?item=070
-https://www.tmitg.com/news.php?item=071
-https://www.tmitg.com/news.php?item=072
-https://www.tmitg.com/news.php?item=073
-https://www.tmitg.com/news.php?item=074
-https://www.tmitg.com/news.php?item=075
-https://www.tmitg.com/news.php?item=076
-https://www.tmitg.com/news.php?item=077
-https://www.tmitg.com/news.php?item=078
-https://www.tmitg.com/news.php?item=079
 https://www.tmitg.com/news.php?item=080
 https://www.tmitg.com/news.php?item=081
 https://www.tmitg.com/news.php?item=082
@@ -143,6 +133,7 @@ https://www.tmitg.com/news.php?item=098
 https://www.tmitg.com/news.php?item=099
 https://www.tmitg.com/news.php?item=100
 https://www.tmitg.com/news.php?item=101
+https://www.tmitg.com/news.php?item=102
 https://www.tmitg.com/notes/athousandyearsofwar.php
 https://www.tmitg.com/notes/cimmerian.php
 https://www.tmitg.com/notes/cimmerianreprise.php
@@ -161,6 +152,7 @@ https://www.tmitg.com/resistor.php
 https://www.tmitg.com/sde.php
 https://www.tmitg.com/shadowpuppets.php
 https://www.tmitg.com/sogrey.php
+https://www.tmitg.com/spacetime.php
 https://www.tmitg.com/storm.php
 https://www.tmitg.com/summer/
 https://www.tmitg.com/tnog.php

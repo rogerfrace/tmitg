@@ -267,7 +267,7 @@ if (!empty($_GET['bcsample'])){
 		case "spacetime":
 			$stitle="Space-Time";
 			$salbum="Space-Time";
-			$siframe='<iframe title="'.$stitle.' sample" style="border: 0; width: 280px; height: 422px;" src="https://bandcamp.com/EmbeddedPlayer/album=227127319/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/track=1048827026/transparent=true/" seamless><a href="https://tmitg.bandcamp.com/track/space-time">Space-Time by the Machine in the Garden</a></iframe>';
+			$siframe='<iframe title="'.$stitle.' sample" style="border: 0; width: 280px; height: 422px;" src="https://bandcamp.com/EmbeddedPlayer/track=3653913321/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/transparent=true/" seamless><a href="https://tmitg.bandcamp.com/track/space-time">Space-Time by the Machine in the Garden</a></iframe>';
 			break;
 		
 	}

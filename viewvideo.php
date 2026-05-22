@@ -141,7 +141,12 @@ if (!empty($_GET['yt'])){
 			$sdesc="Official lyric video for &quot;Find a Way&quot; by the Machine in the Garden.";
 			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/lg2odj5wsbI" frameborder="0" allowfullscreen></iframe>';
 			break;
-	
+#space-time
+		case "spacetime":
+			$stitle="&ldquo;Space-Time&rdquo; Official Lyric Video";
+			$sdesc="Official lyric video for &quot;Space-Time&quot; by the Machine in the Garden.";
+			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/iJ0sCc1bwBQ" frameborder="0" allowfullscreen></iframe>';
+			break;
 	}
 } else {
 	die("no input");

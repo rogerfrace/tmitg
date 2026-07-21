@@ -96,7 +96,14 @@ function display_news($newsnum,$pubdate,$title,$description) {
 					<a href=\"/news.php?item=".$newsnum."\" rel=\"bookmark\" itemprop=\"url\" title=\"Permalink\" name=\"Permalink\" aria-labelledby=\"permalabel ".$newsnum."time ".$newsnum."h1\"><i class=\"fa-solid fa-link\" aria-hidden=\"true\"></i></a>
 					</div>\n";
 				//facebook share
-				echo "<div class=\"shareitem\" role=\"group\" aria-label=\"share item on facebook\"><div class=\"fb-share-button\" data-href=\"https://www.tmitg.com/news.php?item=".$newsnum."\" data-layout=\"button_count\" data-size=\"small\"><a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.tmitg.com%2Fnews.php%3Fitem%3D".$newsnum."&amp;src=sdkpreparse\" class=\"fb-xfbml-parse-ignore\" aria-label=\"Share on Facebook\">Share</a></div></div>";
+				echo "<div class=\"shareitem\" role=\"group\" aria-label=\"share item on facebook\">
+					<div class=\"fb-share-button\"
+						data-href=\"https://www.tmitg.com/news.php?item=".$newsnum."\"
+						data-layout=\"button_count\"
+						data-size=\"small\"
+						data-lazy=\"true\">
+					</div>
+				</div>";
 			echo "</div> <!--/sharelinks-->";
 		}
 	echo "</fieldset>

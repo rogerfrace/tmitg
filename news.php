@@ -62,7 +62,7 @@ if (isset($_GET["item"]) && is_numeric($_GET["item"])) {
 
 <body id="news">
 <?php if (check_mobile()==false): ?>
-	<!-- fb share button from https://developers.facebook.com/documentation/plugins/page-plugin -->
+	<!-- fb SDK from https://developers.facebook.com/documentation/plugins -->
 	<div id="fb-root"></div>
 	<script async defer crossorigin="anonymous"
 		src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0">
@@ -134,7 +134,7 @@ if (isset($_GET["item"]) && is_numeric($_GET["item"])) {
 		<?php if (check_mobile()==false): ?>
 			<div class="fb-page"
 				data-href="https://www.facebook.com/tmitg"
-				data-tabs="timeline,events,messages"
+				data-tabs="timeline,events"
 				data-width="300"
 				data-height="750"
 				data-hide-cover="false"

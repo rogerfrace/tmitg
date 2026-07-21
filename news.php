@@ -9,7 +9,7 @@ if (isset($_GET["item"]) && is_numeric($_GET["item"])) {
 	$title = '';
 	$description = '';
 	include_once("newsitems/".$titlenum.".php");
-	$mtitle = "the Machine in the Garden - news - " . htmlentities(trim(strip_tags($title)));
+	$mtitle = htmlentities(trim(strip_tags($title))) . " - the Machine in the Garden - news";
 	$cleandesc = explode(".",strip_tags($description));
 	$mdescription = htmlentities(trim($cleandesc[0]));
 	$mtype = "article";

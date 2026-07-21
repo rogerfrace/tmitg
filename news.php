@@ -9,7 +9,7 @@ if (isset($_GET["item"]) && is_numeric($_GET["item"])) {
 	$title = '';
 	$description = '';
 	include_once("newsitems/".$titlenum.".php");
-	$mtitle = htmlentities(trim(strip_tags($title)));
+	$mtitle = "the Machine in the Garden - news - " . htmlentities(trim(strip_tags($title)));
 	$cleandesc = explode(".",strip_tags($description));
 	$mdescription = htmlentities(trim($cleandesc[0]));
 	$mtype = "article";
@@ -26,7 +26,7 @@ if (isset($_GET["item"]) && is_numeric($_GET["item"])) {
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>the Machine in the Garden - news - <?=$mtitle;?></title>
+	<title><?=$mtitle;?></title>
 	<meta name="title" content="<?=$mtitle;?>" />
 	<meta name="description" content="<?=$mdescription;?>" />
 	<meta name="medium" content="news" />
@@ -82,6 +82,8 @@ if (isset($_GET["item"]) && is_numeric($_GET["item"])) {
 </section>
 
 <br style="clear:both;" />
+
+<h1>Recent News</h1>
 
 <div class="flexwrapper">
 

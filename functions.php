@@ -87,7 +87,7 @@ function display_news($newsnum,$pubdate,$title,$description) {
 	echo "<article aria-labelledby=\"".$newsnum."time\">
 		<fieldset style=\"margin-bottom:14px;\" itemprop=\"NewsArticle\" itemscope itemtype=\"https://schema.org/NewsArticle\">
 		<legend><time id=\"".$newsnum."time\" itemprop=\"datePublished\" datetime=\"".date("Y-m-d",strtotime($pubdate))."\" content=\"".date("Ymd",strtotime($pubdate))."\" style=\"font-family:arial,sans-serif; font-size:1.25em;\">".date("F jS, Y",strtotime($pubdate))."</time></legend>
-		<h1 id=\"".$newsnum."h1\" itemprop=\"headline\">".$title."</h1>
+		<h2 id=\"".$newsnum."h1\" itemprop=\"headline\">".$title."</h2>
 		<p itemprop=\"articleBody\">".$description."</p>";
 		if (check_mobile()==false) {
 			echo "<div class=\"sharelinks\">";

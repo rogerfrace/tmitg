@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>Spider's Bride</title>
+	<title>Spider's Bride - Lyrics - the Machine in the Garden</title>
 	<meta name="description" content="Lyrics for the song &quot;Spider's Bride&quot; by the Machine in the Garden" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="../tmitg.css" />

@@ -62,9 +62,11 @@ if (isset($_GET["item"]) && is_numeric($_GET["item"])) {
 
 <body id="news">
 <?php if (check_mobile()==false): ?>
-	<!-- fb share button -->
+	<!-- fb share button from https://developers.facebook.com/documentation/plugins/page-plugin -->
 	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=207159742735690&autoLogAppEvents=1" nonce="YigLuG1p"></script>
+	<script async defer crossorigin="anonymous"
+		src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0">
+	</script>
 	<!-- /fb share button -->
 <?php endif; ?>
 
@@ -130,7 +132,16 @@ if (isset($_GET["item"]) && is_numeric($_GET["item"])) {
 
 		<section class="fbblock" aria-label="tMitG Facebook feed">
 		<?php if (check_mobile()==false): ?>
-			<iframe loading="lazy" title="tMitG Facebook feed" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftmitg%2F&tabs=timeline&width=300&height=750&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=121619441387" width="300" height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+			<div class="fb-page"
+				data-href="https://www.facebook.com/tmitg"
+				data-tabs="timeline,events,messages"
+				data-width="300"
+				data-height="750"
+				data-hide-cover="false"
+				data-show-facepile="false"
+				data-small-header="true"
+				data-adapt-container-width="true">
+			</div>
 		<hr>
 		<?php endif; ?>
 		</section>
@@ -142,7 +153,7 @@ if (isset($_GET["item"]) && is_numeric($_GET["item"])) {
 			<bsky-embed
 				username="tmitg.bsky.social"
 				mode="light"
-				limit="5"
+				limit="4"
 				link-target="_blank"
 				link-image="true"
 				custom-styles=".flex { display: block; } .whitespace-nowrap { white-space: normal; }"

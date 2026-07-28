@@ -27,8 +27,10 @@
 
 <main id="main" class="mainbody">
 
+<h1 class="wai">tMitG Live Performances</h1>
+
 <section>
-<h1>Upcoming Live Performances:</h1>
+<h2>Upcoming Live Performances:</h1>
 
 <!--<p class="notopmargin"><b>Saturday, November 30, 2013</b>
 <br /><b>Austin, TX</b>
@@ -47,7 +49,7 @@
 <hr>
 
 <section>
-<h1>Past Live Performances:</h1>
+<h2>Past Live Performances:</h1>
 
 <!-- google map stuff -->
 <!--<div id="map_canvas" style="width: 100%; height: 300px" role="presentation" aria-hidden="true"></div>-->

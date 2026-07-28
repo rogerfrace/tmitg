@@ -64,7 +64,7 @@
 	</div>
 	
 	<div class="item xv" id="xvtab" role="tab" tabindex="-1" aria-controls="xv" aria-selected="false">
-		<img src="albums/xvico.jpg" class="xvimg" alt="">
+		<img src="albums/xvico.jpg" class="xvimg" alt="XV">
 		<div class="detail">
 			<p class="tabtitle">XV</p>
 			<time>2007</time>

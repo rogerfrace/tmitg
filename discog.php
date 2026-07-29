@@ -10,6 +10,188 @@
 	<meta property="og:description" content="Browse the complete discography of the Machine in the Garden, from Space-Time to the earliest releases and compilations." />
 	<meta property="og:image" content="https://www.tmitg.com/albums/spacetimelg.jpg" />
 	<meta property="og:image:alt" content="Space-Time album artwork for the Machine in the Garden" />
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@graph": [
+		{
+		  "@id": "https://www.tmitg.com/#band",
+		  "@type": "MusicGroup",
+		  "name": "the Machine in the Garden",
+		  "url": "https://www.tmitg.com/",
+		  "description": "Gothic/etherealwave duo featuring Roger Fracé and Summer Bowman.",
+		  "sameAs": [
+			  "https://tmitg.bandcamp.com",
+			  "https://www.facebook.com/tmitg",
+			  "https://bsky.app/profile/tmitg.bsky.social",
+			  "https://www.youtube.com/tmitg",
+			  "https://www.discogs.com/artist/120399-The-Machine-In-The-Garden"
+		  ]
+		},
+		{
+		  "@type": "CollectionPage",
+		  "name": "Discography",
+		  "url": "https://www.tmitg.com/discog.php",
+		  "about": {
+			"@id": "https://www.tmitg.com/bio.php"
+		  },
+		  "mainEntity": {
+			"@id": "https://www.tmitg.com/discog.php#releases"
+		  }
+		},
+		{
+		  "@id": "https://www.tmitg.com/discog.php#releases",
+		  "@type": "ItemList",
+		  "itemListElement": [
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "Space-Time",
+				"datePublished": "2026",
+				"url": "https://www.tmitg.com/spacetime.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "Places in Between",
+				"datePublished": "2020",
+				"url": "https://www.tmitg.com/places.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "Image (acoustic)",
+				"datePublished": "2017",
+				"url": "https://www.tmitg.com/imageacoustic.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "Miscellany",
+				"datePublished": "2014",
+				"url": "https://www.tmitg.com/miscellany.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "Before and After the Storm",
+				"datePublished": "2011",
+				"url": "https://www.tmitg.com/storm.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "In the Vanir",
+				"datePublished": "2010",
+				"url": "https://www.tmitg.com/vanir.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "XV",
+				"datePublished": "2007",
+				"url": "https://www.tmitg.com/xv.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "Shadow Puppets",
+				"datePublished": "2005",
+				"url": "https://www.tmitg.com/shadowpuppets.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "Asphodel",
+				"datePublished": "2002",
+				"url": "https://www.tmitg.com/asphodel.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "When Angels Peer Favorably Upon Us, Vol. 2",
+				"datePublished": "2001",
+				"url": "https://www.tmitg.com/wapfuu2.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "Out of the Mists",
+				"datePublished": "2000",
+				"url": "https://www.tmitg.com/mists.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "When Angels Peer Favorably Upon Us, Vol. 1",
+				"datePublished": "2000",
+				"url": "https://www.tmitg.com/wapfuu1.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "One Winter's Night...",
+				"datePublished": "1999",
+				"url": "https://www.tmitg.com/winters.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "Underworld",
+				"datePublished": "1997",
+				"url": "https://www.tmitg.com/underworld.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "Veils and Shadows Remixes",
+				"datePublished": "1995",
+				"url": "https://www.tmitg.com/vsremix.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "Veils and Shadows EP",
+				"datePublished": "1994",
+				"url": "https://www.tmitg.com/vs.php"
+			  }
+			}
+		  ]
+		}
+	  ]
+	}
+	</script>
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
 	<?php include_once "headers-additional.php"; ?>

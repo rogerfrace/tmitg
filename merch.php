@@ -8,14 +8,10 @@
 	<meta name="title" content="the Machine in the Garden - merchandise" />
 	<meta name="description" content="CDs and t-shirts of the Machine in the Garden and Mirabilis" />
 	<meta name="language" content="en-US" />
-	<meta property="og:site_name" content="the Machine in the Garden" />
 	<meta property="og:title" content="the Machine in the Garden - merchandise" />
 	<meta property="og:url" content="https://www.tmitg.com/merch.php" />
 	<meta property="og:image" content="https://www.tmitg.com/albums/places.jpg" />
 	<meta property="og:description" content="CDs and t-shirts of the Machine in the Garden and Mirabilis" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="fb:app_id" content="145634995501895">
-    <meta property="fb:admins" content="1120445561,713632115">
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once "headers-additional.php"; ?>
 	<script>

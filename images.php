@@ -7,14 +7,11 @@
 	<meta name="description" content="the Machine in the Garden band photo gallery.">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
-	<meta property="og:site_name" content="the Machine in the Garden" />
 	<meta property="og:title" content="Photos - the Machine in the Garden" />
-	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://www.tmitg.com/images.php" />
 	<meta property="og:description" content="Photo gallery of the Machine in the Garden, including live shots, promo photos, and recent portraits." />
 	<meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />
 	<meta property="og:image:alt" content="Roger and Summer in a Victorian-inspired photo session" />
-	<meta property="og:locale" content="en_US" />
 	<?php include_once "headers-additional.php"; ?>
 	<script type="application/ld+json">
 	{

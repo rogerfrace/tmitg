@@ -6,6 +6,9 @@
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<meta name="description" content="the Machine in the Garden's favorite and useful web links">
 	<title>the Machine in the Garden - links</title>
+	<meta property="og:url" content="https://www.tmitg.com/links.php" />
+	<meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />
+	<meta property="og:image:alt" content="Roger and Summer in a Victorian-inspired photo session" />
 	<?php include_once "headers-additional.php"; ?>
 </head>
 

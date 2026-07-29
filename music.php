@@ -5,14 +5,11 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - music</title>
 	<meta name="description" content="the Machine in the Garden music audio and video samples.">
-	<meta property="og:site_name" content="the Machine in the Garden" />
 	<meta property="og:title" content="Music - the Machine in the Garden" />
-	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://www.tmitg.com/music.php" />
 	<meta property="og:description" content="Listen to music samples and view album highlights from the Machine in the Garden." />
 	<meta property="og:image" content="https://www.tmitg.com/albums/spacetimelg.jpg" />
 	<meta property="og:image:alt" content="Space-Time album artwork for the Machine in the Garden" />
-	<meta property="og:locale" content="en_US" />
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once "headers-additional.php"; ?>
 </head>

@@ -6,6 +6,9 @@
 	<title>the Machine in the Garden - live performances</title>
 	<meta name="description" content="the Machine in the Garden upcoming live shows and list of past shows.">
 	<meta name="copyright" content="<?=date('Y',time());?>">
+	<meta property="og:url" content="https://www.tmitg.com/live.php" />
+	<meta property="og:image" content="https://www.tmitg.com/photos/elysium06b.jpg" />
+	<meta property="og:image:alt" content="tMitG live in Austin TX 2006" />
 	<?php include_once "headers-additional.php"; ?>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-table-headers/0.1.24/js/jquery.stickytableheaders.min.js" integrity="sha512-Y4nnCsylqqK1jfmGLzXdbp1f8bp/FRHUUw1DH5nQU4FZjqkZcm0jshuOjDmmcU2iE0+uhm7bTXAHGeTi1yxfeQ==" crossorigin="anonymous"></script>  <script>

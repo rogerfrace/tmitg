@@ -10,6 +10,25 @@
 	<meta property="og:url" content="https://www.tmitg.com/bio.php" />
 	<meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />
 	<meta property="og:image:alt" content="Roger and Summer in a Victorian-inspired photo session" />
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "AboutPage",
+			"name": "About the Machine in the Garden",
+			"url": "https://www.tmitg.com/bio.php",
+			"about": {
+				"@type": "MusicGroup",
+				"name": "the Machine in the Garden",
+				"sameAs": [
+					"https://tmitg.bandcamp.com",
+					"https://www.facebook.com/tmitg",
+					"https://bsky.app/profile/tmitg.bsky.social",
+					"https://www.youtube.com/tmitg",
+					"https://www.discogs.com/artist/120399-The-Machine-In-The-Garden"
+				]
+			}
+		}
+	</script>
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once "headers-additional.php"; ?>
 </head>

@@ -13,22 +13,6 @@
 	<meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />
 	<meta property="og:image:alt" content="Roger and Summer in a Victorian-inspired photo session" />
 	<?php include_once "headers-additional.php"; ?>
-	<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@type": "ImageGallery",
-	  "name": "the Machine in the Garden Photos",
-	  "url": "https://www.tmitg.com/images.php",
-	  "about": {
-		"@type": "MusicGroup",
-		"name": "the Machine in the Garden",
-		"sameAs": [
-			"https://tmitg.bandcamp.com",
-			"https://www.facebook.com/tmitg"
-		]
-	  }
-	}
-	</script>
 	<script>
 		jQuery(document).ready(function(){
 			if (typeof jQuery.colorbox === 'undefined') {
@@ -65,7 +49,9 @@
 
 <?php get_header(); ?>
 
-<div class="mainbody" role="main">
+<main class="mainbody" itemscope itemtype="https://schema.org/ImageGallery">
+	<meta itemprop="name" content="the Machine in the Garden Photos" />
+	<meta itemprop="url" content="https://www.tmitg.com/images.php" />
 
 <h1 class="wai">Photos of the Machine in the Garden</h1>
 
@@ -382,7 +368,7 @@ do_photo('tmitgpic3','1992','Promo picture later used for the cover of Veils and
 </ul>
 </section>
 
-</div> <!-- /mainbody -->
+</main>
 
 </body>
 </html>

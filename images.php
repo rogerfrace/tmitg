@@ -52,6 +52,11 @@
 <main class="mainbody" itemscope itemtype="https://schema.org/ImageGallery">
 	<meta itemprop="name" content="the Machine in the Garden Photos" />
 	<meta itemprop="url" content="https://www.tmitg.com/images.php" />
+	<div itemscope itemtype="https://schema.org/MusicGroup" itemprop="about">
+		<meta itemprop="name" content="the Machine in the Garden" />
+		<link itemprop="sameAs" href="https://tmitg.bandcamp.com" />
+		<link itemprop="sameAs" href="https://www.facebook.com/tmitg" />
+	</div>
 
 <h1 class="wai">Photos of the Machine in the Garden</h1>
 

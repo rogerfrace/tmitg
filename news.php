@@ -40,6 +40,8 @@ if (isset($_GET["item"]) && is_numeric($_GET["item"])) {
 	<meta property="og:type" content="<?=$mtype;?>" />
 	<meta property="og:title" content="<?=$mtitle;?>" />
 	<meta property="og:description" content="<?=$mdescription;?>" />
+	<meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />
+	<meta property="og:image:alt" content="Roger and Summer in a Victorian-inspired photo session" />
 	<meta property="fb:app_id" content="145634995501895" />
 	<meta property="fb:admins" content="1120445561,713632115" />
 	<?php // happy image thumbnail for FB

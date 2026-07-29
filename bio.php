@@ -6,6 +6,14 @@
     <title>the Machine in the Garden - bio</title>
 	<meta name="description" content="the Machine in the Garden offical band biography and history.">
 	<meta name="keywords" content="machine in the garden, tmitg, music, CDs, roger frace, summer bowman, band bio">
+	<meta property="og:site_name" content="the Machine in the Garden" />
+	<meta property="og:title" content="Bio - the Machine in the Garden" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.tmitg.com/bio.php" />
+	<meta property="og:description" content="the Machine in the Garden offical band biography and history." />
+	<meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />
+	<meta property="og:image:alt" content="Roger and Summer in a Victorian-inspired photo session" />
+	<meta property="og:locale" content="en_US" />
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once "headers-additional.php"; ?>
 </head>

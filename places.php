@@ -5,6 +5,7 @@
 	'og:url'=>'https://www.tmitg.com/places.php',
 	'og:description'=>'the Machine in the Garden &ldquo;Places in Between&rdquo; is the band&rsquo;s ninth studio album.',
 	'og:image'=>'https://www.tmitg.com/albums/places.jpg',
+	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Places in Between',
 	'og:image:type'=>'image/jpeg',
 	'og:image:width'=>'278',
 	'og:image:height'=>'250',

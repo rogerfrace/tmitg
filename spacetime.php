@@ -4,6 +4,7 @@
 	'og:url'=>'https://www.tmitg.com/spacetime.php',
 	'og:description'=>'the Machine in the Garden &ldquo;Space-Time&rdquo; is the band&rsquo;s third digital single.',
 	'og:image'=>'https://www.tmitg.com/albums/spacetimelg.jpg',
+	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Space-Time',
 	'og:image:type'=>'image/jpeg',
 	'og:image:width'=>'600',
 	'og:image:height'=>'600',

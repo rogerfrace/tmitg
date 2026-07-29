@@ -4,6 +4,7 @@
 	'og:url'=>'https://www.tmitg.com/imageacoustic.php',
 	'og:description'=>'the Machine in the Garden &ldquo;Image (acoustic)&rdquo; is the band&rsquo;s second digital single.',
 	'og:image'=>'https://www.tmitg.com/albums/imageacousticlg.jpg',
+	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Image Acoustic',
 	'og:image:type'=>'image/jpeg',
 	'og:image:width'=>'600',
 	'og:image:height'=>'600',

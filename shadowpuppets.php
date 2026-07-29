@@ -5,6 +5,7 @@
 	'og:url'=>'https://www.tmitg.com/shadowpuppets.php',
 	'og:description'=>'the Machine in the Garden &ldquo;Shadow Puppets&rdquo; is the band&rsquo;s sixth studio album.',
 	'og:image'=>'https://www.tmitg.com/albums/sp700.jpg',
+	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Shadow Puppets',
 	'og:image:type'=>'image/jpeg',
 	'og:image:width'=>'700',
 	'og:image:height'=>'700',

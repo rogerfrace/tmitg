@@ -183,6 +183,7 @@
 			  "item": {
 				"@type": "MusicRelease",
 				"name": "Veils and Shadows EP",
+				"dateCreated": "1993",
 				"datePublished": "1994",
 				"url": "https://www.tmitg.com/vs.php"
 			  }

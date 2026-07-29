@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>the Machine in the Garden - contact</title>
-	<meta name="description" content="Contact form and information for the Machine in the Garden.">
+	<meta name="description" content="Contact information for the Machine in the Garden.">
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once "headers-additional.php"; ?>
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />

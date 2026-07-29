@@ -5,6 +5,14 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - discography</title>
 	<meta name="description" content="Complete discography of the Machine in the Garden, including eight studio albums, one EP, and compilation appearances from 1994 to present.">
+	<meta property="og:site_name" content="the Machine in the Garden" />
+	<meta property="og:title" content="Discography - the Machine in the Garden" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.tmitg.com/discog.php" />
+	<meta property="og:description" content="Browse the complete discography of the Machine in the Garden, from Space-Time to the earliest releases and compilations." />
+	<meta property="og:image" content="https://www.tmitg.com/albums/spacetimelg.jpg" />
+	<meta property="og:image:alt" content="Space-Time album artwork for the Machine in the Garden" />
+	<meta property="og:locale" content="en_US" />
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
 	<?php include_once "headers-additional.php"; ?>

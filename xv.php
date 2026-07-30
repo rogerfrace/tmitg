@@ -4,11 +4,11 @@
 	'og:upc'=>'634479658679',
 	'og:url'=>'https://www.tmitg.com/xv.php',
 	'og:description'=>'the Machine in the Garden \'XV\' is the band\'s seventh studio album and 15th anniversary release.',
-	'og:image'=>'https://www.tmitg.com/albums/xv700.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/xvOG.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden XV',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'700',
-	'og:image:height'=>'700',
+	'og:image:width'=>'1200',
+	'og:image:height'=>'1200',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 
@@ -58,7 +58,12 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/xv.jpg" width="250" height="250" alt="XV (2007) compilation album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
+	<div>
+		<picture>
+			<source srcset="albums/xv700.jpg 2x">
+				<img src="albums/xv.jpg" width="250" height="250" alt="XV (2007) compilation album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+		</picture>
+	</div>
 	<h1 itemprop="name">XV</h1>
 	<p itemprop="abstract"><em>XV is a special limited-edition 15th anniversary CD. The album includes 15 tracks spanning the band's 15 year history, including demos, remixes, previously unreleased outtakes and two brand-new songs.</em></p>
 

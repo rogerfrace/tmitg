@@ -1,6 +1,7 @@
 <?php require_once "functions.php"; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html	lang="en" 
+		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - discography</title>

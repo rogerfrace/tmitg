@@ -4,7 +4,7 @@
 	'og:upc'=>'885767743120',
 	'og:url'=>'https://www.tmitg.com/storm.php',
 	'og:description'=>'the Machine in the Garden \'Before and After the Storm\' is the band\'s eighth studio album.',
-	'og:image'=>'https://www.tmitg.com/albums/baatslg.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/baatsOG.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Before and After the Storm',
 	'og:image:type'=>'image/jpeg',
 	'og:image:width'=>'1200',
@@ -58,7 +58,12 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/baats.jpg" width="250" height="250" alt="Before and After the Storm (2011) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
+	<div>
+		<picture>
+			<source srcset="albums/baats500.jpg 2x">
+				<img src="albums/baats.jpg" width="250" height="250" alt="Before and After the Storm (2011) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+		</picture>
+	</div>
 	<h1 itemprop="name">Before and After the Storm</h1>
 	<details itemprop="abstract" style="margin:1em 0;">
 		<summary><em>The band's eighth studio album with eight new songs encompass the variety of styles&mdash;from goth rock to electronic ethereal&mdash;the band is known for.</em></summary>

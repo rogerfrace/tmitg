@@ -7,8 +7,8 @@
 	'og:image'=>'https://www.tmitg.com/albums/underworldlg.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Underworld',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'756',
-	'og:image:height'=>'750',
+	'og:image:width'=>'500',
+	'og:image:height'=>'500',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 
@@ -58,7 +58,12 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/underworld.jpg" width="250" height="250" alt="Underworld (1997) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
+	<div>
+		<picture>
+			<source srcset="albums/underworldlg.jpg 2x">
+				<img src="albums/underworld.jpg" width="250" height="250" alt="Underworld (1997) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+		</picture>
+	</div>
 	<h1 itemprop="name">Underworld</h1>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-001-cd</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">1997</span><br />

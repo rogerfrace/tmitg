@@ -57,7 +57,12 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-    <div><img src="albums/vs.jpg" width="250" height="250" alt="Veils and Shadows (1994) EP cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
+	<div>
+		<picture>
+			<source srcset="albums/vs700.jpg 2x">
+			<img src="albums/vs.jpg" width="250" height="250" alt="Veils and Shadows (1994) EP cover — the Machine in the Garden" class="albumimg" itemprop="image">
+		</picture>
+	</div>
 	<h1 itemprop="name">Veils and Shadows EP</h1>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">ISOL8-002-2</span>) <span itemprop="recordLabel">Industrial Isolation Music</span> &copy;<span itemprop="copyrightYear">1993</span><br />CDEP released <time datetime="1993-09-12" itemprop="datePublished">12 September 1994</time></p>

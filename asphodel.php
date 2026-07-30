@@ -4,11 +4,11 @@
 	'og:upc'=>'685879998629',
 	'og:url'=>'https://www.tmitg.com/asphodel.php',
 	'og:description'=>'the Machine in the Garden \'Asphodel\' is the band\'s fifth studio album.',
-	'og:image'=>'https://www.tmitg.com/albums/asphodel700.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/asphodelOG.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Asphodel',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'700',
-	'og:image:height'=>'700',
+	'og:image:width'=>'1200',
+	'og:image:height'=>'1180',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 
@@ -58,7 +58,12 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-    <div><img src="albums/asphodel.jpg" width="254" height="250" alt="Asphodel (2002) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
+    <div>
+		<picture>
+			<source srcset="albums/asphodel500.jpg 2x">
+    			<img src="albums/asphodel.jpg" width="254" height="250" alt="Asphodel (2002) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+		</picture>
+    </div>
 	<h1 itemprop="name">Asphodel</h1>
 	<p itemprop="abstract"><em>the Machine in the Garden explore songs of love and desire, sorrow and despair, always searching for the quiet beauty underneath the darkness. Harmonious female vocals sit atop resonant guitar riffs and layered electronics.</em></p>
 

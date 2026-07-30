@@ -292,7 +292,7 @@
 
 	<div class="songs ootm" id="ootm" role="tabpanel" tabindex="0" aria-labelledby="ootmtab">
 		<div class="albumcol">
-			<p><a href="mists.php"><img src="albums/mists.jpg" width="224" height="200" class="cover" alt="more information about Out of the Mists"></a></p>
+			<p><a href="mists.php"><img src="albums/mists.jpg" width="226" height="200" class="cover" alt="more information about Out of the Mists"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">

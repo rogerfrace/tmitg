@@ -4,11 +4,11 @@
 	'og:upc'=>'685879999428',
 	'og:url'=>'https://www.tmitg.com/mists.php',
 	'og:description'=>'the Machine in the Garden \'Out of the Mists\' is the band\'s fourth studio album.',
-	'og:image'=>'https://www.tmitg.com/albums/mists700.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/mistsOG.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Out of the Mists',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'700',
-	'og:image:height'=>'700',
+	'og:image:width'=>'1200',
+	'og:image:height'=>'1063',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 
@@ -58,7 +58,12 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/mists.jpg" width="280" height="250" alt="Out of the Mists (2000) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
+	<div>
+		<picture>
+			<source srcset="albums/mists500.jpg 2x">
+				<img src="albums/mists.jpg" width="282" height="250" alt="Out of the Mists (2000) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+		</picture>
+	</div>
 	<h1 itemprop="name">Out of the Mists</h1>
 	<p itemprop="abstract"><em>A journey through the many facets of the band, exploring classical, electronic, goth, and ethereal genres. Out of the Mists is both visually and musically rich, a stunning tour de force encompassing the band's emotional edge.</em></p>
 

@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - The Whitby Compilation</title>
+	<meta name="description" content="The Whitby Compilation is a 2001 compilation from The Nature of Gothic, featuring the Machine in the Garden's track 'The Unaware (Smooth Motion Mix).'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

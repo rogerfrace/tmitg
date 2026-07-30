@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - The Unquiet Grave &mdash; the Ultimate Goth Collection</title>
+	<meta name="description" content="The Unquiet Grave &mdash; the Ultimate Goth Collection is a 2008 compilation from Cleopatra Records, featuring the Machine in the Garden's track 'Final Form.'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

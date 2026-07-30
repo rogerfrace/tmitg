@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - Shades of Grey</title>
+	<meta name="description" content="Shades of Grey is a 1998 compilation from GRINDINGintoEMPTINESS webzine, featuring the Machine in the Garden's track 'Corpus Christi (love will die).'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

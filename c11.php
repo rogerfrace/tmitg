@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - Convergence 11 CD Sampler</title>
+	<meta name="description" content="Convergence 11 CD Sampler is a compilation from Convergence 11, featuring the Machine in the Garden's tracks 'Wonderland (Mad Hatter Mix)' and 'The Inside World.'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

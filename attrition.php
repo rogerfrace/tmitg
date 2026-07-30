@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - Wrapped In The Guise Of My Friend</title>
+	<meta name="description" content="Wrapped In The Guise Of My Friend is a 2009 compilation from Two Gods, featuring the Machine in the Garden's track 'Dreamsleep.'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

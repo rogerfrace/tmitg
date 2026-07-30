@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - The Violet Collection</title>
+	<meta name="description" content="The Violet Collection is a charity compilation from the former mp3.com, featuring the Machine in the Garden's track 'Ex Oblivione (Version 1).'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

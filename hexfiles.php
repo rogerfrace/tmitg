@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - The Hex Files Vol. 2</title>
+	<meta name="description" content="The Hex Files Vol. 2 is a 1997 compilation from EuroMedia UK, featuring the Machine in the Garden's track 'Lost in Side.'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

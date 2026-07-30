@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - Rebellion: Vol 1</title>
+	<meta name="description" content="Rebellion: Vol 1 is a 2015 compilation from Dark Mother Media, featuring the Machine in the Garden's track 'Power and Prophesy (guitarless mix).'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

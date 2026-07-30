@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - The Unquiet Grave: The Final Chapter</title>
+	<meta name="description" content="The Unquiet Grave: The Final Chapter is a 2022 compilation from Cleopatra Records, featuring the Machine in the Garden's track 'Cold Storm.'" />
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

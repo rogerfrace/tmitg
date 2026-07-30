@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - Eclectica</title>
+	<meta name="description" content="Eclectica is a 2002 compilation from Middle Pillar Presents, featuring the Machine in the Garden's tracks 'Wonderland' and 'Radiant.'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

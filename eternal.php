@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - What is Eternal</title>
+	<meta name="description" content="What is Eternal is a 1998 compilation from Middle Pillar Presents, featuring the Machine in the Garden's track 'Falling Softly.'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

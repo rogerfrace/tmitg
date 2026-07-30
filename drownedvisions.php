@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - Drowned Visions</title>
+	<meta name="description" content="Drowned Visions is a 2011 compilation from Dark Horizons, featuring the Machine in the Garden's track 'Scathefire.'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

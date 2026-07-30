@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - Sex, Death &amp; Eyeliner</title>
+	<meta name="description" content="Sex, Death &amp; Eyeliner is a 2001 compilation from Dark Future Music, featuring the Machine in the Garden's track 'Miserere Mei.'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - The Violet Collection - Every Living Creature</title>
+	<meta name="description" content="The Violet Collection - Every Living Creature is a charity compilation from the former mp3.com, featuring the Machine in the Garden's track 'Wonderland.'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

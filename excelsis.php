@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - Excelsis Vol. 2: A Winter's Song</title>
+	<meta name="description" content="Excelsis Vol. 2: A Winter's Song is a 1999 compilation from Projekt, featuring the Machine in the Garden's track 'Coventry Carol.'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

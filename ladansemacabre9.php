@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - La Danse Macabre 9</title>
+	<meta name="description" content="La Danse Macabre 9 is a 2020 compilation from At Sea Compilations, featuring the Machine in the Garden's track 'Cold Storm.'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - Dark Horizons: Dance of the Dead</title>
+	<meta name="description" content="Dark Horizons: Dance of the Dead is a 2008 compilation from Dark Horizons radio show fundraiser, featuring the Machine in the Garden's track 'Mental Wasteland.'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

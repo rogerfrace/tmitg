@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - Immortal Legends</title>
+	<meta name="description" content="Immortal Legends is a 2000 compilation from Black Magazine/Arborlon Music, featuring the Machine in the Garden's track 'Her Face.'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

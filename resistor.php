@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - Resistor</title>
+	<meta name="description" content="Resistor is a 2000 compilation from Nilaihah Records, featuring the Machine in the Garden's track 'Control.'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

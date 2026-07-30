@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>the Machine in the Garden - Elegy</title>
+	<meta name="description" content="Elegy Sampler 25 is a 2002 compilation from Elegy Magazine, featuring the Machine in the Garden's track 'Seek.'">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<?php include_once "headers-additional.php"; ?>
 </head>

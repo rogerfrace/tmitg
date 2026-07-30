@@ -4,11 +4,11 @@
 	'og:upc'=>'885767743120',
 	'og:url'=>'https://www.tmitg.com/storm.php',
 	'og:description'=>'the Machine in the Garden \'Before and After the Storm\' is the band\'s eighth studio album.',
-	'og:image'=>'https://www.tmitg.com/albums/baats.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/baats1k.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Before and After the Storm',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'249',
-	'og:image:height'=>'250',
+	'og:image:width'=>'1000',
+	'og:image:height'=>'1000',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 

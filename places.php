@@ -4,11 +4,11 @@
 	'og:upc'=>'195269018252',
 	'og:url'=>'https://www.tmitg.com/places.php',
 	'og:description'=>'the Machine in the Garden \'Places in Between\' is the band\'s ninth studio album.',
-	'og:image'=>'https://www.tmitg.com/albums/places.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/placeslg.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Places in Between',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'278',
-	'og:image:height'=>'250',
+	'og:image:width'=>'1200',
+	'og:image:height'=>'1079',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 

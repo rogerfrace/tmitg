@@ -3,11 +3,11 @@
 	'og:type'=>'music.album',
 	'og:url'=>'https://www.tmitg.com/miscellany.php',
 	'og:description'=>'the Machine in the Garden \'Miscellany\' is a collection of rarities, ranging from compilation tracks to alternate versions to covers.',
-	'og:image'=>'https://www.tmitg.com/albums/miscellany.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/miscellanylg.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Miscellany',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'250',
-	'og:image:height'=>'250',
+	'og:image:width'=>'1200',
+	'og:image:height'=>'1200',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 

@@ -4,11 +4,11 @@
 	'og:upc'=>'634479658679',
 	'og:url'=>'https://www.tmitg.com/xv.php',
 	'og:description'=>'the Machine in the Garden \'XV\' is the band\'s seventh studio album and 15th anniversary release.',
-	'og:image'=>'https://www.tmitg.com/albums/xv.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/xv700.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden XV',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'250',
-	'og:image:height'=>'250',
+	'og:image:width'=>'700',
+	'og:image:height'=>'700',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 

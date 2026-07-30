@@ -4,11 +4,11 @@
 	'og:upc'=>'685879997523',
 	'og:url'=>'https://www.tmitg.com/shadowpuppets.php',
 	'og:description'=>'the Machine in the Garden \'Shadow Puppets\' is the band\'s sixth studio album.',
-	'og:image'=>'https://www.tmitg.com/albums/sp700.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/spOG.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Shadow Puppets',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'700',
-	'og:image:height'=>'700',
+	'og:image:width'=>'1200',
+	'og:image:height'=>'1200',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 
@@ -58,7 +58,12 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-    <div><img src="albums/sp.jpg" width="250" height="250" alt="Shadow Puppets (2005) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
+    <div>
+		<picture>
+			<source srcset="albums/sp700.jpg 2x">
+    			<img src="albums/sp.jpg" width="250" height="250" alt="Shadow Puppets (2005) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+		</picture>
+    </div>
  	<h1 itemprop="name">Shadow Puppets</h1>
 	<p itemprop="abstract"><em>Shadow Puppets is easily the band’s defining moment—a seamless amalgam of electronics, ethereal melodies and sensuous rhythms. The album is often very dynamic and anthemic, yet equally convincing when quiet and introspective. As always, Summer Bowman’s startlingly beautiful vocal performances flutter effortlessly with power and humble emotional softness, perfectly balancing the strength of the guitars, complex beats and synths. Together with Roger Fracé, the duo has composed a passionate album that transcends the darkwave genre.</em></p>
 

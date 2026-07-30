@@ -3,7 +3,7 @@
 	'og:type'=>'music.album',
 	'og:upc'=>'685879999428',
 	'og:url'=>'https://www.tmitg.com/mists.php',
-	'og:description'=>'the Machine in the Garden &ldquo;Out of the Mists&rdquo; is the band&rsquo;s fourth studio album.',
+	'og:description'=>'the Machine in the Garden \'Out of the Mists\' is the band\'s fourth studio album.',
 	'og:image'=>'https://www.tmitg.com/albums/mists700.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Out of the Mists',
 	'og:image:type'=>'image/jpeg',

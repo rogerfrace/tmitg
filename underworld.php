@@ -3,7 +3,7 @@
 	'og:type'=>'music.album',
 	'og:upc'=>'792733800421',
 	'og:url'=>'https://www.tmitg.com/underworld.php',
-	'og:description'=>'the Machine in the Garden &ldquo;Underworld&rdquo; is the band&rsquo;s second studio album.',
+	'og:description'=>'the Machine in the Garden \'Underworld\' is the band\'s second studio album.',
 	'og:image'=>'https://www.tmitg.com/albums/underworld.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Underworld',
 	'og:image:type'=>'image/jpeg',

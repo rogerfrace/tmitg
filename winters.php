@@ -1,9 +1,9 @@
 <?php $fbog = array(
-	'og:title'=>'the Machine in the Garden - One Winter&rsquo;s Night&hellip; (1999)',
+	'og:title'=>'the Machine in the Garden - One Winter\'s Night... (1999)',
 	'og:type'=>'music.album',
 	'og:upc'=>'685879999923',
 	'og:url'=>'https://www.tmitg.com/winters.php',
-	'og:description'=>'the Machine in the Garden &ldquo;One Winter&rsquo;s Night&hellip;&rdquo; is the band&rsquo;s third studio album.',
+	'og:description'=>'the Machine in the Garden \'One Winter\'s Night...\' is the band\'s third studio album.',
 	'og:image'=>'https://www.tmitg.com/albums/winters700.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden One Winter\'s Night',
 	'og:image:type'=>'image/jpeg',

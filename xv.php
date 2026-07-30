@@ -3,7 +3,7 @@
 	'og:type'=>'music.album',
 	'og:upc'=>'634479658679',
 	'og:url'=>'https://www.tmitg.com/xv.php',
-	'og:description'=>'the Machine in the Garden &ldquo;XV&rdquo; is the band&rsquo;s seventh studio album and 15th anniversary release.',
+	'og:description'=>'the Machine in the Garden \'XV\' is the band\'s seventh studio album and 15th anniversary release.',
 	'og:image'=>'https://www.tmitg.com/albums/xv.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden XV',
 	'og:image:type'=>'image/jpeg',

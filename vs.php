@@ -3,7 +3,7 @@
 	'og:type'=>'music.album',
 	'og:upc'=>'780444900226',
 	'og:url'=>'https://www.tmitg.com/vs.php',
-	'og:description'=>'the Machine in the Garden &ldquo;Veils and Shadows EP&rdquo; is the band&rsquo;s first studio album.',
+	'og:description'=>'the Machine in the Garden \'Veils and Shadows EP\' is the band\'s first studio album.',
 	'og:image'=>'https://www.tmitg.com/albums/vs700.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Veils and Shadows EP',
 	'og:image:type'=>'image/jpeg',

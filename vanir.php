@@ -2,7 +2,7 @@
 	'og:title'=>'the Machine in the Garden - In the Vanir (2010)',
 	'og:type'=>'music.album',
 	'og:url'=>'https://www.tmitg.com/vanir.php',
-	'og:description'=>'the Machine in the Garden &ldquo;In the Vanir&rdquo; is the band&rsquo;s first digital single and preview for &ldquo;Before and After the Storm&rdquo;.',
+	'og:description'=>'the Machine in the Garden \'In the Vanir\' is the band\'s first digital single and preview for &ldquo;Before and After the Storm&rdquo;.',
 	'og:image'=>'https://www.tmitg.com/albums/vanirlg.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden In the Vanir',
 	'og:image:type'=>'image/jpeg',

@@ -7,14 +7,15 @@ require_once "functions.php";
 <html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="description" content="the Machine in the Garden is one of the premiere ethereal-electronic-darkwave-neoclassical-goth bands in the American music industry. With 9 official releases and numerous other appearances since their founding in 1992, tMitG is one of the most lasting and prolific dark underground bands of the new era." />
+	<meta name="description" content="the Machine in the Garden — ethereal/darkwave/goth duo Roger Fracé & Summer Bowman. 9 releases since 1992. Independent, still evolving, still creating." />
 	<meta name="keywords" content="machine in the garden, tmitg, ethereal, electronic, darkwave, goth, gothic, old school goth, neoclassical, band, music, CDs, roger frace, summer bowman" />
 	<meta property="og:site_name" content="the Machine in the Garden" />
 	<meta property="og:title" content="the Machine in the Garden" />
 	<meta property="og:type" content="musician" />
 	<meta property="og:url" content="https://www.tmitg.com/" />
-	<meta property="og:description" content="the Machine in the Garden is one of the premiere ethereal-electronic-darkwave-neoclassical-goth band in the American music industry. With 9 official releases and numerous other appearances since their founding in 1992, tMitG is one of the most lasting and prolific dark underground bands of the new era." />
+	<meta property="og:description" content="Ethereal-goth-darkwave from the American underground — the Machine in the Garden is an independent duo with 9 releases since 1992." />
 	<meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />
+	<meta property="og:image:alt" content="Roger and Summer in a Victorian-inspired photo session" />
     <meta property="og:locale" content="en_US" />
     <meta property="fb:app_id" content="121619441387">
     <meta property="fb:admins" content="1120445561,713632115">

@@ -4,11 +4,11 @@
 	'og:upc'=>'685879999923',
 	'og:url'=>'https://www.tmitg.com/winters.php',
 	'og:description'=>'the Machine in the Garden \'One Winter\'s Night...\' is the band\'s third studio album.',
-	'og:image'=>'https://www.tmitg.com/albums/winters700.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/wintersOG.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden One Winter\'s Night',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'700',
-	'og:image:height'=>'700',
+	'og:image:width'=>'1200',
+	'og:image:height'=>'1060',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 
@@ -58,7 +58,12 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-    <div><img src="albums/winters.jpg" width="281" height="250" alt="One Winter's Night (1999) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
+    <div>
+		<picture>
+			<source srcset="albums/winters500.jpg 2x">
+	    		<img src="albums/winters.jpg" width="283" height="250" alt="One Winter's Night (1999) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+		</picture>
+    </div>
 	<h1 itemprop="name">One Winter's Night&hellip;</h1>
 	<p itemprop="abstract"><em>This album hones the band’s sound in a more ethereal direction, merging intricate musical structures with emotional lyrics.</em></p>
 

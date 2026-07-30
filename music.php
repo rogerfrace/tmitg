@@ -315,7 +315,7 @@
 
 	<div class="songs own" id="own" role="tabpanel" tabindex="0" aria-labelledby="owntab">
 		<div class="albumcol">
-			<p><a href="winters.php"><img src="albums/winters.jpg" width="224" height="200" class="cover" alt="more information about One Winter's Night..."></a></p>
+			<p><a href="winters.php"><img src="albums/winters.jpg" width="226" height="200" class="cover" alt="more information about One Winter's Night..."></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">

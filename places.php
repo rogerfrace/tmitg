@@ -4,7 +4,7 @@
 	'og:upc'=>'195269018252',
 	'og:url'=>'https://www.tmitg.com/places.php',
 	'og:description'=>'the Machine in the Garden \'Places in Between\' is the band\'s ninth studio album.',
-	'og:image'=>'https://www.tmitg.com/albums/placeslg.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/placesOG.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Places in Between',
 	'og:image:type'=>'image/jpeg',
 	'og:image:width'=>'1200',
@@ -57,7 +57,12 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/places.jpg" width="278" height="250" alt="Places in Between (2020) album cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
+	<div>
+		<picture>
+			<source srcset="albums/places500.jpg 2x">
+				<img src="albums/places.jpg" width="278" height="250" alt="Places in Between (2020) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+		</picture>
+	</div>
 	<h1 itemprop="name">Places in Between</h1>
 	<p itemprop="abstract"><em>Thirteen new songs exploring the variety of styles&mdash;from goth rock to electronic ethereal&mdash;the band is known for. Coming in at over an hour in length, &quot;Places in Between&quot; is chock full of epic electronics, sweeping guitars and shining vocals. The album has everything fans have come to appreciate about the Machine in the Garden in their nearly 30 year history, while still sounding elevated and modern.</em></p>
 

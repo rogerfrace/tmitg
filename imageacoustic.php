@@ -3,11 +3,11 @@
 	'og:type'=>'music.album',
 	'og:url'=>'https://www.tmitg.com/imageacoustic.php',
 	'og:description'=>'the Machine in the Garden \'Image (acoustic)\' is the band\'s second digital single.',
-	'og:image'=>'https://www.tmitg.com/albums/imageacousticlg.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/imageacousticOG.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Image Acoustic',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'600',
-	'og:image:height'=>'600',
+	'og:image:width'=>'1200',
+	'og:image:height'=>'1200',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 
@@ -52,7 +52,12 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/imageacoustic.jpg" alt="Image (acoustic) (2017) single cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
+	<div>
+		<picture>
+			<source srcset="albums/imageacousticlg.jpg 2x">
+				<img src="albums/imageacoustic.jpg" alt="Image (acoustic) (2017) single cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+		</picture>
+	</div>
 	<h1 itemprop="name">Image (acoustic)</h1>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-007-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2017</span><br />Digital Single released <time datetime="2017-12-16" itemprop="datePublished">16 December 2017</time></p>

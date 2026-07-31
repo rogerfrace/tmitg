@@ -3,11 +3,11 @@
 	'og:type'=>'music.album',
 	'og:url'=>'https://www.tmitg.com/spacetime.php',
 	'og:description'=>'the Machine in the Garden \'Space-Time\' is the band\'s third digital single.',
-	'og:image'=>'https://www.tmitg.com/albums/spacetimelg.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/spacetimeOG.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Space-Time',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'600',
-	'og:image:height'=>'600',
+	'og:image:width'=>'1200',
+	'og:image:height'=>'1200',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 
@@ -52,7 +52,12 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/spacetime.jpg" alt="Space-Time (2026) single cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
+	<div>
+		<picture>
+			<source srcset="albums/spacetimelg.jpg 2x">
+				<img src="albums/spacetime.jpg" alt="Space-Time (2026) single cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+		</picture>
+	</div>
 	<h1 itemprop="name">Space-Time</h1>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-010-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br />Digital Single released <time datetime="2026-05-22" itemprop="datePublished">22 May 2026</time> (World Goth Day)</p>

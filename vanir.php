@@ -3,11 +3,11 @@
 	'og:type'=>'music.album',
 	'og:url'=>'https://www.tmitg.com/vanir.php',
 	'og:description'=>'the Machine in the Garden \'In the Vanir\' is the band\'s first digital single and preview for &ldquo;Before and After the Storm&rdquo;.',
-	'og:image'=>'https://www.tmitg.com/albums/vanirlg.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/vanirOG.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden In the Vanir',
 	'og:image:type'=>'image/jpeg',
-	'og:image:width'=>'600',
-	'og:image:height'=>'600',
+	'og:image:width'=>'1200',
+	'og:image:height'=>'1200',
 ); ?>
 <!DOCTYPE html>
 <html	lang="en" 
@@ -53,7 +53,12 @@
 
 <!-- this is the display table for the CD and info -->
 <section id="discog_albuminfo" tabindex="-1">
-	<div><img src="albums/vanir.jpg" alt="In the Vanir (2010) single cover — the Machine in the Garden" class="albumimg" itemprop="image" /></div>
+	<div>
+		<picture>
+			<source srcset="albums/vanirlg.jpg 2x">
+				<img src="albums/vanir.jpg" alt="In the Vanir (2010) single cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+		</picture>
+	</div>
 	<h1 itemprop="name">In the Vanir</h1>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-004-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2010</span><br />Digital Single released <time datetime="2010-12-10" itemprop="datePublished">10 December 2010</time></p>

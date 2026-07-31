@@ -5,12 +5,12 @@
 <head>
 	<meta charset="utf-8" />
 	<title>the Machine in the Garden - images</title>
-	<meta name="description" content="the Machine in the Garden band photo gallery.">
+	<meta name="description" content="the Machine in the Garden band photo gallery, including live shots, promo photos, and recent portraits.">
 	<meta name="copyright" content="<?=date('Y',time());?>">
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
 	<meta property="og:title" content="Photos - the Machine in the Garden" />
 	<meta property="og:url" content="https://www.tmitg.com/images.php" />
-	<meta property="og:description" content="Photo gallery of the Machine in the Garden, including live shots, promo photos, and recent portraits." />
+	<meta property="og:description" content="the Machine in the Garden band photo gallery, including live shots, promo photos, and recent portraits." />
 	<meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />
 	<meta property="og:image:alt" content="Roger and Summer in a Victorian-inspired photo session" />
 	<?php include_once "headers-additional.php"; ?>

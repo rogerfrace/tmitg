@@ -5,8 +5,8 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>the Machine in the Garden - bio</title>
-	<meta name="description" content="the Machine in the Garden offical band biography and history.">
-	<meta name="keywords" content="machine in the garden, tmitg, music, CDs, roger frace, summer bowman, band bio">
+	<meta name="description" content="The official story of goth/etherealwave duo the Machine in the Garden — Roger Fracé and Summer Bowman.">
+	<meta name="keywords" content="machine in the garden, tmitg, music, goth, darkwave, etherealwave, roger frace, summer bowman, band bio">
 	<meta property="og:title" content="Bio - the Machine in the Garden" />
 	<meta property="og:url" content="https://www.tmitg.com/bio.php" />
 	<meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />

@@ -6,12 +6,12 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>the Machine in the Garden - merchandise</title>
 	<meta name="title" content="the Machine in the Garden - merchandise" />
-	<meta name="description" content="CDs and t-shirts of the Machine in the Garden and Mirabilis" />
+	<meta name="description" content="Buy the Machine in the Garden's CDs, t-shirts, and Mirabilis releases on Bandcamp — physical and digital merch from the goth/etherealwave duo." />
 	<meta name="language" content="en-US" />
 	<meta property="og:title" content="the Machine in the Garden - merchandise" />
 	<meta property="og:url" content="https://www.tmitg.com/merch.php" />
 	<meta property="og:image" content="https://www.tmitg.com/albums/places.jpg" />
-	<meta property="og:description" content="CDs and t-shirts of the Machine in the Garden and Mirabilis" />
+	<meta property="og:description" content="Buy the Machine in the Garden's CDs, t-shirts, and Mirabilis releases on Bandcamp — physical and digital merch from the goth/etherealwave duo." />
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once "headers-additional.php"; ?>
 	<script>

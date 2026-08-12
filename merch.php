@@ -48,13 +48,13 @@
 <h1 class="wai">the Machine in the Garden merchandise</h1>
 
 <section aria-label="Where to Buy">
-	<p>Physical products are sold through <a rel="noopener external" href="https://tmitg.bandcamp.com/merch">Bandcamp</a>.</p>
+	<p>Physical products are sold through <a rel="noopener noreferrer" href="https://tmitg.bandcamp.com/merch">Bandcamp</a>.</p>
 	
-	<p><a rel="noopener external" href="https://music.apple.com/us/artist/the-machine-in-the-garden/5985533?itsct=music_box&itscg=30200&at=1000l35Bw&ls=1&app=music">Listen on Apple Music</a></p>
+	<p><a rel="noopener noreferrer" href="https://music.apple.com/us/artist/the-machine-in-the-garden/5985533?itsct=music_box&itscg=30200&at=1000l35Bw&ls=1&app=music">Listen on Apple Music</a></p>
 	
-	<p><a rel="noopener external" href="https://open.spotify.com/artist/4XD8OHY6EPmFObxYhXUg5Y?si=JCN-IFLuSImDHEwA-0tPnw">Listen on Spotify</a></p>
+	<p><a rel="noopener noreferrer" href="https://open.spotify.com/artist/4XD8OHY6EPmFObxYhXUg5Y?si=JCN-IFLuSImDHEwA-0tPnw">Listen on Spotify</a></p>
 	
-	<p>You can also find the Machine in the Garden on <a rel="noopener external" href="https://amzn.to/3iIbi9c">amazon.com</a>.</p>
+	<p>You can also find the Machine in the Garden on <a rel="noopener noreferrer" href="https://amzn.to/3iIbi9c">amazon.com</a>.</p>
 </section>
 
 <hr />
@@ -71,7 +71,7 @@
 <?php else: ?>
 
 <div style="padding:0.5em; border:2px solid #990000;">
-For band news and special offers, be sure to follow us on <a href="https://www.facebook.com/tmitg" rel="noopener external">Facebook</a> or <a href="https://bsky.app/profile/tmitg.bsky.social" rel="noopener external">Bluesky</a>.
+For band news and special offers, be sure to follow us on <a href="https://www.facebook.com/tmitg" rel="noopener noreferrer">Facebook</a> or <a href="https://bsky.app/profile/tmitg.bsky.social" rel="noopener noreferrer">Bluesky</a>.
 </div>
 
 <?php endif; ?>

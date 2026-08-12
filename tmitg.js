@@ -110,5 +110,5 @@ jQuery(document).ready(function() {
 	});
 	
 	// code that allows rel="external" to open links in a new window
-	jQuery('a[rel="external"], a[rel="noopener"], a[rel="noopener external"]').attr('target', '_blank');
+	jQuery('a[rel="external"], a[rel="noopener"], a[rel="noopener noreferrer"]').attr('target', '_blank');
 });

@@ -172,7 +172,7 @@ function get_header() {
 // output OG tags
 function BuildFBOG($fields) {
 	// common OG fields
-	echo '<meta property="og:site_name" content="the Machine in the Garden">';
+	# echo '<meta property="og:site_name" content="the Machine in the Garden">';
 	# echo '<meta property="og:locale" content="en_US">';
 	// variable OG fields
 	foreach ($fields as $key => $value) {

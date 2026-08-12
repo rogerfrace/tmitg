@@ -173,7 +173,7 @@ function get_header() {
 function BuildFBOG($fields) {
 	// common OG fields
 	echo '<meta property="og:site_name" content="the Machine in the Garden">';
-	echo '<meta property="og:locale" content="en_US">';
+	# echo '<meta property="og:locale" content="en_US">';
 	// variable OG fields
 	foreach ($fields as $key => $value) {
 		echo '<meta property="'.$key.'" content="'.$value.'">';
@@ -184,8 +184,8 @@ function BuildFBOG($fields) {
 	# S old = 713632115
 	# S new = 10152332016342116
 	echo '<meta property="article:publisher" content="https://www.facebook.com/tmitg" />';
-	echo '<meta property="fb:app_id" content="145634995501895">';
-	echo '<meta property="fb:admins" content="1120445561,713632115">';
+	# echo '<meta property="fb:app_id" content="145634995501895">';
+	# echo '<meta property="fb:admins" content="1120445561,713632115">';
 }
 
 

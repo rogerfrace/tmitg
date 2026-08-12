@@ -27,7 +27,6 @@ if (isset($_GET["item"]) && is_numeric($_GET["item"])) {
 <head>
 	<meta charset="utf-8" />
 	<title><?=$mtitle;?></title>
-	<meta name="title" content="<?=$mtitle;?>" />
 	<meta name="description" content="<?=$mdescription;?>" />
 	<meta name="medium" content="news" />
 	<?php if (isset($titlenum)): ?>

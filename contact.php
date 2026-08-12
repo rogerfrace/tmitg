@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8" />
 	<title>the Machine in the Garden - contact</title>
 	<meta name="description" content="Contact information for the Machine in the Garden.">
 	<meta name="copyright" content="<?=date('Y',time());?>" />

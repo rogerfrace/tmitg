@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8" />
 	<title>Find a Way</title>
 	<meta name="description" content="Notes for the song &quot;Find a Way&quot; by the Machine in the Garden" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />

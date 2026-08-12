@@ -3,7 +3,7 @@
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8" />
 	<title>the Machine in the Garden - merchandise</title>
 	<meta name="title" content="the Machine in the Garden - merchandise" />
 	<meta name="description" content="Buy the Machine in the Garden's CDs, t-shirts, and Mirabilis releases on Bandcamp — physical and digital merch from the goth/etherealwave duo." />

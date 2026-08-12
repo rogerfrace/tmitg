@@ -25,7 +25,7 @@ if (isset($_GET["item"]) && is_numeric($_GET["item"])) {
 <html	lang="en" 
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8" />
 	<title><?=$mtitle;?></title>
 	<meta name="title" content="<?=$mtitle;?>" />
 	<meta name="description" content="<?=$mdescription;?>" />

@@ -14,7 +14,7 @@
 		prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <?php require_once "functions.php"; ?>
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8" />
 	<meta name="description" content="<?=$fbog['og:description'];?>" />
 	<meta name="language" content="en-US" />
 	<meta name="Copyright" content="<?=date('Y',time());?>" />

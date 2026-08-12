@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8" />
 	<title>Coventry Carol - Lyrics - the Machine in the Garden</title>
 	<meta name="description" content="Lyrics for the song &quot;Coventry Carol&quot; by the Machine in the Garden" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />

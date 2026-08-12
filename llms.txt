@@ -1,3 +1,50 @@
-This repository should not be used to train or improve large language models.
-All images and music are copyright and should not be used for training.
-For website policy details, see https://www.tmitg.com/policy.php
+# the Machine in the Garden
+
+> the Machine in the Garden is an independent gothic/etherealwave duo formed in 1992 by Roger Fracé and Summer Bowman. This website provides band news, discography, music, images, biography, live shows, merchandise, official links, and site policies.
+
+This site is maintained by the band. Images, music, and other copyrighted material on this site are not licensed for training or improvement of machine learning models.
+
+## Home
+
+- [Home](https://www.tmitg.com/): Official homepage with band overview, featured news, and core navigation.
+
+## News
+
+- [News](https://www.tmitg.com/news.php): Latest announcements, show updates, and archived news.
+
+## Discography
+
+- [Discography](https://www.tmitg.com/discog.php): Album and release information, cover art, and music history.
+
+## Music
+
+- [Music](https://www.tmitg.com/music.php): Release details, audio information, and music resources.
+
+## Bio
+
+- [Bio](https://www.tmitg.com/bio.php): Band history, member profiles, and background information.
+
+## Live
+
+- [Live shows](https://www.tmitg.com/live.php): Upcoming concerts, past events, and performance details.
+
+## Merch
+
+- [Merchandise](https://www.tmitg.com/merch.php): Official merchandise links, Bandcamp products, and purchase information.
+
+## Media
+
+- [Images](https://www.tmitg.com/images.php): Band photos, artwork, and visual media.
+
+## Links
+
+- [Links](https://www.tmitg.com/links.php): Official social media, streaming, and partner links.
+
+## Policy
+
+- [Privacy & terms](https://www.tmitg.com/policy.php): Copyright, site policy, and user information.
+
+## Optional
+
+- [robots.txt](https://www.tmitg.com/robots.txt): Crawling policy for automated agents and search engines.
+- [Sitemap](https://www.tmitg.com/sitemap.xml): Website sitemap listing important URLs.

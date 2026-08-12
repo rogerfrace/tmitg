@@ -59,7 +59,7 @@
 	<div>
 		<picture>
 			<source srcset="albums/places500.jpg 2x">
-				<img src="albums/places.jpg" width="278" height="250" alt="Places in Between (2020) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+				<img src="albums/places.jpg" fetchpriority="high" loading="eager" decoding="async" width="278" height="250" alt="Places in Between (2020) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
 		</picture>
 	</div>
 	<h1 itemprop="name">Places in Between</h1>

@@ -176,14 +176,14 @@ function BuildFBOG($fields) {
 	# echo '<meta property="og:locale" content="en_US">';
 	// variable OG fields
 	foreach ($fields as $key => $value) {
-		echo '<meta property="'.$key.'" content="'.$value.'">';
+		echo "<meta property=\"$key\" content=\"$value\">\n";
 	}
 	// common OG fields
 	# R old = 1120445561
 	# R new = 10204387203776427
 	# S old = 713632115
 	# S new = 10152332016342116
-	echo '<meta property="article:publisher" content="https://www.facebook.com/tmitg" />';
+	echo "<meta property=\"article:publisher\" content=\"https://www.facebook.com/tmitg\" />\n";
 	# echo '<meta property="fb:app_id" content="145634995501895">';
 	# echo '<meta property="fb:admins" content="1120445561,713632115">';
 }

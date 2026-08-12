@@ -3,42 +3,16 @@ AddType audio/ogg .ogg
 AddType video/mp4 .mp4
 AddType video/mp4 .m4v
 AddType video/webm .webm
-AddType application/x-woff .woff
+AddType font/woff .woff
+AddType font/woff2 .woff2
 
 <IfModule mod_deflate.c>
-AddOutputFilterByType DEFLATE text/plain
-AddOutputFilterByType DEFLATE text/html
-AddOutputFilterByType DEFLATE text/xml
-AddOutputFilterByType DEFLATE text/css
-AddOutputFilterByType DEFLATE application/xml
-AddOutputFilterByType DEFLATE application/xhtml+xml
-AddOutputFilterByType DEFLATE application/rss+xml
-AddOutputFilterByType DEFLATE application/javascript
-AddOutputFilterByType DEFLATE application/x-javascript
-</IfModule>
-
-# from https://gist.github.com/1476499
-ErrorDocument 404 '<a href="https://www.flickr.com/photos/girliemac/6508022985/" title="404 - Not Found by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7172/6508022985_b22200ced0.jpg" width="500" height="400" alt="404 - Not Found"></a>'
-ErrorDocument 401 '<a href="https://www.flickr.com/photos/girliemac/6508023065/" title="401 - Unauthorized by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7148/6508023065_8dae48a30b.jpg" width="500" height="400" alt="401 - Unauthorized"></a>'
-ErrorDocument 406 '<a href="https://www.flickr.com/photos/girliemac/6508023119/" title="406 - Not Acceptable by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7143/6508023119_b681209a58.jpg" width="500" height="400" alt="406 - Not Acceptable"></a>'
-ErrorDocument 408 '<a href="https://www.flickr.com/photos/girliemac/6508023179/" title="408 - Request Timeout by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7018/6508023179_bab3eebce8.jpg" width="500" height="400" alt="408 - Request Timeout"></a>'
-ErrorDocument 409 '<a href="https://www.flickr.com/photos/girliemac/6508023259/" title="409 - Conflict by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7010/6508023259_b1c6f5a353.jpg" width="500" height="400" alt="409 - Conflict"></a>'
-ErrorDocument 414 '<a href="https://www.flickr.com/photos/girliemac/6508023351/" title="414 - Request-URI Too Long by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7152/6508023351_6732ed2f58.jpg" width="400" height="500" alt="414 - Request-URI Too Long"></a>'
-ErrorDocument 502 '<a href="https://www.flickr.com/photos/girliemac/6508023429/" title="502 - Bad Gateway by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7158/6508023429_735b433a36.jpg" width="500" height="400" alt="502 - Bad Gateway"></a>'
-ErrorDocument 405 '<a href="https://www.flickr.com/photos/girliemac/6508023523/" title="405 - Method Not Allowed by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7175/6508023523_996188af86.jpg" width="500" height="400" alt="405 - Method Not Allowed"></a>'
-ErrorDocument 403 '<a href="https://www.flickr.com/photos/girliemac/6508023617/" title="403 - Forbidden by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7173/6508023617_f3ffc34e17.jpg" width="500" height="400" alt="403 - Forbidden"></a>'
-ErrorDocument 417 '<a href="https://www.flickr.com/photos/girliemac/6508023679/" title="417 - Expectation Failed by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7009/6508023679_cb3e88fa92.jpg" width="500" height="400" alt="417 - Expectation Failed"></a>'
-ErrorDocument 413 '<a href="https://www.flickr.com/photos/girliemac/6508023747/" title="413 - Request Entity Too Large by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7161/6508023747_1d60889626.jpg" width="500" height="400" alt="413 - Request Entity Too Large"></a>'
-ErrorDocument 507 '<a href="https://www.flickr.com/photos/girliemac/6509400503/" title="507 - Insufficient Storage by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7160/6509400503_648dc8a2e5.jpg" width="500" height="400" alt="507 - Insufficient Storage"></a>'
-ErrorDocument 508 '<a href="https://www.flickr.com/photos/girliemac/6509400445/" title="508 - Loop Detected by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7025/6509400445_5fd9c7a9c3.jpg" width="500" height="400" alt="508 - Loop Detected"></a>'
-ErrorDocument 426 '<a href="https://www.flickr.com/photos/girliemac/6509400771/" title="426 - Upgrade Required by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7167/6509400771_33a1f59890.jpg" width="500" height="400" alt="426 - Upgrade Required"></a>'
-ErrorDocument 500 '<a href="https://www.flickr.com/photos/girliemac/6509400855/" title="500 - Internal Server Error by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7001/6509400855_aaaf915871.jpg" width="500" height="400" alt="500 - Internal Server Error"></a>'
-
-<IfModule mod_headers.c>
-	Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
-	Header always set X-Content-Type-Options "nosniff"
-	Header always set Referrer-Policy "strict-origin-when-cross-origin"
-	Header always set X-Frame-Options "SAMEORIGIN"
+	<IfModule mod_filter.c>
+		AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css \
+			application/xml application/xhtml+xml application/rss+xml \
+			application/javascript application/x-javascript \
+			text/x-component text/richtext image/svg+xml text/xsd text/xsl image/x-icon
+	</IfModule>
 </IfModule>
 
 <IfModule mod_headers.c>
@@ -60,151 +34,39 @@ ErrorDocument 500 '<a href="https://www.flickr.com/photos/girliemac/6509400855/"
 	</Files>
 </IfModule>
 
-<IfModule mod_deflate.c>
-    <IfModule mod_setenvif.c>
-        BrowserMatch ^Mozilla/4 gzip-only-text/html
-        BrowserMatch ^Mozilla/4\.0[678] no-gzip
-        BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
-        BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
-    </IfModule>
-    <IfModule mod_headers.c>
-        Header append Vary User-Agent env=!dont-vary
-    </IfModule>
-    <IfModule mod_filter.c>
-        AddOutputFilterByType DEFLATE text/css application/x-javascript text/x-component text/html text/richtext image/svg+xml text/plain text/xsd text/xsl text/xml image/x-icon
-    </IfModule>
+<IfModule mod_headers.c>
+	Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+	Header always set X-Content-Type-Options "nosniff"
+	Header always set Referrer-Policy "strict-origin-when-cross-origin"
+	Header always set X-Frame-Options "SAMEORIGIN"
 </IfModule>
+
+# from https://gist.github.com/1476499
+ErrorDocument 404 '<a href="https://www.flickr.com/photos/girliemac/6508022985/" title="404 - Not Found by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7172/6508022985_b22200ced0.jpg" width="500" height="400" alt="404 - Not Found"></a><p>Page not found. <a href="https://www.tmitg.com/">Go back home</a></p>'
+ErrorDocument 401 '<a href="https://www.flickr.com/photos/girliemac/6508023065/" title="401 - Unauthorized by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7148/6508023065_8dae48a30b.jpg" width="500" height="400" alt="401 - Unauthorized"></a>'
+ErrorDocument 406 '<a href="https://www.flickr.com/photos/girliemac/6508023119/" title="406 - Not Acceptable by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7143/6508023119_b681209a58.jpg" width="500" height="400" alt="406 - Not Acceptable"></a>'
+ErrorDocument 408 '<a href="https://www.flickr.com/photos/girliemac/6508023179/" title="408 - Request Timeout by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7018/6508023179_bab3eebce8.jpg" width="500" height="400" alt="408 - Request Timeout"></a>'
+ErrorDocument 409 '<a href="https://www.flickr.com/photos/girliemac/6508023259/" title="409 - Conflict by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7010/6508023259_b1c6f5a353.jpg" width="500" height="400" alt="409 - Conflict"></a>'
+ErrorDocument 414 '<a href="https://www.flickr.com/photos/girliemac/6508023351/" title="414 - Request-URI Too Long by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7152/6508023351_6732ed2f58.jpg" width="400" height="500" alt="414 - Request-URI Too Long"></a>'
+ErrorDocument 502 '<a href="https://www.flickr.com/photos/girliemac/6508023429/" title="502 - Bad Gateway by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7158/6508023429_735b433a36.jpg" width="500" height="400" alt="502 - Bad Gateway"></a>'
+ErrorDocument 405 '<a href="https://www.flickr.com/photos/girliemac/6508023523/" title="405 - Method Not Allowed by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7175/6508023523_996188af86.jpg" width="500" height="400" alt="405 - Method Not Allowed"></a>'
+ErrorDocument 403 '<a href="https://www.flickr.com/photos/girliemac/6508023617/" title="403 - Forbidden by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7173/6508023617_f3ffc34e17.jpg" width="500" height="400" alt="403 - Forbidden"></a>'
+ErrorDocument 417 '<a href="https://www.flickr.com/photos/girliemac/6508023679/" title="417 - Expectation Failed by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7009/6508023679_cb3e88fa92.jpg" width="500" height="400" alt="417 - Expectation Failed"></a>'
+ErrorDocument 413 '<a href="https://www.flickr.com/photos/girliemac/6508023747/" title="413 - Request Entity Too Large by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7161/6508023747_1d60889626.jpg" width="500" height="400" alt="413 - Request Entity Too Large"></a>'
+ErrorDocument 507 '<a href="https://www.flickr.com/photos/girliemac/6509400503/" title="507 - Insufficient Storage by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7160/6509400503_648dc8a2e5.jpg" width="500" height="400" alt="507 - Insufficient Storage"></a>'
+ErrorDocument 508 '<a href="https://www.flickr.com/photos/girliemac/6509400445/" title="508 - Loop Detected by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7025/6509400445_5fd9c7a9c3.jpg" width="500" height="400" alt="508 - Loop Detected"></a>'
+ErrorDocument 426 '<a href="https://www.flickr.com/photos/girliemac/6509400771/" title="426 - Upgrade Required by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7167/6509400771_33a1f59890.jpg" width="500" height="400" alt="426 - Upgrade Required"></a>'
+ErrorDocument 500 '<a href="https://www.flickr.com/photos/girliemac/6509400855/" title="500 - Internal Server Error by GirlieMac, on Flickr"><img src="https://farm8.staticflickr.com/7001/6509400855_aaaf915871.jpg" width="500" height="400" alt="500 - Internal Server Error"></a>'
 
 <IfModule mod_rewrite.c>
   RewriteEngine on
 
   # my rules
-  RewriteRule ^dexm(.*)$ https://www.tmitg.com/merch.php [R=301]
   RewriteRule ^news-rss.xml$ https://www.tmitg.com/news-rss.xml.php [R=301]  
-  RewriteRule ^item([0-9][0-9][0-9])$ https://www.tmitg.com/news.php?item=$1 [NE,R]
-  RewriteRule ^([0-9][0-9][0-9])$ https://www.tmitg.com/news.php?item=$1 [NE,R]
-  RewriteRule ^index.html$ https://www.tmitg.com/index.php [R=301]
-  RewriteRule ^links.html$ https://www.tmitg.com/links.php [R=301]
-  RewriteRule ^images.html$ https://www.tmitg.com/images.php [R=301]
-  RewriteRule ^merch.html$ https://www.tmitg.com/merch.php [R=301]
-  RewriteRule ^news.html$ https://www.tmitg.com/news.php [R=301]
-  RewriteRule ^frontnews.html$ https://www.tmitg.com/news.php [R=301]
-  RewriteRule ^forum(.*)$ https://www.tmitg.com/news.php [R=303]
-  RewriteRule ^iphone(.*)$ https://www.tmitg.com/ [R=301]
-  RewriteRule ^bio.html$ https://www.tmitg.com/bio.php [R=301]
-  RewriteRule ^checkorder.html$ https://www.tmitg.com/merch.php [R=301]
-  RewriteRule ^lyrics/(.*).html$ https://www.tmitg.com/lyrics/$1.php [R=301]
-  RewriteRule ^qr2011$ https://www.tmitg.com/files/tmitg-silly.jpg [R=302]
 
   # 2020 promo code downloads
   # RewriteRule ^code/abcdefgh$ https://www.tmitg.com/files/tmitg-promo.php?receipt=Name [R=301,L]
- 
-
-  # mp3 redirects
-  RewriteRule ^media/cimmerian-audio.php$ https://www.tmitg.com/viewmp3bc.php?bcsample=cimmerian [R=301,L]
-  RewriteRule ^media/finalform-audio.php$ https://www.tmitg.com/viewmp3bc.php?bcsample=finalform [R=301,L]
-  RewriteRule ^media/firemix-audio.php$ https://www.tmitg.com/viewmp3bc.php?bcsample=firemix [R=301,L]
-  RewriteRule ^media/inthevanir-audio.php$ https://www.tmitg.com/viewmp3bc.php?bcsample=vanirsingle [R=301,L]
-  RewriteRule ^media/mutationengine-audio.php$ https://www.tmitg.com/viewmp3bc.php?bcsample=mutationengine [R=301,L]
-  RewriteRule ^mp3-cimmerian(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=cimmerian [R=301,L]
-  RewriteRule ^mp3-cold(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=cold [R=301,L]
-  RewriteRule ^mp3-darksplinteredheart(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=darksplinteredheart [R=301,L]
-  RewriteRule ^mp3-dawn(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=dawn [R=301,L]
-  RewriteRule ^mp3-dawnremix(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=dawnremix [R=301,L]
-  RewriteRule ^mp3-fade(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=fade [R=301,L]
-  RewriteRule ^mp3-fear(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=fearnomore [R=301,L]
-  RewriteRule ^mp3-firemix(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=firemix [R=301,L]
-  RewriteRule ^mp3-herface(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=herface [R=301,L]
-  RewriteRule ^mp3-inthevanir(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=vanirsingle [R=301,L]
-  RewriteRule ^mp3-intrigue(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=intrigue [R=301,L]
-  RewriteRule ^mp3-mantraremix(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=mantraremix [R=301,L]
-  RewriteRule ^mp3-mentalwasteland(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=mentalwasteland [R=301,L]
-  RewriteRule ^mp3-metallic(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=metallic [R=301,L]
-  RewriteRule ^mp3-midnight(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=midnight [R=301,L]
-  RewriteRule ^mp3-moreuntofire(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=moreuntofire [R=301,L]
-  RewriteRule ^mp3-outside(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=outside [R=301,L]
-  RewriteRule ^mp3-powerandprophesy(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=powerandprophesy [R=301,L]
-  RewriteRule ^mp3-seek(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=seek [R=301,L]
-  RewriteRule ^mp3-shadowydepths(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=shadowydepths [R=301,L]
-  RewriteRule ^mp3-sixdays(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=sixdays [R=301,L]
-  RewriteRule ^mp3-smoothmotion(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=smoothmotionmix [R=301,L]
-  RewriteRule ^mp3-spidersbride(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=spidersbride [R=301,L]
-  RewriteRule ^mp3-theinsideworld(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=theinsideworld [R=301,L]
-  RewriteRule ^mp3-theseillusions(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=theseillusions [R=301,L]
-  RewriteRule ^mp3-thesleepofangels(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=thesleepofangels [R=301,L]
-  RewriteRule ^mp3-touch(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=atouchofheaven [R=301,L]
-  RewriteRule ^mp3-wonderland(|&mode=flash)$ https://www.tmitg.com/viewmp3bc.php?bcsample=wonderland [R=301,L]
-  
-  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
-  RewriteCond %{QUERY_STRING} ^source=media(.+)theinsideworld(.+)$
-  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=theinsideworld [R=301,L]
-
-  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
-  RewriteCond %{QUERY_STRING} ^source=media(.+)valentine(.+)$
-  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=valentine [R=301,L]
-
-  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
-  RewriteCond %{QUERY_STRING} ^source=media(.+)shadowydepths(.+)$
-  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=shadowydepths [R=301,L]
-
-  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
-  RewriteCond %{QUERY_STRING} ^source=media(.+)spidersbride(.+)$
-  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=spidersbride [R=301,L]
-
-  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
-  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)dawnremix(.+)$
-  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=dawnremix [R=301,L]
-
-  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
-  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)dawn(.+)$
-  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=dawn [R=301,L]
-
-  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
-  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)moreuntofire(.+)$
-  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=moreuntofire [R=301,L]
-
-  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
-  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)finalform(.+)$
-  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=finalform [R=301,L]
-
-  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
-  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)coventrycarol(.+)$
-  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=coventrycarol [R=301,L]
-
-  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
-  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)wonderland(.+)$
-  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=wonderland [R=301,L]
-
-  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
-  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)outside(.+)$
-  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=outside [R=301,L]
-  
-  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
-  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)sixdays(.+)$
-  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=sixdays [R=301,L]
-
-  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
-  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)intrigue(.+)$
-  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=intrigue [R=301,L]
-
-  RewriteCond %{REQUEST_URI}  ^/viewmp3\.php$
-  RewriteCond %{QUERY_STRING} ^(.*)source=media(.+)fade(.+)$
-  RewriteRule ^(.*)$ https://www.tmitg.com/viewmp3bc.php?bcsample=fade [R=301,L]
-
-  # video redirects
-  RewriteRule ^media/cimmerian-youtube-vid.php$ https://www.tmitg.com/viewvideo.php?yt=cimmerian [R=301,L]
-  RewriteRule ^media/everythingsheis-vid.php$ https://www.tmitg.com/viewvideo.php?yt=everythingsheis [R=301,L]
-  RewriteRule ^media/masks-vid.php$ https://www.tmitg.com/viewvideo.php?yt=masks [R=301,L]
-  RewriteRule ^media/outside-vid.php$ https://www.tmitg.com/viewvideo.php?yt=outside [R=301,L]
-  RewriteRule ^media/theinsideworld-vid.php$ https://www.tmitg.com/viewvideo.php?yt=theinsideworld [R=301,L]
-  RewriteRule ^media/sleepofangels-youtube-vid.php$ https://www.tmitg.com/viewvideo.php?yt=sleepofangels-fan [R=301,L]
-
-  # plain rewrites
-  RewriteRule ^albums/wintersico.gif$ albums/wintersico.jpg
-  RewriteRule ^albums/asphodelico.gif$ albums/asphodelico.jpg
-  RewriteRule ^albums/underworldico.gif$ albums/underworldico.jpg
-  RewriteRule ^albums/vsico.gif$ albums/vsico.jpg
-      
+       
   # dead things
   RewriteRule ^fanarea(.*)$ - [G,NC]
   RewriteRule ^media(.*)$ - [G,NC]
@@ -215,5 +77,4 @@ ErrorDocument 500 '<a href="https://www.flickr.com/photos/girliemac/6509400855/"
   RewriteRule ^viewmp3\.php(.*)$ - [G,NC]
   RewriteRule ^(.*)\.mp3111$ - [G,NC]
   RewriteRule ^(.*)showstop=1$ - [G,NC]
-
 </IfModule>

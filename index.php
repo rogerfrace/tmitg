@@ -8,7 +8,6 @@ require_once "functions.php";
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="the Machine in the Garden — ethereal/darkwave/goth duo Roger Fracé & Summer Bowman. 9 releases since 1992. Independent, still evolving, still creating." />
-	<meta name="keywords" content="machine in the garden, tmitg, ethereal, electronic, darkwave, goth, gothic, old school goth, neoclassical, band, music, CDs, roger frace, summer bowman" />
 	<meta property="og:site_name" content="the Machine in the Garden" />
 	<meta property="og:title" content="the Machine in the Garden" />
 	<meta property="og:type" content="musician" />

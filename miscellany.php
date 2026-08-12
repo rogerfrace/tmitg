@@ -16,7 +16,6 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="description" content="<?=$fbog['og:description'];?>" />
-	<meta name="keywords" content="machine in the garden, tmitg, miscellany, music, CDs, roger frace, summer bowman" />
 	<meta name="language" content="en-US" />
 	<meta name="Copyright" content="<?=date('Y',time());?>" />
 	<?=BuildFBOG($fbog);?>

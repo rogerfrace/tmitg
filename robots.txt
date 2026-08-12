@@ -4,3 +4,4 @@ Disallow: /cgi-bin/
 Disallow: /roger/
 Disallow: /files/
 Disallow: /_sites/
+Content-Signal: search=yes, ai-input=yes, ai-train=no

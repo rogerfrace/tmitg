@@ -9,7 +9,11 @@
 	<meta name="language" content="en-US" />
 	<meta property="og:title" content="the Machine in the Garden - merchandise" />
 	<meta property="og:url" content="https://www.tmitg.com/merch.php" />
-	<meta property="og:image" content="https://www.tmitg.com/albums/places.jpg" />
+	<meta property="og:image" content="https://www.tmitg.com/albums/placesOG.jpg">
+	<meta property="og:image:alt" content="Album cover artwork for the Machine in the Garden Places in Between">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="1079">
 	<meta property="og:description" content="Buy the Machine in the Garden's CDs, t-shirts, and Mirabilis releases on Bandcamp — physical and digital merch from the goth/etherealwave duo." />
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once "headers-additional.php"; ?>

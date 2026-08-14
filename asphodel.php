@@ -60,7 +60,7 @@
     <div>
 		<picture>
 			<source srcset="albums/asphodel500.jpg 2x">
-    			<img src="albums/asphodel.jpg" width="254" height="250" alt="Asphodel (2002) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+    			<img src="albums/asphodel.jpg" fetchpriority="high" loading="eager" decoding="async" width="254" height="250" alt="Asphodel (2002) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
 		</picture>
     </div>
 	<h1 itemprop="name">Asphodel</h1>

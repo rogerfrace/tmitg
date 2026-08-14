@@ -55,7 +55,7 @@
 	<div>
 		<picture>
 			<source srcset="albums/vanirlg.jpg 2x">
-				<img src="albums/vanir.jpg" alt="In the Vanir (2010) single cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+				<img src="albums/vanir.jpg" fetchpriority="high" loading="eager" decoding="async" alt="In the Vanir (2010) single cover — the Machine in the Garden" class="albumimg" itemprop="image" />
 		</picture>
 	</div>
 	<h1 itemprop="name">In the Vanir</h1>

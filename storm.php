@@ -60,7 +60,7 @@
 	<div>
 		<picture>
 			<source srcset="albums/baats500.jpg 2x">
-				<img src="albums/baats.jpg" width="250" height="250" alt="Before and After the Storm (2011) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+				<img src="albums/baats.jpg" fetchpriority="high" loading="eager" decoding="async" width="250" height="250" alt="Before and After the Storm (2011) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
 		</picture>
 	</div>
 	<h1 itemprop="name">Before and After the Storm</h1>

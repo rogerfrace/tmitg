@@ -60,7 +60,7 @@
     <div>
 		<picture>
 			<source srcset="albums/winters500.jpg 2x">
-	    		<img src="albums/winters.jpg" width="283" height="250" alt="One Winter's Night (1999) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+	    		<img src="albums/winters.jpg" fetchpriority="high" loading="eager" decoding="async" width="283" height="250" alt="One Winter's Night (1999) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
 		</picture>
     </div>
 	<h1 itemprop="name">One Winter's Night&hellip;</h1>

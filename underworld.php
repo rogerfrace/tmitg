@@ -60,7 +60,7 @@
 	<div>
 		<picture>
 			<source srcset="albums/underworldlg.jpg 2x">
-				<img src="albums/underworld.jpg" width="250" height="250" alt="Underworld (1997) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+				<img src="albums/underworld.jpg" fetchpriority="high" loading="eager" decoding="async" width="250" height="250" alt="Underworld (1997) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
 		</picture>
 	</div>
 	<h1 itemprop="name">Underworld</h1>

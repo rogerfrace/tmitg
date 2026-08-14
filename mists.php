@@ -60,7 +60,7 @@
 	<div>
 		<picture>
 			<source srcset="albums/mists500.jpg 2x">
-				<img src="albums/mists.jpg" width="282" height="250" alt="Out of the Mists (2000) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+				<img src="albums/mists.jpg" fetchpriority="high" loading="eager" decoding="async" width="282" height="250" alt="Out of the Mists (2000) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
 		</picture>
 	</div>
 	<h1 itemprop="name">Out of the Mists</h1>

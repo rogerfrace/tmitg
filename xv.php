@@ -60,7 +60,7 @@
 	<div>
 		<picture>
 			<source srcset="albums/xv700.jpg 2x">
-				<img src="albums/xv.jpg" width="250" height="250" alt="XV (2007) compilation album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+				<img src="albums/xv.jpg" fetchpriority="high" loading="eager" decoding="async" width="250" height="250" alt="XV (2007) compilation album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
 		</picture>
 	</div>
 	<h1 itemprop="name">XV</h1>

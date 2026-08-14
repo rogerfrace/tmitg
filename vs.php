@@ -59,7 +59,7 @@
 	<div>
 		<picture>
 			<source srcset="albums/vs700.jpg 2x">
-			<img src="albums/vs.jpg" width="250" height="250" alt="Veils and Shadows (1994) EP cover — the Machine in the Garden" class="albumimg" itemprop="image">
+			<img src="albums/vs.jpg" fetchpriority="high" loading="eager" decoding="async" width="250" height="250" alt="Veils and Shadows (1994) EP cover — the Machine in the Garden" class="albumimg" itemprop="image">
 		</picture>
 	</div>
 	<h1 itemprop="name">Veils and Shadows EP</h1>

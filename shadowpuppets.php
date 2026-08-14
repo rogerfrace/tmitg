@@ -60,7 +60,7 @@
     <div>
 		<picture>
 			<source srcset="albums/sp700.jpg 2x">
-    			<img src="albums/sp.jpg" width="250" height="250" alt="Shadow Puppets (2005) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+    			<img src="albums/sp.jpg" fetchpriority="high" loading="eager" decoding="async" width="250" height="250" alt="Shadow Puppets (2005) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
 		</picture>
     </div>
  	<h1 itemprop="name">Shadow Puppets</h1>

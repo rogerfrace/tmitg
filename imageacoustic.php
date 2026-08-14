@@ -54,7 +54,7 @@
 	<div>
 		<picture>
 			<source srcset="albums/imageacousticlg.jpg 2x">
-				<img src="albums/imageacoustic.jpg" alt="Image (acoustic) (2017) single cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+				<img src="albums/imageacoustic.jpg" fetchpriority="high" loading="eager" decoding="async" alt="Image (acoustic) (2017) single cover — the Machine in the Garden" class="albumimg" itemprop="image" />
 		</picture>
 	</div>
 	<h1 itemprop="name">Image (acoustic)</h1>

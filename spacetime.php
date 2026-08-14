@@ -54,7 +54,7 @@
 	<div>
 		<picture>
 			<source srcset="albums/spacetimelg.jpg 2x">
-				<img src="albums/spacetime.jpg" alt="Space-Time (2026) single cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+				<img src="albums/spacetime.jpg" fetchpriority="high" loading="eager" decoding="async" alt="Space-Time (2026) single cover — the Machine in the Garden" class="albumimg" itemprop="image" />
 		</picture>
 	</div>
 	<h1 itemprop="name">Space-Time</h1>

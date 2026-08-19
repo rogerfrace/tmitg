@@ -198,7 +198,7 @@ $lyricsfile and videoname do not include .html
 
 <p>L&rsquo;&lsquo;incanto viene interrotto con l&rsquo;&lsquo;energia di &ldquo;Power And Prophesy&rdquo;, particolarmente marcato da chitarre acuminate tipicamente gothic rock su una base electro-atmosferica. Segue &ldquo;Mending The Sky&rdquo; astratta, aliena, quasi ambientale, in cui si fa strada timidamente la voce lieve tra i riverberi. L&rsquo;&lsquo;album si chiude con alcune versioni rivisitate dei brani, ed ecco la ripresa ambientale di &ldquo;Cimmerian&rdquo;, vero epilogo del disco, poi &ldquo;Scathefire&rdquo;(Fire Mix) qui molto pi&ugrave; ballabile, in una veste pi&ugrave; dura remixata da Frances Byrne (Wench), &ldquo;Power And Prophesy&rdquo; (Metal Below Mix) che qui presenta campiture atmosferiche e meno chitarre filtrate, remixata dai Falling You, fino a &ldquo;Mending The Sky&rdquo; (Self Mix), remixata da Miles Fender (Earth Calling Angela, Charlottesville), che chiude il disco in una nebbia d&rsquo;&lsquo;incanti contemporaneamente antichi e originari quanto attualissimi e visionari.</p>
 </div>
-<p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Phaeton</span></span>, <a href="http://www.soundsbehindthecorner.org/recensione.asp?id=254" target="_blank"><span itemprop="publisher">Sounds Behind The Corner</span></a></p>
+<p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Phaeton</span></span>, <a href="http://www.soundsbehindthecorner.org/recensione.asp?id=254" hreflang="it-IT" target="_blank"><span itemprop="publisher">Sounds Behind The Corner</span></a></p>
 <meta itemprop="datePublished" content="2011-07-29">
 </blockquote>
 

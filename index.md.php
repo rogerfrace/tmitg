@@ -113,4 +113,26 @@ foreach ($main->childNodes as $child) {
         }
     }
 }
+
+echo "## Primary Pages\n\n";
+$primaryNav = null;
+foreach ($document->getElementsByTagName('nav') as $nav) {
+    if (str_contains(' ' . $nav->getAttribute('class') . ' ', ' desktop ')) {
+        $primaryNav = $nav;
+        break;
+    }
+}
+
+if ($primaryNav) {
+    foreach ($primaryNav->getElementsByTagName('a') as $link) {
+        $href = trim($link->getAttribute('href'));
+        $label = markdown_text($link);
+        if ($href === '' || $label === '' || preg_match('#^https?://#i', $href)) {
+            continue;
+        }
+
+        $absoluteHref = 'https://www.tmitg.com/' . ltrim($href, '/');
+        echo '- [' . $label . '](' . $absoluteHref . ")\n";
+    }
+}
 ?>

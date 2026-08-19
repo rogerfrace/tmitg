@@ -2,7 +2,7 @@
 
 // global variables
 # directory where newsitems live
-$newsdir = "newsitems";
+$newsdir = __DIR__ . "/newsitems";
 //
 
 header('Content-Type: text/xml');
@@ -64,9 +64,9 @@ for($index=0; $index < $indexCount; $index++) {
 		print '<item>';
 		print '<guid>https://www.tmitg.com/item'.$idnum.'</guid>';
 		print '<pubDate>'.$pubdate.'</pubDate>';
-		print '<title>'.strip_tags(htmlentities($title)).'</title>';
+		print '<title>'.htmlspecialchars(strip_tags($title), ENT_XML1, 'UTF-8').'</title>';
 		print '<link>https://www.tmitg.com/news.php?item='.$idnum.'</link>';
-		print '<description>'.htmlentities($description).'</description>';
+		print '<description>'.htmlspecialchars(strip_tags($description), ENT_XML1, 'UTF-8').'</description>';
 		print '</item>';
 	}
 }

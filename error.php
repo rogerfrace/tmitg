@@ -19,13 +19,6 @@
 <p><b>Error 404. Page Not Found.</b></p>
 <ul><li><a href="https://www.tmitg.com/index.php">Go to Index</a></li></ul>
 
-
-<script>
-  var GOOG_FIXURL_LANG = 'en';
-  var GOOG_FIXURL_SITE = 'https://www.tmitg.com/';
-</script>
-<script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
-
 </div>
 
 </body>

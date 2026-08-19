@@ -30,6 +30,15 @@ AddType font/woff2 .woff2
 	<Files ~ "\.css\.php$">
 	    FileETag None
 	</Files>
+
+	<Files "index.php">
+ 	   Header set Link "</index.md>; rel=\"alternate\"; type=\"text/markdown\""
+	</Files>
+	
+	<Files "index.md">
+		Header set Link "</>; rel=\"alternate\"; type=\"text/html\""
+		Header set Content-Type "text/markdown; charset=UTF-8"
+	</Files>
 </IfModule>
 
 <IfModule mod_headers.c>

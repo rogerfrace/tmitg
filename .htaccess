@@ -1,3 +1,4 @@
+AddCharset UTF-8 .txt
 AddType video/ogg .ogv
 AddType audio/ogg .ogg
 AddType video/mp4 .mp4
@@ -14,6 +15,9 @@ AddType font/woff2 .woff2
 </IfModule>
 
 <IfModule mod_headers.c>
+	<FilesMatch "^llms\.txt$">
+		Header always set Content-Type "text/plain; charset=UTF-8"
+	</FilesMatch>
 	<Files ~ "\.(gif|jpg|png|ico|woff|ttf|eot|svg)$">
 	    FileETag None
 		Header set Cache-Control "max-age=604800, public"

@@ -39,9 +39,6 @@ require_once "functions.php";
 	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
 	<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-	<meta name="msapplication-square70x70logo" content="/ms-smalltile.png" />
-	<meta name="msapplication-square150x150logo" content="/ms-mediumtile.png" />
-	<meta name="msapplication-square310x310logo" content="/ms-largetile.png" />
 
 	<title>the Machine in the Garden</title>
 <?php if (check_mobile()==false): ?>

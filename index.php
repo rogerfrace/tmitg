@@ -25,7 +25,7 @@ require_once "functions.php";
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="canonical" href="https://www.tmitg.com/" />
 
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16" />
 	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">

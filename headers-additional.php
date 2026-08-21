@@ -7,6 +7,8 @@
 <meta property="og:locale" content="en_US" />
 <meta property="fb:app_id" content="121619441387">
 <meta property="fb:admins" content="1120445561,713632115">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/fav-tmitg.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <?php 

@@ -1,0 +1,7 @@
+{
+  "icons": [
+    { "src": "/fav-tmitg192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/fav-tmitg512m.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" },
+    { "src": "/fav-tmitg512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}

@@ -58,6 +58,7 @@ AddType font/woff2 .woff2
   # my rules
 	RewriteRule ^news-rss\.xml$ news-rss.xml.php [L]
 	RewriteRule ^index\.md$ index.md.php [L]
+	RewriteRule ^item([0-9][0-9][0-9])$ https://www.tmitg.com/news.php?item=$1 [NE,R]
 
   # 2020 promo code downloads
   # RewriteRule ^code/abcdefgh$ https://www.tmitg.com/files/tmitg-promo.php?receipt=Name [R=301,L]

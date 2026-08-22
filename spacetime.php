@@ -1,6 +1,7 @@
 <?php $fbog = array(
 	'og:title'=>'the Machine in the Garden - Space-Time (2026)',
 	'og:type'=>'music.album',
+	'og:upc'=>'885000348563',
 	'og:url'=>'https://www.tmitg.com/spacetime.php',
 	'og:description'=>'the Machine in the Garden \'Space-Time\' is the band\'s third digital single.',
 	'og:image'=>'https://www.tmitg.com/albums/spacetimeOG.jpg',
@@ -92,6 +93,7 @@ $lyricsfile and videoname do not include .html
 
 
 <section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="https://schema.org/AggregateOffer">
+	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="0.00">
 	<h2 class="wai">Buy links</h2>
 	

@@ -68,9 +68,10 @@ AddType font/woff2 .woff2
   # dead things
   RewriteRule ^fanarea(.*)$ - [G,NC]
   RewriteRule ^media(.*)$ - [G,NC]
-  RewriteRule ^mobile/$ - [G,NC]
-  RewriteRule ^m/$ - [G,NC]
-  RewriteRule ^xv/$ - [G,NC]
+  RewriteRule ^ping/?$ - [G,NC]
+  RewriteRule ^mobile/?$ - [G,NC]
+  RewriteRule ^m/?$ - [G,NC]
+  RewriteRule ^xv/?$ - [G,NC]
   RewriteRule ^mp3-(.*)$ - [G,NC]
   RewriteRule ^viewmp3\.php(.*)$ - [G,NC]
   RewriteRule ^(.*)\.mp3111$ - [G,NC]

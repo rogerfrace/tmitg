@@ -264,12 +264,45 @@ if (!empty($_GET['bcsample'])){
 			$salbum="Places in Between";
 			$siframe='<iframe title="'.$stitle.' sample" style="border: 0; width: 280px; height: 422px;" src="https://bandcamp.com/EmbeddedPlayer/album=227127319/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/track=1048827026/transparent=true/" seamless><a href="https://tmitg.bandcamp.com/album/places-in-between">Places in Between by the Machine in the Garden</a></iframe>';
 			break;
-		case "spacetime":
+		case "spacetimesingle":
 			$stitle="Space-Time";
 			$salbum="Space-Time";
 			$siframe='<iframe title="'.$stitle.' sample" style="border: 0; width: 280px; height: 422px;" src="https://bandcamp.com/EmbeddedPlayer/track=3653913321/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/transparent=true/" seamless><a href="https://tmitg.bandcamp.com/track/space-time">Space-Time by the Machine in the Garden</a></iframe>';
 			break;
-		
+
+
+
+		case "theunwrittenway":
+			$stitle="The Unwritten Way";
+			$salbum="Impermanence";
+			$siframe='<iframe title="'.$stitle.' sample" style="border: 0; width: 280px; height: 422px;" src="https://bandcamp.com/EmbeddedPlayer/track=123456789/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/transparent=true/" seamless><a href="https://tmitg.bandcamp.com/track/the-unwritten-way">The Unwritten Way by the Machine in the Garden</a></iframe>';
+			break;
+		case "spacetimeep":
+			$stitle="Space-Time";
+			$salbum="Impermanence";
+			$siframe='<iframe title="'.$stitle.' sample" style="border: 0; width: 280px; height: 422px;" src="https://bandcamp.com/EmbeddedPlayer/track=123456789/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/transparent=true/" seamless><a href="https://tmitg.bandcamp.com/track/space-time-2">Space-Time by the Machine in the Garden</a></iframe>';
+			break;
+		case "divergence":
+			$stitle="Divergence";
+			$salbum="Impermanence";
+			$siframe='<iframe title="'.$stitle.' sample" style="border: 0; width: 280px; height: 422px;" src="https://bandcamp.com/EmbeddedPlayer/track=123456789/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/transparent=true/" seamless><a href="https://tmitg.bandcamp.com/track/divergence">Divergence by the Machine in the Garden</a></iframe>';
+			break;
+		case "oderintdummetuant":
+			$stitle="Oderint dum metuant";
+			$salbum="Impermanence";
+			$siframe='<iframe title="'.$stitle.' sample" style="border: 0; width: 280px; height: 422px;" src="https://bandcamp.com/EmbeddedPlayer/track=123456789/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/transparent=true/" seamless><a href="https://tmitg.bandcamp.com/track/oderint-dum-metuant">Oderint dum metuant by the Machine in the Garden</a></iframe>';
+			break;
+		case "makethereason":
+			$stitle="Make the Reason";
+			$salbum="Impermanence";
+			$siframe='<iframe title="'.$stitle.' sample" style="border: 0; width: 280px; height: 422px;" src="https://bandcamp.com/EmbeddedPlayer/track=123456789/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/transparent=true/" seamless><a href="https://tmitg.bandcamp.com/track/make-the-reason">Make the Reason by the Machine in the Garden</a></iframe>';
+			break;
+		case "thebeginningofallthings":
+			$stitle="The Beginning of All Things";
+			$salbum="Impermanence";
+			$siframe='<iframe title="'.$stitle.' sample" style="border: 0; width: 280px; height: 422px;" src="https://bandcamp.com/EmbeddedPlayer/track=123456789/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/transparent=true/" seamless><a href="https://tmitg.bandcamp.com/track/the-beginning-of-all-things">The Beginning of All Things by the Machine in the Garden</a></iframe>';
+			break;
+
 	}
 } else {
 	die("no input");

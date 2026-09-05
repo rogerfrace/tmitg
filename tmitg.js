@@ -29,6 +29,9 @@ jQuery(document).ready(function() {
 		case '/places.php':
 			jQuery("ul.subnav a[href='places.php']").attr('aria-current','page').addClass('current');
 		break;
+		case '/impermanence.php':
+			jQuery("ul.subnav a[href='impermanence.php']").attr('aria-current','page').addClass('current');
+		break;
 	// and main nav
 		case '/':
 			jQuery("nav a[href='/index.php']").attr('aria-current','page').addClass('current');

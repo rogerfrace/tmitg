@@ -4,7 +4,7 @@
 	'og:upc'=>'195269018252',
 	'og:url'=>'https://www.tmitg.com/places.php',
 	'og:description'=>'the Machine in the Garden \'Impermanence\' is the band\'s tenth studio album.',
-	'og:image'=>'https://www.tmitg.com/albums/placesOG.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/impermanenceFPOOG.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Impermanence',
 	'og:image:type'=>'image/jpeg',
 	'og:image:width'=>'1200',
@@ -58,19 +58,19 @@
 <section id="discog_albuminfo" tabindex="-1">
 	<div>
 		<picture>
-			<source srcset="albums/places500.jpg 2x">
-				<img src="albums/impermanence.jpg" fetchpriority="high" loading="eager" decoding="async" width="250" height="250" alt="Impermanence (2026) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+			<source srcset="albums/impermanenceFPO500.jpg 2x">
+				<img src="albums/impermanenceFPO.jpg" fetchpriority="high" loading="eager" decoding="async" width="250" height="250" alt="Impermanence (2026) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
 		</picture>
 	</div>
 	<h1 itemprop="name">Impermanence</h1>
-	<p itemprop="abstract"><em>Thirteen new songs exploring the variety of styles&mdash;from goth rock to electronic ethereal&mdash;the band is known for. Coming in at over an hour in length, &quot;Impermanence&quot; is chock full of epic electronics, sweeping guitars and shining vocals. The album has everything fans have come to appreciate about the Machine in the Garden in their nearly 30 year history, while still sounding elevated and modern.</em></p>
+	<p itemprop="abstract"><em>NOT FINAL Six songs exploring impermanence, lost control, and the work of muddling through when nothing resolves into meaning, <i>Impermanence</i> is tMitG's first new release in six years. Smaller in scale, tighter in focus, and stripped down to just the machine and voice, it's still as rich, engaging, and emotional as anything that's come before it.</em></p>
 
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-010-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2020</span><br />Digital Album released <time datetime="2020-07-10" itemprop="datePublished">10 July 2020</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-011-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br />Digital EP released <time datetime="2020-07-10" itemprop="datePublished">30 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p>(<span itemprop="catalogNumber">dxm-010-cd</span>) <span itemprop="about">Limited Edition CD</span> released <time datetime="2020-07-21" itemprop="datePublished">15 November 2020</time></p>
+		<p>(<span itemprop="catalogNumber">dxm-011-cd</span>) <span itemprop="about">CD</span> released <time datetime="2020-07-21" itemprop="datePublished">15 December 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 	</div>
 
@@ -97,12 +97,12 @@ do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$song
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"The Unwritten Way","theunwrittenway",NULL,"impermanence.jpg",NULL); ?>
-<?php do_songtitle(2,"Space-Time","spacetime","spacetime-bc","impermanence.jpg","spacetime",NULL); ?>
-<?php do_songtitle(3,"Divergence","divergence",NULL,"impermanence.jpg",NULL); ?>
-<?php do_songtitle(4,"Oderint dum metuant","oderintdummetuant",NULL,"impermanence.jpg",NULL,NULL,NULL); ?>
-<?php do_songtitle(5,"Make the Reason","makethereason",NULL,"impermanence.jpg",NULL,NULL,NULL); ?>
-<?php do_songtitle(6,"The Beginning of All Things","thebeginningofallthings",NULL,"impermanence.jpg",NULL); ?>
+<?php do_songtitle(1,"The Unwritten Way","theunwrittenway","theunwrittenway-bc","impermanenceFPO.jpg",NULL); ?>
+<?php do_songtitle(2,"Space-Time","spacetime","spacetimeep-bc","impermanenceFPO.jpg","spacetime",NULL); ?>
+<?php do_songtitle(3,"Divergence","divergence","divergence-bc","impermanenceFPO.jpg",NULL); ?>
+<?php do_songtitle(4,"Oderint dum metuant","oderintdummetuant","oderintdummetuant-bc","impermanenceFPO.jpg",NULL,NULL,NULL); ?>
+<?php do_songtitle(5,"Make the Reason","makethereason","makethereason-bc","impermanenceFPO.jpg",NULL,NULL,NULL); ?>
+<?php do_songtitle(6,"The Beginning of All Things","thebeginningofallthings","thebeginningofallthings-bc","impermanenceFPO.jpg",NULL); ?>
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->

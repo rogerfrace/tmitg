@@ -48,6 +48,15 @@
 			  "@type": "ListItem",
 			  "item": {
 				"@type": "MusicRelease",
+				"name": "Impermanence",
+				"datePublished": "2026",
+				"url": "https://www.tmitg.com/impermanence.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
 				"name": "Space-Time",
 				"datePublished": "2026",
 				"url": "https://www.tmitg.com/spacetime.php"
@@ -214,6 +223,8 @@
 <h2 id="releases">releases:</h2>
 
 <ul role="list" class="releases">
+
+<li><a href="impermanence.php" title="Impermanence (2026)"><img src="albums/impermanenceFPOico.jpg" width="125" height="125" alt="Impermanence (2026)"></a></li>
 
 <li><a href="spacetime.php" title="Space-Time (2026)"><img src="albums/spacetimeico.jpg" width="125" height="125" alt="Space-Time (2026)"></a></li>
 

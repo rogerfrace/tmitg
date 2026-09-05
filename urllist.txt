@@ -19,6 +19,7 @@ https://www.tmitg.com/eternal.php
 https://www.tmitg.com/excelsis.php
 https://www.tmitg.com/hexfiles.php
 https://www.tmitg.com/images.php
+https://www.tmitg.com/impermanence.php
 https://www.tmitg.com/legends.php
 https://www.tmitg.com/links.php
 https://www.tmitg.com/live.php
@@ -97,6 +98,11 @@ https://www.tmitg.com/lyrics/seek.php
 https://www.tmitg.com/lyrics/shadowydepths.php
 https://www.tmitg.com/lyrics/sixdays.php
 https://www.tmitg.com/lyrics/spacetime.php
+https://www.tmitg.com/lyrics/theunwrittenway.php
+https://www.tmitg.com/lyrics/thebeginningofallthings.php
+https://www.tmitg.com/lyrics/oderintdummetuant.php
+https://www.tmitg.com/lyrics/makethereason.php
+https://www.tmitg.com/lyrics/divergence.php
 https://www.tmitg.com/lyrics/spidersbride.php
 https://www.tmitg.com/lyrics/spiritandimage.php
 https://www.tmitg.com/lyrics/suspend.php

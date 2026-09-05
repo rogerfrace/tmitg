@@ -90,6 +90,38 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
+	<img src="/albums/impermanenceFPOico.jpg" alt="Impermanence CD" property="image" />
+</div>
+<div class="itemdesc">
+	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
+	<em property="name">Impermanence</em></h2>
+	<meta property="sku" content="dxm-011-dig" />
+	<span property="mpn">dxm-011-dig</span> &copy;<span property="releaseDate">2026</span><br />
+	(<span property="description">Digital EP</span>)
+	<div class="pricecart" property="offers" typeof="Offer">
+		<a property="url" href="/impermanence.php">more information <span class="wai">about Impermanence</span></a><br />
+		<strong class="price" property="price" content="8.00">$8</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
+		<meta property="availability" content="https://schema.org/OnlineOnly">
+		<meta property="priceCurrency" content="USD" />
+		<meta property="gtin12" content="123456789" />
+		<div property="hasMerchantReturnPolicy" typeof="MerchantReturnPolicy">
+			<meta property="merchantReturnLink" content="https://www.tmitg.com/policy.php" />
+		</div>
+		<div property="shippingDetails" typeof="OfferShippingDetails">
+			<meta property="shippingSettingsLink" content="https://www.tmitg.com/policy.php" />
+			<div property="shippingOrigin" typeof="DefinedRegion">
+				<meta property="addressCountry" content="USA" />
+				<meta property="addressRegion" content="Texas" />
+			</div>
+		</div>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/impermanence" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Digital <span class="wai">: Impermanence</span></a>
+	</div>
+</div>
+</section> <!-- /itemcontainer -->
+
+<section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
+<div class="itempic">
 	<img src="/albums/placesico.jpg" alt="places in between CD" property="image" />
 </div>
 <div class="itemdesc">

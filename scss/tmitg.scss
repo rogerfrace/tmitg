@@ -341,11 +341,11 @@ a.atcss:hover {
         .subtitle {
             display: block;
             color: $nearwhite;
-            font-family: Cormorant, serif;
-            font-weight: 600;
-            font-size: 1.35em;
+            font-family: "Cardo", serif;
+            font-weight: 500;
+            font-size: 0.85em;
             text-align: center;
-            margin: -1.5em 0 0;
+            margin: 0em 0 0;
         }
     }
 
@@ -485,7 +485,7 @@ a.atcss:hover {
 @media screen and (max-width: 643px) {
     #front {
         h1 .subtitle {
-            font-size: 1em;
+            font-size: 0.65em;
         }
         .portrait {
             position: relative;

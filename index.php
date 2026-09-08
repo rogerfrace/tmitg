@@ -105,7 +105,7 @@ require_once "functions.php";
 <!-- title bar -->
 <header id="titlebar">
 	<h1><span role="text">
-		<img src="/headers/images/tMitG-PiB-logo.svg" alt="the Machine in the Garden">
+		<img src="/headers/images/tMitG-impermanence-logo.svg" alt="the Machine in the Garden">
 		<span class="subtitle">the official website</span>
 	</span></h1>
 

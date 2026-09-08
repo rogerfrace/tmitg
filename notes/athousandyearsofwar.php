@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<title>A Thousand Years of War</title>
 	<meta name="description" content="Notes for the song &quot;A Thousand Years of War&quot; by the Machine in the Garden" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" type="text/css" href="../tmitg.css" />
 	<?php include_once "../googletracking.html"; ?>
 	<?php include_once "../functions.php"; ?>

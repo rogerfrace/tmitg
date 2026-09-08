@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<title>The Unwritten Way - Lyrics - the Machine in the Garden</title>
 	<meta name="description" content="Lyrics for the song &quot;The Unwritten Way&quot; by the Machine in the Garden" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" type="text/css" href="../tmitg.css" />
 	<?php include_once "../googletracking.html"; ?>
 </head>

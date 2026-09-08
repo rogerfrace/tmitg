@@ -22,7 +22,7 @@ require_once "functions.php";
     <meta property="fb:app_id" content="121619441387">
     <meta property="fb:admins" content="1120445561,713632115">
 	<meta name="copyright" content="<?=date('Y',time());?>" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width">
     <link rel="canonical" href="https://www.tmitg.com/" />
 
 	<link rel="icon" href="/favicon.ico" sizes="48x48">

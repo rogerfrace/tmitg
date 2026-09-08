@@ -30,7 +30,7 @@
 <!-- based on https://www.w3.org/TR/wai-aria-practices-1.1/examples/tabs/tabs-2/tabs.html -->
 <div id="accordion" role="tablist" aria-label="album list">
 	<div class="item impermanence" id="impermanencetab" role="tab" tabindex="-1" aria-controls="impermanence" aria-selected="false">
-		<img src="albums/impermanenceFPOico.jpg" class="impermanenceimg" alt="Impermanence">
+		<img src="albums/impermanenceico.jpg" class="impermanenceimg" alt="Impermanence">
 		<div class="detail">
 			<p class="tabtitle">Impermanence</p>
 			<time>2026</time>
@@ -132,7 +132,7 @@
 
 	<div class="songs impermanence" id="impermanence" role="tabpanel" tabindex="0" aria-labelledby="impermanencetab">
 		<div class="albumcol">
-			<p><a href="impermanence.php"><img src="albums/impermanenceFPO.jpg" width="200" height="200" class="cover" alt="more information about Impermanence"></a></p>
+			<p><a href="impermanence.php"><img src="albums/impermanence.jpg" width="200" height="200" class="cover" alt="more information about Impermanence"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">

@@ -4,7 +4,7 @@
 	'og:upc'=>'195269018252',
 	'og:url'=>'https://www.tmitg.com/places.php',
 	'og:description'=>'the Machine in the Garden \'Impermanence\' is the band\'s tenth studio album.',
-	'og:image'=>'https://www.tmitg.com/albums/impermanenceFPOOG.jpg',
+	'og:image'=>'https://www.tmitg.com/albums/impermanenceOG.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Impermanence',
 	'og:image:type'=>'image/jpeg',
 	'og:image:width'=>'1200',
@@ -58,15 +58,15 @@
 <section id="discog_albuminfo" tabindex="-1">
 	<div>
 		<picture>
-			<source srcset="albums/impermanenceFPO500.jpg 2x">
-				<img src="albums/impermanenceFPO.jpg" fetchpriority="high" loading="eager" decoding="async" width="250" height="250" alt="Impermanence (2026) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
+			<source srcset="albums/impermanence500.jpg 2x">
+				<img src="albums/impermanence.jpg" fetchpriority="high" loading="eager" decoding="async" width="250" height="250" alt="Impermanence (2026) album cover — the Machine in the Garden" class="albumimg" itemprop="image" />
 		</picture>
 	</div>
 	<h1 itemprop="name">Impermanence</h1>
 	<p itemprop="abstract"><em>Six songs exploring impermanence, fate, loss, and the existential work of dealing with circumstances beyond one’s control, 'Impermanence' is tMitG's first new release in six years. Tighter in focus and stripped down to just the machine and voice, it's still as rich, engaging, and emotional as anything that's come before it.</em></p>
 
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-011-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br />Digital EP released <time datetime="2020-07-10" itemprop="datePublished">30 October 2026</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-011-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br />Digital EP released <time datetime="2026-10-30" itemprop="datePublished">30 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 <!--	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
@@ -97,12 +97,12 @@ do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$song
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"The Unwritten Way","theunwrittenway","theunwrittenway-bc","impermanenceFPO.jpg",NULL); ?>
-<?php do_songtitle(2,"Space-Time","spacetime","spacetimeep-bc","impermanenceFPO.jpg","spacetime",NULL); ?>
-<?php do_songtitle(3,"Divergence","divergence","divergence-bc","impermanenceFPO.jpg",NULL); ?>
-<?php do_songtitle(4,"Oderint dum metuant","oderintdummetuant","oderintdummetuant-bc","impermanenceFPO.jpg",NULL,NULL,NULL); ?>
-<?php do_songtitle(5,"Make the Reason","makethereason","makethereason-bc","impermanenceFPO.jpg",NULL,NULL,NULL); ?>
-<?php do_songtitle(6,"The Beginning of All Things","thebeginningofallthings","thebeginningofallthings-bc","impermanenceFPO.jpg",NULL); ?>
+<?php do_songtitle(1,"The Unwritten Way","theunwrittenway","theunwrittenway-bc","impermanence.jpg",NULL); ?>
+<?php do_songtitle(2,"Space-Time","spacetime","spacetimeep-bc","impermanence.jpg","spacetime",NULL); ?>
+<?php do_songtitle(3,"Divergence","divergence","divergence-bc","impermanence.jpg",NULL); ?>
+<?php do_songtitle(4,"Oderint dum metuant","oderintdummetuant","oderintdummetuant-bc","impermanence.jpg",NULL,NULL,NULL); ?>
+<?php do_songtitle(5,"Make the Reason","makethereason","makethereason-bc","impermanence.jpg",NULL,NULL,NULL); ?>
+<?php do_songtitle(6,"The Beginning of All Things","thebeginningofallthings","thebeginningofallthings-bc","impermanence.jpg",NULL); ?>
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->

@@ -1,6 +1,6 @@
 <div id="discog_topnav" role="navigation" aria-label="Secondary" tabindex="-1">
 <ul class="subnav">
-	<li><a href="impermanence.php" title="Impermanence (2026)"><picture><source srcset="albums/impermanenceFPOmini92.jpg 2x"><img src="albums/impermanenceFPOmini.jpg" decoding="async" alt="Impermanence (2026)" width="46" height="46" /></picture></a></li>
+	<li><a href="impermanence.php" title="Impermanence (2026)"><picture><source srcset="albums/impermanencemini92.jpg 2x"><img src="albums/impermanencemini.jpg" decoding="async" alt="Impermanence (2026)" width="46" height="46" /></picture></a></li>
 	<li><a href="places.php" title="Places in Between (2020)"><picture><source srcset="albums/placesmini92.jpg 2x"><img src="albums/placesmini.jpg" decoding="async" alt="Places in Between (2020)" width="46" height="46" /></picture></a></li>
 	<li><a href="storm.php" title="Before and After the Storm (2011)"><picture><source srcset="albums/baatsmini92.jpg 2x"><img src="albums/baatsmini.jpg" decoding="async" alt="Before and After the Storm (2011)" width="46" height="46" /></a></li>
 	<li><a href="xv.php" title="XV (2007)"><picture><source srcset="albums/xvmini92.jpg 2x"><img src="albums/xvmini.jpg" decoding="async" alt="XV (2007)" width="46" height="46" /></picture></a></li>

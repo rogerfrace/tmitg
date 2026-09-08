@@ -90,7 +90,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="/albums/impermanenceFPOico.jpg" alt="Impermanence CD" property="image" />
+	<img src="/albums/impermanenceico.jpg" alt="Impermanence CD" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />

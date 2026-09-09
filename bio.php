@@ -43,7 +43,7 @@
 <h1 class="wai">the Machine in the Garden Biography</h1>
 
 <div class="twocols">
-<p>the Machine in the Garden is the gothic/etherealwave/darkwave duo of Roger Fracé and Summer Bowman currently residing in Austin, Texas. Over three decades and ten studio releases, the band has built one of the genre’s most distinctive catalogs: music that moves between atmospheric darkness, goth rock, electronic, and ethereal without ever losing its unique identity.</p>
+<p>the Machine in the Garden is the gothic-etherealwave-darkwave duo of Roger Fracé and Summer Bowman currently residing in Austin, Texas. Over three decades and ten studio releases, the band has built one of the genre’s most distinctive catalogs: music that moves between atmospheric darkness, goth rock, electronic, and ethereal without ever losing its unique identity.</p>
 
 <p>the Machine in the Garden began in 1992 when Roger Fracé started building what would become <i>Veils and Shadows EP</i>. Released in 1994, the four tracks crossed goth, new wave, and industrial. Critics praised its ability to move from “relaxing and refreshing” openings to raw, unsettling peaks and back again, with one noting it was “a notch above what many internationally-known bands are doing right now.”</p>
 

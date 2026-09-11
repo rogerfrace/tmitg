@@ -44,6 +44,7 @@
 <ul>
 <li><a rel="me noopener external" href="https://www.facebook.com/tmitg" target="_blank">tMitG on Facebook</a></li>
 <li><a rel="me noopener external" href="https://bsky.app/profile/tmitg.bsky.social" target="_blank">tMitG on Bluesky</a></li>
+<li><a rel="me noopener external" href="https://www.instagram.com/tmitg_band" target="_blank">tMitG on Instagram</a></li>
 <li><a rel="me noopener external" href="https://www.youtube.com/tmitg" target="_blank">tMitG on YouTube</a></li>
 <li><a rel="me noopener external" href="https://www.discogs.com/artist/120399-Machine-In-The-Garden-The" target="_blank">tMitG discography at discogs.com</a></li>
 <li><a rel="me noopener external" href="https://darkmusic.net/user/tmitg/" target="_blank">tMitG on DarkMusic.Net</a></li>

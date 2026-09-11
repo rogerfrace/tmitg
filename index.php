@@ -56,6 +56,7 @@ require_once "functions.php";
 		"sameAs": [
 			"https://tmitg.bandcamp.com",
 			"https://www.facebook.com/tmitg",
+			"https://www.instagram.com/tmitg_band",
 			"https://bsky.app/profile/tmitg.bsky.social",
 			"https://www.youtube.com/tmitg",
 			"https://music.apple.com/us/artist/the-machine-in-the-garden/5985533",
@@ -123,6 +124,7 @@ require_once "functions.php";
 		<li><a href="live.php">live shows</a></li>
 		<li><span class="iblock"><a href="https://www.facebook.com/tmitg" title="tMitG on Facebook"><i class="fa-brands fa-facebook"></i></a>
 			<a href="https://bsky.app/profile/tmitg.bsky.social" title="tMitG on Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+			<a href="https://www.instagram.com/tmitg_band" title="tMitG on Instagram"><i class="fa-brands fa-instagram"></i></a>
 			<a href="https://tmitg.bandcamp.com" title="tMitG on Bandcamp"><i class="fa-brands fa-bandcamp"></i></a></span></li>
 	</ul>
 </nav>
@@ -141,6 +143,7 @@ require_once "functions.php";
 		<a href="/live.php">Live Shows</a>
 		<a href="https://www.facebook.com/tmitg" title="tMitG on Facebook"><i class="fa-brands fa-facebook"></i> Facebook</a>
 		<a href="https://bsky.app/profile/tmitg.bsky.social" title="tMitG on Bluesky"><i class="fa-brands fa-bluesky"></i> Bluesky</a>
+		<a href="https://www.instagram.com/tmitg_band" title="tMitG on Instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
 		<a href="https://tmitg.bandcamp.com" title="tMitG on Bandcamp"><i class="fa-brands fa-bandcamp"></i> Bandcamp</a>
   </div>
 </nav>

@@ -95,8 +95,8 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 <div class="itemdesc">
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">Impermanence</em></h2>
-	<meta property="sku" content="dxm-011-dig" />
-	<span property="mpn">dxm-011-dig</span> &copy;<span property="releaseDate">2026</span><br />
+	<meta property="sku" content="dxm-012-dig" />
+	<span property="mpn">dxm-012-dig</span> &copy;<span property="releaseDate">2026</span><br />
 	(<span property="description">Digital EP</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
 		<a property="url" href="/impermanence.php">more information <span class="wai">about Impermanence</span></a><br />

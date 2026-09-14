@@ -70,12 +70,14 @@
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 <!--	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p>(<span itemprop="catalogNumber">dxm-012-cd</span>) <span itemprop="about">CD</span> released <time datetime="2020-10-30" itemprop="datePublished">15 December 2026</time></p>
+		<p>(<span itemprop="catalogNumber">dxm-012-cd</span>) <span itemprop="about">CD</span> released <time datetime="2020-10-30" itemprop="datePublished">30 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
+		<meta itemprop="gtin12" content="5063933837896">
 	</div>-->
 <!--	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p>(<span itemprop="catalogNumber">dxm-012-ep</span>) <span itemprop="about">12"</span> released <time datetime="2020-10-30" itemprop="datePublished">15 December 2026</time></p>
+		<p>(<span itemprop="catalogNumber">dxm-012-ep</span>) <span itemprop="about">12"</span> released <time datetime="2020-10-30" itemprop="datePublished">30 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="VinylFormat" />
+		<meta itemprop="gtin12" content="5063933834963">
 	</div>-->
 
 </section> <!-- end album info div -->

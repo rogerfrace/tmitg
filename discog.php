@@ -48,6 +48,19 @@
 			  "@type": "ListItem",
 			  "item": {
 				"@type": "MusicRelease",
+				"name": "The Beginning of All Things",
+				"datePublished": "2026",
+				"url": "https://www.tmitg.com/beginning.php"
+			  }
+			},
+		{
+		  "@id": "https://www.tmitg.com/discog.php#releases",
+		  "@type": "ItemList",
+		  "itemListElement": [
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
 				"name": "Space-Time",
 				"datePublished": "2026",
 				"url": "https://www.tmitg.com/spacetime.php"
@@ -214,6 +227,8 @@
 <h2 id="releases">releases:</h2>
 
 <ul role="list" class="releases">
+
+<li><a href="beginning.php" title="The Beginning of All Things (2026)"><img src="albums/beginningico.jpg" width="125" height="125" alt="The Beginning of All Things (2026)"></a></li>
 
 <li><a href="spacetime.php" title="Space-Time (2026)"><img src="albums/spacetimeico.jpg" width="125" height="125" alt="Space-Time (2026)"></a></li>
 

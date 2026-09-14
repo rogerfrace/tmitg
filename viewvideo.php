@@ -147,6 +147,12 @@ if (!empty($_GET['yt'])){
 			$sdesc="Official lyric video for &quot;Space-Time&quot; by the Machine in the Garden.";
 			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/iJ0sCc1bwBQ" frameborder="0" allowfullscreen></iframe>';
 			break;
+#the beginning of all things
+		case "beginning":
+			$stitle="&ldquo;The Beginning of All Things&rdquo; Official Video";
+			$sdesc="Official video for &quot;The Beginning of All Things&quot; by the Machine in the Garden.";
+			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/iJ0sCc1bwBQ" frameborder="0" allowfullscreen></iframe>';
+			break;
 	}
 } else {
 	die("no input");

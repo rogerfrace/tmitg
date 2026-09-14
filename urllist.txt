@@ -2,6 +2,7 @@ https://www.tmitg.com/
 https://www.tmitg.com/arofv3.php
 https://www.tmitg.com/asphodel.php
 https://www.tmitg.com/attrition.php
+https://www.tmitg.com/beginning.php
 https://www.tmitg.com/bets.php
 https://www.tmitg.com/bio.php
 https://www.tmitg.com/butoh.php
@@ -100,6 +101,7 @@ https://www.tmitg.com/lyrics/spacetime.php
 https://www.tmitg.com/lyrics/spidersbride.php
 https://www.tmitg.com/lyrics/spiritandimage.php
 https://www.tmitg.com/lyrics/suspend.php
+https://www.tmitg.com/lyrics/thebeginningofallthings.php
 https://www.tmitg.com/lyrics/theinsideworld.php
 https://www.tmitg.com/lyrics/thepiano.php
 https://www.tmitg.com/lyrics/theseillusions.php

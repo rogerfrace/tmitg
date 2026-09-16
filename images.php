@@ -64,6 +64,17 @@
 <!-- Build photo block -->
 
 <section>
+<h2>2026</h2>
+<ul role="list" class="2026">
+<?php
+do_photo('2026-IMG_7827','2026','Summer wearing a black silk blouse and a black velvet waist cincher with a red rose and thorn necklace on a plain white background');
+do_photo('2026-IMG_7843','2026','Roger on a plain white background wearing a black dress shirt with an open collar and a bright red necktie with a skeleton on the bottom');
+do_photo('2026-IMG_7854','2026','Summer and Roger standing side by side on a plain white background');
+do_photo('2026-IMG_7871','2026','Summer and Roger standing mostly back-to-back on a plain white background');
+?>
+</ul>
+
+<section>
 <h2>2020</h2>
 <ul role="list" class="2020">
 <?php
@@ -354,6 +365,7 @@ do_photo('tmitgpic3','1992','Promo picture later used for the cover of Veils and
 <section>
 <h2>Photo credits:</h2>
 <ul role="list" class="credits">
+	<li>2026: <i>Impermanence</i> photoshoot - Roger Frac&eacute; and Summer Bowman</li>
 	<li>2020: <i>Places in Between</i> photoshoot - Roger Frac&eacute; and Summer Bowman</li>
 	<li>2015: Mirabilis live at Secret Oktober, Austin, TX - Phil Schafer</li>
 	<li>2013: live at Elysium, Austin, TX - John Nuncio</li>

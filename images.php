@@ -231,14 +231,14 @@ do_photo('gc11','2002','Live at GothCon in New Orleans #4');
 <h2>2001</h2>
 <ul role="list" class="2001">
 <?php
-do_photo('4march10','2001','post Out of the Mists Promo photos, trying to look more goth #1');
-do_photo('4march12','2001','post Out of the Mists Promo photos, trying to look more goth #2');
-do_photo('4march15','2001','post Out of the Mists Promo photos, trying to look more goth #3');
-do_photo('4march17','2001','post Out of the Mists Promo photos, trying to look more goth #4');
-do_photo('4march21','2001','post Out of the Mists Promo photos, trying to look more goth #5');
-do_photo('4march24','2001','post Out of the Mists Promo photos, trying to look more goth #6');
-do_photo('4march2','2001','post Out of the Mists Promo photos, trying to look more goth #7');
-do_photo('4march29','2001','post Out of the Mists Promo photos, trying to look more goth #8');
+do_photo('4march10','2001','post-Out of the Mists Promo photos, trying to look more goth #1');
+do_photo('4march12','2001','post-Out of the Mists Promo photos, trying to look more goth #2');
+do_photo('4march15','2001','post-Out of the Mists Promo photos, trying to look more goth #3');
+do_photo('4march17','2001','post-Out of the Mists Promo photos, trying to look more goth #4');
+do_photo('4march21','2001','post-Out of the Mists Promo photos, trying to look more goth #5');
+do_photo('4march24','2001','post-Out of the Mists Promo photos, trying to look more goth #6');
+do_photo('4march2','2001','post-Out of the Mists Promo photos, trying to look more goth #7');
+do_photo('4march29','2001','post-Out of the Mists Promo photos, trying to look more goth #8');
 ?>
 </ul>
 <ul role="list" class="2001">

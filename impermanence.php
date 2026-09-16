@@ -66,16 +66,16 @@
 	<p itemprop="abstract"><em>Six songs exploring impermanence, fate, loss, and the existential work of dealing with circumstances beyond one’s control, 'Impermanence' is tMitG's first new release in six years. Tighter in focus and stripped down to just the machine and voice, it's still as rich, engaging, and emotional as anything that's come before it.</em></p>
 
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-012-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br />Digital EP released <time datetime="2026-10-30" itemprop="datePublished">30 October 2026</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-012-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br />Digital EP releasing <time datetime="2026-10-30" itemprop="datePublished">30 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 <!--	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p>(<span itemprop="catalogNumber">dxm-012-cd</span>) <span itemprop="about">CD</span> released <time datetime="2020-10-30" itemprop="datePublished">30 October 2026</time></p>
+		<p>(<span itemprop="catalogNumber">dxm-012-cd</span>) <span itemprop="about">CD</span> releasing <time datetime="2020-10-30" itemprop="datePublished">30 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 		<meta itemprop="gtin12" content="5063933837896">
 	</div>-->
 <!--	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p>(<span itemprop="catalogNumber">dxm-012-ep</span>) <span itemprop="about">12"</span> released <time datetime="2020-10-30" itemprop="datePublished">30 October 2026</time></p>
+		<p>(<span itemprop="catalogNumber">dxm-012-ep</span>) <span itemprop="about">12"</span> releasing <time datetime="2020-10-30" itemprop="datePublished">30 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="VinylFormat" />
 		<meta itemprop="gtin12" content="5063933834963">
 	</div>-->

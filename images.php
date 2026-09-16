@@ -375,7 +375,7 @@ do_photo('tmitgpic3','1992','Promo picture later used for the cover of Veils and
 	<li>2005: <i>Shadow Puppets</i> promo photos - Roger Frac&eacute; and Summer Bowman; live in Charlottesville, VA  - Chad Van Pelt</li>
 	<li>2002: live at GothCon 2002, New Orleans, LA - James Babbo; <i>Asphodel</i> promo photos - Donna Clancy-Goertz</li>
 	<li>2001: live in Los Angeles, CA - Dru and Wayne; promo photos - Donna Clancy-Goertz</li>
-	<li>2000: "The Unaware" video shoot behind the scenes - Donna Clancy-Goertz; live in Dallas, TX - Clancy-Goertz; <i>Out of the Mists</i> promo photos - Donna Clancy-Goertz</li>
+	<li>2000: "The Unaware" video shoot behind the scenes - Donna Clancy-Goertz; live in Denton, TX - Donna Clancy-Goertz; <i>Out of the Mists</i> promo photos - Donna Clancy-Goertz</li>
 	<li>1999: promo photos - Donna Clancy-Goertz</li>
 	<li>1997: <i>Underworld</i> promo photo - Celine Donnelly; live in Denver, CO - Celine Donnelly; promo photo and live in San Francisco, CA - Jessie Therriault</li>
 	<li>1996: promo photos - Denise Rogers</li>

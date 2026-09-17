@@ -1,7 +1,7 @@
 <?php $fbog = array(
 	'og:title'=>'the Machine in the Garden - Impermanence (2026)',
 	'og:type'=>'music.album',
-	'og:upc'=>'195269018252',
+	'og:upc'=>'885000561108',
 	'og:url'=>'https://www.tmitg.com/places.php',
 	'og:description'=>'the Machine in the Garden \'Impermanence\' is the band\'s tenth studio album.',
 	'og:image'=>'https://www.tmitg.com/albums/impermanenceOG.jpg',
@@ -68,16 +68,17 @@
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-012-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br />Digital EP releasing <time datetime="2026-10-30" itemprop="datePublished">30 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
+		<meta itemprop="gtin12" content="885000561108">
 	</div>
 <!--	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p>(<span itemprop="catalogNumber">dxm-012-cd</span>) <span itemprop="about">CD</span> releasing <time datetime="2020-10-30" itemprop="datePublished">30 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
-		<meta itemprop="gtin12" content="5063933837896">
+		<meta itemprop="gtin13" content="5063933837896">
 	</div>-->
 <!--	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p>(<span itemprop="catalogNumber">dxm-012-ep</span>) <span itemprop="about">12"</span> releasing <time datetime="2020-10-30" itemprop="datePublished">30 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="VinylFormat" />
-		<meta itemprop="gtin12" content="5063933834963">
+		<meta itemprop="gtin13" content="5063933834963">
 	</div>-->
 
 </section> <!-- end album info div -->

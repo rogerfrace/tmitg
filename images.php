@@ -67,7 +67,7 @@
 <h2>2026</h2>
 <ul role="list" class="2026">
 <?php
-do_photo('2026-IMG_7827','2026','Summer wearing a black silk blouse and a black velvet waist cincher with a red rose and thorn necklace on a plain white background');
+do_photo('2026-IMG_7827','2026','Summer on a plain white background wearing a black silk blouse, a black velvet waist cincher, and a necklace with red roses and thorns');
 do_photo('2026-IMG_7843','2026','Roger on a plain white background wearing a black dress shirt with an open collar and a bright red necktie with a skeleton on the bottom');
 do_photo('2026-IMG_7854','2026','Summer and Roger standing side by side on a plain white background');
 do_photo('2026-IMG_7871','2026','Summer and Roger standing mostly back-to-back on a plain white background');

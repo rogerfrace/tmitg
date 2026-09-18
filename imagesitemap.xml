@@ -5,13 +5,13 @@ xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
 	<loc>https://www.tmitg.com/images.php</loc>
 	<image:image>
 		<image:loc>https://www.tmitg.com/photos/2026-IMG_7827.jpg</image:loc>
-		<image:title>Summer wearing a black silk blouse and a black velvet waist cincher with a red rose and thorn necklace on a plain white background</image:title>
+		<image:title>Summer on a plain white background wearing a black silk blouse, a black velvet waist cincher, and a necklace with red roses and thorns</image:title>
 		<image:caption>Photo by Roger Fracé and Summer Bowman</image:caption>
 		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
 	</image:image>
 	<image:image>
 		<image:loc>https://www.tmitg.com/photos/2026-IMG_7843.jpg</image:loc>
-		<image:title>Roger on a plain white background wearing a black dress shirt with an open collar and a bright red necktie with a skeleton on the bottom</image:title>
+		<image:title>Roger on a plain white background wearing a black dress shirt with an open collar and a loose bright red necktie with a skeleton printed on the bottom</image:title>
 		<image:caption>Photo by Roger Fracé and Summer Bowman</image:caption>
 		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
 	</image:image>
@@ -771,5 +771,114 @@ xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
 		<image:caption>Photo by Roland Raquet</image:caption>
 		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
 	</image:image>
-</url> 
+</url>
+<url>
+	<loc>https://www.tmitg.com/vs.php</loc>
+	<image:image>
+		<image:loc>https://www.tmitg.com/albums/vs.jpg</image:loc>
+		<image:title>the Machine in the Garden: Veils and Shadows EP</image:title>
+		<image:caption>EP cover art for the Machine in the Garden's Veils and Shadows EP</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.tmitg.com/underworld.php</loc>
+	<image:image>
+		<image:loc>https://www.tmitg.com/albums/underworld.jpg</image:loc>
+		<image:title>the Machine in the Garden: Underworld</image:title>
+		<image:caption>Album cover art for the Machine in the Garden's Underworld</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.tmitg.com/winters.php</loc>
+	<image:image>
+		<image:loc>https://www.tmitg.com/albums/winters.jpg</image:loc>
+		<image:title>the Machine in the Garden: One Winter's Night...</image:title>
+		<image:caption>Album cover art for the Machine in the Garden's One Winter's Night...</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.tmitg.com/mists.php</loc>
+	<image:image>
+		<image:loc>https://www.tmitg.com/albums/mists.jpg</image:loc>
+		<image:title>the Machine in the Garden: Out of the Mists</image:title>
+		<image:caption>Album cover art for the Machine in the Garden's Out of the Mists</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.tmitg.com/asphodel.php</loc>
+	<image:image>
+		<image:loc>https://www.tmitg.com/albums/asphodel.jpg</image:loc>
+		<image:title>the Machine in the Garden: Asphodel</image:title>
+		<image:caption>Album cover art for the Machine in the Garden's Asphodel</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.tmitg.com/shadowpuppets.php</loc>
+	<image:image>
+		<image:loc>https://www.tmitg.com/albums/sp.jpg</image:loc>
+		<image:title>the Machine in the Garden: Shadow Puppets</image:title>
+		<image:caption>Album cover art for the Machine in the Garden's Shadow Puppets</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.tmitg.com/xv.php</loc>
+	<image:image>
+		<image:loc>https://www.tmitg.com/albums/xv.jpg</image:loc>
+		<image:title>the Machine in the Garden: XV</image:title>
+		<image:caption>Album cover art for the Machine in the Garden's XV</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.tmitg.com/vanir.php</loc>
+	<image:image>
+		<image:loc>https://www.tmitg.com/albums/vanir.jpg</image:loc>
+		<image:title>the Machine in the Garden: In the Vanir</image:title>
+		<image:caption>Single cover art for the Machine in the Garden's In the Vanir</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.tmitg.com/storm.php</loc>
+	<image:image>
+		<image:loc>https://www.tmitg.com/albums/baats.jpg</image:loc>
+		<image:title>the Machine in the Garden: Before and After the Storm</image:title>
+		<image:caption>Album cover art for the Machine in the Garden's Before and After the Storm</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.tmitg.com/imageacoustic.php</loc>
+	<image:image>
+		<image:loc>https://www.tmitg.com/albums/imageacoustic.jpg</image:loc>
+		<image:title>the Machine in the Garden: Image (acoustic)</image:title>
+		<image:caption>Single cover art for the Machine in the Garden's Image (acoustic)</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.tmitg.com/places.php</loc>
+	<image:image>
+		<image:loc>https://www.tmitg.com/albums/places.jpg</image:loc>
+		<image:title>the Machine in the Garden: Places in Between</image:title>
+		<image:caption>Album cover art for the Machine in the Garden's Places in Between</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.tmitg.com/spacetime.php</loc>
+	<image:image>
+		<image:loc>https://www.tmitg.com/albums/spacetime.jpg</image:loc>
+		<image:title>the Machine in the Garden: Space-Time</image:title>
+		<image:caption>Single cover art for the Machine in the Garden's Space-Time</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+</url>
+
 </urlset>

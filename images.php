@@ -71,6 +71,10 @@ do_photo('2026-IMG_7827','2026','Summer on a plain white background wearing a bl
 do_photo('2026-IMG_7843','2026','Roger on a plain white background wearing a black dress shirt with an open collar and a loose bright red necktie with a skeleton printed on the bottom');
 do_photo('2026-IMG_7854','2026','Summer and Roger standing side by side on a plain white background');
 do_photo('2026-IMG_7871','2026','Summer and Roger standing mostly back-to-back on a plain white background');
+do_photo('2026-IMG_7821','2026','Summer on a plain white background wearing a black silk blouse, a black velvet waist cincher, and a necklace with red roses and thorns #2');
+do_photo('2026-IMG_7848','2026','Roger on a plain white background wearing a black dress shirt with an open collar and a loose bright red necktie with a skeleton printed on the bottom #2');
+do_photo('2026-IMG_7868','2026','Summer and Roger standing side by side on a plain white background #2');
+do_photo('2026-IMG_7880','2026','Summer and Roger standing side by side on a plain white background #3');
 ?>
 </ul>
 

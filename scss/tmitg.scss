@@ -8,17 +8,19 @@ $dkaltclr: #486178;
 
 /* all the shades of black and gray...*/
 $white: #ffffff;
-$nearwhite: #eeeeee;
-$ltgray: #999999;
+$nearwhite: rgb(242,242,242);
+$ltgray: #aaaaaa;
 $mdgray: #757575;
 $fourgray: #444444;
 $dkgray: #333333;
 $nearblack: #222222;
 $black: #000000;
-$teal: #1579BE;
-$darkteal: #036477;
+$teal: #444199; /* logo purple */
+$darkteal: #2D2B65;
+$ltteal: #817CB9;
 $lightteal: #75BFF0;
 $darklight: #372231;
+$sectionbg: #2D2B65;
 /* dark purple for home img */
 $lightdark: #9E6189;
 /* inverse for dark mode */
@@ -116,7 +118,7 @@ a:active {
 }
 
 a:focus {
-    color: $mdgray;
+    color: $sectionbg;
     font-weight: normal;
 }
 
@@ -386,7 +388,7 @@ a.atcss:hover {
     nav li a:hover,
     nav li a:active,
     nav li a:focus {
-        border-bottom: 3px solid #157CC1;
+        border-bottom: 3px solid $teal;
     }
 
     nav.mobile {
@@ -397,7 +399,7 @@ a.atcss:hover {
         overflow: hidden;
         position: relative;
         height: 500px;
-        background-color: $darklight;
+        background-color: $nearwhite;
 
         .portraitimg {
             position: absolute;
@@ -405,26 +407,12 @@ a.atcss:hover {
             -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
             top: 0;
-            width: 643px;
+            width: 523px;
             height: 500px;
             display: block;
             margin: auto;
-            background-image: url('headers/images/home-portrait-643.jpg');
+            background-image: url('headers/images/home2-portrait-500.jpg');
             background-repeat: no-repeat;
-        }
-
-        .portraitgrad {
-            position: absolute;
-            left: 50%;
-            -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-            top: 0;
-            width: 643px;
-            height: 500px;
-            display: block;
-            margin: auto;
-            /* from https://cssgradient.io/ */
-            background: linear-gradient(90deg, rgba(55, 34, 49, 1) 0%, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 0) 85%, rgba(55, 34, 49, 1) 100%);
         }
     }
 
@@ -440,7 +428,7 @@ a.atcss:hover {
         display: block;
         padding: 0 1em 1em;
         margin: 12px 5%;
-        background-color: #034F5F;
+        background-color: $sectionbg;
         border: 5px solid #222222;
         -webkit-border-radius: 3em;
         -moz-border-radius: 3em;
@@ -457,7 +445,7 @@ a.atcss:hover {
         }
 
         a:visited {
-            color: $lightteal;
+            color: $ltgray;
         }
     }
 
@@ -490,7 +478,7 @@ a.atcss:hover {
         .portrait {
             position: relative;
             height: 293px;
-            background-color: $darklight;
+            background-color: $nearwhite;
 
             .portraitimg {
                 position: absolute;
@@ -499,25 +487,11 @@ a.atcss:hover {
                 transform: translateX(-50%);
                 top: 0;
                 width: 379px;
-                height: 293px;
+                height: 362px;
                 display: block;
                 margin: auto;
-                background-image: url('headers/images/home-portrait-379.jpg');
+                background-image: url('headers/images/home2-portrait-379.jpg');
                 background-repeat: no-repeat;
-            }
-
-            .portraitgrad {
-                position: absolute;
-                left: 50%;
-                -webkit-transform: translateX(-50%);
-                transform: translateX(-50%);
-                top: 0;
-                width: 379px;
-                height: 293px;
-                display: block;
-                margin: auto;
-                /* from https://cssgradient.io/ */
-                background: linear-gradient(90deg, rgba(96, 50, 61, 1) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 80%, rgba(96, 50, 61, 1) 100%);
             }
         }
         #recentnews {
@@ -549,7 +523,7 @@ a.atcss:hover {
         }
 
         .current {
-            border-bottom: 3px solid $darkteal;
+            border-bottom: 3px solid $ltteal;
         }
     }
 
@@ -605,7 +579,7 @@ a.atcss:hover {
 
         a:hover,
         a:focus {
-            border-bottom: 3px solid #157CC1;
+            border-bottom: 3px solid $teal;
         }
     }
 }

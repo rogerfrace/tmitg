@@ -62,13 +62,13 @@ $lyricsfile and videoname do not include .html
 */ ?>
 <?php do_songtitle(1,"Machinery <i>mind/body mix</i>&deg;",NULL,NULL,NULL,NULL); ?>
 <?php do_songtitle(2,"Cut Me <i>version 1</i>","cutme",NULL,NULL,NULL); ?>
-<?php do_songtitle(3,"Six Days*","sixdays",NULL,NULL,NULL); ?>
+<?php do_songtitle(3,"Six Days*","sixdays",NULL,NULL,NULL,NULL,NULL,"usy280794164"); ?>
 <?php do_songtitle(4,"CryGods <i>falling rain</i>&dagger;","crygods",NULL,NULL,NULL); ?>
-<?php do_songtitle(5,"Ex Oblivione <i>version 1</i>*","exoblivione",NULL,NULL,NULL); ?>
-<?php do_songtitle(6,"Oblician <i>&eacute;ire mix</i>*","oblician",NULL,NULL,NULL); ?>
+<?php do_songtitle(5,"Ex Oblivione <i>version 1</i>*","exoblivione",NULL,NULL,NULL,NULL,NULL,"usy280794167"); ?>
+<?php do_songtitle(6,"Oblician <i>&eacute;ire mix</i>*","oblician",NULL,NULL,NULL,NULL,NULL,"usy280794163"); ?>
 <?php do_songtitle(7,"Words in Heaven Lost <i>version 1</i>","wordsinheavenlost",NULL,NULL,NULL); ?>
 <?php do_songtitle(8,"Dreams of the Absent <i>orchestral</i>&deg;","dreamsoftheabsent",NULL,NULL,NULL); ?>
-<?php do_songtitle(9,"Walls*","walls",NULL,NULL,NULL); ?>
+<?php do_songtitle(9,"Walls*","walls",NULL,NULL,NULL,NULL,NULL,"usy280794173"); ?>
 <?php do_songtitle(10,"Heavenly Dub&dagger;",NULL,NULL,NULL,NULL); ?>
 
 	<tr>

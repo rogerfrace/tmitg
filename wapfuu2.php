@@ -60,7 +60,7 @@
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle,$notesfile,$isrc)
 $lyricsfile and videoname do not include .html
 */ ?>
-<?php do_songtitle(1,"Corpus Christi <i>in prayer mix</i>*","corpuschristi",NULL,NULL,NULL); ?>
+<?php do_songtitle(1,"Corpus Christi <i>in prayer mix</i>*","corpuschristi",NULL,NULL,NULL,NULL,NULL,"usy280794174"); ?>
 <?php do_songtitle(2,"These Illusions <i>version 1</i>","theseillusions",NULL,NULL,NULL); ?>
 <?php do_songtitle(3,"Arpeggio Doodle",NULL,NULL,NULL,NULL); ?>
 <?php do_songtitle(4,"Dark Splintered Heart <i>fractured mix</i>&dagger;","darksplintered",NULL,NULL,NULL); ?>
@@ -69,7 +69,7 @@ $lyricsfile and videoname do not include .html
 <?php do_songtitle(7,"A Touch of Heaven 1999","atouchofheaven",NULL,NULL,NULL); ?>
 <?php do_songtitle(8,"Heavenly Air <i>crunchmix</i>&dagger;","heavenlyair",NULL,NULL,NULL); ?>
 <?php do_songtitle(9,"Miserere Mei <i>vocal</i>&deg;","misereremei",NULL,NULL,NULL); ?>
-<?php do_songtitle(10,"Words in Heaven Lost <i>get out of this</i>*","wordsinheavenlost",NULL,NULL,NULL); ?>
+<?php do_songtitle(10,"Words in Heaven Lost <i>get out of this</i>*","wordsinheavenlost",NULL,NULL,NULL,NULL,NULL,"usy280794166"); ?>
 <?php do_songtitle(11,"Voices",NULL,NULL,NULL,NULL); ?>
 <?php do_songtitle(12,"Hidden&deg;","hidden",NULL,NULL,NULL); ?>
 

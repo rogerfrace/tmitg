@@ -86,14 +86,14 @@
 	</thead>
 	<tbody>
 <?php /*
-do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle,$notesfile)
+do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle,$notesfile,$isrc)
 $lyricsfile and videoname do not include .html
 */ ?>
 
 <?php do_songtitle(1,"CryGods","crygods",NULL,NULL,NULL,NULL,NULL,"ushm80510374"); ?>
-<?php do_songtitle(2,"A Touch of Heaven","atouchofheaven","atouchofheaven-bc","vs.jpg",NULL); ?>
-<?php do_songtitle(3,"Dark Splintered Heart","darksplintered","darksplinteredheart-bc","vs.jpg",NULL); ?>
-<?php do_songtitle(4,"Heavenly Air","heavenlyair",NULL,NULL,NULL); ?>
+<?php do_songtitle(2,"A Touch of Heaven","atouchofheaven","atouchofheaven-bc","vs.jpg",NULL,NULL,NULL,"ushm80510375"); ?>
+<?php do_songtitle(3,"Dark Splintered Heart","darksplintered","darksplinteredheart-bc","vs.jpg",NULL,NULL,NULL,"ushm80510376"); ?>
+<?php do_songtitle(4,"Heavenly Air","heavenlyair",NULL,NULL,NULL,NULL,NULL,"ushm80510377"); ?>
 
 	</tbody>
 </table>

@@ -81,11 +81,11 @@
 	</thead>
 	<tbody>
 <?php /*
-do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
+do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle,$notesfile,$isrc)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"Space-Time","spacetime","spacetime-bc","spacetime.jpg","spacetime"); ?>
+<?php do_songtitle(1,"Space-Time","spacetime","spacetime-bc","spacetime.jpg","spacetime",NULL,NULL,"usl4r2647301"); ?>
 
 	</tbody>
 </table>

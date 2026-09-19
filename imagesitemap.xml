@@ -28,6 +28,30 @@ xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
 		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
 	</image:image>
 	<image:image>
+		<image:loc>https://www.tmitg.com/photos/2026-IMG_7821.jpg</image:loc>
+		<image:title>Summer on a plain white background wearing a black silk blouse, a black velvet waist cincher, and a necklace with red roses and thorns #2</image:title>
+		<image:caption>Photo by Roger Fracé and Summer Bowman</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.tmitg.com/photos/2026-IMG_7848.jpg</image:loc>
+		<image:title>Roger on a plain white background wearing a black dress shirt with an open collar and a loose bright red necktie with a skeleton printed on the bottom #2</image:title>
+		<image:caption>Photo by Roger Fracé and Summer Bowman</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.tmitg.com/photos/2026-IMG_7868.jpg</image:loc>
+		<image:title>Summer and Roger standing side by side on a plain white background #2</image:title>
+		<image:caption>Photo by Roger Fracé and Summer Bowman</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.tmitg.com/photos/2026-IMG_7880.jpg</image:loc>
+		<image:title>Summer and Roger standing side by side on a plain white background #3</image:title>
+		<image:caption>Photo by Roger Fracé and Summer Bowman</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+	<image:image>
 		<image:loc>https://www.tmitg.com/photos/PiB-IMG_3571.jpg</image:loc>
 		<image:title>Summer standing in a Victorian-inspired decorated room with a cat</image:title>
 		<image:caption>Photo by Roger Fracé and Summer Bowman</image:caption>
@@ -877,24 +901,6 @@ xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
 		<image:loc>https://www.tmitg.com/albums/spacetime.jpg</image:loc>
 		<image:title>the Machine in the Garden: Space-Time</image:title>
 		<image:caption>Single cover art for the Machine in the Garden's Space-Time</image:caption>
-		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
-	</image:image>
-</url>
-<url>
-	<loc>https://www.tmitg.com/beginning.php</loc>
-	<image:image>
-		<image:loc>https://www.tmitg.com/albums/beginning.jpg</image:loc>
-		<image:title>the Machine in the Garden: The Beginning of All Things</image:title>
-		<image:caption>Single cover art for the Machine in the Garden's The Beginning of All Things</image:caption>
-		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
-	</image:image>
-</url>
-<url>
-	<loc>https://www.tmitg.com/impermanence.php</loc>
-	<image:image>
-		<image:loc>https://www.tmitg.com/albums/impermanence.jpg</image:loc>
-		<image:title>the Machine in the Garden: Impermanence</image:title>
-		<image:caption>EP cover art for the Machine in the Garden's Impermanence</image:caption>
 		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
 	</image:image>
 </url>

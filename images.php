@@ -64,6 +64,21 @@
 <!-- Build photo block -->
 
 <section>
+<h2>2026</h2>
+<ul role="list" class="2026">
+<?php
+do_photo('2026-IMG_7827','2026','Summer on a plain white background wearing a black silk blouse, a black velvet waist cincher, and a necklace with red roses and thorns');
+do_photo('2026-IMG_7843','2026','Roger on a plain white background wearing a black dress shirt with an open collar and a loose bright red necktie with a skeleton printed on the bottom');
+do_photo('2026-IMG_7854','2026','Summer and Roger standing side by side on a plain white background');
+do_photo('2026-IMG_7871','2026','Summer and Roger standing mostly back-to-back on a plain white background');
+do_photo('2026-IMG_7821','2026','Summer on a plain white background wearing a black silk blouse, a black velvet waist cincher, and a necklace with red roses and thorns #2');
+do_photo('2026-IMG_7848','2026','Roger on a plain white background wearing a black dress shirt with an open collar and a loose bright red necktie with a skeleton printed on the bottom #2');
+do_photo('2026-IMG_7868','2026','Summer and Roger standing side by side on a plain white background #2');
+do_photo('2026-IMG_7880','2026','Summer and Roger standing side by side on a plain white background #3');
+?>
+</ul>
+
+<section>
 <h2>2020</h2>
 <ul role="list" class="2020">
 <?php
@@ -220,14 +235,14 @@ do_photo('gc11','2002','Live at GothCon in New Orleans #4');
 <h2>2001</h2>
 <ul role="list" class="2001">
 <?php
-do_photo('4march10','2001','post Out of the Mists Promo photos, trying to look more goth #1');
-do_photo('4march12','2001','post Out of the Mists Promo photos, trying to look more goth #2');
-do_photo('4march15','2001','post Out of the Mists Promo photos, trying to look more goth #3');
-do_photo('4march17','2001','post Out of the Mists Promo photos, trying to look more goth #4');
-do_photo('4march21','2001','post Out of the Mists Promo photos, trying to look more goth #5');
-do_photo('4march24','2001','post Out of the Mists Promo photos, trying to look more goth #6');
-do_photo('4march2','2001','post Out of the Mists Promo photos, trying to look more goth #7');
-do_photo('4march29','2001','post Out of the Mists Promo photos, trying to look more goth #8');
+do_photo('4march10','2001','post-Out of the Mists Promo photos, trying to look more goth #1');
+do_photo('4march12','2001','post-Out of the Mists Promo photos, trying to look more goth #2');
+do_photo('4march15','2001','post-Out of the Mists Promo photos, trying to look more goth #3');
+do_photo('4march17','2001','post-Out of the Mists Promo photos, trying to look more goth #4');
+do_photo('4march21','2001','post-Out of the Mists Promo photos, trying to look more goth #5');
+do_photo('4march24','2001','post-Out of the Mists Promo photos, trying to look more goth #6');
+do_photo('4march2','2001','post-Out of the Mists Promo photos, trying to look more goth #7');
+do_photo('4march29','2001','post-Out of the Mists Promo photos, trying to look more goth #8');
 ?>
 </ul>
 <ul role="list" class="2001">
@@ -354,6 +369,7 @@ do_photo('tmitgpic3','1992','Promo picture later used for the cover of Veils and
 <section>
 <h2>Photo credits:</h2>
 <ul role="list" class="credits">
+	<li>2026: <i>Impermanence</i> photoshoot - Roger Frac&eacute; and Summer Bowman</li>
 	<li>2020: <i>Places in Between</i> photoshoot - Roger Frac&eacute; and Summer Bowman</li>
 	<li>2015: Mirabilis live at Secret Oktober, Austin, TX - Phil Schafer</li>
 	<li>2013: live at Elysium, Austin, TX - John Nuncio</li>
@@ -363,7 +379,7 @@ do_photo('tmitgpic3','1992','Promo picture later used for the cover of Veils and
 	<li>2005: <i>Shadow Puppets</i> promo photos - Roger Frac&eacute; and Summer Bowman; live in Charlottesville, VA  - Chad Van Pelt</li>
 	<li>2002: live at GothCon 2002, New Orleans, LA - James Babbo; <i>Asphodel</i> promo photos - Donna Clancy-Goertz</li>
 	<li>2001: live in Los Angeles, CA - Dru and Wayne; promo photos - Donna Clancy-Goertz</li>
-	<li>2000: "The Unaware" video shoot behind the scenes - Donna Clancy-Goertz; live in Dallas, TX - Clancy-Goertz; <i>Out of the Mists</i> promo photos - Donna Clancy-Goertz</li>
+	<li>2000: "The Unaware" video shoot behind the scenes - Donna Clancy-Goertz; live in Denton, TX - Donna Clancy-Goertz; <i>Out of the Mists</i> promo photos - Donna Clancy-Goertz</li>
 	<li>1999: promo photos - Donna Clancy-Goertz</li>
 	<li>1997: <i>Underworld</i> promo photo - Celine Donnelly; live in Denver, CO - Celine Donnelly; promo photo and live in San Francisco, CA - Jessie Therriault</li>
 	<li>1996: promo photos - Denise Rogers</li>

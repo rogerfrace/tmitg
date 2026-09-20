@@ -1,7 +1,7 @@
 <?php $fbog = array(
 	'og:title'=>'the Machine in the Garden - The Beginning of All Things (2026)',
 	'og:type'=>'music.album',
-	'og:upc'=>'885000348563',
+	'og:upc'=>'885000574511',
 	'og:url'=>'https://www.tmitg.com/beginning.php',
 	'og:description'=>'the Machine in the Garden \'The Beginning of All Things\' is the band\'s fourth digital single.',
 	'og:image'=>'https://www.tmitg.com/albums/beginningOG.jpg',
@@ -85,7 +85,7 @@ do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"The Beginning of All Things (single edit)","thebeginningofallthings","beginning-bc","beginning.jpg","beginning"); ?>
+<?php do_songtitle(1,"The Beginning of All Things (single edit)","thebeginningofallthings","beginning-bc","beginning.jpg","beginning",NULL,NULL,NULL,"isrc"); ?>
 
 	</tbody>
 </table>

@@ -89,23 +89,23 @@
 	</thead>
 	<tbody>
 <?php /*
-do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
+do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle,$notesfile,$isrc)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"Fates and Furies",NULL,NULL,NULL,NULL); ?>
-<?php do_songtitle(2,"Intrigue",NULL,"intrigue-bc","mists.jpg",NULL); ?>
-<?php do_songtitle(3,"The Unaware","theunaware","unaware-bc","mists.jpg","unaware","The Unaware"); ?>
-<?php do_songtitle(4,"Valentine","valentine","valentine-bc","mists.jpg",NULL); ?>
-<?php do_songtitle(5,"Oh Dear","ohdear",NULL,NULL,NULL); ?>
-<?php do_songtitle(6,"Failure","failure",NULL,NULL,"failure","Failure (Live 2000)"); ?>
-<?php do_songtitle(7,"Rusty Haloes","rustyhaloes",NULL,NULL,NULL); ?>
-<?php do_songtitle(8,"Every Thing She Is","everythingsheis",NULL,NULL,"everythingsheis","Every Thing She Is (Live 2004)"); ?>
-<?php do_songtitle(9,"Wasted Time","wastedtime",NULL,NULL,NULL); ?>
-<?php do_songtitle(10,"Radiant","radiant",NULL,NULL,NULL); ?>
-<?php do_songtitle(11,"Her Face","herface","herface-bc","mists.jpg",NULL); ?>
-<?php do_songtitle(12,"Never Again","neveragain",NULL,NULL,NULL); ?>
-<?php do_songtitle(13,"Fade","fade","fade-bc","mists.jpg",NULL); ?>
+<?php do_songtitle(1,"Fates and Furies",NULL,NULL,NULL,NULL,NULL,NULL,"usx9p1411709"); ?>
+<?php do_songtitle(2,"Intrigue",NULL,"intrigue-bc","mists.jpg",NULL,NULL,NULL,"usx9p1411710"); ?>
+<?php do_songtitle(3,"The Unaware","theunaware","unaware-bc","mists.jpg","unaware","The Unaware",NULL,"usx9p1411711"); ?>
+<?php do_songtitle(4,"Valentine","valentine","valentine-bc","mists.jpg",NULL,NULL,NULL,"usx9p1411712"); ?>
+<?php do_songtitle(5,"Oh Dear","ohdear",NULL,NULL,NULL,NULL,NULL,"usx9p1411713"); ?>
+<?php do_songtitle(6,"Failure","failure",NULL,NULL,"failure","Failure (Live 2000)",NULL,"usx9p1411714"); ?>
+<?php do_songtitle(7,"Rusty Haloes","rustyhaloes",NULL,NULL,NULL,NULL,NULL,"usx9p1411715"); ?>
+<?php do_songtitle(8,"Every Thing She Is","everythingsheis",NULL,NULL,"everythingsheis","Every Thing She Is (Live 2004)",NULL,"usx9p1411716"); ?>
+<?php do_songtitle(9,"Wasted Time","wastedtime",NULL,NULL,NULL,NULL,NULL,"usx9p1411717"); ?>
+<?php do_songtitle(10,"Radiant","radiant",NULL,NULL,NULL,NULL,NULL,"usx9p1411718"); ?>
+<?php do_songtitle(11,"Her Face","herface","herface-bc","mists.jpg",NULL,NULL,NULL,"usx9p1411719"); ?>
+<?php do_songtitle(12,"Never Again","neveragain",NULL,NULL,NULL,NULL,NULL,"usx9p1411720"); ?>
+<?php do_songtitle(13,"Fade","fade","fade-bc","mists.jpg",NULL,NULL,NULL,"usx9p1411721"); ?>
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->

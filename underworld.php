@@ -92,26 +92,26 @@
 	</thead>
 	<tbody>
 <?php /*
-do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
+do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle,$notesfile,$isrc)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"Final Form","finalform","finalform-bc","underworld.jpg","finalform","Final Form"); ?>
-<?php do_songtitle(2,"Falling into the Sea","fallingintothesea",NULL,NULL,NULL); ?>
-<?php do_songtitle(3,"Dreams of the Absent","dreamsoftheabsent","dreamsoftheabsent-bc","underworld.jpg",NULL); ?>
-<?php do_songtitle(4,"Words in Heaven Lost","wordsinheavenlost",NULL,NULL,NULL); ?>
-<?php do_songtitle(5,"Twenty Shadows","twentyshadows",NULL,NULL,NULL); ?>
-<?php do_songtitle(6,"This Arising, That Arises","thisarisingthatarises",NULL,NULL,NULL); ?>
-<?php do_songtitle(7,"Corpus Christi (love will die)","corpuschristi",NULL,NULL,NULL); ?>
-<?php do_songtitle(8,"Shadowy Depths","shadowydepths","shadowydepths-bc","underworld.jpg",NULL); ?>
-<?php do_songtitle(9,"Spiritus ex Obitus Sanctus",NULL,NULL,NULL,NULL); ?>
-<?php do_songtitle(10,"Primevil","primevil",NULL,NULL,NULL); ?>
-<?php do_songtitle(11,"Cut Me","cutme",NULL,NULL,NULL); ?>
-<?php do_songtitle(12,"Dark Splintered Heart <i>mutation engine</i>","darksplintered","mutationengine-bc","underworld.jpg",NULL); ?>
-<?php do_songtitle(13,"CryGods <i>mind overdrive</i>","crygods",NULL,NULL,NULL); ?>
-<?php do_songtitle(14,"Cut Me <i>eerie glow</i>","cutme",NULL,NULL,NULL); ?>
-<?php do_songtitle(15,"Altered Form","finalform",NULL,NULL,NULL); ?>
-<?php do_songtitle(16,"Cold","cold","cold-bc","underworld.jpg",NULL); ?>
+<?php do_songtitle(1,"Final Form","finalform","finalform-bc","underworld.jpg","finalform","Final Form",NULL,"ushm80510378"); ?>
+<?php do_songtitle(2,"Falling into the Sea","fallingintothesea",NULL,NULL,NULL,NULL,NULL,"ushm80510379"); ?>
+<?php do_songtitle(3,"Dreams of the Absent","dreamsoftheabsent","dreamsoftheabsent-bc","underworld.jpg",NULL,NULL,NULL,"ushm80510380"); ?>
+<?php do_songtitle(4,"Words in Heaven Lost","wordsinheavenlost",NULL,NULL,NULL,NULL,NULL,"ushm80510381"); ?>
+<?php do_songtitle(5,"Twenty Shadows","twentyshadows",NULL,NULL,NULL,NULL,NULL,"ushm80510382"); ?>
+<?php do_songtitle(6,"This Arising, That Arises","thisarisingthatarises",NULL,NULL,NULL,NULL,NULL,"ushm80510383"); ?>
+<?php do_songtitle(7,"Corpus Christi (love will die)","corpuschristi",NULL,NULL,NULL,NULL,NULL,"ushm80510384"); ?>
+<?php do_songtitle(8,"Shadowy Depths","shadowydepths","shadowydepths-bc","underworld.jpg",NULL,NULL,NULL,"ushm80510385"); ?>
+<?php do_songtitle(9,"Spiritus ex Obitus Sanctus",NULL,NULL,NULL,NULL,NULL,NULL,"ushm80510386"); ?>
+<?php do_songtitle(10,"Primevil","primevil",NULL,NULL,NULL,NULL,NULL,"ushm80510387"); ?>
+<?php do_songtitle(11,"Cut Me","cutme",NULL,NULL,NULL,NULL,NULL,"ushm80510388"); ?>
+<?php do_songtitle(12,"Dark Splintered Heart <i>mutation engine</i>","darksplintered","mutationengine-bc","underworld.jpg",NULL,NULL,NULL,"ushm80510389"); ?>
+<?php do_songtitle(13,"CryGods <i>mind overdrive</i>","crygods",NULL,NULL,NULL,NULL,NULL,"ushm80510390"); ?>
+<?php do_songtitle(14,"Cut Me <i>eerie glow</i>","cutme",NULL,NULL,NULL,NULL,NULL,"ushm80510391"); ?>
+<?php do_songtitle(15,"Altered Form","finalform",NULL,NULL,NULL,NULL,NULL,"ushm80510392"); ?>
+<?php do_songtitle(16,"Cold","cold","cold-bc","underworld.jpg",NULL,NULL,NULL,"ushm80510393"); ?>
 	
 	</tbody>
 </table>

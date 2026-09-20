@@ -81,11 +81,11 @@
 	</thead>
 	<tbody>
 <?php /*
-do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname)
+do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle,$notesfile,$isrc)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"The Beginning of All Things (single edit)","thebeginningofallthings","beginning-bc","beginning.jpg","beginning",NULL,NULL,NULL,"isrc"); ?>
+<?php do_songtitle(1,"The Beginning of All Things (single edit)","thebeginningofallthings","beginning-bc","beginning.jpg","beginning",NULL,NULL,"isrc"); ?>
 
 	</tbody>
 </table>

@@ -9,8 +9,8 @@
 	<meta property="og:title" content="Discography - the Machine in the Garden" />
 	<meta property="og:url" content="https://www.tmitg.com/discog.php" />
 	<meta property="og:description" content="Browse the complete discography of the Machine in the Garden, from Space-Time to the earliest releases and compilations." />
-	<meta property="og:image" content="https://www.tmitg.com/albums/spacetimelg.jpg" />
-	<meta property="og:image:alt" content="Space-Time album artwork for the Machine in the Garden" />
+	<meta property="og:image" content="https://www.tmitg.com/albums/beginninglg.jpg" />
+	<meta property="og:image:alt" content="The Beginning of All Things single artwork for the Machine in the Garden" />
 	<script type="application/ld+json">
 	{
 	  "@context": "https://schema.org",

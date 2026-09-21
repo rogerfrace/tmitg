@@ -42,6 +42,7 @@
 <h2 id="labela">other tMitG-related sites...</h2>
 <a href="#top" class="btt">back to top&rarr;</a>
 <ul>
+<li><a rel="me noopener external" href="https://linktr.ee/tmitg" target="_blank">tMitG on Linktree</a></li>
 <li><a rel="me noopener external" href="https://www.facebook.com/tmitg" target="_blank">tMitG on Facebook</a></li>
 <li><a rel="me noopener external" href="https://bsky.app/profile/tmitg.bsky.social" target="_blank">tMitG on Bluesky</a></li>
 <li><a rel="me noopener external" href="https://www.instagram.com/tmitg_band" target="_blank">tMitG on Instagram</a></li>
@@ -53,7 +54,7 @@
 
 
 <section tabindex="-1" id="digital" class="linksec" aria-labelledby="labelb">
-<h2 id="labelb">tMitG digital downloads and streams</h2>
+<h2 id="labelb">tMitG digital downloads, streams, and merch</h2>
 <a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a rel="me noopener external" href="https://tmitg.bandcamp.com/" target="_blank">tMitG on Bandcamp</a></li>

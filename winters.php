@@ -89,23 +89,23 @@
 	</thead>
 	<tbody>
 <?php /*
-do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
+do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle,$notesfile,$isrc)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"Falling, Too","fallingtoo","fallingtoo-bc","winters.jpg",NULL); ?>
-<?php do_songtitle(2,"These Illusions","theseillusions","theseillusions-bc","winters.jpg",NULL); ?>
-<?php do_songtitle(3,"Control","control","control-bc","winters.jpg","control-vid","Control"); ?>
-<?php do_songtitle(4,"Lost in Side","lostinside",NULL,NULL,NULL); ?>
-<?php do_songtitle(5,"Miserere Mei","misereremei",NULL,NULL,"miserere-fan","Miserere Mei"); ?>
-<?php do_songtitle(6,"Fear No More","fearnomore","fearnomore-bc","winters.jpg",NULL); ?>
-<?php do_songtitle(7,"Ex Oblivione","exoblivione",NULL,NULL,NULL); ?>
-<?php do_songtitle(8,"The Sleep of Angels","thesleepofangels","thesleepofangels-bc","winters.jpg","sleepofangels","The Sleep of Angels"); ?>
-<?php do_songtitle(9,"Windows of Their Eyes","windowsoftheireyes",NULL,NULL,NULL); ?>
-<?php do_songtitle(10,"Everything Alone","everythingalone",NULL,NULL,NULL); ?>
-<?php do_songtitle(11,"Lullaby","lullaby",NULL,NULL,NULL); ?>
-<?php do_songtitle(12,"Midnight","midnight","midnight-bc","winters.jpg",NULL); ?>
-<?php do_songtitle(13,"Io’s Departure",NULL,NULL,NULL,NULL); ?>
+<?php do_songtitle(1,"Falling, Too","fallingtoo","fallingtoo-bc","winters.jpg",NULL,NULL,NULL,"usx9p1408031"); ?>
+<?php do_songtitle(2,"These Illusions","theseillusions","theseillusions-bc","winters.jpg",NULL,NULL,NULL,"usx9p1408032"); ?>
+<?php do_songtitle(3,"Control","control","control-bc","winters.jpg","control-vid","Control",NULL,"usx9p1408033"); ?>
+<?php do_songtitle(4,"Lost in Side","lostinside",NULL,NULL,NULL,NULL,NULL,"usx9p1408034"); ?>
+<?php do_songtitle(5,"Miserere Mei","misereremei",NULL,NULL,"miserere-fan","Miserere Mei",NULL,"usx9p1408035"); ?>
+<?php do_songtitle(6,"Fear No More","fearnomore","fearnomore-bc","winters.jpg",NULL,NULL,NULL,"usx9p1408036"); ?>
+<?php do_songtitle(7,"Ex Oblivione","exoblivione",NULL,NULL,NULL,NULL,NULL,"usx9p1408037"); ?>
+<?php do_songtitle(8,"The Sleep of Angels","thesleepofangels","thesleepofangels-bc","winters.jpg","sleepofangels","The Sleep of Angels",NULL,"usx9p1408038"); ?>
+<?php do_songtitle(9,"Windows of Their Eyes","windowsoftheireyes",NULL,NULL,NULL,NULL,NULL,"usx9p1408039"); ?>
+<?php do_songtitle(10,"Everything Alone","everythingalone",NULL,NULL,NULL,NULL,NULL,"usx9p1408040"); ?>
+<?php do_songtitle(11,"Lullaby","lullaby",NULL,NULL,NULL,NULL,NULL,"usx9p1408041"); ?>
+<?php do_songtitle(12,"Midnight","midnight","midnight-bc","winters.jpg",NULL,NULL,NULL,"usx9p1408042"); ?>
+<?php do_songtitle(13,"Io’s Departure",NULL,NULL,NULL,NULL,NULL,NULL,"usx9p1408043"); ?>
 	
 	</tbody>
 </table>

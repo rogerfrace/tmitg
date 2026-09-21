@@ -39,14 +39,18 @@ if (isset($_GET["item"]) && is_numeric($_GET["item"])) {
 	<meta property="og:type" content="<?=$mtype;?>" />
 	<meta property="og:title" content="<?=$mtitle;?>" />
 	<meta property="og:description" content="<?=$mdescription;?>" />
-	<meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />
-	<meta property="og:image:alt" content="Roger and Summer in a Victorian-inspired photo session" />
+	<meta property="og:image" content="https://www.tmitg.com/photos/2026-IMG_7871.jpg" />
+	<meta property="og:image:alt" content="Summer and Roger of the Machine in the Garden standing mostly back-to-back on a plain white background" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image:width" content="1105" />
+	<meta property="og:image:height" content="1000" />
+    <meta property="og:locale" content="en_US" />
 	<meta property="fb:app_id" content="145634995501895" />
 	<meta property="fb:admins" content="1120445561,713632115" />
 	<?php // happy image thumbnail for FB
 		if ((isset($_GET["item"])) && (!stristr($description,"<img "))) {
-		print '<link rel="image_src" href="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />
-			   <meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />';
+		print '<link rel="image_src" href="https://www.tmitg.com/photos/2026-IMG_7871.jpg" />
+			   <meta property="og:image" content="https://www.tmitg.com/photos/2026-IMG_7871.jpg" />';
 	} ?>
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once "headers-additional.php"; ?>

@@ -11,8 +11,12 @@
 	<meta property="og:title" content="Photos - the Machine in the Garden" />
 	<meta property="og:url" content="https://www.tmitg.com/images.php" />
 	<meta property="og:description" content="the Machine in the Garden band photo gallery, including live shots, promo photos, and recent portraits." />
-	<meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />
-	<meta property="og:image:alt" content="Roger and Summer in a Victorian-inspired photo session" />
+	<meta property="og:image" content="https://www.tmitg.com/photos/2026-IMG_7871.jpg" />
+	<meta property="og:image:alt" content="Summer and Roger of the Machine in the Garden standing mostly back-to-back on a plain white background" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image:width" content="1105" />
+	<meta property="og:image:height" content="1000" />
+    <meta property="og:locale" content="en_US" />
 	<?php include_once "headers-additional.php"; ?>
 	<script>
 		jQuery(document).ready(function(){

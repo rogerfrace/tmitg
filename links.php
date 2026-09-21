@@ -8,8 +8,12 @@
 	<meta name="description" content="the Machine in the Garden's favorite and useful web links">
 	<title>the Machine in the Garden - links</title>
 	<meta property="og:url" content="https://www.tmitg.com/links.php" />
-	<meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />
-	<meta property="og:image:alt" content="Roger and Summer in a Victorian-inspired photo session" />
+	<meta property="og:image" content="https://www.tmitg.com/photos/2026-IMG_7871.jpg" />
+	<meta property="og:image:alt" content="Summer and Roger of the Machine in the Garden standing mostly back-to-back on a plain white background" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image:width" content="1105" />
+	<meta property="og:image:height" content="1000" />
+    <meta property="og:locale" content="en_US" />
 	<?php include_once "headers-additional.php"; ?>
 </head>
 

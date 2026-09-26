@@ -66,7 +66,7 @@
 	<p itemprop="abstract"><em>Six songs exploring impermanence, fate, loss, and the existential work of dealing with circumstances beyond one’s control, 'Impermanence' is tMitG's first new release in six years. Tighter in focus and stripped down to just the machine and voice, it's still as rich, engaging, and emotional as anything that's come before it.</em></p>
 
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-012-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br />Digital EP releasing <time datetime="2026-10-30" itemprop="datePublished">30 October 2026</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-012-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br />EP releasing <time datetime="2026-10-30" itemprop="datePublished">30 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 		<meta itemprop="gtin12" content="885000561108">
 	</div>
@@ -104,19 +104,18 @@ do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$vide
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"The Unwritten Way","theunwrittenway","theunwrittenway-bc","impermanence.jpg",NULL,NULL,NULL,"usx9p2602304"); ?>
-<?php do_songtitle(2,"Space-Time","spacetime","spacetimeep-bc","impermanence.jpg","spacetime",NULL,NULL,"usx9p2602305"); ?>
-<?php do_songtitle(3,"Divergence","divergence","divergence-bc","impermanence.jpg",NULL,NULL,NULL,"usx9p2602306"); ?>
-<?php do_songtitle(4,"Oderint dum metuant","oderintdummetuant","oderintdummetuant-bc","impermanence.jpg",NULL,NULL,NULL,"usx9p2602307"); ?>
-<?php do_songtitle(5,"Make the Reason","makethereason","makethereason-bc","impermanence.jpg",NULL,NULL,NULL,"usx9p2602308"); ?>
-<?php do_songtitle(6,"The Beginning of All Things","thebeginningofallthings","thebeginningofallthings-bc","impermanence.jpg",NULL,NULL,NULL,"usx9p2602309"); ?>
+<?php do_songtitle(1,"The Unwritten Way","theunwrittenway",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602304"); ?>
+<?php do_songtitle(2,"Space-Time","spacetime",NULL,"impermanence.jpg","spacetime",NULL,NULL,"usx9p2602305"); ?>
+<?php do_songtitle(3,"Divergence","divergence",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602306"); ?>
+<?php do_songtitle(4,"Oderint dum metuant","oderintdummetuant",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602307"); ?>
+<?php do_songtitle(5,"Make the Reason","makethereason",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602308"); ?>
+<?php do_songtitle(6,"The Beginning of All Things","thebeginningofallthings",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602309"); ?>
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->
 
-
 <section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="https://schema.org/AggregateOffer">
-	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
+<?php  /*	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="10.00">
 	<h2 class="wai">Buy Now links</h2>
 	
@@ -127,7 +126,7 @@ $lyricsfile and videoname do not include .html
 <!--	<div><a rel="noopener noreferrer" href="https://geo.music.apple.com/us/album/impermanence/1524569511?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=1594339200&h=c17228e92635bb8bc4766252b3c14867" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div> -->
 
 <!--	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener noreferrer" itemprop="url" href="https://www.amazon.com/Places-Between-Machine-Garden/dp/B08DDHDLBQ/ref=as_li_ss_tl?dchild=1&keywords=places+in+between+mp3&qid=1595529263&sr=8-2&linkCode=ll1&tag=themachininth-20&linkId=b77e3324dd1bcf1d2990e1164a7e9565&language=en_US" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B08DDHDLBQ&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div> -->
-
+*/ ?>
 </section> <!-- end buy button div -->
 
 	<hr />

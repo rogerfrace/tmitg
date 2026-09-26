@@ -9,8 +9,8 @@
 	<meta property="og:title" content="Discography - the Machine in the Garden" />
 	<meta property="og:url" content="https://www.tmitg.com/discog.php" />
 	<meta property="og:description" content="Browse the complete discography of the Machine in the Garden, from Space-Time to the earliest releases and compilations." />
-	<meta property="og:image" content="https://www.tmitg.com/albums/spacetimelg.jpg" />
-	<meta property="og:image:alt" content="Space-Time album artwork for the Machine in the Garden" />
+	<meta property="og:image" content="https://www.tmitg.com/albums/beginninglg.jpg" />
+	<meta property="og:image:alt" content="The Beginning of All Things single artwork for the Machine in the Garden" />
 	<script type="application/ld+json">
 	{
 	  "@context": "https://schema.org",
@@ -51,6 +51,15 @@
 				"name": "Impermanence",
 				"datePublished": "2026",
 				"url": "https://www.tmitg.com/impermanence.php"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "item": {
+				"@type": "MusicRelease",
+				"name": "The Beginning of All Things",
+				"datePublished": "2026",
+				"url": "https://www.tmitg.com/beginning.php"
 			  }
 			},
 			{
@@ -225,6 +234,8 @@
 <ul role="list" class="releases">
 
 <li><a href="impermanence.php" title="Impermanence (2026)"><img src="albums/impermanenceico.jpg" width="125" height="125" alt="Impermanence (2026)"></a></li>
+
+<li><a href="beginning.php" title="The Beginning of All Things (2026)"><img src="albums/beginningico.jpg" width="125" height="125" alt="The Beginning of All Things (2026)"></a></li>
 
 <li><a href="spacetime.php" title="Space-Time (2026)"><img src="albums/spacetimeico.jpg" width="125" height="125" alt="Space-Time (2026)"></a></li>
 

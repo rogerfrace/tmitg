@@ -18,6 +18,7 @@
 </span>
 <meta itemprop="inLanguage" content="en" />
 <link itemprop="isPartOf" href="https://www.tmitg.com/impermanence.php" />
+<link itemprop="isPartOf" href="https://www.tmitg.com/beginning.php" />
 
 <h1 itemprop="name">The Beginning of All Things</h1>
 

@@ -9,8 +9,8 @@
 	<meta property="og:title" content="Music - the Machine in the Garden" />
 	<meta property="og:url" content="https://www.tmitg.com/music.php" />
 	<meta property="og:description" content="Audio samples and video clips from the Machine in the Garden's full discography." />
-	<meta property="og:image" content="https://www.tmitg.com/albums/impermanencelg.jpg" />
-	<meta property="og:image:alt" content="Space-Time album artwork for the Machine in the Garden" />
+	<meta property="og:image" content="https://www.tmitg.com/albums/beginninglg.jpg" />
+	<meta property="og:image:alt" content="The Beginning of All Things single artwork for the Machine in the Garden" />
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once "headers-additional.php"; ?>
 </head>

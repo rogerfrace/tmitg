@@ -60,7 +60,7 @@
 	</div>
 	<h1 itemprop="name">The Beginning of All Things</h1>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-011-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br />Digital Single released <time datetime="2026-10-09" itemprop="datePublished">9 October 2026</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-011-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br />Digital Single releasing <time datetime="2026-10-09" itemprop="datePublished">9 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 </section> <!-- end album info div -->
@@ -85,7 +85,7 @@ do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$vide
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"The Beginning of All Things (single edit)","thebeginningofallthings","beginning-bc","beginning.jpg","beginning",NULL,NULL,"isrc"); ?>
+<?php do_songtitle(1,"The Beginning of All Things (single edit)","thebeginningofallthings",NULL,"beginning.jpg",NULL,NULL,NULL,"isrc"); ?>
 
 	</tbody>
 </table>
@@ -93,7 +93,7 @@ $lyricsfile and videoname do not include .html
 
 
 <section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="https://schema.org/AggregateOffer">
-	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
+<? /*	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="0.00">
 	<h2 class="wai">Buy links</h2>
 	
@@ -104,7 +104,7 @@ $lyricsfile and videoname do not include .html
 <!--	<div><a rel="noopener noreferrer" href="https://geo.music.apple.com/us/album/The Beginning of All Things-single/6807489729?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=1594339200&h=c17228e92635bb8bc4766252b3c14867" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>-->
 
 <!--	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener noreferrer" itemprop="url" href="https://www.amazon.com/music/player/albums/B0HHG4PKFP?&linkCode=ll2&tag=themachininth-20&linkId=2b38dd310e90ee1379789ce27132a9ae&language=en_US&ref_=as_li_ss_tl" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B08DDHDLBQ&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>-->
-
+*/ ?>
 </section> <!-- end buy button div -->
 		
 <?php /*

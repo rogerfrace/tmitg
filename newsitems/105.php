@@ -16,7 +16,7 @@ $description = "<img itemprop=\"image\" src=\"https://www.tmitg.com/albums/imper
 
 <p>Summer adds “While I hesitate to use the words ‘existential crisis’ there has been a large amount of personal hardship these past few years. I’ve overcome a lot of death and loss as well as faced my own mortality so there was a lot of processing to do. I wanted to explore themes around our place in the universe, why things unfold the way they do, and the fleeting nature of our existence. It may sound bleak, but I hope listeners hear hope on the other side of great tragedy.”</p>
 
-<p>‘Impermanence’ will be released on October 30th, 2026, available as a digital download from <a href=\"https://tmitg.bandcamp.com\">tMitG’s Bandcamp shop</a> and as on-demand physical media, including CD and (for the first time ever) vinyl from <a href=\"https://elasticstage.com/tmitg\">tMitG’s ElasticStage shop</a>.</p>
+<p>‘Impermanence’ will be released on October 30th, 2026, available as a digital download from <a href=\"https://tmitg.bandcamp.com\">tMitG’s Bandcamp shop</a> and as on-demand physical media, including CD and (for the first time ever) vinyl, from <a href=\"https://elasticstage.com/tmitg\">tMitG’s ElasticStage shop</a>.</p>
 
 <p>‘Impermanence’ will also be available on release day to stream from Spotify, Apple Music, Amazon Music, and other streaming services. More information on 'Impermanence' and “The Beginning on All Things” can be found at <a href=\"https://www.tmitg.com\">www.tmitg.com</a>.</p>
 ";

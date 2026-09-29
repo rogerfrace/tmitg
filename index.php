@@ -151,7 +151,7 @@ require_once "functions.php";
 <figure class="portrait">
 	<figcaption class="wai">tMitG band members Roger and Summer pose seated in a Victorian-inspired decorated room</figcaption>
 	<div class="portraitimg"></div>
-	<div class="portraitgrad"><div>
+	<div class="portraitgrad"></div>
 </figure>
 
 </header>

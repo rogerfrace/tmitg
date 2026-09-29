@@ -93,26 +93,26 @@
 	</thead>
 	<tbody>
 <?php /*
-do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
+do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle,$notesfile,$isrc)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"Masks","masks",NULL,"asphodel.jpg","masks","Masks"); ?>
-<?php do_songtitle(2,"Outside","outside","outside-bc","asphodel.jpg","outside-amv","Outside"); ?>
-<?php do_songtitle(3,"Time","time",NULL,"asphodel.jpg","time","Time"); ?>
-<?php do_songtitle(4,"Wonderland","wonderland","wonderland-bc","asphodel.jpg",NULL); ?>
-<?php do_songtitle(5,"Icarus","icarus",NULL,"asphodel.jpg",NULL); ?>
-<?php do_songtitle(6,"Ghost","ghost",NULL,"asphodel.jpg",NULL); ?>
-<?php do_songtitle(7,"Open","open",NULL,"asphodel.jpg",NULL); ?>
-<?php do_songtitle(8,"Clarity","clarity","clarity-bc","asphodel.jpg",NULL); ?>
-<?php do_songtitle(9,"Dawn","dawn","dawn-bc","asphodel.jpg",NULL); ?>
-<?php do_songtitle(10,"Echo","echo",NULL,"asphodel.jpg",NULL); ?>
-<?php do_songtitle(11,"Cry","cry",NULL,"asphodel.jpg",NULL); ?>
-<?php do_songtitle(12,"Seek","seek","seek-bc","asphodel.jpg",NULL); ?>
-<?php do_songtitle(13,"One","one",NULL,"asphodel.jpg",NULL); ?>
-<?php do_songtitle(14,"Photographic",NULL,NULL,NULL,NULL); ?>
-<?php do_songtitle(15,"*Open (Reimagined)",NULL,NULL,NULL,"open2020"); ?>
-<?php do_songtitle(16,"*Ghost (Reimagined)",NULL,NULL,NULL,NULL); ?>
+<?php do_songtitle(1,"Masks","masks",NULL,"asphodel.jpg","masks","Masks",NULL,"usx9p1411723"); ?>
+<?php do_songtitle(2,"Outside","outside","outside-bc","asphodel.jpg","outside-amv","Outside",NULL,"usx9p1411724"); ?>
+<?php do_songtitle(3,"Time","time",NULL,"asphodel.jpg","time","Time",NULL,"usx9p1411725"); ?>
+<?php do_songtitle(4,"Wonderland","wonderland","wonderland-bc","asphodel.jpg",NULL,NULL,NULL,"usx9p1411726"); ?>
+<?php do_songtitle(5,"Icarus","icarus",NULL,"asphodel.jpg",NULL,NULL,NULL,"usx9p1411727"); ?>
+<?php do_songtitle(6,"Ghost","ghost",NULL,"asphodel.jpg",NULL,NULL,NULL,"usx9p1411728"); ?>
+<?php do_songtitle(7,"Open","open",NULL,"asphodel.jpg",NULL,NULL,NULL,"usx9p1411729"); ?>
+<?php do_songtitle(8,"Clarity","clarity","clarity-bc","asphodel.jpg",NULL,NULL,NULL,"usx9p1411730"); ?>
+<?php do_songtitle(9,"Dawn","dawn","dawn-bc","asphodel.jpg",NULL,NULL,NULL,"usx9p1411731"); ?>
+<?php do_songtitle(10,"Echo","echo",NULL,"asphodel.jpg",NULL,NULL,NULL,"usx9p1411732"); ?>
+<?php do_songtitle(11,"Cry","cry",NULL,"asphodel.jpg",NULL,NULL,NULL,"usx9p1411733"); ?>
+<?php do_songtitle(12,"Seek","seek","seek-bc","asphodel.jpg",NULL,NULL,NULL,"usx9p1411734"); ?>
+<?php do_songtitle(13,"One","one",NULL,"asphodel.jpg",NULL,NULL,NULL,"usx9p1411735"); ?>
+<?php do_songtitle(14,"Photographic",NULL,NULL,NULL,NULL,NULL,NULL,"usx9p1411736"); ?>
+<?php do_songtitle(15,"*Open (Reimagined)",NULL,NULL,NULL,"open2020",NULL,NULL,NULL); ?>
+<?php do_songtitle(16,"*Ghost (Reimagined)",NULL,NULL,NULL,NULL,NULL,NULL,NULL); ?>
 	</tbody>
 	<tfoot>
 		<tr>

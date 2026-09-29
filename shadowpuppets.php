@@ -89,21 +89,21 @@
 	</thead>
 	<tbody>
 <?php /*
-do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname)
+do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle,$notesfile,$isrc)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"This Silence","thissilence",NULL,"sp.jpg","thissilence","This Silence"); ?>
-<?php do_songtitle(2,"The Inside World","theinsideworld","theinsideworld-bc","sp.jpg","theinsideworld","The Inside World"); ?>
-<?php do_songtitle(3,"Winter Fell","winterfell","winterfell-bc","sp.jpg",NULL); ?>
-<?php do_songtitle(4,"Mantra","mantra","mantra-bc","sp.jpg",NULL); ?>
-<?php do_songtitle(5,"Suspend","suspend",NULL,"sp.jpg","suspend","Suspend"); ?>
-<?php do_songtitle(6,"More Unto Fire Dreamt","moreuntofiredreamt","moreuntofire-bc","sp.jpg",NULL); ?>
-<?php do_songtitle(7,"Mother","mother",NULL,"sp.jpg",NULL); ?>
-<?php do_songtitle(8,"Spider’s Bride","spidersbride","spidersbride-bc","sp.jpg",NULL); ?>
-<?php do_songtitle(9,"Illusions In Rain","illusionsinrain",NULL,"sp.jpg",NULL); ?>
-<?php do_songtitle(10,"If Ever","ifever",NULL,"sp.jpg",NULL); ?>
-<?php do_songtitle(11,"Goodbye","goodbye",NULL,"sp.jpg",NULL); ?>
+<?php do_songtitle(1,"This Silence","thissilence",NULL,"sp.jpg","thissilence","This Silence",NULL,"usx9p1418518"); ?>
+<?php do_songtitle(2,"The Inside World","theinsideworld","theinsideworld-bc","sp.jpg","theinsideworld","The Inside World",NULL,"usx9p1418519"); ?>
+<?php do_songtitle(3,"Winter Fell","winterfell","winterfell-bc","sp.jpg",NULL,NULL,NULL,"usx9p1418520"); ?>
+<?php do_songtitle(4,"Mantra","mantra","mantra-bc","sp.jpg",NULL,NULL,NULL,"usx9p1418521"); ?>
+<?php do_songtitle(5,"Suspend","suspend",NULL,"sp.jpg","suspend","Suspend",NULL,"usx9p1418522"); ?>
+<?php do_songtitle(6,"More Unto Fire Dreamt","moreuntofiredreamt","moreuntofire-bc","sp.jpg",NULL,NULL,NULL,"usx9p1418523"); ?>
+<?php do_songtitle(7,"Mother","mother",NULL,"sp.jpg",NULL,NULL,NULL,"usx9p1418524"); ?>
+<?php do_songtitle(8,"Spider’s Bride","spidersbride","spidersbride-bc","sp.jpg",NULL,NULL,NULL,"usx9p1418525"); ?>
+<?php do_songtitle(9,"Illusions In Rain","illusionsinrain",NULL,"sp.jpg",NULL,NULL,NULL,"usx9p1418526"); ?>
+<?php do_songtitle(10,"If Ever","ifever",NULL,"sp.jpg",NULL,NULL,NULL,"usx9p1418527"); ?>
+<?php do_songtitle(11,"Goodbye","goodbye",NULL,"sp.jpg",NULL,NULL,NULL,"usx9p1418528"); ?>
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->

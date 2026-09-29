@@ -117,22 +117,20 @@ function display_news($newsnum,$pubdate,$title,$description) {
 
 
 // new table output structure for rows in discogs
-function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle=NULL,$notesfile=NULL) {
+function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle=NULL,$notesfile=NULL,$isrc=NULL) {
 	echo "<tr itemprop=\"track\" itemscope itemtype=\"https://schema.org/MusicRecording\">
 	<th scope=\"row\" class=\"tracknum\"><span itemprop=\"position\">$tracknum</span></th>
-	<td itemprop=\"name\">".$songname."</td>
+	<td itemprop=\"name\">".$songname;
+		if ($isrc) { echo "<meta itemprop=\"isrcCode\" content=\"$isrc\">"; }
+	echo "</td>
 	<td>";
 
-	if ($lyricsfile) {
-		do_lyrics("$lyricsfile","$songname");
-	} else {echo "";}
+	if ($lyricsfile) { do_lyrics("$lyricsfile","$songname"); }
 
 	echo "</td>
 	<td>";
 
-	if ($notesfile) {
-		do_notes("$notesfile","$songname");
-	} else {echo "";}
+	if ($notesfile) { do_notes("$notesfile","$songname"); }
 
 	echo "</td>
 	<td>";
@@ -140,7 +138,7 @@ function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videon
 	if (($mp3name != NULL) && (strstr($mp3name, "-bc"))) {
 		$mp3name = str_replace("-bc", "", $mp3name);
 		do_mp3bc2("$mp3name","$songname",1);
-	} else {echo "";}
+	}
 
 	echo "</td>
 	<td>";
@@ -148,7 +146,7 @@ function do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videon
 	if ($videoname) {
 		if (!$videotitle) {$videotitle=$songname;}
 		do_video("$videoname","$videotitle",1);
-	} else {echo "";}
+	}
 
 	echo "</td>
 	</tr>";

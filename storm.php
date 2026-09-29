@@ -1,7 +1,7 @@
 <?php $fbog = array(
 	'og:title'=>'the Machine in the Garden - Before and After the Storm (2011)',
 	'og:type'=>'music.album',
-	'og:upc'=>'885767743120',
+	'og:upc'=>'195448151626',
 	'og:url'=>'https://www.tmitg.com/storm.php',
 	'og:description'=>'the Machine in the Garden \'Before and After the Storm\' is the band\'s eighth studio album.',
 	'og:image'=>'https://www.tmitg.com/albums/baatsOG.jpg',
@@ -74,10 +74,12 @@
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-005-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2011</span><br />Digital Album released <time datetime="2011-06-24" itemprop="datePublished">24 June 2011</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
+		<meta itemprop="gtin12" content="195448151626" />
 	</div>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p>(<span itemprop="catalogNumber">dxm-005-cdse</span>) <span itemprop="about">Special Edition CD</span> released <time datetime="2011-07-13" itemprop="datePublished">13 July 2011</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
+		<meta itemprop="gtin12" content="885767743120" />
 	</div>
 
 </section> <!-- end album info div -->
@@ -99,21 +101,21 @@
 	</thead>
 	<tbody>
 <?php /*
-do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname,$notesname)
+do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle,$notesfile,$isrc)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"Cimmerian","cimmerian","cimmerian-bc","baats.jpg","cimmerian","Cimmerian","cimmerian"); ?>
-<?php do_songtitle(2,"Scathefire","scathefire",NULL,"baats.jpg",NULL); ?>
-<?php do_songtitle(3,"Metallic","metallic","metallic-bc","baats.jpg",NULL,NULL,"metallic"); ?>
-<?php do_songtitle(4,"In the Vanir","inthevanir",NULL,"baats.jpg",NULL); ?>
-<?php do_songtitle(5,"The Piano","thepiano",NULL,"baats.jpg",NULL); ?>
-<?php do_songtitle(6,"Power and Prophesy","powerandprophesy","powerandprophesy-bc","baats.jpg",NULL,NULL,"powerandprophesy"); ?>
-<?php do_songtitle(7,"Mending the Sky","mendingthesky",NULL,"baats.jpg",NULL,NULL,"mendingthesky"); ?>
-<?php do_songtitle(8,"Cimmerian (reprise)",NULL,NULL,"baats.jpg",NULL,NULL,"cimmerianreprise"); ?>
-<?php do_songtitle(9,"Scathefire (fire mix)",NULL,"firemix-bc","baats.jpg",NULL); ?>
-<?php do_songtitle(10,"Power and Prophesy (metal below mix)",NULL,NULL,"baats.jpg",NULL); ?>
-<?php do_songtitle(11,"Mending the Sky (slf mix)",NULL,NULL,"baats.jpg",NULL); ?>
+<?php do_songtitle(1,"Cimmerian","cimmerian","cimmerian-bc","baats.jpg","cimmerian","Cimmerian","cimmerian","ushm21137847"); ?>
+<?php do_songtitle(2,"Scathefire","scathefire",NULL,"baats.jpg",NULL,NULL,NULL,"ushm21137848"); ?>
+<?php do_songtitle(3,"Metallic","metallic","metallic-bc","baats.jpg",NULL,NULL,"metallic","ushm21137849"); ?>
+<?php do_songtitle(4,"In the Vanir","inthevanir",NULL,"baats.jpg",NULL,NULL,NULL,"ushm21137850"); ?>
+<?php do_songtitle(5,"The Piano","thepiano",NULL,"baats.jpg",NULL,NULL,NULL,"ushm21137851"); ?>
+<?php do_songtitle(6,"Power and Prophesy","powerandprophesy","powerandprophesy-bc","baats.jpg",NULL,NULL,"powerandprophesy","ushm21137852"); ?>
+<?php do_songtitle(7,"Mending the Sky","mendingthesky",NULL,"baats.jpg",NULL,NULL,"mendingthesky","ushm21137853"); ?>
+<?php do_songtitle(8,"Cimmerian (reprise)",NULL,NULL,"baats.jpg",NULL,NULL,"cimmerianreprise","ushm21137854"); ?>
+<?php do_songtitle(9,"Scathefire (fire mix)",NULL,"firemix-bc","baats.jpg",NULL,NULL,NULL,"ushm21137855"); ?>
+<?php do_songtitle(10,"Power and Prophesy (metal below mix)",NULL,NULL,"baats.jpg",NULL,NULL,NULL,"ushm21137856"); ?>
+<?php do_songtitle(11,"Mending the Sky (slf mix)",NULL,NULL,"baats.jpg",NULL,NULL,NULL,"ushm21137857"); ?>
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->

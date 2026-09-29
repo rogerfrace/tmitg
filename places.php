@@ -93,23 +93,23 @@
 	</thead>
 	<tbody>
 <?php /*
-do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$songname,$notesname)
+do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle,$notesfile,$isrc)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"Cold Storm","coldstorm","coldstorm-bc","places.jpg","coldstorm"); ?>
-<?php do_songtitle(2,"A Thousand Years of War","athousandyearsofwar",NULL,"places.jpg","athousandyears",NULL,"athousandyearsofwar"); ?>
-<?php do_songtitle(3,"Beyond","beyond","beyond-bc","places.jpg",NULL); ?>
-<?php do_songtitle(4,"Underneath","underneath",NULL,"places.jpg",NULL,NULL,"underneathoeuchari"); ?>
-<?php do_songtitle(5,"Prophetic Bird","propheticbird","propheticbird-bc","places.jpg",NULL,NULL,"propheticbird"); ?>
-<?php do_songtitle(6,"Broken Days","brokendays",NULL,"places.jpg",NULL); ?>
-<?php do_songtitle(7,"Ad Astra Per Aspera","adastraperaspera",NULL,"places.jpg",NULL); ?>
-<?php do_songtitle(8,"Courage, Power, and Wisdom","couragepowerandwisdom",NULL,"places.jpg",NULL,NULL,"couragepowerandwisdom"); ?>
-<?php do_songtitle(9,"Spirit and Image","spiritandimage","spiritandimage-bc","places.jpg",NULL,NULL,"spiritandimage"); ?>
-<?php do_songtitle(10,"Orbital","orbital",NULL,"places.jpg",NULL,NULL,"orbital"); ?>
-<?php do_songtitle(11,"O Euchari","oeuchari",NULL,"places.jpg",NULL,NULL,"underneathoeuchari"); ?>
-<?php do_songtitle(12,"Find a Way","findaway",NULL,"places.jpg","findaway",NULL,"findaway"); ?>
-<?php do_songtitle(13,"Resist","resist",NULL,"places.jpg",NULL); ?>
+<?php do_songtitle(1,"Cold Storm","coldstorm","coldstorm-bc","places.jpg","coldstorm",NULL,NULL,"QMAAK2061387"); ?>
+<?php do_songtitle(2,"A Thousand Years of War","athousandyearsofwar",NULL,"places.jpg","athousandyears",NULL,"athousandyearsofwar","QMAAK2061388"); ?>
+<?php do_songtitle(3,"Beyond","beyond","beyond-bc","places.jpg",NULL,NULL,NULL,"QMAAK2061389"); ?>
+<?php do_songtitle(4,"Underneath","underneath",NULL,"places.jpg",NULL,NULL,"underneathoeuchari","QMAAK2061390"); ?>
+<?php do_songtitle(5,"Prophetic Bird","propheticbird","propheticbird-bc","places.jpg",NULL,NULL,"propheticbird","QMAAK2061391"); ?>
+<?php do_songtitle(6,"Broken Days","brokendays",NULL,"places.jpg",NULL,NULL,NULL,"QMAAK2061392"); ?>
+<?php do_songtitle(7,"Ad Astra Per Aspera","adastraperaspera",NULL,"places.jpg",NULL,NULL,NULL,"QMAAK2061393"); ?>
+<?php do_songtitle(8,"Courage, Power, and Wisdom","couragepowerandwisdom",NULL,"places.jpg",NULL,NULL,"couragepowerandwisdom","QMAAK2061394"); ?>
+<?php do_songtitle(9,"Spirit and Image","spiritandimage","spiritandimage-bc","places.jpg",NULL,NULL,"spiritandimage","QMAAK2061395"); ?>
+<?php do_songtitle(10,"Orbital","orbital",NULL,"places.jpg",NULL,NULL,"orbital","QMAAK2061396"); ?>
+<?php do_songtitle(11,"O Euchari","oeuchari",NULL,"places.jpg",NULL,NULL,"underneathoeuchari","QMAAK2061397"); ?>
+<?php do_songtitle(12,"Find a Way","findaway",NULL,"places.jpg","findaway",NULL,"findaway","QMAAK2061398"); ?>
+<?php do_songtitle(13,"Resist","resist",NULL,"places.jpg",NULL,NULL,NULL,"QMAAK2061399"); ?>
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->

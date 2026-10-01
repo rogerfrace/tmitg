@@ -85,7 +85,7 @@ do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$vide
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"The Beginning of All Things (single edit)","thebeginningofallthings","beginning-bc","beginning.jpg","beginning",NULL,NULL,"isrc"); ?>
+<?php do_songtitle(1,"The Beginning of All Things (single edit)","thebeginningofallthings","beginning-bc","beginning.jpg","beginning",NULL,NULL,"usx9p2635625"); ?>
 
 	</tbody>
 </table>

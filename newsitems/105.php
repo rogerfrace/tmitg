@@ -1,6 +1,6 @@
 <?php
 
-$pubdate = "Mon, 05 Oct 2026 08:00:00 CDT";
+$pubdate = "Mon, 05 Oct 2026 07:30:00 CDT";
 $title = "New EP Announcement: Impermanence";
 $description = "<img itemprop=\"image\" src=\"https://www.tmitg.com/albums/impermanence.jpg\" alt=\"Impermanence\" />
 

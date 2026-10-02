@@ -13,11 +13,11 @@ require_once "functions.php";
 	<meta property="og:type" content="musician" />
 	<meta property="og:url" content="https://www.tmitg.com/" />
 	<meta property="og:description" content="Ethereal-goth-darkwave from the American underground — the Machine in the Garden is an independent duo with 9 releases since 1992." />
-	<meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />
-	<meta property="og:image:alt" content="Roger and Summer in a Victorian-inspired photo session" />
+	<meta property="og:image" content="https://www.tmitg.com/photos/2026-IMG_7871.jpg" />
+	<meta property="og:image:alt" content="Summer and Roger of the Machine in the Garden standing mostly back-to-back on a plain white background" />
 	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:image:width" content="1600" />
-	<meta property="og:image:height" content="1252" />
+	<meta property="og:image:width" content="1105" />
+	<meta property="og:image:height" content="1000" />
     <meta property="og:locale" content="en_US" />
     <meta property="fb:app_id" content="121619441387">
     <meta property="fb:admins" content="1120445561,713632115">

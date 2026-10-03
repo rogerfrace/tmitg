@@ -46,7 +46,7 @@
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/track/the-beginning-of-all-things-single-edit" />
-	<meta itemprop="sameAs" content="https://www.discogs.com/release/37305681-The-Machine-In-The-Garden-The Beginning of All Things" />
+	<!--<meta itemprop="sameAs" content="https://www.discogs.com/release/38607159-The-Machine-In-The-Garden-The Beginning of All Things" />-->
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 

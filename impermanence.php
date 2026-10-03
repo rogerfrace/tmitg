@@ -47,10 +47,10 @@
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
 		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
-	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/impermanence" />
+	<!--<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/impermanence" />
 	<meta itemprop="sameAs" content="https://www.discogs.com/master/1776278-The-Machine-In-The-Garden-Places-In-Between" />
 	<meta itemprop="sameAs" content="https://music.apple.com/us/album/impermanence/1524569511" />
-	<meta itemprop="sameAs" content="https://www.amazon.com/Places-Between-Machine-Garden/dp/B08DDHDLBQ/" />
+	<meta itemprop="sameAs" content="https://www.amazon.com/Places-Between-Machine-Garden/dp/B08DDHDLBQ/" />-->
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 
@@ -66,20 +66,21 @@
 	<p itemprop="abstract"><em>Six songs exploring impermanence, fate, loss, and the existential work of dealing with circumstances beyond one’s control, 'Impermanence' is tMitG's first new release in six years. Tighter in focus and stripped down to just the machine and voice, it's still as rich, engaging, and emotional as anything that's come before it.</em></p>
 
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-012-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br />EP releasing <time datetime="2026-10-30" itemprop="datePublished">30 October 2026</time></p>
+		<p class="notopmargin"><span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span></p>
+		<p>(<span itemprop="catalogNumber">dxm-012-dig</span>) Digital EP releasing <time datetime="2026-10-30" itemprop="datePublished">30 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
-		<meta itemprop="gtin12" content="885000561108">
+		<meta itemprop="identifier" data-name="gtin12" content="885000561108">
 	</div>
-<!--	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
+<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p>(<span itemprop="catalogNumber">dxm-012-cd</span>) <span itemprop="about">CD</span> releasing <time datetime="2020-10-30" itemprop="datePublished">30 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
-		<meta itemprop="gtin13" content="5063933837896">
-	</div>-->
-<!--	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
+		<meta itemprop="identifier" data-name="gtin13" content="5063933837896">
+	</div>
+	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p>(<span itemprop="catalogNumber">dxm-012-ep</span>) <span itemprop="about">12"</span> releasing <time datetime="2020-10-30" itemprop="datePublished">30 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="VinylFormat" />
-		<meta itemprop="gtin13" content="5063933834963">
-	</div>-->
+		<meta itemprop="identifier" data-name="gtin13" content="5063933834963">
+	</div>
 
 </section> <!-- end album info div -->
 
@@ -135,10 +136,10 @@ $lyricsfile and videoname do not include .html
 	<h2 id="reviews" tabindex="-1">Reviews of <i>Impermanence</i>:</h2>
 	<div class="revcontent">
 
-	</div> <!-- /revcontent -->
+	</div> <!-- end revcontent -->
 <!--</section> -->
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 <?php include_once "includes/amazonfooter.inc.php"; ?>
 
 <?php if (check_mobile()==true): ?>

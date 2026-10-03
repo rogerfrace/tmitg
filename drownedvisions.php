@@ -57,7 +57,7 @@
 	</tr>
 	
 	<tr>
-	<td>
+	<td colspan="5">
 	<small>Also available on <a href="storm.php"><i>Before and After the Storm</i></a></small>
 	</td>
 	</tr>

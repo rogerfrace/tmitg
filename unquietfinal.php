@@ -61,8 +61,8 @@
 	</tr>
 	
 	<tr>
-	<td>
-	<small>Released <time>29 April 2022</time>.<br>Also available on <a href="places.php"><i>Places in Between</i></a></small>
+	<td colspan="5">
+	<small>Released <time datetime="2022-04-29">29 April 2022</time>.<br>Also available on <a href="places.php"><i>Places in Between</i></a></small>
 	</td>
 	</tr>
 	

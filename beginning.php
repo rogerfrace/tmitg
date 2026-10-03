@@ -60,7 +60,7 @@
 	</div>
 	<h1 itemprop="name">The Beginning of All Things</h1>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-011-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br />Digital Single releasing <time datetime="2026-10-09" itemprop="datePublished">9 October 2026</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-011-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br />Digital Single released <time datetime="2026-10-09" itemprop="datePublished">9 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 </section> <!-- end album info div -->

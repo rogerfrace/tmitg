@@ -115,10 +115,10 @@ $lyricsfile and videoname do not include .html
 <meta itemprop="datePublished" content="2011-01-01">
 </blockquote>
 
-	</div> <!-- /revcontent -->
+	</div> <!-- end revcontent -->
 </section>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

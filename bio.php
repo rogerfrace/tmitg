@@ -71,7 +71,7 @@
 
 </div> <!-- /twocols -->
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 
 <aside aria-label="Google Translate widget">

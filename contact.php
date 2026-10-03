@@ -56,7 +56,7 @@
 </div> <!-- /flexwrapper -->
 
 <div style="clear:both;"></div>
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 </body>
 </html>

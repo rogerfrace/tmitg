@@ -197,10 +197,10 @@ $lyricsfile and videoname do not include .html
 <p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Matthew Heilman</span></span>, <a href="http://www.starvox.net/crypt/3august2.htm" target="_blank"><span itemprop="publisher">Starvox</span></a></p>
 </blockquote>
 
-	</div> <!-- /revcontent -->
+	</div> <!-- end revcontent -->
 </section>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 <?php include_once "includes/amazonfooter.inc.php"; ?>
 
 <?php if (check_mobile()==true): ?>

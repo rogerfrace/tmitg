@@ -110,7 +110,7 @@ $lyricsfile and videoname do not include .html
 </section> <!-- end buy button div -->
 		
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 </body>
 </html>

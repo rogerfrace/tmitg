@@ -86,7 +86,7 @@ $lyricsfile and videoname do not include .html
 </div> <!-- end tracklist div -->
 
 <div class="clearboth"></div>
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 </body>
 </html>

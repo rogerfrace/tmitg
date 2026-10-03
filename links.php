@@ -177,7 +177,7 @@
 </ul>
 </section>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 <!-- append tracking -->
 <script>

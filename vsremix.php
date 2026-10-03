@@ -81,7 +81,7 @@ $lyricsfile and videoname do not include .html
 </section> <!-- end buy button div -->
 
 <div class="clearboth"></div>
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 </body>
 </html>

@@ -347,7 +347,7 @@ and through
 <a href="https://amzn.to/3iIbi9c" target="_blank">Amazon.com</a>.</p>
 </section>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 </body>
 </html>

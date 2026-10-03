@@ -113,11 +113,11 @@ $lyricsfile and videoname do not include .html
 <p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Rik</span></span>, <a href="http://pingthings.blogspot.com/2011/01/top-ten-for-2010.html" target="_blank"><span itemprop="publisher">Ping Things</span></a></p>
 </blockquote>
 
-	</div> <!-- /revcontent -->
+	</div> <!-- end revcontent -->
 </section>
 */ ?>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

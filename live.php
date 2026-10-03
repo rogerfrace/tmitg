@@ -514,7 +514,7 @@
 
 </section>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 </body>
 </html>

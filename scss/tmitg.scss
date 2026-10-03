@@ -9,21 +9,52 @@ $dkaltclr: #486178;
 /* all the shades of black and gray...*/
 $white: #ffffff;
 $nearwhite: #eeeeee;
-$ltgray: #999999;
-$mdgray: #757575;
+$ltgray: #9c9c9c;
+$mdgray: #616161;
 $fourgray: #444444;
 $dkgray: #333333;
 $nearblack: #222222;
 $black: #000000;
-$teal: #1579BE;
+$teal: #11659C;
 $darkteal: #036477;
-$lightteal: #75BFF0;
+$ltteal: #75BFF0;
 $darklight: #372231;
+$sectionbg: #2D2B65;
 /* dark purple for home img */
 $lightdark: #9E6189;
 /* inverse for dark mode */
 
+/* new fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Meddon&family=Ruthie&display=swap');
+.meddon-regular {
+  font-family: "Meddon", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.ruthie-regular {
+  font-family: "Ruthie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.cardo-regular {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+.cardo-bold {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cardo-regular-italic {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* previous fonts */
 @import url('https://fonts.googleapis.com/css2?family=Megrim&display=block');
 @import url('https://fonts.googleapis.com/css2?family=Kristi&display=block');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=fallback');
@@ -31,7 +62,7 @@ $lightdark: #9E6189;
 /* site-wide CSS */
 html {scroll-behavior:smooth;}
 body {
-    font-family: Cormorant, serif;
+    font-family: "Cardo", serif;
     font-size: 120%;
     line-height: 1.4;
     color: $dkgray;
@@ -86,7 +117,7 @@ a:active {
 }
 
 a:focus {
-    color: $mdgray;
+    color: $sectionbg;
     font-weight: normal;
 }
 
@@ -169,6 +200,9 @@ footer small {
 
 .notopmargin {
     margin-top: 0;
+}
+.nobottommargin {
+    margin-bottom: 0;
 }
 
 .wai {
@@ -300,8 +334,8 @@ a.atcss:hover {
         .title {
             display: block;
             color: white;
-            font-family: Megrim, sans-serif;
-            font-variant: small-caps;
+            font-family: "Ruthie", sans-serif;
+            font-variant: normal;
             text-decoration: none;
             font-size: 1.35em;
             text-shadow: 1px 1px 1px $altclr;
@@ -311,11 +345,11 @@ a.atcss:hover {
         .subtitle {
             display: block;
             color: $nearwhite;
-            font-family: Cormorant, serif;
-            font-weight: 600;
-            font-size: 1.35em;
+            font-family: "Cardo", serif;
+            font-weight: 500;
+            font-size: 0.85em;
             text-align: center;
-            margin: -1.5em 0 0;
+            margin: 0em 0 0;
         }
     }
 
@@ -347,8 +381,8 @@ a.atcss:hover {
         min-height: 44px;
         text-decoration: none;
         color: white;
-        font-family: Kristi, cursive;
-        font-size: 1.75em;
+        font-family: "Meddon", cursive;
+        font-size: 1.0em;
         font-weight: normal;
         padding: 0 0.5em;
     }
@@ -356,7 +390,7 @@ a.atcss:hover {
     nav li a:hover,
     nav li a:active,
     nav li a:focus {
-        border-bottom: 3px solid #157CC1;
+        border-bottom: 3px solid $teal;
     }
 
     nav.mobile {
@@ -367,7 +401,7 @@ a.atcss:hover {
         overflow: hidden;
         position: relative;
         height: 500px;
-        background-color: $darklight;
+        background-color: $nearwhite;
 
         .portraitimg {
             position: absolute;
@@ -375,26 +409,12 @@ a.atcss:hover {
             -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
             top: 0;
-            width: 643px;
+            width: 523px;
             height: 500px;
             display: block;
             margin: auto;
-            background-image: url('headers/images/home-portrait-643.jpg');
+            background-image: url('headers/images/home2-portrait-500.jpg');
             background-repeat: no-repeat;
-        }
-
-        .portraitgrad {
-            position: absolute;
-            left: 50%;
-            -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-            top: 0;
-            width: 643px;
-            height: 500px;
-            display: block;
-            margin: auto;
-            /* from https://cssgradient.io/ */
-            background: linear-gradient(90deg, rgba(55, 34, 49, 1) 0%, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 0) 85%, rgba(55, 34, 49, 1) 100%);
         }
     }
 
@@ -410,7 +430,7 @@ a.atcss:hover {
         display: block;
         padding: 0 1em 1em;
         margin: 12px 5%;
-        background-color: #034F5F;
+        background-color: $sectionbg;
         border: 5px solid #222222;
         -webkit-border-radius: 3em;
         -moz-border-radius: 3em;
@@ -427,7 +447,7 @@ a.atcss:hover {
         }
 
         a:visited {
-            color: $lightteal;
+            color: $ltgray;
         }
     }
 
@@ -455,12 +475,12 @@ a.atcss:hover {
 @media screen and (max-width: 643px) {
     #front {
         h1 .subtitle {
-            font-size: 1em;
+            font-size: 0.65em;
         }
         .portrait {
             position: relative;
             height: 293px;
-            background-color: $darklight;
+            background-color: $nearwhite;
 
             .portraitimg {
                 position: absolute;
@@ -469,25 +489,11 @@ a.atcss:hover {
                 transform: translateX(-50%);
                 top: 0;
                 width: 379px;
-                height: 293px;
+                height: 362px;
                 display: block;
                 margin: auto;
-                background-image: url('headers/images/home-portrait-379.jpg');
+                background-image: url('headers/images/home2-portrait-379.jpg');
                 background-repeat: no-repeat;
-            }
-
-            .portraitgrad {
-                position: absolute;
-                left: 50%;
-                -webkit-transform: translateX(-50%);
-                transform: translateX(-50%);
-                top: 0;
-                width: 379px;
-                height: 293px;
-                display: block;
-                margin: auto;
-                /* from https://cssgradient.io/ */
-                background: linear-gradient(90deg, rgba(96, 50, 61, 1) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 80%, rgba(96, 50, 61, 1) 100%);
             }
         }
         #recentnews {
@@ -519,7 +525,7 @@ a.atcss:hover {
         }
 
         .current {
-            border-bottom: 3px solid $darkteal;
+            border-bottom: 3px solid $ltteal;
         }
     }
 
@@ -561,8 +567,8 @@ a.atcss:hover {
         position: absolute;
         top: 8px;
         left: 30px;
-        font-family: Megrim, serif;
-        font-variant: small-caps;
+        font-family: "Ruthie", serif;
+        font-variant: normal;
         font-size: 2em;
         color: $nearwhite;
 
@@ -575,7 +581,7 @@ a.atcss:hover {
 
         a:hover,
         a:focus {
-            border-bottom: 3px solid #157CC1;
+            border-bottom: 3px solid $teal;
         }
     }
 }
@@ -985,7 +991,7 @@ iframe#sb-player {
             margin: 0;
             font-family: Cormorant, serif;
             font-weight: 700;
-            font-size: 1.1em;
+            font-size: 0.9em;
             line-height: 1;
         }
 
@@ -1033,9 +1039,9 @@ iframe#sb-player {
         text-align: left;
 
         h2 {
-            font-family: 'Kristi', cursive;
+            font-family: "Meddon", cursive;
             color: $darklight;
-            font-size: 2em;
+            font-size: 1.25em;
             font-weight: normal;
             margin: 0.5em 0 0 0;
         }

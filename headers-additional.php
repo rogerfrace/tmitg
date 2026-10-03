@@ -1,4 +1,4 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width">
 <meta name="text-scale" content="scale">
 <meta property="og:site_name" content="the Machine in the Garden" />
 <?php if (!isset($fbog) || !is_array($fbog)): ?>

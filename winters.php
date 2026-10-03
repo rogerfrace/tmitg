@@ -143,10 +143,10 @@ $lyricsfile and videoname do not include .html
 <p>-<span itemprop="author"><a href="http://www.sortedmagazine.com/archive/magazine/sordid/aug99.htm#winters" target="_blank"><span itemprop="publisher">Sorted Magazine</span></a></span></p>
 </blockquote>
 
-	</div> <!-- /revcontent -->
+	</div> <!-- end revcontent -->
 </section>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 <?php include_once "includes/amazonfooter.inc.php"; ?>
 
 <?php if (check_mobile()==true): ?>

@@ -46,7 +46,7 @@
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/track/the-beginning-of-all-things-single-edit" />
-	<meta itemprop="sameAs" content="https://www.discogs.com/release/37305681-The-Machine-In-The-Garden-The Beginning of All Things" />
+	<!--<meta itemprop="sameAs" content="https://www.discogs.com/release/38607159-The-Machine-In-The-Garden-The Beginning of All Things" />-->
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 
@@ -60,7 +60,7 @@
 	</div>
 	<h1 itemprop="name">The Beginning of All Things</h1>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-011-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br />Digital Single released <time datetime="2026-10-09" itemprop="datePublished">9 October 2026</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-011-dig</span>) <span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br />Digital Single releasing <time datetime="2026-10-09" itemprop="datePublished">9 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 	</div>
 </section> <!-- end album info div -->
@@ -75,10 +75,10 @@
 			<th scope="col" class="wai">Track Number</th>
 			<th scope="col" class="wai">Track Title</th>
 			<th scope="col" class="wai">Lyrics</th>
+			<th scope="col" class="wai">Notes</th>
 			<th scope="col" class="wai">Audio</th>
 			<th scope="col" class="wai">Video</th>
 		</tr>
-	</thead>
 	<tbody>
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle,$notesfile,$isrc)
@@ -122,11 +122,11 @@ $lyricsfile and videoname do not include .html
 <p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Rik</span></span>, <a href="http://pingthings.blogspot.com/2011/01/top-ten-for-2010.html" target="_blank"><span itemprop="publisher">Ping Things</span></a></p>
 </blockquote>
 
-	</div> <!-- /revcontent -->
+	</div> <!-- end revcontent -->
 </section>
 */ ?>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

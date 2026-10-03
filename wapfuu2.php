@@ -51,6 +51,7 @@
 			<th scope="col" class="wai">Track Number</th>
 			<th scope="col" class="wai">Track Title</th>
 			<th scope="col" class="wai">Lyrics</th>
+			<th scope="col" class="wai">Notes</th>
 			<th scope="col" class="wai">Audio</th>
 			<th scope="col" class="wai">Video</th>
 		</tr>
@@ -72,21 +73,21 @@ $lyricsfile and videoname do not include .html
 <?php do_songtitle(10,"Words in Heaven Lost <i>get out of this</i>*","wordsinheavenlost",NULL,NULL,NULL,NULL,NULL,"usy280794166"); ?>
 <?php do_songtitle(11,"Voices",NULL,NULL,NULL,NULL); ?>
 <?php do_songtitle(12,"Hidden&deg;","hidden",NULL,NULL,NULL); ?>
-
+	</tbody>
+	<tfoot>
 	<tr>
-	<td colspan="5" style="border-top: 1px solid black; margin-top: 10px;">
+	<td colspan="6" style="border-top: 1px solid black; margin-top: 10px;">
 		<small>* Available (remastered) on <a href="xv.php"><i>XV</i></a></small>
 		<small>&deg; Available on <a href="miscellany.php"><i>Miscellany</i></a></small>
 		<small>&dagger; Available on <a href="vsremix.php"><i>Veils and Shadows Remixes</i></a></small>
 	</td>
 	</tr>
-
-	</tbody>
+	</tfoot>
 </table>
 </div> <!-- end tracklist div -->
 
 <div class="clearboth"></div>
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 </body>
 </html>

@@ -273,10 +273,10 @@ $lyricsfile and videoname do not include .html
 <meta itemprop="datePublished" content="2012-05-01">
 </blockquote>
 
-	</div> <!-- /revcontent -->
+	</div> <!-- end revcontent -->
 </section>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 <?php include_once "includes/amazonfooter.inc.php"; ?>
 
 <?php if (check_mobile()==true): ?>

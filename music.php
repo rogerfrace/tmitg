@@ -29,10 +29,10 @@
 <!-- tabs -->
 <!-- based on https://www.w3.org/TR/wai-aria-practices-1.1/examples/tabs/tabs-2/tabs.html -->
 <div id="accordion" role="tablist" aria-label="album list">
-	<div class="item spacetime" id="spacetimetab" role="tab" tabindex="-1" aria-controls="spacetime" aria-selected="false">
-		<img src="albums/spacetimeico.jpg" class="spacetimeimg" alt="Space-Time">
+	<div class="item impermanence" id="impermanencetab" role="tab" tabindex="-1" aria-controls="impermanence" aria-selected="false">
+		<img src="albums/impermanenceico.jpg" class="impermanenceimg" alt="Impermanence">
 		<div class="detail">
-			<p class="tabtitle">Space-Time</p>
+			<p class="tabtitle">Impermanence</p>
 			<time>2026</time>
 		</div>
 	</div>
@@ -130,9 +130,9 @@
 <!-- tabpanels -->
 <section id="songlist" aria-label="Album Samples">
 
-	<div class="songs spacetime" id="spacetime" role="tabpanel" tabindex="0" aria-labelledby="spacetimetab">
+	<div class="songs impermanence" id="impermanence" role="tabpanel" tabindex="0" aria-labelledby="impermanencetab">
 		<div class="albumcol">
-			<p><a href="spacetime.php"><img src="albums/spacetime.jpg" width="200" height="200" class="cover" alt="more information about Space-Time"></a></p>
+			<p><a href="impermanence.php"><img src="albums/impermanence.jpg" width="200" height="200" class="cover" alt="more information about Impermanence"></a></p>
 		</div>
 		<div class="listwrap">
 			<div class="audiocol">
@@ -397,9 +397,9 @@ $(document).ready(function() {
     
     // Set initial song display
     $("#songlist div.songs:visible").hide();
-    $("#songlist div.songs.spacetime").show();
+    $("#songlist div.songs.impermanence").show();
     $("#accordion .item").addClass('fade').attr("tabindex", "-1");
-    $("#accordion .spacetime").removeClass('fade').attr("aria-selected", "true").attr("tabindex", "0");
+    $("#accordion .impermanence").removeClass('fade').attr("aria-selected", "true").attr("tabindex", "0");
 
     // Event handler for accordion items
     $("#accordion .item").on("click keydown", function(e) {

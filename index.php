@@ -7,12 +7,12 @@ require_once "functions.php";
 <html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 <head>
 	<meta charset="utf-8" />
-	<meta name="description" content="the Machine in the Garden — ethereal/darkwave/goth duo Roger Fracé & Summer Bowman. 9 releases since 1992. Independent, still evolving, still creating." />
+	<meta name="description" content="the Machine in the Garden — ethereal/darkwave/goth duo Roger Fracé & Summer Bowman. 10 releases since 1992. Independent, still evolving, still creating." />
 	<meta property="og:site_name" content="the Machine in the Garden" />
 	<meta property="og:title" content="the Machine in the Garden" />
 	<meta property="og:type" content="musician" />
 	<meta property="og:url" content="https://www.tmitg.com/" />
-	<meta property="og:description" content="Ethereal-goth-darkwave from the American underground — the Machine in the Garden is an independent duo with 9 releases since 1992." />
+	<meta property="og:description" content="Ethereal-goth-darkwave from the American underground — the Machine in the Garden is an independent duo with 10 releases since 1992." />
 	<meta property="og:image" content="https://www.tmitg.com/photos/2026-IMG_7871.jpg" />
 	<meta property="og:image:alt" content="Summer and Roger of the Machine in the Garden standing mostly back-to-back on a plain white background" />
 	<meta property="og:image:type" content="image/jpeg" />
@@ -22,7 +22,8 @@ require_once "functions.php";
     <meta property="fb:app_id" content="121619441387">
     <meta property="fb:admins" content="1120445561,713632115">
 	<meta name="copyright" content="<?=date('Y',time());?>" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width">
+	<meta name="text-scale" content="scale">
     <link rel="canonical" href="https://www.tmitg.com/" />
 
 	<link rel="icon" href="/favicon.ico" sizes="48x48">
@@ -64,9 +65,10 @@ require_once "functions.php";
 		],
 		"foundingDate": "1992",
 		"genre": ["Gothic", "Etherealwave", "Darkwave"],
-		"description": "The Machine in the Garden is an independent gothic/etherealwave duo formed in 1992, featuring Roger Fracé and Summer Bowman. Known for atmospheric darkwave and ethereal gothic rock, the band has released eight full-length albums and one EP.",
+		"description": "The Machine in the Garden is an independent gothic/etherealwave duo formed in 1992, featuring Roger Fracé and Summer Bowman. Known for atmospheric darkwave and ethereal gothic rock, the band has released eight full-length albums and two EPs.",
 		"image": "https://www.tmitg.com/photos/PiB-IMG_3840.jpg",
 		"album": [
+			{ "@type": "MusicAlbum", "name": "Impermanence", "url": "https://www.tmitg.com/impermanence.php", "datePublished": "2026" },
 			{ "@type": "MusicAlbum", "name": "Places in Between", "url": "https://www.tmitg.com/places.php", "datePublished": "2020" },
 			{ "@type": "MusicAlbum", "name": "Before and After the Storm", "url": "https://www.tmitg.com/storm.php", "datePublished": "2011" },
 			{ "@type": "MusicAlbum", "name": "Shadow Puppets", "url": "https://www.tmitg.com/shadowpuppets.php", "datePublished": "2005" },
@@ -105,7 +107,7 @@ require_once "functions.php";
 <!-- title bar -->
 <header id="titlebar">
 	<h1><span role="text">
-		<img src="/headers/images/tMitG-PiB-logo.svg" alt="the Machine in the Garden">
+		<img src="/headers/images/tMitG-impermanence-logo.svg" alt="the Machine in the Garden">
 		<span class="subtitle">the official website</span>
 	</span></h1>
 
@@ -120,11 +122,12 @@ require_once "functions.php";
 		<li><a href="contact.php">contact</a></li>
 		<li><a href="links.php">links</a></li>
 		<li><a href="live.php">live shows</a></li>
-		<li><span class="iblock"><a href="https://www.facebook.com/tmitg" title="tMitG on Facebook"><i class="fa-brands fa-facebook"></i></a>
-			<a href="https://bsky.app/profile/tmitg.bsky.social" title="tMitG on Bluesky"><i class="fa-brands fa-bluesky"></i></a>
-			<a href="https://www.instagram.com/tmitg_band" title="tMitG on Instagram"><i class="fa-brands fa-instagram"></i></a>
-			<a href="https://www.youtube.com/tmitg" title="tMitG on YouTube"><i class="fa-brands fa-youtube"></i></a>
-			<a href="https://tmitg.bandcamp.com" title="tMitG on Bandcamp"><i class="fa-brands fa-bandcamp"></i></a></span></li>
+		<li><span class="iblock">
+			<a href="https://www.facebook.com/tmitg" title="tMitG on Facebook" aria-label="tMitG on Facebook"><i class="fa-brands fa-facebook"></i></a>
+			<a href="https://bsky.app/profile/tmitg.bsky.social" title="tMitG on Bluesky" aria-label="tMitG on Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+			<a href="https://www.instagram.com/tmitg_band" title="tMitG on Instagram" aria-label="tMitG on Instagram"><i class="fa-brands fa-instagram"></i></a>
+			<a href="https://www.youtube.com/tmitg" title="tMitG on YouTube" aria-label="tMitG on YouTube"><i class="fa-brands fa-youtube"></i></a>
+			<a href="https://tmitg.bandcamp.com" title="tMitG on Bandcamp" aria-label="tMitG on Bandcamp"><i class="fa-brands fa-bandcamp"></i></a></span></li>
 	</ul>
 </nav>
 <nav class="mobile" aria-label="Primary">
@@ -149,9 +152,8 @@ require_once "functions.php";
 </nav>
 
 <figure class="portrait">
-	<figcaption class="wai">tMitG band members Roger and Summer pose seated in a Victorian-inspired decorated room</figcaption>
+	<figcaption class="wai">tMitG band members Roger and Summer pose wearing black and red</figcaption>
 	<div class="portraitimg"></div>
-	<div class="portraitgrad"><div>
 </figure>
 
 </header>
@@ -161,7 +163,7 @@ require_once "functions.php";
 <main id="main">
 	<section aria-label="About tMitG">
 		<h2>About</h2>
-		<p class="notopmargin">The Machine in the Garden is an independent gothic/etherealwave duo featuring Roger Frac&eacute; and Summer Bowman. Since their formation in the early 1990s, Roger and Summer have developed and advanced their unique style through years of collaborating and intertwining their musical tastes. The band has developed their own unique style and released eight full-length albums and one EP.</p>
+		<p class="notopmargin">The Machine in the Garden is an independent gothic/etherealwave duo featuring Roger Frac&eacute; and Summer Bowman. Since their formation in the early 1990s, Roger and Summer have developed and advanced their unique style through years of collaborating and intertwining their musical tastes. The band has developed their own unique style and released eight full-length albums and two EPs.</p>
 	</section>
 
 	<section id="recentnews" aria-label="tMitG Recent News">

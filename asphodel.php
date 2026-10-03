@@ -116,7 +116,7 @@ $lyricsfile and videoname do not include .html
 	</tbody>
 	<tfoot>
 		<tr>
-			<td colspan="4"><small id="excl">*exclusive to the remastered edition</small><td>
+			<td colspan="5"><small id="excl">*exclusive to the remastered edition</small><td>
 		</tr>
 	</tfoot>
 </table>

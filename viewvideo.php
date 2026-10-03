@@ -151,7 +151,7 @@ if (!empty($_GET['yt'])){
 		case "beginning":
 			$stitle="&ldquo;The Beginning of All Things&rdquo; Official Video";
 			$sdesc="Official video for &quot;The Beginning of All Things&quot; by the Machine in the Garden.";
-			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/abcd1234" frameborder="0" allowfullscreen></iframe>';
+			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/swqh9Z6ybC8" frameborder="0" allowfullscreen></iframe>';
 			break;
 #impermanence
 		case "impermanence":

@@ -66,20 +66,26 @@
 	<p itemprop="abstract"><em>Six songs exploring impermanence, fate, loss, and the existential work of dealing with circumstances beyond one’s control, 'Impermanence' is tMitG's first new release in six years. Tighter in focus and stripped down to just the machine and voice, it's still as rich, engaging, and emotional as anything that's come before it.</em></p>
 
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin"><span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span></p>
-		<p>(<span itemprop="catalogNumber">dxm-012-dig</span>) Digital EP releasing <time datetime="2026-10-30" itemprop="datePublished">30 October 2026</time></p>
+		<p class="notopmargin"><span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br>
+		EP releasing <time datetime="2026-10-30" itemprop="datePublished">30 October 2026</time></p>
+
+		<p class="nobottommargin">(<span itemprop="catalogNumber">dxm-012-dig</span>) Digital</p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 		<meta itemprop="identifier" data-name="gtin12" content="885000561108">
 	</div>
-<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p>(<span itemprop="catalogNumber">dxm-012-cd</span>) <span itemprop="about">CD</span> releasing <time datetime="2020-10-30" itemprop="datePublished">30 October 2026</time></p>
+	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
+		<p class="notopmargin nobottommargin">(<span itemprop="catalogNumber">dxm-012-cd</span>) <span itemprop="about">CD</span></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
 		<meta itemprop="identifier" data-name="gtin13" content="5063933837896">
+		<meta itemprop="copyrightYear" content="2026">
+		<meta itemprop="recordLabel" content="Deus ex Musica">
 	</div>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p>(<span itemprop="catalogNumber">dxm-012-ep</span>) <span itemprop="about">12"</span> releasing <time datetime="2020-10-30" itemprop="datePublished">30 October 2026</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-012-ep</span>) <span itemprop="about">12"</span></p>
 		<meta itemprop="musicReleaseFormat" content="VinylFormat" />
 		<meta itemprop="identifier" data-name="gtin13" content="5063933834963">
+		<meta itemprop="copyrightYear" content="2026">
+		<meta itemprop="recordLabel" content="Deus ex Musica">
 	</div>
 
 </section> <!-- end album info div -->

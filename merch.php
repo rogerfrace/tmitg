@@ -88,7 +88,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 ?>
 <div role="region" aria-label="TMITG albums">
 
-<section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
+<?php /* <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
 	<img src="/albums/impermanenceico.jpg" alt="Impermanence CD" property="image" />
 </div>
@@ -118,7 +118,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 		<a class="atcss" href="https://tmitg.bandcamp.com/album/impermanence" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Digital <span class="wai">: Impermanence</span></a>
 	</div>
 </div>
-</section> <!-- /itemcontainer -->
+</section> <!-- /itemcontainer --> */ ?>
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">

@@ -75,17 +75,17 @@
 			<th scope="col" class="wai">Track Number</th>
 			<th scope="col" class="wai">Track Title</th>
 			<th scope="col" class="wai">Lyrics</th>
+			<th scope="col" class="wai">Notes</th>
 			<th scope="col" class="wai">Audio</th>
 			<th scope="col" class="wai">Video</th>
 		</tr>
-	</thead>
 	<tbody>
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle,$notesfile,$isrc)
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"The Beginning of All Things (single edit)","thebeginningofallthings",NULL,"beginning.jpg",NULL,NULL,NULL,"isrc"); ?>
+<?php do_songtitle(1,"The Beginning of All Things (single edit)","thebeginningofallthings",NULL,"beginning.jpg",NULL,NULL,NULL,"usx9p2635625"); ?>
 
 	</tbody>
 </table>

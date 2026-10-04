@@ -545,11 +545,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	<em property="name">"vintage ornament" design t-shirt</em></h2>
 	<span property="description">(teal "vintage ornament" design with silver text, black short sleeve, unisex or ladies cut v-neck - click picture to view larger image)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price" content="12.00">$12</strong>
+		<strong class="price" property="price" content="15.00">$15</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
-		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-vintage-ornament-design-t-shirt" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: vintage ornament design t-shirt</span></a>
+		<a class="atcss" href="https://shop.tonethreads.com/products/the-machine-in-the-garden-vintage-ornament-shirt-black-unisex-t-shirt-33561" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'ToneThreads'});">Buy Now <span class="wai">: vintage ornament design t-shirt</span></a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->

@@ -81,7 +81,7 @@
 		<meta itemprop="recordLabel" content="Deus ex Musica">
 	</div>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-012-ep</span>) <span itemprop="about">12"</span></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-012-ep</span>) <span itemprop="about">12" vinyl</span></p>
 		<meta itemprop="musicReleaseFormat" content="VinylFormat" />
 		<meta itemprop="identifier" data-name="gtin13" content="5063933834963">
 		<meta itemprop="copyrightYear" content="2026">

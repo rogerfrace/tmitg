@@ -70,7 +70,9 @@
 
 <div id="discog_buynow" tabindex="-1">
 	<h2 class="wai">Buy links</h2>
-	<div><SCRIPT charset="utf-8" src="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822/US/themachininth-20/8001/50545b15-3e26-44e5-844b-02983147fa44"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fthemachininth-20%2F8001%2F50545b15-3e26-44e5-844b-02983147fa44&amp;Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT></div>
+	<div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener noreferrer" itemprop="url" href="https://amzn.to/4ypGqkI" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazoncom.png" width="200" height="63" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B08DDHDLBQ&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
+	</div>
 </div>
 
 </div>

@@ -47,13 +47,14 @@
 	<tbody>
 	<tr>
 	<td>tMitG track:</td>
-	<td>
-	Dreamsleep
-	</td>
+	<td>Dreamsleep</td>
+	<td></td>
+	<td></td>
+	<td></td>
 	</tr>
 		
 	<tr>
-	<td>
+	<td colspan="5">
 	<small>Attrition cover.<br>Exclusive to this compilation.</small>
 	</td>
 	</tr>

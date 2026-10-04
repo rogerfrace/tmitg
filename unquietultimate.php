@@ -46,20 +46,18 @@
 	<tbody>
 	<tr>
 	<td>tMitG track:</td>
+	<td>Final Form</td>
 	<td>
-	Final Form
+		<?php do_lyrics("finalform"); ?>
 	</td>
 	<td>
-	<?php do_lyrics("finalform"); ?>
-	</td>
-	<td>
-	<?php do_mp3bc2("finalform","Final Form",1); ?>
+		<?php do_mp3bc2("finalform","Final Form",1); ?>
 	</td>
 	<td></td>
 	</tr>
 	
 	<tr>
-	<td>
+	<td colspan="5">
 	<small>Also available on <a href="underworld.php"><i>Underworld</i></a></small>
 	</td>
 	</tr>
@@ -75,7 +73,6 @@
 
 	<div><a rel="noopener noreferrer" href="https://geo.music.apple.com/us/album/unquiet-grave-the-ultimate-goth-collection/292251377?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=1220227200&h=326df2370c76495f135df73f4599a9fe" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
 </div> <!-- end buy button div -->
-
 
 </div>
 

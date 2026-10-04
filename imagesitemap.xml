@@ -913,5 +913,14 @@ xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
 		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
 	</image:image>
 </url>
+<url>
+	<loc>https://www.tmitg.com/impermanence.php</loc>
+	<image:image>
+		<image:loc>https://www.tmitg.com/albums/impermanence.jpg</image:loc>
+		<image:title>the Machine in the Garden: Impermanence</image:title>
+		<image:caption>EP cover art for the Machine in the Garden's Impermanence</image:caption>
+		<image:license>https://creativecommons.org/licenses/by-nd/4.0/</image:license>
+	</image:image>
+</url>
 
 </urlset>

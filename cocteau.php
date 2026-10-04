@@ -66,7 +66,7 @@
 
 <div id="discog_buynow" tabindex="-1">
 	<h2 class="wai">Buy links</h2>
-	<div itemprop="potentialAction" itemscope itemtype="https://schema.org/ListenAction"><a itemprop="target" rel="noopener noreferrer" href="https://open.spotify.com/album/4eh4MCtN0gCqIN2ejwhy93?si=eUgt3O4bS5urQaCXVwDCNg" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Spotify'});"><img src="images/listen-on-spotify.png" width="200" height="73" class="spotify" alt="Listen on Spotify" /></a></div>
+	<div><a rel="noopener noreferrer" href="https://open.spotify.com/album/4eh4MCtN0gCqIN2ejwhy93?si=eUgt3O4bS5urQaCXVwDCNg" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Spotify'});"><img src="images/listen-on-spotify.png" width="200" height="73" class="spotify" alt="Listen on Spotify" /></a></div>
 
 </div>
 	

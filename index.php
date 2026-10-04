@@ -163,7 +163,7 @@ require_once "functions.php";
 <main id="main">
 	<section aria-label="About tMitG">
 		<h2>About</h2>
-		<p class="notopmargin">The Machine in the Garden is an independent gothic/etherealwave duo featuring Roger Frac&eacute; and Summer Bowman. Since their formation in the early 1990s, Roger and Summer have developed and advanced their unique style through years of collaborating and intertwining their musical tastes. The band has developed their own unique style and released eight full-length albums and two EPs.</p>
+		<p class="notopmargin">the Machine in the Garden is the gothic-etherealwave-darkwave duo of Roger Fracé and Summer Bowman currently residing in Austin, Texas. Over three decades and ten studio releases, the band has built one of the genre’s most distinctive catalogs: music that moves between atmospheric darkness, goth rock, electronic, and ethereal without ever losing its unique identity.</p>
 	</section>
 
 	<section id="recentnews" aria-label="tMitG Recent News">

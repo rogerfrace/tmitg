@@ -93,7 +93,7 @@ $lyricsfile and videoname do not include .html
 
 
 <section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="https://schema.org/AggregateOffer">
-<? /*	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
+<?php /*	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="0.00">
 	<h2 class="wai">Buy links</h2>
 	

@@ -12,12 +12,6 @@
 	<meta property="og:image:alt" content="tMitG live in Austin TX 2006" />
 	<?php include_once "headers-additional.php"; ?>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-table-headers/0.1.24/js/jquery.stickytableheaders.min.js" integrity="sha512-Y4nnCsylqqK1jfmGLzXdbp1f8bp/FRHUUw1DH5nQU4FZjqkZcm0jshuOjDmmcU2iE0+uhm7bTXAHGeTi1yxfeQ==" crossorigin="anonymous"></script>  <script>
-	jQuery(document).ready(function() {
-		$('table#liveTable').stickyTableHeaders();
-	});
-	</script>
-
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
 	<?php include_once "googletracking.html"; ?>
 </head>
@@ -514,7 +508,7 @@
 
 </section>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 </body>
 </html>

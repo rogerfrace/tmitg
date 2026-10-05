@@ -206,24 +206,13 @@ $lyricsfile and videoname do not include .html
 <p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">DP</span></span>, <a href="http://www.side-line.com/reviews_comments.php?id=30484_0_17_0_C" target="_blank"><span itemprop="publisher">Side-Line</span></a></p>
 </blockquote>
 
-	</div> <!-- /revcontent -->
+	</div> <!-- end revcontent -->
 </section>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 <?php include_once "includes/amazonfooter.inc.php"; ?>
 
-<?php if (check_mobile()==true): ?>
-	<style type="text/css">
-		#reviews::before {content: "+ ";}
-		#reviews {background-color:#cccccc; padding:0.25em;}
-	</style>
-	<script>
-	jQuery(".revcontent").hide();
-	jQuery("#reviews").click(function() {
-		jQuery(".revcontent").toggle("fast");
-	});
-	</script>
-<?php endif; ?>
+<?php include_once "includes/mobilereviews.html"; ?>
 
 </body>
 </html>

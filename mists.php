@@ -122,7 +122,7 @@ $lyricsfile and videoname do not include .html
 	
 	<div><a rel="noopener noreferrer" href="https://geo.music.apple.com/us/album/out-of-the-mists/949293646?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=975628800&h=8d0acb41226c124a6ca2a5008895bca9" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
 		
-	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener noreferrer" itemprop="url" href="https://amzn.to/3kx6kNg" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B000QZU6PS&amp;camp=217153&amp;creative=399701" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener noreferrer" itemprop="url" href="https://amzn.to/3kx6kNg" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B000QZU6PS&amp;camp=217153&amp;creative=399701" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
 </section> <!-- end buy button div -->
 
 
@@ -143,24 +143,13 @@ $lyricsfile and videoname do not include .html
 <p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">coroner</span></span>, <a href="http://music.gothic.ru/review/07-03-01_e.htm" target="_blank"><span itemprop="publisher">Russian Gothic Page</a></p>
 </blockquote>
 
-	</div> <!-- /revcontent -->
+	</div> <!-- end revcontent -->
 </section>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 <?php include_once "includes/amazonfooter.inc.php"; ?>
 
-<?php if (check_mobile()==true): ?>
-	<style type="text/css">
-		#reviews::before {content: "+ ";}
-		#reviews {background-color:#cccccc; padding:0.25em;}
-	</style>
-	<script>
-	jQuery(".revcontent").hide();
-	jQuery("#reviews").click(function() {
-		jQuery(".revcontent").toggle("fast");
-	});
-	</script>
-<?php endif; ?>
+<?php include_once "includes/mobilereviews.html"; ?>
 
 </body>
 </html>

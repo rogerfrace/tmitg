@@ -310,24 +310,13 @@ Best described as ethereal darkwave, tMitG taps right into the legacy of the Coc
 <p>-<span itemprop="author"><a href="http://www.gothicparadise.com/tmitg.htm#rev2" target="_blank"><span itemprop="publisher">Gothic Paradise</span></a></span></p>
 </blockquote>
 
-	</div> <!-- /revcontent -->
+	</div> <!-- end revcontent -->
 </section>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 <?php include_once "includes/amazonfooter.inc.php"; ?>
 
-<?php if (check_mobile()==true): ?>
-	<style type="text/css">
-		#reviews::before {content: "+ ";}
-		#reviews {background-color:#cccccc; padding:0.25em;}
-	</style>
-	<script>
-	jQuery(".revcontent").hide();
-	jQuery("#reviews").click(function() {
-		jQuery(".revcontent").toggle("fast");
-	});
-	</script>
-<?php endif; ?>
+<?php include_once "includes/mobilereviews.html"; ?>
 
 </body>
 </html>

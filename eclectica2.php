@@ -46,33 +46,27 @@
 	<tbody>
 	<tr>
 	<td>tMitG track:</td>
+	<td>Suspend</td>
 	<td>
-	Suspend
-	</td>
-	<td>
-	<?php do_lyrics("suspend"); ?>
+		<?php do_lyrics("suspend"); ?>
 	</td>
 	<td></td>
 	<td>
-	<?php do_video("suspend",320,204); ?>
+		<?php do_video("suspend",320,204); ?>
 	</td>
 	</tr>
 	
 	<tr>
 	<td></td>
-	<td>
+	<td colspan="4">
 	<small>Alternate version available on <a href="shadowpuppets.php"><i>Shadow Puppets</i></a>.<br>
 	Available digitally on <a href="miscellany.php">Miscellany</a>.</small>
 	</td>
 	</tr>
 	
 	<tr>
-	<td>
-	Mirabilis track:
-	</td>
-	<td>
-	In the Dark (remix by Roger Frac&eacute;)
-	</td>
+	<td>Mirabilis track:</td>
+	<td>In the Dark (remix by Roger Frac&eacute;)</td>
 	<td></td>
 	<td></td>
 	<td></td>

@@ -75,10 +75,10 @@
 			<th scope="col" class="wai">Track Number</th>
 			<th scope="col" class="wai">Track Title</th>
 			<th scope="col" class="wai">Lyrics</th>
+			<th scope="col" class="wai">Notes</th>
 			<th scope="col" class="wai">Audio</th>
 			<th scope="col" class="wai">Video</th>
 		</tr>
-	</thead>
 	<tbody>
 <?php /*
 do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$videotitle,$notesfile,$isrc)
@@ -86,7 +86,6 @@ $lyricsfile and videoname do not include .html
 */ ?>
 
 <?php do_songtitle(1,"Space-Time","spacetime","spacetime-bc","spacetime.jpg","spacetime",NULL,NULL,"usl4r2647301"); ?>
-
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->
@@ -122,11 +121,11 @@ $lyricsfile and videoname do not include .html
 <p>-<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Rik</span></span>, <a href="http://pingthings.blogspot.com/2011/01/top-ten-for-2010.html" target="_blank"><span itemprop="publisher">Ping Things</span></a></p>
 </blockquote>
 
-	</div> <!-- /revcontent -->
+	</div> <!-- end revcontent -->
 </section>
 */ ?>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

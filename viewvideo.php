@@ -147,6 +147,39 @@ if (!empty($_GET['yt'])){
 			$sdesc="Official lyric video for &quot;Space-Time&quot; by the Machine in the Garden.";
 			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/iJ0sCc1bwBQ" frameborder="0" allowfullscreen></iframe>';
 			break;
+#the beginning of all things
+		case "beginning":
+			$stitle="&ldquo;The Beginning of All Things&rdquo; Official Video";
+			$sdesc="Official video for &quot;The Beginning of All Things&quot; by the Machine in the Garden.";
+			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/swqh9Z6ybC8" frameborder="0" allowfullscreen></iframe>';
+			break;
+#impermanence
+		case "impermanence":
+			$stitle="Impermanence teaser";
+			$sdesc="Official teaser video for &quot;Impermanence&quot; by the Machine in the Garden.";
+			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/mhUSXhgyEGE" frameborder="0" allowfullscreen></iframe>';
+			break;
+		case "theunwrittenway":
+			$stitle="&ldquo;The Unwritten Way&rdquo; Official Lyric Video";
+			$sdesc="Official lyric video for &quot;The Unwritten Way&quot; by the Machine in the Garden.";
+			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/nKtImizcGZg" frameborder="0" allowfullscreen></iframe>';
+			break;
+		case "divergence":
+			$stitle="&ldquo;Divergence&rdquo; Official Lyric Video";
+			$sdesc="Official lyric video for &quot;Divergence&quot; by the Machine in the Garden.";
+			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/Jj1R4YI4u7s" frameborder="0" allowfullscreen></iframe>';
+			break;
+		case "oderint":
+			$stitle="&ldquo;Oderint dum metuant&rdquo; Official Lyric Video";
+			$sdesc="Official lyric video for &quot;Oderint dum metuant&quot; by the Machine in the Garden.";
+			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/RCJSFBY-61Y" frameborder="0" allowfullscreen></iframe>';
+			break;
+		case "makethereason":
+			$stitle="&ldquo;Make the Reason&rdquo; Official Lyric Video";
+			$sdesc="Official lyric video for &quot;Make the Reason&quot; by the Machine in the Garden.";
+			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/6fxopXUdvVc" frameborder="0" allowfullscreen></iframe>';
+			break;
+
 	}
 } else {
 	die("no input");

@@ -57,8 +57,8 @@
 	</tr>
 	
 	<tr>
-	<td>
-	<small>Releasing 24 October 2015.<br>Exclusive remix to this compilation.<br>Original version available on <a href="storm.php"><i>Before and After the Storm</i></a></small>
+	<td colspan="5">
+	<small>Released 24 October 2015.<br>Exclusive remix to this compilation.<br>Original version available on <a href="storm.php"><i>Before and After the Storm</i></a></small>
 	</td>
 	</tr>
 	

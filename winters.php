@@ -143,24 +143,13 @@ $lyricsfile and videoname do not include .html
 <p>-<span itemprop="author"><a href="http://www.sortedmagazine.com/archive/magazine/sordid/aug99.htm#winters" target="_blank"><span itemprop="publisher">Sorted Magazine</span></a></span></p>
 </blockquote>
 
-	</div> <!-- /revcontent -->
+	</div> <!-- end revcontent -->
 </section>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 <?php include_once "includes/amazonfooter.inc.php"; ?>
 
-<?php if (check_mobile()==true): ?>
-	<style type="text/css">
-		#reviews::before {content: "+ ";}
-		#reviews {background-color:#cccccc; padding:0.25em;}
-	</style>
-	<script>
-	jQuery(".revcontent").hide();
-	jQuery("#reviews").click(function() {
-		jQuery(".revcontent").toggle("fast");
-	});
-	</script>
-<?php endif; ?>
+<?php include_once "includes/mobilereviews.html"; ?>
 
 </body>
 </html>

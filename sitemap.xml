@@ -10,6 +10,7 @@
 <url><loc>https://www.tmitg.com/arofv3.php</loc><changefreq>weekly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/asphodel.php</loc><changefreq>weekly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/attrition.php</loc><changefreq>weekly</changefreq><priority>0.64</priority></url>
+<url><loc>https://www.tmitg.com/beginning.php</loc><changefreq>weekly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/bets.php</loc><changefreq>weekly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/bio.php</loc><changefreq>weekly</changefreq><priority>0.80</priority></url>
 <url><loc>https://www.tmitg.com/butoh.php</loc><changefreq>weekly</changefreq><priority>0.64</priority></url>
@@ -27,6 +28,7 @@
 <url><loc>https://www.tmitg.com/excelsis.php</loc><changefreq>weekly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/hexfiles.php</loc><changefreq>weekly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/images.php</loc><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.tmitg.com/impermanence.php</loc><changefreq>weekly</changefreq><priority>0.80</priority></url>
 <url><loc>https://www.tmitg.com/legends.php</loc><changefreq>weekly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/links.php</loc><changefreq>weekly</changefreq><priority>0.80</priority></url>
 <url><loc>https://www.tmitg.com/live.php</loc><changefreq>weekly</changefreq><priority>0.80</priority></url>
@@ -132,6 +134,11 @@
 <url><loc>https://www.tmitg.com/lyrics/shadowydepths.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
 <url><loc>https://www.tmitg.com/lyrics/sixdays.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
 <url><loc>https://www.tmitg.com/lyrics/spacetime.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
+<url><loc>https://www.tmitg.com/lyrics/theunwrittenway.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
+<url><loc>https://www.tmitg.com/lyrics/thebeginningofallthings.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
+<url><loc>https://www.tmitg.com/lyrics/oderintdummetuant.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
+<url><loc>https://www.tmitg.com/lyrics/makethereason.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
+<url><loc>https://www.tmitg.com/lyrics/divergence.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
 <url><loc>https://www.tmitg.com/lyrics/spidersbride.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
 <url><loc>https://www.tmitg.com/lyrics/spiritandimage.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
 <url><loc>https://www.tmitg.com/lyrics/suspend.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
@@ -153,15 +160,6 @@
 <url><loc>https://www.tmitg.com/lyrics/winterfell.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
 <url><loc>https://www.tmitg.com/lyrics/wonderland.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
 <url><loc>https://www.tmitg.com/lyrics/wordsinheavenlost.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
-<url><loc>https://www.tmitg.com/news.php?item=086</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
-<url><loc>https://www.tmitg.com/news.php?item=087</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
-<url><loc>https://www.tmitg.com/news.php?item=088</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
-<url><loc>https://www.tmitg.com/news.php?item=089</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
-<url><loc>https://www.tmitg.com/news.php?item=090</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
-<url><loc>https://www.tmitg.com/news.php?item=091</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
-<url><loc>https://www.tmitg.com/news.php?item=092</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
-<url><loc>https://www.tmitg.com/news.php?item=093</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
-<url><loc>https://www.tmitg.com/news.php?item=094</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/news.php?item=095</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/news.php?item=096</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/news.php?item=097</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
@@ -171,6 +169,9 @@
 <url><loc>https://www.tmitg.com/news.php?item=100</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/news.php?item=101</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/news.php?item=102</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
+<url><loc>https://www.tmitg.com/news.php?item=103</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
+<url><loc>https://www.tmitg.com/news.php?item=104</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
+<url><loc>https://www.tmitg.com/news.php?item=105</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/news.php</loc><changefreq>weekly</changefreq><priority>0.80</priority></url>
 <url><loc>https://www.tmitg.com/notes/athousandyearsofwar.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
 <url><loc>https://www.tmitg.com/notes/cimmerian.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>

@@ -75,6 +75,7 @@
 			<th scope="col" class="wai">Track Number</th>
 			<th scope="col" class="wai">Track Title</th>
 			<th scope="col" class="wai">Lyrics</th>
+			<th scope="col" class="wai">Notes</th>
 			<th scope="col" class="wai">Audio</th>
 			<th scope="col" class="wai">Video</th>
 		</tr>
@@ -115,10 +116,10 @@ $lyricsfile and videoname do not include .html
 <meta itemprop="datePublished" content="2011-01-01">
 </blockquote>
 
-	</div> <!-- /revcontent -->
+	</div> <!-- end revcontent -->
 </section>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 <?php if (check_mobile()==true): ?>
 	<style type="text/css">

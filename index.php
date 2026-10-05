@@ -32,11 +32,8 @@ require_once "functions.php";
 	<link rel="manifest" href="/site.webmanifest">
 
 	<title>the Machine in the Garden</title>
-<?php if (check_mobile()==false): ?>
-	<link rel="preload" as="image" href="headers/images/home-portrait-643.jpg">
-<?php else: ?>
-	<link rel="preload" as="image" href="headers/images/home-portrait-379.jpg">
-<?php endif; ?>
+	<link rel="preload" as="image" href="headers/images/home2-portrait-500.jpg" media="(min-width: 640px)">
+	<link rel="preload" as="image" href="headers/images/home2-portrait-379.jpg" media="(max-width: 639px)">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preload" as="style" href="tmitg-mobile.css">

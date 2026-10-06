@@ -167,7 +167,7 @@ require_once "functions.php";
 		<!-- recent news section -->
 		<h2>Recent News</h2>
 		<?php
-			$pinned[0] = "105.php";
+			//$pinned[0] = "105.php";
 			$ndir = 'newsitems';
 			$nfiles = scandir($ndir, 1);
 			//print_r($pinned); print_r($nfiles); die();

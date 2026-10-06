@@ -32,11 +32,8 @@ require_once "functions.php";
 	<link rel="manifest" href="/site.webmanifest">
 
 	<title>the Machine in the Garden</title>
-<?php if (check_mobile()==false): ?>
-	<link rel="preload" as="image" href="headers/images/home-portrait-643.jpg">
-<?php else: ?>
-	<link rel="preload" as="image" href="headers/images/home-portrait-379.jpg">
-<?php endif; ?>
+	<link rel="preload" as="image" href="headers/images/home2-portrait-500.jpg" media="(min-width: 640px)">
+	<link rel="preload" as="image" href="headers/images/home2-portrait-379.jpg" media="(max-width: 639px)">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preload" as="style" href="tmitg-mobile.css">
@@ -163,15 +160,18 @@ require_once "functions.php";
 <main id="main">
 	<section aria-label="About tMitG">
 		<h2>About</h2>
-		<p class="notopmargin">The Machine in the Garden is an independent gothic/etherealwave duo featuring Roger Frac&eacute; and Summer Bowman. Since their formation in the early 1990s, Roger and Summer have developed and advanced their unique style through years of collaborating and intertwining their musical tastes. The band has developed their own unique style and released eight full-length albums and two EPs.</p>
+		<p class="notopmargin">the Machine in the Garden is the gothic-etherealwave-darkwave duo of Roger Fracé and Summer Bowman currently residing in Austin, Texas. Over three decades and ten studio releases, the band has built one of the genre’s most distinctive catalogs: music that moves between atmospheric darkness, goth rock, electronic, and ethereal without ever losing its unique identity.</p>
 	</section>
 
 	<section id="recentnews" aria-label="tMitG Recent News">
 		<!-- recent news section -->
 		<h2>Recent News</h2>
 		<?php
+			$pinned[0] = "105.php";
 			$ndir = 'newsitems';
 			$nfiles = scandir($ndir, 1);
+			//print_r($pinned); print_r($nfiles); die();
+			$nfiles = $pinned ? $pinned : scandir($ndir, 1);
 			include_once($ndir."/".$nfiles[0]);
 			//returns $pubdate $title $description
 			$ndate = strtotime($pubdate);

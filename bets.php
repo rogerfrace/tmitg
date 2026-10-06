@@ -47,13 +47,14 @@
 	<tbody>
 	<tr>
 	<td>tMitG track:</td>
-	<td>
-	Obsession
-	</td>
+	<td>Obsession</td>
+	<td></td>
+	<td></td>
+	<td></td>
 	</tr>
 		
 	<tr>
-	<td>
+	<td colspan="5">
 	<small>Animotion cover.<br>CD exclusive track. Available digitally on <a href="miscellany.php">Miscellany</a>.</small>
 
 	</td>

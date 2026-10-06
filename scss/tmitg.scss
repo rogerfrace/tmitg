@@ -1,12 +1,7 @@
 /* features */
 @import "compass";
 
-/* my colors */
-$altclr: #1579BC;
-/* this is the main blue-gray highlight color */
-$dkaltclr: #486178;
-
-/* all the shades of black and gray...*/
+/* all the shades...*/
 $white: #ffffff;
 $nearwhite: #eeeeee;
 $ltgray: #9c9c9c;
@@ -15,9 +10,9 @@ $fourgray: #444444;
 $dkgray: #333333;
 $nearblack: #222222;
 $black: #000000;
-$teal: #11659C;
-$darkteal: #036477;
-$ltteal: #75BFF0;
+$teal: #6D6CC1;
+$darkteal: #514FB5;
+$ltteal: #8B88CD;
 $darklight: #372231;
 $sectionbg: #2D2B65;
 /* dark purple for home img */
@@ -338,8 +333,7 @@ a.atcss:hover {
             font-variant: normal;
             text-decoration: none;
             font-size: 1.35em;
-            text-shadow: 1px 1px 1px $altclr;
-            filter: dropshadow(color=$dkaltclr, offx=1, offy=1);
+            text-shadow: 1px 1px 1px $teal;
         }
 
         .subtitle {
@@ -472,7 +466,7 @@ a.atcss:hover {
     }
 }
 
-@media screen and (max-width: 643px) {
+@media screen and (max-width: 639px) {
     #front {
         h1 .subtitle {
             font-size: 0.65em;
@@ -548,6 +542,7 @@ a.atcss:hover {
 
     .top li .iblock a {
         padding: 0 6px;
+        line-height: 1.6;
     }
 
     .bottom {
@@ -862,7 +857,7 @@ a.atcss:hover {
 
     a:hover img,
     a:focus img {
-        border: 2px solid $altclr;
+        border: 2px solid $teal;
     }
 
     a.current img,
@@ -1020,7 +1015,7 @@ iframe#sb-player {
         *clear: both;
 
         img.cover {
-            border: 1px solid $altclr;
+            border: 1px solid $teal;
         }
     }
 

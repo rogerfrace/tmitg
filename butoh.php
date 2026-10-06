@@ -46,20 +46,19 @@
 	<tbody>
 	<tr>
 	<td>tMitG tracks:</td>
+	<td>The Unaware <i>Smooth Motion Mix</i></td>
 	<td>
-	The Unaware <i>Smooth Motion Mix</i>
+		<?php do_lyrics("theunaware"); ?>
 	</td>
 	<td>
-	<?php do_lyrics("theunaware"); ?>
+		<?php do_mp3bc2("smoothmotionmix","The Unaware (smooth motion mix)",1); ?>
 	</td>
-	<td>
-	<?php do_mp3bc2("smoothmotionmix","The Unaware (smooth motion mix)",1); ?>
-	</td>
+	<td></td>
 	</tr>
 	
 	<tr>
 	<td></td>
-	<td>
+	<td colspan="4">
 	<small>Original version available on <a href="mists.php"><i>Out of the Mists</i></a><br>
 	Available digitally on <a href="miscellany.php">Miscellany</a>.</small>
 	</td>
@@ -67,18 +66,17 @@
 	
 	<tr>
 	<td></td>
+	<td>Midnight <i>Dancing There</i></td>
 	<td>
-	Midnight <i>Dancing There</i>
+		<?php do_lyrics("midnight"); ?>
 	</td>
-	<td>
-	<?php do_lyrics("midnight"); ?>
-	</td>
+	<td></td>
 	<td></td>
 	</tr>
 	
 	<tr>
 	<td></td>
-	<td>
+	<td colspan="4">
 	<small>Exclusive mix. 
 	<br>Original version available on <a href="winters.php"><i>One Winter's Night...</i></a><br>
 	Available digitally on <a href="miscellany.php">Miscellany</a>.</small>
@@ -88,11 +86,6 @@
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->
-	
-<div id="discog_buynow" tabindex="-1">
-	<h2 class="wai">Buy links</h2>
-	<div><SCRIPT charset="utf-8" src="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822/US/themachininth-20/8001/bca3c8ee-8084-4350-96cc-ed7829258313"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fthemachininth-20%2F8001%2Fbca3c8ee-8084-4350-96cc-ed7829258313&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT></div>
-</div>
 
 </div>
 

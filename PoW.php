@@ -46,14 +46,12 @@
 	<tbody>
 	<tr>
 	<td>tMitG track:</td>
+	<td>Far From Home</td>
 	<td>
-	Far From Home
+		<?php do_lyrics("farfromhome"); ?>
 	</td>
 	<td>
-	<?php do_lyrics("farfromhome"); ?>
-	</td>
-	<td>
-	<?php do_mp3bc2("farfromhome","Far From Home",1); ?>
+		<?php do_mp3bc2("farfromhome","Far From Home",1); ?>
 	</td>
 	<td></td>
 	</tr>
@@ -67,12 +65,6 @@
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->
-
-
-<!-- <div id="discog_buynow" tabindex="-1">
-		<h2 class="wai">Buy links</h2>
-</div> --> <!-- end buy button div -->
-
 
 </div>
 

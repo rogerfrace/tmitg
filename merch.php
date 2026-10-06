@@ -50,15 +50,17 @@
 
 <h1 class="wai">the Machine in the Garden merchandise</h1>
 
-<section aria-label="Where to Buy">
-	<p>Physical products are sold through <a rel="noopener noreferrer" href="https://tmitg.bandcamp.com/merch">Bandcamp</a>.</p>
+<ul aria-label="Where to Buy">
+	<li>Physical products are sold through <a rel="noopener noreferrer" href="https://tmitg.bandcamp.com/merch">Bandcamp</a></li>
 	
-	<p><a rel="noopener noreferrer" href="https://music.apple.com/us/artist/the-machine-in-the-garden/5985533?itsct=music_box&itscg=30200&at=1000l35Bw&ls=1&app=music">Listen on Apple Music</a></p>
+	<li>Some t-shirt designs are sold through <a rel="noopener noreferrer" href="https://tonethreads.com/tmitg">ToneThreads</a></li>
 	
-	<p><a rel="noopener noreferrer" href="https://open.spotify.com/artist/4XD8OHY6EPmFObxYhXUg5Y?si=JCN-IFLuSImDHEwA-0tPnw">Listen on Spotify</a></p>
+	<li><a rel="noopener noreferrer" href="https://music.apple.com/us/artist/the-machine-in-the-garden/5985533?itsct=music_box&itscg=30200&at=1000l35Bw&ls=1&app=music">Listen on Apple Music</a></li>
 	
-	<p>You can also find the Machine in the Garden on <a rel="noopener noreferrer" href="https://amzn.to/3iIbi9c">amazon.com</a>.</p>
-</section>
+	<li><a rel="noopener noreferrer" href="https://open.spotify.com/artist/4XD8OHY6EPmFObxYhXUg5Y?si=JCN-IFLuSImDHEwA-0tPnw">Listen on Spotify</a></li>
+	
+	<li>You can stream or buy digital or CDs from <a rel="noopener noreferrer" href="https://amzn.to/3iIbi9c">amazon.com</a></li>
+</ul>
 
 <hr />
 
@@ -537,6 +539,44 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
+	<a role="button" aria-haspopup="dialog" href="images/nebulashirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="impermanence nebula t-shirt" title="impermanence nebula t-shirt"><img src="/images/nebulashirtico.jpg" alt="tmitg impermanence nebula t-shirt" /></a>
+	<meta property="image" content="https://www.tmitg.com/images/nebulashirt.jpg" />
+</div>
+<div class="itemdesc">
+	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
+	<em property="name">"Impermanence nebula" t-shirt</em></h2>
+	<span property="description">(The Lion Nebula from the cover of the Impermanence EP - click picture to view larger image)</span>
+	<div class="pricecart" property="offers" typeof="Offer">
+		<strong class="price" property="price" content="15.00">$15</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
+		<meta property="availability" content="https://schema.org/OnlineOnly">
+		<meta property="priceCurrency" content="USD" />
+		<a class="atcss" href="https://shop.tonethreads.com/products/the-machine-in-the-garden-impermanence-nebula-shirt-black-unisex-t-shirt-35013" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'ToneThreads'});">Buy Now <span class="wai">: impermanence nebula t-shirt</span></a>
+	</div>
+</div>
+</section> <!-- /itemcontainer -->
+
+<section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
+<div class="itempic">
+	<a role="button" aria-haspopup="dialog" href="images/leafgirlshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="leafgirl t-shirt" title="leafgirl t-shirt"><img src="/images/leafgirlshirtico.jpg" alt="tmitg leafgirl t-shirt" /></a>
+	<meta property="image" content="https://www.tmitg.com/images/leafgirlshirt.jpg" />
+</div>
+<div class="itemdesc">
+	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
+	<em property="name">"Leafgirl" t-shirt</em></h2>
+	<span property="description">(magenta on black: a recreation of our very first shirt design from 1998! - click picture to view larger image)</span>
+	<div class="pricecart" property="offers" typeof="Offer">
+		<strong class="price" property="price" content="15.00">$15</strong>
+		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
+		<meta property="availability" content="https://schema.org/OnlineOnly">
+		<meta property="priceCurrency" content="USD" />
+		<a class="atcss" href="https://shop.tonethreads.com/products/the-machine-in-the-garden-leafgirl-shirt-black-unisex-t-shirt-34255" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'ToneThreads'});">Buy Now <span class="wai">: leafgirl t-shirt</span></a>
+	</div>
+</div>
+</section> <!-- /itemcontainer -->
+
+<section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
+<div class="itempic">
 	<a role="button" aria-haspopup="dialog" href="images/tealshirt.jpg" class="imglink" data-title="tMitG t-shirts" data-alt="vintage ornament design t-shirt" title="vintage ornament design t-shirt"><img src="/images/tealshirtico.jpg" alt="tmitg vintage ornament design t-shirt" /></a>
 	<meta property="image" content="https://www.tmitg.com/images/tealshirt.jpg" />
 </div>
@@ -545,11 +585,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	<em property="name">"vintage ornament" design t-shirt</em></h2>
 	<span property="description">(teal "vintage ornament" design with silver text, black short sleeve, unisex or ladies cut v-neck - click picture to view larger image)</span>
 	<div class="pricecart" property="offers" typeof="Offer">
-		<strong class="price" property="price" content="12.00">$12</strong>
+		<strong class="price" property="price" content="15.00">$15</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
-		<a class="atcss" href="https://tmitg.bandcamp.com/merch/tmitg-vintage-ornament-design-t-shirt" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: vintage ornament design t-shirt</span></a>
+		<a class="atcss" href="https://shop.tonethreads.com/products/the-machine-in-the-garden-vintage-ornament-shirt-black-unisex-t-shirt-33561" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'ToneThreads'});">Buy Now <span class="wai">: vintage ornament design t-shirt</span></a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->

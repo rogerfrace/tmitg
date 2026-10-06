@@ -52,11 +52,12 @@
 	<?php do_lyrics("wonderland"); ?>
 	</td>
 	<td></td>
+	<td></td>
 	</tr>
 	
 	<tr>
 	<td></td>
-	<td>
+	<td colspan="4">
 	<small>Also available on <a href="xv.php"><i>XV</i></a><br>Original version available on <a href="asphodel.php"><i>Asphodel</i></a></small>
 	</td>
 	</tr>
@@ -72,11 +73,12 @@
 	<td>
 	<?php do_mp3bc2("theinsideworld","The Inside World",1); ?>
 	</td>
+	<td></td>
 	</tr>
 	
 	<tr>
 	<td></td>
-	<td>
+	<td colspan="4">
 	<small>Also available on <a href="shadowpuppets.php"><i>Shadow Puppets</i></a></small>
 	</td>
 	</tr>

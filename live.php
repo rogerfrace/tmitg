@@ -11,9 +11,7 @@
 	<meta property="og:image" content="https://www.tmitg.com/photos/elysium06b.jpg" />
 	<meta property="og:image:alt" content="tMitG live in Austin TX 2006" />
 	<?php include_once "headers-additional.php"; ?>
-
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
-	<?php include_once "googletracking.html"; ?>
 </head>
 
 <body id="live">

@@ -215,7 +215,6 @@
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<link rel="stylesheet" type="text/css" href="tmitg.css">
 	<?php include_once "headers-additional.php"; ?>
-	<?php include_once "googletracking.html"; ?>
 </head>
 
 <body id="discog">

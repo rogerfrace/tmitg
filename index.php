@@ -93,7 +93,7 @@ require_once "functions.php";
 		]
 	}
 	</script>
-	<?php include_once "googletracking.html"; ?>
+	<?php include_once __DIR__ . "/includes/googletracking.html"; ?>
 </head>
 
 <body id="front">

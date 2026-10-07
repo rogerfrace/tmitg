@@ -195,7 +195,7 @@ if (!empty($_GET['yt'])){
 	<?php echo '<link rel="canonical" href="https://www.tmitg.com'.$_SERVER['PHP_SELF'].'?yt='.htmlspecialchars($_GET['yt'], ENT_QUOTES, 'UTF-8').'">
 '; ?>
 	<link rel="stylesheet" type="text/css" href="../tmitg.css" />
-	<?php include_once "googletracking.html"; ?>
+	<?php include_once __DIR__ . "/includes/googletracking.html"; ?>
 </head>
 
 <body id="video">

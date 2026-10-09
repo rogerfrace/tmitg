@@ -317,7 +317,7 @@ if (!empty($_GET['bcsample'])){
 	<meta name="description" content="Audio sample for &quot;<?=$stitle;?>&quot; from &quot;<?=$salbum;?>&quot;." />
 	<meta content="minimum-scale=1.0, initial-scale=1" name="viewport" />
 	<link rel="stylesheet" type="text/css" href="../tmitg.css" />
-	<?php include_once "googletracking.html"; ?>
+	<?php include_once __DIR__ . "/includes/googletracking.html"; ?>
 </head>
 
 <body id="video">

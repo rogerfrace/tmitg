@@ -142,6 +142,7 @@
 			<div class="videocol">
 				<h2>video clips</h2>
 				<p><?php do_video("spacetime","Space-Time"); ?></p>
+				<p><?php do_video("beginning","The Beginning of All Things"); ?></p>
 			</div>
 		</div>
 	</div>

@@ -6,7 +6,6 @@
     <title>the Machine in the Garden - Policies</title>
 	<?php include_once "headers-additional.php"; ?>
     <link rel="stylesheet" type="text/css" href="tmitg.css" />
-	<?php include_once "googletracking.html"; ?>
 </head>
 <body>
 

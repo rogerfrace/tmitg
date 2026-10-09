@@ -191,7 +191,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	(<span property="description">full-length CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
 		<a property="url" href="/xv.php">more information <span class="wai">about XV</span></a><br />
-		<strong class="price" property="price" content="7.00">$7</strong>
+		<strong class="price" property="price" content="7.50">$7.50</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />

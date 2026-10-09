@@ -147,6 +147,12 @@ if (!empty($_GET['yt'])){
 			$sdesc="Official lyric video for &quot;Space-Time&quot; by the Machine in the Garden.";
 			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/iJ0sCc1bwBQ" frameborder="0" allowfullscreen></iframe>';
 			break;
+#the beginning of all things
+		case "beginning":
+			$stitle="&ldquo;The Beginning of All Things&rdquo; Official Video";
+			$sdesc="Official video for &quot;The Beginning of All Things&quot; by the Machine in the Garden.";
+			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/swqh9Z6ybC8" frameborder="0" allowfullscreen></iframe>';
+			break;
 #impermanence
 		case "impermanence":
 			$stitle="Impermanence teaser";
@@ -173,11 +179,6 @@ if (!empty($_GET['yt'])){
 			$sdesc="Official lyric video for &quot;Make the Reason&quot; by the Machine in the Garden.";
 			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/6fxopXUdvVc" frameborder="0" allowfullscreen></iframe>';
 			break;
-		case "beginning":
-			$stitle="&ldquo;The Beginning of All Things&rdquo; Official Lyric Video";
-			$sdesc="Official lyric video for &quot;The Beginning of All Things&quot; by the Machine in the Garden.";
-			$siframe='<iframe title="YouTube: '.$stitle.'" width="480" height="360" src="https://www.youtube.com/embed/xxxxxyyyyyyy" frameborder="0" allowfullscreen></iframe>';
-			break;
 
 	}
 } else {
@@ -194,7 +195,7 @@ if (!empty($_GET['yt'])){
 	<?php echo '<link rel="canonical" href="https://www.tmitg.com'.$_SERVER['PHP_SELF'].'?yt='.htmlspecialchars($_GET['yt'], ENT_QUOTES, 'UTF-8').'">
 '; ?>
 	<link rel="stylesheet" type="text/css" href="../tmitg.css" />
-	<?php include_once "googletracking.html"; ?>
+	<?php include_once __DIR__ . "/includes/googletracking.html"; ?>
 </head>
 
 <body id="video">

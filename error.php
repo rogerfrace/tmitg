@@ -7,7 +7,6 @@
 	<script src="/tmitg.js"></script>
 	<?php include_once "headers-additional.php"; ?>
 	<link rel="stylesheet" type="text/css" href="/tmitg.css"> 
-	<?php include_once "googletracking.html"; ?>
 </head>
 
 <body>

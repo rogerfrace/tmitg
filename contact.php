@@ -8,7 +8,7 @@
 	<meta name="copyright" content="<?=date('Y',time());?>" />
 	<?php include_once "headers-additional.php"; ?>
 	<link rel="stylesheet" type="text/css" href="tmitg.css" />
-	<?php include_once "googletracking.html"; ?>
+	<?php include_once __DIR__ . "/includes/googletracking.html"; ?>
 </head>
 
 <body id="contact">
@@ -56,7 +56,7 @@
 </div> <!-- /flexwrapper -->
 
 <div style="clear:both;"></div>
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 </body>
 </html>

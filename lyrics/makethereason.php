@@ -44,7 +44,7 @@ Conscious of ambiguity<br>
 Toiling around in obscurity<br>
 Who would know? There’s no predicting<br>
 Who can shape the world?<br>
-Who leaves a mark imprinted<br>
+Who leaves a mark imprinted?<br>
 Will you forget, will you make peace?<br>
 Will you live on in a memory, at least?</p>
 

@@ -48,36 +48,34 @@
 	<tbody>
 	<tr>
 	<td>tMitG tracks:</td>
+	<td>Wonderland</td>
 	<td>
-	Wonderland
+		<?php do_lyrics("wonderland"); ?>
 	</td>
-	<td>
-	<?php do_lyrics("wonderland"); ?>
-	</td>
+	<td></td>
 	<td></td>
 	</tr>
 	
 	<tr>
 	<td></td>
-	<td>
+	<td colspan="4">
 	<small>Alternate version available on <a href="asphodel.php"><i>Asphodel</i></a>.</small>
 	</td>
 	</tr>
 	
 	<tr>
 	<td></td>
+	<td>Radiant</td>
 	<td>
-	Radiant
+		<?php do_lyrics("radiant"); ?>
 	</td>
-	<td>
-	<?php do_lyrics("radiant"); ?>
-	</td>
+	<td></td>
 	<td></td>
 	</tr>
 	
 	<tr>
 	<td></td>
-	<td>
+	<td colspan="4">
 	<small>Also available on <a href="mists.php"><i>Out of the Mists</i></a>.</small>
 	</td>
 	</tr>

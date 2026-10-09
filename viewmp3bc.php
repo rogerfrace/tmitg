@@ -304,7 +304,6 @@ if (!empty($_GET['bcsample'])){
 			$salbum="Impermanence";
 			$siframe='<iframe title="'.$stitle.' sample" style="border: 0; width: 280px; height: 422px;" src="https://bandcamp.com/EmbeddedPlayer/album=3433803476/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/transparent=true/" seamless><a href="https://tmitg.bandcamp.com/track/the-beginning-of-all-things">The Beginning of All Things by the Machine in the Garden</a></iframe>';
 			break;
-
 	}
 } else {
 	die("no input");
@@ -318,7 +317,7 @@ if (!empty($_GET['bcsample'])){
 	<meta name="description" content="Audio sample for &quot;<?=$stitle;?>&quot; from &quot;<?=$salbum;?>&quot;." />
 	<meta content="minimum-scale=1.0, initial-scale=1" name="viewport" />
 	<link rel="stylesheet" type="text/css" href="../tmitg.css" />
-	<?php include_once "googletracking.html"; ?>
+	<?php include_once __DIR__ . "/includes/googletracking.html"; ?>
 </head>
 
 <body id="video">

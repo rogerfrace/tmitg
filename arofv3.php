@@ -46,22 +46,18 @@
 	<tbody>
 		<tr>
 		<td>tMitG track:</td>
+		<td>Shadowy Depths</td>
 		<td>
-		Shadowy Depths
+			<?php do_lyrics("shadowydepths"); ?>
 		</td>
 		<td>
-		<?php do_lyrics("shadowydepths"); ?>
+			<?php do_mp3bc2("shadowydepths","Shadowy Depths",1); ?>
 		</td>
-		<td>
-		<?php do_mp3bc2("shadowydepths","Shadowy Depths",1); ?>
-		</td>
-		<td>
-		&nbsp;
-		</td>
+		<td></td>
 		</tr>
 		
 		<tr>
-		<td colspan="2">
+		<td colspan="5">
 		<small>Also available on <a href="underworld.php"><i>Underworld</i></a></small>
 		</td>
 		</tr>	

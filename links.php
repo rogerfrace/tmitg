@@ -8,8 +8,12 @@
 	<meta name="description" content="the Machine in the Garden's favorite and useful web links">
 	<title>the Machine in the Garden - links</title>
 	<meta property="og:url" content="https://www.tmitg.com/links.php" />
-	<meta property="og:image" content="https://www.tmitg.com/photos/PiB-IMG_3840.jpg" />
-	<meta property="og:image:alt" content="Roger and Summer in a Victorian-inspired photo session" />
+	<meta property="og:image" content="https://www.tmitg.com/photos/2026-IMG_7871.jpg" />
+	<meta property="og:image:alt" content="Summer and Roger of the Machine in the Garden standing mostly back-to-back on a plain white background" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image:width" content="1105" />
+	<meta property="og:image:height" content="1000" />
+    <meta property="og:locale" content="en_US" />
 	<?php include_once "headers-additional.php"; ?>
 </head>
 
@@ -58,6 +62,7 @@
 <a href="#top" class="btt">back to top&rarr;</a>
 <ul>
 <li><a rel="me noopener external" href="https://tmitg.bandcamp.com/" target="_blank">tMitG on Bandcamp</a></li>
+<li><a rel="me noopener external" href="https://elasticstage.com/tmitg" target="_blank">tMitG CDs and vinyl at ElasticStage</a></li>
 <li><a rel="me noopener external" href="https://tonethreads.com/tmitg" target="_blank">tMitG t-shirts at ToneThreads</a></li>
 <li><a rel="me noopener external" href="https://www.amazon.com/The-Machine-in-the-Garden/e/B000APJSZI/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=themachininth-20&linkId=434b5d1887e4dda3df19fe0ab65e82ee&language=en_US" target="_blank">tMitG on Amazon MP3</a><img src="https://www.assoc-amazon.com/e/ir?t=themachininth-20&amp;l=as2&amp;o=1&amp;a=B000QK6ULW" width="1" height="1" alt="" style="border:none !important; margin:0px !important;"></li>
 <li><a rel="me noopener external" href="https://music.apple.com/us/artist/the-machine-in-the-garden/5985533?itsct=music_box&itscg=30200&at=1000l35Bw&ls=1&app=music" target="_blank">tMitG on Apple Music</a></li>
@@ -172,7 +177,7 @@
 </ul>
 </section>
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 <!-- append tracking -->
 <script>

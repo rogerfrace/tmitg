@@ -72,6 +72,7 @@
 			<th scope="col" class="wai">Track Number</th>
 			<th scope="col" class="wai">Track Title</th>
 			<th scope="col" class="wai">Lyrics</th>
+			<th scope="col" class="wai">Notes</th>
 			<th scope="col" class="wai">Audio</th>
 			<th scope="col" class="wai">Video</th>
 		</tr>
@@ -110,7 +111,7 @@ $lyricsfile and videoname do not include .html
 </section> <!-- end buy button div -->
 		
 
-</main> <!-- /mainbody -->
+</main> <!-- end mainbody -->
 
 </body>
 </html>

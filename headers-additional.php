@@ -19,7 +19,7 @@
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
-<?php $skip_colorbox_pages = array('/bio.php', '/contact.php', '/discog.php', '/links.php', '/live.php', '/news.php'); ?>
+<?php $skip_colorbox_pages = array('/bio.php', '/contact.php', '/discog.php', '/links.php', '/live.php', '/news.php', '/policy.php'); ?>
 <?php if (check_mobile() == false && !in_array($_SERVER['PHP_SELF'], $skip_colorbox_pages, true)): ?>
 <!-- colorbox -->
 <link rel="stylesheet" type="text/css" href="/css/colorbox.css">
@@ -29,4 +29,4 @@
 <script src="tmitg.js" defer></script>
 <?php include_once "fontawesome.inc.php"; ?>
 <link rel="stylesheet" type="text/css" href="tmitg.css">
-<?php include_once "googletracking.html"; ?>
+<?php include_once __DIR__ . "/includes/googletracking.html"; ?>

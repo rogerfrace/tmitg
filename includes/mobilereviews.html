@@ -1,0 +1,30 @@
+<style>
+    @media (max-width: 767px) {
+        #reviews::before { content: "+ "; }
+        #reviews { background-color: #cccccc; padding: 0.25em; cursor: pointer; }
+    }
+</style>
+<script>
+jQuery(document).ready(function() {
+	jQuery(function () {
+		const viewport = window.matchMedia("(max-width: 767px)");
+		const $heading = jQuery("#reviews");
+		const $content = jQuery(".revcontent");
+		function toggleReviews() {
+			$content.toggle("fast");
+		}
+		function updateReviews() {
+			$heading.off("click", toggleReviews);
+	
+			if (viewport.matches) {
+				$content.hide();
+				$heading.on("click", toggleReviews);
+			} else {
+				$content.show();
+			}
+		}
+		updateReviews();
+		viewport.addEventListener("change", updateReviews);
+	});
+});
+</script>

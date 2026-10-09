@@ -46,14 +46,12 @@
 	<tbody>
 	<tr>
 	<td>tMitG track:</td>
+	<td>Seek</td>
 	<td>
-	Seek
+		<?php do_lyrics("seek"); ?>
 	</td>
 	<td>
-	<?php do_lyrics("seek"); ?>
-	</td>
-	<td>
-	<?php do_mp3bc2("seek","Seek",1); ?>
+		<?php do_mp3bc2("seek","Seek",1); ?>
 	</td>
 	<td></td>
 	</tr>
@@ -67,12 +65,6 @@
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->
-
-
-<div id="discog_buynow" tabindex="-1">
-		<h2 class="wai">Buy links</h2>
-</div> <!-- end buy button div -->
-	
   
 </div>
 

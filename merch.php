@@ -90,7 +90,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 ?>
 <div role="region" aria-label="TMITG albums">
 
-<?php /* <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
+<section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
 	<img src="/albums/impermanenceico.jpg" alt="Impermanence CD" property="image" />
 </div>
@@ -102,11 +102,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	(<span property="description">Digital EP</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
 		<a property="url" href="/impermanence.php">more information <span class="wai">about Impermanence</span></a><br />
-		<strong class="price" property="price" content="8.00">$8</strong>
+		<strong class="price" property="price" content="6.00">$6</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
-		<meta property="gtin12" content="123456789" />
+		<meta property="gtin12" content="885000561108" />
 		<div property="hasMerchantReturnPolicy" typeof="MerchantReturnPolicy">
 			<meta property="merchantReturnLink" content="https://www.tmitg.com/policy.php" />
 		</div>
@@ -120,7 +120,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 		<a class="atcss" href="https://tmitg.bandcamp.com/album/impermanence" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Digital <span class="wai">: Impermanence</span></a>
 	</div>
 </div>
-</section> <!-- /itemcontainer --> */ ?>
+</section> <!-- /itemcontainer -->
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">

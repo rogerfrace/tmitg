@@ -78,7 +78,7 @@
 <!--	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p>(<span itemprop="catalogNumber">dxm-012-ep</span>) <span itemprop="about">12"</span> releasing <time datetime="2020-10-30" itemprop="datePublished">30 October 2026</time></p>
 		<meta itemprop="musicReleaseFormat" content="VinylFormat" />
-		<meta itemprop="gtin13" content="5063933834963">
+		<meta itemprop="gtin13" content="5063933957846">
 	</div>-->
 
 </section> <!-- end album info div -->

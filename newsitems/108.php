@@ -4,7 +4,7 @@ $pubdate = "Fri, 16 Oct 2026 07:30:00 CDT";
 $title = "New EP: Impermanence — pre-order now available";
 $description = "<img itemprop=\"image\" src=\"https://www.tmitg.com/albums/impermanence.jpg\" alt=\"Impermanence\" />
 
-<p>the Machine in the Garden's new EP, ‘Impermanence,’ is now available to pre-order. Digital pre-order can be made on <a href=\"https://tmitg.bandcamp.com\">tMitG’s Bandcamp shop</a>, and CD pre-order can be made on <a href=\"https://elasticstage.com/tmitg\">tMitG’s ElasticStage shop</a>. <strong>Note: the vinyl edition is delayed due to quality issues. Stay tuned!</strong></p>
+<p>the Machine in the Garden's new EP, ‘Impermanence,’ is now available to pre-order. Digital pre-order can be made on <a href=\"https://tmitg.bandcamp.com\">tMitG’s Bandcamp shop</a>, and CD pre-order can be made on <a href=\"https://elasticstage.com/tmitg\">tMitG’s ElasticStage shop</a>. <strong>Note: the vinyl edition is delayed due to problems with the test pressing. Stay tuned!</strong></p>
 
 
 <p>the Machine in the Garden is ‘Impermanence’ is the band's tenth studio release and second EP in their catalog, releasing on October 30th.</p>

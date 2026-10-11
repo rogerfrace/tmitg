@@ -125,7 +125,7 @@ $lyricsfile and videoname do not include .html
 
 	<fieldset><legend>CD &amp; Vinyl</legend>
 	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="ElasticStage"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="15.00"><a rel="noopener noreferrer" itemprop="url" href="https://elasticstage.com/tmitg" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'ElasticStage'});"><img src="images/elasticstage.png" width="200" height="73" class="bandcamp" alt="Available at ElasticStage" /></a></div>
-	<div><small><strong>Note: the vinyl edition is delayed due to quality issues. Stay tuned!</strong></small></div>
+	<div><small><strong>Note: the vinyl edition is delayed due to problems with the test pressing. Stay tuned!</strong></small></div>
 	</fieldset>
 	<br>
 	<fieldset><legend>Digital</legend>

@@ -85,7 +85,7 @@ do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$vide
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"Space-Time","spacetime","spacetime-bc","spacetime.jpg","spacetime",NULL,NULL,"usl4r2647301"); ?>
+<?php do_songtitle(1,"Space-Time","spacetime","spacetimesingle-bc","spacetime.jpg","spacetime",NULL,NULL,"usl4r2647301"); ?>
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->

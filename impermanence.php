@@ -107,12 +107,12 @@ do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$vide
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"The Unwritten Way","theunwrittenway",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602304"); ?>
-<?php do_songtitle(2,"Space-Time","spacetime",NULL,"impermanence.jpg","spacetime",NULL,NULL,"usx9p2602305"); ?>
-<?php do_songtitle(3,"Divergence","divergence",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602306"); ?>
-<?php do_songtitle(4,"Oderint dum metuant","oderintdummetuant",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602307"); ?>
-<?php do_songtitle(5,"Make the Reason","makethereason",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602308"); ?>
-<?php do_songtitle(6,"The Beginning of All Things","thebeginningofallthings",NULL,"impermanence.jpg","beginning","The Beginning of All Things",NULL,"usx9p2602309"); ?>
+<?php do_songtitle(1,"The Unwritten Way","theunwrittenway","theunwrittenway-bc","impermanence.jpg",NULL,NULL,"theunwrittenway","usx9p2602304"); ?>
+<?php do_songtitle(2,"Space-Time","spacetime","spacetimeep-bc","impermanence.jpg","spacetime",NULL,"spacetime","usx9p2602305"); ?>
+<?php do_songtitle(3,"Divergence","divergence","divergence-bc","impermanence.jpg",NULL,NULL,"divergence","usx9p2602306"); ?>
+<?php do_songtitle(4,"Oderint dum metuant","oderintdummetuant","oderintdummetuant-bc","impermanence.jpg",NULL,NULL,"oderintdummetuant","usx9p2602307"); ?>
+<?php do_songtitle(5,"Make the Reason","makethereason","makethereason-bc","impermanence.jpg",NULL,NULL,"makethereason","usx9p2602308"); ?>
+<?php do_songtitle(6,"The Beginning of All Things","thebeginningofallthings","thebeginningofallthings-bc","impermanence.jpg","beginning","The Beginning of All Things","thebeginningofallthings","usx9p2602309"); ?>
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->

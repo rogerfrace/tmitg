@@ -117,8 +117,8 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 				<meta property="addressRegion" content="Texas" />
 			</div>
 		</div>
-		<div><a class="atcss" href="https://tmitg.bandcamp.com/album/impermanence" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Pre-order Digital <span class="wai">: Impermanence</span></a></div>
-		<div style="margin-top:3px;"><a class="atcss" href="https://elasticstage.com/tmitg" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'ElasticStage'});">Pre-order CD or (soon) Vinyl <span class="wai">: Impermanence</span></a></div>
+		<div><a class="atcss" href="https://tmitg.bandcamp.com/album/impermanence" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Digital <span class="wai">: Impermanence</span></a></div>
+		<div style="margin-top:3px;"><a class="atcss" href="https://elasticstage.com/tmitg" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'ElasticStage'});">Buy CD or (soon) Vinyl <span class="wai">: Impermanence</span></a></div>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->

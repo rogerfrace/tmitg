@@ -47,10 +47,10 @@
 		<meta itemprop="sameAs" content="https://tmitg.bandcamp.com" />
 		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
-	<!--<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/impermanence" />
-	<meta itemprop="sameAs" content="https://www.discogs.com/master/1776278-The-Machine-In-The-Garden-Places-In-Between" />
+	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/impermanence" />
+<!--	<meta itemprop="sameAs" content="https://www.discogs.com/master/1776278-The-Machine-In-The-Garden-Places-In-Between" />
 	<meta itemprop="sameAs" content="https://music.apple.com/us/album/impermanence/1524569511" />
-	<meta itemprop="sameAs" content="https://www.amazon.com/Places-Between-Machine-Garden/dp/B08DDHDLBQ/" />-->
+	<meta itemprop="sameAs" content="https://www.amazon.com/Places-Between-Machine-Garden/dp/B08DDHDLBQ/" /> -->
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 
@@ -66,26 +66,22 @@
 	<p itemprop="abstract"><em>Six songs exploring impermanence, fate, loss, and the existential work of dealing with circumstances beyond one’s control, 'Impermanence' is tMitG's first new release in six years. Tighter in focus and stripped down to just the machine and voice, it's still as rich, engaging, and emotional as anything that's come before it.</em></p>
 
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin"><span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br>
-		EP releasing <time datetime="2026-10-30" itemprop="datePublished">30 October 2026</time></p>
-
-		<p class="nobottommargin">(<span itemprop="catalogNumber">dxm-012-dig</span>) Digital</p>
+		<p><span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br>releasing <time datetime="2026-10-30" itemprop="datePublished">30 October 2026</time></p>
+		<p class="notopmargin nobottommargin">(<span itemprop="catalogNumber">dxm-012-dig</span>) Digital</p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
-		<meta itemprop="identifier" data-name="gtin12" content="885000561108">
+		<meta itemprop="identifier" data-upc="gtin12" content="885000561108">
 	</div>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
 		<p class="notopmargin nobottommargin">(<span itemprop="catalogNumber">dxm-012-cd</span>) <span itemprop="about">CD</span></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
-		<meta itemprop="identifier" data-name="gtin13" content="5063933837896">
-		<meta itemprop="copyrightYear" content="2026">
-		<meta itemprop="recordLabel" content="Deus ex Musica">
+		<meta itemprop="datePublished" content="2026-10-30" />
+		<meta itemprop="identifier" data-upc="gtin13" content="5063933837896">
 	</div>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-012-ep</span>) <span itemprop="about">12" vinyl</span></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-012-ep</span>) <span itemprop="about">12"</span></p>
 		<meta itemprop="musicReleaseFormat" content="VinylFormat" />
-		<meta itemprop="identifier" data-name="gtin13" content="5063933834963">
-		<meta itemprop="copyrightYear" content="2026">
-		<meta itemprop="recordLabel" content="Deus ex Musica">
+		<meta itemprop="datePublished" content="2026-10-30" />
+		<meta itemprop="identifier" data-upc="gtin13" content="5063933957846">
 	</div>
 
 </section> <!-- end album info div -->
@@ -116,36 +112,43 @@ $lyricsfile and videoname do not include .html
 <?php do_songtitle(3,"Divergence","divergence",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602306"); ?>
 <?php do_songtitle(4,"Oderint dum metuant","oderintdummetuant",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602307"); ?>
 <?php do_songtitle(5,"Make the Reason","makethereason",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602308"); ?>
-<?php do_songtitle(6,"The Beginning of All Things","thebeginningofallthings",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602309"); ?>
+<?php do_songtitle(6,"The Beginning of All Things","thebeginningofallthings",NULL,"impermanence.jpg","beginning","The Beginning of All Things",NULL,"usx9p2602309"); ?>
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->
 
+
 <section id="discog_buynow" tabindex="-1" itemprop="offers" itemscope itemtype="https://schema.org/AggregateOffer">
-<?php  /*	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
-	<meta itemprop="lowprice" content="10.00">
+	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
+	<meta itemprop="lowprice" content="6.00">
 	<h2 class="wai">Buy Now links</h2>
-	
-	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="10.00"><a rel="noopener noreferrer" itemprop="url" href="https://tmitg.bandcamp.com/album/impermanence" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
 
-<!--	<div itemprop="potentialAction" itemscope itemtype="https://schema.org/ListenAction"><a itemprop="target" rel="noopener noreferrer" href="https://open.spotify.com/album/6kSoqoOQYZEfvus2Qv0drn?si=CPYnT7g0SBqdWIqheug-Cw" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Spotify'});"><img src="images/listen-on-spotify.png" width="200" height="73" class="spotify" alt="Listen on Spotify" /></a></div>-->
+	<fieldset><legend>CD &amp; Vinyl</legend>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="ElasticStage"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="15.00"><a rel="noopener noreferrer" itemprop="url" href="https://elasticstage.com/tmitg" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'ElasticStage'});"><img src="images/elasticstage.png" width="200" height="73" class="bandcamp" alt="Available at ElasticStage" /></a></div>
+	<div style="max-width:18em;"><small><strong>Note: the vinyl edition is delayed due to an unexpected mastering issue with the first test pressing. Stay tuned!</strong></small></div>
+	</fieldset>
+	<br>
+	<fieldset><legend>Digital</legend>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="6.00"><a rel="noopener noreferrer" itemprop="url" href="https://tmitg.bandcamp.com/album/impermanence" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
+<?php /*
+<div itemprop="potentialAction" itemscope itemtype="https://schema.org/ListenAction"><a itemprop="target" rel="noopener noreferrer" href="https://open.spotify.com/album/abc123" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Spotify'});"><img src="images/listen-on-spotify.png" width="200" height="73" class="spotify" alt="Listen on Spotify" /></a></div>
 
-<!--	<div><a rel="noopener noreferrer" href="https://geo.music.apple.com/us/album/impermanence/1524569511?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=1594339200&h=c17228e92635bb8bc4766252b3c14867" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div> -->
+<div><a rel="noopener noreferrer" href="https://geo.music.apple.com/us/album/impermanence/abc123?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=1594339200&h=c17228e92635bb8bc4766252b3c14867" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
 
-<!--	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener noreferrer" itemprop="url" href="https://www.amazon.com/Places-Between-Machine-Garden/dp/B08DDHDLBQ/ref=as_li_ss_tl?dchild=1&keywords=places+in+between+mp3&qid=1595529263&sr=8-2&linkCode=ll1&tag=themachininth-20&linkId=b77e3324dd1bcf1d2990e1164a7e9565&language=en_US" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B08DDHDLBQ&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div> -->
-*/ ?>
+<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener noreferrer" itemprop="url" href="https://www.amazon.com/abc123" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B08DDHDLBQ&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div> */ ?>
+	</fieldset>
 </section> <!-- end buy button div -->
 
 	<hr />
 
-<?php /* <section aria-labelledby="reviews">	
+<!--<section aria-labelledby="reviews">	
 	<h2 id="reviews" tabindex="-1">Reviews of <i>Impermanence</i>:</h2>
 	<div class="revcontent">
 
 	</div> <!-- /revcontent -->
-</section> */ ?>
+<!--</section> -->
 
-</main> <!-- end mainbody -->
+</main> <!-- /mainbody -->
 <?php include_once "includes/amazonfooter.inc.php"; ?>
 
 <?php include_once "includes/mobilereviews.html"; ?>

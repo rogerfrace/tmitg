@@ -51,9 +51,9 @@
 <h1 class="wai">the Machine in the Garden merchandise</h1>
 
 <ul aria-label="Where to Buy">
-	<li>Physical products are sold through <a rel="noopener noreferrer" href="https://tmitg.bandcamp.com/merch">Bandcamp</a></li>
+	<li>Physical products are sold through <a rel="noopener noreferrer" href="https://tmitg.bandcamp.com/merch">Bandcamp</a> and <a rel="noopener noreferrer" href="https://elasticstage.com/tmitg">ElasticStage<a></li>
 	
-	<li>Some t-shirt designs are sold through <a rel="noopener noreferrer" href="https://tonethreads.com/tmitg">ToneThreads</a></li>
+	<li>T-shirts are sold through <a rel="noopener noreferrer" href="https://tonethreads.com/tmitg">ToneThreads</a> and <a rel="noopener noreferrer" href="https://tmitg.bandcamp.com/merch">Bandcamp</a></li>
 	
 	<li><a rel="noopener noreferrer" href="https://music.apple.com/us/artist/the-machine-in-the-garden/5985533?itsct=music_box&itscg=30200&at=1000l35Bw&ls=1&app=music">Listen on Apple Music</a></li>
 	
@@ -90,7 +90,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 ?>
 <div role="region" aria-label="TMITG albums">
 
-<?php /* <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
+<section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
 	<img src="/albums/impermanenceico.jpg" alt="Impermanence CD" property="image" />
 </div>
@@ -99,14 +99,14 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	<em property="name">Impermanence</em></h2>
 	<meta property="sku" content="dxm-012-dig" />
 	<span property="mpn">dxm-012-dig</span> &copy;<span property="releaseDate">2026</span><br />
-	(<span property="description">Digital EP</span>)
+	(<span property="description">6 song EP</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
 		<a property="url" href="/impermanence.php">more information <span class="wai">about Impermanence</span></a><br />
-		<strong class="price" property="price" content="8.00">$8</strong>
+		<strong class="price" property="price" content="6.00">$6</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
-		<meta property="gtin12" content="123456789" />
+		<meta property="gtin12" content="885000561108" />
 		<div property="hasMerchantReturnPolicy" typeof="MerchantReturnPolicy">
 			<meta property="merchantReturnLink" content="https://www.tmitg.com/policy.php" />
 		</div>
@@ -117,10 +117,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 				<meta property="addressRegion" content="Texas" />
 			</div>
 		</div>
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/impermanence" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Digital <span class="wai">: Impermanence</span></a>
+		<div><a class="atcss" href="https://tmitg.bandcamp.com/album/impermanence" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Pre-order Digital <span class="wai">: Impermanence</span></a></div>
+		<div style="margin-top:3px;"><a class="atcss" href="https://elasticstage.com/tmitg" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'ElasticStage'});">Pre-order CD or (soon) Vinyl <span class="wai">: Impermanence</span></a></div>
 	</div>
 </div>
-</section> <!-- /itemcontainer --> */ ?>
+</section> <!-- /itemcontainer -->
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
@@ -191,7 +192,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	(<span property="description">full-length CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
 		<a property="url" href="/xv.php">more information <span class="wai">about XV</span></a><br />
-		<strong class="price" property="price" content="7.00">$7</strong>
+		<strong class="price" property="price" content="7.50">$7.50</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -377,7 +378,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	<em property="name">Veils and Shadows EP</em></h2>
 	<meta property="sku" content="ISOL8-002-2" />
 	<span property="mpn">ISOL8-002-2</span> &copy;<span property="productionDate">1993</span><meta property="releaseDate" content="1994" /><br />
-	(<span property="description">4 song CD EP</span>)
+	(<span property="description">4 song EP</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
 		<a property="url" href="/vs.php">more information <span class="wai">about Veils and Shadows EP</span></a><br />
 		<strong class="price" property="price" content="3.00">$3</strong>

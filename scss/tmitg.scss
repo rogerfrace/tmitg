@@ -111,9 +111,13 @@ a:active {
     font-weight: normal;
 }
 
-a:focus {
-    color: $sectionbg;
-    font-weight: normal;
+:focus-visible {
+  outline: 3px solid #1a1a1a;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 5px #ffffff;
+}
+:focus:not(:focus-visible) {
+  outline: none;
 }
 
 a img {

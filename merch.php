@@ -102,7 +102,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	(<span property="description">6 song EP</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
 		<a property="url" href="/impermanence.php">more information <span class="wai">about Impermanence</span></a><br />
-		<strong class="price" property="price" content="6.00">$6</strong>
+		<strong class="price" property="price" content="6.00">$6 (digital)</strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />

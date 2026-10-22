@@ -11,16 +11,24 @@ jQuery(document).ready(function() {
 		const $heading = jQuery("#reviews");
 		const $content = jQuery(".revcontent");
 		function toggleReviews() {
-			$content.toggle("fast");
+			if ($content.is("[hidden]")) {
+				$content.removeAttr("hidden");
+			} else {
+				$content.each(function () {
+					this.setAttribute("hidden", "until-found");
+				});
+			}
 		}
 		function updateReviews() {
 			$heading.off("click", toggleReviews);
 	
 			if (viewport.matches) {
-				$content.hide();
+				$content.each(function () {
+					this.setAttribute("hidden", "until-found");
+				});
 				$heading.on("click", toggleReviews);
 			} else {
-				$content.show();
+				$content.removeAttr("hidden");
 			}
 		}
 		updateReviews();

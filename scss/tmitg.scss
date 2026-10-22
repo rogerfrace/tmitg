@@ -135,6 +135,12 @@ a:hover img {
     color: $nearwhite;
 }
 
+button,
+a[role="button"] {
+	min-width:24px;
+	min-height:24px;
+}
+
 h1 {
     font-weight: bold;
     font-size: 1.1em;
@@ -302,6 +308,37 @@ a.atcss:hover {
     }
 }
 
+/* dialogs */
+dialog {
+	position:relative;
+	width:95vw;
+	max-width:35rem;
+}
+dialog button.close {
+	position:absolute;
+	top:1rem;
+	right:1rem;
+}
+dialog.lyrics {
+	width:98.5%;
+	height:98.5%;
+	margin:0 auto;
+	padding:0;
+}
+dialog footer {
+	position:relative;
+	background-color:$nearwhite;
+	padding: 1rem;
+}
+dialog footer .prevnext {
+	position:absolute;
+	top:0.8rem;
+	right:0.5rem;
+}
+dialog::backdrop {
+	background-color:rgba(0,0,0,0.1);
+	backdrop-filter: blur(0.5px);
+}
 
 /* little thing for mobile */
 #mobilenav {

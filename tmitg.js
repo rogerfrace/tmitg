@@ -77,6 +77,11 @@ jQuery(document).ready(function() {
 	// convert aria classes to roles and states
 	jQuery(".ariahidden").attr("aria-hidden","true");
 
+	// disable lyrics navigation when the target dialog is not on this page
+	jQuery("dialog.lyrics button[data-go-to]").each(function() {
+		this.disabled = !document.getElementById(this.dataset.goTo);
+	});
+
 	// colorbox configs
 	if (typeof jQuery.colorbox !== 'undefined') {
 		// http://www.jacklmoore.com/colorbox/
@@ -95,7 +100,7 @@ jQuery(document).ready(function() {
 	}
 
 	// homepage mobile nav
-	jQuery('button').click(function() {
+	jQuery('#mobilenav > button').click(function() {
   	  jQuery(this).toggleClass('expanded').siblings('div').slideToggle();
   	  if (jQuery(this).hasClass("expanded")){
 		jQuery(this).attr("aria-expanded","true");

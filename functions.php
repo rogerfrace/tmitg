@@ -22,12 +22,32 @@ function get_current_url() {
 // define lyrics function here
 function do_lyrics($filename,$songname=NULL) {
 	$lyrpath="lyrics";
+	static $i=0;
+	$i++;
 
-	if (check_mobile()==true) {
-		echo "<a href=\"$lyrpath/$filename.php\" aria-label=\"view $songname lyrics\"><span class=\"fas fa-file-alt\"></span></a>\n";
-	} else {
-		echo "<a role=\"button\" href=\"$lyrpath/$filename.php?embed=1\" class=\"lyriclink\" aria-haspopup=\"dialog\" title=\"$songname\" aria-label=\"view $songname lyrics\"><span class=\"fas fa-file-alt\"></span></a>\n";
-	}
+	echo "<button popovertarget=\"dialog".$i."\" data-href=\"$lyrpath/$filename.php\" aria-label=\"view $songname lyrics\"><span class=\"fas fa-file-alt\"></span></button>\n";
+	echo "<dialog popover class=\"lyrics\" id=\"dialog".$i."\" aria-modal=\"false\" aria-label=\"lyrics for ".$songname."\">
+			<section>
+				<header>
+					<button type=\"button\" class=\"close\"
+						popovertarget=\"dialog".$i."\"
+						popovertargetaction=\"hide\"
+						aria-label=\"close popover\">
+						&times;
+					</button>
+				</header>
+				<article>
+					<script>$('#dialog".$i." article').load('lyrics/".$filename.".php main');</script>
+				</article>
+				<footer>
+					<div>".$songname."</div>
+					<div class=\"prevnext\">
+						<button type=\"button\" popovertarget=\"dialog".($i - 1)."\" data-go-to=\"dialog".($i - 1)."\"".($i === 1 ? " disabled" : "")." aria-label=\"Previous popover\">&larr;</button>
+						<button type=\"button\" popovertarget=\"dialog".($i + 1)."\" data-go-to=\"dialog".($i + 1)."\" aria-label=\"Next popover\">&rarr;</button>
+					</div>
+				</footer>
+			</section>
+		</dialog>";
 }
 
 // define notes function here

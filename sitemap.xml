@@ -176,6 +176,7 @@
 <url><loc>https://www.tmitg.com/news.php?item=106</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/news.php?item=107</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/news.php?item=108</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
+<url><loc>https://www.tmitg.com/news.php?item=109</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/news.php</loc><changefreq>weekly</changefreq><priority>0.80</priority></url>
 <url><loc>https://www.tmitg.com/notes/athousandyearsofwar.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
 <url><loc>https://www.tmitg.com/notes/cimmerian.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
@@ -189,6 +190,12 @@
 <url><loc>https://www.tmitg.com/notes/propheticbird.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
 <url><loc>https://www.tmitg.com/notes/spiritandimage.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
 <url><loc>https://www.tmitg.com/notes/underneathoeuchari.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
+<url><loc>https://www.tmitg.com/notes/theunwrittenway.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
+<url><loc>https://www.tmitg.com/notes/thebeginningofallthings.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
+<url><loc>https://www.tmitg.com/notes/spacetime.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
+<url><loc>https://www.tmitg.com/notes/oderintdummetuant.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
+<url><loc>https://www.tmitg.com/notes/makethereason.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
+<url><loc>https://www.tmitg.com/notes/divergence.php</loc><changefreq>yearly</changefreq><priority>0.51</priority></url>
 <url><loc>https://www.tmitg.com/viewmp3bc.php?bcsample=atouchofheaven</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/viewmp3bc.php?bcsample=cimmerian</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>
 <url><loc>https://www.tmitg.com/viewmp3bc.php?bcsample=clarity</loc><changefreq>yearly</changefreq><priority>0.64</priority></url>

@@ -48,9 +48,9 @@
 		<meta itemprop="sameAs" content="https://musicbrainz.org/artist/e026b441-4cd8-4d18-8a85-f7e5153950f0" />
 	</span>
 	<meta itemprop="sameAs" content="https://tmitg.bandcamp.com/album/impermanence" />
-<!--	<meta itemprop="sameAs" content="https://www.discogs.com/master/1776278-The-Machine-In-The-Garden-Places-In-Between" />
-	<meta itemprop="sameAs" content="https://music.apple.com/us/album/impermanence/1524569511" />
-	<meta itemprop="sameAs" content="https://www.amazon.com/Places-Between-Machine-Garden/dp/B08DDHDLBQ/" /> -->
+	<meta itemprop="sameAs" content="https://www.discogs.com/release/38608146-The-Machine-In-The-Garden-Impermanence" />
+	<meta itemprop="sameAs" content="https://music.apple.com/us/album/impermanence-ep/6817546435" />
+	<meta itemprop="sameAs" content="https://amazon.com/music/player/albums/B0HLJ67NWS" />
 	<meta itemprop="genre" content="gothic" />
 	<meta itemprop="inLanguage" content="en" />
 
@@ -107,12 +107,12 @@ do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$vide
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"The Unwritten Way","theunwrittenway",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602304"); ?>
-<?php do_songtitle(2,"Space-Time","spacetime",NULL,"impermanence.jpg","spacetime",NULL,NULL,"usx9p2602305"); ?>
-<?php do_songtitle(3,"Divergence","divergence",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602306"); ?>
-<?php do_songtitle(4,"Oderint dum metuant","oderintdummetuant",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602307"); ?>
-<?php do_songtitle(5,"Make the Reason","makethereason",NULL,"impermanence.jpg",NULL,NULL,NULL,"usx9p2602308"); ?>
-<?php do_songtitle(6,"The Beginning of All Things","thebeginningofallthings",NULL,"impermanence.jpg","beginning","The Beginning of All Things",NULL,"usx9p2602309"); ?>
+<?php do_songtitle(1,"The Unwritten Way","theunwrittenway","theunwrittenway-bc","impermanence.jpg",NULL,NULL,"theunwrittenway","usx9p2602304"); ?>
+<?php do_songtitle(2,"Space-Time","spacetime","spacetimeep-bc","impermanence.jpg","spacetime",NULL,"spacetime","usx9p2602305"); ?>
+<?php do_songtitle(3,"Divergence","divergence","divergence-bc","impermanence.jpg",NULL,NULL,"divergence","usx9p2602306"); ?>
+<?php do_songtitle(4,"Oderint dum metuant","oderintdummetuant","oderintdummetuant-bc","impermanence.jpg",NULL,NULL,"oderintdummetuant","usx9p2602307"); ?>
+<?php do_songtitle(5,"Make the Reason","makethereason","makethereason-bc","impermanence.jpg",NULL,NULL,"makethereason","usx9p2602308"); ?>
+<?php do_songtitle(6,"The Beginning of All Things","thebeginningofallthings","thebeginningofallthings-bc","impermanence.jpg","beginning","The Beginning of All Things","thebeginningofallthings","usx9p2602309"); ?>
 	</tbody>
 </table>
 </div> <!-- end tracklist div -->
@@ -129,12 +129,12 @@ $lyricsfile and videoname do not include .html
 	<br>
 	<fieldset><legend>Digital</legend>
 	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="6.00"><a rel="noopener noreferrer" itemprop="url" href="https://tmitg.bandcamp.com/album/impermanence" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
-<?php /*
-<div itemprop="potentialAction" itemscope itemtype="https://schema.org/ListenAction"><a itemprop="target" rel="noopener noreferrer" href="https://open.spotify.com/album/abc123" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Spotify'});"><img src="images/listen-on-spotify.png" width="200" height="73" class="spotify" alt="Listen on Spotify" /></a></div>
 
-<div><a rel="noopener noreferrer" href="https://geo.music.apple.com/us/album/impermanence/abc123?itsct=music_box&amp;itscg=30200&amp;at=1000l35Bw&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=1594339200&h=c17228e92635bb8bc4766252b3c14867" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
+<div itemprop="potentialAction" itemscope itemtype="https://schema.org/ListenAction"><a itemprop="target" rel="noopener noreferrer" href="https://open.spotify.com/album/4uxHGRweV9JaGEpiqLngHE?si=QrnkVjEhR2W_i3-DQJglXA" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Spotify'});"><img src="images/listen-on-spotify.png" width="200" height="73" class="spotify" alt="Listen on Spotify" /></a></div>
 
-<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener noreferrer" itemprop="url" href="https://www.amazon.com/abc123" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B08DDHDLBQ&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div> */ ?>
+<div><a rel="noopener noreferrer" href="https://geo.music.apple.com/us/album/impermanence-ep/6817546435?itscg=30200&itsct=toolbox_linkbuilder&at=1000l35Bw&ct=album_the-machine-in-the-garden_imperman&mttnsubad=6817546435&ls=1&app=music" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=1594339200&h=c17228e92635bb8bc4766252b3c14867" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
+
+<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener noreferrer" itemprop="url" href="https://amzn.to/4i8LALc" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B08DDHDLBQ&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
 	</fieldset>
 </section> <!-- end buy button div -->
 

@@ -137,7 +137,12 @@
 		<div class="listwrap">
 			<div class="audiocol">
 				<h2>audio samples</h2>
-				<!--<p><?php do_mp3bc2("spacetime","Space-Time"); ?></p>-->
+				<p><?php do_mp3bc2("theunwrittenway","The Unwritten Way"); ?></p>
+				<p><?php do_mp3bc2("spacetimeep","Space-Time"); ?></p>
+				<p><?php do_mp3bc2("divergence","Divergence"); ?></p>
+				<p><?php do_mp3bc2("oderintdummetuant","Oderint dum metuant"); ?></p>
+				<p><?php do_mp3bc2("makethereason","Make the Reason"); ?></p>
+				<p><?php do_mp3bc2("thebeginningofallthings","The Beginning of All Things"); ?></p>
 			</div>
 			<div class="videocol">
 				<h2>video clips</h2>

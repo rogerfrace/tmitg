@@ -135,6 +135,12 @@ a:hover img {
     color: $nearwhite;
 }
 
+button,
+a[role="button"] {
+	min-width:24px;
+	min-height:24px;
+}
+
 h1 {
     font-weight: bold;
     font-size: 1.1em;
@@ -1415,6 +1421,9 @@ iframe#sb-player {
     figure {
     	font-style: oblique;
     	padding: 0 12px;
+    }
+    img {
+    	max-width: 100%;
     }
 }
 

@@ -66,7 +66,7 @@
 	<p itemprop="abstract"><em>Six songs exploring impermanence, fate, loss, and the existential work of dealing with circumstances beyond one’s control, 'Impermanence' is tMitG's first new release in six years. Tighter in focus and stripped down to just the machine and voice, it's still as rich, engaging, and emotional as anything that's come before it.</em></p>
 
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p><span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br>releasing <time datetime="2026-10-30" itemprop="datePublished">30 October 2026</time></p>
+		<p><span itemprop="recordLabel">Deus ex Musica</span> &copy;<span itemprop="copyrightYear">2026</span><br>released <time datetime="2026-10-30" itemprop="datePublished">30 October 2026</time></p>
 		<p class="notopmargin nobottommargin">(<span itemprop="catalogNumber">dxm-012-dig</span>) Digital</p>
 		<meta itemprop="musicReleaseFormat" content="DigitalFormat" />
 		<meta itemprop="identifier" data-upc="gtin12" content="885000561108">

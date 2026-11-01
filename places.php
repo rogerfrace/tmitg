@@ -23,6 +23,7 @@
 	<title><?=$fbog['og:title'];?></title>
 	<?php include_once "headers-additional.php"; ?>
 	<link rel="prev" href="/storm.php">
+	<link rel="next" href="/impermanence.php">
 </head>
 
 <body id="discog">

@@ -2,7 +2,7 @@
 	'og:title'=>'the Machine in the Garden - Impermanence (2026)',
 	'og:type'=>'music.album',
 	'og:upc'=>'885000561108',
-	'og:url'=>'https://www.tmitg.com/places.php',
+	'og:url'=>'https://www.tmitg.com/impermanence.php',
 	'og:description'=>'the Machine in the Garden \'Impermanence\' is the band\'s tenth studio album.',
 	'og:image'=>'https://www.tmitg.com/albums/impermanenceOG.jpg',
 	'og:image:alt'=>'Album cover artwork for the Machine in the Garden Impermanence',
@@ -22,7 +22,7 @@
 	<?=BuildFBOG($fbog);?>
 	<title><?=$fbog['og:title'];?></title>
 	<?php include_once "headers-additional.php"; ?>
-	<link rel="prev" href="/storm.php">
+	<link rel="prev" href="/places.php">
 </head>
 
 <body id="discog">
@@ -132,9 +132,9 @@ $lyricsfile and videoname do not include .html
 
 <div itemprop="potentialAction" itemscope itemtype="https://schema.org/ListenAction"><a itemprop="target" rel="noopener noreferrer" href="https://open.spotify.com/album/4uxHGRweV9JaGEpiqLngHE?si=QrnkVjEhR2W_i3-DQJglXA" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Spotify'});"><img src="images/listen-on-spotify.png" width="200" height="73" class="spotify" alt="Listen on Spotify" /></a></div>
 
-<div><a rel="noopener noreferrer" href="https://geo.music.apple.com/us/album/impermanence-ep/6817546435?itscg=30200&itsct=toolbox_linkbuilder&at=1000l35Bw&ct=album_the-machine-in-the-garden_imperman&mttnsubad=6817546435&ls=1&app=music" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=200x66&amp;releaseDate=1594339200&h=c17228e92635bb8bc4766252b3c14867" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
+<div><a rel="noopener noreferrer" href="https://geo.music.apple.com/us/album/impermanence-ep/6817546435?itscg=30200&itsct=toolbox_linkbuilder&at=1000l35Bw&ct=album_the-machine-in-the-garden_imperman&mttnsubad=6817546435&ls=1&app=music" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"><img src="https://toolbox.marketingtools.apple.com/api/v2/badges/listen-on-apple-music/badge/en-us?releaseDate=1793318400" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height: 66px;"></a></div>
 
-<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener noreferrer" itemprop="url" href="https://amzn.to/4i8LALc" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B08DDHDLBQ&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
+<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Amazon.com"><a rel="noopener noreferrer" itemprop="url" href="https://amzn.to/4i8LALc" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Amazon'});"><img src="images/amazonmp3.png" width="200" height="67" class="amazon" alt="Buy Now from Amazon" /><small class="block">(paid link)</small></a><img class="wai" src="https://www.assoc-amazon.com/e/ir?t=&amp;l=as2&amp;o=1&amp;a=B0HLJ67NWS&amp;camp=217145&amp;creative=399373" width="1" height="1" alt="" style="border:none !important; margin:0px !important;" /></div>
 	</fieldset>
 </section> <!-- end buy button div -->
 

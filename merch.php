@@ -9,8 +9,8 @@
 	<meta name="language" content="en-US" />
 	<meta property="og:title" content="the Machine in the Garden - merchandise" />
 	<meta property="og:url" content="https://www.tmitg.com/merch.php" />
-	<meta property="og:image" content="https://www.tmitg.com/albums/placesOG.jpg">
-	<meta property="og:image:alt" content="Album cover artwork for the Machine in the Garden Places in Between">
+	<meta property="og:image" content="https://www.tmitg.com/albums/impermanenceOG.jpg">
+	<meta property="og:image:alt" content="Album cover artwork for the Machine in the Garden Impermanence">
 	<meta property="og:image:type" content="image/jpeg">
 	<meta property="og:image:width" content="1200">
 	<meta property="og:image:height" content="1079">
@@ -51,7 +51,7 @@
 <h1 class="wai">the Machine in the Garden merchandise</h1>
 
 <ul aria-label="Where to Buy">
-	<li>Physical products are sold through <a rel="noopener noreferrer" href="https://tmitg.bandcamp.com/merch">Bandcamp</a> and <a rel="noopener noreferrer" href="https://elasticstage.com/tmitg">ElasticStage<a></li>
+	<li>Physical products are sold through <a rel="noopener noreferrer" href="https://tmitg.bandcamp.com/merch">Bandcamp</a> and <a rel="noopener noreferrer" href="https://elasticstage.com/tmitg">ElasticStage</a></li>
 	
 	<li>T-shirts are sold through <a rel="noopener noreferrer" href="https://tonethreads.com/tmitg">ToneThreads</a> and <a rel="noopener noreferrer" href="https://tmitg.bandcamp.com/merch">Bandcamp</a></li>
 	
@@ -92,7 +92,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 
 <section class="itemcontainer" vocab="https://schema.org/" typeof="Product">
 <div class="itempic">
-	<img src="/albums/impermanenceico.jpg" alt="Impermanence CD" property="image" />
+	<img src="/albums/impermanenceico.jpg" alt="Impermanence" property="image" />
 </div>
 <div class="itemdesc">
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />

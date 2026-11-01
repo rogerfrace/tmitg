@@ -10,11 +10,6 @@
 	<?php include_once "../functions.php"; ?>
 </head>
 <body id="notes">
-<?php if ((check_mobile() == true) || !isset($_GET['embed'])): ?>
-<header>
-	<a href="/storm.php">Back to the <i>Before and After the Storm</i> page</a>
-</header>
-<?php endif; ?>
 
 <main itemscope itemtype="https://schema.org/Article">
 	<span itemprop="author" itemscope itemtype="https://schema.org/MusicGroup">

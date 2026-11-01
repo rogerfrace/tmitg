@@ -1,6 +1,4 @@
 <?php
-$top = !empty($_POST['top']) ? $_POST['top'] : '';
-if ($top=="merch.html") { header("Location:merch.php"); }
 require_once "functions.php";
 ?>
 <!DOCTYPE html>

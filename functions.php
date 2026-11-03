@@ -22,44 +22,25 @@ function get_current_url() {
 // define lyrics function here
 function do_lyrics($filename,$songname=NULL) {
 	$lyrpath="lyrics";
-
-	if (check_mobile()==true) {
-		echo "<a href=\"$lyrpath/$filename.php\" aria-label=\"view $songname lyrics\"><span class=\"fas fa-file-alt\"></span></a>\n";
-	} else {
-		echo "<a role=\"button\" href=\"$lyrpath/$filename.php?embed=1\" class=\"lyriclink\" aria-haspopup=\"dialog\" title=\"$songname\" aria-label=\"view $songname lyrics\"><span class=\"fas fa-file-alt\"></span></a>\n";
-	}
+	echo "<a href=\"$lyrpath/$filename.php?embed=1\" class=\"lyriclink\" title=\"$songname\" aria-label=\"view $songname lyrics\"><span class=\"fas fa-file-alt\"></span></a>\n";
 }
 
 // define notes function here
 function do_notes($filename,$songname=NULL) {
 	$npath="notes";
-
-	if (check_mobile()==true) {
-		echo "<a href=\"$npath/$filename.php\" aria-label=\"view $songname notes\"><span class=\"fas fa-pen-fancy\"></span></a>\n";
-	} else {
-		echo "<a role=\"button\" href=\"$npath/$filename.php?embed=1\" class=\"noteslink\" aria-haspopup=\"dialog\" title=\"$songname\" aria-label=\"view $songname notes\"><span class=\"fas fa-pen-fancy\"></span></a>\n";
-	}
+	echo "<a href=\"$npath/$filename.php?embed=1\" class=\"noteslink\" title=\"$songname\" aria-label=\"view $songname notes\"><span class=\"fas fa-pen-fancy\"></span></a>\n";
 }
 
 
 // define video function here
 function do_video($videoname,$songtitle=NULL,$ico=NULL) {
 	// assuming embed size width="480" height="360"
-
-	if ( (check_mobile()==true) ) {
-		echo "<a href=\"viewvideo.php?yt=".$videoname."\" aria-label=\"watch $songtitle video\"><span class=\"fas fa-video\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></a>\n";
-	} else {
-		echo "<a role=\"button\" href=\"viewvideo.php?yt=".$videoname."\" class=\"videolink\" aria-haspopup=\"dialog\" title=\"$songtitle\" aria-label=\"watch $songtitle video\"><span class=\"fas fa-video\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></a>\n";
-	}
+	echo "<a href=\"viewvideo.php?yt=".$videoname."\" class=\"videolink\" title=\"$songtitle\" aria-label=\"watch $songtitle video\"><span class=\"fas fa-video\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></a>\n";
 }
 
 
 function do_mp3bc2($samplename,$songtitle=NULL,$ico=NULL) {
-	if ( (check_mobile()==true) ) {
-		echo "<a href=\"viewmp3bc.php?bcsample=".$samplename."\" aria-label=\"listen to $songtitle music sample\"><span class=\"fas fa-music\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></a>\n";
-	} else {
-		echo "<a role=\"button\" href=\"viewmp3bc.php?bcsample=".$samplename."\" class=\"musiclink\" aria-haspopup=\"dialog\" title=\"$songtitle\" aria-label=\"listen to $songtitle music sample\"><span class=\"fas fa-music\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></a>\n";
-	}
+	echo "<a href=\"viewmp3bc.php?bcsample=".$samplename."\" class=\"musiclink\" title=\"$songtitle\" aria-label=\"listen to $songtitle music sample\"><span class=\"fas fa-music\"></span> <span class=\"mp3st\" aria-hidden=\"true\">".$songtitle."</span></a>\n";
 }
 
 
@@ -74,17 +55,13 @@ function do_photo($imgname,$gallery=NULL,$alt=NULL) {
 	list($tnwidth, $tnheight) = getimagesize($phopath.'/'.$imgname.'-ico.jpg');
 
 	// combo colorbox/php code
-	if (check_mobile()==true) {
-		echo "<li><a href=\"$phopath/$imgname.jpg\"><img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" loading=\"lazy\" width=\"$tnwidth\" height=\"$tnheight\"></a></li>\n";
-	} else {
-		echo "<li itemscope itemtype=\"https://schema.org/ImageObject\" itemprop=\"hasPart\">
-		  <a role=\"button\" href=\"$phopath/$imgname.jpg\" class=\"imglink\" data-title=\"$gallery\" data-alt=\"$alt\" aria-haspopup=\"dialog\" itemprop=\"contentUrl\">
+	echo "<li itemscope itemtype=\"https://schema.org/ImageObject\" itemprop=\"hasPart\">
+		  <a href=\"$phopath/$imgname.jpg\" class=\"imglink\" data-title=\"$gallery\" data-alt=\"$alt\" itemprop=\"contentUrl\">
 			<img src=\"$phopath/$imgname-ico.jpg\" alt=\"$alt\" loading=\"lazy\" width=\"$tnwidth\" height=\"$tnheight\" itemprop=\"thumbnailUrl\" /></a>
 		  <meta itemprop=\"dateCreated\" content=\"$gallery\" />
 		  <meta itemprop=\"name\" content=\"$imgname\" />
 		  <meta itemprop=\"caption\" content=\"$alt\" />
 		</li>";
-	}
 }
 
 

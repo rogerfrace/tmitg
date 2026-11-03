@@ -20,10 +20,13 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
 <?php $skip_colorbox_pages = array('/bio.php', '/contact.php', '/discog.php', '/links.php', '/live.php', '/news.php', '/policy.php'); ?>
-<?php if (check_mobile() == false && !in_array($_SERVER['PHP_SELF'], $skip_colorbox_pages, true)): ?>
-<!-- colorbox -->
-<link rel="stylesheet" type="text/css" href="/css/colorbox.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js" integrity="sha512-DAVSi/Ovew9ZRpBgHs6hJ+EMdj1fVKE+csL7mdf9v7tMbzM1i4c/jAvHE8AhcKYazlFl7M8guWuO3lDNzIA48A==" crossorigin="anonymous"></script>
+<?php if (!in_array($_SERVER['PHP_SELF'], $skip_colorbox_pages, true)): ?>
+<script>
+if (window.matchMedia("(min-width: 576px)").matches) {
+	document.write('<link rel="stylesheet" type="text/css" href="/css/colorbox.css">');
+	document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js" integrity="sha512-DAVSi/Ovew9ZRpBgHs6hJ+EMdj1fVKE+csL7mdf9v7tMbzM1i4c/jAvHE8AhcKYazlFl7M8guWuO3lDNzIA48A==" crossorigin="anonymous"><\/script>');
+}
+</script>
 <?php endif; ?>
 
 <script src="tmitg.js" defer></script>

@@ -107,7 +107,7 @@ do_songtitle($tracknum,$songname,$lyricsfile,$mp3name,$mp3cover,$videoname,$vide
 $lyricsfile and videoname do not include .html
 */ ?>
 
-<?php do_songtitle(1,"The Unwritten Way","theunwrittenway","theunwrittenway-bc","impermanence.jpg",NULL,NULL,"theunwrittenway","usx9p2602304"); ?>
+<?php do_songtitle(1,"The Unwritten Way","theunwrittenway","theunwrittenway-bc","impermanence.jpg","theunwrittenway","The Unwritten Way","theunwrittenway","usx9p2602304"); ?>
 <?php do_songtitle(2,"Space-Time","spacetime","spacetimeep-bc","impermanence.jpg","spacetime",NULL,"spacetime","usx9p2602305"); ?>
 <?php do_songtitle(3,"Divergence","divergence","divergence-bc","impermanence.jpg",NULL,NULL,"divergence","usx9p2602306"); ?>
 <?php do_songtitle(4,"Oderint dum metuant","oderintdummetuant","oderintdummetuant-bc","impermanence.jpg",NULL,NULL,"oderintdummetuant","usx9p2602307"); ?>

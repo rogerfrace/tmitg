@@ -147,7 +147,9 @@
 			<div class="videocol">
 				<h2>video clips</h2>
 				<p><?php do_video("impermanence","Impermanence teaser"); ?></p>
+				<p><?php do_video("theunwrittenway","The Unwritten Way"); ?></p>
 				<p><?php do_video("spacetime","Space-Time"); ?></p>
+				<p><?php do_video("divergence","Divergence"); ?></p>
 				<p><?php do_video("beginning","The Beginning of All Things"); ?></p>
 			</div>
 		</div>

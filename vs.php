@@ -114,7 +114,7 @@ $lyricsfile and videoname do not include .html
 	<h2 class="wai">Buy links</h2>
 
 	<fieldset><legend>Vinyl</legend>
-	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="ElasticStage"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="12.90"><a rel="noopener noreferrer" itemprop="url" href="https://elasticstage.com/tmitg" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'ElasticStage'});"><img src="images/elasticstage.png" width="200" height="73" class="bandcamp" alt="Available at ElasticStage" /></a></div>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="ElasticStage"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="12.90"><a rel="noopener noreferrer" itemprop="url" href="https://elasticstage.com/tmitg" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'ElasticStage'});"><img src="images/elasticstage.png" width="200" height="73" class="elasticstage" alt="Available at ElasticStage" /></a></div>
 	</fieldset>
 	<br>
 	<fieldset><legend>CD &amp; Digital</legend>

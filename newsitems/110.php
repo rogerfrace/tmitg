@@ -4,7 +4,7 @@ $pubdate = "Fri, 27 Nov 2026 07:30:00 CDT";
 $title = "Veils and Shadows EP — now on vinyl";
 $description = "<img itemprop=\"image\" src=\"https://www.tmitg.com/albums/vsvinyl.png\" alt=\"Veils and Shadows EP on vinyl\" />
 
-<p>Happy Black Friday, everyone! We are proud to be expanding our catalog at ElasticStage with a reissue of 'Veils and Shadows EP' on vinyl, available to order today at <a href=\"https://elasticstage.com/tmitg\">tMitG’s ElasticStage shop</a>.</p>
+<p>Happy Black Friday, everyone! We are proud to be expanding our catalog at ElasticStage with a reissue of 'Veils and Shadows EP' on vinyl, available to order today at <a href=\"https://elasticstage.com/tmitg\">tMitG’s ElasticStage shop</a>. In addition, ElasticStage is offering 25% off with discount code <strong>EARLYBF</strong>, valid until 4 December 2026, 23:59 GMT.</p>
 
 <p>'Veils and Shadows EP' is tMitG’s very first release. Originally planned for vinyl alongside the CD in 1994, it never made it to the format until now. Roger explains, “Reissuing this one on vinyl felt obvious: 'Veils and Shadows EP' was produced before the loudness wars, and the original master still has all of the dynamics and headroom needed for vinyl. I had to make some very minor adjustments to meet ElasticStage’s technical requirements, but no remastering was necessary or done.”</p>
 

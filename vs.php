@@ -64,8 +64,16 @@
 	</div>
 	<h1 itemprop="name">Veils and Shadows EP</h1>
 	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
-		<p class="notopmargin">(<span itemprop="catalogNumber">ISOL8-002-2</span>) <span itemprop="recordLabel">Industrial Isolation Music</span> &copy;<span itemprop="copyrightYear">1993</span><br />CDEP released <time datetime="1993-09-12" itemprop="datePublished">12 September 1994</time></p>
+		<p class="notopmargin">(<span itemprop="catalogNumber">ISOL8-002-2</span>) <span itemprop="recordLabel">Industrial Isolation Music</span> &copy;<span itemprop="copyrightYear">1993</span><br />CD EP released <time datetime="1994-09-12" itemprop="datePublished">12 September 1994</time></p>
 		<meta itemprop="musicReleaseFormat" content="CDFormat" />
+		<meta itemprop="datePublished" content="1994-09-12" />
+		<meta itemprop="identifier" data-upc="gtin12" content="780444900226">
+	</div>
+	<div itemscope itemtype="https://schema.org/MusicRelease" itemprop="albumRelease">
+		<p class="notopmargin">(<span itemprop="catalogNumber">dxm-014-ep</span>) <span itemprop="recordLabel">Deus ex Musica</span><br />12" vinyl reissue released <time datetime="2026-11-27" itemprop="datePublished">27 November 2026</time></p>
+		<meta itemprop="musicReleaseFormat" content="VinylFormat" />
+		<meta itemprop="datePublished" content="2026-11-27" />
+		<meta itemprop="identifier" data-upc="gtin13" content="5064043037329">
 	</div>
 </section> <!-- end album info div -->
 
@@ -104,7 +112,12 @@ $lyricsfile and videoname do not include .html
 	<meta itemprop="gtin12" content="<?=$fbog['og:upc'];?>">
 	<meta itemprop="lowprice" content="3.00">
 	<h2 class="wai">Buy links</h2>
-	
+
+	<fieldset><legend>Vinyl</legend>
+	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="ElasticStage"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="12.90"><a rel="noopener noreferrer" itemprop="url" href="https://elasticstage.com/tmitg" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'ElasticStage'});"><img src="images/elasticstage.png" width="200" height="73" class="elasticstage" alt="Available at ElasticStage" /></a></div>
+	</fieldset>
+	<br>
+	<fieldset><legend>CD &amp; Digital</legend>
 	<div class="buynow" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="seller" content="Bandcamp"><meta itemprop="priceCurrency" content="USD"><meta itemprop="price" content="3.00"><a rel="noopener noreferrer" itemprop="url" href="https://tmitg.bandcamp.com/album/veils-and-shadows-ep" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});"><img src="images/bandcamp.png" width="200" height="73" class="bandcamp" alt="Available at Bandcamp" /></a></div>
 
 	<div itemprop="potentialAction" itemscope itemtype="https://schema.org/ListenAction"><a itemprop="target" rel="noopener noreferrer" href="https://open.spotify.com/album/2Yg9ZNBvPCWpoIdZ9mVWfK?si=qwDLz-WcRvugTwiZYOHM-Q" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Spotify'});"><img src="images/listen-on-spotify.png" width="200" height="73" class="spotify" alt="Listen on Spotify" /></a></div>

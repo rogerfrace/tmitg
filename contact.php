@@ -48,7 +48,7 @@
 	<p><a href="https://www.facebook.com/tmitg" title="tMitG on Facebook"><img src="images/facebook.png" alt="Facebook"></a>
 	<a href="https://bsky.app/profile/tmitg.bsky.social" title="tMitG on Bluesky"><img src="images/bluesky-round.png" alt="Bluesky"></a>
 	<a href="https://www.instagram.com/tmitg_band" title="tMitG on Instagram"><img src="images/instagram.png" alt="Instagram"></a>
-	<a href="https://www.youtube.com/tmitg" title="tMitG on YouTube"><img src="images/youtube.png" alt="YouTube"></a>
+	<a href="https://www.youtube.com/@tmitg" title="tMitG on YouTube"><img src="images/youtube.png" alt="YouTube"></a>
 	<a href="https://tmitg.bandcamp.com/" title="tMitG on Bandcamp"><img src="images/bandcamp-round.png" alt="Bandcamp"></a></p>
 
 	</section> <!-- /rightcolumn -->

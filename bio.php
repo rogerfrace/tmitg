@@ -27,7 +27,7 @@
 					"https://tmitg.bandcamp.com",
 					"https://www.facebook.com/tmitg",
 					"https://bsky.app/profile/tmitg.bsky.social",
-					"https://www.youtube.com/tmitg",
+					"https://www.youtube.com/@tmitg",
 					"https://www.discogs.com/artist/120399-The-Machine-In-The-Garden"
 				]
 			}

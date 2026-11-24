@@ -98,11 +98,11 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">Impermanence</em></h2>
 	<meta property="sku" content="dxm-012-dig" />
-	<span property="mpn">dxm-012-dig</span> &copy;<span property="releaseDate">2026</span><br />
+	<span property="mpn">dxm-012-dig/cd/ep</span> &copy;<span property="releaseDate">2026</span><br />
 	(<span property="description">6 song EP</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
 		<a property="url" href="/impermanence.php">more information <span class="wai">about Impermanence</span></a><br />
-		<strong class="price" property="price" content="6.00">$6 (digital)</strong>
+		<strong class="price" property="price" content="6.00">$6 <small>(digital)</small></strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -150,7 +150,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 				<meta property="addressRegion" content="Texas" />
 			</div>
 		</div>
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/places-in-between" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: Places in Between</span></a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/places-in-between" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy CD or Digital <span class="wai">: Places in Between</span></a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -167,7 +167,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	(<span property="description">Special Edition CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
 		<a property="url" href="/storm.php">more information <span class="wai">about Before and After the Storm</span></a><br />
-		<strong class="price" style="color:#E00;">Out of Print</strong>
+		<strong class="price" style="color:#E00;"><small>Out of Print</small></strong>
 		<meta property="availability" content="https://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="price" content="8.00" />
@@ -207,7 +207,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 				<meta property="addressRegion" content="Texas" />
 			</div>
 		</div>
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/xv" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: XV</span></a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/xv" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy CD or Digital <span class="wai">: XV</span></a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -239,7 +239,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 				<meta property="addressRegion" content="Texas" />
 			</div>
 		</div>
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/shadow-puppets" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: Shadow Puppets</span></a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/shadow-puppets" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy CD or Digital <span class="wai">: Shadow Puppets</span></a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -273,7 +273,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 				<meta property="addressRegion" content="Texas" />
 			</div>
 		</div>
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/asphodel" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: Asphodel</span></a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/asphodel" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy CD or Digital <span class="wai">: Asphodel</span></a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -305,7 +305,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 				<meta property="addressRegion" content="Texas" />
 			</div>
 		</div>
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/out-of-the-mists" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: Out of the Mists</span></a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/out-of-the-mists" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy CD or Digital <span class="wai">: Out of the Mists</span></a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -339,7 +339,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 				<meta property="addressRegion" content="Texas" />
 			</div>
 		</div>
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/one-winters-night" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: One Winter's Night&hellip;</span></a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/one-winters-night" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy CD or Digital <span class="wai">: One Winter's Night&hellip;</span></a>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
@@ -356,7 +356,7 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	(<span property="description">full-length CD</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
 		<a property="url" href="/underworld.php">more information <span class="wai">about Underworld</span></a><br />
-		<strong class="price" style="color:#E00;">Out of Print</strong>
+		<strong class="price" style="color:#E00;"><small>Out of Print</small></strong>
 		<meta property="availability" content="https://schema.org/SoldOut">
 		<meta property="priceCurrency" content="USD" />
 		<meta property="price" content="8.00" />
@@ -377,11 +377,12 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 	<h2><span property="brand" vocab="https://schema.org/" typeof="Brand"><span property="name">the Machine in the Garden</span></span><br />
 	<em property="name">Veils and Shadows EP</em></h2>
 	<meta property="sku" content="ISOL8-002-2" />
-	<span property="mpn">ISOL8-002-2</span> &copy;<span property="productionDate">1993</span><meta property="releaseDate" content="1994" /><br />
+	<span property="mpn">ISOL8-002-2</span> &copy;<span property="productionDate">1993</span><meta property="releaseDate" content="1994-09-12" /><br />
+	<span property="mpn">dxm-014-ep</span> &copy;<span property="productionDate">2026</span><meta property="releaseDate" content="2026-11-27" /><br />
 	(<span property="description">4 song EP</span>)
 	<div class="pricecart" property="offers" typeof="Offer">
 		<a property="url" href="/vs.php">more information <span class="wai">about Veils and Shadows EP</span></a><br />
-		<strong class="price" property="price" content="3.00">$3</strong>
+		<strong class="price" property="price" content="3.00">$3 <small>(digital)</small></strong>
 		<meta property="priceValidUntil" content="<?=$validUntil;?>" />
 		<meta property="availability" content="https://schema.org/OnlineOnly">
 		<meta property="priceCurrency" content="USD" />
@@ -396,7 +397,8 @@ $validUntil = date('Y-m-d',strtotime(date("Y-m-d", time()) . " + 365 day"));
 				<meta property="addressRegion" content="Texas" />
 			</div>
 		</div>
-		<a class="atcss" href="https://tmitg.bandcamp.com/album/veils-and-shadows-ep" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy Now <span class="wai">: Veils and Shadows EP</span></a>
+		<a class="atcss" href="https://tmitg.bandcamp.com/album/veils-and-shadows-ep" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'Bandcamp'});">Buy CD or Digital <span class="wai">: Veils and Shadows EP</span></a>
+		<div style="margin-top:3px;"><a class="atcss" href="https://elasticstage.com/tmitg" onclick="gtag('event','add_to_cart',{'event_category':'ecommerce','event_label':'ElasticStage'});">Buy Vinyl <span class="wai">: Veils and Shadows EP</span></a></div>
 	</div>
 </div>
 </section> <!-- /itemcontainer -->
